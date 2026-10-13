@@ -1,0 +1,379 @@
+export type SupportedLanguage = 'en' | 'zh-TW';
+
+export interface TranslationDictionary {
+  common: {
+    brandName: string;
+    brandSeal: string;
+    cleanView: string;
+    bilingualMode: string;
+    preferences: string;
+    english: string;
+    traditionalChinese: string;
+    close: string;
+    back: string;
+    continue: string;
+    confirm: string;
+    save: string;
+  };
+  porch: {
+    subheading: string;
+    heading: string;
+    description: string;
+    ctaDraw: string;
+    ctaExplore: string;
+    feature1Title: string;
+    feature1Desc: string;
+    feature2Title: string;
+    feature2Desc: string;
+    feature3Title: string;
+    feature3Desc: string;
+    galleryHeading: string;
+    gallerySubheading: string;
+  };
+  domainStep: {
+    stepTag: string;
+    heading: string;
+    description: string;
+    choosePrompt: string;
+    proceedBtn: string;
+  };
+  questionStep: {
+    stepTag: string;
+    heading: string;
+    description: string;
+    currentDomain: string;
+    changeDomain: string;
+    questionLabel: string;
+    placeholder: string;
+    analyzeBtn: string;
+    analyzing: string;
+    aiInsightTitle: string;
+    detectedDomainBadge: string;
+    multiDomainWarningTitle: string;
+    multiDomainWarningBody: string;
+    focusSuggestion: string;
+    fatalisticWarningTitle: string;
+    applyReframingBtn: string;
+    guidelinesTitle: string;
+    guideline1: string;
+    guideline2: string;
+    guideline3: string;
+    proceedBtn: string;
+  };
+  drawingStep: {
+    title: string;
+    description: string;
+    cylinderText: string;
+    incenseText: string;
+  };
+  readingStep: {
+    lotNumberTag: string;
+    hexagramLabel: string;
+    archetypeLabel: string;
+    elementLabel: string;
+    favorableSeasonLabel: string;
+    verseHeader: string;
+    viewOriginalVerse: string;
+    hideOriginalVerse: string;
+    domainGuidanceHeader: string;
+    favorableTag: string;
+    guardedTag: string;
+    historicalAllusionHeader: string;
+    poemConnectionLabel: string;
+    hermeneuticNotesLabel: string;
+    drawAnotherBtn: string;
+  };
+  baziPaywall: {
+    sectionTag: string;
+    title: string;
+    description: string;
+    birthDateLabel: string;
+    birthTimeLabel: string;
+    locationLabel: string;
+    crdWaiverText: string;
+    unlockBtn: string;
+    unlockingBtn: string;
+  };
+  heirloomReport: {
+    reportHeader: string;
+    titleCross: string;
+    solarAdjustedLabel: string;
+    fourPillarsTitle: string;
+    yearPillar: string;
+    monthPillar: string;
+    dayMasterPillar: string;
+    hourPillar: string;
+    dayMasterResonance: string;
+    monthInterplay: string;
+    annualResonance: string;
+    seasonalActionTiming: string;
+    backToReadingBtn: string;
+    drawNewLotBtn: string;
+  };
+  preferencesModal: {
+    title: string;
+    languageLabel: string;
+    displayModeLabel: string;
+    cleanModeDesc: string;
+    bilingualModeDesc: string;
+    closeBtn: string;
+  };
+}
+
+export const translations: Record<SupportedLanguage, TranslationDictionary> = {
+  en: {
+    common: {
+      brandName: 'MAZU SIXTY JIAZI · 靈籤',
+      brandSeal: '媽',
+      cleanView: '✦ Clean View',
+      bilingualMode: '☯ Bilingual Mode',
+      preferences: '⚙️ Preferences',
+      english: 'English',
+      traditionalChinese: '繁體中文',
+      close: 'Close',
+      back: 'Back',
+      continue: 'Continue',
+      confirm: 'Confirm',
+      save: 'Save Changes',
+    },
+    porch: {
+      subheading: 'CULTURAL ORACLE & INNER DISCERNMENT',
+      heading: 'The Ancient Hexagram Oracle & Mazu Divination Sanctuary',
+      description:
+        'A contemplative sanctuary rooted in the sixty Jiazi cycles, authentic Qin seal stamps, and classical temple allusions. Seek counsel for your life seasons without deterministic fatalism.',
+      ctaDraw: 'DRAW A LOT · 卜問靈籤',
+      ctaExplore: 'Explore All 60 Cards · 六十籤品鑑',
+      feature1Title: 'Non-Fatalistic Hermeneutics',
+      feature1Desc:
+        'Replaces superstitious fatalism with reflective mirror guidance and sovereign personal agency.',
+      feature2Title: 'Authentic Qin Seal Script',
+      feature2Desc:
+        'Handcrafted 2×2 seal script stamps and verified historical literary allusions with zero hallucination.',
+      feature3Title: 'Natal BaZi Synchronization',
+      feature3Desc:
+        'Harmonizes lot Heavenly Stems and Earthly Branches with your True Solar Time Four Pillars.',
+      galleryHeading: 'GALLERY PREVIEW · 典藏籤卡圖鑑',
+      gallerySubheading:
+        'Experience the visual elegance of our sixty Jiazi oracle cards, featuring cinnabar stamps and gold leaf accents.',
+    },
+    domainStep: {
+      stepTag: 'STEP 1 · CHOOSE AN INQUIRY DOMAIN',
+      heading: 'Select the Core Matter of Your Inquiry',
+      description:
+        'Traditional temple divination counsels asking about one specific facet of life to preserve contemplative focus.',
+      choosePrompt: 'Choose a life domain to direct your contemplation:',
+      proceedBtn: 'Continue with Domain',
+    },
+    questionStep: {
+      stepTag: 'STEP 2 · FRAME YOUR INQUIRY',
+      heading: 'Formulate Your Contemplation Question',
+      description:
+        'Sincerity and clarity are the bridge between the seeker and ancient wisdom. State your dilemma with honesty.',
+      currentDomain: 'Current Domain',
+      changeDomain: 'Change Domain',
+      questionLabel: 'Your Question or Contemplation',
+      placeholder: 'e.g. How should I navigate the leadership transition in my career this autumn?',
+      analyzeBtn: '✦ AI Intent Analysis',
+      analyzing: 'Analyzing inquiry semantics...',
+      aiInsightTitle: 'AI Intent & Domain Classification',
+      detectedDomainBadge: 'Detected Domain',
+      multiDomainWarningTitle: '⚠️ Multi-Domain Inquiry Detected',
+      multiDomainWarningBody:
+        'Your question mentions multiple life facets ({domains}). Temple wisdom holds that "One lot answers one matter". We recommend focusing on a single inquiry per draw.',
+      focusSuggestion: 'Quick Select Focus:',
+      fatalisticWarningTitle: '✦ Agency-Centered Reframing Suggestion:',
+      applyReframingBtn: 'Apply Suggested Question',
+      guidelinesTitle: 'Ethical Divination Principles',
+      guideline1: 'One inquiry per draw to avoid split discernment and confusion.',
+      guideline2: 'Ask "How can I prepare or act?" rather than passive "Will it happen?".',
+      guideline3: 'Sincerity (心誠則靈) grounds intuition in calm self-reflection.',
+      proceedBtn: 'Begin Sacred Draw · 搖籤',
+    },
+    drawingStep: {
+      title: 'DIVINATION RITUAL IN PROGRESS',
+      description: 'Quiet your breath, steady your heart, and hold your question in gentle focus.',
+      cylinderText: '搖籤中 · SHAKING BAMBOO CYLINDER...',
+      incenseText: 'Pure incense rises, aligning your intent with celestial rhythm.',
+    },
+    readingStep: {
+      lotNumberTag: 'LOT',
+      hexagramLabel: 'Hexagram',
+      archetypeLabel: 'Historical Archetype',
+      elementLabel: 'Five Elements',
+      favorableSeasonLabel: 'Favorable Timing',
+      verseHeader: 'POETIC VERSE (UNRHYMED CADENCE)',
+      viewOriginalVerse: '📜 View Original 7-Char Classical Verse',
+      hideOriginalVerse: 'Hide Classical Verse',
+      domainGuidanceHeader: '✦ GUIDANCE FOR',
+      favorableTag: '• FAVOURABLE (吉)',
+      guardedTag: '• GUARDED (忌)',
+      historicalAllusionHeader: '📜 HISTORICAL ALLUSION',
+      poemConnectionLabel: 'Poem Connection',
+      hermeneuticNotesLabel: 'Hermeneutic Nuances',
+      drawAnotherBtn: 'Consult Another Matter · 另問他事',
+    },
+    baziPaywall: {
+      sectionTag: '✦ CROSS-CALCULATE WITH YOUR PERSONAL NATAL CHART',
+      title: 'What Does This Lot Say About YOUR Four Pillars?',
+      description:
+        'Every lot carries Heavenly Stem and Earthly Branch energies. Enter your birth details below to calculate True Solar Time adjustments and uncover Day Master resonance (十神), branch interactions (刑衝合害), and 2026 Annual Pillar timing.',
+      birthDateLabel: 'Birth Date (Gregorian)',
+      birthTimeLabel: 'Birth Time (Local Clock)',
+      locationLabel: 'City / Longitude',
+      crdWaiverText:
+        'I expressly request immediate delivery of my personalized digital report and acknowledge that I waive my statutory 14-day right of withdrawal under EU Consumer Rights Directive (CRD Art. 16(m)).',
+      unlockBtn: 'Unlock Personalized Deep Report · $2.99',
+      unlockingBtn: 'Calculating Solar Natal Chart...',
+    },
+    heirloomReport: {
+      reportHeader: 'PERSONALIZED HEIRLOOM REPORT · 解籤合參',
+      titleCross: '× YOUR NATAL BA-ZI',
+      solarAdjustedLabel: 'True Solar Adjusted Time',
+      fourPillarsTitle: 'YOUR FOUR PILLARS (命盤四柱):',
+      yearPillar: 'YEAR (年柱)',
+      monthPillar: 'MONTH (月柱)',
+      dayMasterPillar: 'DAY MASTER (日主)',
+      hourPillar: 'HOUR (時柱)',
+      dayMasterResonance: 'Day Master Affinity · Resonant Archetype',
+      monthInterplay: 'Month & Career Pillar Interplay',
+      annualResonance: 'Annual Pillar Dynamic',
+      seasonalActionTiming: 'Seasonal Execution Timing Window',
+      backToReadingBtn: '← Back to Lot Reading',
+      drawNewLotBtn: 'Begin New Inquiry · 另起一問',
+    },
+    preferencesModal: {
+      title: 'SANCTUARY PREFERENCES · 偏好設定',
+      languageLabel: 'Primary Interface Language',
+      displayModeLabel: 'Display & Study Mode',
+      cleanModeDesc:
+        'Clean single-language presentation. Cultural anchors (Lot name, Ganzhi, Hexagram) maintain dual titles without clutter.',
+      bilingualModeDesc:
+        'Complete bilingual presentation with English translations and Classical Chinese verses displayed side-by-side.',
+      closeBtn: 'Apply & Close',
+    },
+  },
+
+  'zh-TW': {
+    common: {
+      brandName: '媽祖六十甲子靈籤 · 智慧叩問聖殿',
+      brandSeal: '媽',
+      cleanView: '✦ 純淨視圖',
+      bilingualMode: '☯ 雙語對照模式',
+      preferences: '⚙️ 偏好設定',
+      english: 'English',
+      traditionalChinese: '繁體中文',
+      close: '關閉',
+      back: '返回',
+      continue: '繼續',
+      confirm: '確認',
+      save: '儲存設定',
+    },
+    porch: {
+      subheading: '非宿命論 · 敬慎存心 · 文化智慧',
+      heading: '媽祖六十甲子靈籤 · 沉浸式心靈指引',
+      description:
+        '根植於六十甲子干支循環、秦代小篆與正統典故的沉浸式叩問聖殿。不妄言吉凶禍福，以詩入道，照見內心，啟迪行事抉擇。',
+      ctaDraw: '誠心叩問 · 卜問靈籤',
+      ctaExplore: '品鑑六十靈籤圖錄 · 典藏卡冊',
+      feature1Title: '非宿命論哲思解籤',
+      feature1Desc: '摒棄迷信恐懼，以籤詩為行事鏡照，引導主動抉擇與道德自律。',
+      feature2Title: '純正秦篆方印與正史典故',
+      feature2Desc: '全套六十張籤卡均配備嚴謹考據之2×2秦代小篆印鑑，剔除AI亂碼與訛誤。',
+      feature3Title: '個人八字命盤真太陽時合參',
+      feature3Desc: '結合出生地經度校準真太陽時，精算籤詩天干地支與個人日主之生剋感應。',
+      galleryHeading: '典藏籤卡圖鑑 · 雅緻古風',
+      gallerySubheading: '結合黑曜玄金、朱砂古印與宋瓷雅緻，呈現典雅傳世之六十甲子靈籤圖錄。',
+    },
+    domainStep: {
+      stepTag: '第一步 · 選擇叩問範疇',
+      heading: '請選擇您所求事項之核心面向',
+      description: '媽祖聖籤講究「一事一問、心誠則靈」。請選擇您當下最需指引之核心範疇。',
+      choosePrompt: '請點選欲叩問的生活面向：',
+      proceedBtn: '確認此範疇 · 進入叩問',
+    },
+    questionStep: {
+      stepTag: '第二步 · 凝思叩問心念',
+      heading: '釐清您的困惑與心念問句',
+      description: '誠敬為感應之本。請在心中沉澱思緒，清晰寫下您目前面臨的抉擇或行事考量。',
+      currentDomain: '當前叩問範疇',
+      changeDomain: '更換範疇',
+      questionLabel: '您的叩問心念或行事困惑',
+      placeholder: '例如：今年秋季面臨升遷與轉職機會，我應如何審慎決策與安頓身心？',
+      analyzeBtn: '✦ AI 智慧意圖解析',
+      analyzing: '正在解析問句語意與範疇...',
+      aiInsightTitle: 'AI 語意解析與範疇預測',
+      detectedDomainBadge: '預測契合範疇',
+      multiDomainWarningTitle: '⚠️ 偵測到跨範疇提問',
+      multiDomainWarningBody:
+        '您的問句中同時涉及了多個面向（{domains}）。媽祖靈籤講究「一籤斷一事」，建議您先聚焦單一核心面向，或分次獨立求籤。',
+      focusSuggestion: '建議聚焦方向：',
+      fatalisticWarningTitle: '✦ 主動行事之建議反思問句：',
+      applyReframingBtn: '採用此建議問句',
+      guidelinesTitle: '求籤心法與原則',
+      guideline1: '一事一問：避免將事業與感情混雜，以免心念散漫。',
+      guideline2: '正向行事：與其問「會不會成」，不如問「我應如何自處與努力？」。',
+      guideline3: '心誠則靈：平靜呼吸，虔誠祝禱，方能照見籤詩真實意涵。',
+      proceedBtn: '凝心入靜 · 虔誠搖籤',
+    },
+    drawingStep: {
+      title: '聖籤卜問儀軌進行中',
+      description: '平息雜念，凝思所問，靜心感受竹筒震顫與神意感應。',
+      cylinderText: '心誠意篤 · 籤筒搖動中...',
+      incenseText: '清香一炷，上達天聽，天地靈動，感應道交。',
+    },
+    readingStep: {
+      lotNumberTag: '第',
+      hexagramLabel: '卦象',
+      archetypeLabel: '歷史典故',
+      elementLabel: '五行局',
+      favorableSeasonLabel: '吉利時節',
+      verseHeader: '籤詩七言絕句',
+      viewOriginalVerse: '📜 展開古典七言原詩',
+      hideOriginalVerse: '收起古典原詩',
+      domainGuidanceHeader: '✦ 叩問指引：',
+      favorableTag: '• 吉意吉祥 (吉)',
+      guardedTag: '• 戒慎警惕 (忌)',
+      historicalAllusionHeader: '📜 典故背景與事跡',
+      poemConnectionLabel: '籤詩映照',
+      hermeneuticNotesLabel: '籤詩語義探賾',
+      drawAnotherBtn: '重整心念 · 另求靈籤',
+    },
+    baziPaywall: {
+      sectionTag: '✦ 命盤八字合參 · 真太陽時深入解讀',
+      title: '本籤干支如何與您的生辰八字深度感應？',
+      description:
+        '每首靈籤干支均蘊含天干地支五行氣機。輸入您的生辰資訊，系統將校準真太陽時，解析籤詩干支與您日主之十神意象、地支刑衝合害與2026歲君流年應期。',
+      birthDateLabel: '出生公曆日期',
+      birthTimeLabel: '出生時辰 (當地鐘錶時間)',
+      locationLabel: '出生城市 / 經度',
+      crdWaiverText:
+        '我明確要求立即交付個人客製化數位報告，並知悉依歐盟消費者權益指令（CRD Art. 16(m)）放棄法定14天猶豫期解約權。',
+      unlockBtn: '解鎖八字合參深度報告 · $2.99',
+      unlockingBtn: '正在精算真太陽時命盤...',
+    },
+    heirloomReport: {
+      reportHeader: '八字命盤與靈籤合參 · 典藏深研報告',
+      titleCross: '× 個人命盤合參',
+      solarAdjustedLabel: '真太陽時校準',
+      fourPillarsTitle: '您的個人四柱命盤：',
+      yearPillar: '年柱',
+      monthPillar: '月柱',
+      dayMasterPillar: '日主 (日柱)',
+      hourPillar: '時柱',
+      dayMasterResonance: '日主共振 · 十神意象深度解析',
+      monthInterplay: '月令提綱 · 事業與行事調候',
+      annualResonance: '歲君流年感應應期',
+      seasonalActionTiming: '吉利應期與行動視窗',
+      backToReadingBtn: '← 返回靈籤解讀',
+      drawNewLotBtn: '重整心念 · 另求靈籤',
+    },
+    preferencesModal: {
+      title: '聖殿偏好設定',
+      languageLabel: '介面主語言',
+      displayModeLabel: '瀏覽與研讀模式',
+      cleanModeDesc: '純淨單一語言呈現。籤卡名稱、干支、卦象等文化錨定詞保留典雅對照。',
+      bilingualModeDesc: '中英完整雙語並列研讀模式，適合深入對照籤詩古典原文與現代英譯。',
+      closeBtn: '完成並關閉',
+    },
+  },
+};
