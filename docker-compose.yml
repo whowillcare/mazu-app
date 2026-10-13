@@ -1,0 +1,22 @@
+services:
+  mazu-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mazu-sixty-lots:latest
+    container_name: mazu_lots_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY:-}
+      - STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET:-}
+    volumes:
+      - mazu_data:/app/data
+
+volumes:
+  mazu_data:
+    driver: local
