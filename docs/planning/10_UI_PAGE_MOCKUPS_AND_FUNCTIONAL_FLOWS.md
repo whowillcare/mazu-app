@@ -1,16 +1,71 @@
 # 10. UI Page Mockups & Functional Flows
 
-This document provides visual wireframes, component layouts, and state transitions for each functional screen in the Sixty Jiazi Mazu Lots platform.
+> **Design Principle**: **Clean Single-Language Focus by Default**. To avoid visual clutter ("linguistic mess"), interface chrome, guidance narratives, and reflections are displayed strictly in the user's preferred language. Only essential cultural anchors (Lot Card Title, Ganzhi/Year, Hexagram, and BaZi metaphysical terms) retain companion glosses. A dedicated **Bilingual Study Mode (雙語對照模式)** is available as an opt-in user preference.
 
 ---
 
-## Screen 1 · Landing Page (The Porch)
+## 0. Language & Cultural Anchor Presentation Architecture
 
-### Layout & Visual Wireframe
+### 1. The Anti-Clutter Governance Rule
+* **Default Experience (Single-Language Mode)**:
+  * If the user selects **English**: All guidance, questions, reflections, keyword clusters, and button labels appear strictly in English. No duplicate Chinese paragraphs beneath English text.
+  * If the user selects **Traditional Chinese (繁體中文)** or **Simplified Chinese (简体中文)**: The entire reading, verse, and interface appear strictly in Chinese.
+* **The "Key Cultural Anchor" Whitelist**:
+  To preserve authentic temple heritage without cluttering the screen, only four specific metaphysical components retain companion bilingual glosses in single-language mode:
+  1. **Lot Card Title & Number**: e.g., `LOT 01 · Bao Gong Calls Down Thunder (包公請雷)`
+  2. **Ganzhi & Year**: e.g., `Jia-zi (甲子)`, `2026 (Bing-wu 丙午)`
+  3. **Hexagram Name**: e.g., `Qian, Heaven (乾为天)`
+  4. **Metaphysical Ten Gods / Pillars**: e.g., `Day Master (日主)`, `Direct Resource (正印)`
+* **Opt-in "Bilingual Comparative Study Mode" (雙語研讀對照模式)**:
+  Users who want full parallel Chinese verses and unrhymed English translations side-by-side (such as diaspora families, cultural scholars, or language students) can activate this mode with a single toggle in **Preferences**.
+
+---
+
+## Screen 0 · Language & Display Preferences Drawer (偏好设置抽屉)
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│  [✦ MAZU SIXTY JIAZI · 媽祖六十甲子靈籤]            [About] [Archive] [EN/繁]│
+│  PREFERENCES & DISPLAY SETTINGS                                    [✕ Close]│
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  PRIMARY LANGUAGE (主要語言):                                               │
+│  (•) English (US)                                                           │
+│  ( ) 繁體中文 (Traditional Chinese - 臺灣 / 香港 / 媽祖廟本)                │
+│  ( ) 简体中文 (Simplified Chinese)                                          │
+│                                                                             │
+│  READING DISPLAY MODE (解籤呈現模式):                                       │
+│  (•) Clean Focused Mode (Default / 預設沈浸模式)                            │
+│      Presents reading strictly in your preferred language for a serene,     │
+│      uncluttered experience. Key cultural anchors (Ganzhi, Hexagram,        │
+│      and Card Name) are kept as subtle inline glosses.                      │
+│                                                                             │
+│  ( ) Bilingual Study Mode (雙語對照研讀模式)                                │
+│      Displays traditional Chinese temple verses and English translations    │
+│      side-by-side with dual-language guidance for comparative study.        │
+│                                                                             │
+│  CULTURAL GLOSS STYLE (文化術語呈現):                                       │
+│  (•) Inline Parentheses: "Bao Gong Calls Down Thunder (包公請雷)"           │
+│  ( ) Interactive Tooltip: Tap or hover term to reveal traditional character  │
+│                                                                             │
+│  AUDIO & ATMOSPHERE (氛圍與音效):                                           │
+│  [X] Ambient temple bell & chime on draw                                    │
+│  [X] Subtle haptic feedback on bamboo lot selection (Mobile)                │
+│                                                                             │
+│                            ┌─────────────────┐                              │
+│                            │  [ Save & Apply]│                              │
+│                            └─────────────────┘                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Screen 1 · Landing Page (The Porch / 山门)
+
+### Clean English Default View
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  ✦ MAZU SIXTY JIAZI LOTS                      [About] [Archive] [EN ▾] [⚙️]  │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │                                  ✦                                          │
@@ -44,7 +99,7 @@ This document provides visual wireframes, component layouts, and state transitio
 
 ## Screen 2 · Domain Picker (选问事域)
 
-### Layout & Component Structure
+### Clean Single-Language View
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -55,19 +110,19 @@ This document provides visual wireframes, component layouts, and state transitio
 │                                                                             │
 │   ┌──────────────────────┐  ┌──────────────────────┐  ┌─────────────────┐   │
 │   │ 💼 Career & Ambition │  │ 💰 Wealth & Finance* │  │ 🕊️ Relationships│   │
-│   │    (功名 / 作事)      │  │    (求財)            │  │    (婚姻)       │   │
+│   │    Work & Vocation   │  │    Resources & Gain  │  │    Partnership  │   │
 │   └──────────────────────┘  └──────────────────────┘  └─────────────────┘   │
 │   ┌──────────────────────┐  ┌──────────────────────┐  ┌─────────────────┐   │
 │   │ 🌿 Health & Calm*    │  │ ⚖️ Legal & Disputes* │  │ 🏡 Family & Home│   │
-│   │    (治病)            │  │    (官事)            │  │    (家事/家運)  │   │
+│   │    Recovery & Body   │  │    Justice & Accord  │  │    Household    │   │
 │   └──────────────────────┘  └──────────────────────┘  └─────────────────┘   │
 │   ┌──────────────────────┐  ┌──────────────────────┐  ┌─────────────────┐   │
-│   │ 👶 Conception*       │  │ 🧭 Travel & Moving   │  │ 📈 Business     │   │
-│   │    (求兒 / 六甲)      │  │    (出外/移居/築室)  │  │    (經商)       │   │
+│   │ 👶 Conception*       │  │ 🧭 Travel & Relocation│  │ 📈 Business     │   │
+│   │    Family Lineage    │  │    Journeys & Moves  │  │    Ventures     │   │
 │   └──────────────────────┘  └──────────────────────┘  └─────────────────┘   │
 │   ┌──────────────────────┐  ┌──────────────────────┐  ┌─────────────────┐   │
-│   │ 🌊 Sea & Voyage      │  │ 🌱 Livelihood/Craft  │  │ ⏳ Seasonal     │   │
-│   │    (討海/行舟 - 媽祖) │  │    (耕作/六畜/作塭)  │  │    Timing (歲君)│   │
+│   │ 🌊 Sea & Voyage      │  │ 🌱 Craft & Enterprise│  │ ⏳ Annual Timing│   │
+│   │    Crossing Waters   │  │    Daily Industry    │  │    The Year Ahead│  │
 │   └──────────────────────┘  └──────────────────────┘  └─────────────────┘   │
 │                                                                             │
 │   * Notice: Specific legal, medical, or financial disclaimers apply.        │
@@ -77,8 +132,6 @@ This document provides visual wireframes, component layouts, and state transitio
 ---
 
 ## Screen 3 · Question Gate (问法治理闸门)
-
-### Component State: Interactive Reframing Comparison
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -121,9 +174,7 @@ This document provides visual wireframes, component layouts, and state transitio
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                  [Audio: 🔊]│
-│                                                                             │
-│                                                                             │
+│                                                          [⚙️ Display] [🔊]   │
 │                                                                             │
 │                                    ┌──┐                                     │
 │                                   ╱ ╱ │                                     │
@@ -136,8 +187,8 @@ This document provides visual wireframes, component layouts, and state transitio
 │                                │ ║║║║║║ │                                   │
 │                                └────────┘                                   │
 │                                                                             │
-│                       Drawing from Sixty Jiazi Lots...                      │
-│                  True cryptographic entropy (Web Crypto API)                │
+│                    Drawing from the Sixty Jiazi Lots...                     │
+│                True cryptographic entropy (Web Crypto API)                  │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -146,39 +197,50 @@ This document provides visual wireframes, component layouts, and state transitio
 
 ## Screen 5 & 6 · The Lot Reveal & Free Reading (出签与免费解读)
 
+### View A · Clean Focused English View (Default)
+
+> **Uncluttered Experience**: All guidance, keywords, and interpretations are presented in clean English. Key cultural anchors (`Jia-zi (甲子)`, `Bao Gong Calls Down Thunder (包公請雷)`, `Qian, Heaven (乾为天)`) are glossed cleanly. The traditional Chinese verse is accessible on-demand via a subtle toggle.
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│  [◄ Share Reading]                                            [Save to Vault]│
+│  [◄ Share Reading]                           [Display: Clean ▾] [Save Vault]│
 │                                                                             │
-│  ┌───────────────────────────┐   LOT 01 · 甲子 (JIA-ZI)                     │
-│  │                           │   Hexagram: 乾为天 Qian, Heaven (○○○○○○)     │
-│  │                           │   Element: Metal · Favours Autumn, West      │
-│  │   [ LOT ARTWORK IMAGE ]   │   Editorial Tone: Favourable (Positive flow) │
-│  │                           │   Story: Bao Gong Calls Down Thunder         │
-│  │                           │                                              │
-│  │                           │   君爾何須問聖跡，自己心中皆有益。           │
-│  │                           │   于今且看月中旬，凶事脫出化成吉。           │
-│  │                           │                                              │
-│  │                           │   "Why must you inquire after sacred portents?│
+│  ┌───────────────────────────┐   LOT 01 · BAO GONG CALLS DOWN THUNDER       │
+│  │                           │   Canonical Gloss: 包公請雷                   │
+│  │                           │   Ganzhi: Jia-zi (甲子) · Number 01          │
+│  │                           │   Hexagram: Qian, Heaven (乾为天 · ○○○○○○)   │
+│  │   [ LOT ARTWORK IMAGE ]   │   Element: Metal · Favours Autumn, West      │
+│  │    assets/cards/          │   Editorial Tone: Favourable (Positive Flow) │
+│  │    lot_01_card.jpg        │                                              │
+│  │                           │   POETIC VERSE:                              │
+│  │                           │   "Why must you inquire after sacred         │
+│  │                           │    portents?                                 │
 │  │                           │    Within your own heart lies already what   │
-│  │                           │    is of benefit..."                         │
+│  │                           │    is of benefit.                            │
+│  │                           │    Look now toward the middle of the month;  │
+│  │                           │    Adversity breaks open and turns to good." │
+│  │                           │                                              │
+│  │                           │   [📜 View Original 7-Character Verse] ▾     │
 │  └───────────────────────────┘                                              │
 │                                                                             │
 │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
 │                                                                             │
 │  ✦ GUIDANCE FOR YOUR DOMAIN: [CAREER & AMBITION]                            │
-│  "The road opens — say what you are aiming at and move on it."              │
-│  路是開著的——把你要瞄準的目標說出來，然後往前走。                           │
+│  "The road opens — declare what you are aiming at with steady clarity,      │
+│   and take your stride forward without second-guessing."                    │
 │                                                                             │
 │  ✦ KEYWORD CLUSTERS:                                                        │
-│  • FAVOURABLE (吉): Clearing sky · Open road · Auspicious & settled         │
-│  • GUARDED (忌): Over-managing what is fine · Borrowing trouble             │
+│  • FAVOURABLE: Clearing sky · Broad open path · Auspicious & settled        │
+│  • GUARDED: Over-managing what is already sound · Borrowing future trouble  │
 │                                                                             │
-│  ✦ READING NOTES (POLYSEMY DISCLOSURE):                                     │
-│  ▸ 「清吉」(qīng-jí): at once clear (the sky) and auspicious (the affair).  │
-│  ▸ 「大道」(dà-dào): the broad physical road and the right ethical course.  │
+│  ✦ READING NOTES (PHILOLOGICAL INSIGHT):                                    │
+│  ▸ "Qing-ji" (清吉): Denotes at once atmospheric clarity (clearing skies)   │
+│    and ethical rightness in affairs.                                        │
+│  ▸ "Da-dao" (大道): Signifies both the broad physical road and the upright  │
+│    principled course of action.                                             │
 │                                                                             │
-│  ✦ BOUNDARIES: Seasonal windows only. No calendar dates predicted.          │
+│  ✦ ACTION WINDOW: Favourable developments peak toward mid-month.             │
+│    Boundary: Seasonal windows only. No calendar dates predicted.            │
 │                                                                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │  ═════════════════════════════════════════════════════════════════════════  │
@@ -196,37 +258,126 @@ This document provides visual wireframes, component layouts, and state transitio
 
 ---
 
+### View B · Clean Traditional Chinese View (繁體中文預設模式)
+
+> For Chinese locale users: Complete traditional cultural reading without English clutter.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  [◄ 分享靈籤]                                 [語言: 繁體中文 ▾] [存入籤庫] │
+│                                                                             │
+│  ┌───────────────────────────┐   第一籤 · 甲子 (零一)                       │
+│  │                           │   典故：包公請雷驚仁宗                       │
+│  │                           │   卦象：乾為天 (天行健 · ○○○○○○)             │
+│  │                           │   五行：金 · 旺於秋季、西方                  │
+│  │   [ 媽祖靈籤卡面原圖 ]    │   籤詩屬性：大吉 (正向流暢)                  │
+│  │    assets/cards/          │                                              │
+│  │    lot_01_card.jpg        │   籤詩正文：                                 │
+│  │                           │   君爾何須問聖跡，自己心中皆有益。           │
+│  │                           │   于今且看月中旬，凶事脫出化成吉。           │
+│  │                           │                                              │
+│  │                           │   語譯：何必汲汲於向外卜問神祇聖蹟？         │
+│  │                           │   你的本心之中，早已明白何者正當有益。       │
+│  │                           │   待至月中旬之時，滯礙自然化解，轉為吉相。   │
+│  └───────────────────────────┘                                              │
+│                                                                             │
+│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
+│                                                                             │
+│  ✦ 針對所問事域指引：【功名 · 事業作事】                                    │
+│  「大道已開——將你真正瞄準的方向明朗道出，心無旁騖地踏步前行。」             │
+│                                                                             │
+│  ✦ 意象吉凶提要：                                                           │
+│  • 吉相：雲霧散盡 · 大道通達 · 清吉平順                                     │
+│  • 所忌：疑神疑鬼 · 自尋煩惱 · 徒耗心神過度干涉已成之局                     │
+│                                                                             │
+│  ✦ 文典訓詁考釋：                                                           │
+│  ▸ 「清吉」：指天清氣朗，亦指人事澄澈安泰、不生波瀾。                       │
+│  ▸ 「大道」：既指眼前通衢坦途，亦指行事循天地正理、光明磊落。               │
+│                                                                             │
+│  ✦ 時節提點：中旬應驗，事漸清朗。不作武斷日期預測，重在因勢利導。           │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  ═════════════════════════════════════════════════════════════════════════  │
+│  ✦ 本籤與您的個人本命八字如何呼應？                                         │
+│                                                                             │
+│  每支靈籤皆具備獨立天干地支（本籤為甲子）。輸入出生時辰，經真太陽時校正，    │
+│  即可由個人化引擎進行「籤盤合參」（刑衝合害與流年共振），獲取時令行事節奏。 │
+│                                                                             │
+│                  ┌────────────────────────────────────────┐                 │
+│                  │        [ 解鎖個人命盤合參 · $2.99 ]    │                 │
+│                  └────────────────────────────────────────┘                 │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### View C · Bilingual Comparative Study Mode (雙語研讀對照模式 · Opt-In)
+
+> Activated only when user toggles `[Display: Bilingual Study Mode]`. Uses a balanced side-by-side split screen without mixing within lines.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  [◄ Share Reading]                       [Display: Bilingual ▾] [Save Vault]│
+│                                                                             │
+│  LOT 01 · 甲子 (JIA-ZI) — BAO GONG CALLS DOWN THUNDER (包公請雷)            │
+│  Hexagram: Qian, Heaven (乾为天) · Element: Metal (金) · Favourable (大吉)  │
+│                                                                             │
+│  ┌───────────────────────┬───────────────────────────────────────────────┐  │
+│  │ CLASSICAL VERSE (籤詩)│ UNRHYMED ENGLISH TRANSLATION                  │  │
+│  ├───────────────────────┼───────────────────────────────────────────────┤  │
+│  │ 君爾何須問聖跡，      │ Why must you inquire after sacred portents?   │  │
+│  │ 自己心中皆有益。      │ Within your own heart lies what is of benefit.│  │
+│  │ 于今且看月中旬，      │ Look now toward the middle of the month;      │  │
+│  │ 凶事脫出化成吉。      │ Adversity breaks open and turns to good.      │  │
+│  └───────────────────────┴───────────────────────────────────────────────┘  │
+│                                                                             │
+│  DOMAIN GUIDANCE (事域指引 · CAREER & AMBITION):                            │
+│  [EN] "The road opens — declare your aim clearly and proceed with steady    │
+│       confidence."                                                          │
+│  [ZH] 「大道已開——將你真正瞄準的方向明朗道出，心無旁騖地踏步前行。」        │
+│                                                                             │
+│  PHILOLOGICAL NOTES (詞義考辨):                                             │
+│  ▸ 「清吉」(qīng-jí): Atmospheric clarity (sky) & ethical rightness (action).│
+│  ▸ 「大道」(dà-dào): The physical highway & the virtuous, principled path.   │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## Screen 7 & 8 · Personalized Deep Report (个性化解签引擎)
+
+### Clean English View with Essential Cultural Anchors
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  PERSONALIZED REPORT · LOT 01 (甲子) × YOUR NATAL BA-ZI                     │
-│  Generated for: Alex Chen · Born: Oct 14, 1992 09:30 (True Solar Adjusted)  │
+│  Subject: Alex Chen · Born: Oct 14, 1992 09:30 (True Solar Time Adjusted)   │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  YOUR FOUR PILLARS (命盤四柱):                                              │
 │  ┌──────────────┬──────────────┬──────────────┬──────────────┐              │
 │  │  YEAR (年柱) │ MONTH (月柱) │  DAY (日主)  │  HOUR (時柱) │              │
-│  │     壬申     │     庚戌     │   甲子 (木)  │     己巳     │              │
+│  │  Ren-Shen 壬申│ Geng-Xu 庚戌 │ Jia-Zi 甲子(木)│  Ji-Si 己巳  │              │
 │  └──────────────┴──────────────┴──────────────┴──────────────┘              │
 │                                                                             │
-│  INTERACTION MATRIX WITH LOT 01 (甲子):                                     │
+│  INTERACTION MATRIX WITH LOT 01 · JIA-ZI (甲子):                            │
 │                                                                             │
-│  1. DAY MASTER AFFINITY (日柱伏吟/共振):                                    │
-│     The Lot's Branch (子 Water) matches your Day Branch (子 Water).         │
-│     Dynamic: Direct Resource (正印). Deep emotional calm and mental clarity.│
+│  1. DAY MASTER AFFINITY · RESONANCE (日柱伏吟/共振):                         │
+│     The Lot's Branch (Zi Water 子) matches your Day Branch (Zi Water 子).   │
+│     Metaphysical Dynamic: Direct Resource (正印). Deep emotional calm and   │
+│     clear mental discernment govern this phase.                             │
 │                                                                             │
-│  2. MONTH PILLAR INTERACTION (月柱相生):                                    │
-│     Lot Stem 甲 Wood coordinates with Month Stem 庚 Metal.                  │
-│     Dynamic: Controlled sharpening (克中有情). Career restructuring that    │
-│     leads to greater executive autonomy by mid-autumn.                      │
+│  2. MONTH PILLAR INTERACTION · CONTROLLED TEMPERING (月柱相生):             │
+│     Lot Stem Jia Wood (甲) coordinates with Month Stem Geng Metal (庚).     │
+│     Metaphysical Dynamic: Controlled Sharpening (克中有情). A temporary     │
+│     professional restructuring leading to executive autonomy by mid-autumn. │
 │                                                                             │
-│  3. ANNUAL PILLAR RESONANCE (2026 丙午):                                    │
-│     Current Year Branch (午 Fire) clashes with Lot Branch (子 Water).       │
-│     Window of Action: Focus energy during Late Summer & Autumn; avoid       │
-│     rushed commitments during the height of the summer solar terms.         │
+│  3. ANNUAL PILLAR INTERACTION · TIMING WINDOW (2026 丙午):                  │
+│     Current Year Branch (Wu Fire 午) creates tension with Lot Branch (Zi 子).│
+│     Action Guidance: Conserve initiative in peak summer solar terms;        │
+│     execute major commitments during Late Summer & Autumn.                  │
 │                                                                             │
-│  [📥 Download Heirloom PDF Report]                   [📧 Send Copy to Email] │
+│  [📥 Download PDF Heirloom Report]                   [📧 Send Copy to Email] │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -275,4 +426,6 @@ This document provides visual wireframes, component layouts, and state transitio
 - [08. Canonical Data Schema & API Visibility Specification](./08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md)
 - [09. Visual Design System & Aesthetic Theme Synthesis](./09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md)
 - [10. UI Page Mockups & Functional Flows](./10_UI_PAGE_MOCKUPS_AND_FUNCTIONAL_FLOWS.md)
+- [11. Sixty Jiazi Lot Card Artwork Catalog](./11_LOT_CARD_ARTWORK_CATALOG.md)
+- [12. Card Component Architecture & Refactoring](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md)
 - [Root README](../../README.md)

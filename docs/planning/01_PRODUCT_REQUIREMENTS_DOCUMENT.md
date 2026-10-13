@@ -91,9 +91,11 @@
 - **Language Default**: English (International market priority).
 - **Secondary Languages**: Traditional Chinese (繁體中文 - canonical temple script), Simplified Chinese (简体中文).
 - **Future Expansions**: Japanese (日本语), Vietnamese (Tiếng Việt) due to regional historical affinity with Mazu / Matsu culture.
-- **Localization Requirement**:
-  - The Classical verse and story titles are preserved in Traditional Chinese with Pinyin and English translations.
-  - Interface strings managed via standard i18n JSON resource files.
+- **Localization & Display Modes**:
+  - **Clean Single-Language Default**: To prevent visual mess and reading fatigue, body narratives, guidance lines, and UI elements are rendered strictly in the user's preferred language without interleaved parallel text.
+  - **Cultural Anchor Whitelist**: Only essential cultural components retain companion bilingual glosses in single-language mode: Lot Card Name, Ganzhi/Year, Hexagram, and BaZi interaction terms.
+  - **Opt-in Bilingual Study Mode (雙語研讀模式)**: A user preference toggle that unlocks side-by-side parallel classical verse and translation for philological study and diaspora education.
+  - **Interface String Management**: All strings managed via standard i18n JSON bundles (`en.json`, `zh-TW.json`, `zh-CN.json`).
 
 ---
 

@@ -106,26 +106,24 @@ This is an industry-first proprietary differentiator. Rather than acting as a pa
 
 ## Step 5 · The Lot Reveal (出签)
 
-A single hero card displaying canonical lot metadata:
+A single hero card displaying canonical lot metadata.
+
+> **Language & Display Governance**: By default, the card and reading display strictly in the user's preferred language (e.g. English) with essential cultural anchors retained as subtle glosses (`Wu-Chen (戊辰)`, `Hu Wan Rescues the Widow Wen (胡完救文氏母女)`). Full parallel bilingual text is isolated to the opt-in **Bilingual Study Mode (雙語對照模式)** to eliminate visual clutter.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│  LOT 27 · 戊辰 (Wu-Chen) · Hexagram 陸 (Lu - Heaven over Lake)             │
-│  Editorial Tone: Favourable (廟本不分級；此為編者體例)                        │
-│  Element & Direction: Earth — Favours Late Summer; Southwest is Auspicious  │
+│  LOT 27 · WU-CHEN (戊辰) · HEXAGRAM LU (陸 · HEAVEN OVER LAKE)              │
+│  Canonical Gloss: 胡完救文氏母女 (Hu Wan Rescues Widow Wen & Daughter)      │
+│  Element & Direction: Earth · Favours Late Summer; Southwest Auspicious     │
+│  Editorial Tone: Favourable (Positive Flow)                                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  Historical Story:                                                          │
-│  胡完救文氏母女 (Hu Wan Rescues the Widow Wen and Her Daughter)              │
+│  CONTEMPLATIVE VERSE (POETIC TRANSLATION):                                  │
+│  "Why must you inquire after sacred portents?                               │
+│   Within your own heart lies already what is of benefit.                    │
+│   For now, look toward the middle of the lunar month:                       │
+│   Calamity shall fall away, transforming into auspicious ease."             │
 │                                                                             │
-│  Classical Verse (七言古詩):                                                  │
-│  君爾何須問聖跡，自己心中皆有益。                                            │
-│  于今且看月中旬，凶事脫出化成吉。                                            │
-│                                                                             │
-│  English Rendering (Unrhymed & Philologically Exact):                       │
-│  Why must you inquire after sacred portents?                                │
-│  Within your own heart lies already what is of benefit.                     │
-│  For now, look toward the middle of the lunar month:                        │
-│  Calamity shall fall away, transforming into auspicious ease.                │
+│  [📜 View Original 7-Character Traditional Verse] ▾ (Expandable Drawer)     │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
