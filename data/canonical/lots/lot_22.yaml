@@ -1,0 +1,424 @@
+id: 22
+lot_number: 22
+ganzhi:
+  zh: 丁未
+  pinyin: Ding-wei
+title:
+  en: King Wen of Zhou Finds Taigong
+  zh: 周文王得太公
+hexagram:
+  zh: 地风升
+  name_and_structure_en: Sheng (Earth over Wind)
+  binary_code: ●●●○○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 周文王得太公
+    en: King Wen of Zhou Finds Taigong
+  variants_en:
+  - King Wen Pulls the Cart for Taigong
+  - Wang Xiaoxian Prays for the People
+  - Yuan Er Goes on a Mission to Xi'an
+  - Han Xin Endures Humiliation
+  - Han Xin Is Made General
+  - Qin Shubao Saves Li Yuan
+  - Meng Liang and Jiao Zan Rescue Zongbao
+  variants_zh:
+  - 周文王爲姜太公拖車
+  - 王孝先為民祈禱
+  - 元二使西安
+  - 韓信忍辱
+  - 韓信拜將
+  - 秦叔寶救李淵
+  - 孟良焦讚救宗寶
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'temple judgements run positive with the gain placed late - 凡事 先呆。得貴人吉／作事
+      先呆後吉／婚姻 和合／求財 先微後進／功名 晚可有進／歲君 順利／經商 有利益／家運 安居春風 (jie_yue_score +18); one reservation
+      stands against the rest: 月令 不遂'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements are positive as a group and place the gain late
+      in the season; a single reservation stands against the rest on the month, and
+      the health line turns on the age of the querent rather than on the matter asked.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 先呆。得貴人吉／作事 先呆後吉／家事 門庭吉慶／家運 安居春風／婚姻 和合／求財 先微後進／功名 晚可有進／歲君 順利／經商
+      有利益——整签偏正（jie_yue_score +18）。唯一的保留是 月令 不遂；治病 老不畏。少不好 一项判的是年岁而不是所问之事；來人 月光到、失物
+      月光在。月暗無 把所得系在月相上，所以它本来就晚。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词整组取正，并把所得放在晚处；只有月令一项与全组相反，身体一项则按年岁分说，与所问之事不直接相关。
+provenance:
+  editorial_note: '*the temple list carries a different group for this lot: 秦叔寶救李淵;
+    孟良焦讚救宗寶.*'
+  textual_provenance: majority — 「太公家業八十成，月出光輝四海明。命內自然逢大吉， (维基文库 and the temple site,
+    with ；and 、 punctuation in the others)」→「太公八十家业成，月出光辉四海明。命内自然逢大吉， (mznn - the
+    two figures of the first line are transposed)」, majority of the six witnesses
+    reads 太公家業八十成, so the transposed 太公八十家業成 (mznn) is recorded rather than adopted
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 太公家業八十成，
+    en: Taigong's family fortune is completed at eighty;
+  - line_number: 2
+    zh: 月出光輝四海明，
+    en: the moon comes out, and its light fills the four seas.
+  - line_number: 3
+    zh: 命內自然逢大吉，
+    en: Within this allotment the great good is met naturally;
+  - line_number: 4
+    zh: 茅屋中間百事亨。
+    en: and in the middle of the thatched house, a hundred things go smoothly.
+keywords:
+  favourable:
+    en:
+    - late ripening
+    - helpful people
+    - settled ground
+    - small beginnings that grow
+    zh:
+    - 晚成
+    - 得贵人
+    - 安居有靠
+    - 小营生会长大
+  guarded:
+    en:
+    - giving up in the dull first stretch
+    - spending the late gain before it arrives
+    - treating a small house as failure
+    - demanding the result early
+    zh:
+    - 在平淡的开头就放手
+    - 晚到的进项还没到手就先花掉
+    - 把小屋当成失败
+    - 硬要提前看到结果
+reading_notes:
+- term: 太公
+  pinyin: tài-gōng
+  en: 'the Grand Duke: the honorific of the old angler Jiang Ziya; the type of merit
+    that arrives late; English "Duke" would freeze only one sense.'
+  zh: 既是那位老渔翁姜子牙的敬称，也代表一种晚到才成的功业；英文若只作「Duke」，就把其中一义钉死了。
+- term: 八十成
+  pinyin: bā-shí-chéng
+  en: 'completed at eighty: a literal age; a figure for lateness; read it as a season
+    of late ripening, not a count of years.'
+  zh: 既可以是实数八十岁，也可以只是一个「晚」的说法；宜读作晚熟的季节，不是年岁的计数。
+- term: 茅屋
+  pinyin: máo-wū
+  en: 'the thatched house: poverty; the modest base one works from; the poem does
+    not say the house is exchanged, only that things go well inside it.'
+  zh: 既可指清贫，也可指一个人做事所凭的那点小底子；籤文没说会换掉这间屋，只说屋里事事顺。
+- term: 月光
+  pinyin: yuè-guāng
+  en: 'the light of the moon: a phase of the month, as the judgements use it (來人 月光到；失物
+    月光在。月暗無); the spread of a good fortune over the whole sea.'
+  zh: 既是解曰用来计时的一个月相（來人 月光到；失物 月光在。月暗無），也指这份好处铺满四海。
+plain_meaning:
+  en: 'A season that opens late: the poem''s image is the old angler who comes into
+    his own at eighty, and the judgements give support, gain and settled ground -
+    but after a dull first stretch with nothing to show. The counsel is to keep working
+    from the small house you already have, keep your dealings upright, and let the
+    help that is on its way find you.'
+  zh: 一个开着的季节，只是开得晚：籤文的意象是那位到八十岁才成事的老渔翁，解曰给的是贵人、得益与安居——但得先走过一段拿不出成绩的平淡开头。建议是从你已经有的那间小屋做下去，把往来做正，让在路上的帮助自己找上来。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The judgements read as accord rather than friction; a commitment or a reconciliation
+      made in this season is well supported.
+    zh: 解曰读作和合而无摩擦；这一季里定下的承诺、说成的和解，都有支撑。
+    compliance_tag: null
+  career:
+    en: Advancement comes late and then holds; keep the work steady through the dull
+      first stretch instead of judging it by the start.
+    zh: 功名来得晚，来了之后守得住；平淡的开头里宜把功夫做稳，不要拿开头判成败。
+    compliance_tag: null
+  money:
+    en: Small at first and then growing - the profit is in patient holding rather
+      than in one move. (Not financial advice.)
+    zh: 先小后进——利润在耐心持有，不在一次出手。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgements are easier for older bodies and harder for younger ones; keep
+      to ordinary care and put anything persistent to a qualified professional. (Not
+      medical advice.)
+    zh: 解曰对年长的一边宽、对年轻的一边紧；宜照平常调养，久久不退的交给合格的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The house is settled and well spoken of; keep it in good order and let it
+      be the base you work from.
+    zh: 家宅安，口碑也好；宜把它打理妥当，当作做事的底子。
+    compliance_tag: null
+  travel_moving:
+    en: Helpful people are said to meet you on the road, and a change of residence
+      is judged good; go where the support is.
+    zh: 解曰说出外有贵人提携、迁居也判好；哪里有人扶，就往哪里去。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'Good water, but late in the season: the first hauls are lean and the later
+      ones pay.'
+    zh: 水头是好的，只是季节偏晚：头几趟薄，后面的才回本。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Field, stock and fry all return something here; work the season as it comes
+      and build rather than expand at once.
+    zh: 田、六畜与鱼苗在这里都有所得；按季节做下去，先把底子垒起来，不必急着扩。
+    compliance_tag: null
+  timing:
+    en: The timing markers point to the moon's phases and to a late turn in the season;
+      read them as seasons, never as dates.
+    zh: 时间标记落在月相与这一季的后半程；宜按季节读，不要当成日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Giving up in the dull first stretch; spending the late gain before it arrives;
+      treating the small house as a failure.
+    zh: 在平淡的开头就放手；晚到的进项还没到手就先花掉；把小屋当成失败。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs to be forced; the counsel is to keep working while the
+      season ripens.
+    zh: 这里没有一件事需要硬推；建议是趁季节成熟的时候继续做。
+    compliance_tag: null
+stories:
+- title:
+    zh: 周文王得太公
+    en: King Wen of Zhou Finds Taigong
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 商朝末年，姜尚年纪很大了，隐居在渭水边上钓鱼，等一个机会。周文王将要出外打猎，先自己占了一卦。卦上说，这回猎到的不是龙，不是螭，不是虎，也不是熊，而是帮人成就霸业的辅佐之才。螭是传说里一种没有角的龙。文王出猎，果然在渭水北岸遇见姜尚。两人一谈，文王很高兴，说他的太公盼望姜尚已经很久了，于是称他太公望，载他一同回去，立他做老师。姜尚后来辅佐武王讨伐商纣，得了天下，被封在齐。姜尚八十岁才遇到文王，后来的人就用太公八十遇文王来讲晚年得志。
+    en: At the end of the Shang dynasty, Jiang Shang was very old. He lived as a hermit
+      on the bank of the Wei River, fishing and waiting for a chance. King Wen of
+      Zhou was about to go out hunting. First he cast a divination for himself. The
+      reading said that this hunt would take no dragon, no chi, no tiger, and no bear,
+      but a man who would help him found a great power. A chi is a kind of hornless
+      dragon in legend. The king went hunting, and on the north bank of the Wei River
+      he did meet Jiang Shang. The two talked, and the king was delighted. He said
+      his own forefather, the Great Duke, had looked forward to Jiang Shang for a
+      long time. So he called him Taigong Wang, took him back in the same carriage,
+      and made him his teacher. Jiang Shang later aided King Wu to attack the Shang
+      tyrant Zhou. They won the realm, and Jiang Shang was given lands in Qi. Jiang
+      Shang met King Wen at the age of eighty. Later people used this meeting to speak
+      of success that comes late in life.
+  poem_connection:
+    zh: 签诗首句就是“太公家业八十成”，故配文王在渭水访得太公一事，取晚年有成而显达之意。
+    en: The poem's first line is that Taigong's estate is completed at eighty, so
+      it is paired with King Wen finding Taigong at the Wei River, taking the sense
+      of achievement and honour late in life.
+- title:
+    zh: 周文王爲姜太公拖車
+    en: King Wen Pulls the Cart for Taigong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 周文王是商朝末年周国的君主，一心想访求贤才。他曾在灵台梦见一只长着翅膀、白眉毛的东西从南边扑进帐来。醒来之后他叫人解梦，断定这是将要得到贤臣效力的征兆，于是更加虚心，四处寻访。他在渭水边遇见正在钓鱼的姜子牙，交谈之后非常佩服，知道是能辅佐大事的人，就请他同车回去。传说姜子牙为了试试文王的诚意，请文王亲自拉车。文王拉着车往前走，力气用尽才停下。姜子牙便说文王走了多少步，周朝就能享有多少年的国运。后来周朝果然国运长久，跟这个数目相合。文王得到姜子牙以后，尊他为师，国事多向他请教。
+    en: King Wen was the ruler of Zhou at the end of the Shang dynasty, and he wanted
+      to find worthy men. At the Ling Terrace he dreamed that a thing with wings and
+      white eyebrows rushed into his tent from the south. When he woke he had the
+      dream explained. He judged it a sign that he was about to gain a worthy minister,
+      so he grew more open-minded and searched in all directions. By the Wei River
+      he met Jiang Ziya, who was fishing. After they talked he admired him greatly,
+      knowing he was a man who could carry great affairs, and he asked him to ride
+      back in the same carriage. In the tale Jiang Ziya, to test the king's sincerity,
+      asked the king to pull the cart himself. The king pulled it forward until his
+      strength gave out and he stopped. Jiang Ziya then said that as many steps as
+      the king had walked, so many years would the Zhou house last. Later the Zhou
+      dynasty did last a long time, matching that number. After King Wen gained Jiang
+      Ziya, he honored him as his teacher and asked his advice on most affairs of
+      state.
+  poem_connection:
+    zh: 签诗说太公的家业八十岁才成，月出之后四海都亮。文王亲自拉车访贤，正是这一段的写照。
+    en: The lot poem says Jiang Taigong's career was made only at eighty, and that
+      after the moon rises all within the four seas is bright. King Wen pulled the
+      cart himself to seek a worthy man.
+- title:
+    zh: 王孝先為民祈禱
+    en: Wang Xiaoxian Prays for the People
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王曾，字孝先，是北宋青州益都人。他从小聪明，文章写得好，考中了进士第一名，后来官做到宰相，封沂国公。他做官清正，去世以后，朝廷赐他文正的谥号。他在地方任职的时候，遇到天旱，就诚心诚意地为百姓求雨。雨不落下来，他就不肯罢休。当地百姓因此称他是爱护百姓的好官。他还说过，做官的人如果把好处都留给自己，那百姓的怨气又要归到谁身上去。名臣范仲淹听了这话，十分佩服。他做官用人，从不张扬，受过他提拔的人，往往后来才知道是他举荐的。
+    en: Wang Zeng, styled Xiaoxian, came from Yidu in Qingzhou in the Northern Song.
+      He was clever from childhood and wrote well. He came first in the imperial examination
+      and in time rose to be chancellor, and was enfeoffed as Duke of Yi. He was upright
+      in office, and after his death the court gave him the posthumous name Wenzheng.
+      When he held office in the provinces and drought came, he prayed sincerely for
+      rain on behalf of the people. Until the rain fell he would not give up. The
+      local people therefore called him a good official who cared for the people.
+      He also said that if officials kept all the benefits for themselves, onto whom
+      were the people's grievances to fall. The famous minister Fan Zhongyan heard
+      this and admired him greatly. In office he never made a show of the people he
+      appointed, and those he promoted often learned only later that he had recommended
+      them.
+  poem_connection:
+    zh: 这一签说月出光辉照四海，正配王孝先为百姓求雨、贤名远播这一段。
+    en: This lot says the moon comes out and its light shines over the four seas.
+      It fits Wang Xiaoxian praying for rain for the people and his good name spreading
+      far.
+- title:
+    zh: 元二使西安
+    en: Yuan Er Goes on a Mission to Xi'an
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 元二是唐朝诗人王维的朋友，在家里排行第二，名字没有留下来。唐朝的安西都护府管着西北一大片地方，派出去的使者来来往往，送行多在长安城外的渭城一带。王维给元二送行，写下一首诗。诗里说，清晨的细雨打湿了地上的尘土，客舍旁的柳树正绿，劝你再喝一杯酒，出了阳关往西，就再没有老朋友了。阳关是长安西边的一道关口，出了关就是荒远的西域。这首诗后来被谱上曲子反复传唱，成了送别时常用的曲子。这一题取的，就是送元二出使西北的那一段。
+    en: Yuan Er was a friend of the Tang poet Wang Wei. He was second among his brothers
+      at home. His given name has not come down to us. The Anxi Protectorate of the
+      Tang governed a great stretch of the northwest. Envoys were sent out and came
+      back the whole time, and farewells were mostly held at Weicheng, outside the
+      city of Chang'an. Wang Wei wrote a poem to see Yuan Er off. In the poem, fine
+      morning rain has wet the dust on the ground. The willows by the travellers'
+      inn are green. He asks him to drink one more cup of wine, for west of Yangguan
+      there are no old friends left. Yangguan was a pass west of Chang'an, and beyond
+      it lay the far desert regions. The poem was later set to music and sung over
+      and over. It became a common tune at partings. This title takes the part where
+      Wang Wei sees Yuan Er off on his mission to the northwest.
+  poem_connection:
+    zh: 这一签的签诗说姜太公的家业到八十岁才成，月亮出来照亮四海，命里自然有大吉。送人远行、出而后有成，正与签意相接。
+    en: The poem says Jiang Taigong's family work was finished only at eighty, and
+      the moon rises to light the four seas. Seeing a man off on a far road joins
+      the lot's meaning.
+- title:
+    zh: 韓信忍辱
+    en: Han Xin Endures Humiliation
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩信少年时家里很穷。他既不能被推举做小吏，又不会做买卖营生，只好常到别人家蹭饭吃。人们多嫌弃他，他走到哪里都不受欢迎。他在河边钓鱼，一位漂洗丝絮的老妇见他饿，连着几十天分饭给他吃。淮阴街上有个屠户少年当众羞辱他，叫他要么拔剑来刺，要么从自己胯下爬过去。韩信看了很久，俯身从那人胯下爬过，满街人都笑他怯懦。后来韩信投奔项羽不被重用，转而投刘邦，起初也只得了个小官，差点被斩，靠夏侯婴、萧何出力才保住。萧何在月下把他追回，向刘邦极力推荐，他终于被拜为大将。此后他攻下魏、赵、齐等地，封齐王，改封楚王，又贬为淮阴侯，最后被吕后所杀。
+    en: Han Xin was very poor as a boy. He could not get recommended for even a minor
+      post, and he had no skill at trade, so he often ate at other people's homes.
+      Most people disliked him and he was not welcome wherever he went. He fished
+      by the river, and an old woman who rinsed silk saw that he was hungry and shared
+      her rice with him for many days. In the street at Huaiyin a young butcher humiliated
+      him in public. He told Han Xin to either draw his sword and stab, or crawl between
+      his legs. Han Xin looked at him a long time, then bent down and crawled through.
+      The whole street laughed at him for cowardice. Later Han Xin went to Xiang Yu
+      and was given no real post. Then he went to Liu Bang, where he first got only
+      a small office and nearly lost his head. Xiahou Ying and Xiao He saved him.
+      Xiao He chased him back by moonlight and urged Liu Bang strongly to use him,
+      and he was finally made chief general. After that he took Wei, Zhao, and Qi,
+      and was made King of Qi. He was later King of Chu, then reduced to Marquis of
+      Huaiyin, and at last killed by Empress Lü.
+  poem_connection:
+    zh: 签诗说太公家业八十成、月出四海明；韩信起于困顿、久而后显达，正合晚成待时。
+    en: The poem says Jiang Taigong's household prospered at eighty, and that when
+      the moon rises the four seas are bright. Han Xin rose from hardship and showed
+      late, which fits waiting for one's time.
+- title:
+    zh: 韓信拜將
+    en: Han Xin Is Made General
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩信是淮阴人，年轻时家里穷，在市上从别人的裤裆下爬过，也曾靠河边洗衣妇给的一碗饭充饥。秦朝末年天下大乱，他先投项梁、项羽，不得重用，改投刘邦，也只做了个管粮仓的小官。他失望离营，丞相萧何知道他有本事，连夜把他追回来，并劝刘邦郑重拜他为将。刘邦听了萧何的话，斋戒沐浴，筑起高坛，用隆重的礼节拜韩信为大将。韩信登坛之后，为刘邦分析天下形势，讲项羽的短处，讲关中一带容易夺取的道理。刘邦大为高兴，觉得相见太晚。此后韩信领兵平定关中，打败魏、赵，拿下齐地，功业就此成就。
+    en: Han Xin came from Huaiyin. His family was poor when he was young. In the market
+      he once crawled between another man's legs, and he once kept from hunger by
+      a bowl of rice given him by a woman washing clothes by the river. In the last
+      years of the Qin dynasty the realm fell into disorder. He first joined Xiang
+      Liang and then Xiang Yu, but neither gave him an important post. He turned to
+      Liu Bang and received only a minor office in charge of the grain store. Disappointed,
+      he left the camp. Chancellor Xiao He knew his ability and chased after him through
+      the night and brought him back, and he urged Liu Bang to make Han Xin a general
+      with full ceremony. Liu Bang listened. He fasted and bathed, built a high platform,
+      and appointed Han Xin commander-in-chief with great ceremony. Standing on the
+      platform, Han Xin laid out the state of the realm for Liu Bang, pointed out
+      Xiang Yu's weaknesses, and explained why the Guanzhong region could be taken.
+      Afterwards Han Xin led troops to pacify Guanzhong, defeated Wei and Zhao, and
+      took the land of Qi, and his great merit was made.
+  poem_connection:
+    zh: 这一签写大器晚成、迟而后至，正扣签诗“太公家业八十成，月出光辉四海明”“茅屋中间百事亨”。
+    en: A man of great talent who arrives late and rises slowly fits a lot whose poem
+      speaks of Jiang Taigong's work finished at eighty and the moon shining over
+      all the seas.
+- title:
+    zh: 秦叔寶救李淵
+    en: Qin Shubao Saves Li Yuan
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 秦琼，字叔宝，是隋末唐初的勇将，山东历城人。他起初在隋将来护儿帐下，后来归附唐朝。李渊还是唐国公的时候，带着一家老小从长安迁往太原，在临潼山一带被隋炀帝派来的兵将围住，处境很危急。秦琼正好路过，见有人被围，就手持双锏冲进阵中。秦琼当时只是路过，本无守土之责，却不肯坐视。他冲进阵中，双锏左右开弓，追兵一时不敢近前。追兵挡不住他，李渊一家得以脱险。秦琼连姓名也没有留下，就径直走了。后来秦琼归唐，成为秦王李世民帐下的将领，是唐初的功臣之一。
+    en: Qin Qiong, whose courtesy name was Shubao, was a brave general of the late
+      Sui and early Tang, from Licheng in Shandong. He began under the Sui general
+      Lai Hu'er, and later went over to Tang. When Li Yuan was still Duke of Tang,
+      he moved his household from Chang'an to Taiyuan. Near Lintong Mountain he was
+      surrounded by troops sent by Emperor Yang of Sui, and his position was desperate.
+      Qin Qiong happened to pass by. Seeing men surrounded, he charged into the ranks
+      with his pair of short weapons. He was only passing through and had no duty
+      to hold that ground, yet he would not stand by. He drove in left and right,
+      and for a time the pursuers dared not come near. They could not stop him, and
+      Li Yuan's family got away. Qin Qiong left no name and went straight on. Later
+      he went over to Tang and became a general under Li Shimin, the Prince of Qin,
+      and one of the founding ministers of Tang.
+  poem_connection:
+    zh: 签诗说太公家业八十成，月出光辉四海明。李渊困厄之际得救，其后开创基业，正合晚成遇合的语意。
+    en: The lot poem says Taigong's house was made at eighty, and the moon rises bright
+      over the four seas. Li Yuan in dire straits was saved and later founded a house,
+      a late meeting.
+- title:
+    zh: 孟良焦讚救宗寶
+    en: Meng Liang and Jiao Zan Rescue Zongbao
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孟良和焦赞是北宋杨家将故事里的两员部将。他们常在杨延昭，也就是六郎的麾下听令。在故事里，两个人都是粗豪勇猛的路数，常一同上阵，他们身上生出不少故事，救人是其中最常见的一路。杨宗保是六郎的儿子，他被围遇难、得人相救，是这一路故事里反复讲的题目。题名说的就是这二人合力救人：一个引开敌兵，一个杀进围中,把宗保带出来。两个人的出身与收场，各处讲的并不一样。这一则里留下的，是救人的两个人与所救的那个人，中间动手的细处没有传下来。
+    en: Meng Liang and Jiao Zan were two officers in the Northern Song tales of the
+      generals of the Yang family. They usually took their orders under Yang Yanzhao,
+      that is, the Sixth Brother. In the stories both men are of the rough and brave
+      kind and often go into battle together. Many a tale grew up around them, and
+      rescue is the commonest kind. Yang Zongbao was the Sixth Brother's son. His
+      being surrounded and in danger, and saved by others, is a subject told over
+      and over in that line of story. What the title says is that these two joined
+      forces to save a man. One drew the enemy off, and the other cut his way into
+      the ring and brought Zongbao out. Where the two came from and how they ended
+      are not the same in every telling. What survives is the two men who did the
+      rescuing and the man who was rescued. The details of what they did in between
+      were not handed down.
+  poem_connection:
+    zh: 签诗说“太公家业八十成”，意思落在成事在后、先难后获；故事取二人合力救人之事，与诗面同是待时而后成的一路。
+    en: The poem says Jiang Taigong's estate came together at eighty, meaning the
+      work is done late and hardship comes before the gain; these two join to save
+      a man, waiting on time before it is done.

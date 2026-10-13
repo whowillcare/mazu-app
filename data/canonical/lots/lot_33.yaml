@@ -1,0 +1,383 @@
+id: 33
+lot_number: 33
+ganzhi:
+  zh: 己巳
+  pinyin: Ji-si
+title:
+  en: Fake Silver Buys Paper Boots
+  zh: 銅銀買紙靴
+hexagram:
+  zh: 山风蛊
+  name_and_structure_en: Gu (Mountain over Wind)
+  binary_code: ○●●○○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 銅銀買紙靴
+    en: Fake Silver Buys Paper Boots
+  variants_en:
+  - Hai Rui Meets Annam's Tribute Envoy
+  - Yuan Tiangang Judges a Hexagram
+  - Liu Bei Crosses the River to Wed
+  - Bao Shuya Recommends Guan Zhong
+  - Guan and Bao Go into Business Together
+  variants_zh:
+  - 海瑞遇安南討貢封王
+  - 袁天罡論卦
+  - 劉備過江招親
+  - 鮑叔牙進管仲
+  - 管鮑同經商
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive with a caution against haste — 凡事 不可急進／作事
+      二次成功／婚姻 大吉／行舟 把定未遭風／月令 不安 (jie_yue_score +12)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: marriage and the household line stand strong,
+      and income and undertakings do arrive on a second attempt, but health, the month''s
+      turn and distant news all carry delay. The pattern is support with delay, so
+      we read it as mixed and the counsel is to avoid haste.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 不可急進／作事 二次成功／家事 門庭缺。後團圓／家運 門庭興旺／婚姻 大吉／求財 漸有／功名
+      望後科／出外 平安／經商 安分待時／移居 二次成吉／行舟 把定未遭風／六畜 小吉／耕作 有收成／墳墓 地運小吉／討海 得財／作塭 漸漸得財／魚苗 好／月令
+      不安。总评：整签偏吉（jie_yue_score +12），主调是「不可急進」；治病 拖尾。破財、月令 不安两处是提醒。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：婚姻与家宅偏强，求财与作事要第二次才顺；治病、月令与远信三处带迟滞。支持里夹着拖力，故读作 mixed。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「行船把定 — hold the boat steady (维基文库, the white-text
+    branch alone)」→「行舟把定 — hold the boat steady (好廟網; 東海; feishuai; mznn; 91chouqian)」,
+    six-source vote 5/6, recorded in mazu_签诗_六源投票与裁定.csv, and matching this set's
+    own wording at Lot 13.
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 欲去長江水闊茫，
+    en: You would set out on the Long River, wide and vague;
+  - line_number: 2
+    zh: 行舟把定未遭風，
+    en: hold the boat steady and you meet no wind;
+  - line_number: 3
+    zh: 戶內用心再作福，
+    en: keep your mind on the house and make your merit there again;
+  - line_number: 4
+    zh: 看看魚水得相逢。
+    en: look — the fish and the water do meet.
+keywords:
+  favourable:
+    en:
+    - holding steady
+    - the fit arriving in time
+    - patience inside the house
+    - a second attempt
+    zh:
+    - 把稳不动
+    - 契合到时候会到
+    - 在家里用心耐守
+    - 再来一次
+  guarded:
+    en:
+    - pushing out ahead of the wind
+    - expecting the first attempt to hold
+    - forcing a fit that is already on its way
+    zh:
+    - 赶在风前头出去
+    - 以为第一次就能定局
+    - 硬催一段正在路上的契合
+reading_notes:
+- term: 把定
+  pinyin: bǎ-dìng
+  en: '"hold steady": at once *keeping the tiller* and *keeping your own counsel*;
+    The protection in this line is in the holding.'
+  zh: 既是把住舵，也是自己心里有主张；这一句的保护就在「把住」两个字上。
+- term: 戶內
+  pinyin: hù-nèi
+  en: '"within the door": at once *inside the household*; *the private side of the
+    matter*.'
+  zh: 既指家门以内，也指这件事私下、家中的那一面。
+- term: 魚水得相逢
+  pinyin: yú-shuǐ-dé-xiāng-féng
+  en: 'fish and water meet: here the fit does arrive — the same figure that Lot 23
+    refuses; Read the two lots against each other and the difference is the season,
+    not the wish.'
+  zh: 在这里是真的会相逢——同一个意象在第 23 签是落空的。两签对着看，差的是时节，不是心愿。
+plain_meaning:
+  en: 'The water is wide, but this poem does not send you across it: hold the boat
+    steady, keep your counsel at home, and the fit you are worried about does arrive.
+    It is a lot about not hurrying — the second attempt is the one that works.'
+  zh: 水面很宽，但这一签并不叫你渡过去：把船把稳，在家里守住自己的主张，你担心的那个契合是会到的。这是一支讲不要急的签——第二次尝试才成。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A good season for a match, and it comes to the one who holds steady; do not
+      press it early.
+    zh: 这是成亲的好时节，成在沉得住气的人身上；不要提前去逼它。
+    compliance_tag: null
+  career:
+    en: A second attempt succeeds where the first did not; keep the first attempt
+      alive rather than abandon it.
+    zh: 第一次没做成的，第二次会成；留着第一次那条路，别丢掉。
+    compliance_tag: null
+  money:
+    en: The gain arrives gradually; hold your position and let it come. *(Not financial
+      advice.)*
+    zh: 进项是一点一点来的；守住手上的位置，让它自己到。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A complaint that lingers and costs; treat it steadily rather than dramatically.
+      *(Not medical advice.)*
+    zh: 这是个拖着走、也耗钱的毛病；稳稳地治，不必大动干戈。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Something missing in the household comes back to it; the reunion is on its
+      way.
+    zh: 家里缺的那一块会回来；团圆已经在路上。
+    compliance_tag: null
+  travel_moving:
+    en: Safe passage — but on the water's terms, not yours.
+    zh: 一路平安——但要顺着水路的脾气，不是照你的意思。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Hold the boat steady and the wind passes you by; the catch is steady rather
+      than large.
+    zh: 把船把稳，风就从旁边过去；渔获是稳，不是大。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A season with a yield in it, the more so for those who work their own ground
+      twice.
+    zh: 这一季有收成，肯把自家地耕两遍的人拿得更多。
+    compliance_tag: null
+  timing:
+    en: The fit arrives later in the season — a season, never a date.
+    zh: 契合在这一季的后半程到——只讲季节，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pushing out ahead of the wind; giving up after the first attempt.
+    zh: 赶在风头前出海；第一次不成之后就撒手。
+    compliance_tag: null
+  reassurance:
+    en: What you are waiting on is on its way; steady is enough.
+    zh: 你等的东西正在路上；稳就够了。
+    compliance_tag: null
+stories:
+- title:
+    zh: 銅銀買紙靴
+    en: Fake Silver Buys Paper Boots
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 铜银是掺了铜的假银币，看着与足色的银子差不多；纸靴是面上糊纸、冒充皮的假鞋。拿假钱去买假货，想骗人的人反被人骗。假银的颜色与真银相近，要试过、上过秤才知道成色；假鞋一穿到脚上就露了馅，走几步就散。做买卖的两头都不老实：买的拿假钱付，卖的拿假货给，到了最后，一头没换回真东西，另一头也没落着真钱。这一个题名只用两个字就点明了两头都假。市井间说这一类事，讲的就是一个“伪”字，伪的东西经不起试，银要试，鞋要走，一试一走就分晓，两边都落空。
+    en: 'Copper silver is false silver mixed with copper, and to the eye it looks
+      much like silver of full weight. Paper boots are false shoes, with paper pasted
+      over the face to pass for leather. Take false money to buy false goods, and
+      the one who means to cheat others is cheated himself. The color of the false
+      silver is close to that of true silver. Only by testing and weighing it does
+      a person learn its quality. The false shoes give themselves away as soon as
+      they are on the foot, and come apart after a few steps. Neither end of the deal
+      is honest. The buyer pays with false money and the seller hands over false goods.
+      In the end one end gets no real thing back, and the other is left with no real
+      money. This one title marks both ends as false with two words. When the market
+      talks about matters of this kind, the point is a single word: fake. Fake things
+      cannot stand a test. Silver has to be tested and shoes have to be walked in,
+      and one test and one walk settle it. Both sides are left with nothing.'
+  poem_connection:
+    zh: 签诗说“欲去长江水阔茫，行舟把定未遭风”，写的是空等、未遇；故事题取买假货落空一层，与诗面同是一路。
+    en: The poem pictures waiting in vain, pushing off a boat and never meeting the
+      wind; the title takes the layer of buying fakes and getting nothing, the same
+      road as the face of the poem.
+- title:
+    zh: 海瑞遇安南討貢封王
+    en: 'Hai Rui''s Mission to Annan: Collecting Tribute and a Royal Title'
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 海瑞是明代有名的清官，做官刚直，生活清苦。当时朝廷里有两位权臣，一位是严嵩，一位是张居正。两人容不下海瑞，正好属国安南很久不来进贡，就一起保举海瑞出使安南，去催讨贡物，想让他吃些苦头。安南在南方，是今天的越南一带。两位权臣派家奴沈充在路上行刺，海瑞早有防备，反把沈充捉住。沈充求饶，说自己是安南人，熟悉当地情形，愿意将功补过。海瑞就把他留在身边，一路办事。到了安南，海瑞从容应对，招抚当地，讨得贡品还朝。权臣的打算没能得逞，海瑞受封为王。
+    en: Hai Rui was a famous upright official of the Ming dynasty. He held office
+      with firmness and lived very plainly. Two powerful ministers were at court,
+      one named Yan Song and one named Zhang Juzheng. Neither could tolerate Hai Rui.
+      It so happened that the dependent state of Annan had long stopped sending tribute.
+      The two ministers jointly recommended Hai Rui as envoy to Annan to press for
+      the tribute, hoping to make him suffer. Annan lies in the south; it is the region
+      of present-day Vietnam. The two ministers sent a family servant named Shen Chong
+      to kill him on the road. Hai Rui was on his guard and instead seized Shen Chong.
+      Shen Chong begged for mercy and said he was from Annan and knew the local conditions,
+      and offered to make up for his crime by service. Hai Rui kept him close and
+      used him on the journey. When he reached Annan, Hai Rui handled matters calmly,
+      won over the local people, obtained the tribute, and returned to court. The
+      plan of the ministers failed, and Hai Rui was granted the title of king.
+  poem_connection:
+    zh: 签诗“欲去长江水阔茫，行舟把定未遭风”，远行有备而无险，正对渡海出使这一段。
+    en: The lot's poem says one means to cross the wide, misty Yangtze, and that the
+      boat is held steady and meets no wind. A long voyage made with preparation and
+      without danger fits the journey as envoy.
+- title:
+    zh: 袁天罡論卦
+    en: Yuan Tiangang Discusses Divination
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 袁天纲是唐朝初年的人，家在益州成都，也就是今天的四川成都。他精于看相，能从一个人的相貌推知他日后的贵贱。当时从王公到平民，都争着请他看一看。他最有名的一次，是给还在襁褓里的武氏看相。武家故意把女婴打扮成男孩抱出来。襁褓是裹婴儿的布包。袁天纲一看，大为吃惊，说这孩子眼神如龙、脖颈如凤，若是女孩，将来的富贵没法说尽，能做天下的君主。这个女婴就是后来当上皇帝的武则天。他还曾为杜淹、王珪、韦挺等人看相，说出各人仕途的起落。后来这些话一一应验。窦轨镇守益州时，也请他相过面。这一签说户内用心再作福，又说看看鱼水得相逢，正配袁天纲以术数论人、久而相逢有验的一段。
+    en: Yuan Tiangang lived in the early Tang, and his family was from Chengdu in
+      Yizhou, today's Chengdu in Sichuan. He was skilled at reading faces and could
+      tell from a person's looks what rank that person would reach later. From princes
+      to common people, everyone competed to have him take a look. His most famous
+      reading was for the woman of the Wu family, then still an infant. The Wu family
+      dressed the baby girl as a boy and brought her out. A swaddling wrap is the
+      cloth an infant is bound in. Yuan Tiangang looked and was greatly startled.
+      He said the child had eyes like a dragon and a neck like a phoenix, and that
+      if it were a girl her future wealth and honor could not be told in full, and
+      she could be ruler of the realm. This baby girl was Wu Zetian, who later took
+      the throne. He also read faces for Du Yan, Wang Gui, Wei Ting and others, telling
+      the rises and falls of each man's career. In time these words came true one
+      by one. When Dou Gui held Yizhou, he too had his face read.
+  poem_connection:
+    zh: 这一签说户内用心再作福、看看鱼水得相逢，正配袁天纲观人形色、卜人贵贱而久后应验的一段。
+    en: This lot says to work at doing good inside the household and that fish and
+      water come together - Yuan Tiangang judging people by their looks and being
+      borne out long afterward.
+- title:
+    zh: 劉備過江招親
+    en: Liu Bei Crosses the River for a Wedding
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 东汉末年，天下分为几股势力。刘备占据荆州，孙权几次讨还，都没要回来。吴国的大将周瑜献上一计：假称把孙权的妹妹许配给刘备，引他过江到吴国成亲，趁机讨回荆州；谈不拢就把他杀掉。刘备心里犹豫，诸葛亮却劝他去，并交给赵云三条锦囊妙计，叫他照计行事。赵云是刘备身边有名的勇将。他保护刘备到了东吴，先揭破吴方的安排，又借吴国太的力量，使这门亲事弄假成真。刘备娶了孙夫人。孙夫人从小好武，新房里的侍女都带着刀剑，刘备进去看见，吃了一惊，赵云依计护他出府。后来刘备带着夫人逃回荆州，孙权派人去追，没有追上。
+    en: In the late Eastern Han, the realm was split among several powers. Liu Bei
+      held Jingzhou. Sun Quan asked for it back several times and never got it. Zhou
+      Yu, a great general of Wu, offered a plan. He would pretend to betroth Sun Quan's
+      sister to Liu Bei and lure him across the river to Wu for the wedding. Then
+      Wu would seize Jingzhou while he was there. If the talks failed, they would
+      kill him. Liu Bei hesitated, but Zhuge Liang urged him to go. He gave Zhao Yun
+      three silk-bag plans and told him to act by them. Zhao Yun, the famous brave
+      general at Liu Bei's side, escorted him to Wu. First he exposed Wu's arrangement.
+      Then he used the power of the Dowager of Wu, Sun Quan's mother, Then he used
+      the power of the Dowager of Wu, Sun Quan's mother, to turn the false marriage
+      into a real one.. Liu Bei married Lady Sun. Lady Sun had loved martial arts
+      since childhood, and the maids in the bridal room all carried swords. When Liu
+      Bei went in and saw them, he was startled. Zhao Yun guarded him out of the house
+      by plan. Later Liu Bei fled back to Jingzhou with his wife. Sun Quan sent men
+      after them, but they did not catch up.
+  poem_connection:
+    zh: 签诗“欲去长江水阔茫”“行舟把定未遭风”，正合刘备过江一事；“看看鱼水得相逢”则取入吴成婚、夫妻相得之局。
+    en: The poem's wide river crossed with the boat held steady fits Liu Bei crossing
+      to Wu, and the line about fish meeting water takes the Wu marriage and the pair's
+      harmony.
+- title:
+    zh: 鮑叔牙進管仲
+    en: Bao Shuya Recommends Guan Zhong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 管仲和鲍叔牙是春秋时齐国人，年轻时就是好朋友。管仲家里穷，两人合伙做买卖，分钱时管仲常多拿一些。鲍叔牙知道他家里困难，并不认为他贪心。管仲几次求官都被赶出来，鲍叔牙不觉得他没本事。打仗时管仲多次退走，鲍叔牙也不笑他胆小，因为他家里还有老母亲要养。齐国发生内乱，两人各辅佐一位公子。公子小白先回国即位，就是齐桓公，管仲则被关了起来。桓公本想杀他，鲍叔牙极力推荐，请桓公不要计较管仲曾经射过他。桓公就让管仲做相，把国政交给他。齐国从此富强，桓公成了春秋时期第一位霸主。
+    en: Guan Zhong and Bao Shuya were men of Qi in the Spring and Autumn period. They
+      were good friends from youth. Guan Zhong's family was poor. The two went into
+      business together, and when they divided the money Guan Zhong often took a larger
+      share. Bao Shuya knew his family was in difficulty and did not think him greedy.
+      Guan Zhong tried several times for office and was driven out each time. Bao
+      Shuya did not think him untalented. In battle Guan Zhong pulled back many times,
+      and Bao Shuya did not laugh at him for cowardice, because Guan Zhong had an
+      old mother at home to support. When civil war broke out in Qi, the two each
+      served a different prince. Prince Xiaobai got home first and took the throne
+      as Duke Huan of Qi, and Guan Zhong was thrown into prison. Duke Huan meant to
+      kill him. Bao Shuya recommended him with all his strength and asked the duke
+      not to hold it against Guan Zhong that he had once shot at him. The duke made
+      Guan Zhong his chief minister and gave him the government. Qi grew rich and
+      strong from then on, and Duke Huan became the first leader of the lords in the
+      Spring and Autumn period.
+  poem_connection:
+    zh: 签诗说鱼和水终于相逢，比喻彼此投合。鲍叔牙荐管仲，桓公信用他，正是君臣相得。
+    en: The lot poem says fish and water meet at last, a figure for two who suit each
+      other. Bao Shuya put Guan Zhong forward and Duke Huan trusted him, a true meeting
+      of ruler and minister.
+- title:
+    zh: 管鮑同經商
+    en: Guan Zhong and Bao Shuya Trade Together
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 管仲和鲍叔牙是好朋友，早年在齐国一起做买卖。管仲家里穷，分钱的时候常常多拿一份。鲍叔牙不认为他贪心，知道他家里负担重，日子艰难。管仲也曾替鲍叔牙办事，反而把事情办坏；三次做官，三次被罢免；三次打仗，三次逃走。鲍叔牙都不觉得他笨，也不觉得他胆小，只当他时运不好。后来鲍叔牙向齐桓公推荐管仲。管仲做了宰相，帮齐国成为强国。管仲说，生他的是父母，真正懂他的是鲍叔牙。后人就把这样互相体谅的交情，叫作管鲍之交。
+    en: Guan Zhong and Bao Shuya were close friends who went into business together
+      in Qi when they were young. Guan Zhong's family was poor, and when they divided
+      the profits he often took an extra share. Bao Shuya did not think him greedy.
+      He knew his friend had a heavy burden at home and hard days. Guan Zhong also
+      did errands for Bao Shuya and spoiled them instead. Three times he took office
+      and three times he was dismissed. Three times he went to war and three times
+      he ran away. Bao Shuya did not think him stupid or cowardly. He only thought
+      his luck was bad. Later Bao Shuya recommended Guan Zhong to Duke Huan of Qi.
+      Guan Zhong became chancellor and helped Qi grow strong. Guan Zhong said that
+      his parents gave him life, but the one who truly understood him was Bao Shuya.
+      Later people called this kind of friendship, in which each man understands and
+      forgives the other, the friendship of Guan and Bao.
+  poem_connection:
+    zh: 这一签说把稳船舵就不致遭风、鱼水终得相逢，正配管鲍二人合伙经商、相知相谅。
+    en: This lot says a steady hand on the helm keeps the wind off, and fish and water
+      meet at last. It fits Guan and Bao going into business together and understanding
+      each other.
+- title:
+    zh: 銅銀指私混銅之偽銀幣
+    en: Fake Silver Coins and Paper Boots
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一条不是人物故事，而是一句老话。铜银指的是拿铜掺进银子、冒充真银的假银币；纸靴指的是用纸糊成、冒充皮靴的假鞋。假银币看上去和真银差不多，用久了才露出铜的颜色；假靴子外表像皮，一沾水就烂。整句话的意思是：拿假银币去买东西，买回来的也是假货；存心蒙骗别人的人，最后反被别人骗去。民间用这句话说明，欺人的人终究自受其害，谁也占不到便宜。这一类题目只取一句俗语的意思，不附会具体的人物和情节，讲的是买卖之间诚信两个字。
+    en: 'This item is not a story about people, but an old saying. Copper-silver means
+      false silver coins, made by mixing copper into silver and passing them off as
+      true silver. Paper boots means false shoes made of paper and passed off as leather.
+      A false silver coin looks much like true silver, and only after long use does
+      the copper color show. False boots look like leather outside, but they fall
+      apart as soon as they touch water. The whole saying means this: if you use false
+      silver to buy things, what you buy is false goods as well. Whoever means to
+      cheat others ends up cheated by others. People used this saying to show that
+      a cheat finally harms himself, and that no one comes out ahead. Titles of this
+      kind take only the sense of a common saying and do not attach it to any certain
+      people or events. What they talk about is trust in buying and selling.'
+  poem_connection:
+    zh: 签诗说长江水阔、行舟要拿稳舵，又说在家多用心。这一题讲欺人反被欺，正与谨慎用心的意思相近。
+    en: The lot poem says the Yangtze is broad and the boatman must hold the rudder
+      steady, and it also says to take more care at home. This title is about the
+      cheater cheated, close to the same caution.

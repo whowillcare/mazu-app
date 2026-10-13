@@ -1,0 +1,369 @@
+id: 20
+lot_number: 20
+ganzhi:
+  zh: 丁卯
+  pinyin: Ding-mao
+title:
+  en: Emperor Yingzong Goes North to the Desert
+  zh: 英宗至漠北
+hexagram:
+  zh: 泽雷随
+  name_and_structure_en: Sui (Lake over Thunder)
+  binary_code: ●○○●●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 英宗至漠北
+    en: Emperor Yingzong Goes North to the Desert
+  variants_en:
+  - Sun Wukong's Calamity of Fire
+  - Xue Dingshan Is Struck by a Flying Dagger
+  - Zhu Bian at Cold Mountain and the Search for a Husband
+  - Su Wu Goes on a Mission
+  - King Wen Pulls the Cart for Taigong
+  variants_zh:
+  - 孫悟空大難火災
+  - 薛丁山中飛刀
+  - 朱弁冷山尋夫
+  - 蘇武出使
+  - 周文王為姜太公拖車
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout - 凡事 了錢。拖尾。不合／作事 無成／家事 恐生孽物／婚姻
+      難合／求財 不得／功名 科運無。難進中／出外 無運。不可／月令 陰邪作病。難遂 (jie_yue_score -16)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements set obstacles on nearly every line - the matter,
+      the money, the name, the household, going out and the month alike; the single
+      opening is phrased as a fortnight's limit, and a started dispute is flagged
+      as running long, which matches the poem's own counsel to draw back.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 了錢。拖尾。不合／作事 無成／家事 恐生孽物／婚姻 難合／求財 不得／功名 科運無。難進中／出外 無運。不可／月令
+      陰邪作病。難遂——整签偏负（jie_yue_score -16）。唯一开口在时限：治病 大命險。半月好、來人 半月到，都以半个月为界；官事 拖尾破財 与籤文「勸君且退」互为印证。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词几乎逐项设阻——事、财、名、家、出行与月令皆然；仅有的开口是一个以半个月为界的说法，而争端一项被点名会拖长，正与籤文叫人不争的那句相应。
+provenance:
+  editorial_note: '*the temple site carries a different group for this lot: 周文王為姜太公拖車.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 前途功名未得意，
+    en: On the road ahead, rank and name are not yet won;
+  - line_number: 2
+    zh: 只恐命內有交加，
+    en: the fear is that this allotment holds a double weight.
+  - line_number: 3
+    zh: 兩家必定防損失，
+    en: Two houses must both stand guard against their losses;
+  - line_number: 4
+    zh: 勸君且退莫咨嗟。
+    en: draw back for now, the poem says - do not sigh.
+keywords:
+  favourable:
+    en:
+    - holding what is gained
+    - pulling back in time
+    - patience with a slow season
+    - keeping a dispute out of the courts
+    zh:
+    - 守住已得的
+    - 及时退一步
+    - 对慢季节有耐心
+    - 不让争端进公堂
+  guarded:
+    en:
+    - advancing before the road opens
+    - dealing two sides at once
+    - spending into a losing venture
+    - sighing at the season instead of waiting
+    zh:
+    - 路还没开就往前冲
+    - 两边的事同时应付
+    - 往一个亏的摊子上添钱
+    - 对着季节叹气而不肯等
+reading_notes:
+- term: 交加
+  pinyin: jiāo-jiā
+  en: 'doubled one on top of the other: trouble added to trouble; two parties locked
+    together; the line leaves both open.'
+  zh: 既是难处叠着难处，也是两方纠缠在一处；这一句把两种读法都留着。
+- term: 兩家
+  pinyin: liǎng-jiā
+  en: 'the two houses: two families or two firms; the two sides of a bargain; the
+    poem does not name who they are.'
+  zh: 既可指两门人家，也可指两家商号，还可指一桩买卖的两边；籤文没有点名是谁。
+- term: 且退
+  pinyin: qiě-tuì
+  en: 'to draw back for now: a temporary step back; a settled change of course; the
+    character 且 means for the time being.'
+  zh: 既是暂时退一步，也可读成就此改道；「且」字带的是「暂且」的意思，两层都在。
+- term: 咨嗟
+  pinyin: zī-jiē
+  en: 'to sigh and lament: grieving over the season; giving up on the matter altogether;
+    the poem restrains the lamenting, not the waiting.'
+  zh: 既是为时运叹息，也含索性放下不管；籤文拦的是叹气，不是等待。
+plain_meaning:
+  en: 'A season in which the road ahead has not opened: rank and reputation are not
+    yet won, and the judgements read loss, delay and compounding difficulty. The counsel
+    is to withdraw rather than advance - guard against loss on both sides of a dispute,
+    hold what is already gained, and leave the ambition for a later turn.'
+  zh: 这一季前程还没开：功名与名声都还没到手，解曰读来是耗、是拖、是难处叠着难处。籤文的意见是退而不是进——防住两边都可能有的损失，守住已经拿到的，把这份心念留给后面的时运。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Do I leave my job now, or wait for the promotion?
+    zh: 我现在该辞职，还是等那个升迁？
+  rewritten_to:
+    en: What should I hold this season, and what should I leave until it turns?
+    zh: 这一季我该守住什么，什么该留到转运再说？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原来是二选一的是非问法，改成先问自己能作主的部分。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A joining is judged hard to bring about and the reading sets two sides against
+      each other; do not force a decision now.
+    zh: 情缘一项读作难以合成，解曰还把两边摆成了对立面；眼下不宜硬下决定。
+    compliance_tag: null
+  career:
+    en: Advancement is not on offer in this reading; hold your position and keep the
+      record clean rather than pushing for the step.
+    zh: 这一读法里没有给出升迁；宜守职、把记录留干净，不要硬去争那一步。
+    compliance_tag: null
+  money:
+    en: The judgements read loss rather than gain, with disputes that run long; hold
+      reserves and settle what you already owe. *(Not financial advice.)*
+    zh: 解曰读作耗多过于得，纠纷还会拖下去；宜留住储备，先把已经欠着的打点清楚。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The reading is serious; take symptoms to a qualified professional rather than
+      waiting them out; the turn named here comes later in the passage, not at the
+      start. *(Not medical advice.)*
+    zh: 这一项解曰看得重；有症状宜现在就交给合格的专业人士，不要拿半个月去赌。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is exposed to upheaval in this reading; keep it steady and keep
+      watch rather than starting anything new inside it.
+    zh: 这一读法里家宅要经动荡；宜稳住、保持看顾，不要在里头新起事端。
+    compliance_tag: null
+  travel_moving:
+    en: Going out and moving house are both closed in this reading; postpone them
+      if the matter can wait.
+    zh: 出门与迁居在这一读法里都是关着的；能等的就先押后。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'Bad water: the boats are judged to lose, and the ponds to come to nothing.
+      Keep the fleet in and work from shore.'
+    zh: 水头不好：船一项读作耗，塭一项读作空；宜收船靠岸，从岸上做。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season does not return what is put into it; keep the work small and commit
+      no new capital or stock.
+    zh: 这一季投下去的解曰不作回收；宜把规模压小，不再添本钱、不再进苗。
+    compliance_tag: null
+  timing:
+    en: Nothing comes early here — the judgements speak of delay, long-running disputes
+      and silence, never of a date.
+    zh: 这里没有「早」字——解曰讲的是迟、拖，以及消息久久不见回来，从不见给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pushing a claim forward; taking on a second obligation; spending into a losing
+      venture.
+    zh: 把索赔往前推；再接下一桩义务；往一个亏的摊子上添钱。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If the reading
+      raises anxiety about money, health or a dispute, please talk it over with someone
+      you trust or a qualified professional.
+    zh: 这说的是一个难走的季节，不是对灾祸的预言。如果这一签让你为钱、身体或一场纠纷不安，请和你信得过的人或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 英宗至漠北
+    en: Emperor Yingzong Goes North to the Desert
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 明英宗朱祁镇在位时，北边的瓦剌部势力正盛。英宗听信宦官王振的主张，亲自带领大军北征，出居庸关，到了大同。用兵不当，又仓促退兵，走到土木堡被瓦剌的追兵围住，明军大败，英宗被俘，王振死在乱军里。也先挟着英宗往北走，出塞到了漠北，先后驻在宣府、大同边外和蒙古各地。明朝随即立郕王为帝，遥尊英宗为太上皇，督兵守住北京，也先无机可乘。英宗在漠北滞留了一年多，后来被也先送回。回京后他被幽禁在南宫，直到景泰帝病危时才重新复位。
+    en: While Emperor Yingzong of Ming, Zhu Qizhen, was on the throne, the Oirat tribes
+      to the north were at their strongest. Yingzong took the advice of the eunuch
+      Wang Zhen and led a large army north himself. He went out through the Juyong
+      Pass and reached Datong. The campaign was badly handled, and the army withdrew
+      in haste. At Tumu Fort the Oirat pursuers surrounded them. The Ming army was
+      routed, Yingzong was taken prisoner, and Wang Zhen died in the confusion of
+      troops. Esen carried Yingzong north with him and went out beyond the frontier
+      to the desert. He stayed at Xuanfu and outside Datong first, then in various
+      places in Mongolia. The Ming court then put the Prince of Cheng on the throne
+      and gave Yingzong the distant title of retired emperor. It kept troops to hold
+      Beijing, so Esen had no opening. Yingzong remained in the north for more than
+      a year and was later sent back by Esen. After his return to the capital he was
+      confined in the Southern Palace, and only when Emperor Jingtai fell gravely
+      ill did he take the throne again.
+  poem_connection:
+    zh: 签诗说功名未得意、命内有交加、劝君且退；英宗北狩漠北、进退两难，正合这一层。
+    en: The poem says office and name have not come, that the fate within holds crossings,
+      and advises the reader to withdraw. Yingzong went north with no way forward
+      or back, which fits.
+- title:
+    zh: 孫悟空大難火災
+    en: Sun Wukong's Calamity of Fire
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝的僧人玄奘带着徒弟往西天取经，一路走到火焰山。这座山火焰腾起，八百里内寸草不生。要过山，得借铁扇公主的芭蕉扇。孙悟空先去借扇，铁扇公主因为儿子红孩儿的事记恨他，一扇把他扇到小须弥山。孙悟空用定风丹再去，变成小虫混进公主肚里，逼她交出扇子，拿到的却是一把假扇，扇下去火反而更旺。第二次他变成铁扇公主的丈夫牛魔王的模样，骗到真扇；牛魔王又变成猪八戒的模样，把扇子骗了回去。第三次孙悟空请来托塔天王、哪咤等人助战，收服了牛魔王，铁扇公主才献出真扇。连扇几十下，火焰山熄灭，师徒得以继续西行。
+    en: Xuanzang and his disciples traveled west to fetch the scriptures, and their
+      road brought them to the Flaming Mountains. Fire rose from that mountain, and
+      for eight hundred li around nothing grew. To cross it they had to borrow the
+      banana fan of Princess Iron Fan. Sun Wukong went first. Because of what had
+      happened to her son, Red Boy, Princess Iron Fan hated him, and one wave of her
+      fan blew him all the way to Mount Xiaoxumi. Sun Wukong took a wind-fixing pill
+      and went again. He turned himself into a small insect, got inside her belly,
+      and forced her to hand over the fan. What she gave him was a fake. When he waved
+      it, the fire only blazed higher. The second time he took the shape of her husband,
+      the Bull Demon King, and by this trick got the real fan. Then the Bull Demon
+      King took the shape of Zhu Bajie and tricked the fan back. The third time Sun
+      Wukong called on the Pagoda-Bearing Heavenly King, Nezha and others to fight
+      at his side, and only then did Princess Iron Fan give up the real fan. After
+      dozens of waves the fire went out, and master and disciples traveled on to the
+      west.
+  poem_connection:
+    zh: 这一签写行路遭阻、进退两难只宜退避，正扣签诗“两家必定防损失，劝君且退莫咨嗟”。
+    en: A road blocked with no good way forward or back, where retreat is the only
+      course, fits a lot whose poem warns both sides to guard against loss and tells
+      the traveler to fall back.
+- title:
+    zh: 薛丁山中飛刀
+    en: Xue Dingshan Is Struck by a Flying Dagger
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛丁山是唐朝名将薛仁贵的儿子，在唐朝西征的故事里是一位主要将领。唐军与西凉相持，对方阵中有善用飞刀的人。飞刀出手时各带名号，能在几十步以外伤人，唐军不少将领都被困住。樊梨花是唐军中的女将，通晓法术。唐军几次设法应付飞刀，都没有占到上风。薛丁山在阵前与敌将相搏，被飞刀打中，身负重伤，几乎脱不了身。后来他与樊梨花结亲，得樊梨花相助，才找到破解飞刀的办法，西征的战局也有了转机。中刀和收刀是这段故事的两面：先是不敌受伤，后来得贵人相助而反转。
+    en: 'Xue Dingshan was the son of the famous Tang general Xue Rengui and a leading
+      commander in the tales of the Tang campaign to the west. The Tang army was locked
+      with Western Liang, and on the other side there was a man skilled with flying
+      daggers. When a dagger flew out it carried its own name with it, and it could
+      wound a man dozens of paces away. Many Tang generals were pinned down by it.
+      Fan Lihua was a woman general in the Tang army who understood magic arts. The
+      Tang side tried several ways to deal with the daggers and gained no advantage.
+      Xue Dingshan fought an enemy general before the lines and was hit by a dagger.
+      He was badly wounded and nearly could not get away. Later he married Fan Lihua,
+      and with her help he found a way to break the daggers, and the western campaign
+      turned. Being struck and stopping the daggers are the two faces of this stretch
+      of the story: at first he could not hold and was wounded, and later a helper
+      turned things round.'
+  poem_connection:
+    zh: 签诗说两家必定防损失，劝君且退莫咨嗟。两军阵前相持，薛丁山中刀受创而退，正合这一层。
+    en: The lot poem says both sides must guard against loss and advises falling back
+      without complaint. Before the lines Xue Dingshan takes the dagger and falls
+      back wounded.
+- title:
+    zh: 朱弁冷山尋夫
+    en: Zhu Bian at Cold Mountain and the Search for a Husband
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱弁是南宋的使臣，早年与王伦一同出使金国，被金人扣下。金人逼他做官，他不肯，被迁到冷山一带住下，一住十几年，靠教书过日子。其间金人屡次拿官爵诱他，他始终不屈。后来他又被迁到燕山。宋代出使金国被留下的不止他一个，洪皓、张邵等人都曾在北方留过十几年，朱弁住冷山的日子是最久的几个之一。他在北方写了些记北宋旧事的文字。题名后半作“冷山寻夫”，讲的是另一件事：一名妇人寻夫，寻到冷山。两层合在一题，情节都只留下几笔。
+    en: Zhu Bian was an envoy of the Southern Song. Early on he went with Wang Lun
+      on a mission to the Jin, and the Jin held him. The Jin pressed him to take office,
+      and he would not, and he was moved to the Cold Mountain area. There he lived
+      for more than ten years and made his living by teaching. The Jin several times
+      tempted him with rank and title, and he never once gave in. Later he was moved
+      again to Mount Yan. He was not the only one kept behind when a mission to the
+      Jin was over. Hong Hao, Zhang Shao and others also spent more than ten years
+      in the north, and Zhu Bian's stay at Cold Mountain was among the longest of
+      them. In the north he wrote pieces recording old matters of the Northern Song.
+      The second half of the title reads searching for a husband at Cold Mountain,
+      and that tells of another matter. A woman looking for her husband found her
+      way to Cold Mountain. The two layers sit together in one title, and only a few
+      strokes of each plot are left.
+  poem_connection:
+    zh: 签诗说“两家必定防损失”，正对朱弁被金人扣住、两家相持、使者久留不归的处境；“劝君且退”也与他守节待归相贴。
+    en: The poem says both houses must guard against loss; Zhu Bian was held by the
+      Jin, the two sides stood off, and the envoy stayed away long, while the counsel
+      to fall back fits his holding to his duty.
+- title:
+    zh: 蘇武出使
+    en: Su Wu Goes on a Mission
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏武字子卿，是汉武帝时的使臣。他以中郎将的身份，持节出使匈奴，去送回被扣在汉地的匈奴使者。符节是使臣出使时带的凭信。到了匈奴以后，他的副手张胜牵连进一场谋反的事，苏武因此被扣下不放。匈奴单于派人劝他投降，许他高官厚禄，苏武不肯。劝降的人拔剑吓他，他也面不改色。匈奴把他关进地窖，不给饮食，他就嚼雪、吞毡毛充饥，竟没有死。后来匈奴又把他送到北海去牧羊，说等公羊生了小羊，才放他回去。苏武在北海牧羊，白天黑夜都拿着汉朝的符节，节上的毛穗都磨掉了。十九年后汉与匈奴和亲，苏武才得回汉，须发全白。
+    en: Su Wu, whose courtesy name was Ziqing, was an envoy in the time of Emperor
+      Wu of Han. As a commandant of the palace guards, he carried the tally of office
+      and went on a mission to the Xiongnu to escort back Xiongnu envoys who had been
+      held in Han lands. A tally was the credential an envoy carried. After he reached
+      the Xiongnu, his deputy Zhang Sheng was drawn into a plot to rebel, and Su Wu
+      was held and not allowed to leave. The Xiongnu chief sent men to urge him to
+      surrender, promising high office and rich pay. Su Wu refused. The man sent to
+      persuade him drew his sword to frighten him, and Su Wu's face did not change.
+      The Xiongnu shut him in a cellar and gave him no food or water. He chewed snow
+      and swallowed felt wool to stay alive, and did not die. Later the Xiongnu sent
+      him to herd sheep at the Northern Sea, saying he would be released when the
+      rams bore lambs. Su Wu herded sheep there, holding the Han tally day and night,
+      until the tassels on it were worn away. Only nineteen years later, when Han
+      and the Xiongnu made peace by marriage, was Su Wu able to return to Han, his
+      beard and hair all white.
+  poem_connection:
+    zh: 签诗“劝君且退莫咨嗟”，正对苏武久被扣留、苦守待归这一段。
+    en: The lot's poem says you should step back and stop sighing. The long detention
+      of Su Wu and his patient wait to go home fit that counsel.
+- title:
+    zh: 周文王為姜太公拖車
+    en: King Wen Pulls the Cart for Taigong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 周文王是周国的君主，姓姬。有一夜他做了一个梦，梦见一头会飞的熊。醒来后他拿这个梦去问人，都说这是要出贤才的兆头。他出外打猎访贤，出发前先占卜，卦象也指向贤人。他赶到渭水边的磻溪，只见钓钩，不见钓鱼的人。他回去后没有急着再去，先让百官斋戒三天。斋戒就是吃素净身，表示郑重。等斋期满了，他自己沐浴更衣，才第二次前往相迎。姜子牙的道号叫飞熊，正与梦里的飞熊相合。文王走到他面前，下了车，步行走近，拜他为丞相。回朝的时候，文王乘车，子牙骑马，一同进城。民间讲这段故事，还添上一节，说文王亲自为姜子牙拉车。这一签说劝君且退莫咨嗟，正配文王再三斋戒、用退让的礼节去请贤者的一段。
+    en: King Wen of Zhou was the lord of the state of Zhou, of the Ji clan. One night
+      he had a dream of a bear that could fly. When he woke he asked people about
+      it, and all said it was a sign that a worthy man would appear. He went out hunting
+      to seek such a man, and divined before he set out. The reading also pointed
+      to a worthy man. He hurried to the Pan Stream by the Wei River, and saw only
+      a fishing hook, no fisherman. When he got back he did not rush out again, but
+      first had his officials fast for three days. Fasting means eating plainly and
+      cleansing the body to show respect. When the fast was over he bathed and changed
+      his clothes himself, and only then went a second time to welcome the man. Jiang
+      Ziya's religious name was Feixiong, Flying Bear, which matched the flying bear
+      in the dream. The king walked to him, got down from his carriage and came on
+      foot, and honored him as his chancellor. On the way back the king rode and Ziya
+      rode a horse, and they entered the city together. The king himself pulled the
+      cart for Jiang Ziya.
+  poem_connection:
+    zh: 这一签说劝君且退莫咨嗟，正配文王再三斋戒、用退让的礼节亲迎贤者的一段。
+    en: This lot says to step back and not to sigh over it - King Wen fasting again
+      and again, using the courtesy of stepping back to welcome a worthy man in person.

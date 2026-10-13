@@ -1,0 +1,334 @@
+id: 3
+lot_number: 3
+ganzhi:
+  zh: 甲辰
+  pinyin: Jia-chen
+title:
+  en: Shen Wansan Digs Up Treasure and Matches Wits with the Zhengde Emperor
+  zh: 沈萬三掘寶與正德君鬥法
+hexagram:
+  zh: 天水讼
+  name_and_structure_en: Song (Heaven over Water)
+  binary_code: ○○○●○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 5
+  primary:
+    zh: 沈萬三掘寶與正德君鬥法
+    en: Shen Wansan Digs Up Treasure and Matches Wits with the Zhengde Emperor
+  variants_en:
+  - Zhou Dewu Enters the Temple and Sees Clearly
+  - Cui Wende and Hu Fengjiao Reach Home with No Wedding
+  - Shi Chong Obtains Green Pearl
+  - Zheng Yuanhe Passes the Examination and Takes Office
+  variants_zh:
+  - 周德武入寺相分明
+  - 崔文德胡鳳嬌到家空成婚
+  - 石崇得綠珠
+  - 鄭元和中舉為官
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements are positive across the board — 凡事 吉／婚姻 大吉／家運 和氣。後得祥瑞／求財
+      後遇貴人大興／築室 大吉, with 後 and 漸 repeated (後科連登。尾有／漸得春風／晚有大利), so the gain is late
+      rather than immediate (jie_yue_score 21)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book is favourable across the whole of this lot — general
+      affairs, undertakings, household, family fortune, marriage, children, income,
+      advancement, the year's ruler, illness, travel, trade, boats, moving house,
+      lost property, legal matters, livestock, field work, building, graves, sea work,
+      ponds, fry, the month's season, finding people and distant news all sit on the
+      positive side, with the good news arriving on the later side throughout; only
+      the legal line leaves room between its two halves. We read it as favourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 吉。／作事 二次成。／家事 餘興且喜。／家運 和氣。後得祥瑞。／婚姻 大吉。／求兒 吉。／六甲
+      先男後女。／求財 後遇貴人大興。／功名 後科連登。尾有。／歲君 安和。／治病 命不畏。平安。／出外 向南方遇貴人。／經商 先利平。後大財。／來人 立即到。／行舟
+      漸得大財。／移居 得安／失物 月光必在。／求雨 過日自有。／官事 不畏。破財。完局。／六畜 可納。／耕作 下冬好。／築室 大吉。／墳墓 永裕後崑。／討海
+      晚有大利。／作塭 和者必獲厚利。／魚苗 後得大利。／月令 漸得春風。／尋人 得回。／遠信 守候佳音。——整签偏正，好处偏晚（後／漸／晚 反复出现）；惟
+      官事 不畏。破財。完局 一句里既说不怕又说破财，留有余地（jie_yue_score 21）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上处处偏正面——总类、作事、家事、家运、婚姻、求儿、子嗣、求财、功名、岁君、治病、出外、经商、行舟、迁居、失物、官事、六畜、耕作、筑室、坟墓、讨海、作塭、鱼苗、月令、寻人、远信都落在正面一侧，只是好处的到来偏后段；官事一项在无惧与耗财之间留有余地。故列为本批的偏正一档。
+provenance:
+  editorial_note: '*the temple site carries a shorter group for this lot: 朱德武入寺相分明;
+    崔文德胡鳳嬌到家空成婚; 沈萬三掘寶與正德君鬥法. This one is primary because the poem speaks of livelihood
+    already sufficient and of meeting the bright pearl (衣祿自有餘／終遇得明珠).*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 勸君把定心莫虛，
+    en: 'I counsel you: hold your heart steady, and do not let it run empty;'
+  - line_number: 2
+    zh: 天註衣祿自有餘，
+    en: clothes and stipend are written in heaven's record, and there is more than
+      enough;
+  - line_number: 3
+    zh: 和合重重常吉慶，
+    en: accord upon accord — this is good fortune again and again;
+  - line_number: 4
+    zh: 時來終遇得明珠。
+    en: when the time comes, one meets the bright pearl at last.
+keywords:
+  favourable:
+    en:
+    - holding a fixed course
+    - the second attempt
+    - growing accord
+    - provision already made
+    zh:
+    - 把定方向
+    - 第二回
+    - 和合渐进
+    - 衣食已足
+  guarded:
+    en:
+    - letting the heart run hollow
+    - quitting before the second try
+    - wanting the pearl before the time
+    - treating the first round as the whole
+    zh:
+    - 让心空落
+    - 第二回之前就收手
+    - 时候未到就要明珠
+    - 拿第一趟当成全部
+reading_notes:
+- term: 把定
+  pinyin: bǎ-dìng
+  en: 'to hold firm, to hold in place: to steady your own heart; to hold a course
+    or a decision fixed; both senses sit in the same phrase.'
+  zh: 一是把自家这颗心拿稳，二是把方向、把决定定住；两层都在同一个词里。
+- term: 衣祿
+  pinyin: yī-lù
+  en: 'clothing and stipend, that is one''s livelihood: the means of living, food
+    and clothes provided; the temple notes that some editions read 姻緣 (marriage) here
+    instead; this edition keeps 衣祿 and does not choose for the reader.'
+  zh: 指衣食生计这份给养；庙本另注，有些版本这里作「姻緣」，本件依底本作「衣祿」，不为读者选边。
+- term: 明珠
+  pinyin: míng-zhū
+  en: 'bright pearl: a treasure found at last, the object of long effort; a person
+    or a match met at last; the poem does not say which.'
+  zh: 既是长久用力最后寻得的宝物，也指最后遇见的人或一段好姻缘；诗里没有说是哪一个。
+plain_meaning:
+  en: 'A steadying lot: the poem tells someone whose heart is running hollow to hold
+    firm, says the means of living are already provided, and points to accord repeated
+    until the bright pearl is met. The judgements reward patience and a second attempt
+    — the gain arrives after the first try, not with it — so keep the ground you have
+    and let the time ripen.'
+  zh: 一支让人定心的签：诗里劝的是心要拿定、不要空落，衣食这份生计本就给足了，又指着一再的和合，直到遇见那颗明珠。判词奖的是耐心和第二回——好处是第一趟之后才到的，不是随着第一趟来；守住手里的地，让时间来成全。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A strongly supported match, with accord heaped on accord; the work is to keep
+      faith while it settles.
+    zh: 这一签对婚配支持很足，和合一层叠一层；要做的是在落定之前守住信义。
+    compliance_tag: null
+  career:
+    en: Advancement comes by stages and on a later round; a steady position serves
+      better than a hurried push.
+    zh: 功名是一段一段来、落在后头那一科；稳稳守着位子，比赶着使劲好。
+    compliance_tag: null
+  money:
+    en: The judgements place the gain where you already stand, arriving with help
+      and after a first pass. *(Not financial advice.)*
+    zh: 判词把进项放在你已站的地方，是带着贵人、过了头一趟才到的。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgements read no danger to life and a return to calm; keep anything
+      ongoing with a professional. *(Not medical advice.)*
+    zh: 判词上命无碍、会回到平安；手上还在治的，继续交给有资质的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household runs on good temper — harmony first, good fortune after.
+    zh: 这一家靠的是好脾气——先和气，后祥瑞。
+    compliance_tag: null
+  travel_moving:
+    en: Going out to the south is favoured and is said to bring help; a change of
+      residence settles well.
+    zh: 往南出门是好的，说是能遇贵人；迁居也落得安稳。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Gain on the water comes late but large; work the season through rather than
+      in one throw.
+    zh: 水路的好处来得晚、来得大；按整季做，不要一把押上。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Stock, ponds and fish fry all read profitable, and the later part of the farming
+      year is the better one.
+    zh: 六畜、作塭、鱼苗都读得有利可图，农事里后半程更好。
+    compliance_tag: null
+  timing:
+    en: The movement is gradual — accord first, the pearl later; no date is given.
+    zh: 动静是渐进的——先和合，后明珠；不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Doubt and second-guessing; expecting the result on the first attempt.
+    zh: 起疑、反复三心二意；指望第一趟就见结果。
+    compliance_tag: null
+  reassurance:
+    en: This is a warm lot; its only demand is patience.
+    zh: 这是一支暖签；它要的只是耐心。
+    compliance_tag: null
+stories:
+- title:
+    zh: 沈萬三掘寶與正德君鬥法
+    en: Shen Wansan Digs Up Treasure and Matches Wits with the Zhengde Emperor
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 沈万三是明代初年江南有名的巨富，苏州、南京一带流传许多关于他的说法。民间说，他起初靠打鱼为生，后来挖到一批埋在地下的财宝，一下子发了大财，从此成了江南一带的首富。他家藏着一只聚宝盆。旧话里说，往盆里放金玉，盆就满起来，所以他的钱财多得数不清。南京城南修筑城墙的事，也说和他出的钱有关，他在这上头出力不小。民间又传说，后来有位皇帝南巡到江南，听说他富有，便同他斗法，各出奇物比试高低。这一段在民间流传也很广。
+    en: Shen Wansan was a famous rich man of Jiangnan in the early Ming dynasty. In
+      the Suzhou and Nanjing regions many sayings grew up about him. Folks said he
+      first made his living by fishing. Later he dug up a batch of treasure buried
+      in the ground. He grew rich at once and became the richest man in Jiangnan.
+      His family kept a treasure-gathering basin. Old tales say that gold and jade
+      put into the basin made it fill up. So his money was too much to count. The
+      building of the city wall south of Nanjing is also said to have been tied to
+      money he gave. He did a great deal there. Folks also tell that a later emperor
+      toured south to Jiangnan. He heard that Shen Wansan was rich and matched wits
+      with him. Each brought out rare things to compare, one against the other. This
+      tale also spread widely among the common people.
+  poem_connection:
+    zh: 签诗“天注衣禄自有余”正合沈万三聚宝盆、掘藏发财之说；“时来终遇得明珠”则对应他掘得窖藏那一节。
+    en: The poem says heaven assigns clothing and income so there is always more than
+      enough, which fits Shen Wansan's treasure basin and dug-up hoard; the line about
+      finding a pearl at last matches the buried treasure he digs out.
+- title:
+    zh: 周德武入寺相分明
+    en: Zhou Dewu Enters the Temple and Sees Clearly
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 周德武是永嘉人，家里穷，靠打柴养活母亲，为人孝顺。他和张瑞英早有姻缘，传说由月老牵线，两人在荒山里见了面。里正是管一乡事务的小吏，却诬告他拐带妇女，后来又有人从中陷害，夫妻二人都被充军到山东。颠沛的路上，张瑞英进了一座寺庙出家为尼，寺庙是僧人修行居住的地方，夫妻从此分开。过了些时候，机缘凑巧，两人在同一座寺里相遇，当面认出了彼此。当初分离的缘由、所受的冤屈，到这时都讲明白了。后来冤情得以洗清，夫妻重新团聚，两地的事才算了结。
+    en: Zhu Dewu was a man of Yongjia. His family was poor, and he supported his mother
+      by cutting firewood, and he was a dutiful son. He and Zhang Ruiying had long
+      been joined in marriage. In the tale the match was made by the Old Man of the
+      Moon, and the two met in the wild hills. The lizheng, a petty officer in charge
+      of a district, falsely accused him of carrying off a woman. Later others plotted
+      against them too, and husband and wife were both sent into exile in Shandong.
+      On the hard road Zhang Ruiying entered a temple and became a nun. A temple is
+      the place where monks and nuns live and practice, and from then on the couple
+      were apart. Some time later chance brought them together in the same temple,
+      and they knew each other face to face. The reason they had been parted and the
+      wrongs they had suffered were all made clear then. Later the false charge was
+      cleared, husband and wife were reunited, and the affairs of the two places were
+      settled.
+  poem_connection:
+    zh: 签诗说时运来时终于得到明珠。夫妻离散多年又在寺中相认，就像重得明珠一样。
+    en: The lot poem says that when the time comes, a bright pearl is gained at last.
+      The couple, long parted, met again in the temple, like a pearl found again.
+- title:
+    zh: 崔文德胡鳳嬌到家空成婚
+    en: Cui Wende and Hu Fengjiao Reach Home with No Wedding
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 胡凤娇和母亲文氏寄住在陵州的表兄崔文德家里。母女两人相依为命，寄人篱下。崔文德一心想娶表妹，对姨母百般孝敬。有一回借着看海棠花的机会，他当面向凤娇提亲。凤娇心意坚决，不肯改口，崔文德只好把婚书退回去。母亲过六十大寿时，凤娇绣了一幅王母蟠桃图当作贺礼。崔文德却当着众人的面说，这是自己的妻子胡氏绣的。众人纷纷称好，婚事又被提了起来。凤娇还是不肯回心，最后投江自尽，以成全自己的名节。她被接到崔家，这门亲事终究没有成。
+    en: Hu Fengjiao and her mother, whose family name was Wen, were staying with her
+      cousin Cui Wende in Lingzhou. Mother and daughter depended on each other and
+      lived under another family's roof. Cui Wende wanted to marry his cousin, and
+      he was all courtesy toward his aunt. Once, using the chance of looking at crab-apple
+      blossoms, he proposed to Fengjiao face to face. Fengjiao's mind was firm and
+      she would not change her word, so Cui Wende had to return the marriage contract.
+      When her mother turned sixty, Fengjiao embroidered a picture of the Queen Mother
+      of the West with peaches of immortality as a birthday gift. Cui Wende, in front
+      of everyone, said it was embroidered by his own wife, of the Hu family. The
+      guests praised it, and the marriage was raised again. Fengjiao still would not
+      change her heart, and in the end she threw herself into the river to keep her
+      honor. She was brought to the Cui house, but the match never came to anything.
+  poem_connection:
+    zh: 这一签说把定心意、莫要心虚，正配胡凤娇不改其志、到家成婚却终究落空。
+    en: This lot says hold your resolve and do not let your heart waver. It fits Hu
+      Fengjiao refusing to change her mind and the wedding at the house coming to
+      nothing.
+- title:
+    zh: 石崇得綠珠
+    en: Shi Chong Obtains Green Pearl
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 绿珠是白州人，生得美貌，又善于吹笛。石崇是西晋的巨富，做过荆州刺史，家财雄厚，在洛阳建了一座金谷园，园里宾客往来，是洛阳有名的地方。明珠是当时难得的宝物，他用几斛明珠买下绿珠做妾，对她十分宠爱。当时赵王司马伦把持朝政，他的党羽孙秀向石崇索取绿珠，石崇不肯给。孙秀就劝司马伦杀掉石崇，假传诏令来抓人。石崇正在楼上宴饮，被抓时说自己获罪，全是因为绿珠。绿珠听了，从楼上跳下而死。石崇一家后来也都遭到杀害。
+    en: Green Pearl was a woman of Baizhou. She was beautiful and skilled at the flute.
+      Shi Chong was a man of great wealth in the Western Jin. He had served as inspector
+      of Jingzhou, and his fortune was huge. He built Golden Valley Garden in Luoyang.
+      Guests came and went there, and it was a famous place in the city. Pearls were
+      a rare treasure in those days. He bought Green Pearl as a concubine for several
+      measures of pearls. He was very fond of her. At that time Prince Sima Lun of
+      Zhao held the court in his hand. His follower Sun Xiu asked Shi Chong for Green
+      Pearl, and Shi Chong refused to give her up. Sun Xiu then urged Sima Lun to
+      put Shi Chong to death. He had an order forged to arrest him. Shi Chong was
+      feasting upstairs. When he was taken, he said that he had fallen into trouble
+      entirely because of Green Pearl. When she heard this, she threw herself from
+      the upper floor and died. Shi Chong's whole household was later put to death
+      as well.
+  poem_connection:
+    zh: 这一签的签诗说把心把定，命中该有的衣禄自然有余，时候到了终会遇到明珠。题面就是“得绿珠”，讲的正是以明珠换人。
+    en: The poem says to set your heart firm; the clothes and food you are owed come
+      to more than enough, and in time you meet the pearl. The title itself is obtaining
+      Green Pearl.
+- title:
+    zh: 鄭元和中舉為官
+    en: Zheng Yuanhe Passes the Examination and Takes Office
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 郑元和是荥阳公的儿子，到京城长安应试。他爱上长安的名妓李娃，把钱财花光了，被鸨母设局赶出门，流落在丧事铺子里做挽郎，替人唱挽歌。父亲进京得知，气得把他打得几乎死去。郑元和醒后沦为乞丐，一路讨饭，讨到李娃门前。李娃念着旧情，替自己赎了身，租屋住下，替他调养身体。等他身强体健，又买书劝他读书，陪他读到深夜。郑元和接连考中，做了成都府的参军。李娃自请退为婢妾，郑元和不肯；后来得到父亲的许可，两人成婚，李娃受封汧国夫人。
+    en: Zheng Yuanhe was the son of the Duke of Xingyang and went to the capital Chang'an
+      for the examinations. He fell in love with Li Wa, a famous courtesan of Chang'an,
+      and spent all his money. The madam set a trap and had him thrown out. He drifted
+      into an undertaker's shop and worked as a mourner, singing laments for the dead.
+      His father came to the capital, learned of it, and beat him so badly that he
+      nearly died. Zheng Yuanhe woke up a beggar and lived by asking alms from door
+      to door. One day he begged at Li Wa's gate. Li Wa remembered their old bond,
+      bought her own freedom, rented a house, and nursed him back to health. When
+      he had recovered, she bought books and urged him to study, sitting with him
+      late into the night. Zheng Yuanhe passed the examinations one after another
+      and became an army administrator in the Chengdu prefecture. Li Wa asked to step
+      down to the rank of a maidservant concubine, and he refused. Later, with his
+      father's consent, the two married, and Li Wa was given the title Lady of Qian.
+  poem_connection:
+    zh: 签诗说把定心莫虚、时来终遇明珠；郑元和苦读登第、终得显达，正合这一层。
+    en: The poem says to set the heart firm and not be anxious, and that in time one
+      meets the pearl. Zheng Yuanhe studied through hardship, passed, and rose, which
+      fits.

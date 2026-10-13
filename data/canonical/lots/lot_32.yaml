@@ -1,0 +1,516 @@
+id: 32
+lot_number: 32
+ganzhi:
+  zh: 己卯
+  pinyin: Ji-mao
+title:
+  en: Dragon and Tiger Cross Before the Gate
+  zh: 龍虎交會
+hexagram:
+  zh: 山雷颐
+  name_and_structure_en: Yi, Nourishment (Mountain over Thunder)
+  binary_code: ○●●●●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 11
+  primary:
+    zh: 龍虎交會
+    en: Dragon and Tiger Cross Before the Gate
+  variants_en:
+  - Gaisuwen Meets General Xue
+  - The Brothers Meet at the Xuanwu Gate
+  - Duke Zhuang of Zheng Crushes His Brother Duan
+  - Wu She Is Seized
+  - Liu Bei Enters Wu to Wed
+  - Sun Bin Trapped in the Five-Thunder Array
+  - Chang He Recommends Ma Zhou
+  - Meng Jiang-nü Brings Winter Clothes
+  - Luo Hongxun Returns to Yangzhou
+  - Shen Zi Returns to Chu
+  variants_zh:
+  - 蓋蘇文遇薛將軍
+  - 玄武門太子秦王兄弟相會
+  - 鄭莊公克弟段
+  - 伍奢被拿
+  - 劉先主入東吳
+  - 孫臏陷五雷陣
+  - 常何薦馬周
+  - 孟姜女送寒衣
+  - 駱宏勳返揚州
+  - 申子歸楚。
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout — 凡事 退卻／婚姻 不吉／求財 失利虧本／經商 了錢／功名
+      無望／移居 大不好／月令 不遂 (jie_yue_score −13)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements come out against the matter on marriage, money,
+      advancement, travel, moving house and the month's affairs alike; only the illness
+      entry leaves room for the young. The lot is read as protective.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 退卻／作事 難得成功／家運 多口舌之災／婚姻 不吉／六甲 防小產。子息虛／求財 失利虧本／功名
+      無望／經商 了錢／行舟 無利。了工／移居 大不好／失物 難尋／官事 了錢拖尾／耕作 不可／築室 必退敗／討海 徒勞／作塭 失運虧本／月令 不遂。总评：整签偏负（jie_yue_score
+      −13），仅治病「少者好」留了一线余地。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在婚姻、求财、功名、出外、移居、月令六项上都偏向阻隔，唯治病一项对年少者留有余地；整签按保守取向读。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「龍虎相交在門前 (维基文库; mznn; 91chouqian; temple01 好廟網)」→「龍虎相交前門前
+    (feishuai)」, majority — one source reads 前門前, which changes the sense and not
+    the reading.
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 龍虎相交在門前，
+    en: Dragon and tiger cross before the gate;
+  - line_number: 2
+    zh: 此事必定兩相連，
+    en: and this matter is tied to both of them;
+  - line_number: 3
+    zh: 黃金忽然變成鐵，
+    en: gold has suddenly turned to iron —
+  - line_number: 4
+    zh: 何用作福問神仙。
+    en: so what is the use of making merit and asking the gods?
+keywords:
+  favourable:
+    en:
+    - standing back from the crossing
+    - keeping the two parties apart
+    - seeing a bad exchange early
+    zh:
+    - 从交锋处退开
+    - 把两方隔开
+    - 早看出这桩交换不划算
+  guarded:
+    en:
+    - getting between two powers
+    - buying the look of gold
+    - expecting value where the metal has changed
+    - making merit as a bargain
+    zh:
+    - 夹在两股势力中间
+    - 把好看的外相当真金买下
+    - 还指望已经变质的价值
+    - 把做福当成一笔交易
+reading_notes:
+- term: 兩相連
+  pinyin: liǎng-xiāng-lián
+  en: '"bound to both": at once *the two parties are linked* and *one thing drags
+    in another*; You cannot take one without the other.'
+  zh: 既读作「两方被拴在一起」，也读作「一件事拖出另一件」；取其一必带其二。
+- term: 龍虎
+  pinyin: lóng-hǔ
+  en: 'dragon and tiger: in this book the pair are *rival powers meeting*, not a happy
+    match; The temple judgements carry the sour reading.'
+  zh: 在本签里指两股势力相遇相争，不是好搭档、好姻缘；庙本判词取的是其中酸苦的那一面。
+- term: 作福
+  pinyin: zuò-fú
+  en: 'to make merit: the line does not say the gods refuse you; it says merit is
+    not a way to reverse this exchange.'
+  zh: 指修福、求神明保佑。这一句不是说神明不受你，而是说做福不是把这桩交换倒回来的办法。
+plain_meaning:
+  en: 'Two powers are meeting at your gate and you are bound to both: what looked
+    like gold is turning to iron, and asking for blessing will not reverse the exchange.
+    The counsel is to withdraw from the crossing and settle for what you still hold.'
+  zh: 两股势力在你门前对上了，而你被两边同时拴着：看着像金子的东西正变成铁，做福求神也换不回这桩交换。诗里的做法是从这场交锋里退开，守住手上还剩的那些。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will I win this dispute?
+    zh: 我会不会赢这场争执？
+  rewritten_to:
+    en: Where should I stand in this, and what should I keep out of?
+    zh: 在这件事上我该站在什么位置，又该不碰什么？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问是封闭式的是非题，改为可以行动的定位问题。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Not a good season to join two households; the bond being proposed is drawn
+      tight before it is tested.
+    zh: 这不是把两家结在一起的好时节；正在谈的这门结合，绳子还没试就先绷紧了。
+    compliance_tag: null
+  career:
+    en: Do not get between two parties at work; keep your own position separate and
+      quiet.
+    zh: 工作里不要夹在两方之间；把自己的位置单独放好，安静守着。
+    compliance_tag: null
+  money:
+    en: What looks like a gain is turning; do not buy the appearance, and do not commit
+      on someone's assurance. *(Not financial advice.)*
+    zh: 看着像进项的东西正在转向；别买表象，也别听人一句口头担保就把钱投进去。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A long-running complaint that eases for the young; have it attended to rather
+      than endured. *(Not medical advice.)*
+    zh: 这是个拖着不走的毛病，年少者身上轻些；去找人诊治，不要硬扛。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Quarrels and bad temper in the household; keep out of the argument rather
+      than win it.
+    zh: 家里口角多、脾气冲；别去赢这场争论，躲开就好。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out; journeys now meet trouble on the road.
+    zh: 签诗说不要动身；此时出门，路上多生波折。
+    compliance_tag: null
+  sea_and_voyage:
+    en: No profit on the water this season and the work is wasted; keep the boat tied.
+    zh: 这一季水上没有进益，工夫也是白费；把船拴住。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Not the season to work new ground; the effort goes out and nothing comes back.
+    zh: 不是开新地的时节；力气出去了，收不回来。
+    compliance_tag: null
+  timing:
+    en: Hold off while the two are crossing — a season, never a date.
+    zh: 两方交会之际先按住——只讲季节，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Standing between two powers; taking the appearance of gold for gold.
+    zh: 站在两股势力中间；把金子的外相当真金收下。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这讲的是一段难过的时节，不是预告有祸。若这一签让你心里不安或为钱发愁，请找信得过的人或专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 龍虎交會
+    en: Dragon and Tiger Cross Before the Gate
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 东汉末年，天下分成几股势力。刘备占着荆州一带，孙权据有江东。刘备的妻子甘夫人刚去世。孙权早就想把荆州讨回去，听说这事，便设下一个局：假意把妹妹嫁给刘备，请他到东吴来做女婿，想把他扣在手里。刘备的军师诸葛亮早看穿了这一计。他交给大将赵云三个锦囊，要赵云随行保护刘备，到紧要关头再拆开。锦囊是装字条的小布袋。刘备一行人到了东吴，照计行事，先去拜见孙权的母亲吴国太。吴国太做主，把招亲办成了真事，孙权的妹妹真的嫁给了刘备。孙权和大将周瑜几次想扣住刘备，都被孙夫人和赵云挡了回去。最后刘备带着孙夫人一起回到荆州。后人便有了周郎妙计安天下、赔了夫人又折兵的说法。周郎就是周瑜。这一签头一句就是龙虎相交在门前，说的正是刘备与东吴两强在门前相会、事情彼此牵连的一段。
+    en: 'At the end of the Eastern Han the empire was split among several powers.
+      Liu Bei held the Jingzhou area and Sun Quan held Jiangdong. Liu Bei''s wife,
+      Lady Gan, had just died. Sun Quan had long wanted Jingzhou back. Hearing of
+      this, he set a scheme: he pretended to marry his sister to Liu Bei and invited
+      him to Wu to be a bridegroom, meaning to hold him there. Liu Bei''s strategist
+      Zhuge Liang had seen through the plan already. He gave the general Zhao Yun
+      three brocade bags and told him to go with Liu Bei and open them only at the
+      critical moment. A brocade bag was a small cloth bag holding a written note.
+      Liu Bei and his people reached Wu and acted by the plan, going first to pay
+      their respects to Sun Quan''s mother, the Dowager of Wu. The dowager decided
+      the matter, and the marriage became real. Sun Quan''s sister did marry Liu Bei.
+      Sun Quan and the general Zhou Yu tried several times to hold Liu Bei, and each
+      time Lady Sun and Zhao Yun blocked them. In the end Liu Bei took Lady Sun back
+      to Jingzhou with him. Later people made a saying about Zhou Lang''s clever plan
+      and losing both the lady and the soldiers. Zhou Lang is Zhou Yu.'
+  poem_connection:
+    zh: 这一签首句即龙虎相交在门前，又此事必定两相连，正配刘备与东吴两强相会、事端彼此牵连的一段。
+    en: This lot opens with the dragon and tiger meeting before the gate and says
+      the matter surely ties the two together - Liu Bei and Wu meeting at the gate,
+      their affairs caught up with each other.
+- title:
+    zh: 蓋蘇文遇薛將軍
+    en: Gaisuwen Meets General Xue
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 盖苏文是唐朝东征高丽时守方的元帅。他勇猛善战，会用飞刀，飞刀出手时各带名号，能在几十步以外伤人，唐军许多将领都被他困住。唐太宗亲征高丽，薛仁贵以一名穿白袍的年轻将领上阵，屡立战功，军中称他白袍将军。唐军将领轮番上阵，都被飞刀逼得退回本阵。双方隔着阵前一片空地相望，一时相持不下。盖苏文与薛仁贵在阵前相遇，一战再战。盖苏文的飞刀一度让薛仁贵吃亏。后来唐军找到破解飞刀的办法，盖苏文终于战败，东征之役就此平定。盖苏文死后，他的几个儿子争权相攻，高丽也由此被唐朝所灭。
+    en: Gaisuwen was the defending marshal when the Tang campaigned east against Goguryeo.
+      He was brave and skilled in war, and he used flying daggers. Each dagger flew
+      out with its own name, and it could wound a man dozens of paces away. Many Tang
+      generals were pinned down by him. Emperor Taizong of Tang led the campaign in
+      person. Xue Rengui, a young general in a white robe, took the field and won
+      merit again and again. The army called him the White-Robed General. Tang generals
+      went up in turn and were all driven back by the daggers. The two sides faced
+      each other across the open ground before the lines, at a standstill. Gaisuwen
+      and Xue Rengui met before the lines and fought again and again. The flying daggers
+      once gave Xue Rengui trouble. Later the Tang army found a way to break the daggers.
+      Gaisuwen was defeated at last, and the eastern campaign was settled. After Gaisuwen
+      died, his sons fought each other for power, and Goguryeo was destroyed by Tang.
+  poem_connection:
+    zh: 签诗说龙虎相交在门前，此事必定两相连，黄金忽然变成铁。两强相遇、形势翻转，正合这一节。
+    en: The lot poem has dragon and tiger meeting at the gate, the matter surely bound
+      together, and gold suddenly turning to iron. Two strong men meet and the balance
+      flips.
+- title:
+    zh: 玄武門太子秦王兄弟相會
+    en: The Brothers Meet at Xuanwu Gate
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝初年，太子李建成和秦王李世民是亲兄弟，各有一批人马，彼此越闹越僵。建成与弟弟齐王李元吉结成一伙，几次三番要削去秦王府的兵将和谋臣。太白星在白昼出现，管天文历法的大臣傅奕密奏，说秦王该得天下。唐高祖想让兄弟几个当面对质。李世民带着长孙无忌、尉迟敬德、房玄龄、杜如晦等人，在宫城北门玄武门埋下伏兵。建成和元吉入朝，走到临湖殿，看出苗头不对，拨马就要往回走。李元吉拉弓,连拉三次都拉不满。李世民一箭射中李建成，当场毙命。尉迟敬德带骑兵追上李元吉，把他杀死。事后高祖下诏，立李世民为太子，军国大事都交给他，不久又传了位，就是唐太宗。建成、元吉的几个儿子也都被杀。
+    en: In the early years of the Tang, Crown Prince Li Jiancheng and Li Shimin, Prince
+      of Qin, were full brothers, each with a body of men behind him. The two sides
+      grew more and more strained. Jiancheng joined with his younger brother Li Yuanji,
+      Prince of Qi. Again and again they tried to strip the Prince of Qin's household
+      of soldiers and advisers. Venus appeared in broad daylight. Fu Yi, the minister
+      in charge of astronomy and the calendar, sent up a secret report that the Prince
+      of Qin should have the realm. Emperor Gaozu wanted the brothers to face each
+      other and talk. Li Shimin took Zhangsun Wuji, Yuchi Gong, Fang Xuanling, Du
+      Ruhui and others. He set an ambush at Xuanwu Gate, the north gate of the palace
+      city. Jiancheng and Yuanji came to court, reached the Linhu Hall, saw that something
+      was wrong, and turned their horses to go back. Yuanji drew his bow, and three
+      times running could not pull it full. Li Shimin hit Li Jiancheng with one arrow,
+      killing him on the spot. Yuchi Gong rode after Li Yuanji with cavalry and killed
+      him. Afterwards Gaozu issued an edict making Li Shimin crown prince and handing
+      him the armies and affairs of state. He soon passed him the throne, and Li Shimin
+      was Emperor Taizong. The sons of Jiancheng and Yuanji were killed as well.
+  poem_connection:
+    zh: 签诗说“龙虎相交在门前，此事必定两相连”，故事取兄弟相会于宫城北门玄武门一段，两方势均力敌而相斗，正合龙虎相交之语。
+    en: The poem says dragon and tiger meet at the gate and that the two are bound
+      together; the brothers meet at Xuanwu Gate, the palace's north gate, evenly
+      matched and at blows.
+- title:
+    zh: 鄭莊公克弟段
+    en: Duke Zhuang of Zheng Defeats His Brother Duan
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 郑武公娶申国的女子武姜为妻。武姜生大儿子时难产，因此不喜欢他，偏爱小儿子共叔段，多次请求改立段为太子，武公没有答应。大儿子即位，就是郑庄公。武姜替段请求封地，庄公不肯给险要的制邑，改把京邑封给段。段在京邑加高城墙、整顿甲兵、扩充人马，还与母亲约好，准备里应外合，袭击郑国的都城。臣下多次报告，庄公一直按兵不动，说段做的不义之事多了，自会垮掉。等段快要起兵，庄公才派子封率战车二百乘去讨伐。京城的人反叛段，段先逃到鄢，再逃到共，从此流亡在外。事后庄公把母亲安置到城颍，发誓不到黄泉不再相见，不久又后悔。颍考叔献计挖地见到泉水，让母子在地道里相见，两人和好如初。
+    en: Duke Wu of Zheng married Wu Jiang, a woman of the state of Shen. Wu Jiang
+      had a hard labor when her elder son was born, so she disliked him. She favored
+      her younger son, Gongshu Duan, and asked several times to make Duan the heir.
+      Duke Wu did not agree. The elder son took the throne and became Duke Zhuang
+      of Zheng. Wu Jiang asked for a fief for Duan. Duke Zhuang would not give him
+      the strategic town of Zhi. Instead he gave Duan the town of Jing. At Jing, Duan
+      raised his walls higher, drilled armored troops, and enlarged his forces. He
+      also arranged with his mother to attack the Zheng capital from inside and outside
+      at once. Officials reported this many times. Duke Zhuang kept his troops still
+      and said that Duan was doing too many unjust things, and would ruin himself.
+      Only when Duan was about to raise troops did Duke Zhuang send Zifeng with two
+      hundred chariots to attack him. The people of Jing turned against Duan. Duan
+      fled first to Yan and then to Gong, and lived out his life in exile. Afterward
+      Duke Zhuang settled his mother at Chengying and swore not to see her again until
+      they met in the underworld. He soon regretted it. Ying Kaoshu proposed digging
+      down until water was reached, so that mother and son could meet in a tunnel,
+      and they made up as before.
+  poem_connection:
+    zh: 签诗“龙虎相交在门前”“黄金忽然变成铁”，正对骨肉相争、由亲变仇这一段。
+    en: The lot's poem speaks of dragon and tiger meeting before the gate, and of
+      gold suddenly turning into iron. That fits kin fighting kin and closeness turning
+      into enmity.
+- title:
+    zh: 伍奢被拿
+    en: Wu She Is Arrested
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 春秋时期，楚国的国君是楚平王。伍奢做太子建的太傅，也就是太子的老师；费无忌做少傅，是副手。费无忌得不到太子的欢心，就在平王面前说太子和伍奢的坏话。平王发怒，召伍奢来责问。伍奢直说太子没有罪过，于是被关进牢里。费无忌又进言说，伍奢有两个儿子，一个叫伍尚，一个叫伍员，都很有本事，若不一起除掉，必定成为楚国的祸患。平王便叫人告诉伍奢：能把两个儿子叫来，就让他活；叫不来，就处死。伍奢知道大儿子伍尚为人厚道，听到召唤就会来；小儿子伍员性情刚强能忍，能成大事，一定不肯来。伍尚果然应召而来，同父亲一起被杀。伍员逃往吴国，后来带吴国的兵打回楚国都城，报了父兄的仇。
+    en: 'During the Spring and Autumn period, the ruler of Chu was King Ping of Chu.
+      Wu She served as tutor to Crown Prince Jian, that is, the prince''s teacher.
+      Fei Wuji served as junior tutor, the deputy. Fei Wuji had lost the prince''s
+      favor, so he spoke ill of the prince and of Wu She before King Ping. The king
+      grew angry and summoned Wu She to answer for it. Wu She said plainly that the
+      prince had done no wrong. So he was thrown into prison. Fei Wuji then advised
+      the king. He said Wu She had two sons, Wu Shang and Wu Yuan, and both were capable.
+      Unless all were removed, he said, they would become a disaster for Chu. King
+      Ping had a man tell Wu She this: if you can call your two sons here, you live;
+      if not, you die. Wu She knew that his elder son Wu Shang was upright and would
+      come when called. His younger son Wu Yuan was tough and patient, able to do
+      great things, and would surely refuse. Wu Shang indeed came at the call and
+      was killed together with his father. Wu Yuan, that is, Wu Zixu, fled to Wu.
+      Later he brought Wu''s army back to the Chu capital and avenged his father and
+      brother.'
+  poem_connection:
+    zh: 签诗“龙虎相交在门前”“此事必定两相连”，写牵连及身、事势相连，正合伍奢被囚而祸连二子一事。
+    en: The poem's lines about dragon and tiger meeting before the gate and the matter
+      being linked fit Wu She jailed and the trouble spreading to both his sons.
+- title:
+    zh: 劉先主入東吳
+    en: Liu Bei Enters Eastern Wu
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赤壁之战以后，孙权和刘备为荆州的归属争得很凶。荆州在长江中游，是兵家必争之地。东吴的大将周瑜出了个主意：假装把孙权的妹妹许配给刘备，骗他到东吴成亲，再把他扣下来换荆州。刘备照诸葛亮教的法子办。他先去见周瑜的岳父乔国老，又把事情告诉孙权的母亲吴国太。吴国太在甘露寺见了刘备，觉得他仪表堂堂，当场同意这门亲事。孙权和周瑜的算计就落了空。成亲以后，刘备在东吴过得很安逸。赵云依计谎报荆州有急事，刘备带着孙夫人一起离开，追兵没能赶上。
+    en: After the battle of Red Cliff, Sun Quan and Liu Bei fought hard over who owned
+      Jingzhou. Jingzhou lay on the middle reaches of the Yangtze River and was a
+      place every strategist wanted. Zhou Yu, a great general of Eastern Wu, thought
+      of a plan. He would pretend to promise Sun Quan's sister in marriage to Liu
+      Bei. In that way they would trick Liu Bei into coming to Eastern Wu for the
+      wedding, and then hold him there in exchange for Jingzhou. Liu Bei did as Zhuge
+      Liang had taught him. First he went to see Qiao Guolao, the father-in-law of
+      Zhou Yu. Then he told the whole matter to the Dowager of Wu, Sun Quan's mother.
+      the Dowager of Wu met Liu Bei at the Ganlu Temple. She found him fine in bearing
+      and agreed to the marriage on the spot. The scheme of Sun Quan and Zhou Yu came
+      to nothing. After the wedding, Liu Bei lived at ease in Eastern Wu. Zhao Yun
+      followed the plan and sent a false report that Jingzhou was in urgent trouble.
+      Liu Bei left with Lady Sun. The pursuers could not catch up with them.
+  poem_connection:
+    zh: 签诗说龙虎在门前相交，两件事必定连在一起。孙刘两家一面联姻一面争斗，正合刘备入东吴。
+    en: The lot poem says dragon and tiger meet before the gate, and two matters are
+      bound to come together. The Sun and Liu houses married and fought at once, which
+      is just Liu Bei's entry into Eastern Wu.
+- title:
+    zh: 孫臏陷五雷陣
+    en: Sun Bin Falls into the Five-Thunder Formation
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孙膑是战国时齐国的军师。他和同门师兄庞涓本是一起学艺的师兄弟。庞涓忌妒他的才能，设计陷害他，还对他用了砍去双脚的刑罚。孙膑装疯卖傻，才逃出一条性命。后来秦国要吞并六国，秦国的将军王翦带兵四处征战。孙膑为了报仇，也为了保住齐国，出来与王翦对阵。两边斗法、斗宝、斗阵，你来我往，一时难分高下。阵里设有阴坑、雷火一类的机关。人一旦走进阵去，就被困住，难以脱身。他一时大意，陷进了王翦布下的五雷阵，被困在阵中。
+    en: Sun Bin was military adviser to the state of Qi in the Warring States period.
+      He and his fellow student Pang Juan had studied under the same master, like
+      brothers. Pang Juan was jealous of his ability, set a trap for him, and had
+      him punished by having his feet cut off. Sun Bin feigned madness and stupidity
+      and so escaped with his life. Later Qin moved to swallow the six states, and
+      the Qin general Wang Jian led troops on campaigns everywhere. Sun Bin, to take
+      revenge and to protect Qi, came out to face Wang Jian. The two sides contended
+      with magic, with treasures, and with battle formations, trading blows back and
+      forth with no clear winner for a time. The formations held traps such as hidden
+      pits and thunder fire. Once a man walked into the formation he was trapped and
+      could hardly get out again. Sun Bin was careless for a moment and fell into
+      the five-thunder formation Wang Jian had laid, and was held inside it.
+  poem_connection:
+    zh: 这一签以龙虎相交起句，孙膑与王翦同出师门而相斗，正合龙虎相争；陷阵受困，也照由顺转逆。
+    en: This lot opens with dragon and tiger meeting. Sun Bin and Wang Jian came from
+      the same school and fought, which suits dragon and tiger contending. Being trapped
+      in the formation also mirrors the turn from smooth to adverse.
+- title:
+    zh: 常何薦馬周
+    en: Chang He Recommends Ma Zhou
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 马周是博州茌平人，小时候死了父亲，家里穷，却喜欢读书。他做过州里的助教，不受当地人看重，就辞了职往西去，进了唐朝的都城长安。到了长安，他寄住在中郎将常何家中做门客。唐太宗下令让百官上书，议论朝政的得失。常何是行伍出身，不擅长写文章，就请马周代笔。马周替他写了二十多条，条条切中事理。太宗看了觉得奇怪，常何一向不会写文章，怎么忽然写得这样好。常何如实说是门客马周写的。太宗当天就召见马周，谈得十分高兴，让他到门下省任职。马周后来屡次升迁，做到中书令，成了贞观年间的名臣。
+    en: 'Ma Zhou was a man of Chiping in Bozhou. His father died when he was small.
+      The family was poor, but he loved to read. He served as an assistant teacher
+      in the prefecture. The local people did not think much of him, so he gave up
+      the post. He went west to Chang''an, the capital of the Tang. In Chang''an he
+      lodged as a retainer in the house of Chang He, a general of the palace guards.
+      Emperor Taizong ordered the officials to send up written advice on the state
+      of government. Chang He came from the ranks of soldiers and was no hand at writing.
+      So he asked Ma Zhou to write for him. Ma Zhou wrote more than twenty points
+      for him, and every point struck at the heart of the matter. Taizong found it
+      strange. Chang He had never been able to write, so how had he suddenly done
+      so well? Chang He told the truth: his retainer Ma Zhou had written it. That
+      same day Taizong summoned Ma Zhou. They talked and he was greatly pleased. He
+      had Ma Zhou serve in the Chancellery. Ma Zhou rose again and again, until he
+      was director of the Secretariat.'
+  poem_connection:
+    zh: 这一签的签诗说龙虎在门前相交，两件事必定相连。马周正是常何门下的门客，靠常何引荐才与明君相遇，“荐”字就是相连的意思。
+    en: The poem says dragon and tiger meet before the gate, and two things are surely
+      joined. Ma Zhou was Chang He's retainer, and only through Chang He did he meet
+      a wise ruler.
+- title:
+    zh: 孟姜女送寒衣
+    en: Meng Jiangnu Carries Winter Clothes to the Wall
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: 25
+  narrative: null
+  poem_connection:
+    zh: 签诗说所盼忽然变样、求神无益；孟姜女千里送衣而人已不在，正合这一层。
+    en: The poem says what was hoped for suddenly changes shape and that praying for
+      help brings nothing. Meng Jiangnu carried clothes far to a man already gone,
+      which fits.
+- title:
+    zh: 駱宏勳返揚州
+    en: Luo Hongxun Returns to Yangzhou
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 骆宏勋是将门人家的儿子，家住扬州。他跟花家、鲍家一班走江湖的义士交好，因此招来武周朝中奸臣和党羽的忌恨。他屡次被人骗去赴约，中了埋伏，又因人命官司坐过牢，家宅也被人烧过，几回落难，又几次被人救出来。花碧莲自幼跟着父亲花振芳学武，走南闯北，她和骆宏勋订下婚约，中间经历许多波折。最后骆宏勋历经患难，回到扬州，与家人相聚，花碧莲也嫁进骆家。他家中遭过不少患难，也得到过不少人的救助。花碧莲的父亲花振芳，也是走江湖的武人。
+    en: Luo Hongxun was the son of a military family and lived in Yangzhou. He was
+      on good terms with a band of honorable men who roamed the country, the Hua family
+      and the Bao family among them. That friendship earned him the hatred of the
+      treacherous ministers and their followers at the court of Wu Zetian's Zhou dynasty.
+      He was tricked into keeping appointments and walked into ambushes more than
+      once. He was jailed over a case of murder. His house was set on fire. Several
+      times he fell into disaster, and several times people rescued him. Hua Bilian
+      had learned martial arts from her father, Hua Zhenfang, since childhood, and
+      she traveled far and wide. She and Luo Hongxun were betrothed, and their road
+      to marriage held many turns. In the end Luo Hongxun came through his troubles,
+      returned to Yangzhou, and rejoined his family, and Hua Bilian married into the
+      Luo house. His household met with much hardship, and it also received help from
+      many people. Hua Zhenfang, her father, was himself a fighting man who roamed
+      the country.
+  poem_connection:
+    zh: 这一签写骨肉亲族历经患难之后重新聚首，正扣签诗“龙虎相交在门前，此事必定两相连”。
+    en: Kin and clan meeting again after long hardship fits a lot whose poem speaks
+      of dragon and tiger meeting at the gate and of two things bound together.
+- title:
+    zh: 申子歸楚
+    en: Shen Zi Goes Over to Chu
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 申子是旧时对某位申姓男子的称呼。楚国是周朝在南方的大国，都城在郢，位置大约在今天的湖北一带。所谓申子归楚，是说这个人离开原来的地方，投归楚国。当时列国并立，士人离开本国、投奔他国是常有的事。申地又紧挨楚国的北界，来往的人本就不算少。他本是申地的人，往南走，过了边界，就在楚国留了下来，从此归入楚人。签诗讲两强相交在门前，这事必定彼此牵连，黄金忽然变成铁。归附的选择一旦做出，原先的身份和去路都变了，快得让人认不出来。
+    en: Shen Zi was how people in old times referred to a certain man surnamed Shen.
+      Chu was a great state of the Zhou dynasty in the south, with its capital at
+      Ying, roughly in the region of modern Hubei. To say that Shen Zi went over to
+      Chu means that this man left his old place and went to join Chu. In those days
+      many states stood side by side, and it was common for a man of service to leave
+      his own state and seek another. The land of Shen also bordered the northern
+      edge of Chu, and traffic between them was already heavy. He was a man of Shen.
+      He went south, crossed the border, and stayed on in Chu, counted as a man of
+      Chu from then on. The lot poem speaks of two strong ones meeting before the
+      gate, of the matter surely tying them together, and of gold suddenly turning
+      to iron. Once the choice to submit is made, the old standing and the old road
+      are both changed, faster than a man can recognise.
+  poem_connection:
+    zh: 签诗说两相连、黄金忽然变成铁，讲的是变化来得突然。题名中的“归”字，正含迁移归属、身份顿改之意。
+    en: The lot poem says the two are bound together and gold suddenly turns to iron,
+      meaning change comes without warning. The going over in the title carries just
+      that shift of place and standing.
+- title:
+    zh: 劉備入東吳進贅
+    en: Liu Bei Enters Wu as a Son-in-Law
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘备做荆州牧的时候，甘夫人刚去世。孙权听说后，采纳周瑜的计策，假意把妹妹许给刘备，招他进吴国做女婿，打算等他来了就扣下，借此讨回荆州。诸葛亮料定吴方的用意，交给赵云三条锦囊之计，叫他保护刘备进吴。赵云照计行事，先让随行的兵士披红挂彩，把婚事张扬出去，又请刘备去见乔国老。乔国老是吴国太的亲家，事情因此传到吴国太耳里。吴国太在甘露寺相看刘备，认为他可以托付，就把女儿嫁给他，这门亲事弄假成真。婚事成了以后，周瑜又想用声色玩好把刘备留在吴国。赵云依第三条锦囊计，假说荆州有急事，催刘备回去。孙夫人毅然同行，路上借着夫人的威势喝退追兵，刘备才得脱身回荆州。
+    en: When Liu Bei was governor of Jingzhou, his wife Lady Gan had just died. Sun
+      Quan heard of this and took Zhou Yu's plan. He would pretend to betroth his
+      sister to Liu Bei and invite him into Wu as a son-in-law. The plan was to hold
+      him once he came, and by that means get Jingzhou back. Zhuge Liang saw what
+      Wu intended. He gave Zhao Yun three silk-bag plans and told him to guard Liu
+      Bei on the way into Wu. Zhao Yun acted by the plans. First he had the escorting
+      soldiers dress in red and bright colors, so that the marriage became widely
+      known. Then he asked Liu Bei to call on Elder Qiao. Elder Qiao was an in-law
+      of the Dowager of Wu, the mother of Sun Quan, so the matter reached her ears.
+      At Ganlu Temple the Dowager of Wu looked Liu Bei over. She judged him worthy
+      of trust and gave her daughter to him, and the marriage turned from false into
+      real. After the wedding, Zhou Yu wanted to keep Liu Bei in Wu with music, women,
+      and amusements. By the third plan Zhao Yun pretended that there was an emergency
+      at Jingzhou and pressed Liu Bei to return. Lady Sun went with him without hesitation.
+      On the road she used her authority to shout back the troops that chased them,
+      and so Liu Bei got clean away back to Jingzhou.
+  poem_connection:
+    zh: 签诗“龙虎相交在门前”，正合刘备进吴、孙刘两方相持之势；“此事必定两相连”则取婚事与荆州之约相牵之意。
+    en: The poem's dragon and tiger meeting before the gate fits Liu Bei entering
+      Wu with the two sides at a stand-off, and that the matter must be linked takes
+      the marriage tied to the bargain over Jingzhou.

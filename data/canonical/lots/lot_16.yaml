@@ -1,0 +1,374 @@
+id: 16
+lot_number: 16
+ganzhi:
+  zh: 丙午
+  pinyin: Bing-wu
+title:
+  en: Emperor Taizong Tours the Underworld
+  zh: 李世民（唐文皇）遊地府
+hexagram:
+  zh: 天雷无妄
+  name_and_structure_en: Wuwang (Heaven over Thunder)
+  binary_code: ○○○●●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 李世民（唐文皇）遊地府
+    en: Emperor Taizong Tours the Underworld
+  variants_en:
+  - Li Jiancheng Meets Li Shimin
+  - Xiahou Chun Takes an Arrow
+  - Sun Jian Is Assassinated
+  - Yang Guan and Zui Yu Sharing a Horse
+  - Qin Shubao Helps Li Yuan Move House
+  variants_zh:
+  - 建成遇世民
+  - 夏侯淳中箭
+  - 孫堅遇刺
+  - 楊管醉玉仝坐馬
+  - 秦叔寶救李淵般家
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout - 凡事 恐防風波災／作事 退步／家事 恐防有變／婚姻
+      不合。有鬼作怪／功名 難得／經商 難就。了錢／治病 必危。有陰公作祟／月令 了錢 (jie_yue_score -16); the only openings
+      are conditional or thin - 求財 春夏好秋冬呆／求雨 不日到
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements set obstacles at marriage, advancement, trade,
+      the month and the fields, with only the warm half of the year left open in the
+      money line, a partial reading on children, and one unqualified positive on rain
+      - the group is weighted negative overall.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 恐防風波災／作事 退步／家事 恐防有變／婚姻 不合。有鬼作怪／功名 難得／經商 難就。了錢／治病 必危。有陰公作祟／月令
+      了錢／耕作 無收／魚苗 失利難如意——整签偏负（jie_yue_score -16）。留余地的只有三处：求財 春夏好秋冬呆、六甲 先男後女。子媳虛、求雨
+      不日到。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在婚姻、功名、经商、月令与耕作几处都设阻，唯求财给天暖的那半季留了一点余地、子嗣一项部分可取、求雨一项单独给了正面说法，整组偏负。
+provenance:
+  editorial_note: '*the temple list carries a different group for this lot: 楊管醉玉仝坐馬;
+    秦叔寶救李淵般家.*'
+  textual_provenance: 'majority — 「不須作福不須求，用盡心機總未休。陽世不知陰世事， (维基文库: ，。 stops)」→「不须作福不须求；用尽心机总未休；阳世不知阴世事；
+    (feishuai: ； stops)」→「不须作福不须求。用尽心机总未休。阳世不知阴世事。 (mznn: 。 stops)」→「不须作福不须求、用尽心机总未休、阳世不知阴世事、
+    (91chouqian; temple01 好廟網 uses the same 、 stops in traditional forms)」, six-source
+    vote - the wording agrees across all witnesses and only the punctuation differs,
+    so the traditional comma stops are kept'
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 不須作福不須求，
+    en: There is no need to make merit, no need to plead;
+  - line_number: 2
+    zh: 用盡心機總未休，
+    en: you spend every device of the mind and it still does not rest.
+  - line_number: 3
+    zh: 陽世不知陰世事，
+    en: The world of the living does not know the affairs of the dead;
+  - line_number: 4
+    zh: 官法如爐不自由。
+    en: the law is a furnace, and inside it there is no freedom.
+keywords:
+  favourable:
+    en:
+    - pulling back in time
+    - safeguarding what is already held
+    - asking for help
+    - patience with delay
+    zh:
+    - 及时收手
+    - 护住手上已有的
+    - 向人求助
+    - 对拖延有耐心
+  guarded:
+    en:
+    - scheming past the point of use
+    - pressing a matter into the courts
+    - spending into a closed season
+    - treating a warning as noise
+    zh:
+    - 算计过了头，算到无用
+    - 把事情推上公堂
+    - 在闭着的季节里花本钱
+    - 把警示当耳边风
+reading_notes:
+- term: 作福
+  pinyin: zuò-fú
+  en: 'to make merit: offerings made to the deity; good deeds done for others; the
+    line denies the need for either without saying which it means.'
+  zh: 既可指给神明的供献祈福，也可指为别人做的善事；这一句并不点明是哪一个意思，只说「不必」。
+- term: 心機
+  pinyin: xīn-jī
+  en: 'the working of the mind: resourcefulness; hidden calculation; English "scheming"
+    would take only the darker half.'
+  zh: 既可以是心思灵巧、懂得变通，也可以指藏着不说的算计；英文若单取「scheming」，就只剩了暗的那一半。
+- term: 陽世／陰世
+  pinyin: yáng-shì / yīn-shì
+  en: 'the world of the living and the world of the dead: the two courts of the old
+    cosmology; the plain division between what is visible to us and what is not.'
+  zh: 既指旧宇宙观里阳间与阴间这两座「衙门」，也可以只是「我们看得见的」与「看不见的」之间那道分界。
+- term: 官法如爐
+  pinyin: guān-fǎ-rú-lú
+  en: 'the law is a furnace: the magistrate''s court and its heat; in temple reading,
+    the judgement that is said to follow death.'
+  zh: 既是官府公堂上那股灼人的火气，在庙本的读法里，也指人身后那一场审定；两层都留着。
+plain_meaning:
+  en: 'A closed season with a shadow on it: scheming does not settle the matter, and
+    the judgements read obstruction, delay and loss rather than gain. The counsel
+    is protective - pull back from forcing anything, keep clear of the courts, and
+    put your effort into safeguards and into asking for help.'
+  zh: 这是一个闭塞的季节，上头还压着暗影：费尽心思也了结不了事情，解曰一项项读下来是阻、是拖、是耗，而不是得。籤文给的意见是保护性的——不要硬推，避开官法这一线，把力气放在防护上，也放在向人求助上。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is my brother's business about to fail?
+    zh: 我哥哥的生意是不是快要倒了？
+  rewritten_to:
+    en: What is mine to do about the family's money this season?
+    zh: 这一季家里这笔钱，有哪些是该我做的？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 问的是第三个人的经营，改成问自己作得了主的那一块，别人的事不替他问。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Accord does not hold and old friction is stirred up; this is not a season
+      for joining lives or forcing a reconciliation.
+    zh: 情分难谐，旧怨容易被搅起来；这一季不适合缔结婚约，也不适合硬去说和。
+    compliance_tag: null
+  career:
+    en: Advancement is judged hard to reach and enterprise is judged to return little;
+      hold your post and your capital rather than opening something new.
+    zh: 升迁一途看来难达，经营也耗本；守着现职与现本，比新开一摊更稳。
+    compliance_tag: null
+  money:
+    en: The judgements give the warm half of the year a little room and the cold half
+      none, and the month itself is read as a drain; keep reserves and defer commitments.
+      *(Not financial advice.)*
+    zh: 解曰给天暖的那半季留了一点余地，天寒的半季没有；月令一项读作耗本。宜留住储备、把承诺往后推。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgements are grave here; take symptoms as urgent and put them to a qualified
+      professional rather than waiting on the temple. *(Not medical advice.)*
+    zh: 这一项解曰看得重；有症状宜当作急事，交给合格的专业人士，不要先等着看庙本怎么说。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is unsettled and needs calming rather than a verdict; keep the
+      peace at home and steady the daily routine.
+    zh: 家里不安，需要的是安抚而不是评断；宜守住和气，把日常作息先稳住。
+    compliance_tag: null
+  travel_moving:
+    en: Journeys and moves both carry risk in this reading; keep them short, or leave
+      them until the season turns.
+    zh: 出行与迁居在这一读法里都带险；宜走短程，或者等季节转了再动。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Bad water — the boats are judged to lose rather than gain. Keep to harbour
+      and do not put out on this reading.
+    zh: 水头不好——船一项读作耗而不是得；宜收船守港，依这一读法不宜出海。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season is judged to yield nothing, on land or in the ponds; work from
+      your stores and keep operations small.
+    zh: 这一季田与塭都读作没有收成；宜吃存粮、把规模压小。
+    compliance_tag: null
+  timing:
+    en: Nothing comes early here — the judgements speak of delay and of money going
+      out; the money judgement allows the warm half of the year a little room; the
+      lot itself stays closed — a season, never a date.
+    zh: 这里没有「早」的意思——解曰讲的是迟慢与钱财外流；最好的读法是天暖那半季，而不是某个日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pressing a matter into the courts; spending into the cold half of the year;
+      treating a warning as noise.
+    zh: 把事推上公堂；在天寒的半季里花本钱；把警示当耳边风。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety about money, health or a dispute, please talk it over with someone
+      you trust or a qualified professional.
+    zh: 这说的是一个难走的季节，不是对灾祸的预言。如果这一签让你为钱、身体或一场纠纷不安，请和你信得过的人或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 李世民（唐文皇）遊地府
+    en: Emperor Taizong Tours the Underworld
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 唐太宗李世民在位时，长安城里有个卖卜的术士叫袁守诚，推算得很准。泾河的龙王跟他打赌，为了争胜，违背天时错下了雨。按天庭的条令，龙王要处斩，行刑的人是魏征。龙王托梦向太宗求救，太宗答应了，把魏征留下下棋，想拖过他行刑的时辰；谁知魏征在梦里把龙王斩了。龙王不服，到阴间告状，阴司就把太宗的魂勾去对案。太宗由判官崔珏引着，一殿一殿地走过，路过枉死城，见到无数冤魂挡路，便借阳间善人寄存在阴间的钱钞散发给众鬼，并许下还阳后办法会超度。三天后他还魂，大赦天下，又选僧人设法会，这就是后来取经的起因。
+    en: While Emperor Taizong, Li Shimin, was on the throne, there was a diviner in
+      Chang'an named Yuan Shoucheng who cast very accurately. The Dragon King of the
+      Jing River made a bet with him and, to win, broke the seasons and sent the rain
+      wrongly. Under the rules of Heaven the Dragon King was to be executed, and the
+      officer who would carry it out was Wei Zheng. The Dragon King came to Taizong
+      in a dream and begged for help. Taizong agreed and kept Wei Zheng playing chess
+      with him, hoping to hold him past the hour of execution. Wei Zheng killed the
+      dragon in his sleep. The Dragon King would not accept it and brought a suit
+      in the underworld, and the courts of the dead summoned Taizong's soul to answer
+      the charge. Judge Cui Jue led him hall by hall. Passing the City of the Unjustly
+      Dead, he saw numberless wronged spirits blocking the way. He handed out paper
+      money that good men of the living world had left in trust below, and promised
+      a rite of deliverance after his return. Three days later he came back to life,
+      declared a general amnesty, and chose monks to hold the rite, which was the
+      beginning of the pilgrimage for the scriptures.
+  poem_connection:
+    zh: 签诗说阳世不知阴世事、官法如炉不自由；太宗入冥对案，正合幽冥法度森严这一层。
+    en: The poem says the living do not know the affairs of the dead, and that the
+      law is like a furnace and no one is free. Taizong answering the charge below
+      fits strictly kept courts of the dead.
+- title:
+    zh: 建成遇世民
+    en: Li Jiancheng Meets Li Shimin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李建成是唐高祖李渊的长子，李世民是次子。太原起兵以后，兄弟二人各领一军，都有战功，进长安后建成被立为太子。天下渐渐平定，兄弟之间为争权位互相结党。建成和齐王李元吉结成一伙，李世民则有秦王府的僚属相助，两边势均力敌。后来争斗越来越急，李世民带着长孙无忌、尉迟敬德等人，在宫城北门玄武门埋伏兵马。趁建成、元吉入朝的时候动手，建成和元吉都死在门内。事后李渊立李世民为太子，不久传位给他，就是唐太宗。兄弟相争，最后只剩下一人主事。建成死后，他的几个儿子也都被除掉。
+    en: Li Jiancheng was the eldest son of Li Yuan, Emperor Gaozu of the Tang, and
+      Li Shimin was his second son. After they rose in arms at Taiyuan, the two brothers
+      each led an army, both won merit, and after they entered Chang'an, Jiancheng
+      was made crown prince. As the realm was slowly pacified, the brothers formed
+      factions to contend for power. Jiancheng joined with Li Yuanji, the Prince of
+      Qi, while Li Shimin had the support of the officials of his own household, and
+      the two sides were evenly matched. In time the struggle grew sharper. Li Shimin
+      took Zhangsun Wuji, Yuchi Gong and others and placed soldiers in ambush at the
+      Xuanwu Gate, the northern gate of the palace city. They struck as Jiancheng
+      and Yuanji came to court, and both died inside the gate. Afterwards Li Yuan
+      made Li Shimin crown prince and soon handed him the throne; he became Emperor
+      Taizong of the Tang. The brothers' contest left only one of them in charge,
+      and after Jiancheng's death his several sons were done away with as well.
+  poem_connection:
+    zh: 这一签写骨肉相逢而变故在顷刻之间，正扣签诗“阳世不知阴世事，官法如炉不自由”。
+    en: Kin meeting amid a change that comes in an instant fits a lot whose poem speaks
+      of the living not knowing the ways of the dead and the law leaving a man no
+      freedom.
+- title:
+    zh: 夏侯淳中箭
+    en: Xiahou Dun Takes an Arrow
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 夏侯惇是曹操手下的将领，早年就跟随曹操，一向受曹操信任。一次随军出征，他与吕布的军队对阵。吕布部将曹性暗中放出一箭，正射中夏侯惇的左眼。这一箭来得突然，谁也没有料到。夏侯惇拔箭，把眼珠也带了出来。他说，这是父母给的血肉，不能丢掉，就把眼珠放进口中吞下。血流满脸，他却没有退，仍旧挺枪纵马直取曹性，一枪把他刺死。两军见了，都惊得退开。从此夏侯惇瞎了一只眼，军中叫他盲夏侯。后来他仍受曹操倚重，官做到大将军。
+    en: Xiahou Dun was a general under Cao Cao. He had followed Cao Cao from early
+      years and was always trusted by him. On one campaign he faced the army of Lü
+      Bu. Cao Xing, an officer under Lü Bu, secretly let fly an arrow, and it struck
+      Xiahou Dun in the left eye. The arrow came suddenly, and no one had expected
+      it. Xiahou Dun pulled the arrow out, and the eyeball came with it. He said this
+      was flesh and blood given by his parents, and it must not be thrown away, so
+      he put the eyeball into his mouth and swallowed it. Blood covered his face,
+      but he did not fall back. He still raised his spear, spurred his horse, and
+      charged straight at Cao Xing, killing him with one thrust. Both armies were
+      so shocked that they drew back. From then on Xiahou Dun had only one eye, and
+      the army called him Blind Xiahou. Later he was still relied on by Cao Cao and
+      rose to the rank of Grand General.
+  poem_connection:
+    zh: 签诗说不须作福不须求，用尽心机总未休。中箭受创仍不肯停手，正合“总未休”一句。
+    en: The lot poem says there is no need to seek blessings or scheme, for the scheming
+      never ends. Wounded by the arrow, Xiahou Dun still would not stop fighting.
+- title:
+    zh: 孫堅遇刺
+    en: Sun Jian Is Assassinated
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孙坚字文台，吴郡富春人，富春在今天浙江富阳一带。他是汉末江东的将领，后来吴国的孙策、孙权都是他的儿子。讨伐董卓的时候，他依附袁术，打仗很勇。他先进洛阳，扫除汉室宗庙，用牛羊祭祀，又在洛阳得了汉朝的传国玺，就是皇帝用的那方印，这层出于后人的记述。此后袁术派他去打荆州的刘表，刘表派黄祖迎战。孙坚渡江夜行，在岘山被黄祖手下的兵射中，中箭而死，年纪正壮。另有讲法说他追击敌兵进了岘山，中了对方设下的埋伏，被箭和石块打死。他死后，孙策、孙权接手他留下的部众，后来立起江东的基业。他的死，旧时论者多归到袁术的驱使上去。
+    en: Sun Jian, whose courtesy name was Wentai, was a man of Fuchun in Wu commandery,
+      Fuchun being in the Fuyang area of Zhejiang today. He was a general of Jiangdong
+      at the end of the Han, and Sun Ce and Sun Quan of Wu were his sons. In the campaign
+      against Dong Zhuo he was under Yuan Shu and fought with great bravery. He was
+      the first to enter Luoyang, and cleared the ancestral temples of the Han house
+      and made offerings with cattle and sheep. He also got hold of the Han imperial
+      seal at Luoyang, that is, the seal the emperor used, though this layer comes
+      from later accounts. After that Yuan Shu sent him to attack Liu Biao of Jingzhou,
+      and Liu Biao sent Huang Zu to meet him. Sun Jian crossed the river by night.
+      On Mount Xian he was hit by an arrow from men under Huang Zu, and died of the
+      wound, still in his prime. Another telling says that he chased the enemy into
+      Mount Xian. There he ran into an ambush laid for him, and was killed by arrows
+      and stones. After his death Sun Ce and Sun Quan took over the troops he left
+      and in time built the base of Wu. Old writers mostly laid his death at the door
+      of Yuan Shu.
+  poem_connection:
+    zh: 签诗说“阳世不知阴世事，官法如炉不自由”，与孙坚夜行中伏、事出于暗一节相贴；“用尽心机”一句也与对方设伏相射相应。
+    en: The poem says the living do not know the affairs of the dead and that the
+      law is a furnace leaving no freedom; Sun Jian rode by night into an ambush,
+      a matter done in the dark.
+- title:
+    zh: 楊管醉玉仝坐馬
+    en: Yang Guan and Zui Yu Sharing a Horse
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 题中的“仝”就是“同”字，所以这一题也写作“杨管醉玉同坐马”。民间抄本里，“醉玉”有时又写成“翠玉”。故事讲的是杨管和一个叫翠玉的酒醉女子，同乘一匹马的事。杨管是什么人，翠玉又是谁，两人为什么会同骑一马，如今只留下这个题名，没有传下具体经过。就题面看，是两个本不相干的人，被放到同一匹马上，一起赶路。一个人醉了，一个还醒着，同行同止，谁也不能自作主张。旁人看去，只见两人一马，牵牵连连，一同往前走。这一题和“邵良父子遇黄玉娘叫合”一样，都只剩一个题名。
+    en: The title's word for together is written in an old form, so some texts give
+      the common form instead. In hand-copied folk texts the name Zui Yu is sometimes
+      written as Cui Yu instead. The story tells of Yang Guan and a drunken woman
+      named Cui Yu riding on the same horse. Who Yang Guan was, who Cui Yu was, and
+      why the two of them rode one horse is unknown. Only the title has come down,
+      with no account of what happened. From the title alone, two people who had nothing
+      to do with each other were put on the same horse and traveled on together. One
+      was drunk and one was still sober. They went and stopped together, and neither
+      could act on his own judgment. To onlookers there was only the two of them and
+      one horse, tangled together, moving forward. This title, like the one about
+      Shao Liang and his son, leaves nothing but a title.
+  poem_connection:
+    zh: 签诗“阳世不知阴世事，官法如炉不自由”，正对同乘一马、身不由己之象。
+    en: The lot's poem says the living do not know the affairs of the dead, and that
+      the law is like a furnace and leaves no freedom. Riding one horse with no say
+      in one's course fits that image.
+- title:
+    zh: 秦叔寶救李淵般家
+    en: Qin Shubao Helps Li Yuan Move House
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 隋朝末年，李渊还没有做皇帝。他功劳大，反而招人忌恨，被朝中权贵排挤，只好带着一家老小离开京城，到外地去上任。走到半路，有人假扮成强盗，埋伏在路旁，打算把他一家赶尽杀绝。危急关头，秦叔宝正好路过。秦叔宝是当时有名的勇将。他出手相救，杀退了伏兵，保住了李渊一家。事情办完，他径自走了，没有留下姓名。题里的般家，就是护送、搬移家眷的意思。李渊感激这位恩人，却怎么打听也找不到他。后来他偶然照着秦叔宝的模样，塑了一座将军像，供在祠庙里。唐朝建立后，李渊还几次寻访这位旧日的恩人。秦叔宝先是在隋朝将带来护儿、张须陀手下效力，几经辗转才归附唐朝，后来成了唐朝的开国功臣。这一签说用尽心机总未休，又说官法如炉不自由，正配秦叔宝在危途中救人、此后自己辗转多难的一段。
+    en: At the end of the Sui, Li Yuan was not yet emperor. His great merit only brought
+      him envy, and the powerful men at court pushed him out, so he had to leave the
+      capital with his whole family and go to take up a post elsewhere. Halfway there,
+      men pretending to be bandits lay in ambush by the road. They meant to wipe out
+      the family. At the critical moment Qin Shubao happened to pass by. Qin Shubao
+      was a famous brave general of the time. He stepped in, drove off the men in
+      ambush, and saved Li Yuan's family. When it was done he went on his way and
+      left no name. The title's phrase for moving the household means escorting one's
+      family on the road. Li Yuan was grateful to this benefactor, but could not find
+      him however he asked. Later he happened to have a general's statue made in Qin
+      Shubao's likeness and set it up for offerings in a shrine. After the Tang was
+      founded, Li Yuan still looked for this old benefactor several times. Qin Shubao
+      first served under the Sui generals Lai Huer and Zhang Xutuo, and after many
+      turns came over to the Tang. He later became a founding minister of the Tang.
+  poem_connection:
+    zh: 这一签说用尽心机总未休、官法如炉不自由，正配秦叔宝危途救人、此后自身辗转多难的一段。
+    en: This lot says all one's scheming never ends, and that the law of office is
+      like a furnace and one is not free - Qin Shubao saving a family on a hard road,
+      and his own road hard afterward.

@@ -1,0 +1,403 @@
+id: 26
+lot_number: 26
+ganzhi:
+  zh: 戊寅
+  pinyin: Wu-yin
+title:
+  en: Fan Dan Meets His Worthy Wife
+  zh: 范丹洗浴遇賢妻
+hexagram:
+  zh: 坎为水
+  name_and_structure_en: Kan (Water over Water)
+  binary_code: ●○●●○●
+  shared_with_lot: 11
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 范丹洗浴遇賢妻
+    en: Fan Dan Meets His Worthy Wife
+  variants_en:
+  - Xue Dingshan Recovers the Flying Knives
+  - Lü Mengzheng Wins First Place
+  - Huan Wen Receives Yin Hao's Letter
+  - Jiang Zhongli Turns His Carriage Back
+  - Yuan Tiangang Sells Divinations in Chang'an
+  - Wen Gong's Prodigal Son
+  variants_zh:
+  - 薛丁山收飛刀
+  - 呂蒙正中狀元
+  - 桓溫得殷浩書
+  - 江中立回軒
+  - 袁天罡長安賣卦
+  - 文公訓相子浪遊。
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive with a seasonal condition — 凡事 春吉冬呆／作事
+      春天可成／求財 財源廣進／功名 朱衣點頭。及第／月令 不遂。逢春如意 (jie_yue_score +17)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'The temple judgements read positive throughout, but each is tied to
+      the season: undertakings, money, advancement and the household all draw their
+      gain from spring and level off in other seasons, and the medical line separates
+      the young from the old. The point is to work with the season.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 春吉冬呆／作事 春天可成／求財 財源廣進／功名 朱衣點頭。及第／月令 不遂。逢春如意／治病 平安。老危少安——整签偏吉而带节令条件：春得其利，他季转平，关键全在趁春而动。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词整体正面，但每一项都挂在节令上：办事、求财、功名、家宅等类目皆表明趁春得力，其他季节转为平常；医疗一类则分出少者与老者两种情况。要旨是顺着节令去做。
+provenance:
+  editorial_note: '*Two variants appear in both the wiki group and the temple list;
+    the other five are wiki-only — this group has no single majority story.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 選出牡丹第一枝，
+    en: Among the peonies, take the first branch;
+  - line_number: 2
+    zh: 勸君折取莫遲疑，
+    en: I urge you — break it off, do not hang back;
+  - line_number: 3
+    zh: 世間若問相知處，
+    en: if the world asks where your true acquaintance lies,
+  - line_number: 4
+    zh: 萬事逢春正及時。
+    en: then everything comes in with spring, in time.
+keywords:
+  favourable:
+    en:
+    - acting in season
+    - the first choice
+    - true acquaintance found
+    - spring returning to everything
+    zh:
+    - 趁时而行
+    - 首选的那一枝
+    - 遇到真正的相知
+    - 春回万物
+  guarded:
+    en:
+    - hesitating past the bloom
+    - taking the branch out of season
+    - treating a spring lot as a year-round one
+    zh:
+    - 花期过了还在犹豫
+    - 误了季才去折枝
+    - 把一签春天当作整年
+reading_notes:
+- term: 第一枝
+  pinyin: dì-yī-zhī
+  en: '"the first branch": at once *the earliest bloom* and *the first choice among
+    several*; The poem does not say what to leave, only not to wait.'
+  zh: 既指最先开的那一朵，也指几个当中的首选。此诗没说该舍弃什么，只说不要等。
+- term: 莫遲疑
+  pinyin: mò-chí-yí
+  en: '"do not hang back": an instruction about *timing*; not about appetite.'
+  zh: 讲的是时机，不是讲胃口。
+- term: 相知
+  pinyin: xiāng-zhī
+  en: '"true acquaintance": the one who knows and is known by you — a friend, a partner
+    or a patron; The poem leaves the relation open.'
+  zh: 是知你也被你知的那一个——朋友、伴侣或提携者。此诗不把这层关系定死。
+plain_meaning:
+  en: 'The blossom is out and the poem''s whole counsel is timing: take the first
+    branch, do not wait, and let the fit between you and the right person happen while
+    the season is open. Read this lot against winter — it is generous now and spare
+    later.'
+  zh: 花正开着，此诗通篇讲的都是时机：取第一枝，不要等，趁这一季还开着，让你和那个对的人之间的契合发生。这一签要对着冬天读——现在舍得给，往后就吝啬了。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A good season for a match if the choice is made now; a fit that comes late
+      is thin.
+    zh: 若此刻就把选择定下，这是说亲的好时节；来得晚的契合就单薄了。
+    compliance_tag: null
+  career:
+    en: The opening is here; take the first good offer rather than wait for the perfect
+      one.
+    zh: 口子已经开了；接第一个好机会，别等那个尽善尽美的。
+    compliance_tag: null
+  money:
+    en: The season opens generously; the money comes under spring conditions, not
+      year-round. *(Not financial advice.)*
+    zh: 这一季开得大方；进项随春意而来，不是整年都有。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Safe for the young, less so for the old; take care in the good season rather
+      than later. *(Not medical advice.)*
+    zh: 少者安稳，长者就要当心些；在好时节里就照料起来，不要往后拖。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Plenty, ease and a warm house; arrangements made now settle well.
+    zh: 丰足、安适、家宅暖；此刻定下的安排，落得稳。
+    compliance_tag: null
+  travel_moving:
+    en: The road is safe and the going is with you; go now rather than later.
+    zh: 路上平安，顺风顺水；趁现在走，不要往后。
+    compliance_tag: null
+  sea_and_voyage:
+    en: There are fish in the spring water and few in the winter water; put to sea
+      while the season is open.
+    zh: 春水里有鱼，冬水里就少；趁这一季开着出海。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The early season pays and the late season is flat; the work rewards early
+      attention.
+    zh: 早的一季有收，晚的一季就平；这活计犒赏早动手的人。
+    compliance_tag: null
+  timing:
+    en: Act now, within the season — a season, never a date.
+    zh: 就在这一季之内动手——只说一程，不给准日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Hesitation past the bloom; treating a spring lot as a year-round one.
+    zh: 花期过了还犹豫；把一签春天当作整年。
+    compliance_tag: null
+  reassurance:
+    en: The season is open; the thing to do is to move within it.
+    zh: 这一季开着；该做的，就是在它里面动起来。
+    compliance_tag: null
+stories:
+- title:
+    zh: 范丹洗浴遇賢妻
+    en: Fan Dan Meets His Worthy Wife
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 范丹在衙门里当一个小差役，靠替人送信、四处奔走糊口。差役是官府里跑腿听差的人。天气正热，他天刚亮就骑马出发，怕误了送信的时辰。偏偏马儿走走停停，不肯快行。前面不远有一洼湖水，是人畜歇脚的地方，他就骑马过去，取水解渴，又下水冲凉。等他拉马要走，马却低头吃草，拖也拖不动。他索性丢下马，脱下衣衫，就近抓了一捆稻草遮身，想绕道进村再说。走了没多远，稻草松脱。迎面恰好有一位姑娘牵着水牛过来。水牛低头大嚼他身上的稻草。范丹一急，抓起泥块去赶牛，泥浆溅了姑娘一身。两人因此碰面，先是争执，后来却结成了夫妻。这一签说选出牡丹第一枝，劝君折取莫迟疑，又说万事逢春正及时，正配范丹路上歇马、与那位姑娘相遇成家的一段。
+    en: Fan Dan was a low-ranking runner in a government office, making a living by
+      carrying letters and running errands. A yamen runner was a man who took messages
+      and did errands for the office. The weather was hot, and he set out on horseback
+      at first light, afraid of missing the hour for delivering his letter. The horse,
+      though, kept stopping and would not go fast. Not far ahead was a pond where
+      people and animals rested. He rode over, took water to drink, and went in to
+      cool off. When he pulled at the horse to leave, it put its head down to eat
+      grass and would not be moved. He simply left the horse, took off his clothes,
+      grabbed a bundle of straw to cover himself, and thought he would go around to
+      the village first. He had not gone far when the straw came loose. Just then
+      a young woman came toward him leading a water buffalo. The buffalo put its head
+      down and chewed on the straw he was wearing. In alarm Fan Dan picked up a clod
+      of mud to drive the animal off, and the mud spattered all over the young woman.
+      The two met because of it, quarreled at first, and in the end became husband
+      and wife.
+  poem_connection:
+    zh: 这一签说选出牡丹第一枝、劝君折取莫迟疑，正配范丹途中歇马、遇见那位姑娘而成家的一段。
+    en: This lot says to pick the first peony and not to put off taking it, and that
+      all things come in time in spring - Fan Dan resting his horse on the road and
+      meeting the woman he married.
+- title:
+    zh: 薛丁山收飛刀
+    en: Xue Dingshan Takes Back the Flying Dagger
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝初年有一位名将薛仁贵。他的儿子薛丁山，是民间故事里的人物。薛丁山娶了樊梨花为妻。樊梨花自幼跟随师父学道，会使飞刀，能在阵前取人性命。她的飞刀是师父传授的，一出手就极快，很难抵挡。薛丁山曾和樊梨花在阵前对阵，梨花用飞刀逼他，丁山几次被困住。两人为婚事几番分合，中间波折不少。后来经过几番周折，两人成了婚。此后夫妻一同领兵西征，一路上险阻重重，樊梨花的飞刀也帮了大忙。到战事终了，飞刀为丁山所收，夫妻一同回朝。
+    en: In the early Tang dynasty there was a famous general named Xue Rengui. His
+      son, Xue Dingshan, is a figure from folk stories. Xue Dingshan married Fan Lihua.
+      From childhood Fan Lihua had studied the Way with her master. She could throw
+      flying daggers and take a life in front of the ranks. Her master had taught
+      her the daggers. Once thrown, they flew very fast, and they were hard to block.
+      Xue Dingshan once faced her in battle. Lihua pressed him with her flying daggers,
+      and Dingshan was trapped more than once. The two came together and parted several
+      times over their marriage, with many twists between. After much trouble, they
+      married. Then husband and wife led troops on a western campaign. The road was
+      full of danger and hardship, and Fan Lihua's flying daggers helped a great deal.
+      When the fighting ended, the daggers were taken back by Dingshan, and the couple
+      returned to court together.
+  poem_connection:
+    zh: 签诗劝人“折取莫迟疑”“万事逢春正及时”，正配薛丁山择配及时、终得收刀成婚一段。
+    en: The poem tells one not to hesitate to break off the branch and that all things
+      come right in spring, which matches Xue Dingshan choosing a match in time and
+      at last taking back the daggers and marrying.
+- title:
+    zh: 呂蒙正中狀元
+    en: Lü Mengzheng Becomes Top Scholar
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 吕蒙正是北宋的名臣，小时候家里很穷。他和妻子住在破窑里，日子过得很苦。吕蒙正还没有考中功名时，富家小姐刘月娥在彩楼上抛绣球选女婿，绣球抛给谁就嫁给谁。绣球打中了穷困的吕蒙正。刘月娥的父亲嫌他穷，想反悔，她不肯，还是嫁了过去，跟着他一起住破窑。吕蒙正没有钱吃饭，还得到寺庙去讨斋饭。他读书很用功，常常读到深夜。他不肯认输，日夜苦读，终于在科举考试里考了第一名。那时考第一名叫状元，是要在众人之上一举成名的。
+    en: Lü Mengzheng was a famous minister of the Northern Song. His family was very
+      poor when he was a boy. He and his wife lived in a broken kiln, and their days
+      were hard. Before Lü Mengzheng had passed the examinations for office, a rich
+      girl named Liu Yue'e threw an embroidered ball from a decorated tower to choose
+      a husband. Whoever the ball struck would marry her. The ball hit the poor Lü
+      Mengzheng. Liu Yue'e's father disliked his poverty and wanted to take back his
+      word. She refused, and still married him and lived with him in the broken kiln.
+      Lü Mengzheng had no money for food, and he had to go to a temple to beg for
+      a meal. He studied hard and often read late into the night. He did not give
+      in. He studied day and night, and at last he took first place in the imperial
+      examination. First place at that time was called zhuangyuan, the top scholar,
+      a name made in one stroke above all others.
+  poem_connection:
+    zh: 签诗用折取第一枝牡丹比喻抢先得到最好的。吕蒙正考中状元，正是摘下那一枝的人。
+    en: The lot poem uses the picking of the first peony branch to stand for taking
+      the best before anyone else. Lü Mengzheng placed first, and he was the one who
+      picked that branch.
+- title:
+    zh: 桓溫得殷浩書
+    en: Huan Wen Receives Yin Hao's Letter
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 殷浩，字渊源，是东晋时的名士，陈郡长平人。他早年就很有名声。他带兵北伐失败，被免了官，贬到信安县居住。此后他不再抱怨，天天对着空中写字。掌权的大臣桓温念他有才，想请他出来做尚书令，先写了封信告诉他。殷浩很高兴地答应了，动手写回信。他怕信里写错字，把信封开了又封、封了又开，前后几十次。到最后寄出去的，只是一只空信封，里面一个字也没有。桓温收到空信，十分生气，从此不再与他来往。殷浩此后再没有得到起用，一直在贬所住到老。
+    en: Yin Hao, styled Yuanyuan, was a famous scholar of the Eastern Jin, a man of
+      Changping in Chen Commandery. He was well known from his early years. He led
+      troops on a northern campaign, failed, was stripped of office, and sent to live
+      in Xin'an County. After that he stopped complaining and spent his days writing
+      in the air. Huan Wen, the minister who held power, remembered his talent and
+      wanted to invite him to serve as Director of the Secretariat. He first wrote
+      a letter to tell him so. Yin Hao was delighted and agreed. He began to write
+      his reply. He was afraid of writing a wrong character, and opened and sealed
+      the envelope again and again, dozens of times. In the end what he sent was only
+      an empty envelope with not a single word inside. When Huan Wen received the
+      empty letter he was very angry and never had dealings with him again. Yin Hao
+      was never given office again and lived out his life in exile.
+  poem_connection:
+    zh: 这一签说与相知之人正该及时通信，正配桓温请殷浩出仕、却只收到一纸空函这一段。
+    en: This lot says one should write to a true friend in good time. It fits Huan
+      Wen inviting Yin Hao to office and getting back only a blank letter.
+- title:
+    zh: 江中立回軒
+    en: Jiang Zhongli Returns in a Curtained Carriage
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 江中立是民间戏里的人物，故事里的他是个用功读书的年轻人。明朝的永乐帝有一次换上便服出宫私访，路上遇见江中立正在苦读。皇帝问他为什么这样用功，他回答说，功名还没有考取，不敢荒废学业。皇帝出了一句话让他应对，江中立答得正合心意，从此得到赏识。题面上的“回轩”，说的是他受人看重，坐上带帷幕的车子回到乡里。轩是有帷幕的车，做官的人才有得坐。轩车回乡，说的是他这一趟读书总算有了着落。这一签取的，就是他及时用功、终于被人看中而有所得的一段。
+    en: Jiang Zhongli is a character in popular opera. In the story he is a young
+      man who studies hard. Emperor Yongle of the Ming once put on ordinary clothes.
+      He left the palace to look about in secret. On the road he came upon Jiang Zhongli
+      studying intently. The emperor asked him why he worked so hard. He answered
+      that he had not yet won a degree and did not dare neglect his studies. The emperor
+      set him a phrase to match. His answer pleased the emperor's mind, and from then
+      on he was well regarded. The title's 'return in a carriage' means that people
+      thought well of him. He rode home to his village in a carriage with curtains.
+      A xuan is a curtained carriage, and only officials rode in one. Riding home
+      in a xuan means his years of study had come to something at last. What this
+      lot takes is the part where he studied in good time and was finally noticed.
+  poem_connection:
+    zh: 这一签的签诗说选出牡丹第一枝，劝你折取莫要迟疑，万事逢春正当时。江中立见知于人而乘轩而还，与“折取”之语同出一意。
+    en: 'The poem says choose the first branch of the peony and do not hesitate to
+      break it off. Jiang Zhongli was noticed and rode home in a carriage: the same
+      idea as breaking it off.'
+- title:
+    zh: 袁天罡長安賣卦
+    en: Yuan Tiangang Sells Divinations in Chang'an
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 袁天罡是唐朝初年有名的术士，精于看相占卦。唐朝的都城在长安，是当时最热闹的大城，市集上人来人往。袁天罡就在市集上摆了一个卦摊，替人推算吉凶。上门求问的人很多，摊前常常挤满了人。来的人各有各的疑难：有的问婚事，有的问前程，有的问眼前该进还是该退。他要人及早拿定主意，该取的就取，不必一再迟疑。有人拿不定主意，来回问了几遍，他还是那句话。他替人指路，讲的多是眼下这一步该怎么走。到了春天，草木正发，万事都赶在当下。
+    en: Yuan Tiangang was a noted diviner of the early Tang, skilled at reading faces
+      and casting lots. The Tang capital was Chang'an, the busiest great city of the
+      day, and the markets were full of people coming and going. Yuan Tiangang set
+      up a divination stall in the market and reckoned good and ill for those who
+      came. Many asked him questions, and the space in front of his table was often
+      crowded. Each person brought his own difficulty. Some asked about marriage,
+      some about their prospects, some about whether to go forward or hold back just
+      now. He told them to make up their minds early. What should be taken should
+      be taken, without endless hesitation. When someone could not decide and came
+      back to ask several times, he gave the same answer. The guidance he offered
+      mostly concerned the next step to take. It was spring, the plants and trees
+      were putting out growth, and everything came due in the present.
+  poem_connection:
+    zh: 签诗说折取牡丹第一枝、莫迟疑；袁天罡长安市中摆摊卖卦，正扣择取当前这一层。
+    en: The poem says to pick the first peony branch and not delay. Yuan Tiangang
+      selling readings in the Chang'an market matches choosing in the present.
+- title:
+    zh: 文公訓相子浪遊
+    en: Han Yu Rebukes Han Xiangzi for Wandering
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩愈的侄孙叫韩湘，人们称他韩湘子。他不爱读应考的书，只喜欢出门云游、寻访修道的人。韩愈屡次训诫他，要他安心读书，考取功名，不必远走他乡。韩湘子后来遇到钟离权和吕洞宾，被点化入道，到终南山中修行。他曾用道术劝化韩愈，韩愈始终不肯相信。他还曾让牡丹花在顷刻间开放。后来韩愈因上表反对迎佛骨，被贬往潮州，走到蓝关遇上大雪。韩湘子早已留下诗句，把这一路的境况说在前头，此后又引度韩愈入道。他在山中一住多年，把心思都放在修行上。
+    en: Han Yu's grandnephew was named Han Xiang, and people called him Han Xiangzi.
+      He had no love for the books that led to the examinations. He liked only to
+      travel and to seek out men who cultivated the Way. Han Yu admonished him again
+      and again. He told him to settle down to study, to win a place in the examinations,
+      and not to wander far from home. Han Xiangzi later met Zhongli Quan and Lü Dongbin.
+      They opened his way into the Dao, and he went to practice in the Zhongnan Mountains.
+      He once tried to turn Han Yu toward the Way with his arts, and Han Yu would
+      not believe him. He also once made peony flowers open in an instant. Later Han
+      Yu sent a memorial against welcoming the Buddha relic and was demoted to Chaozhou.
+      On the road he met heavy snow at the Blue Pass. Han Xiangzi had long before
+      left a poem that told what would happen on that journey, and afterwards he led
+      Han Yu into the Way. He lived in the mountains for many years and gave his mind
+      to practice.
+  poem_connection:
+    zh: 这一签写长辈劝诫子弟趁时求学，正扣签诗“选出牡丹第一枝，劝君折取莫迟疑”“万事逢春正及时”。
+    en: An elder urging a young man to study while the season is ripe fits a lot whose
+      poem tells him to pick the best peony without delay, since everything comes
+      in time in spring.
+- title:
+    zh: 薛丁山破收飛刀
+    en: Xue Dingshan Breaks and Captures the Flying Daggers
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛丁山是薛仁贵之子，也是征西故事里的主人公。故事接着薛仁贵征东往下讲：薛仁贵出征西凉，被困在锁阳城，被西凉大将苏宝同的飞刀所伤。飞刀是故事里一件会飞的法宝兵器。薛丁山挂帅出征，一路破关斩将，替父亲解围。到了寒江关，遇上关主樊洪的女儿樊梨花。樊梨花自幼拜梨山老母为师，学得移山倒海、撒豆成兵的本领。两军对阵时，樊梨花三次擒住薛丁山，又三次放了他，两人终于成婚。后来夫妻几次生隙，薛丁山三休三请，樊梨花仍旧出任征西大元帅，终于平定西凉。书中斗法的场面很多，飞刀是西凉一方常用的利器，薛丁山与樊梨花几度与它相抗。题作“破收飞刀”，指的就是收服这件法宝的一段。
+    en: Xue Dingshan was the son of Xue Rengui and the hero of the tales of the western
+      campaign. The story goes on from Xue Rengui's campaign in the east. Xue Rengui
+      went out against Western Liang and was trapped in the city of Suoyang, wounded
+      by the flying daggers of the Western Liang general Su Baotong. Flying knives
+      were a magic weapon in the story that flew through the air. Xue Dingshan took
+      command and led out the army, breaking passes and killing generals along the
+      way to relieve his father. When he reached the Hanjiang Pass he met Fan Lihua,
+      daughter of the pass commander Fan Hong. From childhood Fan Lihua had studied
+      under the Old Mother of Mount Li and learned to move mountains and seas and
+      to turn beans into soldiers. When the two armies faced each other she caught
+      Xue Dingshan three times and released him three times, and in the end the two
+      were married. Later husband and wife fell out several times. Xue Dingshan divorced
+      her three times and asked her back three times, and Fan Lihua still took up
+      the post of grand marshal of the western campaign and brought Western Liang
+      to peace. The book has many scenes of contests in magic, and the flying daggers
+      were a weapon the Western Liang side used often, and Xue Dingshan and Fan Lihua
+      stood against it several times. This title refers to the episode in which this
+      magic weapon was brought to heel.
+  poem_connection:
+    zh: 签诗“劝君折取莫迟疑”“万事逢春正及时”，择取当机而不可迟回，正对寒江关择配。
+    en: The lot's poem says to pick and take without hesitating, and that everything
+      is timely in spring. Choosing the moment and not holding back fits the choosing
+      of a match at the Hanjiang Pass.

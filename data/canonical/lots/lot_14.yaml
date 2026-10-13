@@ -1,0 +1,272 @@
+id: 14
+lot_number: 14
+ganzhi:
+  zh: 丙寅
+  pinyin: Bing-yin
+title:
+  en: The Peach Garden Oath
+  zh: 桃園三結義
+hexagram:
+  zh: 山泽损
+  name_and_structure_en: Sun (Mountain over Lake)
+  binary_code: ○●●●○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 3
+  primary:
+    zh: 桃園三結義
+    en: The Peach Garden Oath
+  variants_en:
+  - Cao Cao Gifts Guan Yu a Horse, Robe and Gold
+  - Emperor Taizong of Tang Tours the Underworld
+  variants_zh:
+  - 曹公賜關公馬袍贈金銀
+  - 李世民遊地府
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive throughout — 凡事 大吉／作事 決意成功／婚姻 成好／家事 光前裕後／六甲
+      先男後女。富貴／月令 頭破錢。後如意 (jie_yue_score +21)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements read positive across household, marriage, children,
+      advancement, trade, moving house, livestock, farming, building and water work;
+      we read it as favourable.; the only cautions sit at health, money and going
+      abroad, where going abroad carries a benefactor with it.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 大吉／作事 決意成功／家事 光前裕後。可喜／家運 平安／婚姻 成好／求兒 平正／六甲 先男後女。富貴／求財 月光進。漸暗少／功名
+      可喜／歲君 中和／治病 險。月光過不畏／出外 不可。必得貴人／經商 漸得／來人 月尾到／行舟 月圓過大吉／移居 吉／失物 西方尋。月光在／求雨 月半無。月尾有／官事
+      破財後。完明／六畜 大吉／耕作 早晚有收成／築室 子孫永發其昌／墳墓 得其地。後大吉／討海 月光過。大吉／作塭 先微。後有大利／魚苗 大利／月令 頭破錢。後如意／尋人
+      月中至／遠信 速至（jie_yue_score +21）。整签偏吉，唯 治病 險、求財 漸暗少、出外 不可。必得貴人 三处需留意。校勘：全一致（六源同文），无裁定改动。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词整体偏正面，涵盖家事、家运、婚姻、六甲、功名、经商、移居、六畜、耕作、修筑与水上作业诸类目，我方读作 favourable。；需留意的是治病、求财与出外三处，其中出外一项附了一位贵人。
+provenance:
+  editorial_note: '*the temple site carries a different group for this lot: 李世民遊地府.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 財中漸漸見分明，
+    en: In the matter of money, things come clear by degrees;
+  - line_number: 2
+    zh: 花開花謝結子成，
+    en: the flower opens, the flower falls, and the fruit sets;
+  - line_number: 3
+    zh: 寬心且看月中桂，
+    en: be easy, and watch the cassia in the moon;
+  - line_number: 4
+    zh: 郎君即便見太平。
+    en: and peace comes into view for you, sir.
+keywords:
+  favourable:
+    en:
+    - the matter clarifying by degrees
+    - fruit after flowering
+    - a full moon and a fair outcome
+    - patience that pays
+    zh:
+    - 事情一寸一寸地分明起来
+    - 花开谢之后结成果子
+    - 月圆与平顺的结局
+    - 耐得住就有回报
+  guarded:
+    en:
+    - pushing the matter to close early
+    - reading slow clarity as no clarity
+    - spending the gain as soon as it shows
+    - a risky stretch for the body
+    zh:
+    - 把事情逼着提前了结
+    - 把慢慢来的清楚当成不清楚
+    - 进项一露头就花掉
+    - 身体上有一段险的时候
+reading_notes:
+- term: 月中桂
+  pinyin: yuè-zhōng-guì
+  en: 'the cassia in the moon: the cassia tree that the old moon-lore shows only at
+    the full moon; also the laurel of the old examinations, so the same image carries
+    a hoped-for success; the poem keeps both.'
+  zh: ：一是老话里那棵只在月圆时才看得见的月桂；二是旧时科考的折桂，同一个意象里也带着求取功名的指望。诗把两层都留着。
+- term: 寬心
+  pinyin: kuān-xīn
+  en: 'to ease the heart: broadening one''s own mind, that is, patience; setting the
+    worry down, not putting the work off.'
+  zh: ：是把自己的心放阔，也就是耐性；是把担心放下，不是把活计推后。
+- term: 即便
+  pinyin: jí-biàn
+  en: 'then, and straight away: at that very point, immediately upon it; as soon as
+    the moon''s turn comes; the line ties its peace to the image, not to the calendar.'
+  zh: ：就是「到那时就」，紧接着的意思；月亮那一转一到便如何。这一句把太平系在月相上，不系在日历上。
+plain_meaning:
+  en: 'A season that clarifies by degrees: the money side of the matter comes into
+    focus, what flowered and fell leaves fruit behind it, and the moon in the poem
+    is a full one. The counsel is to be easy and let the round finish - the outcome
+    arrives by patience rather than by a push, and it lands on the far side of the
+    moon''s turn.'
+  zh: 这是一个渐渐看清的季节：钱财方面的事慢慢明朗起来，花开过又谢了，身后留下果子，诗里的月亮是一轮满月。给出的做法是放宽心、让这一轮走完——结果是靠耐性到的，不是靠硬推，它落在月圆那一转之后。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: 'A good season for a match: the temple''s judgement is favourable where both
+      are willing, and the tone is settled rather than hurried.'
+    zh: 姻缘在这一季是好的：庙本在两厢情愿处的判词偏正面，语气是定下来，不是赶。
+    compliance_tag: null
+  career:
+    en: Decide, and carry the decision through — the judgement here is success by
+      a settled will. Rank is within reach, though the gain shows first on the money
+      side.
+    zh: 把主意定下来，并且做到底——这里的判词是拿定主意就成事。名位也够得着，只是先看着落的是钱财这一头。
+    compliance_tag: null
+  money:
+    en: The money question clarifies by degrees; the gain lands at the full moon and
+      thins after it, so secure this round rather than count on the next. *(Not financial
+      advice.)*
+    zh: 钱财的事渐渐分明；收益落在月圆，月圆之后转薄，所以这一轮要收进来，别指望下一轮。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement calls this stretch for the body risky and the far side of the
+      moon safer; bring in a qualified professional rather than coast through it.
+      *(Not medical advice.)*
+    zh: 庙本把这一段看成身体上吃紧，月圆之后才稳；请合格的专业人士来看，不要顺着日子硬扛。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household comes out ahead of its forebears and settles to the good; loud
+      as the season is, the home is at peace.
+    zh: 家宅出在前人之上，安稳向好；季节再喧动，家里是平的。
+    compliance_tag: null
+  travel_moving:
+    en: Going far from home is the one thing marked not yet, with a helper promised
+      in exchange; keep the move or the journey to the near side of the full moon.
+    zh: 远行是唯一记着「还不是时候」的一项，换来的是一位贵人；搬动或出行，留在月圆之前这一侧。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'Good water after the full moon: the passage and the take are both favourable,
+      and the first run of it is modest.'
+    zh: 月圆之后水色好：航路与渔获都顺，头一趟进项不大。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The fields pay early and late in the season, the herds do well, and the ponds
+      turn a small profit first and a large one after; the round finishes better than
+      it begins.
+    zh: 田里早晚都有收成，六畜好，鱼塭先薄利、后有大利；这一轮收尾比开头好。
+    compliance_tag: null
+  timing:
+    en: The turn comes with the full moon of the season — a season, never a date.
+    zh: 转机随着这一季的月圆来——只讲一季，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Closing early, before the matter has clarified; treating a slow start as a
+      refusal.
+    zh: 事情还没分明就急着收尾；把开头慢当成被回绝。
+    compliance_tag: null
+  reassurance:
+    en: The clarity here is already on its way; nothing has to be forced to make it
+      arrive.
+    zh: 这里的清楚已经在路上；不必硬推什么，它自己会到。
+    compliance_tag: null
+stories:
+- title:
+    zh: 桃園三結義
+    en: The Peach Garden Oath
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: 12
+  narrative: null
+  poem_connection:
+    zh: 这一签取结义相助、同心脱难，正扣签诗“必有贵人相扶助，凶事脱出见太平”。
+    en: Sworn brothers helping one another out of danger fits a lot whose poem says
+      a helper of worth comes to one's side and trouble is escaped into peace.
+- title:
+    zh: 曹公賜關公馬袍贈金銀
+    en: Cao Cao Gifts Guan Yu a Horse, Robe and Gold
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 曹操是汉末北方的掌权者，官做到丞相，后来封魏王。关羽跟刘备失散，被围之后暂时留在曹营。曹操待他很厚，拜他做偏将军，赐他宅子，又送他锦袍和金银，还把自己骑的赤兔马相赠。赤兔是一匹有名的好马。曹操派张辽去探他的去留之意。关羽打定主意，说受过刘将军的厚恩，誓同生死，不能背弃，但要先立一场功劳报答曹公再走。张辽把这话回给曹操，曹操也称他讲义气。后来关羽在白马一役斩了颜良，解了白马之围。报效过后，他把曹操所赐的东西全部封还，留下书信告辞，仍旧回去投刘备。民间讲这一段，还讲他挂印封金，就是官印挂在堂上、金银封好不动，走时在灞桥上用刀尖挑过曹操赠的锦袍，并不下马。
+    en: Cao Cao held power in the north at the end of the Han. He rose to chief minister
+      and was later made King of Wei. Guan Yu was cut off from Liu Bei. After being
+      surrounded he stayed for a time in Cao's camp. Cao Cao treated him generously,
+      made him a general and gave him a house. He sent him a brocade robe, gold and
+      silver, and his own horse Red Hare, a famous fine horse. Cao Cao sent Zhang
+      Liao to sound out his mind. Guan Yu had made up his mind. He said he had received
+      great kindness from General Liu and had sworn to live and die with him, and
+      could not turn away. But he would first earn one service to repay Lord Cao,
+      and then leave. Zhang Liao took this word back to Cao Cao, who said Guan Yu
+      kept faith. Later Guan Yu killed Yan Liang in the fight at Baima and lifted
+      that siege. His service done, he sealed up and returned everything Cao Cao had
+      given him, and left a letter of farewell. He went back to Liu Bei. It is also
+      said that he hung up his seal and sealed the gold, the seal hung in the hall
+      and the gold untouched. It adds that as he left, at the Ba Bridge, he hooked
+      up Cao Cao's brocade robe with the tip of his blade without dismounting.
+  poem_connection:
+    zh: 签诗说“财中渐渐见分明，花开花谢结子成”，与所受金银最终封还、恩义两下分清楚一节相贴：财物一层，到头来分得分明。
+    en: The poem says that in the matter of wealth things come clear by degrees, and
+      the flower sets fruit as it fades; the gold and silver were sealed and returned,
+      and both sides' obligations came out clear.
+- title:
+    zh: 李世民遊地府
+    en: Emperor Taizong of Tang Tours the Underworld
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐太宗李世民在位时，泾河的龙王与长安城里的术士袁守诚打赌，赌什么时候下雨、下多少。龙王输了，触犯了天条，该由大臣魏征处斩。龙王向唐太宗求救，太宗答应下来，就把魏征留在宫中下棋，不让他脱身。不料魏征在梦里出了神，把龙王斩了。龙王的阴魂告到地府，阎王便传唐太宗去对案。太宗跟着判官崔珏游历地府，看见了鬼门关、十殿阎君、十八层地狱和奈何桥。判官见太宗曾答应救龙王而没能救成，就私下替他改了生死簿，给他添了寿数，又指给他还阳的路。太宗在地府待了三昼夜，宫里已经把他装进了棺材。后来开棺相见，太宗还魂。
+    en: In the reign of Emperor Taizong of Tang, whose personal name was Li Shimin,
+      the Dragon King of the Jing River made a bet with a diviner named Yuan Shoucheng
+      in the city of Chang'an. The bet was when it would rain and how much. The Dragon
+      King lost. He had broken the law of heaven and was to be beheaded by the minister
+      Wei Zheng. The Dragon King begged Emperor Taizong to save him. Taizong agreed,
+      and kept Wei Zheng in the palace playing chess so that he could not get away.
+      To his surprise Wei Zheng's spirit left his body in a dream and beheaded the
+      Dragon King. The ghost of the Dragon King brought the case before the underworld.
+      The king of the underworld summoned Emperor Taizong to answer for it. Taizong
+      traveled through the underworld with the judge Cui Jue. He saw the Gate of Ghosts,
+      the ten courts of the underworld kings, the eighteen levels of hell, and the
+      Bridge of Helplessness. The judge saw that Taizong had promised to save the
+      Dragon King and failed. So he privately changed the register of life and death
+      for him, added years to his span, and pointed out the road back to life. Taizong
+      stayed in the underworld for three days and nights, and in the palace they had
+      already laid him in a coffin. Later the coffin was opened and he came back to
+      life.
+  poem_connection:
+    zh: 签诗“财中渐渐见分明”“宽心且看月中桂”，由模糊而渐明，正对入冥三日、事明还魂。
+    en: The lot's poem says matters become clear little by little, and tells one to
+      be at ease and watch the cassia in the moon. Clearing up by degrees fits three
+      days among the dead and a return to life.

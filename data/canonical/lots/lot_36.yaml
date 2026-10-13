@@ -1,0 +1,412 @@
+id: 36
+lot_number: 36
+ganzhi:
+  zh: 己亥
+  pinyin: Ji-hai
+title:
+  en: Xue Rengui Rescues the Emperor
+  zh: 薛仁貴救駕
+hexagram:
+  zh: 离为火
+  name_and_structure_en: Li (Fire over Fire)
+  binary_code: ○●○○●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 薛仁貴救駕
+    en: Xue Rengui Rescues the Emperor
+  variants_en:
+  - Li Shimin Stranded on the Shore
+  - Han Xiangzi Meets Lü Dongbin
+  - Cui Wende Offers Birthday Wishes
+  - Wen Yanbo Feted at Longevity Mountain
+  - Lord Liu Enters Jiameng Pass
+  - Zhang Yi Studies
+  - Tao Zhu Gong Stores Up His Wealth
+  variants_zh:
+  - 李世民落海灘
+  - 韓湘子遇洞賓
+  - 崔文德祝壽
+  - 文彥博萬壽山祝壽
+  - 劉先主進蕸萌關
+  - 張儀讀書
+  - 陶朱公積儲金錢
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive across the board - 凡事 亨通得自安／作事 成者甚好／家運
+      吉星拱照／婚姻 美滿大吉／求財 黃金萬貫／討海 有大財; the only flat notes are 出外 不可 and 月令 不遂 (jie_yue_score
+      +14)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs mostly positive on this lot - general affairs,
+      undertakings, household, family fortune, marriage, children, income, advancement,
+      trade, boats, moving house, livestock, field work, building, sea work, ponds,
+      fry, finding people, and distant news all sit on the bright side; only going
+      out and the month's season are left open, and the health line is split by age.
+      We read it as favourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 亨通得自安。／作事 成者甚好。／家事 光輝門庭。／家運 吉星拱照。／婚姻 美滿大吉。／求兒
+      好。／六甲 得添弄璋。／求財 黃金萬貫。／功名 祝神求佛可進。／歲君 平安。／治病 少者不畏。老險。／出外 不可。／經商 萬商雲集。／來人 月光即到。／行舟
+      大好居中。／移居 兄弟和合者吉。／失物 尋在。／求雨 及時。／官事 了錢過後完局。／六畜 興旺。／耕作 早晚有收。／築室 福雙全。子孫旺。／墳墓 地勢套當。／討海
+      有大財。／作塭 神指示得大財。／魚苗 大利。／月令 不遂。／尋人 得至。／遠信 速報佳音。——整签偏正（jie_yue_score +14）：通篇判词明亮，惟
+      出外 不可、月令 不遂 两项留有余地，治病 一项按年纪分说。校订：末句依用户裁定取「祈保分明自平安」（别本作「得自安」），其余字句六源一致。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上大体偏正面——总类、作事、家事、家运、婚姻、子嗣、求财、功名、经商、行舟、移居、六畜、耕作、筑室、讨海、作塭、鱼苗、寻人、远信等处都在正面一侧；只有出门与月令两项留有余地，身体一项按年纪分开说。故列为本批的偏正一档。
+provenance:
+  editorial_note: null
+  textual_provenance: 'user_ruled — 「祈保分明自平安」→「祈保分明得自安」, user ruling: 自平安 kept'
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 福如東海壽如山，
+    en: Blessings wide as the East Sea, long life as the mountains;
+  - line_number: 2
+    zh: 君爾何須嘆苦難，
+    en: why should you sigh, then, over hardship and sorrow?
+  - line_number: 3
+    zh: 命內自然逢大吉，
+    en: what lies within your lot meets its own great fortune;
+  - line_number: 4
+    zh: 祈保分明自平安。
+    en: 'pray, and keep the observances plainly: peace settles of itself.'
+keywords:
+  favourable:
+    en:
+    - a wide season
+    - the blessing already in hand
+    - keeping the observances
+    - peace that settles itself
+    zh:
+    - 开阔的一季
+    - 已经握在手里的福分
+    - 照旧守住常例
+    - 自己安顿下来的平安
+  guarded:
+    en:
+    - dwelling on hardship
+    - setting out from home
+    - reading one flat month as the whole year
+    - asking for more than is already given
+    zh:
+    - 反复咀嚼自己的苦处
+    - 离家出门
+    - 把平淡的一个月读成整年
+    - 向已经给足的去多要
+reading_notes:
+- term: 君爾
+  pinyin: jūn-ěr
+  en: 'you, addressed plainly: a direct address to the person holding the lot; an
+    impersonal ''one'', speaking to whoever reads it; no subject is fixed in the Chinese.'
+  zh: 是当面称呼拿着这支签的人，也可以不指定是谁、泛指读到这句的任何人；中文原句没有定下主语，两种读法都留着。
+- term: 命內
+  pinyin: mìng-nèi
+  en: 'within the lot, within one''s portion: what is already allotted; what is contained
+    in the present circumstances.'
+  zh: 既指早已分定的那一份，也指眼下处境里本来就含着的；两层都算。
+- term: 祈保
+  pinyin: qí-bǎo
+  en: 'prayers, and the protection asked for: the petitions a person makes; the protection
+    given in return; the phrase does not separate the two.'
+  zh: 把「祈」与「保」合在一处：既指人所做的祈求，也指因此得到的护佑，这个复词本身不把两层分开。异文说明：末句别本一处作「祈保分明得自安」，本件依用户裁定取「祈保分明自平安」——文意更完整，也与已定的英文层一致。
+plain_meaning:
+  en: 'A wide-open season: the poem sets long blessing beside the plain assurance
+    that ease follows when the ground is kept. The counsel is to stop dwelling on
+    hardship and keep up the ordinary observances that steady a house. The judgements
+    are bright across the board, with only going out and the month''s turn left flat.'
+  zh: 开阔的一季：诗里把东海之福、山岳之寿，与「守住本分便自然平安」这句话并排放着。劝的是别再反复咀嚼自己的苦处，把日常的常例照旧做下去——家里的安稳靠的正是这些常例。庙本判词整体明亮，只有出门远行与月令的转折两处带着提醒。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A generous season for unions; warmth is returned and households draw closer.
+    zh: 谈婚结缘的宽厚时节；情分会得到回应，两家人也会走近。
+    compliance_tag: null
+  career:
+    en: The work is called prosperous; keep to the ordinary round and let it gather.
+    zh: 事业被判为亨通；照着日常的规矩做，让它自己积起来。
+    compliance_tag: null
+  money:
+    en: Plenty is named for trade, field and shore; hold what comes in rather than
+      stretching for more. (Not financial advice.)
+    zh: 经商、田作、讨海都判为丰足；把进来的守住，不要再去多撑一层。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement treats age as the deciding factor — the young get off lightly
+      and the old do not; arrange proper care early rather than leaving it to the
+      season. (Not medical advice.)
+    zh: 这一项的判词按年纪分开说；早点安排正经的照料，别把身体交给时令去拖。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: A bright house - the household is well-starred and children flourish; keep
+      the ordinary observances that hold it that way.
+    zh: 家宅是亮的——吉星照着，子孙兴旺；把它维持住的办法，就是把日常的常例照旧做下去。
+    compliance_tag: null
+  travel_moving:
+    en: Setting out is the one caution in an otherwise open lot; if the journey can
+      wait, let it wait.
+    zh: 全签开阔，唯独出门这一处带着提醒；这趟行程若等得起，就先等。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Good water - the judgements put real gain on boat work and shore work alike.
+    zh: 水路是好的——行舟与讨海两项，判词都给了实在的进项。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Field, pond and livestock all read well; work the season steadily and the
+      yield follows.
+    zh: 田作、鱼塭、六畜都读得好；按着时令稳稳做，收成自会跟上来。
+    compliance_tag: null
+  timing:
+    en: The month's turn is the single flat note; read the season as open, but not
+      every stretch of it.
+    zh: 月令的转折是唯一的平淡处；这一季可以读成开阔，但不是其中每一段都开阔。
+    compliance_tag: null
+  what_to_avoid:
+    en: Dwelling on hardship; setting out when the poem says to stay.
+    zh: 反复咀嚼自己的苦处；诗里劝你别动的时候，偏要出门。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs forcing; the plain advice is to keep what is already good.
+    zh: 这里没有哪一件事需要硬来；话很直白——把已经好的守住就行。
+    compliance_tag: null
+stories:
+- title:
+    zh: 薛仁貴救駕
+    en: Xue Rengui Rescues the Emperor
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 薛仁贵名叫薛礼，绛州龙门人，龙门在今天山西河津一带。他是唐朝的将领。唐太宗征高丽，他应募从军。安市城一战，他穿着白袍，手里持戟，腰上挂着弓，冲杀在前。唐太宗远远望见，派人赶去问那个穿白衣的是谁，由此把他升为游击将军。白袍陷阵这件事是有的；至于救驾，是救皇帝脱险，这出在后世讲薛仁贵东征的小说和戏里。那里写唐太宗被高丽将盖苏文困在淤泥河，薛仁贵单身白袍来救，杀透重围，因此受赏。他后来官做到右威卫大将军，又因为大非川一战失利被除名。本传里记他征战的事还有不少，将军三箭定天山就是其中一节。
+    en: Xue Rengui was named Xue Li and came from Longmen in Jiangzhou, Longmen being
+      in the Hejin area of Shanxi today. He was a general of the Tang. When Emperor
+      Taizong campaigned against Goguryeo he enlisted in the army. In the battle at
+      Anshi Fortressress he wore a white robe, carried a halberd in his hand and had
+      a bow at his waist. He charged and cut his way in front. Emperor Taizong saw
+      him from far off and sent men up to ask who the man in white was. On that account
+      he raised him to be a general. The white robe and the charge into the ranks
+      are real enough. The rescue of the emperor, that is, getting him out of danger,
+      belongs to the story of Xue Rengui's eastern campaign. There Emperor Taizong
+      is penned in at the Muddy River by the Goguryeo general Gaisuwen. Xue Rengui
+      comes alone in his white robe, cuts through the ring of troops, and is rewarded
+      for it. He later rose to be General of the Right Guard, and lost his place on
+      the rolls after the defeat at the Dafei River. His biography records many more
+      of his campaigns, among them the three arrows that settled Mount Tian.
+  poem_connection:
+    zh: 签诗说“福如东海寿如山，君尔何须叹苦难”，与薛仁贵由微而显、白袍解围受赏相贴；“祈保分明自平安”正取脱困而安之意。
+    en: The poem wishes blessings like the eastern sea and long life like the mountains,
+      and asks why one should lament hardship; Xue Rengui rose from low estate by
+      breaking the ring in his white robe.
+- title:
+    zh: 李世民落海灘
+    en: Li Shimin Stranded on the Shore
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事出自薛仁贵征东的一线故事。唐太宗李世民亲自领兵征讨高丽，薛仁贵投军效力，屡立战功。安市城一战，薛仁贵身穿白衣，手拿长戟，大声呼喊，冲杀在前，无人能挡。太宗远远望见，派人问明他的姓名，重加赏赐。高丽是当时在东北方的一个国家。民间又把太宗征东这一段铺演成许多险情：唐军误入圈套，皇帝的座驾遇险，有时陷在海滩的泥淖里，有时被困在一座孤城中。危急关头，都是薛仁贵赶到，把太宗救出来。“李世民落海滩”讲的就是其中这一节。
+    en: 'Emperor Taizong of Tang, whose personal name was Li Shimin, led troops in
+      person against Goguryeo, and Xue Rengui joined the army to serve and won merit
+      again and again. At the battle of Anshi Fortress, Xue Rengui wore white, held
+      a long halberd, and shouted as he charged in front, and no one could stop him.
+      The emperor saw him from a distance, sent someone to learn his name, and rewarded
+      him richly. Goguryeo was a state in the northeast at the time. Among the people,
+      the emperor''s campaign in the east was expanded into many tales of danger:
+      the Tang army wandered into a trap, the emperor''s carriage met with peril,
+      and at times it sank in the mud of the shore, at times it was trapped in a lone
+      city. At the critical moment Xue Rengui always arrived and got the emperor out.
+      This title tells of one such episode.'
+  poem_connection:
+    zh: 签诗“福如东海寿如山”“君尔何须叹苦难”，遇难而终得平安，正对太宗临危获救。
+    en: The lot's poem says blessings are like the eastern sea and long life like
+      the mountains, and asks why one should sigh over hardship. Meeting danger and
+      coming through safely fits the emperor rescued at a crisis.
+- title:
+    zh: 韓湘子遇洞賓
+    en: Han Xiangzi Meets Lü Dongbin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩湘子是民间传说里八仙中的一个。八仙是八位得道的仙人。他本名韩湘，是唐朝大文学家韩愈的侄孙。他从小喜欢道术，不羡慕功名，后来遇见仙人，得到指点，学成道法，与另外几位仙人合称八仙。他跟随吕洞宾学道。两人都是八仙中的人物。他成道之后，和韩愈还有一段缘分。韩愈因上表反对迎奉佛骨，触怒皇帝，被贬到潮州。潮州在今天的广东。他南行途中经过蓝关，遇上大雪封山，路走不通。韩湘子赶来，用道术化开积雪，给叔父开出道路。韩愈写诗记这一程，有云横秦岭家何在、雪拥蓝关马不前两句。这一签说福如东海寿如山，又说祈保分明自平安，正配韩湘子得道成仙、又为叔父开路的一段。
+    en: 'Han Xiangzi is one of the Eight Immortals in folk legend. The Eight Immortals
+      are eight who attained the Way. His original name was Han Xiang, and he was
+      the grandnephew of the great Tang writer Han Yu. From childhood he loved the
+      arts of the Way and did not envy office or fame. Later he met an immortal, received
+      guidance, and mastered the methods of the Way, and with several other immortals
+      was called one of the Eight Immortals. He studied the Way under Lü Dongbin,
+      and both are figures among the Eight Immortals. After he attained the Way he
+      still had a bond with Han Yu. Han Yu angered the emperor by sending up a memorial
+      against the reception of a Buddha relic, and was banished to Chaozhou. Chaozhou
+      is in what is today Guangdong. On the way south he passed the Blue Pass and
+      met with heavy snow that closed the mountain, so that the road was impassable.
+      Han Xiangzi came, used the arts of the Way to melt the snow, and opened a road
+      for his uncle. Han Yu wrote a poem to record this stage of the journey, with
+      the lines: clouds across the Qinling, where is home; snow hems in the Blue Pass,
+      the horse would not go on.'
+  poem_connection:
+    zh: 这一签说福如东海寿如山、祈保分明自平安，正配韩湘子得道成仙、并为叔父开路的一段。
+    en: This lot says blessings like the Eastern Sea and a life like a mountain, and
+      that praying and keeping to it plainly bring safety - Han Xiangzi attaining
+      the Way and opening the road for his uncle.
+- title:
+    zh: 崔文德祝壽
+    en: Cui Wende Offers Birthday Wishes
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签的故事题作“崔文德祝寿”，讲的是一个叫崔文德的人办寿庆的事。崔文德这个名字，在正史里查不到，也说不清他出自哪一部戏曲、哪一部小说。这一签里另有一条，也用了崔文德的名字，两条应当是同一个故事里的人。可是这个故事从哪儿来、情节怎么起收，都没有可靠的线索。旧日的戏曲目录和小说里，也查不到以崔文德为主角的戏。祝寿这种情节，旧戏里用得多，凡家里有喜事、亲友来贺，都可以用祝寿做题目，可这里没有主角可依，难说清它的本末。所以这一条只照题面放在这里，讲明是崔文德祝寿，不另补情节。
+    en: This lot's story is titled Cui Wende Offers Birthday Wishes. It tells of a
+      man named Cui Wende holding a birthday celebration. The name Cui Wende is not
+      surely known, and it cannot be said where he comes from. One other entry in
+      these lots also uses the name Cui Wende, and the two should belong to the same
+      story. But where the story comes from, and how it begins and ends, leave no
+      reliable clues. Old lists of plays and old novels also yield no play with Cui
+      Wende as the main figure. Birthday scenes were much used in old plays. Whenever
+      a household had a happy event and relatives and friends came to offer congratulations,
+      a birthday celebration could serve as the subject. But here there is no main
+      figure to lean on, so its full story cannot be stated. So this entry is set
+      here only by its title, making clear that it is Cui Wende offering birthday
+      wishes, with no plot added beyond that.
+  poem_connection:
+    zh: 签诗整首都是祝寿的话，说“福如东海寿如山”，故配崔文德祝寿一事。
+    en: The whole poem is a birthday greeting, wishing fortune wide as the Eastern
+      Sea and long life as a mountain, so it is paired with Cui Wende offering birthday
+      wishes.
+- title:
+    zh: 文彥博萬壽山祝壽
+    en: Wen Yanbo Feted at Longevity Mountain
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 文彦博是北宋汾州介休人，先后在仁宗、英宗、神宗、哲宗四朝做官，出将入相五十多年，被封为潞国公。他曾领兵平定贝州的王则之乱，朝廷有大事，皇帝常要听听他的意见。他晚年退居洛阳，请来富弼、司马光等十几位老臣聚会，一起喝酒赋诗，互相祝贺寿辰，当时称作洛阳耆英会。耆英会就是年高德重的老人聚会。这些老人大多年过七十，聚会那一天，洛阳的士人都说是难得的盛事。文彦博活到九十多岁，福气、官位、寿命样样齐全，民间因此把他看作福寿双全的代表。
+    en: Wen Yanbo was a man of Jiexiu in Fenzhou in the Northern Song. He held office
+      through the four reigns of Renzong, Yingzong, Shenzong and Zhezong, serving
+      as general and as minister for more than fifty years, and he was made Duke of
+      Lu. He once led troops and put down the revolt of Wang Ze in Beizhou. When great
+      matters came before the court, the emperor often wanted his opinion. In old
+      age he retired to Luoyang. He invited Fu Bi, Sima Guang and more than ten other
+      old ministers to gather and drink and write poems, wishing each other long life.
+      At the time it was called the Luoyang Qiyang Hui, a meeting of the old and worthy.
+      These old men were mostly over seventy, and on the day they gathered the scholars
+      of Luoyang called it a rare fine event. Wen Yanbo lived past ninety. Good fortune,
+      high office and long life all came to him, and so people took him as the model
+      of one who has both blessing and long years.
+  poem_connection:
+    zh: 签诗头一句说福如东海、寿比南山，本来就是祝寿的话。配上他为人祝寿的情景，题目和诗意正好接上。
+    en: The first line of the lot poem, blessings like the East Sea and long life
+      like the South Mountain, is itself a birthday wish. Placed with him wishing
+      others long life, the title and the poem meet.
+- title:
+    zh: 劉先主進蕸萌關
+    en: Lord Liu Enters Jiameng Pass
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘备是三国时蜀汉的开国之主，人称刘先主。益州的州牧刘璋听信张松的话，请刘备带兵进益州，帮他抵挡汉中的张鲁。刘备留下诸葛亮和关羽守荆州，自己带着军师庞统，领兵入蜀。刘璋亲自到涪城和刘备相见，送给他钱粮，请他向北去夺取葭萌关，挡住张鲁的兵马。刘备就把兵驻扎在葭萌关，安抚当地的百姓，收揽人心。他从此在益州立住了脚。后来他和刘璋翻了脸，回兵夺取涪关，又攻打雒城。题面上的蕸萌，就是葭萌，是同一个地名在传抄中写成的另一种样子。
+    en: Liu Bei was the founding ruler of Shu Han in the Three Kingdoms and is called
+      Lord Liu. Liu Zhang, governor of Yizhou, took the advice of Zhang Song and asked
+      Liu Bei to bring troops into Yizhou to help him hold off Zhang Lu of Hanzhong.
+      Liu Bei left Zhuge Liang and Guan Yu to guard Jingzhou and led his army into
+      Shu himself with his strategist Pang Tong. Liu Zhang came in person to meet
+      Liu Bei at Fu City, gave him money and grain, and asked him to go north and
+      seize Jiameng Pass to block Zhang Lu's troops. Liu Bei then stationed his army
+      at Jiameng Pass, calmed the local people, and won their hearts. From this he
+      gained a firm foothold in Yizhou. Later he fell out with Liu Zhang, turned his
+      troops back to take Fu Pass, and attacked Luo City. The name on the title is
+      the same place as Jiameng, written in another form as copies were handed down.
+  poem_connection:
+    zh: 这一签说无须叹苦难、命运自有平安，正配刘备入蜀屯兵葭萌、得刘璋资助。
+    en: This lot says do not sigh over hardship, for your course holds its own peace.
+      It fits Liu Bei entering Shu and camping at Jiameng with Liu Zhang's support.
+- title:
+    zh: 張儀讀書
+    en: Zhang Yi Studies
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 张仪是魏国人，和苏秦一同拜在鬼谷先生门下，学的是游说诸侯的纵横之术。纵横之术，就是游说各国、结盟或拆盟的外交手段。学成之后，他四处游说，起初到处碰壁，困在楚国的时候，还被人疑心偷了玉璧，挨了一顿打。回到家里，他问妻子自己的舌头还在不在。他认为只要舌头还在，就不怕没有出路。后来受到苏秦的激励，他往西进入秦国，做了秦惠王的客卿，终于当上秦国的相。他用连横的计策劝说六国去事奉秦国，多次出使魏、楚、韩、齐、赵、燕等国。他一发怒，诸侯都害怕；他安坐不动，天下就平息。这一题取的，是他早年从师苦读的那一段。
+    en: 'Zhang Yi was a man of Wei. He studied under Master Guigu together with Su
+      Qin. What they learned was the art of persuasion between states: the skill of
+      talking rulers into alliances or out of them. After finishing his studies he
+      travelled about trying to persuade rulers, and he met with failure everywhere.
+      While he was stuck in Chu he was even suspected of stealing a jade disc, and
+      he was beaten for it. At home he asked his wife whether his tongue was still
+      there. He held that so long as his tongue was there, he need not fear having
+      no way out. Later, spurred on by Su Qin, he went west into Qin. He became a
+      guest minister to King Hui of Qin and in time rose to be chancellor of Qin.
+      He used the plan of the horizontal alliance to persuade the six states to serve
+      Qin. He went on missions to Wei, Chu, Han, Qi, Zhao, and Yan. When he was angry,
+      the rulers of the states were afraid. When he sat still, the world was at peace.
+      This title takes the part where he studied hard under his teacher in early years.'
+  poem_connection:
+    zh: 这一签的签诗说福如东海、寿比南山，何必叹苦，命里自然逢吉、祈保得平安。张仪一时困顿而终得通显，正合不必叹苦的话。
+    en: The poem says fortune is as deep as the eastern sea, so why sigh over hardship;
+      good comes of itself. Zhang Yi was once stranded and in the end rose high, so
+      hardship need not be sighed over.
+- title:
+    zh: 陶朱公積儲金錢
+    en: Tao Zhu Gong Stores Up His Wealth
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 陶朱公就是范蠡。他辅佐越王勾践二十多年，终于灭掉吴国，洗去越国当年受辱的旧耻。功成之后，他觉得勾践这个人只能共患难，不能共安乐。于是他辞去官职，泛舟渡过五湖，改名换姓，不再回越国。他先到齐国，经营产业、囤积货物，名声传到齐国国君那里，齐人请他做相。他认为长久享有尊名不吉利，就把家财全部分给朋友乡邻，带着贵重财物悄悄离开。后来他住在陶地，认为那里是天下的中心，货物交易往来方便，就在当地做买卖，随时节取利，不苛待别人。十九年当中三次积起千金，又两次分给贫穷的亲友，从此自称陶朱公。
+    en: Tao Zhu Gong was Fan Li. He served King Goujian of Yue for more than twenty
+      years and finally destroyed Wu, wiping out the old shame of Yue's earlier humiliation.
+      After the work was done he judged that Goujian could share hardship but not
+      ease. So he gave up office, crossed the five lakes by boat, changed his name,
+      and never went back to Yue. He first went to Qi, where he ran a business and
+      stored goods. His name reached the ruler of Qi, and the people of Qi asked him
+      to be chancellor. He thought that holding high fame for long was unlucky, so
+      he gave all his property to friends and neighbors and left quietly with his
+      valuables. Later he lived at Tao. He judged that it was the center of the realm,
+      with goods and trade moving easily. So he traded there, took his profit by the
+      seasons, and did not treat others harshly. Over nineteen years he built up a
+      fortune of a thousand gold three times, and twice gave it away to poor relatives
+      and friends. From then on he called himself Tao Zhu Gong.
+  poem_connection:
+    zh: 签诗说福如东海寿如山、何须叹苦难；陶朱公善居积、终致丰饶，正合富厚安享这一层。
+    en: The poem says blessing is like the East Sea and long life like a mountain,
+      so there is no need to sigh over hardship. Tao Zhu Gong stored well and came
+      to plenty, which fits.

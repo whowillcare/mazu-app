@@ -1,0 +1,405 @@
+id: 27
+lot_number: 27
+ganzhi:
+  zh: 戊辰
+  pinyin: Wu-chen
+title:
+  en: Hu Wan Rescues the Widow Wen and Her Daughter
+  zh: 胡完救文氏母女
+hexagram:
+  zh: 天泽履
+  name_and_structure_en: Lu (Heaven over Lake)
+  binary_code: ○○○●○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 胡完救文氏母女
+    en: Hu Wan Rescues the Widow Wen and Her Daughter
+  variants_en:
+  - Cui Wende Courts Hu Fengjiao
+  - Wu Ji Meets the Grand Duke, Who Reads the Hexagram
+  - Li Mi, the White-Robed Chancellor
+  - Pang Degong Ploughs on the Ridge
+  - Xu Li Dreams of the Immortal Terrace
+  - Sun Bin Takes a Master and Learns the Art
+  variants_zh:
+  - 崔文德請胡鳳嬌
+  - 武吉遇太公解卦
+  - 李鄴侯白衣宰相
+  - 龐德公耕隴上
+  - 許俚夢仙臺
+  - 孫臏拜師學藝
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'temple judgements run positive throughout - 作事 成功／家事 團圓且喜／家運 可得興旺／婚姻
+      大吉／六甲 添得弄璋之喜／求財 先輕後得／經商 獲如意。後大利／官事 必和。必勝 (jie_yue_score +14). The reservations
+      are narrow: 求兒 不可 and 月令 不遂。逢春如意.'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements turn favourable on undertakings, the household,
+      the family's fortunes, marriage and trade alike, and read money as light at
+      first and heavier after; two reservations remain, on offspring and on the month's
+      affairs, the latter turning on spring.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 無傷不用求。／作事 成功。／家事 團圓且喜。／家運 可得興旺。／婚姻 大吉。／求兒
+      不可。／六甲 添得弄璋之喜。／求財 先輕後得。／功名 晚到。／歲君 淡淡。未安。／治病 得安。／出外 先呆後好。／經商 獲如意。後大利。／行舟 先平安後大進。／耕作
+      早冬好。下冬呆。／築室 逢春大吉。／月令 不遂。逢春如意。——总评：整签偏吉（jie_yue_score +14），两处保留在求兒与月令，月令的转点系在春季上。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在行事、家事、家运、婚姻、经商几处都开出好面，求财一项是先轻后得的走势；两处保留落在子嗣与月令，其中月令的转点系在春季上。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 君爾寬心且自由，
+    en: Set your heart at ease and let yourself be free;
+  - line_number: 2
+    zh: 門庭清吉家無憂，
+    en: the gate and hall are clear and auspicious, the home free from worry;
+  - line_number: 3
+    zh: 財寶自然終吉利，
+    en: wealth and treasure come round of themselves and end well;
+  - line_number: 4
+    zh: 凡事無傷不用求。
+    en: nothing in your affairs is wounded, and nothing needs to be asked for.
+keywords:
+  favourable:
+    en:
+    - the gate swept clear
+    - a household gathering in
+    - gain that starts light and grows
+    - the spring that answers
+    zh:
+    - 门庭清吉
+    - 家人团圆
+    - 先轻后得
+    - 逢春如意
+  guarded:
+    en:
+    - straining after what comes freely
+    - expecting the winter to give what spring gives
+    - reading one withheld thing as a verdict on everything
+    zh:
+    - 硬求本会自来的东西
+    - 指望冬天给春天的那份
+    - 把一处留白当成全盘的断定
+reading_notes:
+- term: 寬心
+  pinyin: kuān-xīn
+  en: 'to set the heart at ease, to widen it: loosening a mind that has been clenched;
+    deliberately making room for others'' faults; both senses sit in the compound.'
+  zh: 一面是把绷紧的心放开，一面是故意给人留余地、容得下别人的错处。两层意思都在这个字里。
+- term: 清吉
+  pinyin: qīng-jí
+  en: 'clear and auspicious: the gate and hall literally swept and bright; the household''s
+    affairs in order; one word carries sight and fortune together.'
+  zh: 一面是门庭真的扫得干净明亮，一面指家里的事有条理；一个字里同时带着「看得清」和「有福」。
+- term: 無傷
+  pinyin: wú-shāng
+  en: 'without injury, unharmed: nothing in your affairs is damaged; no harm done
+    to you by others; the compound reads as reassurance rather than as a lucky sign.'
+  zh: 一面说事情没有损坏，一面说没人来伤你。这个词读起来是安抚，不是吉兆。
+plain_meaning:
+  en: 'An open season for what is already yours: the family gathers in, standing and
+    a union are called greatly auspicious, and wealth that comes lightly at first
+    settles into profit. Two reservations remain - children are not granted simply
+    by asking, and the winter half of the year thins out. The poem''s counsel is to
+    stop straining and let the season carry the matter.'
+  zh: 这一签是开的：把手放宽、自在地过，门庭清吉，家里没有要担的心；财宝先轻后得，慢慢自己转顺，事情没有伤着的地方，也不必再求什么。判词几乎一路开出好面——作事成功、家人团圆、家运兴旺、婚姻大吉；只留两处收着：子嗣不是靠求就能得，一年里带冬的那一半月令会淡一些，逢春才如意。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Called greatly auspicious - a union or a reconciliation here rests on good
+      ground.
+    zh: 婚姻一项判作大吉；这一段的结合或和解都落在好地上。
+    compliance_tag: null
+  career:
+    en: Recognition comes late rather than never; keep working and let the name catch
+      up with the work.
+    zh: 功名晚到，不是不到；手上的活继续做，名声会慢慢跟上。
+    compliance_tag: null
+  money:
+    en: Gain arrives light and grows heavier, first little and then more; there is
+      no need to force the margin. (Not financial advice.)
+    zh: 求财先轻后得，起头少、后来重；不必硬挤那点利。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Calm and settling; ordinary rest and ordinary care are enough — the judgement
+      reads it safe. (Not medical advice.)
+    zh: 这一项平顺安定，照常休息、照常调养就够，判词作得安。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: 'A gathering season: the family comes together in pleasure, and the home is
+      called prosperous.'
+    zh: 这是团聚的一季：家人和乐地凑在一起，家运作兴旺。
+    compliance_tag: null
+  travel_moving:
+    en: A move is safe, and a journey goes poorly at first and better later.
+    zh: 移居平安；出外是先呆后好。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Safe water first and good hauls after; the spring season is the one that supplies
+      them and the winter one does not.
+    zh: 水上先平安、后大进；春一季有收，冬一季没有。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The early winter crop is the good one; building or planting done in spring
+      goes well.
+    zh: 早冬的收成好；筑室起造在春天大吉。
+    compliance_tag: null
+  timing:
+    en: 'The turn here is tied to spring: the month is not smooth now and it comes
+      right with spring — a season, never a date.'
+    zh: 这一签的转点系在春天上——逢春如意，其余时候淡一些；这是季节，不是日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Straining after what the season already gives; counting on a winter harvest
+      that belongs to spring.
+    zh: 硬求本该自己来的东西；把冬天该收的记在春天的账上。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs forcing; the season is generous if you let it work.
+    zh: 这一签没有一样要用力去逼；顺着季节走，它自己会给。
+    compliance_tag: null
+stories:
+- title:
+    zh: 胡完救文氏母女
+    en: Hu Wan Rescues the Widow Wen and Her Daughter
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签的故事题作“胡完救文氏母女”。讲的是一个叫胡完的人，救护文家母女的事。除此之外，这件事出在哪一朝、哪个地方，都查不清。胡完是什么身份，文家母女遇到了什么难处，也没有可靠的线索。事情的起头结尾又怎样，同样无从查明。以胡完为主角的故事，流传下来的只有这个题目。所以这一条只能照题名放在这里。题面讲的是救护文家母女，不另编造情节。签诗说“门庭清吉家无忧”“凡事无伤不用求”。用的也正是家中得全、无事相扰的景况。
+    en: The story for this lot is titled Hu Wan Rescues the Widow Wen and Her Daughter.
+      It tells of a man named Hu Wan who rescued the Wen mother and daughter. Beyond
+      that, it cannot be determined in which dynasty or in what place this took place.
+      What Hu Wan did for a living, and what trouble the Wen mother and daughter met,
+      leave no reliable clues either. How the matter began and ended is just as impossible
+      to find out. Of stories with Hu Wan as the main figure, only this title has
+      come down. So this entry can only be set here by its title. The title speaks
+      of rescuing the Wen mother and daughter, and no plot is invented beyond that.
+      The lot's poem says, the household is clear and auspicious and the home free
+      of care, and in all things there is no harm and no need to seek. Its sense is
+      exactly a household kept whole, with nothing troubling it.
+  poem_connection:
+    zh: 签诗言“门庭清吉家无忧”“凡事无伤不用求”，题面取胡完救护文氏母女、使其家得全之意。
+    en: The poem says the household is clear and auspicious with no care and that
+      in all things there is no harm, so the title takes Hu Wan rescuing the Wen mother
+      and daughter and keeping their home whole.
+- title:
+    zh: 崔文德請胡鳳嬌
+    en: Cui Wende Courts Hu Fengjiao
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 武则天是唐朝的女皇帝，她掌权的时候，唐室宗亲多有祸事。李旦是唐高宗的儿子、武则天的亲生子，当时被立为太子，为躲避灾祸，流落民间，改名换姓，在一位姓胡的员外家里做工。员外是地方上有钱有势的人家。胡员外的女儿胡凤娇和李旦相识往来，两人彼此有意。陵州有个叫崔文德的人，是胡凤娇的表哥，一心想娶她为妻。他对胡家百般孝敬，也上门提过亲。胡凤娇却不肯答应，崔文德这门亲事终于落空。后来李旦的身份渐渐为人所知，胡凤娇就归了李旦。
+    en: Wu Zetian was the empress who ruled Tang China. While she held power, many
+      of the Tang imperial clan met with disaster. Li Dan was a son of Emperor Gaozong
+      and Wu Zetian's own son. He had been made crown prince, and to escape trouble
+      he wandered among the common people under another name and worked in the house
+      of a man named Hu. Hu was a rich and powerful man of that place. Hu's daughter,
+      Hu Fengjiao, came to know Li Dan, and the two were drawn to each other. A man
+      of Lingzhou named Cui Wende was Hu Fengjiao's cousin. He wanted to marry her.
+      He showed the Hu family every respect and sent a matchmaker to ask for her.
+      Hu Fengjiao would not agree, and the match came to nothing. In time Li Dan's
+      true place became known, and Hu Fengjiao went to him.
+  poem_connection:
+    zh: 签诗说放宽心过日子，门庭清静家中无忧。胡凤娇不从别人的请托，最后归于中意的人，正合此意。
+    en: The lot poem says to live at ease, with the household quiet and no worry at
+      home. Hu Fengjiao refused another man's suit and went in the end to the one
+      she favored.
+- title:
+    zh: 武吉遇太公解卦
+    en: Wu Ji Meets the Grand Duke, Who Reads the Hexagram
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 姜子牙是商朝末年的一位贤士。他为了躲避纣王，隐居在磻溪边，用没有弯钩的直钩钓鱼。城里有个砍柴的樵夫叫武吉，挑柴进城时，失手打死了守门的军士王相。按照当时的法令，杀人要抵命。文王用画地为牢的办法把他关了起来，又答应让他先回家奉养母亲，等秋天再处死。武吉听母亲的话，去找姜子牙求救。姜子牙收他做徒弟，教他在床前挖一个坑，披散头发趴在坑里。又用草人替他受刑，好把文王推算的天数搅乱。秋天文王再推算，以为武吉已经死了，就销了这桩案子。后来文王出巡，又遇见武吉，武吉带他去见姜子牙。文王便请姜子牙出山，做了自己的老师，武吉也被封为将军。
+    en: Jiang Ziya was a worthy man of the late Shang. To keep away from King Zhou
+      he lived in seclusion by the Pan River, fishing with a straight hook that had
+      no barb. In the city there was a woodcutter named Wu Ji. Carrying his firewood
+      into the city, he accidentally killed Wang Xiang, a soldier guarding the gate.
+      Under the law of the time a killer had to pay with his life. King Wen had him
+      held by drawing a prison on the ground, and agreed to let him go home first
+      to support his mother, to be put to death in autumn. On his mother's advice
+      Wu Ji went to Jiang Ziya for help. Jiang Ziya took him as a disciple and told
+      him to dig a pit before his bed and lie face down in it with his hair loose.
+      He also used a straw figure to take the punishment in his place, so as to confuse
+      the count of days in King Wen's calculations. When autumn came and King Wen
+      cast his figures again, he took Wu Ji to be already dead and closed the case.
+      Later, on a tour, King Wen met Wu Ji again, and Wu Ji brought him to Jiang Ziya.
+      King Wen asked Jiang Ziya to come out and serve as his teacher, and Wu Ji was
+      made a general.
+  poem_connection:
+    zh: 这一签说宽心自在、凡事无伤，正配武吉得姜子牙解厄销案、家门无事。
+    en: This lot says put your heart at ease and take things lightly; nothing does
+      you harm. It fits Wu Ji having his trouble cleared by Jiang Ziya and his household
+      coming to no harm.
+- title:
+    zh: 李鄴侯白衣宰相
+    en: Li Mi, the White-Robed Chancellor
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李泌字长源，是京兆人，从小聪明过人，唐玄宗很赏识他。他先后在玄宗、肃宗、代宗、德宗四朝做过事。他喜欢神仙方术，屡次辞掉官职，常以平民的身份议论国事。所以有人称他“白衣宰相”。白衣是平民穿的粗布衣服，说他虽然身在朝中议政，却没有正式的官位。肃宗在灵武即位，李泌赶到皇帝所在的地方，替他谋划军政大事。他不居相位，实际上参与机要。后来他为了避祸，归隐衡山，代宗、德宗时又出来做事。他最后以中书侍郎的身份做了宰相，封为邺侯。他善于在君臣、父子之间调护，曾劝肃宗不要废掉太子，也替德宗分析过藩镇的情势。
+    en: 'Li Mi, styled Changyuan, was a man of Jingzhao and sharp beyond his years
+      from childhood. Emperor Xuanzong of Tang thought highly of him. He served under
+      four reigns: Xuanzong, Suzong, Daizong, and Dezong. He was fond of the arts
+      of the immortals and repeatedly declined office. He often discussed state affairs
+      as a commoner. So some called him the white-robed chancellor. White robes were
+      the coarse cloth worn by commoners. The name says that he took part in court
+      debate while holding no formal office. When Suzong took the throne at Lingwu,
+      Li Mi hurried to the emperor and planned military and government matters for
+      him. He did not take the seat of chancellor, yet in fact he shared in secret
+      affairs. Later, to keep clear of trouble, he withdrew to Mount Heng. Under Daizong
+      and Dezong he came out again to serve. At the end he became chancellor as vice
+      director of the Secretariat and was made Marquis of Ye. He was good at smoothing
+      matters between ruler and minister and between father and son. He once urged
+      Suzong not to set aside the crown prince, and he analysed the military governors
+      for Dezong.'
+  poem_connection:
+    zh: 这一签的签诗说劝你宽心自在，门庭清静家里无忧，财宝自然会有，凡事不必刻意去求。李泌辞官而不失其位，不求而自得，正合此意。
+    en: The poem says be at ease and untroubled, the household is quiet and without
+      care, and wealth comes of itself; nothing need be sought with effort. Li Mi
+      left office without losing his place.
+- title:
+    zh: 龐德公耕隴上
+    en: Pang Degong Ploughs on the Ridge
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 庞德公是东汉末年襄阳人，隐居不做官，在山间田地里亲自耕种。他住在岘山南边，一辈子没有进过城府的衙门，和妻子相敬如宾，相处像待客一样。荆州的刺史刘表几次派人来请他出山，都不能改变他的心意。刘表曾问他，耕种而不受官禄，将来拿什么留给子孙。庞德公回答说，留给子孙的是安稳，不是钱财。后来他带着妻子上鹿门山采药，一去不知所终。襄阳一带的读书人很敬重他，司马徽、徐庶、诸葛亮都和他有来往。诸葛亮的卧龙、庞统的凤雏，这两个名号都是他品评出来的。
+    en: Pang Degong was a man of Xiangyang at the end of the Eastern Han. He withdrew
+      from office and farmed the hillside fields himself. He lived south of Mount
+      Xian and never in his life entered the offices of the prefecture. He and his
+      wife treated each other with respect, as though one were a guest of the other.
+      Liu Biao, governor of Jingzhou, sent men several times to invite him to serve,
+      and could not change his mind. Liu Biao once asked him, if he farmed and took
+      no official salary, what he would leave his sons and grandsons. Pang Degong
+      answered that what he left them was security, not money. Later he took his wife
+      up Mount Lumen to gather herbs and was never heard of again. The scholars of
+      the Xiangyang region held him in great respect, and Sima Hui, Xu Shu, and Zhuge
+      Liang all had dealings with him. The names Crouching Dragon for Zhuge Liang
+      and Fledgling Phoenix for Pang Tong both came from his judgments.
+  poem_connection:
+    zh: 签诗说宽心自由、门庭清吉、凡事无伤不用求；庞公躬耕自守，正合不假外求这一层。
+    en: The poem says the heart is free and at ease and the household is clear and
+      lucky, with nothing hurt and no need to ask. Pang Degong farmed and kept to
+      himself, which fits.
+- title:
+    zh: 許俚夢仙臺
+    en: Xu Li Dreams of the Immortal Terrace
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 许俚在梦里登上了一座仙台。仙台是传说里仙人居住的高处。他在梦里一路往上走，看见仙家的楼台景象，醒来时仍旧睡在自己家中，一切和平时一样。梦中进入别境、醒来回到原处，是旧时讲得很多的一类故事。这一段留下的，就是登临仙台、醒后仍归本处的情景。他梦中所见的热闹，醒来一空，日子还是照旧过下去。他在梦中走了很远的路，见到的都是人间没有的景象。一觉醒来，屋里还是从前那间屋子，梦里的热闹一点也没有带回家里。他把这一场梦记在心里，日子照旧过下去。
+    en: Xu Li climbed a terrace of the immortals in a dream. The immortal terrace
+      was the high place where, in legend, the immortals lived. In the dream he walked
+      upward and saw the towers and terraces of that immortal country. When he woke,
+      he was still lying in his own house, and everything was as usual. Stories of
+      entering another place in a dream and coming back to one's own on waking were
+      a common kind in old times. What has come down here is the scene of climbing
+      to the immortal terrace and returning to one's own place on waking. All the
+      bustle he saw in the dream came to nothing when he woke, and the days went on
+      as before. In the dream he walked a long way and saw things that do not exist
+      in the world of men. When he woke up, the room was the same room as before,
+      and none of the liveliness of the dream had come home with him.
+  poem_connection:
+    zh: 这一签写梦中登临仙境、醒来仍在家中的自在，正扣签诗“君尔宽心且自由，门庭清吉家无忧”。
+    en: Climbing into immortal country in a dream and waking still at home, at ease,
+      fits a lot whose poem tells the reader to relax, be free, and know a quiet house
+      without worry.
+- title:
+    zh: 孫臏拜師學藝
+    en: Sun Bin Takes a Master and Learns the Art
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孙膑是春秋时兵法家孙武的后人。他年少时和庞涓一起学兵法，同拜一位隐居在鬼谷的先生为师，这位先生世称鬼谷子。鬼谷子把兵家的学问传给他们，两人是同门师兄弟。山中日子清静，两人同读兵书，一起切磋，老师把用兵的门道一一讲给他们听。先生还先试探弟子的心性，孙膑应对谨慎，从不自己张扬本事。庞涓先学成出山，到魏国做了将军；孙膑学业还没有读完，仍旧留在山里。后来庞涓自知本事比不上孙膑，就写信召他前来。孙膑辞别老师下山，才有了后来受刑装疯的一段。
+    en: Sun Bin was a descendant of Sun Wu, the strategist of the Spring and Autumn
+      period. When he was young he studied the art of war together with Pang Juan.
+      The two took as their master a recluse of Ghost Valley, known as Master Guiguzi.
+      He passed on the learning of the military school to them, and the two were fellow
+      students under one master. Life in the mountains was quiet. The two read the
+      books of war together and discussed them, and the teacher explained the ways
+      of using troops to them one by one. The master also tested his students' character
+      first. Sun Bin answered with care and never boasted of his own skill. Pang Juan
+      finished his studies first and left the mountains, becoming a general in Wei.
+      Sun Bin had not yet finished his studies and stayed in the mountains. Later
+      Pang Juan knew his own skill was no match for Sun Bin's and wrote to call him.
+      Sun Bin took leave of his teacher and came down the mountain, and only then
+      came the later tale of his punishment and feigned madness.
+  poem_connection:
+    zh: 签诗说君尔宽心且自由，凡事无伤不用求。孙膑在山中从容受业、未涉世事的一段，正合这一层。
+    en: The lot poem says be at ease and free, for nothing is harmed and nothing need
+      be sought. Sun Bin calmly studies in the mountains, not yet touched by the world.
+- title:
+    zh: 摧文德清胡鳳嬌
+    en: Cui Wende Forces Hu Fengjiao to Marry
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝有位太子叫李旦。李旦避武则天的迫害，流落民间，改名马进兴，在胡家当长工。武则天是唐朝的女皇帝。他在胡家做事，和胡员外的侄女胡凤娇订了婚。后来马进兴接到忠臣相邀，要迎太子到翠云山起事，只好辞别凤娇走了。凤娇母女搬到姨母家里住。当地人崔文德看上了凤娇。他给凤娇的长辈送钱行贿，逼她答应婚事。凤娇早已把自己许给了马进兴，死活不肯。成婚那天，她投身江中，崔文德到头来一场空。这一签说君尔宽心且自由，又说门庭清吉家无忧，正配凤娇婚事被逼、崔文德终究落空的一段。
+    en: There was a crown prince in the Tang named Li Dan. Li Dan fled the persecution
+      of Wu Zetian and drifted among the common people, changing his name to Ma Jinxing,
+      and worked as a hired hand in the Hu household. Wu Zetian was the empress who
+      took the Tang throne. Working for the Hu family, he became engaged to Hu Fengjiao,
+      the niece of the head of the house. Later Ma Jinxing was invited by loyal ministers
+      to escort the crown prince to Mount Cuiyun and raise a rising, and he had to
+      take leave of Fengjiao and go. Fengjiao and her mother moved to live with an
+      aunt. A local man, Cui Wende, took a liking to Fengjiao. He sent money as a
+      bribe to her elders and pressed her to agree to the marriage. Fengjiao had long
+      given herself to Ma Jinxing and would not agree, for life or for death. On the
+      wedding day she threw herself into the river, and Cui Wende got nothing in the
+      end.
+  poem_connection:
+    zh: 这一签说君尔宽心且自由、门庭清吉家无忧，正配凤娇婚事遭迫、崔文德终归空成的一段。
+    en: This lot says to be easy in heart and free, and that the household is clear
+      and safe with nothing to worry about - Fengjiao pressed into a marriage, and
+      Cui Wende left with nothing.

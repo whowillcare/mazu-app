@@ -1,0 +1,431 @@
+id: 38
+lot_number: 38
+ganzhi:
+  zh: 庚寅
+  pinyin: Geng-yin
+title:
+  en: Three Visits to the Thatched Hut
+  zh: 三顧草廬
+hexagram:
+  zh: 水地比
+  name_and_structure_en: Bi, Union (Water over Earth)
+  binary_code: ●○●●●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 三顧草廬
+    en: Three Visits to the Thatched Hut
+  variants_en:
+  - Liu Bei Visits Kongming at the Thatched Hut
+  - The Imperial Uncle Liu Calls on Kongming Three Times
+  - Chen San Wins the Lychee Below the Tower
+  - Su Qin Is Made Chancellor
+  - Zhang Yi Meets Su Qin
+  - The Marquis of Huaiyin Leaves Chu for Han
+  - Guan and Bao Pledge Friendship
+  variants_zh:
+  - 劉備三顧孔明茅蘆(廬)
+  - 劉皇叔（備）三請孔明
+  - 陳三樓下得荔枝
+  - 蘇秦拜相
+  - 張儀見蘇秦
+  - 淮陰侯背楚歸漢
+  - 管鮑結義
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements read well but keep putting the good after a wait -
+      凡事 守己安分／作事 晚成好。早無利／求財 晚來好／經商 後有大財／功名 真可喜／出外 必得利; the dull notes are 求雨 尚未 and
+      月令 平平, and 官事 了錢 (jie_yue_score +23)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book reads well across the board on this lot, but it puts
+      every good thing after a wait - general affairs, household, family fortune,
+      marriage, children, income, advancement, the year's ruler, going out, trade,
+      moving house, livestock, field work, building, graves, sea work, ponds, fry,
+      finding people, and distant news all sit on the bright side; the undertaking
+      line says plainly that the late result is the good one and the early one brings
+      little, rain and the month's season are flat, and the legal line settles only
+      at a cost. We read it as favourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 守己安分。／作事 晚成好。早無利。／家事 門庭光輝進益。／家運 恭順。／婚姻 成好。／求兒
+      好。／六甲 生男。／求財 晚來好。／功名 真可喜。／歲君 順利。／治病 平安痊癒。／出外 必得利。／經商 後有大財。／來人 三日後到。／行舟 平平得利。／移居
+      可有喜慶。／失物 尋必在。／求雨 尚未。／官事 祈神完明。了錢。／六畜 有利可得。／耕作 有收可以。／築室 得意平安。／墳墓 地勢可佳。速發。／討海 下半年有利。／作塭
+      可喜有利。／魚苗 五日內買得利。／月令 平平。／尋人 漸回。／遠信 急至。——整签偏正（jie_yue_score +23）：通篇判词都好，却反复把好处排在「等一等」之后；惟
+      求雨 尚未、月令 平平 两处平淡，官事 一项事情了结仍要花钱。校订：首句依六源多数决取「名顯有意在中央」（别本作「中間」），标点从维基文库，字句诸本全同。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上整体读得好，却把好处一律放在等候之后——总类、家事、家运、婚姻、子嗣、求财、功名、岁君、出外、经商、移居、六畜、耕作、筑室、坟墓、讨海、作塭、鱼苗、寻人、远信都偏正面；作事一项明说晚成、早动收效少，求雨与月令两处平淡，官事一项则是事情了结仍要花钱。故列为本批的偏正一档。
+provenance:
+  editorial_note: null
+  textual_provenance: 'majority — 「维基文库: 名顯有意在中間，不須祈禱心自安。」→「feishuai / mznn / 91chouqian
+    / temple01(好廟網): 名顯有意在中央、不須祈禱心自安。」, six-source vote: 中央 carries the wider attestation,
+    and the sense and rhyme are unchanged; 「feishuai, mznn: ...不须祈祷心自安；看看早晚日过后，」→「91chouqian,
+    temple01(好廟網): ...不須祈禱心自安、看看早晚日過後、」, punctuation only - the wording itself is
+    identical across all six votes'
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 名顯有意在中央，
+    en: Your name is meant to be shown, and its place is the centre;
+  - line_number: 2
+    zh: 不須祈禱心自安，
+    en: no need to pray for it - the heart quiets of itself;
+  - line_number: 3
+    zh: 看看早晚日過後，
+    en: watch a while, and after the days have passed,
+  - line_number: 4
+    zh: 即時得意在中間。
+    en: you come into your own, right in the middle.
+keywords:
+  favourable:
+    en:
+    - late ripening
+    - the honoured name
+    - keeping to your own ground
+    - quiet confidence
+    zh:
+    - 晚熟
+    - 受看重的名头
+    - 守着自己的地面
+    - 不动声色的底气
+  guarded:
+    en:
+    - pressing for an early result
+    - waiting in idleness
+    - reading a slow season as a closed one
+    zh:
+    - 急着要一个早的结果
+    - 空等着不动
+    - 把慢的一季读成关门的一季
+reading_notes:
+- term: 中央
+  pinyin: zhōng-yāng
+  en: 'the centre, the middle: the middle position among others; the central place
+    in the matter; the poem repeats the word, so both senses stay live.'
+  zh: 既指众人当中的中间那个位子，也指这桩事的中心所在；诗里两头都用到这个词，两层意思都留着。异文说明：首句诸本有一处作「名顯有意在中間」，本件依六源多数决取「中央」——「中央」在诸本中出现更广，句意与押韵都没有改变；另有两本只是顿逗标点之别，字句全同，此处标点从维基文库。
+- term: 不須祈禱
+  pinyin: bù-xū-qí-dǎo
+  en: 'no need to pray for it: the matter does not depend on petitions; the petition
+    is not what moves it; the poem does not say which is meant.'
+  zh: 是说这桩事不靠祈求来推动：既指不必去求，也指求并不是让它成的那股力；这一句没有说定是哪一层。
+- term: 早晚日過後
+  pinyin: zǎo-wǎn-rì-guò-hòu
+  en: 'after the days have passed, sooner or later: after a short time; after a longer
+    time; the phrase deliberately covers both.'
+  zh: 把早晚都包了进去：既指再过不长的日子，也指再过一段较长的日子；这个说法有意两段都算。
+plain_meaning:
+  en: 'A season that ripens late: the name is honoured, but the outcome arrives after
+    time has passed rather than at once. Early moves bring little, later moves bring
+    much, and the poem says the matter does not need to be prayed or pushed. The counsel
+    is to keep to your own ground and let the hour come to you.'
+  zh: 晚熟的一季：名头是受看重的那一回事，但结果要等日子过去才到，不是马上就来。早动的手收效少，后动的手收效多；诗里说这桩事不必去求，也不必去推。劝的是守着自己的地面，让时辰自己走到你面前。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The judgement reads well for unions, and the good outcome sits in the middle
+      of the poem; time, not pressure, brings it.
+    zh: 判词对结缘读得好，而好的结果落在诗的正中间；把它带出来的是时间，不是催逼。
+    compliance_tag: null
+  career:
+    en: The name is honoured, but after a wait - early pushes bring little, later
+      ones bring much.
+    zh: 名头是受看重的，但要等一等——早使劲收效少，后使劲收效多。
+    compliance_tag: null
+  money:
+    en: Gain is late and large in the judgement; the discipline this lot asks for
+      is patient holding. (Not financial advice.)
+    zh: 判词里进项来得晚、量也大；这一签要练的就是有耐心地守。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Recovery reads as calm and complete; steady care, not a hurried cure. (Not
+      medical advice.)
+    zh: 复原读成平稳而周全；要的是安稳的调养，不是求一个快。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: A house that gains standing; keep to your own ground and the household brightens.
+    zh: 是能挣得门面的家；守好自己的地面，家里就亮起来。
+    compliance_tag: null
+  travel_moving:
+    en: Going out reads as profitable; even so, the poem's counsel is to let the hour
+      come first.
+    zh: 出门读成有利可图；即便如此，诗里劝的还是让时辰先到。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Plain, ordinary gain for boat and shore - nothing dramatic, nothing lost.
+    zh: 行舟与讨海是平实的进项——不出彩，也没有折损。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Field and stock yield as usual; a slow season that pays.
+    zh: 田作与六畜照常出产；这是慢，但是有回报的一季。
+    compliance_tag: null
+  timing:
+    en: Late rather than now - a season, never a date.
+    zh: 是往后的事，不是现在——要等日子过去；诗里没有给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pressing for an early result; reading a slow season as a closed one.
+    zh: 急着要一个早的结果；把慢的一季读成关门的一季。
+    compliance_tag: null
+  reassurance:
+    en: The delay belongs to this lot; it is not a refusal.
+    zh: 这份迟是这一签本来的性子，不是回绝。
+    compliance_tag: null
+stories:
+- title:
+    zh: 三顧草廬
+    en: Three Visits to the Thatched Hut
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 诸葛亮早年隐居在南阳隆中。隆中在襄阳西边的山间，他一边种地，一边读书。管仲和乐毅是春秋战国时有名的能臣良将，诸葛亮常把自己比作这两个人。徐庶原先在刘备手下做事，向刘备推荐诸葛亮，说这个人不能随便叫来，得亲自上门去请。刘备就亲自到隆中去拜访，前后去了三次才见到人：头两次都没遇上，第三次诸葛亮才在家。两人当面纵论天下形势。诸葛亮主张先拿下荆州、益州，跟孙权结好，等待时机再向北出兵。刘备听了大喜，请他做军师，诸葛亮从此出山辅佐刘备。
+    en: Zhuge Liang lived in seclusion in his early years at Longzhong in Nanyang.
+      Longzhong is in the hills west of Xiangyang, and he farmed there while he studied.
+      Guan Zhong and Yue Yi were a famous able minister and a good general of the
+      Spring and Autumn and Warring States periods. Zhuge Liang often compared himself
+      to those two. Xu Shu had been serving under Liu Bei. He recommended Zhuge Liang
+      to Liu Bei and said that this man could not simply be summoned, but had to be
+      asked in person. So Liu Bei went himself to Longzhong to visit him. He went
+      three times before he met the man. The first two visits found no one at home,
+      and only on the third was Zhuge Liang in. The two talked face to face about
+      the situation under heaven. Zhuge Liang argued for taking Jingzhou and Yizhou
+      first, making an alliance with Sun Quan, and waiting for the right time to send
+      troops north. Liu Bei was delighted and asked him to be his chief strategist,
+      and Zhuge Liang left his hut to serve him from then on.
+  poem_connection:
+    zh: 签诗说名显有意在其中、须待时日而后得意；三顾才得相见、终获大用，正合这一层。
+    en: The poem says a name shows and there is meaning in it, and that one must wait
+      for the time before success comes. Three visits before a meeting, then great
+      use, fits.
+- title:
+    zh: 劉備三顧孔明茅蘆(廬)
+    en: Liu Bei Visits Kongming at the Thatched Hut
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 诸葛亮，字孔明，琅琊人。他幼年跟着叔父避乱到荆州，后来隐居在襄阳城西的隆中。他在那里一边种地一边读书，把自己比作管仲、乐毅。刘备驻在新野，处境艰难，谋士徐庶向他推荐诸葛亮，说他是一条卧龙，非去求见不可。刘备就带着礼物，和关羽、张飞一起到隆中拜访。第一次只见着守门的童子；第二次冒着大雪再去，还是没见到，只遇上诸葛亮的友人和兄弟；第三次去时，诸葛亮正在草堂里睡午觉，刘备站在台阶下等了很久，才见到他。诸葛亮在草堂里为他分析天下大势，提出先取荆州、益州，联合孙权对抗曹操的办法，刘备便请他出山相助。
+    en: Zhuge Liang, whose courtesy name was Kongming, came from Langya. As a child
+      he went with his uncle to Jingzhou to escape the fighting, and later he lived
+      in seclusion at Longzhong, west of Xiangyang. There he farmed and read, and
+      compared himself to Guan Zhong and Yue Yi. Liu Bei was stationed at Xinye and
+      was in a hard position. His advisor Xu Shu recommended Zhuge Liang, saying he
+      was the Crouching Dragon and that Liu Bei must go and ask for him in person.
+      So Liu Bei took gifts and went with Guan Yu and Zhang Fei to Longzhong. The
+      first time he met only the boy at the gate. The second time he went again through
+      heavy snow and still did not see him, meeting only Zhuge Liang's friends and
+      his brother. The third time, Zhuge Liang was taking a nap in his thatched hall,
+      and Liu Bei stood below the steps for a long while before he was received. There
+      Zhuge Liang set out the state of the realm for him and proposed taking Jingzhou
+      and Yizhou first and joining with Sun Quan against Cao Cao, and Liu Bei asked
+      him to come out and serve.
+  poem_connection:
+    zh: 这一签写再三往访、终于相见，正扣签诗“名显有意在中间，不须祈祷心自安”“即时得意在中间”。
+    en: Calling at a door three times and at last meeting the man fits a lot whose
+      poem speaks of a name made known along the way and success arriving at once.
+- title:
+    zh: 劉皇叔（備）三請孔明
+    en: The Imperial Uncle Liu Calls on Kongming Three Times
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 东汉末年，刘备屯兵在新野。他的谋士徐庶向他推荐诸葛亮，说此人有管仲、乐毅那样的才干。管仲是春秋时辅佐齐国的名相，乐毅是战国时伐齐的名将。刘备就亲自到隆中去拜访。第一次去，没有见到人；第二次再去，路上遇到诸葛亮的朋友崔州平、石广元、孟公威和他的弟弟诸葛均，还是没有见着；第三次去，诸葛亮正在白天睡觉，刘备站在阶下等了很久，不敢惊动他。诸葛亮起来以后，与刘备谈论天下的形势：曹操势大，不能和他正面争锋；孙权可以结为外援，却不能打他的主意；应当先取荆州和益州作为根基，西面和诸戎修好，南面安抚夷越，对外联合孙权，对内整顿政务，等到天下有变，再派一员大将北上，天下就可以安定。这番话就是有名的隆中对。刘备十分高兴，请他出山相助。
+    en: 'At the end of the Eastern Han, Liu Bei was stationed at Xinye. His adviser
+      Xu Shu recommended Zhuge Liang, saying the man had the talents of Guan Zhong
+      and Yue Yi. Guan Zhong was a famous minister who aided Qi in the Spring and
+      Autumn period. Yue Yi was a famous general of the Warring States who attacked
+      Qi. Liu Bei went in person to Longzhong to call on him. The first time he went,
+      he did not see the man. The second time he went, on the way he met Zhuge Liang''s
+      friends Cui Zhouping, Shi Guangyuan, and Meng Gongwei, and his younger brother
+      Zhuge Jun, and still did not see him. The third time, Zhuge Liang was asleep
+      in the daytime, and Liu Bei stood below the steps waiting a long while, not
+      daring to disturb him. When Zhuge Liang rose, he talked with Liu Bei about the
+      state of the realm: Cao Cao was too strong to be met head on, and Sun Quan could
+      be joined as an outside ally, but one should not scheme against him. First take
+      Jingzhou and Yizhou as a base, make peace with the Rong peoples in the west,
+      soothe the Yi and Yue in the south, join Sun Quan abroad, and set the government
+      in order at home. When the realm changed, send a great general north, and the
+      realm could be settled. This talk is the famous Longzhong Plan. Liu Bei was
+      delighted and asked him to come out and help.'
+  poem_connection:
+    zh: 签诗说不须祈祷心自安，看看早晚日过后，即时得意。刘备三顾之后终得相见、随即定策，正合这一层。
+    en: The lot poem says with no need to pray the heart is at rest, and in time one
+      rises. After three calls Liu Bei meets Kongming and settles his plan at once.
+- title:
+    zh: 陳三樓下得荔枝
+    en: Chen San Wins the Lychee Below the Tower
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 泉州人陈三名叫陈必卿。他送兄长往广南去，路过潮州，正赶上元宵灯市。他看见黄九郎的女儿五娘，五娘名叫碧琚，在楼上。五娘摘下一双并蒂荔枝，就是一根枝上结的两个果，裹在手帕里从楼上投下来相赠。陈三接了荔枝，就留在潮州不走了。他要能靠近五娘，拿打破一面铜镜做由头去赔，卖身进黄家做奴仆。中间几经周折，才与五娘成婚，两个人一同还乡。整个故事以投荔枝、破镜、卖身为奴、私下相约、成亲为次第，各地方戏的结局略有出入。这段故事在闽南、潮州一带流传极广，唱本和地方戏里都有，讲了几百年。
+    en: 'Chen San of Quanzhou was named Chen Biqing. He was seeing his elder brother
+      off to Guangnan and passed through Chaozhou, where he came right on the Lantern
+      Festival market. He saw the daughter of Huang Jiulang, Wuniang, whose name was
+      Biju, up in an upper room. Wuniang picked a pair of twin lychees, two fruits
+      growing on one stem. She wrapped them in a handkerchief and threw them down
+      to him as a gift. Chen San took the lychees and stayed on in Chaozhou and did
+      not leave. To get near Wuniang he broke one side of a bronze mirror. Using paying
+      for it as his reason, he sold himself into the Huang house as a servant. After
+      many turns and delays he married Wuniang, and the two went home together. The
+      whole story runs in this order: the thrown lychee, the broken mirror, the sale
+      into service, the private pledge, the marriage. The endings differ a little
+      from one local opera to another. The story is told very widely in southern Fujian
+      and in the Chaozhou area, in singing scripts and in local opera. It has been
+      told for several hundred years.'
+  poem_connection:
+    zh: 签诗说“名显有意在中间”，与投荔枝定情、事在两人之间一节相贴；“即时得意在中间”正取此意。
+    en: The poem says the name shows and the meaning lies in between; the thrown lychee
+      fixed the feeling, with the matter between the two of them, and that is what
+      in between means here.
+- title:
+    zh: 蘇秦拜相
+    en: Su Qin Is Made Chancellor
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏秦是战国时洛阳人，跟张仪一同拜在鬼谷子门下，学的是纵横之术。纵横之术就是游说各国，或联合弱国抗强，或让弱国跟强国结交。他先到秦国，劝秦王用连横之策，上书十次都没被采纳。路费用尽，身上的皮衣也破了，他只好回家。到了家里，正在织布的妻子不下机，嫂子不肯给他做饭，父母也不跟他说话。苏秦受了刺激，发愤读书。夜里困倦，他就用锥子刺自己的大腿，让血流到脚跟，好继续读下去。一年后他往赵国游说，得到赵肃侯的赏识，替他谋划合纵，使韩、魏、燕、齐、楚六国结盟，共同抗秦。盟约成立，苏秦身佩六国相印，做了盟长，秦国此后多年不敢窥视函谷关。
+    en: Su Qin was from Luoyang in the Warring States period. He and Zhang Yi studied
+      under Guiguzi, learning the arts of alliance and persuasion. These arts meant
+      persuading the various states either to join the weak against the strong or
+      to align the weak with the strong. He went first to Qin and urged the king of
+      Qin to use the policy of horizontal alliance, but his memorials were rejected
+      ten times. His travel money ran out and his fur coat was worn through, so he
+      went home. At home his wife, who was at the loom, did not leave it, his sister-in-law
+      would not cook for him, and his parents would not speak to him. Stung by this,
+      Su Qin threw himself into study. When he grew sleepy at night he stabbed his
+      own thigh with an awl and let the blood run to his heel so that he could keep
+      reading. A year later he went to Zhao to persuade its ruler, and won the regard
+      of Marquis Su of Zhao, who had him plan a vertical alliance. The six states
+      of Han, Wei, Yan, Qi, Chu, and Zhao made a pact to resist Qin together. When
+      the pact was made, Su Qin wore the seals of all six states and became the leader
+      of the alliance, and for years afterward Qin did not dare look toward the Hangu
+      Pass.
+  poem_connection:
+    zh: 签诗“名显有意在中间”“即时得意在中间”，正对苏秦由困顿而至佩印显名这一段。
+    en: The lot's poem says a name is made plain from the middle, and that success
+      comes in the middle. Rising from hardship to wear the seals and make a name
+      fits Su Qin.
+- title:
+    zh: 張儀見蘇秦
+    en: Zhang Yi Meets Su Qin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 张仪和苏秦，是战国时候两位有名的说客。说客靠一张嘴游说各国君主，用谋略换取权位。苏秦说动六国联合起来对抗秦国，身佩六国的相印，住在赵国。这种六国联手的局面叫合纵。苏秦担心秦国出兵攻打各国，把合纵的盟约拆散。他想来想去，只有张仪能担起这件事，便派人去劝张仪来见自己。张仪到了赵国，求见苏秦。苏秦故意在上首端坐，迟迟不出来见他，又当着众人的面怠慢他，给他最差的饭食。张仪大怒，转身走了，投奔秦国。苏秦暗中派门客带着重金一路跟随，供他花用。张仪因此得以见到秦惠王，做了客卿。客卿是外国人在本国担任的高级官员。后来张仪知道这是苏秦的安排，自认比不上苏秦。这一签说名显有意在中间，又说即时得意在中间，正配张仪受苏秦一激、入秦得用的一段。
+    en: Zhang Yi and Su Qin were two famous persuaders of the Warring States. A persuader
+      lived by his tongue, talking rulers around and trading strategy for power and
+      place. Su Qin persuaded the six states to join together against Qin, wore the
+      seals of chancellor of all six, and lived in Zhao. This joining of the six states
+      was called the vertical alliance. Su Qin feared that Qin would send out troops
+      and break the alliance apart. He thought it over and saw that only Zhang Yi
+      could take on such a task, and he sent a man to urge Zhang Yi to come and see
+      him. Zhang Yi came to Zhao and asked to see Su Qin. Su Qin deliberately sat
+      in the seat of honor and put off coming out to meet him. He then slighted him
+      in front of others and gave him the worst of the food. Zhang Yi was furious,
+      turned and left, and went over to Qin. Su Qin secretly sent a retainer with
+      heavy money to follow him the whole way and pay his expenses. Zhang Yi thus
+      got to see King Huiwen of Qin and became a guest minister. A guest minister
+      was a high officer of another state serving at court. Later Zhang Yi learned
+      that this had been Su Qin's arrangement, and admitted that he was not Su Qin's
+      equal.
+  poem_connection:
+    zh: 这一签说名显有意在中间、即时得意在中间，正配张仪受苏秦一番激将、入秦得用的一段。
+    en: This lot says that a name made clear has its purpose in the middle, and that
+      success comes at once in the middle - Zhang Yi goaded by Su Qin and finding
+      use in Qin.
+- title:
+    zh: 淮陰侯背楚歸漢
+    en: The Marquis of Huaiyin Leaves Chu for Han
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩信是淮阴人，年轻时家里穷，曾在街上受一个少年欺侮，从他胯下爬过去。胯下之辱，就是从别人两腿之间爬过，在当时是极大的羞辱。项梁起兵，韩信去投奔；项梁死后，他归项羽，做了郎中。他几次给项羽献策，项羽都不用。韩信看出项羽不能用自己的本事，就离开楚军去投汉。刚到汉营，他只做了连敖、治粟都尉这类小官，没受重用，还因连坐该斩。临刑时他高声呼喊，说汉王既然想得天下，就不该斩壮士。夏侯婴觉得他不一般，放了他，并向汉王举荐。韩信还是不满意，就走了。萧何连夜把他追回来，极力向汉王推荐。汉王便筑起高台，备好礼仪，拜韩信为大将。
+    en: Han Xin was from Huaiyin. His family was poor when he was young, and he was
+      once bullied by a youth in the street and crawled between the youth's legs.
+      Crawling under the crotch meant passing between another person's legs. At that
+      time it was a great humiliation. When Xiang Liang rose in revolt, Han Xin went
+      to join him. After Xiang Liang died, Han Xin went over to Xiang Yu and became
+      an attendant officer. Several times he offered Xiang Yu plans, and Xiang Yu
+      used none of them. Han Xin saw that Xiang Yu could not make use of what he had.
+      So he left Chu and went to Han. When he first reached the Han camp, he only
+      received minor posts. He was given no important place, and because of a shared
+      offense he was due to be beheaded. At the place of execution he cried out that
+      since the King of Han wished to win the realm, he should not behead a brave
+      man. Xiahou Ying found him unusual, set him free, and recommended him to the
+      king. Han Xin was still not satisfied and left. Xiao He chased him back that
+      night and urged the king strongly to use him. The king then built a high platform,
+      prepared the ceremonies, and made Han Xin grand general.
+  poem_connection:
+    zh: 签诗“名显有意在中间”，正合韩信离开楚军投汉、从治粟都尉登上将台一事；“不须祈祷心自安”也合他献策不用、终得遇合之况。
+    en: The poem says the fame shows and the meaning lies in the middle, which fits
+      Han Xin leaving Chu for Han and rising from a grain officer to the general's
+      platform, unheard until he at last met a patron.
+- title:
+    zh: 管鮑結義
+    en: Guan and Bao Pledge Friendship
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 管仲和鲍叔牙都是春秋时齐国人，年轻时就是好朋友。管仲家里穷，两人一起做买卖，分钱的时候管仲常常多拿。鲍叔牙知道他家困难，从来不认为他贪心。管仲几次求官被赶出来，鲍叔牙不说他没出息；打仗时管仲多次退走，鲍叔牙也不笑他胆小，因为知道他家里有老母要养。齐国内乱，两人各辅佐一位公子。管仲辅的公子纠败死，他自己被关押。鲍叔牙向齐桓公极力推举管仲，宁愿自己位居他之下。桓公任用管仲做相，齐国因此强盛起来。管仲相齐之后，齐桓公得以会盟诸侯，鲍叔牙则以善于识人闻名。
+    en: Guan Zhong and Bao Shuya were both men of Qi in the Spring and Autumn period,
+      and good friends from youth. Guan Zhong's family was poor. The two went into
+      business together, and at the division of money Guan Zhong often took more.
+      Bao Shuya knew his family was in want and never thought him greedy. Guan Zhong
+      tried for office several times and was driven out. Bao Shuya did not call him
+      good for nothing. In battle Guan Zhong pulled back many times. Bao Shuya did
+      not laugh at him for cowardice either, because he knew Guan Zhong had an old
+      mother at home to support. When civil war broke out in Qi, the two each served
+      a prince. The prince Guan Zhong served, Prince Jiu, was beaten and died, and
+      Guan Zhong was put in prison. Bao Shuya urged Duke Huan of Qi to raise him,
+      and was willing to stand below him himself. The duke made Guan Zhong his chief
+      minister, and Qi grew strong. After Guan Zhong took charge of Qi, Duke Huan
+      was able to meet the lords in covenant, and Bao Shuya was known for his skill
+      in judging men.
+  poem_connection:
+    zh: 签诗说名声显达自有它的缘由，不必向外祈求，心里自然安定。管鲍相知、鲍叔荐贤，正是这个道理。
+    en: The lot poem says that fame and success have their own reasons, and that a
+      man need not pray abroad for them, for his heart is at peace. Guan and Bao understood
+      each other.

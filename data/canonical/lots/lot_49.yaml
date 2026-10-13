@@ -1,0 +1,387 @@
+id: 49
+lot_number: 49
+ganzhi:
+  zh: 壬子
+  pinyin: Ren-zi
+title:
+  en: Su Xiaomei Answers the Monk Foyin
+  zh: 蘇小妹答佛印
+hexagram:
+  zh: 天山遁
+  name_and_structure_en: Dun (Heaven over Mountain)
+  binary_code: ○○○○●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 蘇小妹答佛印
+    en: Su Xiaomei Answers the Monk Foyin
+  variants_en:
+  - Foyin Answers Su Xiaomei
+  - Emperor Ming Favours Yang Guifei Alone
+  - Prince Dan Serves Jing Ke
+  - The Dark Warrior God Rips Out His Heart
+  - Du Zichun Guards Silence While Refining the Elixir
+  - Foyin and the Old Woman Trade Verses
+  variants_zh:
+  - 佛印答蘇小妹
+  - 明皇獨寵楊太真
+  - 太子丹尊事荊軻
+  - 真武上帝剖心肝
+  - 杜子春煉丹禁語
+  - 佛印稍婆答歌詩
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run guarded throughout - 凡事 不和。有鬼作祟／婚姻 口舌多難成／求兒 不好。有呆人／功名
+      未遂。不可／出外 不可／移居 不可望／經商 夥不和者。無利／六畜 不好／月令 有口舌 (jie_yue_score 6)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: Across the categories it touches, the temple book keeps to a protective
+      line - general affairs, marriage, advancement, travel, moving house, trade and
+      the month all lean against the matter, with gossip and quarrelsome words named
+      outright; the household, building and early field work are the rare bright spots,
+      and the water and pond lines leave a later word open. The lot is read as protective,
+      and its counsel is to hold and wait.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 不和。有鬼作祟／作事 未日辰日成好／家事 門第大益／家運 平常／婚姻 口舌多難成／求兒 不好。有呆人／六甲
+      生男。後女／求財 輕淡有利益／功名 未遂。不可／歲君 浮沉／治病 老不好。少不畏／出外 不可／經商 夥不和者。無利／來人 半月到／行舟 先凶後吉／移居
+      不可望／失物 無／求雨 尚未／官事 平後。拖尾。了錢／六畜 不好／耕作 早好／築室 好／墳墓 地氣漸發吉／討海 春夏不佳。冬平／作塭 先無利。後有望／魚苗
+      有利入手／月令 有口舌／尋人 慢回／遠信 音信慢至（jie_yue_score +6）。整签偏负：总类、婚姻、功名、出外、移居、经商、月令一路吃紧，唯
+      家事 門第大益、築室 好、耕作 早好 与 墳墓 地氣漸發吉 是几处亮点，行舟 先凶後吉、作塭 先無利。後有望 留了后段的话。校勘：全一致。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在本签涉及的类目里整体取守势：总类、婚姻、功名、出外、移居、经商、月令多处偏向阻隔，并且点了口舌与闲话；家宅、筑室、早耕几处是难得的亮点，水上与塭池两项留了后段的话。整签按保守取向读，重点在守与等。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 言語雖多不可從，
+    en: Though the words are many, they are not to be followed;
+  - line_number: 2
+    zh: 風雲靜處未行龍，
+    en: where wind and cloud lie still, the dragon has not moved.
+  - line_number: 3
+    zh: 暗中終得明消息，
+    en: In the dark you finally get clear news;
+  - line_number: 4
+    zh: 君爾何須問重重。
+    en: why must you ask, and ask again?
+keywords:
+  favourable:
+    en:
+    - quiet clear news
+    - not following the crowd
+    - waiting while the dragon rests
+    zh:
+    - 安静里的清楚消息
+    - 不跟着众人走
+    - 龙还歇着，就等一等
+  guarded:
+    en:
+    - acting on hearsay
+    - forcing a move the season holds back
+    - many words and no counsel
+    zh:
+    - 照着听来的话就动手
+    - 硬推时令按着不动的那一步
+    - 话很多、主意却没有
+reading_notes:
+- term: 不可從
+  pinyin: bù-kě-cóng
+  en: 'not to be followed: do not act on what you are told; do not go along with the
+    people pressing you.'
+  zh: 既指别人告诉你的话不要照着做，也指别跟着那些催你的人一起走；两层都带劝的味道。
+- term: 未行龍
+  pinyin: wèi-xíng-lóng
+  en: 'the dragon has not yet moved: your hour has not come; the one who acts is still
+    waiting; the line does not name the dragon.'
+  zh: 既指你的时辰还没到，也指那个该动的人还在等；这一句并没有点名「龙」是谁。
+- term: 暗中
+  pinyin: àn-zhōng
+  en: 'in the dark, unseen: while you are still hidden from view; by quiet and unobserved
+    means.'
+  zh: 既指你还隐在人后、没被看见，也指用安静、不张扬的方式去做。
+plain_meaning:
+  en: 'A guarded season: the lot reports plain disagreement, gossip that does not
+    settle, and many plans that come to nothing, with going out, moving house and
+    advancement all held back. The poem''s counsel is not to follow the many voices
+    and not to act while wind and cloud lie still; what you already know in the quiet
+    is the clear news, so there is little profit in asking again and again.'
+  zh: 这是一段要看住的时节：判词说各方还合不拢，闲话不少，许多打算落不到实处，出行、搬家、功名都被按下。诗的劝法是不跟着众人的话走，风没起、云还静的时候不要动；你心里安静时已经知道的那点消息，才是清楚的消息，所以再问下去也没有多少意思。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Gossip and quarrels make accord hard to reach; do not push a decision while
+      words are flying.
+    zh: 闲话与口角让关系合不上（判词在婚姻一项就是这么写的）；话正飞的时候不要下决定。
+    compliance_tag: null
+  career:
+    en: Advancement is not granted this season; hold your place and keep your own
+      counsel rather than chase the opening.
+    zh: 这一季功名不落地；守住你现在的位子，把主意留给自己，别去追那道开口。
+    compliance_tag: null
+  money:
+    en: 'Profit is judged thin here: a small return is allowed, and nothing at all
+      where partners fall out - hold reserves and avoid new commitments. (Not financial
+      advice.)'
+    zh: 利薄，跟会口角的夥伴一起做更捞不着；先守住储备，新的承诺都缓一缓。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement is guarded for the old and lighter for the young; take symptoms
+      seriously and consult a qualified professional rather than waiting. (Not medical
+      advice.)
+    zh: 判词对年长的人说得重、对年少的人说得轻；症状要当回事，找有资质的专业人士看，不要拖着等。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household and its standing fare better than the rest of the lot; keep
+      the home steady and let the quarrels stay outside.
+    zh: 家宅与门第反倒是这一签里好的部分；把家稳住，口舌留在门外。
+    compliance_tag: null
+  travel_moving:
+    en: Going out and moving house are both held back; postpone if it can wait.
+    zh: 出外与移居都被按下；能等就往后放。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Spring and summer waters are poor and the winter merely even; keep the boats
+      close and do not force a voyage.
+    zh: 春夏的水不好，冬天只是平；船先靠近岸，不要硬出航。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Ponds and fry show a small later profit, but the fields and stock are poor
+      this season - work from what is already stored.
+    zh: 塭里、鱼苗是后面有一点小利，田与牲口这一季偏差——先靠已经存下的东西过日子。
+    compliance_tag: null
+  timing:
+    en: Nothing opens yet; wait for the wind and cloud to stir before acting.
+    zh: 此刻什么都还没开；等风云动起来再说。
+    compliance_tag: null
+  what_to_avoid:
+    en: Acting on hearsay; forcing a move the season holds back.
+    zh: 照着听来的话就动手；硬推时令按着不动的那一步。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. The lot's counsel
+      is patience and your own quiet judgment; if this reading touches anxiety or
+      money worry, please reach out to someone you trust or a qualified professional.
+    zh: 这里说的是一段难走的时节，不是对伤害的预告。本签的建议是耐心，以及你自己心里那份安静的判断；若这段读来让你心里发紧，或牵动钱的忧心，请找你信任的人或专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 蘇小妹答佛印
+    en: Su Xiaomei Answers the Monk Foyin
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 苏小妹是北宋文人苏洵的女儿、苏轼的妹妹，才思敏捷，擅长诗文，也擅长对联。对联是上下两句字数相当、词意彼此相对的文字游戏。佛印是一位禅师，也就是僧人，宋代人，法名了元。他和苏轼兄弟来往很多，常以诗句互相唱和。佛印用诗句和机锋来试苏小妹。机锋是禅门问答里语带双关、逼人当场作答的话头。佛印问得急，她答得快，一句句都接得上。两人在问答里你来我往，禅理与文趣都在其中。这一段问答后来传开，成了流传很广的趣谈。
+    en: Su Xiaomei was the daughter of the Northern Song writer Su Xun and the sister
+      of Su Shi. She was quick of mind and good at poems and prose, and also at couplets.
+      A couplet is a pair of lines with the same number of words, matching each other
+      in meaning, and it is a word game. Foyin was a Chan master, that is, a monk,
+      of the Song dynasty, and his dharma name was Liaoyuan. He and the Su brothers
+      had much to do with each other and often answered each other with lines of verse.
+      Foyin tested Su Xiaomei with verse and with the sharp turns of Chan talk. A
+      sharp turn in Chan question and answer is a remark with a double meaning that
+      forces a person to answer on the spot. Foyin asked quickly and she answered
+      quickly, taking up every line. In their questions and answers the two traded
+      remarks, and both Chan teaching and literary delight were in them. This exchange
+      later spread and became a well-known tale.
+  poem_connection:
+    zh: 签诗说言语虽多却不可尽从，不必再三追问。这一题以问答机锋相酬，题面正好相合。
+    en: The lot poem says that though words are many, they cannot all be followed,
+      and there is no need to press a question again and again. This title answers
+      wit with wit.
+- title:
+    zh: 佛印答蘇小妹
+    en: Foyin Answers Su Xiaomei
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 佛印是宋朝的一位僧人，法名了元，和文人苏轼常有往来。苏小妹是苏轼的妹妹，民间说她聪明机敏，很会作诗答对。民间把两人编在一起，专取对答的机锋作趣。这一则讲的是苏小妹和佛印的一场问答。两人互相试探，苏小妹用诗句和联语出难题，佛印用禅语一一作答。一问一答之间，话锋往来，谁也不让谁。苏小妹的机敏，正是从这些对答里显出来的。佛印确有其人，苏小妹这个人却史书上找不到。两个人碰到一起，你来我往，言语虽多，个中意思要到最后才见分晓。
+    en: Foyin was a monk of the Song dynasty, whose dharma name was Liaoyuan, and
+      he often had dealings with the scholar Su Shi. Su Xiaomei was Su Shi's sister,
+      and in folk tales she is clever and quick and very good at poems and matching
+      couplets. Popular stories put the two together and turn entirely on the wit
+      of their exchanges. This one tells of a round of questions and answers between
+      Su Xiaomei and Foyin. The two sounded each other out. Su Xiaomei set hard problems
+      with lines of verse and matched phrases, and Foyin answered each with words
+      of Zen. Question and answer went back and forth, neither giving ground. Su Xiaomei's
+      quickness shows precisely through these exchanges. Foyin was a real man, but
+      Su Xiaomei cannot be traced anywhere else. When the two are put together, the
+      words fly back and forth, and though much is said, the meaning of it all comes
+      out only at the end.
+  poem_connection:
+    zh: 这一签说言语虽多不可从、问答之后才见分晓，正配佛印与苏小妹一场问答。
+    en: This lot says much is said but not to be followed, and the truth shows only
+      after the questions. It fits the exchange between Foyin and Su Xiaomei.
+- title:
+    zh: 明皇獨寵楊太真
+    en: Emperor Ming Favours Yang Guifei Alone
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杨氏小名玉环，早年失去父母，寄养在叔父家里。她起初嫁给唐玄宗之子寿王为妃。玄宗宠爱的武惠妃去世后，杨氏被召进宫中。玄宗先让她出家做女道士，赐号太真，后来又册立为贵妃。玄宗对她宠爱非常，宫里称她娘子，她的族人也因此显贵，同族的兄长杨国忠还当上了宰相。天宝末年，安禄山以讨伐杨国忠为名起兵。玄宗逃往蜀地，走到马嵬驿，随行的禁军哗变，杀了杨国忠，又要求处死贵妃。玄宗没有办法，只好下令让她自尽。这一题所取的，就是她一人独宠的那一段。
+    en: Yang, whose childhood name was Yuhuan, lost her parents early and was raised
+      in her uncle's house. She was first married to Shou Wang, a son of Emperor Xuanzong
+      of Tang, as his consort. After Wu Huifei, the emperor's favourite, died, Yang
+      was called into the palace. The emperor first had her leave the world as a Daoist
+      nun and gave her the name Taizhen. Later he made her his imperial consort. He
+      favoured her beyond all measure. In the palace she was called the lady, and
+      her family rose with her. Her cousin Yang Guozhong even became chancellor. In
+      the last years of the Tianbao era, An Lushan raised troops in the name of punishing
+      Yang Guozhong. The emperor fled toward Shu. At Mawei Post Station the guards
+      with him mutinied. They killed Yang Guozhong and demanded the death of the consort.
+      The emperor had no way out and ordered her to take her own life. This title
+      takes the part where she alone held his favour.
+  poem_connection:
+    zh: 这一签的签诗说别人话再多也不可听，风平浪静之处龙还没起身，暗中终究会明白消息。一人专宠而众议无补，正合首句之意。
+    en: The poem says the talk of others, however much, must not be heard; where wind
+      and wave are calm the dragon has not risen. One person held all the favour,
+      and no amount of talk could move it.
+- title:
+    zh: 太子丹尊事荊軻
+    en: Prince Dan Serves Jing Ke
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 荆轲是战国末年卫国人，喜欢读书击剑，后来游历到燕国，跟街市上的屠夫和会击筑的高渐离交好。燕国的太子丹曾在秦国做人质，逃回燕国后，深恨秦王，想派人去行刺。他把荆轲尊为上卿，请到上等的馆舍住。他天天上门问候，车马美女随荆轲心意取用，为的是结交他的心。秦兵逼近燕国，荆轲便提出，拿樊於期的头和燕国督亢一带的地图作献礼，进秦国去见秦王，趁献图的时候下手。他出发时，太子丹疑心他拖延，荆轲当天就辞行动身。结果献图时匕首露了出来，只割破秦王的衣袖，荆轲死在秦廷。此后秦兵急攻燕国，燕王喜杀了太子丹献给秦国，燕国也跟着灭亡。
+    en: Jing Ke was a man of Wei at the end of the Warring States period. He liked
+      reading and swordsmanship. In time he traveled to Yan and became close to a
+      butcher in the market and to Gao Jianli, who played the zhu, a stringed instrument.
+      Prince Dan of Yan had been a hostage in Qin. After he escaped back to Yan he
+      hated the King of Qin deeply and wanted to send someone to assassinate him.
+      He gave Jing Ke the rank of senior minister and lodged him in fine quarters.
+      He came to greet him every day, and carriages, horses, and beautiful women were
+      his to use as he wished, all to win his heart. As Qin troops pressed on Yan,
+      Jing Ke proposed a plan. He would take the head of Fan Yuqi and a map of the
+      Dukang district of Yan as tribute, go into Qin to see the king, and strike while
+      presenting the map. When he set out, Prince Dan suspected him of stalling, and
+      Jing Ke took his leave that same day. In the end the dagger showed when the
+      map was unrolled, the King of Qin's sleeve was cut and no more, and Jing Ke
+      died in the Qin court. Qin then pressed its attack hard, and the King of Yan
+      killed Prince Dan and gave him to Qin. Yan fell soon after.
+  poem_connection:
+    zh: 签诗说言语虽多不可从、静观其变、暗中终得明消息；太子丹厚结荆轲而事泄，正合这一层。
+    en: The poem says that though words are many they should not be followed, to watch
+      how things turn, and that word comes clear in the end. Prince Dan tied Jing
+      Ke close and the plan leaked, which fits.
+- title:
+    zh: 真武上帝剖心肝
+    en: The Dark Warrior God Rips Out His Heart
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 真武上帝又叫玄天上帝，是道教里管北方的神。民间讲他原是个操刀屠宰的屠户。有一天他遇到人点化，想到自己一生杀生太多，深自悔恨，便自己剖开胸腹，把肠和胃取出来洗净。他的肠化成龟，胃化成蛇，从此他抛下旧业，进山修道。他在太和山，也就是后来的武当山，修了四十二年，功行圆满，白日飞升，成为北方的神。他的形象常是披散头发、赤着脚，手里拿剑，脚下踩着龟蛇。武当山也因他修道之说成了道教名山。他在山中修行的年头很长，山上的宫观都与他有关。
+    en: Zhenwu Shangdi, also called the Dark Heaven God, is the Daoist god who governs
+      the north. Popular accounts say he was first a butcher who worked with a knife.
+      One day he met someone who opened his eyes for him. He thought of how much life
+      he had taken over the years and was filled with regret, so he cut open his own
+      chest and belly and took out his intestines and stomach to wash them clean.
+      His intestines turned into a turtle and his stomach into a snake. From then
+      on he gave up his old trade and went into the mountains to cultivate the Way.
+      At Mount Taihe, which later became Mount Wudang, he practiced for forty-two
+      years, and when his work was complete he rose into the sky in broad daylight
+      and became the god of the north. He is usually shown with his hair loose and
+      his feet bare, holding a sword and standing on a turtle and a snake. The mountain
+      also became a famous Daoist centre because of his years of practice there.
+  poem_connection:
+    zh: 这一签写话听得再多也不可全信、安静中自有消息，正扣签诗“言语虽多不可从”“暗中终得明消息”。
+    en: Talk that comes in quantity and still cannot be trusted, with news arriving
+      out of the quiet, fits a lot whose poem says many words should not be followed
+      and word comes at last.
+- title:
+    zh: 杜子春煉丹禁語
+    en: Du Zichun Guards Silence While Refining the Elixir
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杜子春是唐代故事里的人物。他本是富家子弟，性情豪放，不善经营，把家产花光，亲友都不理他，穷困地住在长安。路上他遇到一位老道士，老道士三次送他钱财布帛，他三次都挥霍干净，最后羞愧得想寻死。老道士可怜他，收他做徒弟，带他上华山云台峰，叫他看守一座药炉。老道士嘱咐他：坐在这里守炉，千万不可出声，即使看见神怪、遇到危难，都不能说话；丹药炼成，你也就得道了。入夜，杜子春经历种种幻象：看见凶神猛兽，看见地狱的酷刑，看见妻子受折磨，他都忍住不出声。最后他看见自己被杀，转生为女子，嫁人生子，丈夫发怒摔死了她的孩子。他痛极失声，炉火随即崩裂，丹没有炼成。老道士叹道，喜怒哀惧恶欲都去得掉，只有爱这一个念头他没有断。
+    en: Du Zichun belongs to a tale of the Tang dynasty. He came of a rich family,
+      was bold by nature, and was poor at managing money. He spent the family fortune,
+      and his kin and friends would have nothing to do with him, so he lived poor
+      in Chang'an. On the road he met an old Daoist. Three times the old Daoist gave
+      him money and cloth, and three times he squandered it all, until he was so ashamed
+      he wanted to die. The old Daoist pitied him, took him as a disciple, and led
+      him up to Yuntai Peak on Mount Hua to guard a medicine furnace. The old Daoist
+      warned him to sit and watch the furnace and on no account make a sound. Even
+      if he saw gods and monsters or met danger, he must not speak. When the elixir
+      was made, he too would attain the Way. At nightfall Du Zichun went through many
+      visions. He saw fierce gods and savage beasts, the cruel punishments of hell,
+      and his wife tormented. Through all of it he held his tongue. At the end he
+      saw himself killed and reborn as a woman, married with a child, and her husband
+      in a rage threw the child to its death. In his grief he cried out, the furnace
+      fire burst apart, and the elixir was not made. The old Daoist sighed and said
+      that joy, anger, grief, fear, hate, and desire could all be put away, but the
+      one thought of love he had not cut off.
+  poem_connection:
+    zh: 签诗说言语虽多不可从，暗中终得明消息。守炉禁语之嘱，正合“不可从”与“暗中”两句。
+    en: The lot poem says many words are not to be followed, and that news comes clear
+      in the dark. The command to keep silent at the furnace matches both lines.
+- title:
+    zh: 佛印稍婆答歌詩
+    en: Foyin and the Old Woman Trade Verses
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 佛印了元是北宋的僧人，与苏轼常有诗文往来，苏轼是北宋的大文豪，号东坡。民间讲佛印与苏轼一家拿诗句相戏、斗机锋，机锋就是一问一答之间见机敏。这些多是谐谑问答的词句，一问接一问，看谁接得上、接得巧。这一路故事里还添进苏轼的妹妹苏小妹，她多半是后来讲故事的人添进去的人物。题里的稍婆二字所指不详，或者是记录的人加上去的称呼。留下来的是这一群人一问一答的样子：拿诗文当话头，一问递一问，谁接得上、接得巧，就算谁赢。
+    en: 'Foyin Liaoyuan was a monk of the Northern Song. He often exchanged poems
+      and letters with Su Shi, the great writer of the Northern Song, whose other
+      name was Dongpo. In the tale Foyin and Su Shi''s household tease each other
+      with lines of verse and test wits. A test of wits is a quick seeing of the point
+      between one question and the next. These are mostly joking, bantering lines,
+      one question after another, to see who can take it up and take it up neatly.
+      This line of story also brings in Su Shi''s younger sister Su Xiaomei. She was
+      in most cases a figure added by the people who told the stories later. What
+      the title''s word for the old woman points to is not clear; it may be a form
+      of address added by whoever recorded the tale. What is left is the look of this
+      group answering one another: verse as the subject, one question handed on to
+      the next. Whoever takes it up, and takes it up neatly, comes out ahead.'
+  poem_connection:
+    zh: 签诗说“言语虽多不可从”及“君尔何须问重重”，与签题所取的答问唱和、言语相戏一层相贴，两者都落在言语与问对上。
+    en: The poem says that much talk is not to be followed, and asks why one should
+      ask again and again; the title takes answering and versing back and forth, both
+      falling on words and on question and answer.

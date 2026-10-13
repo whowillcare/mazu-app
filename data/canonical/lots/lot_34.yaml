@@ -1,0 +1,386 @@
+id: 34
+lot_number: 34
+ganzhi:
+  zh: 己未
+  pinyin: Ji-wei
+title:
+  en: Cao Cao Meets Ma Chao at Tong Pass
+  zh: 曹公潼關遇馬超
+hexagram:
+  zh: 火水未济
+  name_and_structure_en: Weiji (Fire over Water)
+  binary_code: ○●○●○●
+  shared_with_lot: 31
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 曹公潼關遇馬超
+    en: Cao Cao Meets Ma Chao at Tong Pass
+  variants_en:
+  - Shanbo and Yingtai Meet
+  - Wen Zhongzi Presents the Taiping Policy
+  - Tao Yuanming Retires to the Hills
+  - Nie Zheng Kills Han Kui
+  - Miss Liu Advises Lü Mengzheng
+  - Zhu Shouchang Gives Up Office to Seek His Mother at Ying'en Pavilion
+  variants_zh:
+  - 山伯英臺相會
+  - 文中子上太平策
+  - 陶淵明歸隱
+  - 聶政刺韓傀
+  - 劉小姐勸呂蒙正
+  - 朱壽昌棄官迎恩亭內尋母
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements favour the patient - 凡事 勤勞徐進／作事 先呆漸漸成圓／家事 門戶進益／家運
+      險後漸得吉慶／婚姻 晚成好／求財 先呆後好／功名 有望／經商 後有大財／月令 漸漸出運, against 求兒 不可／移居 不可 (jie_yue_score
+      +17)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: income, trade and household fortune all
+      turn upward on a slower arc, while children and moving house hold back and health
+      asks care with age. Slow ripening with friction, so we read it as mixed and
+      the cue is patient, steady effort.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 勤勞徐進／作事 先呆漸漸成圓／家事 門戶進益／家運 險後漸得吉慶／婚姻 晚成好／求財 先呆後好／功名 有望／經商 後有大財／月令
+      漸漸出運，而 求兒 不可／移居 不可／治病 少平安。老不好——判词奖勤，慢而后成；求子、迁居两处按住不动。（本签与第三十一签同属《火水未济》一卦，须并看。）
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：求财、经商与家运走一条较慢的上升弧，子嗣与迁居两处按住，治病对长者更须留神。慢成夹着阻力，故读作 mixed。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 危險高山行過盡，
+    en: The perilous high mountains have all been crossed;
+  - line_number: 2
+    zh: 莫嫌此路有重重，
+    en: do not complain that this road still folds on itself in layers.
+  - line_number: 3
+    zh: 若見蘭桂漸漸發，
+    en: When you see the orchids and osmanthus putting out growth,
+  - line_number: 4
+    zh: 長蛇反轉變成龍。
+    en: the long snake turns over and becomes a dragon.
+keywords:
+  favourable:
+    en:
+    - crossing the last of the high passes
+    - patience with a road that repeats
+    - growth that comes by degrees
+    - the slow turn from snake to dragon
+    zh:
+    - 险山走到最后一段
+    - 耐烦走重复的路
+    - 一层层慢慢长起来
+    - 蛇慢慢翻身成龙
+  guarded:
+    en:
+    - complaining at the length of the road
+    - expecting the turn before the growth shows
+    - pushing on while the pass is not yet crossed
+    - judging a slow start as failure
+    zh:
+    - 嫌路长而抱怨
+    - 长势未显就要转机
+    - 险处未过硬要往前
+    - 起步慢就当失败
+reading_notes:
+- term: 重重
+  pinyin: chóng-chóng
+  en: 'layer upon layer: the road folding over itself again and again; obstacles ranged
+    one behind another - more of the same, not a new danger.'
+  zh: 既是一层又一层折回去的路，也是阻碍一个接着一个——是同样的难再来一次，不是新的凶险。
+- term: 蘭桂
+  pinyin: lán-guì
+  en: 'orchid and osmanthus: two fragrant plants, a stock image for worthy offspring;
+    fine growth that comes on slowly and is noticed late.'
+  zh: 两种香草香木，是俊秀子弟的成词；也指来得慢、晚些才被看见的好生长。
+- term: 長蛇反轉變成龍
+  pinyin: cháng-shé-fǎn-zhuǎn-biàn-chéng-lóng
+  en: 'the long snake turns and becomes a dragon: a full reversal of station: the
+    low is raised high; the same creature transformed - 反轉 can mean turned over or
+    turned back, so the shape changes rather than the being.'
+  zh: 既是位置的彻底翻转（低者升高），也是同一物换形——「反轉」可作翻过身，也可作回旋过来，变的是形状，不是那物本身。
+plain_meaning:
+  en: 'The hard, high passes are behind you and the road ahead still doubles back
+    - the poem asks for patience rather than complaint. Where the orchids and osmanthus
+    come on slowly, the change is real: the long snake turns into a dragon. Keep working
+    at the slow growth; the turn arrives by degrees, not in an instant.'
+  zh: 险峻的高山已经走完，前面的路仍旧层层折回——此诗要的是耐烦，不是抱怨。兰桂缓慢发起来的时候，变化是真的：长蛇翻身成龙。守着这慢长的势头继续做，转机是一层层来的，不是一下子到的。（本签与第三十一签同属《火水未济》一卦。）
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Are my bad years over now?
+    zh: 我的坏年头过去了吗？
+  rewritten_to:
+    en: What does this poem ask me to keep doing while the road is long?
+    zh: 路还长的时候，这首诗要我继续做什么？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问是封闭的是非题，故改为开放、可行动的一问。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A late-ripening bond is favoured; patience with a slow courtship or a long
+      engagement serves better here than speed.
+    zh: 晚成的结合反而得宜；慢些谈、日子拉长些，比抢快有利。
+    compliance_tag: null
+  career:
+    en: Recognition is within reach, but the first stage looks unpromising; keep working
+      through it rather than judging by early results.
+    zh: 认可够得着，但头一段看着不起眼；耐住这一段做下去，别用早期结果下判断。
+    compliance_tag: null
+  money:
+    en: The first returns are poor and the later ones good; this is a season to invest
+      patience rather than to move capital in a hurry. (Not financial advice.)
+    zh: 头一段收成差，后面转好；这一季宜投的是耐心，不是急着动的本钱。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Slow improvement is the pattern, and the young and strong do better than the
+      old; the elderly should not delay proper care. (Not medical advice.)
+    zh: 慢好转是这个模式，少壮比年长顺；长辈不宜把正经的照看往后拖。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household gains by degrees and the house itself prospers; settling elsewhere,
+      however, is marked not yet.
+    zh: 家宅一层层进益、房子本身渐旺；迁到别处住，则标着尚未到时候。
+    compliance_tag: null
+  travel_moving:
+    en: Travel goes smoothly enough, but moving house is marked not yet - visit, and
+      keep the household where it is.
+    zh: 出行平平顺顺，但搬迁标着尚未到时候——去看看就好，家先留在原处。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Spring on the water is ordinary and the season's money is in the winter grounds;
+      work steadily and the returns come by degrees.
+    zh: 春季水上平平，这一季的钱在冬日的场子；稳稳做，回报一层层来。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Field, stock and seedbed all yield a little now and better later; the pattern
+      is gradual rather than sudden.
+    zh: 田、牲口、鱼苗眼下都收一点，往后更好；走的是渐进的势，不是突然的势。
+    compliance_tag: null
+  timing:
+    en: 'Late and gradual: the growth shows before the change completes. No date is
+      promised.'
+    zh: 偏晚而且渐次：长势先显，变化后成。不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Giving up on a slow start; forcing the outcome; moving the household before
+      its time.
+    zh: 起步慢就放手；硬推结果；时候未到就搬家。
+    compliance_tag: null
+  reassurance:
+    en: The hard ground is already behind you; what remains asks for patience, not
+      alarm.
+    zh: 难走的地段已经过了；剩下要的是耐烦，不是惊慌。
+    compliance_tag: null
+stories:
+- title:
+    zh: 曹公潼關遇馬超
+    en: Cao Cao Meets Ma Chao at Tong Pass
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 东汉末年，曹操杀了马腾。马腾的儿子马超和韩遂从西凉起兵报仇，攻破长安，占据潼关。曹操亲自带大军来抵挡。他先用疑兵引诱马超，又设伏兵断他的后路。交战时，马超勇猛难当，曹军大败，曹操丢下袍子逃走。马超追得很急，曹军里有人指出穿红袍的就是曹操，曹操便解下红袍扔掉；又有人指出长胡子的是曹操，曹操便拔刀把胡子割了。马超还是紧追不放，曹操绕着树跑，马超一枪刺来，扎在树身上，曹操才得脱身。这一仗以前，曹操已经用贾诩的计策离间马超和韩遂，让他们互相猜疑，军中自己先乱了。战后曹操感叹马超的勇猛不在吕布之下。
+    en: In the late Eastern Han, Cao Cao killed Ma Teng. Ma Teng's son Ma Chao and
+      Han Sui raised troops from Xiliang to avenge him. They broke into Chang'an and
+      held Tong Pass. Cao Cao came in person with a great army to hold them off. He
+      first used decoy troops to lure Ma Chao, then set an ambush to cut off his retreat.
+      In the fighting Ma Chao was so fierce that he was hard to withstand. Cao Cao's
+      army was routed, and Cao Cao threw off his robe and fled. Ma Chao chased hard.
+      Someone in Cao's army pointed out that the man in the red robe was Cao Cao,
+      so he untied the red robe and threw it away. Then someone pointed out that the
+      man with the long beard was Cao Cao, so he drew his sword and cut off his beard.
+      Ma Chao still pressed the chase. Cao Cao ran around a tree. Ma Chao thrust with
+      his spear, and the point stuck in the tree trunk, and only then did Cao Cao
+      get away. Before this battle Cao Cao had used Jia Xu's plan to set Ma Chao and
+      Han Sui against each other. Their army fell into disorder on its own. After
+      the battle Cao Cao sighed that Ma Chao's bravery was not below Lü Bu's.
+  poem_connection:
+    zh: 签诗“危险高山行过尽，莫嫌此路有重重”，正合曹操在潼关屡败于马超、险象环生一事。
+    en: The poem says the dangerous high mountain has been crossed and one should
+      not complain that the road is full of layers, which fits Cao Cao beaten again
+      and again by Ma Chao at Tong Pass amid constant peril.
+- title:
+    zh: 山伯英臺相會
+    en: Shanbo and Yingtai Meet
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 祝英台是上虞地方的女子，女扮男装出门求学。路上她遇到会稽的梁山伯，两人一同去读书，同窗共读三年，情谊很深。英台告辞回家时，梁山伯送了她十八里路。临别时英台假说家里有个九妹，可以许配给山伯，其实说的是自己。后来山伯上门拜访，才知道英台是女子，而英台已经由父母做主，许给了马家。两人相见，只能以兄妹相称，一别而散。山伯后来做了鄞县的县令，因病去世，葬在清道山下。英台出嫁那天，船经过山伯的坟前，忽然风浪大作，船走不动。她上岸祭拜，坟墓裂开，英台投身进去，坟又合了起来。
+    en: Zhu Yingtai was a girl of Shangyu. She dressed as a man and left home to study.
+      On the road she met Liang Shanbo of Kuaiji, and the two went to study together.
+      They were classmates for three years and became close friends. When Yingtai
+      said goodbye and started home, Liang Shanbo walked with her for eighteen li.
+      At parting she said she had a younger sister at home who could be given to him
+      in marriage, but she meant herself. Later Liang Shanbo called on her family
+      and learned that Yingtai was a woman, and that her parents had already promised
+      her to the Ma family. When the two met, they could only call each other brother
+      and sister, and they parted. Liang Shanbo later became magistrate of Yin County.
+      He died of illness and was buried at the foot of Qingdao Mountain. On the day
+      Yingtai was married, the boat passed by his grave, and wind and waves rose suddenly
+      and the boat could not move. She went ashore and made offerings. The grave opened,
+      Yingtai threw herself in, and the grave closed again.
+  poem_connection:
+    zh: 签诗说兰桂渐渐发旺，长蛇反过来变成龙。山伯英台墓开复合、化而为异，正是这种物象转变。
+    en: The lot poem says orchids and osmanthus slowly flourish, and a long snake
+      turns into a dragon instead. The opened and closed grave of Shanbo and Yingtai
+      is that same change of form.
+- title:
+    zh: 文中子上太平策
+    en: Wen Zhongzi Presents the Taiping Policy
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王通，字仲淹，是隋朝的大儒，门人私下称他文中子。他的家在绛州龙门。隋文帝仁寿年间，他西游长安，见到隋文帝，献上十二条治国的方略。文帝当面称赞，可是朝中没有人愿意引荐他，这些方略终究没有被采用。王通于是写了一首歌，抒发心意，回到家乡。从此他不再做官，在黄河、汾水一带著书讲学。他仿照古书，自己著书立说。来听他讲学的门人常有几百人，人们把这一批人叫作河汾门下。唐朝初年的名臣魏征、房玄龄，都出自他的门下。
+    en: Wang Tong, styled Zhongyan, was a great scholar of the Sui dynasty. His followers
+      privately called him Wen Zhongzi. His home was at Longmen in Jiangzhou. In the
+      Renshou era of Emperor Wen of Sui he traveled west to Chang'an, met the emperor,
+      and presented twelve policies for governing the state. The emperor praised them
+      to his face, but no one at court was willing to recommend him, and in the end
+      the policies were never adopted. Wang Tong therefore wrote a song to express
+      his feelings and went home. After that he no longer sought office and wrote
+      and taught in the region of the Yellow River and the Fen River. Following the
+      old books, he wrote his own works and set out his own teaching. The disciples
+      who came to hear him often numbered several hundred, and people called this
+      group the school of the River and the Fen. Wei Zheng and Fang Xuanling, famous
+      ministers of the early Tang, both came from his school.
+  poem_connection:
+    zh: 这一签说险路走过、前路重重，正配王通献策不遇、退而讲学这一段。
+    en: This lot says the dangerous road has been passed and more lies ahead. It fits
+      Wang Tong offering his plans to no effect and withdrawing to teach.
+- title:
+    zh: 陶淵明歸隱
+    en: Tao Yuanming Retires to the Hills
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 陶潜字渊明，是浔阳柴桑人，年轻时就有高远的志趣，博学能文，不贪图名利。他做过州里的祭酒，受不了官场的事务，自己辞官回了家。后来他又做了彭泽县令，在任只有八十多天。郡里派督邮到县里来，县吏提醒他应当整好衣带、恭敬相见。陶潜不肯为了这点俸禄向乡里的小人弯腰行礼，当天就交出官印走了，还写下一篇辞赋表明心志。回家以后，他亲自种田，喝酒作诗，和邻里田父来往，安于清贫。江州刺史曾经送酒给他，他也不推辞。他去世后，朋友私下送他一个称号，叫靖节征士。
+    en: Tao Qian, styled Yuanming, was a man of Chaisang in Xunyang. From youth he
+      had high aims, wide learning, and skill with writing. He did not crave fame
+      or gain. He served as libationer for the prefecture. He could not bear the business
+      of office, and he resigned and went home on his own. Later he served as magistrate
+      of Pengze for only some eighty days. The commandery sent an inspector to the
+      county. The county clerk reminded him that he should dress properly and receive
+      the man with respect. Tao Qian would not bow to a petty man of his own district
+      for the sake of that salary. That same day he handed in his seal and left. He
+      wrote a rhapsody to set out what he meant. After going home he worked the fields
+      himself, drank wine, and wrote poems. He kept company with neighbours and old
+      farmers and was content with a plain life. The inspector of Jiangzhou once sent
+      him wine, and he did not refuse it. After his death his friends privately gave
+      him the name Summoned Scholar of Quiet Integrity.
+  poem_connection:
+    zh: 这一签的签诗说危险的高山已经走完，别嫌前路还有重重阻碍，若见兰桂发起来，长蛇反会变成龙。陶潜弃官归田，另见生机。
+    en: The poem says the dangerous mountain has been passed, so do not complain of
+      the barriers still on the road. Tao Qian gave up office and returned to his
+      fields and found new life.
+- title:
+    zh: 聶政刺韓傀
+    en: Nie Zheng Kills Han Kui
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 聂政是战国时轵地人。他为了躲避仇家，和母亲、姐姐迁到齐国住，靠宰杀牲口过活。韩国的大夫严仲子跟韩国的相国侠累（又叫韩傀）有仇，听说聂政勇猛，就送厚礼结交他，想请他替自己去行刺。聂政因为母亲还在，推辞不肯答应。等到母亲去世、服丧期满，聂政感念严仲子的知遇，就向西进入韩国，径直闯进相府刺杀侠累。侠累逃走时抱住韩哀侯，聂政一剑刺去，连韩哀侯也刺中了。府中大乱，聂政自己毁坏面容、挖出眼睛、剖开肚子，免得被人认出，连累姐姐。他姐姐听到消息赶到韩国认尸，伏在尸身上痛哭，最后死在弟弟身旁，要替他把名声传出去。
+    en: Nie Zheng was a man of Zhi in the Warring States period. To escape an enemy
+      he moved with his mother and older sister to Qi and lived by slaughtering animals.
+      In Han, a senior officer named Yan Zhongzi had a feud with the Han chancellor
+      Xialei, also known as Han Kui. Hearing that Nie Zheng was brave and strong,
+      he sent rich gifts to win his friendship and hoped to hire him to carry out
+      an assassination. Because his mother was still living, Nie Zheng declined. After
+      his mother died and the mourning period ended, Nie Zheng was grateful for how
+      Yan Zhongzi had valued him. He went west into Han and walked straight into the
+      chancellor's residence to kill Xialei. Xialei fled and threw his arms around
+      Marquis Ai of Han. Nie Zheng struck, and the Marquis was stabbed as well. The
+      house fell into chaos. Nie Zheng destroyed his own face, put out his eyes, and
+      cut open his belly so that no one could know him and bring trouble on his sister.
+      When his sister heard, she came to Han to claim the body, wept over it, and
+      died beside her brother, wanting to spread his name.
+  poem_connection:
+    zh: 签诗说危险高山行过尽、莫嫌此路重重；聂政行刺前后险难重重，正合这一层。
+    en: The poem says the dangerous high mountain has all been crossed and tells the
+      reader not to complain of this road's many layers. Nie Zheng's killing was full
+      of danger, which fits.
+- title:
+    zh: 劉小姐勸呂蒙正
+    en: Miss Liu Advises Lü Mengzheng
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 吕蒙正是北宋的名相，年轻时住在洛阳，家里很穷。洛阳富户刘员外的女儿月娥抛绣球招亲，绣球正好打中在旁看热闹的吕蒙正。刘员外嫌他穷，想退婚，月娥执意不肯，脱下绸缎衣裳，和他一起住进城南的破窑。吕蒙正每天到白马寺去赶斋饭，寺里的僧人故意先吃饭后敲钟，让他屡次扑空。月娥在家纺织度日，劝他安心读书，不要因为穷就气短。后来吕蒙正考中状元，夫妻才得显达。他后来三次做到宰相，以敢说话出名。两人在破窑里住了很久，日子过得很清苦。
+    en: Lü Mengzheng was a famous minister of the Northern Song. When he was young
+      he lived in Luoyang, and his family was very poor. The daughter of a rich man
+      of Luoyang, Squire Liu, was named Yue'e. She threw a silk ball to choose a husband,
+      and the ball landed on Lü Mengzheng, who was watching the crowd. Squire Liu
+      thought him too poor and wanted to break the match, but Yue'e refused. She took
+      off her silk clothes and went with him to live in a broken kiln south of the
+      city. Every day Lü Mengzheng went to White Horse Temple for the free meal, and
+      the monks there deliberately ate first and rang the bell after, so that he kept
+      arriving to nothing. Yue'e spun and wove at home to keep them going, and she
+      told him to settle his heart and study, and not to lose spirit because of poverty.
+      Later Lü Mengzheng passed the highest examination and the couple rose. He served
+      as chief minister three times and was known for speaking his mind.
+  poem_connection:
+    zh: 这一签写贫士困守、所历险阻重重而不退缩，正扣签诗“危险高山行过尽，莫嫌此路有重重”。
+    en: A poor scholar holding out under one hardship after another without turning
+      back fits a lot whose poem says the dangerous high road has been passed and
+      the way has many turns.
+- title:
+    zh: 朱壽昌棄官迎恩亭內尋母
+    en: Zhu Shouchang Gives Up Office to Seek His Mother at Ying'en Pavilion
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱寿昌，字康叔，是宋朝人。他七岁那年，父亲与母亲分离，他跟着父亲过，从此与母亲断了音信。长大以后，他做了官，却一直记挂母亲。他用针刺指出血，以血写经，又四处打听母亲的下落，前后寻了五十多年没有停过。他做官的地方离母亲当年住的地方很远，只能一处一处地打听。后来他干脆辞去官职，说找不到母亲就不回来，往同州一带去找。走到半路，果然找到了母亲。那时母亲已经七十多岁，改嫁到一户姓党的人家，还生了子女。朱寿昌把母亲接回家中，一家人终于团聚。
+    en: Zhu Shouchang, whose courtesy name was Kangshu, was a man of the Song dynasty.
+      When he was seven, his father and mother parted, and he lived with his father.
+      From then on he had no news of his mother. When he grew up he became an official,
+      but he never stopped thinking of her. He pricked his finger to draw blood and
+      wrote scriptures in blood. He asked after his mother in one place after another,
+      and searched for her for more than fifty years without stopping. The places
+      where he held office were far from where his mother had lived, so he could only
+      ask one place at a time. In the end he simply gave up his post, saying he would
+      not return until he found his mother, and went to search in the region of Tongzhou.
+      Halfway there he did find his mother. By then she was over seventy and had married
+      into a family named Dang, to whom she had borne children. Zhu Shouchang brought
+      his mother home, and the family was reunited at last.
+  poem_connection:
+    zh: 签诗说危险高山行过尽，莫嫌此路有重重。朱寿昌半生寻母、历尽艰阻，终于在途中相见，正合这一层。
+    en: The lot poem says the dangerous high mountains are all passed, so do not resent
+      this road's many folds. Zhu Shouchang seeks his mother half a life and finds
+      her on the way.

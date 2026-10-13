@@ -1,0 +1,269 @@
+id: 13
+lot_number: 13
+ganzhi:
+  zh: 丙子
+  pinyin: Bing-zi
+title:
+  en: The Ferryman Meets the Peach Blossom Girl
+  zh: 撐渡伯遇桃花
+hexagram:
+  zh: 雷天大壮
+  name_and_structure_en: Dazhuang (Thunder over Heaven)
+  binary_code: ●●○○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 3
+  primary:
+    zh: 撐渡伯遇桃花
+    en: The Ferryman Meets the Peach Blossom Girl
+  variants_en:
+  - The Ferryman Meets the Year-Star
+  - Tripitaka Meets the Red Boy
+  variants_zh:
+  - 撐渡伯遇太歲
+  - 三藏路遇紅孩兒火燒
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout (凡事 不吉／婚姻 難合／求財 犯活鬼／行舟 不順失利);
+      jie_yue_score −13
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements lean blocked throughout — household, marriage,
+      money, trade, water and distant news all point the same way — and only advancement,
+      timing of work and "hard first, then it opens" keep some room. The second line
+      follows a six-source vote (five of six) for zong-wei-xiu (總未休); one branch prints
+      zong-wei-an (總未安). The difference is recorded.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 不吉／作事 先難後興／家事 門庭起風波／家運 人不安。邪作祟／婚姻 難合／求兒 不可／六甲 臨產危險／求財 犯活鬼。下年無／功名
+      費工。望後得進／歲君 淡淡。凶事不美／治病 犯太歲必死。未不畏／出外 不可／經商 失運／來人 難望／行舟 不順。失利／移居 不可／失物 錢難尋。未日在／官事
+      大呆／六畜 不吉／耕作 小收。不利／築室 犯災星／墳墓 地勢不吉／討海 不好。無財。失利／作塭 防風水。失。虧本／魚苗 待機可以／月令 正月至六月止／尋人
+      難。免望／遠信 音息魚沉（jie_yue_score −13）。整签偏负，唯 功名 費工。望後得進、魚苗 待機可以、作事 先難後興 三处留有余地。校勘：多数决，第二句「總未安」经六源投票改为「總未休」（5/6）；维基文库作「總未安」，其余四源作「總未休」，定本从多数。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词通签偏受阻，家事、婚姻、求财、经商、行舟、月令、远信等处都指向同一侧；只有功名、择日与「先难后顺」一条留有余地。底本第二句经六源投票定为一路读法（六源中五源相同，另一路作「總未安」），差异照实记录在案。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「總未安 — never settled (维基文库, the white-text branch
+    alone)」→「總未休 — never at an end (好廟網; 東海; feishuai; mznn; 91chouqian)」, six-source
+    vote 5/6
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 命中正逢羅孛關，
+    en: Your lot has fallen on the Luo-Bo pass;
+  - line_number: 2
+    zh: 用盡心機總未休，
+    en: you spend all your wit, and still there is no rest;
+  - line_number: 3
+    zh: 作福問神難得過，
+    en: you make merit and ask the gods — it is hard to get through;
+  - line_number: 4
+    zh: 恰是行舟上高灘。
+    en: it is exactly a boat run up onto a shoal.
+keywords:
+  favourable:
+    en:
+    - holding your effort back
+    - waiting out the pass
+    - making merit quietly
+    zh:
+    - 把自己的力气先收回来
+    - 熬过这个关口
+    - 默默做些善事
+  guarded:
+    en:
+    - strain that does not land
+    - asking for a shortcut
+    - running the boat aground
+    - pushing at high water
+    zh:
+    - 使尽力气却落不到实处
+    - 想找一条捷径
+    - 把船开上滩
+    - 水势正高还硬推
+reading_notes:
+- term: 羅孛
+  pinyin: luó-bèi
+  en: 'the malefic stars Luohou and Yuebei of the old star-almanac: at once a *named
+    obstacle* and the plain sense of *a bad pass*; It names a season, not a fate.'
+  zh: 旧星历里的两颗凶星罗睺与月孛：既指一个有名字的关口，也指「一段走不动的关口」这个平常意思。它点的是一个时段，不是一个人的命数。
+- term: 問神
+  pinyin: wèn-shén
+  en: 'to ask the gods: the line warns that ritual alone does not carry you over;
+    not that the gods refuse you.'
+  zh: 向神明求问：这一句提醒的是只靠仪式抬不过这个关口，并不是说神明不理你。
+- term: 行舟上高灘
+  pinyin: xíng-zhōu-shàng-gāo-tān
+  en: '"a boat run up onto a shoal": at once a scene of grounding and an instruction;
+    stop rowing against the water.'
+  zh: ：既是一幅船搁浅的画面，也是一句指示——不要再顶着水势划。
+plain_meaning:
+  en: 'A grounded season: effort is spent without landing, and asking for help does
+    not by itself lift the boat off the shoal. The counsel is protective — pull back,
+    wait for water, and make your merit quietly rather than straining harder.'
+  zh: 这一季像船搁上了滩：力气花出去却落不到实处，光靠求神问卜也不会把船抬回水里。给的做法是护住自己——先退回来、等水位上来，把善事安静地做，而不是再使更大的劲。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is my partner cheating on me?
+    zh: 我的伴侣是不是在出轨？
+  rewritten_to:
+    en: What do I need to watch for in this relationship right now?
+    zh: 在这段关系里，此刻我该留意什么？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 涉及第三方隐私。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A difficult pass; do not force talks or deadlines now. Confirm what is actually
+      true before acting on suspicion.
+    zh: 这一段走得吃力；此刻不要逼谈、逼期限。行动之前先把真实情况确认清楚，再决定要不要顺着疑心走。
+    compliance_tag: null
+  career:
+    en: Progress is jammed; lower your exposure rather than pushing the same plan
+      harder.
+    zh: 进展卡住了；与其把同一个方案推得更用力，不如把敞口收小。
+    compliance_tag: null
+  money:
+    en: Hold reserves; avoid new commitments and guarantees this season. *(Not financial
+      advice.)*
+    zh: 留好储备；这一季不要新开承诺，也不要替人作保。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Treat this as advice to rest and get seen by a qualified professional about
+      anything physical. *(Not medical advice.)*
+    zh: 把这当成该休息、并就身体上的状况找合格专业人员看的提醒。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Household plans stall; nothing is served by rushing them.
+    zh: 家里的计划推不动；急着推也没有好处。
+    compliance_tag: null
+  travel_moving:
+    en: Passage is hard now; if travel cannot wait, build in slack.
+    zh: 眼下路不好走；非走不可的话，把余量留足。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Poor water — losses follow forcing a crossing; put to shore and wait.
+    zh: 水情不好——硬过就会赔进去；靠岸等水。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A thin season on land and sea alike; work steadily and keep the margin small.
+    zh: 陆上水上这一季都薄；稳稳地做，把利留小。
+    compliance_tag: null
+  timing:
+    en: The pass lifts with the turn of the season — no date is promised.
+    zh: 关口随季节翻转而松开——不承诺日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Making merit as a bargain; rowing against the shoal.
+    zh: 把做善事当成交易来谈；顶着滩硬划。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这里说的是一季难行，不是预告会有伤害。若这段解读触动了你的焦虑或金钱上的担忧，请找一位你信得过的人，或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 撐渡伯遇桃花
+    en: The Boat on the Shoal
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 桃花是个机灵俊俏的姑娘，要坐船过河。撑船的老伯见她长得好，就跟她讲定：两人在船上对唱民谣，唱赢的可以提一个要求。桃花赢了，他就不收渡资；老伯赢了，桃花就嫁给他。船上只有他们两人，一个摇桨，一个坐着应答。船到了河心，老伯先开口，两人你一句我一句，唱的多是彼此调笑，也互相出难题问难，用的都是当地流行的调子。桃花口齿伶俐，句句都接得上。老伯一路唱下去，渐渐接不上话。船靠岸的时候，老伯认输，分文不收，送她过了河。
+    en: Taohua was a quick-witted and pretty girl. She wanted to cross a river by
+      boat. The old boatman saw that she was good-looking, and they made a bargain.
+      The two of them would sing folk songs against each other on the boat. Whoever
+      won could make one request. If Taohua won, he would take no fare. If the old
+      man won, Taohua would marry him. There were only the two of them on the boat.
+      One rowed, and the other sat and answered. When the boat reached midstream,
+      the old man began. They traded line after line. Mostly they teased each other,
+      and they also set each other hard questions. All of it used tunes that were
+      popular in that place. Taohua was sharp of tongue, and she answered every line.
+      The old man kept singing, and little by little he could not keep up. When the
+      boat touched the far bank, the old man admitted he had lost. He took no money
+      at all and set her across the river.
+  poem_connection:
+    zh: 签诗说好比行船驶上了高滩，进退都难。撑渡伯与桃花在船上对歌周旋，正合这一情境。
+    en: The lot poem says it is like a boat that has run onto a high shoal, with no
+      way forward or back. The boatman and Taohua match wits on the boat, which fits
+      that picture.
+- title:
+    zh: 撐渡伯遇太歲
+    en: The Old Ferryman Meets Tai Sui
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 撑渡伯是渡口上的一位老船夫。他长年撑着一叶小船，在江上来回接送过客。他靠摆渡为生，日子过得简单。他一年到头在江上讨生活，见过形形色色的过客。他性子诙谐，又带几分倔强。有一回，他把船撑到江心，遇见一位自称掌管流年的太岁神，降临在渡口。两人一问一答。撑渡伯没有半点私心，对太岁诚朴恭敬，说的话都是寻常百姓的坦荡话。民间把太岁看作一年里最重的凶煞，历来有不可犯太岁的戒忌。他撑船向来把稳，这一回偏偏撞上了流年里的太岁。
+    en: The ferryman was an old boatman at a river crossing. For many years he poled
+      a small boat back and forth across the river, carrying passengers. He made his
+      living by ferrying and led a simple life. He spent the whole year on the river
+      and saw every kind of traveler. He had a joking manner, with a stubborn streak.
+      One time he poled his boat out to the middle of the river and met a god who
+      said he governed the passing year and who had come down at the crossing. This
+      was Tai Sui. The two of them asked and answered each other. The ferryman had
+      not a trace of selfish thought. He was honest and respectful toward Tai Sui,
+      and everything he said was the plain, open talk of an ordinary man. People look
+      on Tai Sui as the heaviest ill omen of a year, and there has long been a taboo
+      against offending him. The ferryman had always poled steadily, yet this time
+      he ran straight into Tai Sui of the passing year.
+  poem_connection:
+    zh: 这一签说命中遇上关口、行舟上滩，正配撑渡伯在江心遇上太岁这一段。
+    en: This lot speaks of meeting a checkpoint in life, of a boat running onto the
+      shallows. It matches the ferryman meeting Tai Sui in midstream.
+- title:
+    zh: 三藏路遇紅孩兒火燒
+    en: Xuanzang Meets Red Boy on the Road
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝的僧人玄奘带着徒弟一路往西，去天竺取佛经。一行人走到号山枯松涧的火云洞，被洞里的红孩儿拦住。红孩儿是牛魔王和铁扇公主的儿子，在火焰山练过本领，自称圣婴大王。他听说吃了唐僧的肉可以长生，就变成一个被绑在树上的小孩，一声声喊救命。孙悟空是唐僧的大徒弟，一眼看出这是妖怪。他背起小孩时，把妖怪往山石上一摔。红孩儿就刮起旋风，把唐僧卷回洞中。孙悟空查清了妖怪的来路，知道师弟猪八戒和沙僧打不过他，便赶往南海去求观音菩萨。菩萨用净瓶装来海水，又让天罡刀变成一座莲台，引红孩儿上台。红孩儿一登台，就被金箍儿套住手脚，成了菩萨身边的善财童子。
+    en: Xuanzang was a monk of the Tang. He set out west with his disciples to fetch
+      Buddhist scriptures from India. At Fire Cloud Cave, on Withered Pine Stream
+      in Mount Hao, a boy named Red Boy stopped them. Red Boy was the son of the Bull
+      Demon King and the Princess Iron Fan. He had trained his powers on Flaming Mountain.
+      He called himself the Holy Infant King. He had heard that eating the Tang monk's
+      flesh gives long life. So he turned into a child tied to a tree and cried for
+      help again and again. Sun Wukong was the eldest disciple. He saw at once that
+      this was a demon. He lifted the child on his back and threw the demon against
+      a rock. Red Boy then raised a whirlwind and carried the monk back into his cave.
+      Sun Wukong learned where the demon came from. He knew his fellow disciples could
+      not beat him. So he went to the South Sea to ask Guanyin for help. The Bodhisattva
+      brought sea water in her pure vase. She turned a blade into a lotus throne and
+      drew Red Boy onto it. Once he stepped up, golden rings closed on his hands and
+      feet. So he became the Child of Good Wealth, the boy at her side.
+  poem_connection:
+    zh: 这一签的签诗说命中遇上关口，费尽心思也难安稳，就像行船搁上浅滩。红孩儿拦路摄走唐僧，正是一时过不去的关口。
+    en: 'The poem says this life has met a gate it cannot pass, and no scheming brings
+      ease, like a boat aground on a shoal. Red Boy blocks the road and seizes the
+      monk: just such a gate.'

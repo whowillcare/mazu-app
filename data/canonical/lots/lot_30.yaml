@@ -1,0 +1,476 @@
+id: 30
+lot_number: 30
+ganzhi:
+  zh: 戊戌
+  pinyin: Wu-xu
+title:
+  en: Pig-Brother Crosses Persimmon Hill
+  zh: 豬哥過柿山
+hexagram:
+  zh: 地火明夷
+  name_and_structure_en: Mingyi (Earth over Fire)
+  binary_code: ●●●○●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 10
+  primary:
+    zh: 豬哥過柿山
+    en: Pig-Brother Crosses Persimmon Hill
+  variants_en:
+  - Zhu Bajie Crosses Persimmon Hill
+  - Li Tong Pays the Golden Tablet to Free Lady Yue
+  - Xue Dingshan Asks Fan Lihua Three Times
+  - Zhuge Liang Angers Zhou Yu to Death
+  - Li Taibai Enters the Water and Becomes an Immortal
+  - Liu Yi Delivers the Letter
+  - Shi Chong Prays to the Gods
+  - Lady White Borrows Water
+  - King Fuchai of Wu Loses His Army and Flees Home
+  variants_zh:
+  - 豬八戒過柿山
+  - 李通賠金牌救岳夫人出關
+  - 薛丁山三請樊梨花
+  - 孔明氣死周瑜
+  - 李太白入水成仙
+  - 柳毅傳書
+  - 石崇告神
+  - 白娘子借水
+  - 吳王夫差敗師奔歸
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements name toil rather than disaster - 凡事 必定見重勞／作事 難成／求財
+      新業差。舊業平／功名 不就／出外 不可／官事 拖尾／月令 不遂, set against a safe household (家事 平安／家運 合家興旺／失物
+      援尋。必在／討海 依舊吉。新不利) (jie_yue_score +6)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as unfavourable: the general entry names toil rather
+      than gain, and undertakings, rank, going out, moving house and the month''s
+      turn all close in this stretch. The household side stays sound and the old waters
+      still pay; even so the direction is blocked, so we keep the reading protective.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 必定見重勞／作事 難成／求財 新業差。舊業平／功名 不就／出外 不可／官事 拖尾／月令 不遂，而 家事 平安／家運
+      合家興旺／討海 依舊吉。新不利——判词落在「劳」字上：向前诸事皆缓，家宅安稳，旧路尚可。（平签，非凶季。）
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 unfavourable：总类落在「劳」字上，作事、功名、出外、迁居与月令都收住。家宅尚安、旧路可取；方向仍偏阻，故读作
+      unfavourable，取保护口径。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 漸漸看此月中和，
+    en: Little by little, this month moves toward a mild balance;
+  - line_number: 2
+    zh: 過後須防未得高，
+    en: past that, guard against not reaching the height.
+  - line_number: 3
+    zh: 改變顏色前途去，
+    en: Change your colour and set out on the road ahead;
+  - line_number: 4
+    zh: 凡事必定見重勞。
+    en: in every matter you meet with heavy toil.
+keywords:
+  favourable:
+    en:
+    - steady work through the middle
+    - the old trade kept alive
+    - easing off at the month's turn
+    - changing your manner before going on
+    zh:
+    - 中段稳稳做下去
+    - 旧业续着做
+    - 节令一转过就收力
+    - 上路前先改样子
+  guarded:
+    en:
+    - growing proud at the high point
+    - toil that follows high hopes
+    - reaching for what is not yet due
+    - reading a mild season as a promise
+    zh:
+    - 在顺处自满
+    - 希望太高换来重劳
+    - 去够还不到时候的
+    - 把和缓的一季读成承诺
+reading_notes:
+- term: 月中和
+  pinyin: yuè-zhōng-hé
+  en: 'the mild middle of the month: the month at its balanced midpoint; a situation
+    that has reached equilibrium, which is not the same as success.'
+  zh: 既是月到中旬的和缓，也指事情到了均势——均势并不等于成事。
+- term: 改變顏色
+  pinyin: gǎi-biàn-yán-sè
+  en: 'to change one''s countenance: to change the face you show the world, that is,
+    your manner; literally to change colour, as a banner or a set of goods is changed.'
+  zh: 字面是换颜色（旗号、货物都可以换色），引申是改换待人处事的面貌。
+- term: 重勞
+  pinyin: zhòng-láo
+  en: 'heavy toil: labour repeated over again; a doubled burden; the line names effort
+    rather than harm.'
+  zh: 既是力气一层层加上去的劳作，也是加倍的重担；这句点的是辛劳，不是祸害。
+plain_meaning:
+  en: 'A season of steady, unglamorous work. It comes to a mild balance and then asks
+    for care: the difficulty named here is toil rather than disaster, and the risk
+    is in slackening once the work turns easy. Change how you carry yourself, keep
+    to the work in front of you, and do not read a mild stretch as a finished success.'
+  zh: 一季平稳而不显眼的劳作：事情走到月中转为和缓，过了那一段要留神别往高处硬追。这签点的是劳苦，不是灾祸；常见的失手是在顺处自满。调整自己应对的样子，守好眼前的活计，别把一段和缓当成已经成了。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The bond holds on an even keel; nothing here needs forcing, and nothing should
+      be tested at the month's turn.
+    zh: 关系保持在均势上；这里没有什么需要逼，也不宜在节令转角处去试。
+    compliance_tag: null
+  career:
+    en: Advancement is slow and the work is heavy; keep the standard up and refuse
+      to coast when the stretch feels easy.
+    zh: 进身慢、活计重；把水准撑住，别在觉得顺的时候松手滑过去。
+    compliance_tag: null
+  money:
+    en: A new trade shows poorly while the old one stays level; spend from what is
+      already earned and defer new ventures. (Not financial advice.)
+    zh: 新做的行当收成差，旧做的持平；花已经挣到的，新的投入先缓。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Attend to the body before the season turns; the elderly are asked for particular
+      care, and a qualified professional is the one to consult. (Not medical advice.)
+    zh: 节令转之前先把身体照看住；长辈尤其要留心，要找就找合格的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The house is safe and the family prospers; the caution is against pride and
+      short temper inside it.
+    zh: 家里安稳、家道兴旺；要提防的是家里的自满与脾气。
+    compliance_tag: null
+  travel_moving:
+    en: Going out and settling elsewhere are marked not yet; keep the journey short
+      if it can be kept short.
+    zh: 出门与迁居都标着尚未到时候；能短的行程就短。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The familiar grounds still pay and new waters do not; work the old course
+      and keep watching the weather.
+    zh: 熟海域照旧有收，新水域没有；照老航线走，同时盯住天气。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The field yields half at best and the animals are not adding; put your effort
+      into care rather than expansion.
+    zh: 田里最多收半分，牲口也不添；力气放在照管上，不放在扩张上。
+    compliance_tag: null
+  timing:
+    en: Read it as the second half of a period - mild in the middle, heavier later.
+      No date is promised.
+    zh: 按一段时间的后半程来读：中段和缓，之后更重。不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pride at the high point; changing course out of impatience; expecting ease
+      to hold.
+    zh: 顺处自满；心急就改道；指望和缓能一直保持。
+    compliance_tag: null
+  reassurance:
+    en: This lot names toil, not harm; the work you do in this stretch is the work
+      that holds. This describes a difficult season, not a forecast of harm. If this
+      reading touches anxiety or money worry, please reach out to someone you trust
+      or a qualified professional.
+    zh: 这一签点的是劳苦，不是伤害；这一段做下的工，就是你往后立得住的工。
+    compliance_tag: null
+stories:
+- title:
+    zh: 豬哥過柿山
+    en: Pig-Brother Crosses Persimmon Hill
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 唐僧带着徒弟们去西天取经，路过一个叫驼罗庄的村庄。庄上的李老儿说，往西三十里外有一座柿山，进出山里的路只有一条，叫作稀柿同。山谷两边长满柿树，年年结的果子很多。秋天柿子熟透落在地上，经霜受露、风吹日晒。烂柿子把山谷填得满满的，臭气冲天，那条路几乎成了稀泥沟。多年来没人敢从那山里走过。悟空先降了庄前的一条蟒蛇精，请师父先走。猪八戒听悟空的话，摇身一变，变成一头大猪。头像小山，嘴长如耙，一路把烂柿子拱开，硬是拱出一条路来。师徒四人这才得以继续西行。
+    en: Xuanzang and his disciples were going to the Western Heaven to fetch the scriptures,
+      and passed a village called Tuoluo Village. Old Li of the village said that
+      thirty li to the west there was a Persimmon Hill, and that the only road in
+      and out of those mountains was called the Persimmon Path. Persimmon trees grew
+      thick on both slopes of the valley and bore heavy fruit every year. In autumn
+      the ripe persimmons fell to the ground and lay through frost and dew, wind and
+      sun. The rotten fruit filled the whole valley and the stench rose to the sky,
+      and the road was nearly a ditch of soft mud. For many years no one dared to
+      walk through those mountains. Wukong first subdued a python spirit in front
+      of the village and asked his master to go on ahead. Zhu Bajie, at Wukong's word,
+      shook himself and turned into a huge pig. His head was like a small hill and
+      his snout as long as a rake. All the way along he pushed the rotten persimmons
+      aside and forced out a path. Only then could the four of them go on west.
+  poem_connection:
+    zh: 这一签说凡事必有一番重劳，正配八戒变作大猪、拱开烂柿山路这一段。
+    en: This lot says every task comes with a stretch of hard work. It fits Zhu Bajie
+      turning into a huge pig and pushing open the persimmon road.
+- title:
+    zh: 豬八戒過柿山
+    en: Zhu Bajie Crosses Persimmon Hill
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐僧带着徒弟往西走，来到一座七绝山。山里有条狭长的通道，常年被烂柿子堆堵住，臭气熏人，人马上不去。师徒借宿在山下人家，才知道这座山原先有妖怪，年年变成人形讨要供品。孙悟空和猪八戒是唐僧的两个徒弟，一同去查看。妖怪现出原形，是一条长着红鳞的大蟒。两人定下计策，把它除掉。蟒精虽死，通道里的烂柿污泥还在，路仍旧不通。孙悟空就让猪八戒变作一头大猪，用嘴把烂柿和污泥一路拱开。一路拱出一条道来，众人跟在后面走，山路这才通了。
+    en: 'Xuanzang went west with his disciples and came to a mountain called Qijue.
+      Through it ran a long narrow passage. It was blocked year after year by a heap
+      of rotted persimmons. The stench was sickening and no person or horse could
+      get up it. Master and disciples lodged with a family at the foot of the mountain.
+      There they learned that the mountain had once had a demon in it. Year after
+      year it took human form and demanded offerings. Sun Wukong and Zhu Bajie, two
+      of the monk''s disciples, went to look. The demon showed its true shape: a huge
+      python with red scales. The two made a plan and killed it. The python was dead,
+      but the rotten fruit and mud were still there and the road was still shut. Sun
+      Wukong then had Zhu Bajie turn himself into a huge pig. He rooted up the rotted
+      fruit and mud with his snout along the whole way. They pushed out a path. The
+      others followed behind, and so the mountain road was opened.'
+  poem_connection:
+    zh: 这一签的签诗说眼看月中才平和，往后还防不能更高，换一副样子往前去，凡事总费大力气。开这条路别无他法，只能靠笨力气拱开。
+    en: The poem says the middle of the month looks calm, and after that no great
+      rise; going on in a changed shape, every matter costs great strength. There
+      was no other way to open this road.
+- title:
+    zh: 李通賠金牌救岳夫人出關
+    en: Li Tong Pays the Golden Tablet to Free Lady Yue
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 岳飞是南宋抗金的名将，被秦桧等人陷害，死在狱中。他死后，岳家的家眷被押解上路，发配到远方，途中要经过一处关隘。岳夫人带着一家老小，一路被差役押着，走得十分艰难，过关还得有人放行。押解的差役一路催促，不肯多停。金牌是官府发下的凭信，出了差错要照价赔偿。守关的将领李通敬重岳家的忠义，不忍看他们一门受害。他担下赔偿金牌的责任，设法把岳夫人一行放出关去。为了放人出关，李通在关卡上下打点，来回奔走，担了不小的干系和赔累。出关之后，岳家的家眷才得以脱身远行。
+    en: Yue Fei was a famous general of the Southern Song who fought the Jin. He was
+      framed by Qin Hui and others and died in prison. After his death the women and
+      children of the Yue household were put on the road in custody and sent into
+      exile far away. The route passed through a frontier barrier. Lady Yue took the
+      whole family with her, driven along by the guards the whole way. The journey
+      was very hard, and passing the barrier required someone to let them through.
+      The guards pressed them on and would not stop for long. A golden tablet was
+      a written warrant issued by the government, and if one was lost or spoiled the
+      holder had to pay its value. Li Tong, the officer holding the barrier, respected
+      the loyalty and honor of the Yue family and could not bear to see the whole
+      household brought down. He took on the liability for the tablet and found a
+      way to let Lady Yue and her people out through the barrier. To release them
+      he had to settle matters with people up and down the post and hurry back and
+      forth, taking on no small risk and loss.
+  poem_connection:
+    zh: 签诗说须防未得高、凡事见重劳；李通出关救人的来回奔走赔累，正合这一层。
+    en: The poem says one must guard against not reaching high, and that everything
+      brings heavy labor. Li Tong's running back and forth and paying out to free
+      people at the barrier fits.
+- title:
+    zh: 薛丁山三請樊梨花
+    en: Xue Dingshan Asks Fan Lihua Three Times
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 樊梨花是寒江关守将的女儿，自幼跟梨山老母学道，通晓法术。唐朝军队西征，薛丁山在阵前与她相遇订亲，婚后却因故把她休弃。回营后战事艰难，薛丁山屡遭困厄，只得一再亲自登门请她回来助阵。戏台上和说书里讲的这一段，通常叫三请樊梨花：薛丁山三次上门，樊梨花三次为难他，然后才肯出山。夫妻复合之后，一同攻破西凉。樊梨花后来生了薛刚，薛家的故事也从初唐一直讲到中唐。樊梨花带兵多年，在唐军中有很重的分量。她和薛丁山最后一同回营，共守边关。
+    en: Fan Lihua was the daughter of the commander at Hanjiang Pass. From childhood
+      she studied the Way with the Old Mother of Mount Li and knew magic. When the
+      Tang army marched west, Xue Dingshan met her on the field and they were betrothed.
+      After the wedding he divorced her over some matter. Back in camp the fighting
+      went badly, and Xue Dingshan met one difficulty after another, so he had to
+      go in person to ask her again and again to come and help. On the stage and in
+      the storytellers' tales this part is usually called asking Fan Lihua three times.
+      Xue Dingshan went to her door three times, and three times Fan Lihua made things
+      hard for him, and only then did she agree to come out of the mountains. Once
+      husband and wife were joined again, they broke the western lands together. Fan
+      Lihua later gave birth to Xue Gang, and the tales of the Xue family run from
+      the early Tang into the middle Tang. She led troops for many years and carried
+      great weight in the Tang army; in the end she and Xue Dingshan returned to camp
+      together and guarded the frontier.
+  poem_connection:
+    zh: 这一签写一再登门相请、事情须反复而后成，正扣签诗“渐渐看此月中和，过后须防未得高”。
+    en: Going to a door to ask again and again, with the matter finishing only after
+      many repetitions, fits a lot whose poem says to look toward the middle of the
+      month.
+- title:
+    zh: 孔明氣死周瑜
+    en: Zhuge Liang Angers Zhou Yu to Death
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赤壁之战以后，诸葛亮与周瑜为了荆州的归属互相争夺。周瑜先用美人计，让孙权把妹妹许配给刘备，想骗刘备到东吴来，把他扣下。诸葛亮安排得妥帖，刘备安安稳稳娶了亲回去，周瑜追也追不上，这是第一次。后来周瑜借口去取西川，要借道荆州，实际想趁机袭取。诸葛亮看穿他的打算，预先设下伏兵，周瑜进退两难，这是第二次。周瑜再用假道灭虢的办法攻荆州，又是一场空，兵败而回。三番谋取荆州都不成，周瑜旧日的箭伤迸裂，死在军中，年仅三十六岁。
+    en: 'After the battle of Red Cliff, Zhuge Liang and Zhou Yu fought over who should
+      hold Jingzhou. Zhou Yu first used a beauty scheme: he had Sun Quan promise his
+      sister to Liu Bei in marriage, hoping to lure Liu Bei to Wu and hold him there.
+      Zhuge Liang arranged everything well, and Liu Bei married and came home safe,
+      and Zhou Yu could not catch him. That was the first. Later Zhou Yu borrowed
+      the road through Jingzhou on the pretext of taking Xichuan, but really meant
+      to seize Jingzhou on the way. Zhuge Liang saw through it, set an ambush in advance,
+      and Zhou Yu was stuck. That was the second. Zhou Yu then tried the trick of
+      borrowing a road to destroy a neighbour and attacked Jingzhou again. It came
+      to nothing again, and he came back beaten. Three schemes for Jingzhou all failed.
+      Zhou Yu''s old arrow wound burst open, and he died in camp, only thirty-six.'
+  poem_connection:
+    zh: 签诗说过后须防未得高，凡事必定见重劳。周瑜屡谋屡失、三度用兵而徒劳，正合这一层。
+    en: The lot poem says one should guard against not rising high, for every matter
+      brings double toil. Zhou Yu schemes three times for Jingzhou and gains nothing
+      each time.
+- title:
+    zh: 李太白入水成仙
+    en: Li Taibai Enters the Water and Becomes an Immortal
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李白是唐朝的大诗人，曾在皇帝身边做过翰林供奉，就是陪着写文章的文学侍从。他好酒，与权贵合不来，就离开了朝廷，晚年流寓在当涂，当涂在今天安徽。民间讲他在采石矶泛舟饮酒，采石矶是长江边的一块大石。他醉里看见水中的月亮，探身去捉，就这么落水，没有回来。又说船上的人见他骑着一头鲸升天，采石矶因此有捉月台，人们也叫他谪仙，意思是天上贬下来的仙人。与这一路讲法相对，史册上只记他饮酒过度，醉死在宣城。他的墓在当涂青山，与采石矶同在江边。捉月之说，到宋代已经有人写下来，后来成为诗文里常用的一个话头。
+    en: Li Bai was a great poet of the Tang. He once served at the emperor's side
+      as a Hanlin attendant, a literary attendant who wrote pieces with him. He was
+      fond of wine and did not get on with the men of power, so he left the court.
+      In his last years he lived as a guest at Dangtu, Dangtu being in Anhui today.
+      He is said to have gone boating and drinking at Caishi Rock, a great rock by
+      the Yangtze. Drunk, he saw the moon in the water, leaned out to grasp it, and
+      fell in and did not come back. It is also told that the people in the boat saw
+      him ride a whale up into the sky. Caishi Rock therefore has a Moon-Catching
+      Terrace, and people called him the banished immortal, meaning an immortal sent
+      down from heaven. Against this line of telling, all that is surely known is
+      that he drank too much and died drunk at Xuancheng. His grave is at Green Mountain
+      in Dangtu, by the same stretch of the river as Caishi Rock. The tale of catching
+      the moon was written down by someone in the Song period, and afterwards became
+      a common phrase in poems and essays.
+  poem_connection:
+    zh: 签诗说“改变颜色前途去”，话落在前途与前程的转换；故事取捉月入水、由此登仙一层，与诗面所写的换一处去处相贴。
+    en: The poem says to change color and go on, the word falling on a change of road
+      and prospect; the story takes catching the moon and rising as an immortal, one
+      place swapped for another.
+- title:
+    zh: 柳毅傳書
+    en: Liu Yi Delivers the Letter
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 柳毅是唐代一个读书人。他赴考没有考中，正要回南方去，路过泾阳。泾阳在今天的陕西。他在路边看见一个女子在放羊，面容憔悴。一问才知道，她是洞庭湖龙王的女儿，嫁给泾川龙王的儿子以后受尽虐待，被罚到这里牧羊。龙女托他带一封家书到洞庭湖去。柳毅答应了，照她教的办法，在湖边一棵大橘树上敲了三下，果然有武士出水来引他进龙宫。洞庭龙王看了信，放声痛哭。他的弟弟钱塘龙王听说侄女受欺，大怒，化作一条赤龙飞去，杀了泾川龙子，把龙女接了回来。事后钱塘龙王想把龙女许给柳毅，柳毅推辞了。柳毅回家以后，两次丧妻，后来又娶了卢家的女子，生下一个儿子，才知道妻子就是洞庭龙女，于是同回洞庭。
+    en: Liu Yi was a scholar of the Tang dynasty. He had failed the examinations and
+      was on his way back south when he passed through Jingyang. Jingyang is in present-day
+      Shaanxi. By the roadside he saw a woman herding sheep, her face worn and thin.
+      On asking, he learned that she was a daughter of the Dragon King of Lake Dongting.
+      After she married the son of the Dragon King of the Jing River she was badly
+      treated and was sent here to herd sheep. The dragon girl asked him to carry
+      a letter home to Lake Dongting. Liu Yi agreed. As she taught him, he struck
+      a large orange tree by the lake three times, and warriors came out of the water
+      to lead him into the dragon palace. The Dragon King of Dongting read the letter
+      and wept aloud. His younger brother, the Dragon King of Qiantang, on hearing
+      that his niece had been wronged, flew off in a rage as a red dragon. He killed
+      the young dragon of the Jing River and brought the girl back. Afterward the
+      Dragon King of Qiantang wanted to give the girl to Liu Yi in marriage, and Liu
+      Yi declined. After Liu Yi went home his wife died twice. He later married a
+      woman of the Lu family and had a son, and only then learned that his wife was
+      the dragon girl of Dongting. They went back to Lake Dongting together.
+  poem_connection:
+    zh: 签诗“渐渐看此月中和”“改变颜色前途去”，情事由波折渐趋和合，正对柳毅传书这一段。
+    en: The lot's poem says to watch how things come into harmony under the moon,
+      and to change one's looks and go on. A love affair moving from troubles toward
+      harmony fits Liu Yi carrying the letter.
+- title:
+    zh: 石崇告神
+    en: Shi Chong Prays to the Gods
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 石崇是西晋的大富豪。他的父亲石苞做过司徒，司徒是当时朝廷最高的官职之一。石崇做过荆州刺史。荆州在长江中游一带。他在任上靠劫夺来往的使者和商人，攒下了惊人的家财，又修起一座金谷园，园中把园林和歌舞的排场做到了极处。他常和皇亲王恺比谁更阔气，用蜡烛当柴烧，用锦缎做几十里长的步障。步障是出行时挡风遮尘的布幕。石崇有个爱妾叫绿珠，善吹笛子。后来赵王司马伦专权，他的亲信孙秀向石崇索要绿珠，没有得手，就劝赵王伦杀了石崇。石崇和母亲、兄长、妻子、儿女一起被害，还牵连了三族。绿珠听到消息，也跳楼而死。签题里的告神一节，只说他在神前祈祷，其余没有留下来。这一签说渐渐看此月中和，又说过后须防未得高，正配石崇盛极而衰、终于遭祸的一段。
+    en: Shi Chong was a great rich man of the Western Jin. His father Shi Bao had
+      been Minister over the Masses, one of the highest offices at court. Shi Chong
+      served as governor of Jingzhou. Jingzhou is in the middle reaches of the Yangtze.
+      In that post he robbed passing envoys and merchants and piled up a startling
+      fortune. He built the Golden Valley Garden, where the grounds and the shows
+      of song and dance were brought to the extreme. He often competed in display
+      with the imperial kinsman Wang Kai, burning candles for firewood and stretching
+      tens of li of brocade as a road screen. A road screen was a cloth curtain put
+      up on journeys to keep off wind and dust. Shi Chong had a favorite concubine
+      named Green Pearl, who played the flute well. Later Prince Sima Lun of Zhao
+      seized power, and his trusted man Sun Xiu asked Shi Chong for Green Pearl. He
+      did not get her, and urged Prince Lun to kill Shi Chong. Shi Chong was put to
+      death together with his mother, elder brother, wife and children, and three
+      branches of the clan were caught up in it. When Green Pearl heard, she threw
+      herself from a tower and died. The praying to the gods in the title is only
+      mentioned; nothing else of it survives.
+  poem_connection:
+    zh: 这一签说渐渐看此月中和、过后须防未得高，正配石崇盛极而衰、终罹祸败的一段。
+    en: This lot says to watch this month come to its middle point, and that afterward
+      one must guard against not reaching the height - Shi Chong going from the height
+      of fortune to ruin.
+- title:
+    zh: 白娘子借水
+    en: Lady White Borrows Water
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签的故事题作“白娘子借水”。白娘子是白蛇变的女子，修行了上千年，带着婢女小青来到杭州，遇到许宣，两人结为夫妻。许宣在有些讲法里写作许仙。这一段属于白蛇传的故事。题里的借水，应当是白蛇传里的一段情节，大概同借水、发水救厄一类的事有关。可是各处的讲法不一样，究竟出自哪一种本子，这段情节怎么起、怎么收，一时都查不实。所以这一条只照题面讲明白娘子借水这件事，不另编造情节。签诗说“过后须防未得高”“凡事必定见重劳”，用的也正是事出之后还有波折的意思。
+    en: This lot's story is titled Lady White Borrows Water. Lady White is a woman
+      transformed from a white snake. After a thousand years of cultivation, she came
+      to Hangzhou with her maid Xiaoqing and met Xu Xuan, and the two became husband
+      and wife. This part belongs to the tale of the White Snake. The borrowing of
+      water in the title should be an episode in that tale. It is probably to do with
+      borrowing water, or raising water, to save someone from trouble. But the tellings
+      differ. Which text it comes from, and how the episode begins and ends, cannot
+      be checked at present. So this entry only sets out by its title that Lady White
+      borrows water, and no plot is invented beyond that. The lot's poem says, afterward
+      be on guard and you do not rise high, and in all things heavy toil is certain.
+      Its sense is exactly that after the event there are more turns to come.
+  poem_connection:
+    zh: 签诗“过后须防未得高”“凡事必定见重劳”，题面取白蛇传中借水行法、一出事便多波折之意。
+    en: The poem says one must be on guard afterward and cannot rise high, and that
+      in all things there is heavy toil; the title takes the White Snake's water-raising
+      and the troubles that follow the deed.
+- title:
+    zh: 吳王夫差敗師奔歸
+    en: King Fuchai of Wu Loses His Army and Flees Home
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 夫差是春秋末年吴国的君主。他打败越国之后，越王勾践前来求和。吴国的大臣伍子胥劝他趁机灭掉越国，夫差不听，允许越国继续存在。此后夫差一心北上争霸，带着精锐部队赶到黄池，要和晋国争盟主的位子。越王勾践趁吴国国内空虚，发兵攻吴，俘虏了吴国太子，打进吴国都城。夫差在黄池得到消息，匆忙带兵赶回。长途奔波，士兵疲惫不堪，已经没有力气再打，只好同越国讲和。这以后吴国一天不如一天，越国再次来攻，吴军接连打败仗。夫差退到姑苏，被围困起来。他求和不成，自刎而死，吴国也就灭亡了。
+    en: Fuchai was the ruler of Wu in the late Spring and Autumn period. After he
+      beat Yue, King Goujian of Yue came to ask for peace. Wu's minister Wu Zixu urged
+      him to use the chance to destroy Yue, but Fuchai did not listen and let Yue
+      stand. After that Fuchai set his heart on leadership in the north. He took his
+      best troops to Huangchi to contend with Jin for the place of chief of the lords.
+      Goujian of Yue took the chance of Wu being empty at home, sent out his army,
+      and captured Wu's crown prince and entered the Wu capital. When Fuchai got the
+      news at Huangchi, he hurried back with his army. The long journey left the soldiers
+      worn out, with no strength left to fight, so he had to make peace with Yue.
+      After that Wu grew weaker by the day. Yue attacked again, and the Wu army lost
+      battle after battle. Fuchai pulled back to Gusu and was besieged. He could not
+      get peace, and he cut his own throat. Wu came to an end.
+  poem_connection:
+    zh: 签诗说月亮到了中天就难再高，盛极之后要防着走下坡。夫差争霸之后仓皇奔归、国势转衰，正合此意。
+    en: The lot poem says the moon at mid-sky is hard to raise higher, and that after
+      the height one must guard against the downhill. Fuchai's rush home and the decline
+      of his state fit this sense.

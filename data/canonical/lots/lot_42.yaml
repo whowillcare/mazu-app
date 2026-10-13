@@ -1,0 +1,334 @@
+id: 42
+lot_number: 42
+ganzhi:
+  zh: 庚戌
+  pinyin: Geng-xu
+title:
+  en: Meng Jiang-nü Cries Down the Great Wall
+  zh: 孟姜女送寒衣哭倒長城
+hexagram:
+  zh: 火风鼎
+  name_and_structure_en: Ding (Fire over Wind)
+  binary_code: ○●○○○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 5
+  primary:
+    zh: 孟姜女送寒衣哭倒長城
+    en: Meng Jiang-nü Cries Down the Great Wall
+  variants_en:
+  - Wen Zhong's Western Campaign at the Ten Deadly Arrays
+  - Sima Guang Abolishes the New Laws
+  - Bao Zheng Executes a Villain
+  - Li Jiancheng Is Made Heir
+  variants_zh:
+  - 聞仲西征十絕陣
+  - 司馬溫公除新法
+  - 包龍圖斬惡人勸民
+  - 李建成立為太子
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout — 凡事 了錢。過運／婚姻 無望／功名 不就／治病
+      病險／月令 多逢口舌 (jie_yue_score −12)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'Across the categories it touches, the temple judgements keep to a protective
+      line: marriage, advancement, cultivation, sea work and the month''s affairs
+      all run against the matter, and the household and travel entries stay cautious
+      as well. Only the entry on moving house leaves a later window. The lot is read
+      as protective.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 了錢。過運／作事 難成／家事 門庭難合／家運 不安／婚姻 無望／六甲 臨產險。生女／求財
+      無有益／功名 不就／治病 病險。半月不畏／出外 不可／經商 難有成就／行舟 防險／失物 難尋／官事 不好。拖尾／六畜 不佳／耕作 無收成／築室 不吉／討海
+      無利可得／作塭 犯風水了錢／魚苗 蝕本／月令 多逢口舌。总评：整签偏负（jie_yue_score −12），涉及类目几无暖处；惟移居「午年尾。抽此吉」留一线。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在本签涉及的类目里整体取守势：婚姻、功名、耕作、行舟、月令多处偏向阻隔，家事与出行两项也偏保守；唯移居一项留了一个较晚的窗口。整签按保守取向读，重点在停手与保护。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 一重江水一重山，
+    en: One stretch of river and one range of hills;
+  - line_number: 2
+    zh: 誰知此去路又難，
+    en: who knew the road from here would be so hard?
+  - line_number: 3
+    zh: 任他改求終不過，
+    en: change your request however you will — it still does not get through;
+  - line_number: 4
+    zh: 是非終久未得安。
+    en: and the quarrel drags on without settling into peace.
+keywords:
+  favourable:
+    en:
+    - stopping where you stand
+    - conserving what is left
+    - letting a dispute go unsettled
+    zh:
+    - 就在原地停住
+    - 守住还剩的
+    - 让一场争执悬着不作结
+  guarded:
+    en:
+    - trying another route over the same ground
+    - waiting for a judgement that will not come
+    - spending on the crossing
+    - insisting on being right
+    zh:
+    - 在同一片地上再换一条路
+    - 等一个不会来的裁断
+    - 为过这道口子花钱
+    - 非要争出对错
+reading_notes:
+- term: 一重…一重…
+  pinyin: yī-zhòng-yī-zhòng
+  en: '"one layer, then another": the poem''s figure for *obstacles stacked*, not
+    one obstacle; The counsel follows from the figure.'
+  zh: 是阻碍层层相叠的说法，不是只有一道；后面的话就是从这层叠的意象来的。
+- term: 改求
+  pinyin: gǎi-qiú
+  en: '"change what you ask for": at once *changing your demand* and *trying another
+    route*; Neither gets through.'
+  zh: 既是改换你所求的东西，也是另走一条路；两者都过不去。
+- term: 是非
+  pinyin: shì-fēi
+  en: '"right and wrong": at once *a quarrel over blame* and *the tangled merits of
+    a case*; The line warns against waiting for it to be settled.'
+  zh: 既是一场争对错的吵闹，也是一桩理不清的案子；这一句提醒的是别等它被理清。
+plain_meaning:
+  en: 'The obstacles are stacked rather than single, and changing the plan does not
+    clear them: whichever route is taken it does not get through, and the quarrel
+    does not settle into peace. This is a season to stop spending on the crossing
+    and to leave the dispute where it lies.'
+  zh: 阻碍是一重接一重的，不是单单一道；换条路走也还是过不去，争执也拖不到一个安稳。这一季该做的是：别再为过这道口子花钱，把是非就留在那儿。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is this ever going to work out for me?
+    zh: 这件事最后到底会不会为我办成？
+  rewritten_to:
+    en: What should I stop spending on, and what should I leave as it is?
+    zh: 我该停掉哪一笔花用，又该把什么就这么放着？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问是封闭式的成败题，改为可以行动的取舍问题。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: No good ground for a match this season; the quarrel does more harm than the
+      absence.
+    zh: 这一季没有谈成姻缘的好地；这场争执带来的伤害比空着更大。
+    compliance_tag: null
+  career:
+    en: The advancement does not come; stop spending effort on the same route.
+    zh: 升进不会来；别再在同一条路上耗力气。
+    compliance_tag: null
+  money:
+    en: Nothing is gained by the outlay; cut your losses rather than add to them.
+      *(Not financial advice.)*
+    zh: 花出去的换不回东西；该收手就收手，不要再往里添。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: This is a risky passage, and the care taken in it matters; get qualified attention
+      rather than wait. *(Not medical advice.)*
+    zh: 这一段有风险，照护本身要紧；去找专业的人看，不要等。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household does not come together now; leave the dispute where it lies.
+    zh: 家里现在聚不到一起；把争执放下。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out; the road is hard in stages.
+    zh: 签诗说不要动身；路上是一段段的难走。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Guard against danger on the water; no profit in a voyage this season.
+    zh: 水上要防险；这一季出航没有进益。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season returns nothing for the work; keep your outlay minimal.
+    zh: 这一季的工夫回不了本；把投进去的压到最少。
+    compliance_tag: null
+  timing:
+    en: Stop for now; the turning point is not in this season — a season, never a
+      date.
+    zh: 先停下来；转向不在这一季——只讲季节，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Trying another route over the same ground; waiting for the quarrel to be settled.
+    zh: 在同一片地上再试一条路；等着争执被了结。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这讲的是一段难过的时节，不是预告有祸。若这一签让你心里不安或为钱发愁，请找信得过的人或专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 孟姜女送寒衣哭倒長城
+    en: Meng Jiang-nü Cries Down the Great Wall
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 孟姜女的丈夫被官府征去北方修长城。她在家等了许多时候，不见丈夫回来，便缝好过冬的寒衣，出门去找他。一路上山一重、水一重，走得很艰难。到了长城脚下，她才听说丈夫早已累死，尸骨被填进了城墙。她在城下哭，又把自己的血滴在骨头上，认出哪一副是丈夫的。她抱着骸骨放声大哭，哭得那段长城崩裂开来。修长城是秦朝防北方边患的大工役，工地上死的人很多。丈夫一去不归，家中的是非也长久没有个了结。她从家里出发，一路向北，走到长城的工地。
+    en: Meng Jiangnu's husband was taken by the government to build the Great Wall
+      in the north. She waited at home for a long time. When he did not come back,
+      she sewed winter clothes for him and set out to find him. The road was one range
+      of mountains after another and one stretch of river after another, and the going
+      was very hard. When she reached the foot of the Great Wall, she learned that
+      her husband had died of exhaustion long before and that his bones had been packed
+      into the wall. She wept below the wall. Then she let her own blood fall on the
+      bones, and by this she found which set belonged to her husband. She held the
+      bones and cried aloud, and that stretch of the wall broke apart. Building the
+      Great Wall was a huge labor project of the Qin dynasty, meant to guard against
+      raids from the north. Many men died on the works. Her husband went away and
+      never came home, and the quarrels in the house were never settled. She started
+      from her home and walked north to the wall site.
+  poem_connection:
+    zh: 这一签写跋涉山川、寻夫不得、是非长久不得安宁，正扣签诗“一重江水一重山”“是非终久未得安”。
+    en: Crossing mountains and rivers to look for a husband who cannot be found, and
+      quarrels that never settle, fit a lot whose poem speaks of river after river
+      and mountain after mountain.
+- title:
+    zh: 聞仲西征十絕陣
+    en: Wen Zhong and the Ten Deadly Formations
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 闻仲是商朝末年的太师，商纣王手下最倚重的大臣。他见西边的周族一天天强盛，就亲率大军西征。周军的主帅是姜子牙。闻仲请来金鳌岛的十位天君相助，在周军城外布下十座凶阵，合称十绝阵。每一阵各用一种杀机，有风、有雷、有水、有火，要把周军困死在里面。阵摆成以后，接连有周军一方的门人进阵战死。后来由燃灯道人主持破阵，众仙分头攻入，十位天君先后阵亡，十绝阵被破。闻仲兵败，退到绝龙岭，死在那里。周得天下之后，姜子牙封神，闻仲也在受封之列。
+    en: Wen Zhong was the Grand Preceptor at the end of the Shang dynasty, the minister
+      King Zhou of Shang relied on most. He saw the Zhou people in the west growing
+      stronger day by day, so he led a great army west himself. The Zhou commander
+      was Jiang Ziya. Wen Zhong invited ten heavenly lords from Jin'ao Island to help
+      him. They set up ten fierce formations outside the Zhou camp, known together
+      as the Ten Deadly Formations. Each formation used one kind of deadly force.
+      There was wind, thunder, water, and fire. The aim was to trap the Zhou army
+      inside and kill it. Once the formations were set, disciples on the Zhou side
+      went in one after another and died in battle. Later the Daoist Randeng took
+      charge of breaking them. The immortals attacked from different sides, the ten
+      heavenly lords fell one after another, and the Ten Deadly Formations were broken.
+      Wen Zhong's army was beaten and fell back to Juelong Ridge, where he died. After
+      Zhou won the realm, Jiang Ziya enfeoffed the gods, and Wen Zhong was among those
+      enfeoffed.
+  poem_connection:
+    zh: 签诗说一重江水一重山，谁知此去路又难。层层相叠的十绝阵，正像一重山一重水，破阵之路艰难。
+    en: The lot poem says one river crossed, one mountain more, and the road ahead
+      is hard. The Ten Deadly Formations, layer on layer, are those mountains and
+      rivers, and breaking them was hard.
+- title:
+    zh: 司馬溫公除新法
+    en: Sima Guang Abolishes the New Laws
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 司马光是北宋有名的史学家和大臣，民间叫他司马温公。宋神宗的时候，王安石推行新法，青苗、免役、市易、保甲几条次第施行。司马光一再上书力争，说这些法子扰民，争不过就退到洛阳住下，前后十几年，专心编一部通史。神宗去世，哲宗年幼即位，太皇太后高氏一同听政，把司马光召回朝中做门下侍郎。司马光上疏力陈新法的害处，请求全部废掉。在他主持之下，保甲、免役、市易、青苗等法先后废去，新党的人相继被贬退。司马光居相位不久就去世了。此后新党再起，又把新法一条条恢复，并追贬司马光等人，新旧两派的争执经过好几朝都没有停。两家的分歧起于理财的办法：王安石主张生出财利来充裕国用，司马光则认为天下的财不在官家就在民间。
+    en: Sima Guang was a well-known historian and minister of the Northern Song. People
+      called him Sima Wengong. In the time of Emperor Shenzong, Wang Anshi carried
+      out his new laws. The green-sprouts loans, the service exemption, the market
+      exchange and the baojia village militia came in one after another. Sima Guang
+      sent up memorial after memorial, arguing that these measures troubled the people.
+      When he could not win the argument he withdrew to live in Luoyang. There he
+      spent more than ten years putting his mind on compiling a general history. Emperor
+      Shenzong died, and Emperor Zhezong came to the throne as a child. The grand
+      empress dowager of the Gao family presided with him, and called Sima Guang back
+      as a vice minister. Sima Guang memorialized on the harm of the new laws and
+      asked that all be done away with. Under him the baojia, the service exemption,
+      the market exchange and the green-sprouts laws were scrapped one by one. The
+      men of the new party were demoted in turn. Sima Guang died not long after taking
+      the chief minister's seat. Then the new party rose again, restored the laws
+      one by one, and further demoted Sima Guang and his people. The quarrel of the
+      two sides ran through several reigns without stopping. The two houses differed
+      over the way to manage money. Wang Anshi held that profit should be generated
+      to fill the needs of the state. Sima Guang held that the wealth of the world
+      is either with the state or with the people.
+  poem_connection:
+    zh: 签诗说“任他改求终不过，是非终久未得安”，故事写新法一罢一复、新旧相争不止，正是改求不定、是非难安之象。
+    en: The poem says that whatever changes and demands are tried they do not get
+      through, and right and wrong never settle; the new laws dropped and then restored
+      match that unsettled state.
+- title:
+    zh: 包龍圖斬惡人勸民
+    en: Bao Longtu Executes the Wicked to Warn the People
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 包拯字希仁，是北宋庐州合肥人，合肥在今天的安徽。他做官刚直清廉，不徇私情。他掌管开封府时，办案不看权贵的脸色，皇亲国戚和宦官都收敛起来，不敢乱来。当时京城里流传一句话，说托不到关系、说不动的人，只有阎罗包老。阎罗是传说中管阴间的主宰。民间后来把许多审案断狱的传闻都算到他名下，包公于是成了断案的典型人物。这类故事讲他查明真相、惩办恶人，不论对方靠山多硬，都不肯放过，借此警戒百姓。“斩恶人劝民”说的就是这一类案子。
+    en: 'Bao Zheng, whose courtesy name was Xiren, was from Hefei in Luzhou in the
+      Northern Song; Hefei is in present-day Anhui. He held office with firmness and
+      honesty and gave no favors to relatives or friends. When he was in charge of
+      the Kaifeng prefecture, he judged cases without regard to the faces of the powerful.
+      Imperial relatives and eunuchs drew back and did not dare act out of line. At
+      that time a saying went around the capital: the only one you cannot reach through
+      connections or sway is Bao the Elder, Yama of the underworld. Yama is the ruler
+      of the dead. Later, people credited Bao with many tales of trials and judgments,
+      and so Bao Gong became the model figure for deciding cases. Stories of this
+      kind tell how he found out the truth and punished wicked men. No matter how
+      strong the backing of the man in question, he would not let him go. In this
+      way he warned the common people. Executing the wicked to warn the people describes
+      cases of this sort.'
+  poem_connection:
+    zh: 签诗“任他改求终不过，是非终久未得安”，是非纠缠到底而终须分清，正对断案惩凶。
+    en: The lot's poem says a man's changed plea gets him nowhere, and that right
+      and wrong stay unsettled. Tangled right and wrong that must be sorted out fits
+      judging cases and punishing the guilty.
+- title:
+    zh: 李建成立為太子
+    en: Li Jiancheng Is Made Crown Prince
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李建成是唐朝开国皇帝李渊的大儿子。李渊就是唐高祖。隋朝末年，李渊在太原起兵，李建成和弟弟李世民各带一支人马，一同攻下长安。唐朝建立，李渊做了皇帝，按长幼次序，立李建成为皇太子。皇太子就是将来继承皇位的人。李建成留守长安，替父亲总管日常政务。弟弟李世民带兵在外，军功越来越大，封为秦王，声望一天高过一天。太子和秦王之间渐渐生了嫌隙，各自结交党羽，明里暗里争斗不休。李建成做太子的时候，也曾领兵出征，平定了刘黑闼的叛乱。可是和秦王的争斗越来越凶，终于酿成兄弟相残的变故。李建成和另一个弟弟李元吉同时遇害，李渊随即改立李世民为太子。这一签说任他改求终不过，又说是非终久未得安，正配太子之位已定而兄弟相争、终究不得安宁的一段。
+    en: Li Jiancheng was the eldest son of Li Yuan, the founding emperor of the Tang.
+      Li Yuan is Emperor Gaozu of Tang. At the end of the Sui, Li Yuan raised troops
+      at Taiyuan, and Li Jiancheng and his younger brother Li Shimin each led a force,
+      taking Chang'an together. The Tang was founded, Li Yuan became emperor, and
+      by order of seniority he made Li Jiancheng crown prince. The crown prince is
+      the one who would inherit the throne. Li Jiancheng stayed in Chang'an and managed
+      daily government for his father. His brother Li Shimin led troops in the field,
+      piled up military merit, was enfeoffed as Prince of Qin, and grew in reputation
+      day by day. A rift slowly opened between the crown prince and the Prince of
+      Qin. Each gathered his own faction, and the struggle went on openly and in secret
+      without end. While he was crown prince, Li Jiancheng also led a campaign and
+      put down the rebellion of Liu Heita. But the struggle with the Prince of Qin
+      grew fiercer and fiercer, and at last became a killing between brothers. Li
+      Jiancheng and another brother, Li Yuanji, died on the same day, and Li Yuan
+      at once made Li Shimin crown prince.
+  poem_connection:
+    zh: 这一签说任他改求终不过、是非终久未得安，正配储位已立而兄弟相争、终不安宁的一段。
+    en: This lot says that however one seeks to change it, the matter does not pass,
+      and that right and wrong never settle - the heir's place fixed, the brothers
+      fighting, and no peace to the end.

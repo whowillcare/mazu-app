@@ -1,0 +1,357 @@
+id: 5
+lot_number: 5
+ganzhi:
+  zh: 甲申
+  pinyin: Jia-shen
+title:
+  en: Han Yu Crosses the Qin Mountains
+  zh: 韓文公過秦嶺遇雪
+hexagram:
+  zh: 泽火革
+  name_and_structure_en: Ge (Lake over Fire)
+  binary_code: ●○○○●○
+  shared_with_lot: 18
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 4
+  primary:
+    zh: 韓文公過秦嶺遇雪
+    en: Han Yu Crosses the Qin Mountains
+  variants_en:
+  - Wang Jian Fights Yuan Da
+  - Sun Bin Feigns Madness
+  - Pang Juan Betrays Sun Bin
+  variants_zh:
+  - 王翦戰袁達
+  - 孫臏假顛
+  - 龐涓害孫臏
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements turn from bad to good and back again — 作事 顛倒。前凶後吉／家運
+      先被邪。後吉祥／婚姻 多口舌。不吉／月令 淡淡 (jie_yue_score +2, near the threshold)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs both ways on this lot — undertakings, family fortune,
+      trade, and travel move from blocked to open, the household entry leaves room
+      for a benefactor and a reunion, and graves, ponds, and fry are hard first and
+      better after; marriage, children, income, advancement, illness, moving house,
+      legal matters, livestock, field work, building, lost property, the month's season,
+      finding people, and distant news run against. The composite sits near the middle,
+      so we read this lot as mixed.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：作事 顛倒。前凶後吉／家事 有貴人。團圓／家運 先被邪。後吉祥／出外 下半年好／經商 先利。後遇貴人／歲君
+      平安／墳墓 先平後得佳氣／作塭 先難後得／魚苗 先無後有／求雨 朝夕即有——皆为由阻转顺；而 婚姻 多口舌。不吉／求兒 不佳／求財 以待時來。（不吉）／功名
+      必遇。防徼／治病 月光癒。暗不吉／移居 不好／官事 宜和拖尾。（被官欺。后完明）／六畜 不祥／耕作 內有不足／築室 不吉／失物 謹尋在。遲即無／月令 淡淡／尋人
+      待慢／遠信 必阻遲至 则偏阻（jie_yue_score +2，贴近门槛，故列为中间一档）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上两头都有——作事、家运、经商、出外一路由阻转顺，家事一项留有贵人团圆的余地，坟墓、作塭、鱼苗三项也是先难后得；而婚姻、求儿、求财、功名、治病、移居、官事、六畜、耕作、筑室、失物、月令、寻人、远信几处偏阻。综合分值贴近正负门槛，故列为本批的中间一档。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 只恐前途命有變，
+    en: I fear only that the road ahead may change;
+  - line_number: 2
+    zh: 勸君作急可宜先，
+    en: be prompt — act early, and act first;
+  - line_number: 3
+    zh: 且守長江無大事，
+    en: keep to the Long River (the Yangtze) and no great trouble comes;
+  - line_number: 4
+    zh: 命逢太白守身邊。
+    en: the White Star stands at your side.
+keywords:
+  favourable:
+    en:
+    - a reversal that rights itself
+    - the White Star at your side
+    - holding to known water
+    - a late-arriving benefactor
+    zh:
+    - 翻覆之后自会回正
+    - 太白星守在身边
+    - 守住熟悉的水域
+    - 迟来的贵人
+  guarded:
+    en:
+    - panic-hurry
+    - quarrelling over the first bad turn
+    - setting out on an untested road
+    - expecting an even season
+    zh:
+    - 惊慌赶急
+    - 为第一个坏转折争吵
+    - 走上没试过的路
+    - 指望一段平顺的时节
+reading_notes:
+- term: 作急
+  pinyin: zuò-jí
+  en: 'to make haste: at once *panic*; *the early act on the one thing that can be
+    acted on*.'
+  zh: 是赶紧：既指慌里慌张，也指在该动手的那一件事上提前动手。诗取的是后一层。
+- term: 太白
+  pinyin: tài-bái
+  en: 'the White Star (Venus) of the old almanac: at once a *named star* and the plain
+    sense of *a strong patron standing close*; It names a season, not a fate.'
+  zh: 是旧历书里的太白金星：既是一颗有名字的星，也直白地指一位靠得住的贵人近身。它点的是一个时节，不是命。
+- term: 且守
+  pinyin: qiě-shǒu
+  en: '"for now, keep to": at once *guard what you have*; *stay on the water you already
+    know*.'
+  zh: 意为暂且守着：既指守住已有的，也指留在自己已经熟悉的水面上。
+plain_meaning:
+  en: 'The early stage is rough and the middle is tangled: something reverses before
+    it rights itself. The counsel is to move early and first on the practical thing,
+    then hold the known ground — the help comes late, not at once.'
+  zh: 开头一段粗糙，中段纠缠：事情会先翻覆一次，然后才理顺。诗中的意思是，能动手的那件实事要早动手、动在前面，然后守住已经熟悉的地面——助力来得晚，不是马上就到。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will my luck change this season?
+    zh: 我这一季的运气会不会变？
+  rewritten_to:
+    en: What should I do first now, and what should I leave alone?
+    zh: 现在我先做什么，什么该先放着不动？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是一个封闭式的是非问（只求「会不会」），改为可先做、可先放的可行动问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Quarrels do the damage here; pressure does not settle a match. Speak plainly
+      and early.
+    zh: 损事出在口角上；施压并不能让一段姻缘定下来。话要说明白，而且要早说。
+    compliance_tag: null
+  career:
+    en: The first move is yours to make, and the tangle rights itself after it. Expect
+      the benefactor late, not soon.
+    zh: 第一步得你自己迈；迈过之后纠缠自会解开。贵人来得晚，不是很快就到。
+    compliance_tag: null
+  money:
+    en: A deficit first and a gain after it; keep commitments small until the turn.
+      *(Not financial advice.)*
+    zh: 先是短欠，之后才有进项；在转折到来之前，承诺都做小些。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A low, unsettled season that improves by degrees; have anything physical seen
+      to early rather than late. *(Not medical advice.)*
+    zh: 这一段身心偏低、不安稳，会一点点转好；身体上的事要早看，不要拖。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: A benefactor appears and the household comes back together; accord is what
+      the poem asks for.
+    zh: 会有贵人出现，家里重新团圆；不要去追一个说法对错。
+    compliance_tag: null
+  travel_moving:
+    en: Passage has weather in it this season — go early and plan for delay.
+    zh: 这一季路途上有风雨——早动身，并且给延误留出余地。
+    compliance_tag: null
+  sea_and_voyage:
+    en: There is squall on the water; put out with the tide and keep to the known
+      channel.
+    zh: 水上有风浪；趁潮出去，并且守着熟悉的航道。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season comes in thin — a shortfall early, then the yield improves; expect
+      more of the late round than of the first.
+    zh: 这一季来得薄——先有短欠，之后收成才好转；后半轮要多过第一轮。
+    compliance_tag: null
+  timing:
+    en: The turn comes late in the season, not at once — a season, never a date.
+    zh: 转折在该季的后段才到，不是马上——按季节去读，不要当成日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Panic-hurry; quarrelling over the first bad turn.
+    zh: 惊慌赶急；为第一个坏转折争吵。
+    compliance_tag: null
+  reassurance:
+    en: The reversal is already in the pattern.
+    zh: 这个翻覆本来就在格局里。
+    compliance_tag: null
+stories:
+- title:
+    zh: 韓文公過秦嶺遇雪
+    en: Han Yu Crosses the Qin Mountains
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 韩愈，唐代有名的文章大家，世人称他韩文公。他上书反对朝廷把佛骨迎进宫中，触怒皇帝，被贬到南方的潮州做刺史。他从京城长安出发南行，进秦岭时正逢大雪。山路被封，连马也不肯往前走。随行的人里有他的侄孙韩湘。韩愈在蓝关写下诗句：云横秦岭，望不见家乡；雪拥蓝关，马停步不前。他到了潮州，兴办学校，又写文章祭走害人的鳄鱼。后来他调到袁州，再回到朝中做官。这次上书几乎让他丢命，靠几位大臣相救，才只落得贬官出京。他这一路从长安往南，走了几千里，才到潮州。
+    en: 'Han Yu was a famous prose master of the Tang dynasty, and people called him
+      Han Wengong. He sent a memorial to the throne against bringing a Buddha relic
+      into the palace. This angered the emperor, and he was demoted to serve as prefect
+      of Chaozhou in the far south. He set out from Chang''an, the capital, and traveled
+      south. When he entered the Qinling, heavy snow began to fall. The mountain road
+      was blocked, and even his horse refused to go forward. His grandnephew Han Xiang
+      was among those traveling with him. At the Blue Pass Han Yu wrote a poem: clouds
+      stretch across the Qinling and home is out of sight; snow heaps up at the Blue
+      Pass and the horse stands still. After he reached Chaozhou, he founded schools
+      and wrote a text to drive off the crocodiles that harmed people. Later he was
+      moved to Yuanzhou and then called back to office at court. That memorial nearly
+      cost him his life, and only the help of several ministers left him with nothing
+      worse than demotion and exile from the capital. His road south from Chang''an
+      ran several thousand li before he reached Chaozhou.'
+  poem_connection:
+    zh: 这一签写行路途中忽逢变故、前路受阻只能缓行，正扣签诗“只恐前途命有变，劝君作急可宜先”。
+    en: A journey interrupted by sudden trouble, with the road ahead blocked and only
+      slow progress possible, fits the lot's warning that the road can change and
+      a man should act early.
+- title:
+    zh: 王翦戰袁達
+    en: Wang Jian Fights Yuan Da
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王翦是战国末年秦国的名将，出身军中，靠战功一步步升为将军，带兵以持重闻名。秦王政就是后来统一天下的秦始皇，他要灭六国，先派王翦攻下赵国，再北上打燕国。攻打燕国时，秦军在驻地扎营布阵。燕国派出一名刺客叫袁达，偷偷潜进秦营，想刺杀王翦。袁达没有得手，反被王翦的部下打败。王翦仍旧按住不动，守住阵脚，不与人争先。后来秦王又派他统领六十万大军灭掉楚国。他带兵到了楚地，只筑营垒，不肯出战，楚军几次来挑战，他都不应。等楚军东归，他才出兵，一举取胜。
+    en: Wang Jian was a famous general of Qin in the late Warring States period. He
+      came up through the army and rose step by step to general on his own battle
+      record. He was known for caution in command. King Zheng of Qin, the man who
+      later unified the realm as the First Emperor, set out to destroy the six states.
+      He first sent Wang Jian to take Zhao, then turned north against Yan. On the
+      Yan campaign the Qin army camped and laid out its formation. Yan sent an assassin
+      named Yuan Da, who crept into the Qin camp to kill Wang Jian. He did not succeed.
+      Wang Jian's officers beat him back. Wang Jian still held his position and kept
+      his ranks steady. He did not race anyone to be first. Later the king gave him
+      command of six hundred thousand troops to destroy Chu. He led them into Chu
+      land and only built ramparts. He refused to come out and fight. The Chu army
+      challenged him several times and he did not answer. When the Chu army turned
+      back east, he moved and took the field in one stroke.
+  poem_connection:
+    zh: 签诗劝人先守长江无大事；王翦守营不出、待敌自疲，正合守而不争先这一层。
+    en: The poem advises holding the river line first, with no great trouble. Wang
+      Jian kept to his camp and let the enemy tire, which matches holding without
+      racing to be first.
+- title:
+    zh: 孫臏假顛
+    en: Sun Bin Feigns Madness
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孙膑是战国时的兵法家，和庞涓一起学过兵法。庞涓先到魏国做将军，自知名声和本事都比不上孙膑，就暗中把孙膑召到魏国，编造罪名，判他割去膝盖骨的刑罚，又在他脸上刺字，要他一生不得出头。孙膑受刑之后，装疯避祸：披散头发乱走，睡在猪圈里，吃喝起居都不像常人。庞涓派人窥看，以为他真的疯了，看管就松了些。后来齐国使者到魏国，孙膑以犯人的身份私下求见，说动了使者。使者把他藏起来，载回齐国。到了齐国，将军田忌待他很好，让他做门下的谋士；齐王向他问兵法，也以师礼相待。此后孙膑替齐国出谋划策，在桂陵一战用“围魏救赵”之计，大败魏军。围魏救赵的意思是绕开正面的敌人，直攻它的后方，逼它回兵自救。
+    en: Sun Bin was a strategist of the Warring States period. He studied the art
+      of war together with Pang Juan. Pang Juan went to the state of Wei first and
+      became a general there. He knew his own fame and skill were no match for Sun
+      Bin's. So he secretly called Sun Bin to Wei, made up charges against him, and
+      had him sentenced to have his kneecaps cut off. He also had Sun Bin's face tattooed,
+      so he could never rise in the world. After the punishment, Sun Bin feigned madness
+      to escape harm. He let his hair hang loose and wandered about. He slept in the
+      pigsty. He ate and lived in ways no ordinary man would. Pang Juan sent men to
+      watch him. They believed he was truly mad, and the guard over him grew slack.
+      Later an envoy from the state of Qi came to Wei. Sun Bin, as a prisoner, asked
+      to see him in private and persuaded him. The envoy hid him and carried him back
+      to Qi. In Qi, the general Tian Ji treated him well and kept him as a strategist.
+      The king of Qi asked him about the art of war and honoured him as a teacher.
+      After that Sun Bin gave Qi advice, and at the battle of Guiling he used the
+      plan of besieging Wei to rescue Zhao and badly defeated the Wei army. Besieging
+      Wei to rescue Zhao means to avoid the enemy in front and strike at his rear,
+      forcing him to pull back and save himself.
+  poem_connection:
+    zh: 签诗说只恐前途命有变，劝君作急可宜先。孙膑受刑之后闭门自守，靠装疯保住性命，正与这一节相应。
+    en: The lot poem warns that the road ahead can change and urges one to act early.
+      After his punishment Sun Bin kept to himself and saved his life by feigning
+      madness.
+- title:
+    zh: 龐涓害孫臏
+    en: Pang Juan Harms Sun Bin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孙膑与庞涓一同跟老师学兵法。庞涓先出去做事，到魏国做了将军。他知道自己的本事不如孙膑，就暗中把孙膑召到魏国，借罪名砍掉他的双脚，又在他脸上刺字，想让他一辈子做不了官。齐国的使者到魏国，看出孙膑是难得的人才，悄悄用车把他载回齐国。孙膑到齐国后，替大将军田忌出主意赛马，把马分上中下三等，调换出场的次序，赢了比赛，由此被齐威王看中。后来魏国出兵攻赵国，齐国用孙膑的计策，不去邯郸硬救，直扑魏国的都城，逼魏军回师，在桂陵把魏军打得大败。又过了几年，魏国攻韩国，齐国再救韩国。孙膑让士兵一天天减少做饭的灶数，做出齐军逃亡的假象。魏将庞涓追到马陵道，夜里举火去看树上的字，齐军万箭齐发。庞涓自知兵败无路，拔剑自尽。孙膑从此名扬天下，他的兵法也传了下来。
+    en: Sun Bin and Pang Juan studied military strategy together under the same teacher.
+      Pang Juan went out to work first and became a general in Wei. He knew his own
+      ability was not equal to Sun Bin's. So he secretly called Sun Bin to Wei, had
+      his feet cut off on a false charge, and had his face tattooed, to keep him from
+      office for life. Envoys from Qi at Wei saw he was a rare talent and quietly
+      carried him back to Qi. In Qi he advised the general Tian Ji on a horse race.
+      The horses were divided into three grades and the running order changed. He
+      won, and King Wei of Qi took notice of him. Later Wei sent troops against Zhao.
+      Qi used Sun Bin's plan, striking at the Wei capital instead of forcing a rescue
+      at Handan. This forced the Wei army back, and Qi beat it badly at Guiling. Some
+      years later Wei attacked Han and Qi rescued Han again. Sun Bin had his soldiers
+      cut the number of cooking stoves each day, faking flight from the ranks. General
+      Pang Juan chased him to the Maling road. At night he lit a torch to read writing
+      on a tree. Qi archers shot in volleys. Pang Juan knew he was beaten, with no
+      way out. He drew his sword and killed himself. Sun Bin's name spread through
+      the world, and his art of war was handed down.
+  poem_connection:
+    zh: 签诗说“只恐前途命有变，劝君作急可宜先”，故事里的庞涓急于先下手除去同门，孙膑的前途也正从此生变。
+    en: The poem warns that the road ahead can change and urges haste; Pang Juan hurried
+      to strike at his fellow student first, and Sun Bin's road turned from there.
+- title:
+    zh: 韓文公過秦嶺遇霜雪凍
+    en: Han Wengong Crosses the Qinling in Snow
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩愈字退之，河阳人，家在今天的河南孟州。他是唐朝有名的文章大家，一生反对佛教和道教。唐宪宗在位时，他上表反对朝廷迎奉佛骨，触怒了皇帝，被贬到潮州去做刺史。潮州在今天的广东。刺史是一州的长官。他从京城出发南行，走到蓝关，正碰上大雪封山，道路难走，随行的人也困顿不堪。他在路上写了一首诗寄给侄孙，诗里有云横秦岭家何在、雪拥蓝关马不前两句。秦岭是横贯东西的大山。民间又说，他的侄孙韩湘子随后赶到。韩湘子是八仙中的一位。他解下佩剑一指，把路上的积雪化开，替叔父开出一条路。这一签说只恐前途命有变，又说且守长江无大事，正配韩愈被贬南行、受雪所阻的一段。
+    en: 'Han Yu, whose courtesy name was Tuizhi, was a man of Heyang, whose home is
+      in what is today Mengzhou in Henan. He was a famous master of prose in the Tang,
+      and all his life he opposed Buddhism and Daoism. In the reign of Emperor Xianzong
+      of the Tang he sent up a memorial against the court''s reception of a Buddha
+      relic, angered the emperor, and was banished to Chaozhou as its prefect. Chaozhou
+      is in what is today Guangdong. A prefect was the chief official of a prefecture.
+      He set out from the capital and went south, and at the Blue Pass he ran into
+      heavy snow that closed the mountain, with the road hard to travel and his escort
+      worn out. On the way he wrote a poem and sent it to his grandnephew; in it are
+      the lines: clouds across the Qinling, where is home; snow hems in the Blue Pass,
+      the horse would not go on. The Qinling is the great range that runs east and
+      west. His grandnephew Han Xiangzi is said to have come after him. Han Xiangzi
+      is one of the Eight Immortals. He unstrapped his sword and pointed it, and the
+      snow on the road melted, opening a path for his uncle.'
+  poem_connection:
+    zh: 这一签说只恐前途命有变、且守长江无大事，正配韩愈贬潮过蓝关、雪阻难行的一段。
+    en: This lot says the road ahead is feared to change, and that holding to the
+      Long River means no great trouble - Han Yu banished and going south, held up
+      by snow at the Blue Pass.
+- title:
+    zh: 王剪戰袁達
+    en: Wang Jian Fights Yuan Da
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 秦王政要吞并天下，派王翦做大将去攻打燕国。王翦善于用兵，先扎稳营盘，再往前推进，在易水西边打败了燕军。传说燕国派刺客袁达去刺杀他。袁达勇猛好斗，一直冲到秦营里。王翦按兵不动，引他往深处闯，然后用伏兵截住，袁达大败退走。王翦攻燕是史书上的事，袁达行刺这一段，正史里却没有记载，应当是后来的小说、戏曲添出来的，这个人和这件事都无从查实。这一签里另收了一条韩愈被贬潮州、在蓝关遇雪的故事，同本条并列。袁达的名字史书上没有，或许是小说家造的，和荆轲刺秦王一类情节相近，只是另立了一个人。
+    en: King Zheng of Qin wanted to swallow the realm. He sent Wang Jian as great
+      general to attack Yan. Wang Jian was skilled at war. He first made his camp
+      firm, then pushed forward, and he beat the Yan army west of the Yi River. Yan
+      sent an assassin, Yuan Da, to kill him. Yuan Da was fierce and fond of fighting.
+      He charged straight into the Qin camp. Wang Jian held his troops back and drew
+      him in deeper. Then he cut him off with troops in ambush, and Yuan Da was badly
+      beaten and fell back. This lot also carries, side by side, the story of Han
+      Yu sent down to Chaozhou, meeting snow at Blue Pass.
+  poem_connection:
+    zh: 签诗“只恐前途命有变”，正合袁达行刺、事出意外一节；“命逢太白守身边”则取身陷险中而得保全之意。
+    en: The poem says one fears only that the road ahead could change, which fits
+      Yuan Da's attempt and the unexpected turn; the line about the Great White Star
+      guarding one takes being kept safe in the midst of danger.

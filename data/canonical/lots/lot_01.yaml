@@ -1,0 +1,289 @@
+id: 1
+lot_number: 1
+ganzhi:
+  zh: 甲子
+  pinyin: Jia-zi
+title:
+  en: Bao Gong Calls Down Thunder
+  zh: 包公請雷驚仁宗
+hexagram:
+  zh: 乾为天
+  name_and_structure_en: Qian, Heaven (Heaven over Heaven)
+  binary_code: ○○○○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 3
+  primary:
+    zh: 包公請雷驚仁宗
+    en: Bao Gong Calls Down Thunder
+  variants_en:
+  - Bao Zheng Tries Zhang Shizhen
+  - Cui Wende and Hu Fengjiao
+  variants_zh:
+  - 包拯審張世真
+  - 崔文德愛胡鳳嬌
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive with reservations noted (凡事 大吉昌／婚姻 允成／求財
+      先大進／月令 遂意; but 作事 難成。成者大吉 and 求雨 尚未); jie_yue_score +19
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs positive on this lot across general affairs, household,
+      family fortune, marriage, income, advancement, the year's ruler, travel, trade,
+      boats, moving house, legal matters, field work, building, sea work, ponds, the
+      month's season, and finding people; only undertakings and rain are left open.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 大吉昌／家事 無憂／家運 平安大吉／婚姻 允成／求兒 大吉／求財 先大進。後小利／功名 望後有成／歲君
+      清吉／出外 平安／經商 如意／行舟 有大財／移居 得安／官事 理斷分明／耕作 甚得利／築室 清吉光明／墳墓 地穴大吉／討海 漸漸得利／作塭 大吉利／月令
+      遂意／尋人 得回——整签偏正，惟 作事 難成（成者大吉）、求雨 尚未 两项留有余地（jie_yue_score +19）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在总类、家事、家运、婚姻、求财、功名、岁君、出外、经商、行舟、移居、官事、耕作、筑室、讨海、作塭、月令、寻人等处皆偏正面，唯「作事」与「求雨」两项留有余地。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 日出便見風雲散，
+    en: The sun comes out — wind and cloud scatter;
+  - line_number: 2
+    zh: 光明清淨照世間，
+    en: bright and clear, its light shines on the world;
+  - line_number: 3
+    zh: 一向前途通大道，
+    en: the road ahead opens onto the great way;
+  - line_number: 4
+    zh: 萬事清吉保平安。
+    en: all things are clear and auspicious — keep your peace.
+keywords:
+  favourable:
+    en:
+    - clearing sky
+    - the open road
+    - auspicious and settled
+    - a fair wind
+    zh:
+    - 云散天清
+    - 前路开阔
+    - 清吉安定
+    - 一路顺风
+  guarded:
+    en:
+    - over-managing what is already fine
+    - borrowing trouble
+    - doubting a good season
+    zh:
+    - 对已经顺当的事再多插手
+    - 自寻烦恼
+    - 怀疑一段好时节
+reading_notes:
+- term: 清吉
+  pinyin: qīng-jí
+  en: at once *clear* (the sky) and *auspicious* (the affair); the compound carries
+    both, and English must not pick only one.
+  zh: 既指天色清朗，也指事情吉利；这一复词两层都带着，英文不能只取一层。
+- term: 大道
+  pinyin: dà-dào
+  en: '"the great way": the broad road ahead *and* the right course; here the two
+    senses are deliberately one.'
+  zh: 既指眼前那条宽阔的路，也指该走的正道；此处两层意思有意合而为一。
+- term: 平安
+  pinyin: píng-ān
+  en: safety-and-peace, the blessing most often asked of Mazu; it closes the poem
+    as a wish, not a promise.
+  zh: 是平安无事，也是信众最常向妈祖求的那份安宁；它收束全诗，是一句祝愿，不是一句承诺。
+plain_meaning:
+  en: 'Clouds break and the way ahead is clear: this is an open, well-lit season.
+    The poem''s counsel is to keep your peace and stop over-managing what is already
+    going your way.'
+  zh: 云散天开，前路清明：这是一段开阔、明亮的时节。诗里的意思，是把心安顿好，别去多管那些本来就顺当的事。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will everything be ok for me?
+    zh: 我这一阵子会不会一切顺利？
+  rewritten_to:
+    en: What should I keep in view this season, and what is mine to do?
+    zh: 这一季我该把什么看在眼里，哪些是我该做的？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是一个封闭式的是非问（只求「好不好」），改为可留心、可行动的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A warm, consenting season; a commitment made now is well supported.
+    zh: 这是一段温厚、彼此愿意的时节；此时定下的承诺有依托。
+    compliance_tag: null
+  career:
+    en: The road opens — say what you are aiming at and move on it.
+    zh: 路是开着的——把你要瞄准的目标说出来，然后往前走。
+    compliance_tag: null
+  money:
+    en: Gain comes early and then settles; no need to push for more. *(Not financial
+      advice.)*
+    zh: 进项来得早，之后趋于平稳；不必去硬争那点差价。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Recovery and calm; ordinary rest does the work. *(Not medical advice.)*
+    zh: 宜休养、宜安静，平常的休息就够用。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Household matters clear up; a peaceful, settled home is well favoured.
+    zh: 家中之事渐渐理清；一个安宁、稳当的家，在这段时节是好的。
+    compliance_tag: null
+  travel_moving:
+    en: Safe passage; journeys begun now go smoothly.
+    zh: 出行平安；此时动身的事都走得顺。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Good water for boats and for those who work it — profit comes steadily, not
+      in one throw.
+    zh: 水路好，对船、对靠海吃饭的人都好——利是一点点来的，不是一把捞足。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season rewards regular work on land and at sea; the harvest is sound.
+    zh: 这个时节对陆上和海上的日常劳作都有回报；收成是稳的。
+    compliance_tag: null
+  timing:
+    en: The clearing is now — read as a season, never as a date.
+    zh: 清明就在当季——按季节去读，不要当成日期。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Borrowing trouble; second-guessing a good season.
+    zh: 自寻烦恼；对一段好时节反复起疑。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs to be forced.
+    zh: 这里没有哪一件事需要硬来。
+    compliance_tag: null
+stories:
+- title:
+    zh: 包公請雷驚仁宗
+    en: Bao Gong Calls Down Thunder
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 包拯是北宋有名的清官，民间叫他包公。他为人刚直，断案清明，民间流传许多关于他的故事。在民间传说里，他断过不少疑案，为官不徇私情，说话也直。有一次，朝廷要派他到开封任职。开封是北宋的都城，位置重要，皇帝宋仁宗对他能否胜任还有疑虑。包公一再表明心意，仁宗仍然没有打消顾虑。包公于是仰头向天，请雷声来作证。不多时，天上果然响起雷声，仁宗大为震动，当场决定让他赴任，不再怀疑。雷声一起，疑云随之散开，事情就此定下。
+    en: Bao Zheng was a famous upright official of the Northern Song, and people called
+      him Bao Gong. He was firm and straight. He judged cases clearly and fairly.
+      Many stories about him spread among the people. In those tales he solved many
+      hard cases. He never bent the law for friends, and he spoke his mind. Once the
+      court wanted to send him to serve at Kaifeng. Kaifeng was the capital of the
+      Northern Song, and the post was an important one. Emperor Renzong of Song still
+      doubted that Bao Zheng was fit for it. Bao Gong stated his wish again and again,
+      but the emperor did not put his worry aside. So Bao Gong lifted his head to
+      the sky and asked the thunder to be his witness. Soon thunder really sounded
+      in the sky. The emperor was deeply shaken. He decided on the spot to let Bao
+      Gong take up the post, and he stopped doubting him. Once the thunder rolled,
+      the clouds of doubt cleared away, and the matter was settled.
+  poem_connection:
+    zh: 签诗说日出之后风云消散，天地清亮。雷声过后皇帝疑虑尽去，正合这一层意思。
+    en: The lot poem says that after sunrise wind and clouds scatter and sky and earth
+      turn clear. The thunder cleared the emperor's doubts, which fits the same picture.
+- title:
+    zh: 包拯審張世真
+    en: Bao Zheng Tries Zhang Shizhen
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 张世真是读书人。他家道中落后，到金丞相府上认亲。他小时候和金丞相的女儿金牡丹定过婚约。金丞相见他如今穷了，不肯把女儿嫁他。他只让张世真住在府外碧波潭边的草屋里读书，说等他考取功名再谈婚事。碧波潭里有一条修行千年的金鲤鱼，能变成人的模样。它听见张世真读书，生出情意，就变作金牡丹的样子来和他相会。潭边的人把这鲤鱼精叫作碧波仙子。一个真牡丹，一个假牡丹，长得一模一样。真假难分，闹成一桩疑案，一直告到开封府。包拯是北宋有名的清官，民间叫他包公。他坐堂审案，查明谁是鲤鱼精变的，疑案才断清。
+    en: Zhang Shizhen was a scholar. After his family fell on hard times, he went
+      to the mansion of Chancellor Jin to claim kinship. When he was a boy he had
+      been promised in marriage to Jin Mudan, the chancellor's daughter. The chancellor
+      saw that he was poor now and would not give him his daughter. He only let Zhang
+      Shizhen live in a thatched hut by Bibo Pool outside the mansion and study there.
+      He said they could talk about the marriage once Zhang passed the examinations.
+      A golden carp in Bibo Pool had cultivated itself for a thousand years and could
+      take human form. It heard Zhang Shizhen reading, fell in love, and came to meet
+      him in the shape of Jin Mudan. People by the pool called this carp spirit the
+      Fairy of Bibo. One was the real Mudan, one the false, and they looked exactly
+      alike. No one could tell them apart, and the matter became a puzzling case that
+      was brought all the way to Kaifeng Prefecture. Bao Zheng was a famous upright
+      official of the Northern Song, known among the people as Bao Gong. He held court
+      and heard the case, found out which one was the transformed carp spirit, and
+      the case was finally settled.
+  poem_connection:
+    zh: 这一签说风云散去、天地重归清明，正配包公把真假牡丹这桩疑案审得清清楚楚。
+    en: This lot says the storm clouds clear and heaven and earth turn bright again.
+      It fits Bao Gong judging the puzzle of the two Mudans until the truth is plain.
+- title:
+    zh: 崔文德愛胡鳳嬌
+    en: Cui Wende Loves Hu Fengjiao
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 胡凤娇是闽南地方戏里的人物，故事发生在唐朝末年。唐室的太子李旦避难出逃，改名马进兴，流落到通州的富户胡发家中做长工。胡发的哥哥胡登是个穷秀才，功名没考成便早早去世，留下妻子文氏和女儿凤娇，母女俩靠胡发过活。凤娇读书识字，马进兴会写会算。两人由文氏做主订了婚，聘礼是马进兴随身的一块佩玉。订婚后不久，马进兴被旧朝的官员请走，一去几个月没有音信。凤娇的堂姐夫马迪早就看上了她。他先是在村里散播马进兴已死的谣言，又买通观音寺的尼姑设下圈套，想把她骗进寺里强逼。胡家的老仆胡完看出不对，夜里把文氏母女救了出去。
+    en: Hu Fengjiao is a character from the local opera of southern Fujian. Her story
+      is set in the last years of the Tang. Li Dan, a prince of the Tang house, fled
+      to escape danger. He changed his name to Ma Jinxing. He drifted to Tongzhou
+      and took work as a hired hand in the house of Hu Fa, a rich man. Hu Fa's elder
+      brother Hu Deng had been a poor scholar. He died young without passing the examinations,
+      leaving a wife, Madam Wen, and a daughter, Fengjiao. Mother and daughter lived
+      on Hu Fa's support. Fengjiao could read and write, and Ma Jinxing could keep
+      accounts. Madam Wen arranged a betrothal between them. The pledge was a jade
+      pendant Ma Jinxing carried with him. Not long after, officials of the old court
+      called him away. For months there was no word of him. Fengjiao's cousin by marriage,
+      Ma Di, had long wanted her. He spread a rumour in the village that Ma Jinxing
+      was dead. He bribed a nun of the Guanyin temple to set a trap. The plan was
+      to lure her inside and force her. Hu Wan, an old servant of the Hu family, saw
+      that something was wrong. At night he got mother and daughter away.
+  poem_connection:
+    zh: 这一签的签诗说日出之后风云散尽、前路开阔。故事里婚事将成又被奸计纠缠，正是云还未散、好事未全的一段。
+    en: The lot's poem says that after sunrise the clouds scatter and the road opens.
+      Here a marriage is almost made, then tangled by a wicked plot. The clouds are
+      not gone and the good thing is not whole.
+- title:
+    zh: 朱德武入寺相分明
+    en: Zhu Dewu Enters a Temple and the Matter Is Made Clear
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱德武是这则故事里的人名。题名说他进了佛寺，进寺之后事情才分明。从题面看，这一段讲的是入寺解惑：人先带着一桩弄不清的事，或者一个认不准的人，到寺里去求个明白。进了寺，心一定，事就分开了：该认的人认了，该了的账了了，原先纠缠在一处的两头各自站开。寺在这里是解纷的地方，不是求福的地方。这一类故事都以人名为首，后面接一句事的概括，起头与去向都落在这一句里。朱德武入寺之后究竟解了哪一件事，没有留下，留下的是入寺解惑、事得分明这一层。
+    en: Zhu Dewu is the personal name in this story. The title says he went into a
+      Buddhist temple, and that only after he went in was the matter made clear. This
+      stretch tells of going into a temple to clear up a doubt. A person first carries
+      some matter he cannot make out, or some person he cannot be sure of, to the
+      temple to seek a clear answer. He goes in, his mind settles, and the matter
+      comes apart. The person who should be acknowledged is acknowledged, and the
+      debt that should be settled is settled. The two ends that were tangled together
+      each stand clear on its own. The temple here is a place for settling disputes,
+      not a place for seeking blessings. Stories of this kind lead with a personal
+      name and then follow it with a short summary of the matter. Both the opening
+      and where the story goes sit in that one line. What Zhu Dewu cleared up after
+      going into the temple was not left behind. What is left is going into a temple
+      to settle a doubt, and the matter being made clear.
+  poem_connection:
+    zh: 签题里的“相分明”与诗面“日出便见风云散，光明清净照世间”共用分明、清净一层意思，故事取的是入寺解惑、事得分明之意。
+    en: The title's made clear shares the poem's sunrise that scatters wind and cloud
+      and its bright clean light over the world; the story takes going into a temple
+      to settle a doubt.

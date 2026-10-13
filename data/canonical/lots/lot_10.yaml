@@ -1,0 +1,361 @@
+id: 10
+lot_number: 10
+ganzhi:
+  zh: 乙未
+  pinyin: Yi-wei
+title:
+  en: Yue Fei Is Put to Death
+  zh: 岳武穆王被害
+hexagram:
+  zh: 雷地豫
+  name_and_structure_en: Yu (Thunder over Earth)
+  binary_code: ●●○●●●
+  shared_with_lot: 35
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 岳武穆王被害
+    en: Yue Fei Is Put to Death
+  variants_en:
+  - Yue Fei and Qin Hui in a Past Life
+  - Lady Qi Meets Empress Lü
+  - Feng-yin Meets Disaster
+  - Liu Zhiyuan Fights the Melon Spirit
+  - The Peach Blossom Girl and the Year-Star
+  variants_zh:
+  - 岳飛前世掠秦檜
+  - 戚夫人遇呂太后
+  - 奉吟受災
+  - 智遠戰瓜精
+  - 桃花女流勿太歲
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout — 凡事 拖尾。難解難脫／作事 難成／婚姻 不可。難成／求財
+      上半年空破財／治病 月半安。月尾死／月令 難通 (jie_yue_score -10)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements close nearly every category except the two open
+      lines on boats and rain - marriage, money, advancement, household fortune, travel,
+      water work and the turn of the season among them -; we read it as unfavourable.;
+      the fields come in level, which leaves some room.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 拖尾。難解難脫／作事 難成／家事 恐防短壽／家運 難安／婚姻 不可。難成／求兒 不可／六甲 子媳難得／求財 上半年空破財／功名
+      枉費。難得／歲君 不順／治病 月半安。月尾死／出外 不可／經商 不好。了錢／來人 月底間／行舟 謹慎無害／移居 不允／失物 難尋／求雨 朝夕即到／官事
+      大了錢。不好／六畜 不吉／耕作 五分平平／築室 有災星／墳墓 地犯退敗。必遷／討海 全無。不好／作塭 無望。蝕本／魚苗 得失／月令 難通／尋人 月尾回／遠信
+      難至（jie_yue_score −10）。整签偏负，唯 行舟 謹慎無害、求雨 朝夕即到 两处开着口，耕作 五项平平留有余地。校勘：全一致（六源同文），无裁定改动。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词除行舟与求雨两处开着口，其余类目几乎全线收紧，婚姻、求财、功名、家运、出行、水上作业与月令都在其中，我方读作 unfavourable。；耕作一项平过，尚留余地。
+provenance:
+  editorial_note: '*the temple site carries a different group for this lot: 智遠戰瓜精;
+    桃花女流勿太歲.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 花開結子一半枯，
+    en: The flower opens and sets fruit, and half the fruit withers away;
+  - line_number: 2
+    zh: 可惜今年汝虛度，
+    en: 'it is a pity: you let this year go by unused;'
+  - line_number: 3
+    zh: 漸漸日落西山去，
+    en: the sun goes down, little by little, behind the western hills;
+  - line_number: 4
+    zh: 勸君不用向前途。
+    en: I counsel you not to press on toward what lies ahead.
+keywords:
+  favourable:
+    en:
+    - holding what is already earned
+    - waiting out a closing season
+    - keeping the household in one place
+    zh:
+    - 守住已经挣到手的
+    - 等这个收束的季节过去
+    - 一家人留在一处不动
+  guarded:
+    en:
+    - pressing forward on a dying year
+    - new spending in a closed season
+    - planting again in the same ground
+    - reading a long dusk as sunrise
+    zh:
+    - 在这一年将尽时硬往前赶
+    - 在收束的季节里新开支出
+    - 在同一块地上再种一遍
+    - 把漫长的黄昏当成天亮
+reading_notes:
+- term: 一半枯
+  pinyin: yī-bàn-kū
+  en: 'half of it withered: half the fruit withers and half ripens - the season is
+    partly spent, not wholly lost; flower and fruit are one matter at two stages;
+    the poem marks a loss in the middle of the growing.'
+  zh: ：果子一半枯、一半熟，是说这一季用掉了一半，不是全盘失去。花与果是同一件事的两个阶段，诗是在生长的中途点出亏处。
+- term: 虛度
+  pinyin: xū-dù
+  en: 'to pass the time unused: a year spent with nothing to show for it; a year spent
+    without any undertaking brought to its end; the line blames the season, not the
+    person.'
+  zh: ：一年过去，没有什么可拿出手；也是说一年里没有一件事做到头。这句怪的是时令，不是人。
+- term: 日落西山
+  pinyin: rì-luò-xī-shān
+  en: 'the sun behind the western hills: the plain end of a day; a set phrase for
+    the late stretch of a life or of an enterprise.'
+  zh: ：一是字面上的天晚；二是说一个人的后段、或一桩事业的后段，这是旧话里现成的一句。
+plain_meaning:
+  en: 'A closed season: the fruit half forms and half withers, the year goes by with
+    little to show, and the light is already going west. Nothing here rewards pressing
+    forward, so the counsel is protective - hold what you have, stop enlarging, and
+    let this stretch pass. What is set aside now can be taken up when the season turns.'
+  zh: 这是一个收束的季节：果子结了一半、枯了一半，光阴过去了却没什么留下，日头也已经在往西边落。这一季没有什么值得硬往前推的事，给出的做法是守——守住手上已有的，别再扩大，让这一段过去。此刻搁下的事，等季节转过来再拾起。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: There is no accord to be had in this stretch; do not force a decision, a match
+      or a reunion while the light is going.
+    zh: 这一季难得和合；日头在落，别在这时候强定一个决定、一门亲事或一场复合。
+    compliance_tag: null
+  career:
+    en: The plan does not close now and rank comes slowly; keep the post you hold
+      rather than seek a larger one.
+    zh: 眼下的盘算收不了口，名位也来得慢；守住现在这个位置，不必去争更大的。
+    compliance_tag: null
+  money:
+    en: The first half of the year is where the money leaks away; keep reserves and
+      defer new commitments. *(Not financial advice.)*
+    zh: 一年里开着的那半边是漏财的地方；留住储备，新的承诺先往后压。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Take anything physical seriously and see a qualified professional rather than
+      waiting on the season to change. *(Not medical advice.)*
+    zh: 身体上有什么不适都当回事，请合格的专业人士看一看，不要等季节自己转。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is unsettled and this year's worry lands at home; keep close
+      and keep the peace, and let no quarrel run.
+    zh: 家里不安，这一年的烦心落在屋门内；人守在一处，把和气守住，别让一场争吵拖下去。
+    compliance_tag: null
+  travel_moving:
+    en: Going out of the gate and moving house are both marked not yet; postpone the
+      journey and the removal if they can wait.
+    zh: 出门与搬家这一季都记着「还不是时候」；能等的行程与搬迁，先往后放。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water gives little this season and the taking is poor; put out only in
+      calm and with care, or stay in harbour.
+    zh: 这一季水里给得少，收成也薄；只在风平的时候小心出去，不然就留在港里。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The fields come in at half and the ponds are judged to return little; work
+      from what is stored rather than sowing more into this season.
+    zh: 田里的收成一半，鱼塭是亏的；靠已有的存底过，别再往这一季里下种。
+    compliance_tag: null
+  timing:
+    en: The turn comes after this stretch of the year passes, not now — a season,
+      never a date.
+    zh: 转机在这一段过去之后，不在眼下——只讲一季，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pressing forward on a matter that is already fading; spending into a closing
+      season.
+    zh: 硬推一件已经在衰下去的事；在一个收束的季节里把钱花出去。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这里说的是一季难行，不是预告会有伤害。若这段解读触动了你的焦虑或金钱上的担忧，请找一位你信得过的人，或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 岳武穆王被害
+    en: Yue Fei Is Put to Death
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 岳飞，字鹏举，是南宋的名将。他治军很严，队伍开到之处不扰百姓。金人说过，撼动一座山还容易，撼动岳家军却难。他在南宋初年多次打败金兵，一心要收复中原。当时的宰相秦桧主张与金人和议，暗中和金人来往，忌恨岳飞，就指使万俟卨等人编造罪状，诬告他谋反，把他和儿子岳云、部将张宪一起下狱。案子办不成，秦桧只用“莫须有”三字回答，意思是大约有吧。年底，秦桧写了一纸文书交给牢狱，狱里随即报称岳飞已死，岳云和张宪也一同遇害。岳飞死后，狱卒隗顺背着他的尸身出城安葬。直到宋孝宗时，朝廷才下诏恢复他的官职，以礼改葬。
+    en: Yue Fei, whose courtesy name was Pengju, was a famous general of the Southern
+      Song. He kept his troops under strict discipline, and wherever they went they
+      did not trouble the people. The Jin people said it was easier to shake a mountain
+      than to shake the Yue family army. In the early years of the Southern Song he
+      beat the Jin troops many times, and his one wish was to recover the Central
+      Plain. The chancellor at the time, Qin Hui, favoured peace with Jin and dealt
+      with Jin in secret. He resented Yue Fei, so he had Wan Qixie and others invent
+      charges and falsely accuse him of rebellion. Yue Fei was thrown into prison
+      with his son Yue Yun and his officer Zhang Xian. The case could not be made
+      to stand. Qin Hui answered only with the words that it was perhaps so. At the
+      end of the year Qin Hui sent a written order to the prison, and the prison reported
+      at once that Yue Fei was dead. Yue Yun and Zhang Xian were killed as well. After
+      Yue Fei's death, the jailer Wei Shun carried his body out of the city and buried
+      it. Only in the reign of Emperor Xiaozong did the court restore his office and
+      rebury him with honour.
+  poem_connection:
+    zh: 签诗说花开结子一半枯，渐渐日落西山去。岳飞功业中途被夺，正合“一半枯”“日落西山”的语意。
+    en: The lot poem says the flower blooms and bears fruit, then half withers, and
+      the sun sinks in the west. Yue Fei's work was cut off midway, just that half-withered
+      and setting-sun sense.
+- title:
+    zh: 岳飛前世掠秦檜
+    en: Yue Fei and Qin Hui in a Past Life
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 民间讲岳飞与秦桧的冤仇，说从上一世就结下了。说是佛祖座前有一只金翅大鹏鸟，啄死了一只女土蝠，因此被罚下凡，投胎做了岳飞。大鹏离开的时候，又啄瞎了一条铁背虬龙的左眼。虬龙逃进黄河，后来转世做了秦桧，一心想报前生的仇。另一路的讲法是，玉帝派赤须龙下界做金国的兀术，来扰乱宋室，岳飞上世是大鹏，秦桧上世是虬龙，两个人的过节起在前生。这些说法在旧时说书里讲得很热闹。岳飞的事另有记在史册上的一层，他是在狱中被害死的，与这些前世因缘并没有关系。题名把上一世的仇怨与这一世的加害连在一起讲，讲的就是两个人生来就对着干的一段。
+    en: In one telling of the feud between Yue Fei and Qin Hui, it began in a life
+      before. Before the Buddha's seat there was a golden-winged roc. It pecked a
+      female bat to death, and so was punished by being sent down into the world,
+      where it was born as Yue Fei. As the roc left, it also pecked out the left eye
+      of an iron-backed horned dragon. The dragon fled into the Yellow River and afterwards
+      was reborn as Qin Hui, set on taking revenge for the life before. Another line
+      of telling has the Jade Emperor send a red-whiskered dragon down to be Wuzhu
+      of the Jin, to throw the Song house into disorder. On this telling Yue Fei was
+      the roc in a former life and Qin Hui the dragon, and the score between the two
+      began in the life before. In the old storytellers' halls these accounts were
+      told with great gusto. The case of Yue Fei has another side. He was done to
+      death in prison, and that has nothing to do with these past-life ties. The title
+      joins the enmity of the life before to the harm done in this one. What it tells
+      is a pair set against each other from the start.
+  poem_connection:
+    zh: 签诗说“劝君不用向前途”，与岳飞功业正盛而中途被按住一节相贴；“花开结子一半枯”也与他事半而废相应。
+    en: The poem tells the reader not to push on; Yue Fei was at the height of his
+      work when he was stopped midway, and a flower half withered as it sets fruit
+      fits that.
+- title:
+    zh: 戚夫人遇呂太后
+    en: Lady Qi Meets Empress Lü
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 戚夫人是汉高祖刘邦宠爱的妃子，生了一个儿子叫如意，封为赵王。刘邦觉得太子刘盈过于仁厚柔弱，几次想改立如意为太子。张良献计，请出商山四皓来辅佐太子，刘邦见太子已有名望之士相助，此事才作罢。刘邦死后，吕后掌权。吕后是刘邦的皇后。她先把赵王如意召到长安，用毒酒把他害死。接着把戚夫人关进永巷，剃去头发，用铁圈套住脖子，罚她天天舂米。戚夫人一边舂米一边唱歌，诉说母子分离、生死难料。吕后听说后大怒，命人砍去她的手脚，挖去眼睛，熏聋耳朵，灌下哑药，把她丢在厕中，称作“人彘”，还叫儿子惠帝去看。惠帝见后大病一场。
+    en: 'Lady Qi was a favored consort of Liu Bang, Emperor Gaozu of Han, and bore
+      a son named Ruyi, who was made King of Zhao. Liu Bang thought the heir, Liu
+      Ying, was too kind and weak, and several times wanted to make Ruyi the heir
+      instead. Zhang Liang offered a plan: he brought out the Four Whiteheads of Mount
+      Shang to support the heir. Liu Bang saw that the heir had the backing of men
+      of repute, and the matter was dropped. After Liu Bang died, Empress Lü took
+      power. Empress Lü was Liu Bang''s wife. She first called King Ruyi of Zhao to
+      Chang''an and killed him with poisoned wine. She then shut Lady Qi in the Long
+      Alley, shaved her head, put an iron ring around her neck, and set her to husking
+      grain every day. As she husked, Lady Qi sang, telling of mother and son parted
+      and of life and death beyond her control. When Empress Lü heard of this she
+      flew into a rage. She had Lady Qi''s hands and feet cut off, her eyes gouged
+      out, her ears smoked deaf, and her throat dosed with a drug that took her speech.
+      She threw her into a privy and called her the human swine, and had her son Emperor
+      Hui brought to see it. Emperor Hui fell gravely ill after seeing her.'
+  poem_connection:
+    zh: 签诗“花开结子一半枯”，花已开而果实半枯，正对戚夫人由得宠转惨败这一段。
+    en: The lot's poem says a flower opens and the fruit is half withered. A flower
+      opened while the fruit half dried fits Lady Qi's turn from favor to ruin.
+- title:
+    zh: 奉吟受災
+    en: Feng-yin Meets Disaster
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事说的是一个叫奉吟的姑娘，她还没有出嫁。有一年，她遇上灾祸，险些送了性命。她是谁家的女儿，住在哪里，故事里没有说。灾祸怎样来的、后来又怎样过去，也没有留下来。人们讲起她，只说她那一年的日子过得极不顺。好比一株花，花已经开了，结出的子却枯掉一半，一年光景白白过去。日头一天天往西边落下去，前方的路也就看不清了。奉吟的事只讲到受灾为止。这一签说花开结子一半枯，又说可惜今年汝虚度，正配奉吟遭灾、事情未能圆满的一段。
+    en: 'This story is about a girl called Feng-yin who was not yet married. One year
+      she met with disaster and nearly lost her life. Whose daughter she was and where
+      she lived, the story does not say. How the disaster came, and how it passed
+      afterward, is not left to us either. When people speak of her, they only say
+      that her year went badly in every way, and that few things went right for her.
+      It was like a flower: the flower had opened, but half of the seeds it set dried
+      up, and the year went by for nothing. The sun moved west day by day, and the
+      road ahead could not be seen clearly. Feng-yin''s story is told only up to the
+      disaster.'
+  poem_connection:
+    zh: 这一签说花开结子一半枯、可惜今年汝虚度，正配奉吟遭灾、一年光景白白过去的一段。
+    en: This lot says the flower opens and half the seeds are dry, and that this year
+      has been wasted - Feng-yin meeting disaster and a year passing for nothing.
+- title:
+    zh: 智遠戰瓜精
+    en: Liu Zhiyuan Fights the Melon Spirit
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘知远年轻时家里很穷，到李家做了上门女婿，被妻子的兄弟看不起。传说妻子的兄弟想害他，哄他去看守瓜园，指望瓜精要他的命。刘知远夜里拿着枪进园。瓜精现出身来和他打斗，一边打一边退，退进了地下。刘知远挖开地面，得到一部兵书和一把宝剑。他于是辞别妻子去投军，从此离开了李家。后来他带兵征战，竟做了皇帝，就是后汉的高祖。他的妻子李三娘留在家里，受兄嫂逼迫，在磨房里生下孩子，吃尽了苦。后来刘知远发迹，把三娘接去，做了皇后。
+    en: Liu Zhiyuan was poor when he was young. He married into the Li family as a
+      live-in son-in-law, and his wife's brothers looked down on him. Folks say the
+      brothers wanted to harm him. They coaxed him into guarding the family's melon
+      garden, hoping that the melon spirit there would take his life. At night Liu
+      Zhiyuan went into the garden with a spear. The melon spirit showed itself and
+      fought him. It fell back as it fought and retreated into the ground. Liu Zhiyuan
+      dug up the ground. He found a book of military art and a sword. He then took
+      leave of his wife and joined the army, and so left the Li family behind. Later
+      he led troops in many campaigns and became emperor. He was the founder of the
+      Later Han. His wife, Li Sanniang, stayed at home. Pressed hard by her brothers
+      and their wives, she gave birth to her child in the mill room and went through
+      great hardship. When Liu Zhiyuan rose to power, he brought Sanniang to him and
+      made her empress.
+  poem_connection:
+    zh: 签诗“渐渐日落西山去”“劝君不用向前途”，正合刘知远夜里进瓜园、险些被瓜精所害一段，取前行有险之意。
+    en: The poem says the sun sinks in the west and advises the reader not to press
+      ahead, which fits Liu Zhiyuan entering the melon garden at night and nearly
+      being killed by the spirit.
+- title:
+    zh: 桃花女流勿太歲
+    en: The Peach Blossom Girl and the Year-Star
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 周公是洛阳人，擅长卜算吉凶。任二公的女儿桃花女精通化解灾祸的法术。周公曾断定石留住和彭祖会在某个时辰死去，两人却都靠桃花女的法术活了下来。彭祖是传说中长寿的人。周公因此记恨，想方设法把桃花女娶进门做儿媳。成亲那天，周公事先布下许多机关，挑的是凶险的日子，想借机害死她。按卜算的说法，凶险的日子叫黑道，吉利的路数叫黄道。桃花女偏偏穿上黄鞋，用吉的压住凶的，又把门里门外的白马精、缠着红线的秫秆等布置一一破去。翁媳两个你来我往斗了不少回合，周公的法术都被她识破，最后他心服口服，那些凶险也就散了。
+    en: Zhou Gong was a man of Luoyang and was good at telling good and ill fortune.
+      Ren Ergong's daughter, the Peach Blossom Girl, was skilled in the arts of turning
+      away disaster. Zhou Gong once said that Shi Liuzhu and Peng Zu would die at
+      a certain hour, yet both lived on through the Peach Blossom Girl's arts. Peng
+      Zu is the long-lived man of legend. Zhou Gong held this against her. He found
+      ways to marry the Peach Blossom Girl into his own house as his son's wife. On
+      the wedding day Zhou Gong laid many traps in advance. He chose an unlucky day,
+      hoping to kill her by it. In the language of divination an unlucky day is called
+      a black road, and a lucky one a yellow road. The Peach Blossom Girl put on yellow
+      shoes anyway, putting the lucky over the unlucky. She broke each of his arrangements
+      in turn, the white horse spirit at the gate and the red thread wound on the
+      sorghum stalks. The two went many rounds. Zhou Gong's arts were all seen through
+      by her, and in the end he was won over, and the dangers scattered too.
+  poem_connection:
+    zh: 签诗说花开了却结不成饱满的果子，这一年白白过去。桃花女逢上凶险，做事多有阻折，正合此题。
+    en: The lot poem says the flowers open but no full fruit sets, and the year passes
+      for nothing. The Peach Blossom Girl met danger and met block after block, which
+      is the same theme.

@@ -1,0 +1,371 @@
+id: 28
+lot_number: 28
+ganzhi:
+  zh: 戊午
+  pinyin: Wu-wu
+title:
+  en: Li Cunxiao Fights the Tiger
+  zh: 李存孝打虎
+hexagram:
+  zh: 雷山小过
+  name_and_structure_en: Xiaoguo (Thunder over Mountain)
+  binary_code: ●●○○●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 李存孝打虎
+    en: Li Cunxiao Fights the Tiger
+  variants_en:
+  - Xiang Yu Takes His Own Life at the Wu River
+  - Shi Cunxiao Meets Li Keyong
+  - Yan Hui Falls Ill
+  - Zhuangzi Seeks the Way
+  - Guo Ju Buries His Son to Feed His Mother
+  variants_zh:
+  - 項羽烏江自刎
+  - 石存孝遇李克用
+  - 顏回染病
+  - 莊子慕道
+  - 郭巨埋兒盡孝
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative almost throughout - 作事 難成／家事 恐防大害／婚姻
+      不吉。女帶殺氣／求財 不得／功名 無／出外 被人欺／經商 呆人欺。難如意／行舟 無利可得。了財帛／移居 大不好／官事 被官欺。大了錢／築室 不可。犯殺／討海
+      無利可得 (jie_yue_score -6). The single opening is 凡事 後成吉, with 月令 九不畏。防人欺.
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements hold back across undertakings, the household,
+      marriage, money, advancement, travel, a change of dwelling, lawsuits, building
+      and work on the water; the household entry adds trouble from people. The single
+      door left open is the general entry, which turns good later. The lot is read
+      protectively.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 後成吉。／作事 難成。／家事 恐防大害。／家運 人作怪。恐風波。／婚姻 不吉。女帶殺氣。／求兒
+      不可。／六甲 須防難產。／求財 不得。／功名 無。／治病 運犯劫。被邪欺。／出外 被人欺。／經商 呆人欺。難如意。／行舟 無利可得。了財帛。／移居 大不好。／失物
+      難尋。／官事 被官欺。大了錢。／六畜 不安。／耕作 半收。／築室 不可。犯殺。／討海 無利可得。／月令 九不畏。防人欺。——总评：整签偏负（jie_yue_score
+      −6），唯凡事留「後成吉」，月令对第九个月不设防。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在行事、家宅、姻缘、求财、功名、出外、移居、官事、起造与水上十项上一致取守势，家宅一类还点到风波与人事；唯一开着的口子是行事一项，说往后能成。整签按保护性读。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 于今莫作此當時，
+    en: Do not carry on now as you did in that hour;
+  - line_number: 2
+    zh: 虎落平陽被犬欺，
+    en: the tiger fallen to the plain is mocked by the dogs;
+  - line_number: 3
+    zh: 世間凡事何難定，
+    en: and among the world's affairs, what is so hard to settle?
+  - line_number: 4
+    zh: 千山萬水也遲疑。
+    en: over a thousand hills and ten thousand streams, you hold back.
+keywords:
+  favourable:
+    en:
+    - keeping still
+    - patience with a low position
+    - temper held in check
+    - guarding the household
+    zh:
+    - 按兵不动
+    - 安于低位
+    - 按住火气
+    - 守住家宅
+  guarded:
+    en:
+    - stepping forward on low ground
+    - quarrelling with those who hold power now
+    - lending or borrowing
+    - believing the old standing still holds
+    zh:
+    - 在低处强出头
+    - 跟眼下掌权的人争
+    - 借进来又借出去
+    - 当旧日的位置还在
+reading_notes:
+- term: 虎落平陽
+  pinyin: hǔ-luò-píng-yáng
+  en: 'the tiger fallen to the open plain: a strong person caught with no advantage
+    and no allies; a loss of position only - the tiger is still a tiger; the poem
+    allows both readings.'
+  zh: 一面说有力气的人一时失了地势与帮手，一面说这只是位势的落差——虎还是虎。诗里两层都留着。
+- term: 莫作此當時
+  pinyin: mò-zuò cǐ-dāng-shí
+  en: 'do not act as though it were that hour: do not repeat what once worked for
+    you; do not carry on as though the old standing still held.'
+  zh: 一面是别把从前管用的做法再使一遍，一面是别当自己还站在旧日的位置上。
+- term: 遲疑
+  pinyin: chí-yí
+  en: 'to hold back, to hesitate: caution on a long road; doubt that delays one''s
+    own progress; the poem leaves it open which of the two is meant.'
+  zh: 一面是长路上的小心，一面是自己拿不定主意而拖住了自己。诗里没说取的是哪一层。
+plain_meaning:
+  en: 'A low season for a position once high: the tiger on the plain is mocked by
+    dogs, and the judgements run against almost everything - undertakings do not settle,
+    money does not come, travel meets contempt, and the household must guard against
+    real harm. The counsel is protective: keep still, keep your temper, and leave
+    until later anything that can wait.'
+  zh: 这一季是低处的一季：先前那份风光不能照旧使——猛虎落到平地上，反被狗欺。判词一路取守势：事情办不起来，家宅要防大害，姻缘里带着硬气，钱财来不了，功名没有着落，出门遭人轻慢。可取的做法是保护性的：先停住，把火气按住，能等的事都留到后面。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is my husband going to leave me?
+    zh: 我先生会不会离开我？
+  rewritten_to:
+    en: What can I do for the household this season, and what is not mine to decide?
+    zh: 这一季我能为家里做什么，哪些不是我该决定的？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 原问涉及第三方（配偶）的去留，属他人的隐私与决定，改为可自处的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The judgement is flat here - a union is not favoured this season, and it carries
+      a hard edge; do not force a match or a decision this season.
+    zh: 判词在这一项上是平的——姻缘不取，后面还带一句关于硬气的话；这一季不要硬凑一门亲事，也不要急着替对方做决定。
+    compliance_tag: null
+  career:
+    en: Work is hard to bring to completion and office does not come; hold what you
+      have and do not step forward for more.
+    zh: 事情办不起来，功名也没有着落；守住手上现有的，不往前抢。
+    compliance_tag: null
+  money:
+    en: Money does not come, and trade meets people who take advantage; carry no new
+      debt and lend nothing. (Not financial advice.)
+    zh: 钱财来不了，买卖上还会遇上占便宜的人；不要新欠债，也不要借钱出去。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The reading is a hard turn of fortune aggravated by ill will; treat it with
+      proper care from a qualified practitioner rather than with ritual alone. (Not
+      medical advice.)
+    zh: 判词读作运势的一段劫，又被人欺；该请合格的医生照实诊治，不要只靠仪式。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household must guard against real harm and against a quarrelsome influence;
+      keep the peace at home and repair rather than build.
+    zh: 家宅这一段要防大害，另有一句人作怪、恐风波；家里以和为先，修整先于新建。
+    compliance_tag: null
+  travel_moving:
+    en: Travelling draws contempt on you, and a change of dwelling is called very
+      bad; stay where you are if you can.
+    zh: 出门会遭人轻慢，移居这一项判得很差；能不走就先不走。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Nothing to be gained on the water and provision lost with it; keep the boats
+      in.
+    zh: 水上没有进项，还会赔掉本钱；把船留在港里。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Half a harvest, restless livestock, fry that do not pay; work from what is
+      stored and keep the animals close.
+    zh: 田里收一半，六畜不安，鱼苗不划算；靠存着的过，牲畜看紧。
+    compliance_tag: null
+  timing:
+    en: The one allowance is that it comes right in the end; no date is attached to
+      the turn.
+    zh: 唯一留口的是凡事作「後成吉」，以及月令对第九个月不设防；这个转点没有系在任何日子上。
+    compliance_tag: null
+  what_to_avoid:
+    en: Stepping forward while the ground is low; quarrelling with whoever holds power
+      over the moment; starting to build.
+    zh: 在地势低的时候往前抢；跟眼下掌着权的人争；这时候动土起造。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. The poem's own
+      note is that matters come right in the end; if trouble from others or anxiety
+      about the household is weighing on you, speak with someone you trust or a qualified
+      professional.
+    zh: 这讲的是一段难走的时节，不是预告有祸。签里自己留了一句「後成吉」；若外面来的人事或家里的事压得你难受，找信得过的人或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 李存孝打虎
+    en: Li Cunxiao Fights the Tiger
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 李存孝本名安敬思，代州飞狐人，飞狐在今天山西一带。他是五代时李克用的义子，十三个太保里的一个。他少年在山里放羊，看见老虎伤人，徒手把虎打死，李克用见了，收他做义子。史册上写他的是勇猛：每战常做先锋，身上披着厚厚的铁甲，所到之处没人挡得住，当时的人把他比作李广、张辽一类的猛将。李克用手下的沙陀军号称鸦儿军，沙陀是当时北方的一支部族，存孝是这支军里最能打的一个。后来他与李存信等人不和，占据邢州自守，兵败被擒，被处以车裂，就是把人的头和四肢分系在车上拉扯致死。他死后，李克用少了一员猛将。河东的兵势也挫了一截。
+    en: Li Cunxiao was named An Jingsi by birth and came from Feihu in Daizhou, Feihu
+      being in the Shanxi area today. He was an adopted son of Li Keyong in the Five
+      Dynasties, one of the thirteen Taibao. As a boy he herded sheep in the hills,
+      saw a tiger hurting people, and killed it with his bare hands. Li Keyong saw
+      this and took him as an adopted son. What is remembered of him is his bravery.
+      In battle he was usually the vanguard, he wore thick iron armor, and nothing
+      could stand in his way wherever he went. People of his time ranked him with
+      fierce generals such as Li Guang and Zhang Liao. The Shatuo troops under Li
+      Keyong were known as the Crow Army, the Shatuo being a northern people of the
+      time. Cunxiao was the best fighter in that army. Later he fell out with Li Cunxin
+      and others, held Xingzhou in his own defense, and was beaten and taken. He was
+      put to death by chariots, that is, his head and limbs were tied to carts and
+      pulled until he died. After his death Li Keyong lost a fierce general, and the
+      military strength of Hedong was checked.
+  poem_connection:
+    zh: 签诗以“虎落平阳被犬欺”立意，故事题正取李存孝打虎的那只虎，两者共用虎这一语汇。
+    en: The poem is built on the line about the tiger fallen to the flat land and
+      bullied by dogs; the title takes the tiger Li Cunxiao killed, and both share
+      that one image.
+- title:
+    zh: 項羽烏江自刎
+    en: Xiang Yu Takes His Own Life at the Wu River
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 项羽名籍，是下相人，下相在今天的江苏。秦朝末年他起兵反秦，在巨鹿一战大破秦军主力，成为西楚霸王，分封各路诸侯。此后他与刘邦争天下，打了几年。项羽勇力过人，却不善用人，韩信、陈平都弃他投了刘邦，他又猜疑谋士范增，最后众叛亲离。垓下一战，汉军和各路兵马把楚军团团围住。夜里四面都唱起楚地的歌，项羽听见，以为楚地已尽被汉军占领。他带八百骑兵趁夜突围，南渡淮水以后只剩下二十八人。他自称是上天要亡他，不是打仗打错了，又三次冲散汉军。走到乌江边，亭长把船靠岸，劝他渡江回江东。江东还有千里之地、几十万人，足以再立基业。项羽不肯，说当年带江东子弟八千人渡江西来，如今没有一人回去，没有脸面再见江东父老。他把马送给亭长，下马步战，独自杀伤汉军数百人，身上受了十多处伤，最后自杀。
+    en: Xiang Yu, whose given name was Ji, was from Xiaxiang; Xiaxiang is in present-day
+      Jiangsu. At the end of the Qin dynasty he raised troops against Qin. He crushed
+      the main Qin army at Julu and became Hegemon King of Western Chu. Then he fought
+      Liu Bang for the realm. He was stronger than other men, but poor at using people.
+      Han Xin and Chen Ping left him for Liu Bang, and he grew suspicious of his adviser
+      Fan Zeng, until in the end his followers deserted him. At Gaixia the Han army
+      and the other forces surrounded the Chu army on every side. At night Chu songs
+      rose on all sides. Xiang Yu thought all Chu lands had been taken by the Han.
+      He broke out at night with eight hundred horsemen, and after crossing the Huai
+      River southward only twenty-eight men were left. He said heaven meant to destroy
+      him, not that he had fought wrongly. When he reached the Wu River, the local
+      headman brought his boat to the bank and urged him to cross back to Jiangdong.
+      Jiangdong still had a thousand li of land and several hundred thousand people,
+      enough to try again. Xiang Yu refused. He had led eight thousand men of Jiangdong
+      across the river, and not one was going back, so he had no face to meet its
+      elders. He gave his horse to the headman and fought on foot, killing several
+      hundred Han soldiers by himself. Wounded in more than ten places, he took his
+      own life.
+  poem_connection:
+    zh: 签诗“虎落平阳被犬欺”，猛虎失势反受犬欺，正对项羽以二十八骑对峙汉军这一段。
+    en: The lot's poem says a tiger fallen to flat ground is bullied by dogs. A tiger
+      stripped of his power and set upon by dogs fits Xiang Yu facing the Han army.
+- title:
+    zh: 石存孝遇李克用
+    en: Shi Cunxiao Meets Li Keyong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝末年，天下分崩，北方沙陀部的首领李克用占据河东一带。河东是今天山西一带。李克用手下有个少年，本名安敬思，是代州飞狐人，小时候靠给人放羊过活。有一回他在山中牧羊，一只猛虎扑了过来。他毫不躲闪，上前和虎搏斗，竟把虎打死了。李克用出外打猎，正好从这里经过。他见这少年勇力过人，十分赏识，便收他做义子。义子就是认来的儿子。李克用给他改姓李，取名存孝，把他排在帐下那些养子里，人们称呼这一班人为十三太保。存孝从此跟着李克用南征北战，比别的将领都勇猛。后来他遭同僚嫉妒，被人安上莫须有的罪名，死于非命。这一签说虎落平阳被犬欺，正配李存孝一身勇力而终遭陷害的遭遇；签题写少年打虎被收，讲的是他初起的时候。
+    en: At the end of the Tang the empire broke apart, and Li Keyong, the leader of
+      the Shatuo tribe in the north, held the Hedong area. Hedong is what is today
+      Shanxi. Among Li Keyong's men was a youth whose original name was An Jingsi,
+      a man of Feihu in Daizhou, who had lived as a shepherd boy. Once, herding sheep
+      in the hills, he was charged by a fierce tiger. He did not flinch. He went at
+      the tiger and fought it, and killed it. Li Keyong was out hunting and happened
+      to pass by. Seeing that the youth had more than human strength, he thought highly
+      of him and took him as a sworn son. A sworn son is a son taken by adoption.
+      Li Keyong changed his surname to Li and gave him the name Cunxiao, and placed
+      him among the adopted sons in his camp. People called this group the Thirteen
+      Taibao. From then on Cunxiao followed Li Keyong in campaigns north and south,
+      braver than the other commanders. Later he drew the envy of his colleagues,
+      was charged with a crime he had not committed, and died before his time.
+  poem_connection:
+    zh: 这一签说虎落平阳被犬欺，正配李存孝一身勇力而终遭陷害的遭际；题为打虎见收，是他初起的时候。
+    en: This lot says a tiger on the flat land is bullied by dogs - Li Cunxiao, strong
+      as he was, meeting a trap in the end; the youth who killed a tiger and was taken
+      in is his beginning.
+- title:
+    zh: 顏回染病
+    en: Yan Hui Falls Ill
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 颜回字子渊，是鲁国人，孔子的学生里最以好学出名的。鲁国是春秋时的一个诸侯国，孔子就出生在那里。孔子曾夸他不把怒气移到别人身上，同样的过错不犯两次；又叹他安于清贫，住在窄巷子里，用竹器吃饭，用瓢喝水，别人受不了这样的苦，他却照样快活。后来颜回得了病。孔子去看他，从窗口拉着他的手，叹气说这样的人竟得了这样的病，这是命啊。颜回死在孔子前面。孔子哭得很伤心，跟随的人觉得他哭得太过，孔子说，不为这样的人伤心，还为什么人伤心。弟子们想厚葬他，孔子认为不妥，弟子们还是厚葬了他。
+    en: Yan Hui, whose courtesy name was Ziyuan, was a man of Lu. Among the students
+      of Confucius he was the most famous for his love of learning. Lu was a feudal
+      state of the Spring and Autumn period, and Confucius was born there. Confucius
+      once praised him for not turning his anger on others, and for not making the
+      same mistake twice. He also sighed that Yan Hui was content in poverty. He lived
+      in a narrow lane, ate from a bamboo dish, and drank from a gourd. Other people
+      could not bear such hardship, but he stayed cheerful as before. Later Yan Hui
+      fell ill. Confucius went to see him. Holding his hand from the window, Confucius
+      sighed that such a man should have such a sickness. This is fate, he said. Yan
+      Hui died before Confucius did. Confucius wept bitterly. Those who followed him
+      felt that he wept too much. Confucius said, if I do not grieve for such a man,
+      then for whom should I grieve? The disciples wanted to give Yan Hui a rich burial.
+      Confucius thought this was not fitting, but the disciples buried him richly
+      all the same.
+  poem_connection:
+    zh: 签诗“虎落平阳被犬欺”“世间凡事何难定”，正合颜回这样贤德的人却染病受困、境遇难料一事。
+    en: The poem's tiger fallen to the plain is bullied by dogs, and its line that
+      no matter is fixed, fit a man as worthy as Yan Hui falling ill, with fortune
+      hard to tell.
+- title:
+    zh: 莊子慕道
+    en: Zhuangzi Seeks the Way
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 庄子名叫庄周，是蒙地人，做过看管漆园的小吏，和梁惠王、齐宣王是同时的人。他读书极多，学问广博，但根本旨趣归于老子的学说，后人常把老子和他并称。楚威王听说庄周贤能，派使者带着厚礼去请他，答应让他做宰相。庄周谢绝了使者。他打了一个比方：祭祀用的牛被养了好几年，身上披着锦绣，送进祖庙，到那时候再想做一头自由的小猪也来不及了。他说自己宁可待在泥水里自得其乐，也不愿被国君管住。他一生著书十余万字，大多是寓言，逍遥游、齐物论这些篇章都出自其中。唐代时，他被封为南华真人。
+    en: Zhuangzi was named Zhuang Zhou and came from Meng. He held a small office
+      looking after a lacquer garden. He lived at the same time as King Hui of Liang
+      and King Xuan of Qi. He read a great deal and his learning was wide, but his
+      main aim came back to the teaching of Laozi. Later people often named Laozi
+      and him together. King Wei of Chu heard that Zhuang Zhou was able, and sent
+      envoys with generous gifts to invite him, offering him the post of chief minister.
+      Zhuang Zhou refused the envoys. He gave them a comparison. The ox used in sacrifice
+      is raised for several years, covered with brocade, and taken into the ancestral
+      temple. By then it is too late for it to wish it were a free little pig. He
+      said he would rather enjoy himself in the mud and water than be held by a ruler.
+      In his life he wrote more than a hundred thousand words, mostly parables. The
+      chapters Free and Easy Wandering and The Equality of Things come from them.
+      In the Tang dynasty he was given the title Nanhua Zhenren.
+  poem_connection:
+    zh: 签诗说得不着时势，老虎落到平地也会被狗欺。庄子辞去相位、守道自适，正是不得其时的心境。
+    en: The lot poem says a man out of step with the times is like a tiger on flat
+      ground, bullied by dogs. Zhuangzi turned down the office and kept to the Way.
+- title:
+    zh: 郭巨埋兒盡孝
+    en: Guo Ju Buries His Son to Feed His Mother
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 郭巨是晋代人，家住隆虑。他家里兄弟三人，父亲死得早。办完丧事，两个弟弟要求分家。家里的钱财分作两份，两个弟弟各拿一份走了。郭巨和妻子什么也没要，独自奉养年老的母亲。他们租别人的房子住，靠给人做工过日子。后来妻子生下一个男孩。郭巨想到，多一张嘴，就会分掉奉养母亲的口粮。他和妻子商量，儿子以后还能再有，母亲却只有一个，不如把儿子埋掉，省下粮食供养母亲。夫妻俩动手挖坑，挖到三尺深，忽然挖出一锅黄金。锅上刻着字，说这是上天赐给孝子郭巨的，当官的不许夺走，别人也不许来取。
+    en: Guo Ju lived in the Jin dynasty, at Longlü. There were three brothers in the
+      family, and their father died early. When the funeral was over, the two younger
+      brothers asked to divide the property. The family wealth was split into two
+      shares, and the two brothers each took one and left. Guo Ju and his wife asked
+      for nothing and supported their aged mother alone. They rented a house and made
+      a living by working for others. Then his wife gave birth to a boy. Guo Ju reflected
+      that one more mouth would take food away from his mother's support. He talked
+      it over with his wife. Sons could be had again, he said, but a mother was only
+      one. It was better to bury the boy and save the grain to feed his mother. The
+      couple started to dig a pit. When they had dug three feet deep they suddenly
+      uncovered a pot of gold. Words were carved on the pot, saying this was given
+      by Heaven to the filial son Guo Ju, that officials were not to take it and others
+      were not to come for it.
+  poem_connection:
+    zh: 这一签说世间凡事难以料定，正配郭巨掘地得金、绝处逢转机这一段。
+    en: This lot says nothing in the world can be counted on. It fits Guo Ju digging
+      in the ground and finding gold, a turn in the road at the last moment.

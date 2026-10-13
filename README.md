@@ -33,6 +33,9 @@ All project specifications, business model breakdowns, and architectural bluepri
 8. **[07_PROJECT_ROADMAP_AND_MILESTONES.md](docs/planning/07_PROJECT_ROADMAP_AND_MILESTONES.md)**
    Phased release plan: Phase 1 (Web MVP & Free Flow), Phase 2 (Engine & Payment), Phase 3 (Mobile Apps), Phase 4 (Physical Cards & Expansion).
 
+9. **[08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md](docs/planning/08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md)**
+   Canonical asset specification comparing internal vs. external manuscripts, merged data schema, RBAC visibility filtering, and PostgreSQL/SQLite database design.
+
 ---
 
 *Note: As per project guidelines, no code will be implemented until the planning documentation is reviewed and approved.*

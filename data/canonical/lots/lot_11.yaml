@@ -1,0 +1,330 @@
+id: 11
+lot_number: 11
+ganzhi:
+  zh: 乙酉
+  pinyin: Yi-you
+title:
+  en: Lord Mengchang Slips Out of Qin
+  zh: 孟嘗君出秦
+hexagram:
+  zh: 坎为水
+  name_and_structure_en: Kan (Water over Water)
+  binary_code: ●○●●○●
+  shared_with_lot: 26
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 3
+  primary:
+    zh: 孟嘗君出秦
+    en: Lord Mengchang Slips Out of Qin
+  variants_en:
+  - Han Yu Parts from Xiangzi at the Qin Mountains
+  - Gao Qiu and Yang Jian in Power
+  variants_zh:
+  - 韓文公過秦嶺別湘子
+  - 高俅楊戩當權
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative overall, the weight on the first half
+      — 作事 難成／求財 上半年空破財／治病 月半安。月尾死／月令 難通／家運 難安, with 「凡事 且看子丑寅」 setting the order
+      of time (jie_yue_score −9)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements lean blocked through the first half of the season
+      — work, marriage, household fortune, money, trade, the season's turn and distant
+      news — while the water line counsels care rather than obstruction; we read it
+      as unfavourable, and the "general" entry fixes an order of time. Our six sources
+      agree word for word. Note also that the temple book repeats Lot 13's story group
+      here; we take the group from the wiki source and keep the difference on record.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 且看子丑寅／作事 難成／家事 恐防短壽／家運 難安／婚姻 不可。難成／求兒 不可／六甲 子媳難得／求財 上半年空破財／功名
+      枉費。難得／歲君 不順／治病 月半安。月尾死／出外 不可／經商 不好。了錢／移居 不允／失物 難尋／官事 大了錢。不好／六畜 不吉／築室 有災星／墳墓
+      地犯退敗。必遷／討海 全無。不好／作塭 無望。蝕本／月令 難通／遠信 難至（jie_yue_score −9）。整签偏负，重在前半程与「且看子丑寅」所定的时间次序；唯
+      耕作 五分平平、行舟 謹慎無害、魚苗 得失、求雨 朝夕即到 几处留有余地。校勘：六源全一致，字面无异文。另注：庙本此签的故事群与第十三签重出，本件故事群取维基一路，差异记录在案。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在作事、婚姻、家运、求财、经商、月令、远信等处多偏受阻，重压在前半程；水路一项只提示谨慎即可，我方读作 unfavourable。。「凡事」一条另点出时间上的先后次序。底本六源字面完全一致。另：庙本此签的故事群与第十三签重出，本件取维基一路的故事群，并保留这处差异。
+provenance:
+  editorial_note: '*The temple site''s story list for this lot repeats Lot 13''s group;
+    we take the group from the wiki source and record the difference rather than choose
+    for the reader.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 靈雞漸漸見分明，
+    en: The cock crows, and slowly things grow clear;
+  - line_number: 2
+    zh: 凡事且看子丑寅，
+    en: for everything, wait on the zi-chou-yin hours;
+  - line_number: 3
+    zh: 雲開月出照天下，
+    en: the cloud opens, the moon comes out over the world;
+  - line_number: 4
+    zh: 郎君即便見太平。
+    en: and then, sir, you come into your peace.
+keywords:
+  favourable:
+    en:
+    - daybreak after a long night
+    - letting the dark hours pass
+    - a clearing already under way
+    zh:
+    - 长夜之后的天亮
+    - 让暗的那一段先过去
+    - 天色其实已经在转晴
+  guarded:
+    en:
+    - forcing a result before the light
+    - borrowing through the blocked half
+    - spending the first half of the season
+    - confusing a slow dawn with no dawn
+    zh:
+    - 天没亮就硬要结果
+    - 在受阻的那半程借钱周转
+    - 把这半程的钱先花掉
+    - 把慢天亮错当成不会天亮
+reading_notes:
+- term: 靈雞
+  pinyin: líng-jī
+  en: 'the numinous cock: at once *the actual bird* and *the omen of daybreak*; The
+    allusion is the cock-crow that opened the pass for Lord Mengchang''s escape.'
+  zh: 有灵性的鸡：既指那只真实的鸡，也指天亮的兆头。典出孟尝君出关时靠一声鸡鸣叫开关门。
+- term: 子丑寅
+  pinyin: zǐ-chǒu-yín
+  en: 'the first three branches, the small hours: an *order of time*, not a calendar;
+    The poem says "in that order", not "on that day".'
+  zh: 十二支的头三位，即深夜到天将明那一段：它讲的是时间上的先后次序，不是某一日。诗里说「按这个次序」，不是说「就在那一天」。
+- term: 漸漸
+  pinyin: jiàn-jiàn
+  en: '"by degrees": the one word that decides how the lot is used; The clearing is
+    real and it is gradual.'
+  zh: ——决定这签怎么用的就是这一个词。天亮是真的，而它是渐进的。
+plain_meaning:
+  en: 'The night is not over, but it is already thinning: the cock has crowed, the
+    cloud is breaking, and the turn comes by degrees rather than at once. Until it
+    comes, the poem is a warning about the first half of the season.'
+  zh: 夜还没有过去，但已经在变薄：鸡叫了，云在裂开，转机是一层层来的，不是一下就到的。在它到之前，这首诗讲的是这一季的前半程要当心。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: What is unclear becomes clear with time; a match pressed in the dark hours
+      is not made.
+    zh: 不清楚的事会随时间清楚起来；在暗的那一段里急着定下的姻缘，成不了。
+    compliance_tag: null
+  career:
+    en: Little is won early this season; hold what you have and watch for the clearing.
+    zh: 这一季早段所得有限；守住手上已有的，等天亮。
+    compliance_tag: null
+  money:
+    en: The first half of the season is a drain — do not lend or borrow into it. *(Not
+      financial advice.)*
+    zh: 这一季前半程是耗损期，不要往里头借钱，也不要借出去。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Take the early weeks seriously and get proper care; do not wait out a symptom.
+      *(Not medical advice.)*
+    zh: 头几周要当回事，找专业人员看；不要把症状搁着等它自己走。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Anxiety in the household now; keep the routines steady until it lifts.
+    zh: 家里眼下有些不安；把日常作息守住，等它过去。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out; travel after the turning.
+    zh: 诗里说不要出门；等转机过后再走。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Nothing on the water this half — keep the boats safe rather than busy.
+    zh: 这半程水上没有进项；让船安稳待着，不必忙着出港。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A level season at best, half measures on land and water alike.
+    zh: 这一季顶多平平；陆上水上都只到一半的量。
+    compliance_tag: null
+  timing:
+    en: The clearing comes by degrees, in the small hours of the season — never as
+      a date.
+    zh: 天亮是一层层来的，落在这一季深夜那一段——不给日子。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Pressing for a result before the light; carrying a debt through the dark half.
+    zh: 天没亮就硬要结果；把债背过暗的那半程。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这里说的是一季难行，不是预告会有伤害。若这段解读触动了你的焦虑或金钱上的担忧，请找一位你信得过的人，或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 孟嘗君出秦
+    en: Lord Mengchang Slips Out of Qin
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 战国时期，齐国的公子田文封在孟尝，人称孟尝君。他门下养着许多宾客。有一年他到秦国去，秦昭王先让他做相国，后来听人进言，怀疑他向着齐国，就免了他的官，还把他关起来，打算杀他。孟尝君派人向昭王宠爱的妃子求救。那妃子想要他的白狐皮袍。这件皮袍已经献给了昭王，拿不回来。门客中有人会偷东西，夜里进秦宫的库房，把白狐皮袍偷出来，再送给那妃子。妃子替他说话，昭王果然放了他。孟尝君连夜逃走，赶到函谷关。关上的规矩是鸡叫才开门放人。门客中又有人会学鸡叫，他一叫，附近的鸡都跟着叫起来，守关的人便开了城门，孟尝君出了关。后来秦人果然反悔来追，已经追不上了。
+    en: During the Warring States period, a prince of Qi named Tian Wen held lands
+      at Mengchang, and people called him Lord Mengchang. He kept many retainers at
+      his court. One year he went to Qin. King Zhao of Qin first made him chief minister.
+      Later, after hearing advice, the king suspected him of favoring Qi. He stripped
+      him of office, put him in prison, and planned to kill him. Lord Mengchang sent
+      a man to beg help from the king's favorite concubine. She wanted his white fox-fur
+      robe. The robe had already been given to King Zhao, so it could not be taken
+      back. One of his retainers knew how to steal. At night he entered the Qin palace
+      storehouse and carried the robe out to the concubine. She spoke for Lord Mengchang,
+      and the king set him free. He fled by night to Hangu Pass. The rule at the pass
+      was that the gate opened only at cockcrow. Another retainer could crow like
+      a rooster. When he crowed, the nearby cocks answered, and the guards opened
+      the gate. Lord Mengchang got through. When the men of Qin changed their minds
+      and gave chase, it was already too late.
+  poem_connection:
+    zh: 签诗首句“灵鸡渐渐见分明”，正合鸡鸣开关、脱身得明一事；“子丑寅”也对应夜半出关的光景。
+    en: The poem's first line, the spirit cock gradually showing itself clear, fits
+      the crow that opens the pass and the escape into daylight; the night hours around
+      midnight match the crossing.
+- title:
+    zh: 韓文公過秦嶺別湘子
+    en: Han Wengong Crosses the Qinling and Bids Xiangzi Farewell
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩愈是唐代的大文学家。他上表劝阻皇帝迎奉佛骨，触怒了皇帝，被贬到南方的潮州去做刺史。刺史是一州的长官。他离京南下，走到蓝田关一带。蓝田关在长安东南，是出京南下的必经关口。这里靠近秦岭，山路难行。他的侄孙韩湘赶来送他。当时天寒，大雪封路，马也走不动。韩愈忽见亲人远来相送，就写了一首诗留给他，诗里说云横秦岭、雪拥蓝关，家在哪里。叔侄二人在关前作别，韩愈独自继续南行。后来民间传说把韩湘说成得道的仙人，称他韩湘子，说他是来点化韩愈的。签题“过秦岭别湘子”，说的就是这一段。
+    en: Han Yu was a great writer of the Tang dynasty. He sent a memorial to the throne
+      to stop the emperor from welcoming a Buddhist relic. This angered the emperor,
+      and Han Yu was banished to Chaozhou in the south to serve as its prefect. A
+      prefect was the head of a prefecture. He left the capital and went south. When
+      he reached the Lantian Pass area he stopped. Lantian Pass lies southeast of
+      Chang'an and was the pass everyone had to cross when leaving the capital for
+      the south. The Qin Mountains are near there, and the mountain road was hard
+      to travel. His grand-nephew Han Xiang hurried there to see him off. It was cold,
+      and heavy snow blocked the road. Even the horse could not go on. Han Yu suddenly
+      saw a kinsman who had come a long way to see him off, so he wrote a poem and
+      left it with him. The poem says that clouds lie across the Qinling, that snow
+      heaps up at the Blue Pass, and asks where home is. The uncle and nephew took
+      leave of each other at the pass, and Han Yu went on south alone. Later he became
+      Han Xiangzi, an immortal who had gained the Way, and he was said to have come
+      to awaken Han Yu. The title tells of this parting.
+  poem_connection:
+    zh: 签诗“云开月出照天下”写雪阻之后云开月出，正对蓝关相送、前路转明这一段。
+    en: 'The lot''s poem speaks of clouds opening and the moon lighting the world:
+      after the snow blocks the road, the sky clears, matching the farewell at the
+      Blue Pass.'
+- title:
+    zh: 高俅楊戩當權
+    en: Gao Qiu and Yang Jian in Power
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 高俅和杨戬，都是北宋末年徽宗皇帝身边得势的权臣。那时都城在开封，朝廷大权落在那几个宠臣手里。蔡京、童贯、高俅、杨戬等人并称，被后人叫作六贼。高俅本来没有多大功劳，只因踢得一脚好球，讨得皇帝欢心，做上了殿帅府太尉。太尉是当时武官里最高的官职之一。他一上任，就寻个由头，把禁军教头王进逼得离京。禁军教头是教皇家卫队武艺的官。接着他又拿一口宝刀做引子，设计陷害林冲，把这位教头发配到沧州。他的儿子高衙内仗着父亲得势，在外面横行，看上了林冲的妻子，才招出这一场祸。杨戬同样受皇帝宠信，与高俅等人一起把持朝政。那几年，正直的人往往因一句话、一件小事就遭了陷害，是非颠倒，一时看不清。这一签说灵鸡渐渐见分明，又说云开月出照天下，正是从权奸当道、真相不明的日子里等出明白来。
+    en: Gao Qiu and Yang Jian were two powerful ministers around Emperor Huizong at
+      the end of the Northern Song. The capital then was Kaifeng, and the power of
+      the court lay in the hands of a few favorites. Cai Jing, Tong Guan, Gao Qiu,
+      Yang Jian and others were named together by later people as the Six Thieves.
+      Gao Qiu had little merit of his own. He pleased the emperor because he could
+      kick a ball well, and rose to be Taiwei of the Palace Command. The taiwei was
+      one of the highest posts among military officers at the time. As soon as he
+      took office he found a pretext to drive Wang Jin, an instructor of the Imperial
+      Guard, out of the capital. An instructor of the guard was the officer who taught
+      martial skills to the imperial bodyguard. Then he used a precious sword as bait,
+      set a trap for Lin Chong, and had this instructor sent away in exile to Cangzhou.
+      His son Gao Yanei leaned on his father's power and did as he pleased outside.
+      He took a liking to Lin Chong's wife, and that brought on the whole disaster.
+      Yang Jian was trusted by the emperor in the same way and held the court with
+      Gao Qiu and the rest. In those years upright men were trapped over a single
+      word or a small thing, and right and wrong were turned upside down.
+  poem_connection:
+    zh: 这一签说灵鸡渐渐见分明、云开月出照天下，正配权臣当道、是非一时未明而终见分明的一段。
+    en: This lot says the spirit rooster little by little shows what is clear, and
+      the clouds open and the moon comes out over the world - the years when favorites
+      held power and right and wrong were unclear at first.
+- title:
+    zh: 三藏被紅孩兒燒
+    en: Red Boy Burns the Tang Monk
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐僧师徒往西天取经，走到号山的枯松涧火云洞。洞里有个妖王叫圣婴大王红孩儿，是牛魔王和铁扇公主的儿子，修成了三昧真火。红孩儿变作一个小孩吊在树上，骗唐僧来救，趁机把唐僧摄进洞里，想把他蒸了吃掉，好求长生不老。孙悟空和猪八戒赶来相救，红孩儿放出三昧真火，又用烟熏，孙悟空被火烟打败，猪八戒也被捉了去。孙悟空只好前往南海求观音菩萨。菩萨用天罡刀化作莲台，又用金箍儿把红孩儿困住，收他做了善财童子。唐僧这一难才得解开。
+    en: The Tang monk and his disciples were going west to fetch the scriptures. They
+      came to the Fire-Cloud Cave by the Withered Pine Stream on Mount Hao. In the
+      cave lived a demon king called Red Boy, the Holy Infant King. He was the son
+      of the Bull Demon King and the Princess Iron Fan, and he had mastered the True
+      Fire of Samadhi. Red Boy turned himself into a small child hanging from a tree
+      and tricked the Tang monk into coming to save him. He seized the chance to carry
+      him off into the cave. He meant to steam him and eat him, to seek long life.
+      Sun Wukong and Zhu Bajie hurried to the rescue. Red Boy let out the True Fire
+      of Samadhi and followed it with smoke. Sun Wukong was beaten back by fire and
+      smoke, and Zhu Bajie was captured too. Sun Wukong had no choice but to go to
+      the South Sea and ask Guanyin. The Bodhisattva turned the blades of heaven into
+      a lotus throne, trapped Red Boy with a golden band, and took him in as the Child
+      of Good Wealth. So the Tang monk's trial was undone.
+  poem_connection:
+    zh: 签诗说渐见分明、云开月出照天下而见太平；唐僧遭难得救、终归平安，正合这一层。
+    en: The poem says things come gradually into clarity, and that when the clouds
+      part and the moon comes out it shines on the whole world and peace appears.
+      The Tang monk was rescued, which fits.
+- title:
+    zh: 撐渡伯行舟遇太歲
+    en: The Old Ferryman Meets Tai Sui
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 撑渡伯是个以摆渡为业的船夫。故事说的只是他撑船行舟的时候，在路上撞上了太岁。太岁是古人按岁星推算出来的凶星，后来道教给它立了神位，叫太岁星君。民间怕冲犯太岁，每逢年初就供奉太岁星君，求个平安。撑渡伯行船途中忽然遇到这样的凶星，行程就受了阻隔。这一条没有留下完整的经过，所取的只是行船的人半路上猝然遇见阻难这一层情景。船夫行船，最怕途中出了事。太岁在民间被看作最不好惹的凶星，他这一趟船，走到半路就停了下来。
+    en: The Old Ferryman was a boatman who made his living carrying people across
+      the water. The story says only that while he was poling his boat along, he met
+      Tai Sui on the road. Tai Sui is a malefic star that people in old times worked
+      out from the planet Jupiter, and later Daoism gave it a place among the gods
+      and called it the Tai Sui Star Lord. People feared offending Tai Sui, and at
+      the start of every year they made offerings to the Tai Sui Star Lord to ask
+      for safety. The Old Ferryman met such a star on his way, and his journey was
+      held up. This entry has not kept a complete account of what followed. What it
+      takes is only the scene of a boatman suddenly meeting an obstacle halfway along
+      his road. Of all things, a boatman fears trouble on the water. In popular belief
+      Tai Sui was the least friendly of the malefic stars, and on this trip his boat
+      stopped halfway.
+  poem_connection:
+    zh: 这一签写行船、行路途中猝然受阻，天将明而尚未明、还得等待，正扣签诗“灵鸡渐渐见分明，凡事且看子丑寅”。
+    en: A boat and a road suddenly blocked, with day close but not yet broken and
+      more waiting ahead, fits a lot whose poem says the spirit rooster slowly becomes
+      clear.

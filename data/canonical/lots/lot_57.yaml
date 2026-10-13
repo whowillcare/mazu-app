@@ -1,0 +1,399 @@
+id: 57
+lot_number: 57
+ganzhi:
+  zh: 癸巳
+  pinyin: Gui-si
+title:
+  en: The White Snake Meets Xu Hanwen
+  zh: 白娘子遇許漢文
+hexagram:
+  zh: 山天大畜
+  name_and_structure_en: Daxu (Mountain over Heaven)
+  binary_code: ○●●○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 白娘子遇許漢文
+    en: The White Snake Meets Xu Hanwen
+  variants_en:
+  - The White Snake Leaves Her Umbrella
+  - Ning Qi Feeds His Ox and Sings
+  - Emperor Taizong Comes Back from the Underworld
+  - Taibai Jinxing Comes to the Rescue
+  - Pang Juan and Sun Bin Study the Art
+  variants_zh:
+  - 白娘子留傘
+  - 寧戚飯牛叩角
+  - 唐太宗出地府
+  - 太白金星救難
+  - 龐涓孫臏學法
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive across the lot - 凡事 心意把定／作事 成好／家運 神仙扶持。平安／婚姻
+      大吉／求兒 大吉／功名 必中／治病 漸平安。貴人扶／出外 遇貴人提攜／討海 有利入手／作塭 有利可得／魚苗 有大利, against 歲君 淡淡／失物
+      難尋。謹尋有 and 月令 破財。平安。 (jie_yue_score 19)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs positive on this lot across general affairs, undertakings,
+      household, family fortune, marriage, children, advancement, illness, going out,
+      trade, boats, moving house, legal matters, field work, graves, sea work, ponds,
+      and fry; only the year's ruler is flat and lost property is hard to come by,
+      while the month's season carries both a drain and a peaceful note, so it is
+      left open. We read it as favourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 心意把定／作事 成好／家事 且喜進益／家運 神仙扶持。平安／婚姻 大吉／求兒 大吉／六甲
+      月頭女。月尾男。求財輕得。應手而得／功名 必中／歲君 淡淡／治病 漸平安。貴人扶／出外 遇貴人提攜／經商 小有成就／來人 半月到／行舟 平平有財／移居
+      平安／失物 難尋。謹尋有／求雨 不日到／官事 宜求和解／六畜 平平／耕作 平平有收／築室 平安／墳墓 地運如意／討海 有利入手／作塭 有利可得／魚苗 有大利／月令
+      破財。平安／尋人 只近回／遠信 且候佳音——整签偏正，唯 歲君 淡淡／失物 難尋。謹尋有 与 月令 破財。平安。 两项留有余地（jie_yue_score
+      +19）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在总类、作事、家事、家运、婚姻、求儿、功名、治病、出外、经商、行舟、移居、官事、耕作、坟墓、讨海、作塭、鱼苗等处都偏正面；唯「岁君」一项平淡、「失物」一项不易得，而「月令」一处兼有破耗与平安，留有余地。故列为本批的偏正一档。
+provenance:
+  editorial_note: '*the temple list carries the same story as 白蛇精遇許漢文, and adds 龐涓孫臏學法,
+    which the wiki group does not carry.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 勸君把定心莫虛，
+    en: 'I counsel you: hold your heart steady, and let it not turn hollow;'
+  - line_number: 2
+    zh: 前途清吉得運時，
+    en: the road ahead is clear and auspicious when its season comes;
+  - line_number: 3
+    zh: 到底中間無大事，
+    en: after all, there is nothing of great weight between here and there;
+  - line_number: 4
+    zh: 又遇神仙守安居。
+    en: and one meets the immortals who keep a quiet dwelling.
+keywords:
+  favourable:
+    en:
+    - a steadied heart
+    - the clear road ahead
+    - help that comes unbidden
+    - a settled dwelling
+    - timing turning your way
+    zh:
+    - 一颗定下来的心
+    - 清吉的前路
+    - 不请自来的助力
+    - 安稳的居所
+    - 时运转到自己这边
+  guarded:
+    en:
+    - doubt hollowing out a good season
+    - restlessness that changes what is working
+    - pushing before the season turns
+    - reading a gift as a trap
+    zh:
+    - 疑虑把一段好时节掏空
+    - 躁动改掉了本来在做的事
+    - 时节未转就先硬推
+    - 把好意当成陷阱
+reading_notes:
+- term: 把定
+  pinyin: bǎ-dìng
+  en: 'to hold steady, to set firm: gripping a decision and not letting go of it;
+    the same phrase is used of holding a boat or a horse to its course; the poem asks
+    for steadiness rather than for more effort.'
+  zh: 是把一个决定抓住不放；同一个词也用来说把船、把马压在它的航道上——诗要的是稳，不是再多用力。
+- term: 清吉
+  pinyin: qīng-jí
+  en: 'clear and auspicious: the road made plain, in the sense of weather clearing;
+    the affair being ritually clean and therefore sound; the compound holds both,
+    and English must not pick only one.'
+  zh: 既指路被看清，像天色放晴；也指事情干净而因此吉利。这一复词两层都带着，不能只取一层。
+- term: 神仙守安居
+  pinyin: shén-xiān-shǒu-ān-jū
+  en: 'divine ones keeping a peaceful dwelling: help from beyond the household standing
+    guard over it; a quiet, unhurried home life as the thing being guarded; the line
+    does not say which is the gift and which the guardian.'
+  zh: 既指家门之外的力量替它守着；也指那份被守着的安稳日子本身。诗句没有说哪一个是礼、哪一个是守的人。
+plain_meaning:
+  en: 'A set, well-supported season: the road ahead is clear and what lies between
+    here and there is not heavy. The poem names one condition in its first line -
+    steady the heart and do not let doubt hollow it out. Do the ordinary work of the
+    season, and let the help that is offered be accepted.'
+  zh: 一段安定、有支撑的时节：前路清吉，这中间也没有多重的担子。诗在第一句就点出条件——把心定下来，别让疑虑把它掏空。做这一季该做的平常事，有人伸手来帮，就接住。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: 'A favourable season for bonds, with the poem''s condition still attached:
+      a steady heart, not a hurried one.'
+    zh: 婚姻一项大吉——是彼此愿意的时节，但诗里的条件还在：要一颗定的心，不是一颗急的心。
+    compliance_tag: null
+  career:
+    en: The work of the season is well-starred; go at it with a settled mind and let
+      the timing be the timing.
+    zh: 作事成好、功名一项也中——这一季做的事星象好；心定着去做，让时机自己做时机。
+    compliance_tag: null
+  money:
+    en: The money judgement allows a light, ready gain, while the month itself is
+      read as a drain — take the easy gain and keep ordinary reserves against it.
+      (Not financial advice.)
+    zh: 求财一项来得轻、顺手就能得，但月令一处也见破耗——容易到手的那点收着，用平常的储备去顶那处消耗。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Steady improvement with help around you; keep to ordinary care and take anything
+      that persists to a qualified professional. (Not medical advice.)
+    zh: 治病一项渐渐平安、有贵人扶——是稳稳地往好里走，身边有人帮；按平常的法子照看，拖久了的事交给有资质的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is held up by help that is not of your own making; keep it peaceful
+      and leave settled matters settled.
+    zh: 家运有神仙扶持、平安——这一家的支撑不是自己挣来的；把家守得安宁，已经安顿好的事就别再翻动。
+    compliance_tag: null
+  travel_moving:
+    en: Going out meets people who help, and a move is read as peaceful.
+    zh: 出外会遇到贵人提携，移居一项也读作平安——出门有人帮，搬动也是平稳的。
+    compliance_tag: null
+  sea_and_voyage:
+    en: This is good water for those who work it, the blessing asked of Mazu at the
+      harbour.
+    zh: 行舟平平有财、讨海有利入手、鱼苗一项大——这是靠水吃饭的人的好水，也正是向妈祖求的那份庇佑。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season returns a steady yield; keep to the ordinary round and do not reach
+      for more.
+    zh: 耕作平平有收、作塭有利可得——这一季回报稳当；照平常的轮次做，别去多够。
+    compliance_tag: null
+  timing:
+    en: The good window is the season turning, read as a season and never as a date.
+    zh: 得运时——好窗口在时令转过来的时候；按时节读，绝不当作日期。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Doubting a good season, and forcing a decision before its hour arrives.
+    zh: 对一段好时节起疑；在时辰未到之前硬把一个决定推出去。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs to be forced; the counsel of the lot is steadiness.
+    zh: 这里没有哪一件事需要硬来；这一签的主意就是「定」。
+    compliance_tag: null
+stories:
+- title:
+    zh: 白娘子遇許漢文
+    en: The White Snake Meets Xu Hanwen
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 许宣是杭州人，一年清明时节到西湖游玩。他在湖边遇见一个妇人，自称白娘子，身边带着一个丫头，叫青青。两人搭同一条船过湖，白娘子向他借伞。第二天许宣去讨伞，一来二去，两人结成了夫妻。婚后几年，家中几次出事。许宣因官库失银的案子被牵连，先被发配到苏州，又迁到镇江。白娘子每次都用银钱帮他打点，许宣才渐渐起了疑心。金山寺的和尚法海看破她的来历，说她是一条白蛇变的。白娘子与青青水漫金山，要讨回丈夫，终于败下阵来，被镇在雷峰塔下。雷峰塔在杭州西湖的南边。
+    en: Xu Xuan was from Hangzhou. One year, at the Qingming season, he went to enjoy
+      the sights of West Lake. By the lake he met a woman who called herself the Lady
+      White, and who had a maid with her named Xiaoqing. The two crossed the lake
+      on the same boat, and the Lady White borrowed an umbrella from him. The next
+      day Xu Xuan went to ask for the umbrella back, and in the course of their coming
+      and going the two were married. A few years after the marriage, trouble came
+      to the household several times. Xu Xuan was drawn into a case of silver missing
+      from the public treasury. He was first sent into exile to Suzhou and then moved
+      to Zhenjiang. Each time the Lady White used money to smooth things over for
+      him, and only then did he begin to suspect her. The monk Fahai of the Jinshan
+      Temple saw through her origin and said she was a white snake in human form.
+      The Lady White and Xiaoqing flooded Jinshan to get her husband back, but in
+      the end they were defeated, and she was pinned beneath the Leifeng Pagoda. The
+      Leifeng Pagoda stands south of West Lake in Hangzhou.
+  poem_connection:
+    zh: 签诗“劝君把定心莫虚”“又遇神仙守安居”，把持本心而遇异安居，正对西湖相遇这段。
+    en: The lot's poem says to hold one's heart firm and not be uneasy, and that meeting
+      an immortal keeps one safely settled. Holding to one's own mind and finding
+      a strange consort fits the meeting at West Lake.
+- title:
+    zh: 白娘子留傘
+    en: The White Snake Leaves Her Umbrella
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 宋朝南渡以后，都城迁到杭州。杭州有个卖药的年轻人叫许宣，有人也写作许仙，父母早亡。清明时节，他到寺里烧香祭祖，回程搭船。清明是春天扫墓祭祖的日子。船上有个穿白衣的妇人要搭船，就与她同船而行。那妇人其实是白蛇变化成的，人们称她白娘子。船到岸边，天下起雨来，许宣把伞借给了她。第二天许宣上门取伞，白娘子便借着这把伞与他来往，两人后来做了夫妻。白娘子又送他银子，惹出官司，许宣几次受到牵累。后来镇江金山寺的和尚法海识破白娘子是白蛇精，用钵把她收住，镇在雷峰塔下。这一签说劝君把定心莫虚，又说到底中间无大事，正配许宣借伞还伞、终成夫妇的一段。
+    en: After the Song court moved south, the capital was moved to Hangzhou. In Hangzhou
+      there was a young man who sold medicine, called Xu Xuan, sometimes written Xu
+      Xian, whose parents had died early. At the Qingming festival he went to a temple
+      to burn incense and honor his ancestors, and took a boat home. Qingming is the
+      spring day for sweeping graves and honoring ancestors. A woman in white on the
+      boat wanted passage, and he shared the boat with her. That woman was in fact
+      a white snake transformed, and people called her Lady White. When the boat reached
+      the bank rain began to fall, and Xu Xuan lent her his umbrella. The next day
+      Xu Xuan came to her door to get the umbrella back, and Lady White used this
+      umbrella to keep company with him, and the two later became husband and wife.
+      Lady White also gave him silver, which brought a lawsuit, and Xu Xuan was dragged
+      in several times. Later Fahai, a monk of the Jinshan Temple at Zhenjiang, saw
+      through Lady White as a white snake spirit, took her with his alms bowl, and
+      pinned her under the Leifeng Pagoda.
+  poem_connection:
+    zh: 这一签说劝君把定心莫虚、到底中间无大事，正配许宣借伞还伞、与白娘子终成夫妇的一段。
+    en: This lot says to hold the heart steady and not to be anxious, and that nothing
+      serious lies in the middle - Xu Xuan lending and taking back the umbrella, and
+      he and Lady White becoming husband and wife.
+- title:
+    zh: 寧戚飯牛叩角
+    en: Ning Qi Feeds His Ox and Sings
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 宁戚是春秋时卫国人。他想在齐桓公手下做事，却没有门路进身，就替人拉车，跟着车队到了齐国都城附近。齐桓公出城迎接客人，夜里走到郊外。宁戚正在车下喂牛，望见桓公，就敲着牛角唱起歌来。他的歌声悲切，传到了旷野上。桓公听见了，觉得他不寻常，叫随行的车把他载上，一同回去。回去之后同他一谈，桓公很高兴，要给他事做。手下有人说，宁戚是卫国人，卫国离齐国不远，该先派人去问问他的为人。桓公认为，问起来难免会听到他一些小毛病，因为小毛病就丢掉他的大才，正是失掉天下贤士的原因，于是任他做了大夫。宁戚后来做了齐国的大夫，辅佐桓公成就霸业。
+    en: Ning Qi was a man of Wei in the Spring and Autumn period. He wanted to serve
+      Duke Huan of Qi but saw no way to get in. So he drove carts for others and came
+      with a convoy to the neighborhood of the Qi capital. Duke Huan left the city
+      to welcome guests, and at night he came to the outskirts. Ning Qi was feeding
+      an ox under a cart. He saw Duke Huan and sang, striking his ox's horn. His song
+      was mournful, and it carried out over the open fields. Duke Huan heard it and
+      thought him unusual. He had his carriage take Ning Qi up and bring him back.
+      After talking with him, Duke Huan was pleased and wanted to give him a post.
+      An attendant said Ning Qi was from Wei, and Wei was not far from Qi. They should
+      first send someone to ask about his character. Duke Huan held that asking would
+      surely turn up some small faults. Throwing away a man's great ability over small
+      faults, he said, was exactly how one lost the worthy men of the realm. So he
+      made Ning Qi a dafu, a high noble office. Ning Qi later became a grandee of
+      Qi and helped Duke Huan win his place as leader.
+  poem_connection:
+    zh: 签诗“劝君把定心莫虚，前途清吉得运时”，正合宁戚喂牛敲角、遇到桓公而被任用一事。
+    en: The poem tells the reader to hold firm and not waver, and that the road ahead
+      is clear and its time comes, which fits Ning Qi feeding his ox and striking
+      the horn until Duke Huan took him into service.
+- title:
+    zh: 唐太宗出地府
+    en: Emperor Taizong Comes Back from the Underworld
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐太宗在位的时候，泾河的龙王和术士袁守诚打赌，比谁说得准下雨的时辰和雨量。龙王为了赢，私自改了降雨的时辰和点数，犯了天条，要处斩，行刑的人是魏徵。龙王托梦向唐太宗求救，太宗答应留住魏徵。行刑那天，太宗召魏徵进宫下棋。魏徵在棋桌边打瞌睡，梦里把龙王斩了。龙王死后怨太宗失信，在宫里作祟，扰得太宗夜里睡不安稳。太宗就命秦琼、尉迟恭两位大将守在宫门口，后来民间把他们的画像贴在门上，就是门神的来历。太宗病重死去，魂魄到了地府。判官崔珏替他改动了生死簿，给他添了寿数，又带他在地府里走了一遭。太宗还魂以后，大赦天下，并派人去西天取经。
+    en: While Emperor Taizong of Tang was on the throne, the Dragon King of the Jing
+      River made a bet with a diviner named Yuan Shoucheng over who could tell the
+      hour and the amount of rain. To win, the Dragon King changed the hour and the
+      number of raindrops by himself. That broke the law of Heaven, and he was to
+      be beheaded. The man to carry out the sentence was Wei Zheng. The Dragon King
+      came to Taizong in a dream and begged for help, and Taizong agreed to keep Wei
+      Zheng from going. On the day of the execution Taizong called Wei Zheng into
+      the palace to play chess. Wei Zheng dozed off by the chess table, and in his
+      dream he beheaded the Dragon King. After his death the Dragon King blamed Taizong
+      for breaking his word and haunted the palace, so that Taizong could not sleep
+      well at night. Taizong then had the two great generals Qin Qiong and Yuchi Gong
+      stand guard at the palace gate. Later people pasted pictures of them on their
+      doors, and this is where door gods come from. Taizong fell ill and died, and
+      his soul went down to the underworld. The judge Cui Jue changed the register
+      of life and death for him and added years to his life, and took him on a tour
+      of the underworld. After Taizong came back to life, he proclaimed a general
+      pardon and sent men to the West to fetch the scriptures.
+  poem_connection:
+    zh: 签诗劝人把定心神、莫要心虚，前途清吉，终究没有大事。太宗历地府之险还能还魂，正合此意。
+    en: The lot poem tells a man to steady his heart and not feel guilty, and says
+      the road ahead is clear and good, with no great trouble in the end. Taizong
+      came back from the underworld.
+- title:
+    zh: 太白金星救難
+    en: Taibai Jinxing Comes to the Rescue
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 太白金星是天上的一位星神，掌管西方，也称作太白、启明或长庚。民间也把他叫作启明星，清早出现在东方的天上。在流传的神怪故事里，他常出面替遭难的人说情、解围。孙悟空大闹天宫之后，就是他两次向玉帝请旨，下界招安。去西天取经的路上，师徒们每逢危难，也常由他下凡传信，帮他们脱险。民间因此把他看作替人消灾的神仙。这一则讲的是太白金星出面救难的一段。遭难的是谁，事情又怎样收场，流传下来的题目里没有细说。人们只知道，他一来，遭难的人便保住了平安。
+    en: Taibai Jinxing is a star god in heaven who governs the west, also called Taibai,
+      Qiming, or Changgeng. People also call him the morning star, which appears in
+      the eastern sky at daybreak. In the tales of gods and monsters that have come
+      down to us, he often steps in to plead for people in trouble and get them out
+      of danger. After Sun Wukong made havoc in heaven, it was he who twice asked
+      the Jade Emperor for orders and went down to the world to offer amnesty. On
+      the road to the Western Heaven for the scriptures, whenever the master and disciples
+      met danger he often came down to bring word and help them escape. People therefore
+      look on him as a god who averts disaster for others. This one tells of a time
+      when Taibai Jinxing came forward to rescue someone in trouble. Who was in trouble,
+      and how the matter ended, are not told in detail in the title that survives.
+      People only know that when he came, the one in trouble was kept safe.
+  poem_connection:
+    zh: 这一签说又遇神仙守着安居，正配太白金星出面为遭难者解围这一段。
+    en: This lot says one meets an immortal again, who keeps watch and lives in peace.
+      It fits Taibai Jinxing coming forward to free the one in trouble.
+- title:
+    zh: 龐涓孫臏學法
+    en: Pang Juan and Sun Bin Study the Art
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孙膑是孙武的后人。孙武是春秋时写出兵法的军事家。孙膑和庞涓一同学习兵法。庞涓先到魏国做官，做了魏惠王的将军。他知道自己的本事比不上孙膑，就暗中把孙膑请到魏国来。孙膑到了以后，庞涓怕他压过自己，找个罪名砍掉了他的双脚，又在他脸上刺字，想让他一辈子不能出来做官。孙膑后来得到齐国使者的帮助，藏在车里偷偷回到齐国，做了齐将田忌的门客。田忌和人赛马，孙膑教他调换马的上场次序，田忌赢了。田忌把他推荐给齐威王，做了军师。后来孙膑用围魏救赵、减灶诱敌的计策，在马陵大破魏军。庞涓自知计穷兵败，自刎而死。
+    en: Sun Bin was a descendant of Sun Wu. Sun Wu was the military thinker of the
+      Spring and Autumn period who wrote a book on the art of war. Sun Bin and Pang
+      Juan studied the art of war together. Pang Juan went first to Wei and became
+      a general under King Hui of Wei. He knew his own ability was not the equal of
+      Sun Bin's, so he secretly invited Sun Bin to Wei. Once Sun Bin arrived, Pang
+      Juan feared that he would outshine him. He found a charge against him and had
+      his feet cut off. He had his face tattooed as well, meaning to keep him from
+      holding office for the rest of his life. Sun Bin later got help from an envoy
+      of Qi. He was hidden in a carriage and taken secretly back to Qi. There he became
+      a retainer of Tian Ji, a general of Qi. When Tian Ji raced horses against others,
+      Sun Bin told him to change the order in which his horses ran, and Tian Ji won.
+      Tian Ji recommended him to King Wei of Qi, and he became military adviser. Later
+      Sun Bin used the plans of relieving Zhao by besieging Wei and of luring the
+      enemy by cutting down cooking fires. He crushed the Wei army at Maling. Pang
+      Juan knew his plans were spent and his army lost, and he cut his own throat.
+  poem_connection:
+    zh: 这一签的签诗说把心把定，前途清吉，自有得运的时候，中间到底没有大事。孙膑受了刑还能脱身，正合把定其心之意。
+    en: The poem says set your heart firm, the road ahead is clear and lucky, and
+      your time of gain comes; nothing great comes between. Sun Bin took his punishment
+      and still got clear.
+- title:
+    zh: 白蛇精遇許漢文
+    en: The White Snake Spirit Meets Xu Hanwen
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 传说杭州有个卖药的人，叫许宣，父母早亡，寄住在姐夫家里。杭州在江南，是座有名的水城。清明时节，他往庙里去烧香祭祖，回来的路上乘船，遇到一个穿白衣的妇人要求搭船同行。那妇人其实是峨嵋山上修行了上千年的白蛇变的，同行的青衣女子是青蛇。峨嵋山在四川。许宣和她相识，后来结成夫妻。婚后几次因为家里的钱财来历不明惹出官司，许宣屡受牵连，几番被发配到别处。后面的人讲白蛇的故事，多把主角写作许仙。这故事在江南流传很广，雷峰塔、金山寺这些地方都跟它连在一起。
+    en: In Hangzhou there was a medicine seller named Xu Xuan. His parents died early,
+      and he lodged in the house of his sister and her husband. Hangzhou lies in Jiangnan
+      and is a well-known water city. At the Qingming festival he went to a temple
+      to burn incense and honor his ancestors. On the way back he took a boat and
+      met a woman in white who asked to share the ride. The woman was in truth a white
+      snake that had practiced for a thousand years on Mount Emei. The woman in blue
+      who came with her was a green snake. Mount Emei is in Sichuan. Xu Xuan came
+      to know her, and later the two became husband and wife. After the marriage,
+      lawsuits arose more than once because money in the house had no clear source.
+      Xu Xuan was drawn in again and again and was banished to distant places several
+      times. The tale was widely known in Jiangnan. Places such as Leifeng Pagoda
+      and Jinshan Temple are linked with it.
+  poem_connection:
+    zh: 签诗开头劝人“把定心莫虚”，故配白蛇精遇许汉文一事，取把心守定之意；“又遇神仙守安居”也取白蛇修行千年之说。
+    en: The poem opens by telling one to hold the heart firm, so it is paired with
+      the White Snake spirit meeting Xu Hanwen, and the line about meeting an immortal
+      takes the snake's thousand years of practice.

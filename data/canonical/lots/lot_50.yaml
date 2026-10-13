@@ -1,0 +1,359 @@
+id: 50
+lot_number: 50
+ganzhi:
+  zh: 壬寅
+  pinyin: Ren-yin
+title:
+  en: A Child Meets the Three Baleful Stars
+  zh: 小兒遇三煞
+hexagram:
+  zh: 水泽节
+  name_and_structure_en: Jie (Water over Lake)
+  binary_code: ●○●●○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 小兒遇三煞
+    en: A Child Meets the Three Baleful Stars
+  variants_en:
+  - Song Dingbo Meets a Ghost on the Road
+  - Pan An Weds Chen Gu
+  - The Three-Jewel Eunuch Sails the Western Seas
+  - Lei Shengyuan's Best Trick Fails
+  - A Child Meets the Malignant Ghost
+  variants_zh:
+  - 宋定伯路遇鬼
+  - 潘安配陳姑
+  - 三寶太監下西洋
+  - 雷勝遠絕招未逞
+  - 小兒路遇惡鬼
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements are rich but conditional - 凡事 有公人求完。吉／家運 瑞氣滿門／求財 大吉。寶樹開花／六畜
+      平安大進／討海 和者大吉／月令 漸春風好, set against 作事 難成／婚姻 難成。成者大吉／功名 無／出外 不可。慢即有大財 (jie_yue_score
+      18)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book gives this lot richly, but always with a condition -
+      income, family fortune, livestock, ponds and the month's turn are all spoken
+      well of, while undertakings and advancement are held back, and a departure is
+      set down for later, when going slowly may bring in more. Both faces of the lot
+      hang on a slow start ripening into a late result.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 有公人求完。吉／作事 難成／家事 家庭進益／家運 瑞氣滿門／婚姻 難成。成者大吉／求兒 好。大吉／六甲 男女貴氣。先男後女／求財
+      大吉。寶樹開花／功名 無／歲君 吉／治病 祝天地者平安／出外 不可。慢即有大財／經商 先平平。後大吉／來人 月光到／行舟 早晚平平／移居 好／失物 急尋在。西尋／求雨
+      及時／官事 拖尾。去倒得失了錢／六畜 平安大進／耕作 早好晚平／築室 慢吉／墳墓 吉地吉穴／討海 和者大吉／作塭 先呆後有大利／魚苗 後有大利／月令 漸春風好／尋人
+      速回／遠信 音信速至（jie_yue_score +18）。整签两头都在：财、家、六畜、塭池一侧给得丰，作事 難成、功名 無、出外 不可 一侧则收着，且明说「慢」「後」；好结果都挂在熬过开头之后。校勘：全一致。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词给得丰，但都带条件：财、家运、六畜、塭池与月令一侧都是好话，办事与功名一侧则收着，出行一项先按下、晚走反倒有大财。两面都挂在「先慢后成」上。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 佛前發誓無異心，
+    en: Swear before the Buddha with no divided heart;
+  - line_number: 2
+    zh: 且看前途得好音，
+    en: then watch the road ahead for good tidings.
+  - line_number: 3
+    zh: 此物原來本是鐵，
+    en: This thing was iron to begin with —
+  - line_number: 4
+    zh: 也能變化得成金。
+    en: and it, too, can change and become gold.
+keywords:
+  favourable:
+    en:
+    - constancy of heart
+    - iron worked into gold
+    - a promise kept
+    - late but large gain
+    zh:
+    - 心不二
+    - 铁化成金
+    - 把话守住
+    - 来得晚但来得大
+  guarded:
+    en:
+    - expecting it to come easy
+    - reading a hard undertaking as failure
+    - forcing what is meant to be slow
+    zh:
+    - 指望它轻易就来
+    - 把难做的事读成失败
+    - 硬逼一件本该慢的事
+reading_notes:
+- term: 無異心
+  pinyin: wú-yì-xīn
+  en: 'with no divided heart: single-minded constancy; undivided loyalty or faith.'
+  zh: 既指一门心思的守常，也指不分的忠心或信靠；两层都在。
+- term: 本是鐵
+  pinyin: běn-shì-tiě
+  en: 'was iron to begin with: what you have now is raw and unrefined; a self-deprecating
+    reading: my present state counts for little.'
+  zh: 既指你手上这件东西还是生的、没炼过，也有一层自谦的读法：我眼下这点分量不算什么。
+- term: 得成金
+  pinyin: dé-chéng-jīn
+  en: 'can be brought to become gold: base material refined into something precious;
+    a person of low standing raised up; the poem leaves which sense open.'
+  zh: 既指粗料炼成贵重之物，也指低微的人被抬举起来；诗把是哪一层留着，不点破。
+plain_meaning:
+  en: 'A season of slow transformation: the judgements grant wealth, family blessing
+    and a whole-hearted start, yet also say that undertakings are hard to bring off
+    and official rank is not granted. The poem''s counsel is constancy - keep faith
+    with your promise, and what is base iron can be worked into gold; the change comes
+    late and by patient effort, not by force.'
+  zh: 这是一段慢慢变的时节：判词给足了财、家和一心一意的开头，同时又收着办事与功名这两头。诗的话是守常——把许下的心意守住，铁也能化成金；这个转变来得晚，靠的是熬，不是硬逼。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Marriage is judged hard to bring off but great if it comes; let it be earned
+      rather than forced.
+    zh: 婚姻一项判词写得保留，但成了则是大吉；这一项让它靠挣来，不要靠逼。
+    compliance_tag: null
+  career:
+    en: Office and rank are not granted this season and undertakings do not come together;
+      keep faith with the work and let it ripen.
+    zh: 这一季功名这一头是空的，办事也落不定；把心意守在工作上，让它自己熟。
+    compliance_tag: null
+  money:
+    en: Wealth is spoken of richly but it follows a flat beginning - build slowly
+      and let the gain arrive late. (Not financial advice.)
+    zh: 财一项判词给得很丰（宝树开花），但要走过一段平的开头——慢慢攒，让这份利晚点来。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement counsels care and calm for mending; see a qualified professional
+      and do not lean on a change of season. (Not medical advice.)
+    zh: 判词把调养说成要敬慎、求个平安；找有资质的专业人士看，别指望换个季节就好。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Family and home are well-starred; a good and settled household is this lot's
+      firm ground.
+    zh: 家与家运是本签最稳的一块；一个安好的家，就是这签的立足处。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is held back though a slow departure may bring gain; move only when
+      everything is well prepared.
+    zh: 出外这一项被按下，但走得慢反倒可能有大财；一切备妥了再动。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Boats are even at first, and those who keep good faith with the work do well;
+      profit comes to the steady, not the hasty.
+    zh: 船在早晚都只是平，和气做事的人反倒好；利归稳的人，不归急的人。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Ponds and fry return a large profit later; the later half of the season rewards
+      patience.
+    zh: 塭与鱼苗是后面才出大利；这一季的后半程回报耐心。
+    compliance_tag: null
+  timing:
+    en: The turn is slow and late - read it as a season, never as a date.
+    zh: 转弯又慢又晚——读成一季，不要读成一个日期。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Expecting it to come easy; reading a hard undertaking as failure.
+    zh: 指望它轻易就来；把难做的事读成失败。
+    compliance_tag: null
+  reassurance:
+    en: The change from iron to gold is a slow one; what is wanted here is constancy,
+      not speed.
+    zh: 由铁成金是慢活；这里要的是守常，不是快。
+    compliance_tag: null
+stories:
+- title:
+    zh: 小兒遇三煞
+    en: A Child Meets the Three Baleful Stars
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 这一题讲的不是人物故事，而是民间的一种小儿关煞之说。“煞”就是凶险的意思。民间把小儿初生以后容易生病、出事的关口，叫作关煞，也叫小儿煞。这样的关口共有二十六处，像阎王关、鬼门关、铁蛇关、夜啼关之类，都算凶象。碰上这些关口，家里要祈禳、佩符来化解，多请庙宇或道士主持。过关的办法，多是到庙里许愿、求符，或是请人禳解。题作“小儿遇三煞”，取的是小儿逢煞而能过关这一层意思。这一题只讲这种信仰里的关口与化解，没有人物和情节。
+    en: This title does not tell a story about people. It concerns a folk belief about
+      baleful influences on small children. Baleful here means dangerous. In folk
+      belief, the points after a child's birth where illness and trouble are likely
+      are called baleful passes, or baleful influences of childhood. There are twenty-six
+      such passes in all. Names like the pass of the king of the underworld, the pass
+      of the ghost gate, the pass of the iron snake, and the pass of night crying
+      all count as bad signs. When a child reaches these passes, the family has to
+      pray and ward off harm, wear amulets, and often ask a temple or a Daoist priest
+      to preside. The ways of passing through are mostly making vows at a temple,
+      asking for amulets, or having someone perform rites to turn the harm aside.
+      This title takes the sense of a child meeting baleful influences and being able
+      to pass through. It only concerns the passes and the ways of turning them aside
+      in this belief. It has no characters and no plot.
+  poem_connection:
+    zh: 签诗“佛前发誓无异心”“且看前途得好音”，在神前诚心祷告以过关，正合逢煞过关之意。
+    en: The lot's poem speaks of vowing before the Buddha with no divided heart, and
+      of looking ahead for good news. Praying sincerely before the gods to get through
+      fits meeting the baleful influences and passing.
+- title:
+    zh: 宋定伯路遇鬼
+    en: Song Dingbo Meets a Ghost on the Road
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 南阳人宋定伯年轻的时候，有一回夜里赶路，路上遇见一个鬼。古时候赶路全靠双脚，夜里错过了住店，就得摸黑走。宋定伯问它是什么，鬼说自己当然是鬼，又反问宋定伯是谁。宋定伯不肯示弱，谎称自己也是鬼。两人便一路同行。鬼提议互相背着走，省些脚力。鬼先背宋定伯，觉得他太重，怀疑他不是鬼。宋定伯说自己是刚死的鬼，所以身子沉。轮到宋定伯背鬼，鬼轻得几乎没有分量。路上过河，鬼涉水没有声响，宋定伯涉水却有哗哗的水声。他又推说自己新死，还不惯渡水。宋定伯问鬼最怕什么，鬼说只怕人的唾沫。到了宛市，宋定伯把鬼扛在肩上，抓得紧紧的。鬼大叫着要下来，宋定伯不理，一直扛到市集里，才把鬼放到地上。鬼一落地，变成一只羊。宋定伯朝它吐了唾沫，把羊卖掉，得了一千五百钱。这一签说此物原来本是铁，又说也能变化得成金，正配宋定伯把鬼担到市上、鬼化为羊换得钱的一段。
+    en: Song Dingbo, a man of Nanyang, was walking at night when he was young and
+      met a ghost on the road. In old times people went about on foot; missing a lodging
+      house at night meant feeling one's way along. Song Dingbo asked what it was.
+      The ghost said it was of course a ghost, and asked in return who Song Dingbo
+      was. Song Dingbo would not give ground and lied that he was one too. So the
+      two went along together. The ghost proposed carrying each other in turn to save
+      their legs. The ghost carried Song Dingbo first, found him too heavy, and suspected
+      he was not a ghost. Song Dingbo said he was a ghost only just dead, so his body
+      was heavy. When Song Dingbo's turn came to carry the ghost, the ghost weighed
+      almost nothing. Crossing a river on the way, the ghost went through the water
+      without a sound, while Song Dingbo made a loud splash. He excused himself, saying
+      he was newly dead and unused to crossing water. Song Dingbo asked the ghost
+      what it feared most, and the ghost said only human spit. When they reached the
+      market of Wan, Song Dingbo carried the ghost on his shoulder and held it tight.
+      The ghost shouted to be let down, and Song Dingbo paid no attention, carrying
+      it into the market before setting it on the ground. The moment it touched the
+      ground it turned into a sheep. Song Dingbo spat on it, sold the sheep, and got
+      fifteen hundred coins for it.
+  poem_connection:
+    zh: 这一签说此物原来本是铁、也能变化得成金，正配宋定伯担鬼到市、鬼化为羊而得钱的一段。
+    en: This lot says this thing was iron to begin with, and that it can change and
+      become gold - Song Dingbo carrying the ghost to market, where it turned into
+      a sheep and brought money.
+- title:
+    zh: 潘安配陳姑
+    en: Pan An Weds Chen Gu
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签的故事题作“潘安配陈姑”，讲的是潘安与一位陈姓女子婚配的事。潘安就是潘岳，字安仁，晋朝人，长得很美，人们都叫他潘安。旧时说，他年轻时拿着弹弓走在洛阳的路上，妇女们见了都往他车里扔果子，回来时装满一车。可是潘岳的妻子姓杨，不是陈姑，别的书里也没有陈姑这个人。题里的潘安，是民间借晋代美男子潘岳的名字编出来的人物。陈姑是什么人，也说不清。这个故事从哪儿来、情节怎么起收，都查不实。所以这一条只照题面讲明潘安与陈姑相配，不另补情节。签诗说“佛前发誓无异心”，用的正是婚配成双的意思。
+    en: This lot's story is titled Pan An Weds Chen Gu. It tells of Pan An being married
+      to a woman of the Chen family. Pan An is Pan Yue, whose courtesy name was Anren.
+      He lived in the Jin dynasty and was very handsome, so people called him Pan
+      An. Old tales say that when he was young and walked the roads of Luoyang carrying
+      a slingshot, women threw fruit into his carriage, and he came home with it piled
+      full. But Pan Yue's wife had the family name Yang, not Chen Gu, and no Chen
+      Gu appears in other books. The Pan An of the title is a figure made up among
+      common people, borrowing the name of the Jin beauty Pan Yue. Who Chen Gu was
+      also cannot be said. Where this story comes from, and how it begins and ends,
+      cannot be checked. So this entry only sets out, by its title, that Pan An is
+      matched with Chen Gu, and adds no plot. The lot's poem says that before the
+      Buddha one swore with no other heart, and it uses exactly the sense of a marriage
+      made as a pair.
+  poem_connection:
+    zh: 签诗说“佛前发誓无异心”，故配潘安配陈姑一事，取其婚配对偶、终得成双之意。
+    en: The poem says one swore before the Buddha with no other heart, so it is paired
+      with Pan An matched with Chen Gu, taking the sense of a marriage joined as a
+      pair.
+- title:
+    zh: 三寶太監下西洋
+    en: The Three-Jewel Eunuch Sails the Western Seas
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 郑和本姓马，是云南人，早年随明成祖起兵，立了功，被赐姓郑。他曾是太监，所以人们称他三宝太监。明成祖为了宣扬国威、和海外通好，派他率领船队出使西洋。西洋在这里指中国以南、以西的大片海域。从明朝初年起，郑和先后七次远航。船队从江苏、福建出海，经过占城、爪哇、旧港、满剌加、锡兰、古里等地，最远到了波斯湾、红海和非洲东岸。船队规模很大，载着丝绸和瓷器，换回香料和珍宝，还带回各国的使者。随行的人把一路的见闻记了下来，后人因此知道那些地方的风土。
+    en: Zheng He's family name was originally Ma, and he was a man of Yunnan. In his
+      early years he raised troops with Emperor Chengzu of Ming and did good service,
+      and was granted the surname Zheng. He had been a eunuch, so people called him
+      the Three-Jewel Eunuch. To spread the fame of his country and open friendly
+      ties overseas, Emperor Chengzu sent him with a fleet to the Western Seas. The
+      Western Seas here means the broad waters south and west of China. From the early
+      Ming, Zheng He made seven long voyages. The fleet sailed from Jiangsu and Fujian
+      and passed Champa, Java, Palembang, Malacca, Ceylon and Calicut, and went as
+      far as the Persian Gulf, the Red Sea and the east coast of Africa. The fleet
+      was very large. It carried silk and porcelain and brought back spices and precious
+      goods, and also brought back envoys from many lands. Those who went along wrote
+      down what they saw, and so later people came to know the ways of those places.
+  poem_connection:
+    zh: 签诗说在佛前立誓没有二心，看前路会有好消息。郑和奉命远航、通好各国，立愿前行，正合此意。
+    en: The lot poem says a vow made before the Buddha has no second thought in it,
+      and that the road ahead brings good news. Zheng He sailed on the emperor's order
+      to make friends of many lands.
+- title:
+    zh: 雷勝遠絕招未逞
+    en: Lei Shengyuan's Best Trick Fails
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 骆宏勋是一位行侠仗义的武人。他和仆人余谦曾被花家四兄弟围攻，几乎丢了性命，幸好得到濮天鹏相救。濮天鹏又请出自己的岳父鲍自安来帮忙。鲍自安是位老英雄，善用智谋；他的女儿鲍金花也有一身好武艺。父女两人联手，把花家四兄弟打得大败。花家兄弟不甘心，快马去请师父雷胜远出面。雷胜远一到，就和鲍自安交上手。两人本领相当，斗了几百个回合，谁也占不到上风。在场的一位僧人消安出来相劝，两人才各自收手。雷胜远这一手绝招，终究没有取胜。
+    en: Luo Hongxun was a champion of justice with a fighter's skill. He and his servant
+      Yu Qian were once set upon by the four Hua brothers and nearly lost their lives,
+      and were saved by Pu Tianpeng. Pu Tianpeng in turn asked his father-in-law Bao
+      Zi'an to help. Bao Zi'an was an old hero skilled in strategy, and his daughter
+      Bao Jinhua was a fine fighter in her own right. Father and daughter together
+      beat the four Hua brothers soundly. The Hua brothers would not accept it, and
+      rode hard to ask their master Lei Shengyuan to step in. As soon as Lei Shengyuan
+      arrived he crossed weapons with Bao Zi'an. The two were evenly matched and fought
+      several hundred rounds, and neither could get the upper hand. A monk present,
+      Xiao'an, came forward to mediate, and only then did the two stop. In the end
+      Lei Shengyuan's best trick did not win him the day.
+  poem_connection:
+    zh: 这一签说铁也能变化成金，正取强中自有强中手、雷胜远绝招未能取胜之意。
+    en: This lot says even iron can be turned into gold. It takes the point that among
+      the strong are stronger men, and Lei Shengyuan's best trick did not win.
+- title:
+    zh: 小兒路遇惡鬼
+    en: A Child Meets the Malignant Ghost
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 民间把小孩路上遇见的凶险叫作三煞，指的是劫煞、灾煞、岁煞，都是传说里的关口，也叫关煞。传说这些关口要靠画符祝祷才过得去。夜路上碰见不干净的东西，是民间常讲的凶险。这一签的题目，讲的是一个小孩在路上撞见恶鬼的事。南阳有个少年，名叫宋定伯。一天夜里他独自赶路，半路遇见一个鬼。他不慌不忙，凭着自己的机警应对，最后平安脱身，没有受到伤害。小儿年幼力弱，偏偏在黑路上遇见鬼，正是一时受惊而终能自免的光景。旧时民间把小儿夜里受惊、发热，说成是撞见了鬼物，这类题目便由此而来。
+    en: In folk belief the dangers a small child meets on the road are called the
+      three baleful influences. These are the baleful influence of calamity, of disaster,
+      and of the year. They are the gates spoken of in old tales, and also called
+      the passes of the young. People said these passes could only be got past by
+      drawing charms and praying. Meeting something unclean on the night road is a
+      danger often told of in folk talk. The title of this lot tells of a small child
+      who ran into a malignant ghost on the road. There was a youth of Nanyang named
+      Song Dingbo. One night he was travelling alone and met a ghost halfway. He kept
+      his head and answered it with his own quick wit. In the end he got away safely
+      and came to no harm. A child is young and weak, yet on a dark road met a ghost.
+      This is the picture of one who is frightened for a time and in the end saves
+      himself. In old days people called a child's night frights and fever the meeting
+      of a ghostly thing.
+  poem_connection:
+    zh: 这一签的签诗说在佛前发誓没有二心，且看前路得好消息，这东西本来是铁，也能变化成金。小儿遇险而终能自免，正合此语。
+    en: The poem says a vow before the Buddha with no second thought, and then good
+      news on the road ahead; this thing is iron and can turn into gold. The child
+      met danger and in the end came out safe.

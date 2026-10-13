@@ -1,0 +1,409 @@
+id: 18
+lot_number: 18
+ganzhi:
+  zh: 丙戌
+  pinyin: Bing-xu
+title:
+  en: Xiao He Pursues Han Xin
+  zh: 蕭何追韓信
+hexagram:
+  zh: 泽火革
+  name_and_structure_en: Ge (Lake over Fire)
+  binary_code: ●○○○●○
+  shared_with_lot: 5
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 蕭何追韓信
+    en: Xiao He Pursues Han Xin
+  variants_en:
+  - Xue Rengui Attacks Mount Motian
+  - Yang Guancui-yu Rides Double
+  - Qin Qiong Saves Li Yuan's Household
+  - Shao Liang Meets Yu-niang
+  - Shao Liang and His Son Join with Huang Yuniang Through a Mediator
+  - Guiguzi Works the Divination
+  variants_zh:
+  - 薛仁貴攻摩天嶺
+  - 楊管翠玉同坐馬
+  - 秦瓊救李淵搬家
+  - 邵良遇玉娘配
+  - 邵良父子黃玉娘叫合
+  - 鬼谷子演課。
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive — 凡事 忍耐求和／作事 貴人利。和氣成／婚姻 大吉／行舟 得財, with
+      求財 不多 noted as the cap (jie_yue_score +17)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements lean positive throughout — household, fortune,
+      marriage, advancement, trade, water, moving, farming and distant news — with
+      the money entry noted as modest rather than large. On the wording, the third
+      line follows the user ruling for ruo-de (若得) where three of our sources print
+      qiu-de (求得); the lot is written as a condition, so the difference changes how
+      it is used and is recorded rather than smoothed over.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 忍耐求和／作事 貴人利。和氣成／家事 圓滿進財／家運 瑞氣盈庭／婚姻 大吉／六甲 先男／求財 不多／功名 有望／歲君
+      得利／治病 痊癒／出外 有貴人提攜／經商 大進利市／行舟 得財／移居 大吉／官事 速和公判／耕作 有收／築室 祥氣盈庭／墳墓 福人必得福地／討海 和者得大財／作塭
+      獲利三倍／魚苗 大利／月令 平安吉慶／遠信 佳音速報（jie_yue_score +17）。整签偏正，唯 求財 不多 一项为上限、求兒 月光好。月暗平
+      另带条件。校勘：多数决；第三句「求得貴人」经用户裁定改为「若得貴人」（本签为条件句体，与「看看祿馬拱前程」结构相合），另有三源作「求得」，差异记录在案。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词通签偏正面：家事、家运、婚姻、功名、经商、行舟、移居、耕作、水上与远信各处皆顺；求财一项另注为数额不大。文字方面，第三句按用户裁定取「若得」一路（另有三源作「求得」），本签为条件句体，两字差别影响用法，差异照实记录。
+provenance:
+  editorial_note: '*The temple site carries a different group for this lot — Sun Wukong
+    and the Fire, Xue Dingshan and the Flying Knife — a reminder that temple books
+    differ; we name both rather than choose one for the reader.*'
+  textual_provenance: 'user_ruled — 「求得貴人 — seek and get a benefactor (维基文库; mznn;
+    91chouqian)」→「若得貴人 — if you come by a benefactor (好廟網; feishuai)」, user ruling
+    (改), recorded in mazu_签诗_六源投票与裁定.csv: this lot is written in conditionals, and
+    「若得」 agrees with 「看看祿馬拱前程」.'
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 君問中間此言因，
+    en: You ask the reason for what lies between;
+  - line_number: 2
+    zh: 看看祿馬拱前程，
+    en: look — salary and horse flank the road ahead;
+  - line_number: 3
+    zh: 若得貴人多得利，
+    en: if a benefactor comes, much profit comes with him;
+  - line_number: 4
+    zh: 和合自有兩分明。
+    en: and accord will show itself plainly, on both sides.
+keywords:
+  favourable:
+    en:
+    - salary and horse on the road
+    - a benefactor's hand
+    - accord that becomes plain
+    - patience through the middle
+    zh:
+    - 禄马在前程的路上
+    - 贵人的一把力
+    - 和顺会自己显出来
+    - 中段要耐得住
+  guarded:
+    en:
+    - hearing a promise where the poem gives a condition
+    - quarrelling in the middle of a matter
+    - expecting the gain without the help
+    zh:
+    - 把条件听成了承诺
+    - 事情做到一半就起争执
+    - 只想要进项，不要人帮
+reading_notes:
+- term: 祿馬
+  pinyin: lù-mǎ
+  en: 'salary-and-horse: at once the two *almanac stars that mark office and income*
+    and the plain sense of *advancement*; The line reads the road, not the person.'
+  zh: 禄马：既指旧历书里主管官位与进项的两颗星，也指「前程上进」这个平常意思。这一句看的是路，不是人。
+- term: 若得
+  pinyin: ruò-dé
+  en: '"if you come by": the conditional the sentence turns on; One text branch prints
+    求得 (*seek and get*), and the difference decides how the lot is used: this is a
+    condition, not a promise.'
+  zh: ——整句就落在这个条件上。另有一路版本作「求得」（去求而得），这一字之差决定这签怎么用：它是条件，不是允诺。
+- term: 中間
+  pinyin: zhōng-jiān
+  en: '"what lies between": at once *the middle of the matter* and *the interval of
+    time*; The lot is answering the middle, which is the hard part.'
+  zh: ：既指一件事的中段，也指中间那段时间。这签回答的正是最难的中段。
+plain_meaning:
+  en: 'The middle of a matter is the hard part, and the poem answers it with a condition
+    rather than a promise: the signs of advancement are on either side of the road,
+    and if help arrives, the profit and the accord arrive with it. Read it as "if",
+    not as "when".'
+  zh: 一件事的中段最难，这首诗给的是条件句，不是承诺：前程的吉兆就在路的两旁，若有帮手来，利与和顺也跟着一起到。把它读成「如果」，不要读成「何时」。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will I get the job?
+    zh: 我能不能拿到这个职位？
+  rewritten_to:
+    en: What does the road ahead depend on, and what is mine to do?
+    zh: 前面的路取决于什么，哪些是我能做的？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法为封闭式是非题。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A good, consenting season; the accord becomes plain once both sides say what
+      they want.
+    zh: 这是相合的一季；两边把各自要的说清楚，和顺自然就明明白白。
+    compliance_tag: null
+  career:
+    en: The signs of advancement are around you and the one variable is help from
+      outside — ask for it.
+    zh: 前程的吉兆就在你周围，唯一的变数是外来的助力——去开口请人帮。
+    compliance_tag: null
+  money:
+    en: The gain is modest and comes through connections rather than through volume.
+      *(Not financial advice.)*
+    zh: 进项不大，而且是从人情关系上来的，不是靠量走出来的。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Recovery is supported; steady attention rather than a quick fix. *(Not medical
+      advice.)*
+    zh: 调养是有支撑的；要紧的是持续照看，不是求一个速效。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Good air in the household and a family matter coming to a round finish.
+    zh: 家里气象好，一件家事会圆圆满满地收尾。
+    compliance_tag: null
+  travel_moving:
+    en: There are people who will look after you on the road.
+    zh: 路上会有人照应你。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water pays those who keep in accord — a steady return, not a single haul.
+    zh: 水上回报那些与人保持和气的人——是细水长流的进项，不是一网大发。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season brings a harvest and the work is rewarded; the returns favour the
+      patient.
+    zh: 这一季有收成，做工也有回报；收益偏向耐得住的人。
+    compliance_tag: null
+  timing:
+    en: The accord becomes plain in the middle of the season — a season, never a date.
+    zh: 和顺在这一季的中段显出来——讲一季，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Reading the condition as a promise; quarrelling in the middle of a matter.
+    zh: 把条件读成承诺；事情做到一半就争执起来。
+    compliance_tag: null
+  reassurance:
+    en: What is needed is already on the road.
+    zh: 需要的东西，已经在路上了。
+    compliance_tag: null
+stories:
+- title:
+    zh: 蕭何追韓信
+    en: Xiao He Pursues Han Xin
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 韩信是秦朝末年的一员将才。他早先投在项羽帐下，做过郎中这样的小官。郎中在当时只是侍卫一类的小职。他几次献计，项羽都不采纳，便转投刘邦。刘邦起初也没看重他，只让他做管理粮草的小官。丞相萧何是刘邦手下管政务的第一把手。他和韩信谈过几次，认定此人有大才。韩信见迟迟得不到重用，一天夜里骑马走了。萧何听到消息，来不及向刘邦报告，连夜亲自去追。有人跑去告诉刘邦，说丞相也逃了，刘邦又怒又急。萧何一路追到韩信，反复劝他回去。刘邦问萧何，为什么要去追一个逃走的人。萧何说，别的将领到处都找得到，像韩信这样的人，全国再找不出第二个；要争天下，非用他不可。刘邦就选定日子，先吃素净身，表示郑重，再设起高坛，按大礼拜韩信做大将。全军上下都很吃惊。韩信后来帮刘邦平定关中，又击败项羽，成了汉朝开国的功臣。这一签说求得贵人多得利，又说和合自有两分明，正配萧何连夜追赶、把韩信举荐上坛的一段。
+    en: Han Xin was a talented general at the end of the Qin. He first joined Xiang
+      Yu's camp as a langzhong, a minor post that was only a kind of guard. Xiang
+      Yu would not take the plans he offered, so he went over to Liu Bang. Liu Bang
+      did not think much of him either, and made him an officer in charge of grain
+      and fodder. The chancellor Xiao He ran government affairs for Liu Bang. He talked
+      with Han Xin several times and decided this man had great ability. Seeing that
+      no office came, Han Xin mounted a horse and left one night. Xiao He heard of
+      it, had no time to report to Liu Bang, and went after him that night. Someone
+      told Liu Bang the chancellor had run off too, and he was angry and alarmed.
+      Xiao He caught up with him and urged him again and again to come back. Liu Bang
+      asked why he would chase a man who had run away. Xiao He said other generals
+      can be found anywhere. A man like Han Xin cannot be found a second time in the
+      whole realm. To contend for the empire, he had to be used. Liu Bang then picked
+      a day. He fasted and purified himself to show he took the matter seriously,
+      then built a high altar and made Han Xin a great general with full ceremony.
+      The whole army was astonished. Han Xin later helped Liu Bang pacify Guanzhong
+      and defeated Xiang Yu, becoming a founding minister of the Han.
+  poem_connection:
+    zh: 这一签说求得贵人多得利、和合自有两分明，正配萧何连夜追回韩信、举荐他登坛拜将的一段。
+    en: This lot says that finding a noble helper brings much gain, and that the two
+      sides come clear in their own time - Xiao He chasing Han Xin through the night
+      and raising him to the altar.
+- title:
+    zh: 薛仁貴攻摩天嶺
+    en: Xue Rengui Storms Motian Ridge
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛仁贵是唐朝初年的名将。唐朝的都城在长安。他早年投军，跟随太宗出征辽东，一开始并不得志，功劳常被上司张士贵记在别人名下，长年屈居军中。征东路上有一处摩天岭，山势高峻，道路又窄又险，守关的人马防备严密。薛仁贵和同伴周青等人攀着山崖、越过险处，攻下了岭上的关隘，打通了前进的要路。这一战之后，他的战功才渐渐为人所知。摩天岭是征东路上最险的一处关口，破了这一险，前路才通。他后来又立下不少战功，官至大将军。
+    en: Xue Rengui was a famous general of the early Tang. The Tang capital was at
+      Chang'an. He joined the army young and followed Emperor Taizong on the campaign
+      in Liaodong. At first he did not get on. His record was often credited to other
+      men by his superior Zhang Shigui, and he stayed low in the ranks for years.
+      On the road east there was a place called Motian Ridge. The mountain was steep,
+      the path narrow and dangerous, and the guard post was well defended. Xue Rengui
+      and his companions, Zhou Qing among them, climbed the cliffs and crossed the
+      bad ground. They took the pass on the ridge and opened the road ahead. After
+      that fight his service began to be known. Motian Ridge was the most dangerous
+      gate on the eastern road. Once that danger was broken, the way forward was open.
+      He went on to win more honors and rose to the rank of senior general.
+  poem_connection:
+    zh: 签诗说禄马拱前程、求得贵人多得利；薛仁贵破险建功、其功终显，正合这一层。
+    en: The poem says rank and horse carry the prospect forward, and that finding
+      good backers brings gain. Xue Rengui broke the danger and his merit finally
+      showed, which fits.
+- title:
+    zh: 楊管翠玉同坐馬
+    en: Yang Guan and Cuiyu Ride One Horse
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杨管和翠玉同坐一匹马。杨管是男子，翠玉是女子，翠玉这个名字取美玉的意思，是旧时女子常用的名字。两人合乘一马，一路同行。马是赶路的脚力，同坐一马，就要前胸贴着后背，一个人的安稳靠另一个人扶住。旧时出门行旅，同骑的多是至亲、夫妻或生死同伴，彼此有依靠，才敢上远路。这一节所留的，就是两个人同乘一马、相扶前行的情景，往后的经过没有传下来。两人同坐一马，一路照应，走到哪里都在一起。旧时出门行旅，同行的人紧挨着坐，路上才不孤单。
+    en: Yang Guan and Cuiyu rode on the same horse. Yang Guan was a man, and Cuiyu
+      was a woman. The name Cuiyu means fine jade, and it was a common name for women
+      in old times. The two traveled together and shared one horse. A horse is what
+      gives a traveler the strength to go on. When two people share a single horse,
+      one sits with chest against the other's back, and each one's steadiness rests
+      on the other's support. In former days, people who rode together on a long journey
+      were usually close kin, husband and wife, or companions bound for life and death.
+      Only people who could rely on each other dared set out on a distant road. All
+      that has come down from this story is the picture of two people on one horse,
+      keeping each other company as they went. What came later is not recorded. Wherever
+      they went, they stayed together.
+  poem_connection:
+    zh: 这一签写同坐一马、两相依附，正扣签诗“看看禄马拱前程”的禄马与“和合自有两分明”的和合。
+    en: The one horse and two riders answer the lot's image of lu and ma, salary and
+      horse, pressing forward together, and its line that two sides in harmony become
+      clear.
+- title:
+    zh: 秦瓊救李淵搬家
+    en: Qin Shubao Saves Li Yuan's Household
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 秦琼，字叔宝，是隋末唐初有名的勇将，山东历城人。隋朝末年，唐国公李渊带着一家老小，从都城长安迁往北边的太原。走到临潼山一带，遇上隋炀帝派来的兵将拦截。李渊身边带着家小，队伍散乱，前有山岭，后有追兵，一时进退两难。秦琼本在赶自己的路，却不肯坐视。他手持双锏，那是一种短兵器，冲上去力战，追兵退去，李渊一家得以脱身。事后秦琼不问功劳，也没有留下姓名就走了。后来李渊立国号唐，做了皇帝，秦琼成为唐初的功臣。
+    en: Qin Qiong, whose courtesy name was Shubao, was a famous brave general of the
+      late Sui and early Tang. He came from Licheng in Shandong. In the last years
+      of the Sui dynasty, Li Yuan, the Duke of Tang, moved his whole household from
+      the capital Chang'an north to Taiyuan. Near Lintong Mountain they met troops
+      sent by Emperor Yang of Sui to block their way. Li Yuan had his family with
+      him, and his column was in disorder. Mountains lay ahead and pursuers behind,
+      and for a time he could neither advance nor retreat. Qin Qiong was travelling
+      his own road, but he would not stand by and watch. He held his pair of short
+      weapons and charged forward, fighting hard. The pursuers fell back, and Li Yuan's
+      family got away. Qin Qiong asked for no credit and left without giving his name.
+      Later Li Yuan founded the Tang dynasty and became emperor. Qin Qiong became
+      one of the founding ministers of Tang.
+  poem_connection:
+    zh: 签诗说看看禄马拱前程，求得贵人多得利。李渊一家途中遇阻，得秦琼这位贵人相救而脱险，正合这一层。
+    en: The lot poem says emolument and horse support the road ahead, and that one
+      gains much by finding a noble helper. Li Yuan's household, blocked on the road,
+      was saved by Qin Qiong, just this sense.
+- title:
+    zh: 邵良遇玉娘配
+    en: Shao Liang Meets Yuniang and Marries Her
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这则故事里只有两个人名，一男一女。邵良是求娶的一方，玉娘是待嫁的女子。故事讲的是两人相遇、说合、成婚的一段：男子上门求亲，女方家里先要相看，中间有长辈与媒人往来说合，两边把话讲妥，各自点头，亲事就定了下来，两家从此通了往来。题名用了“遇”与“配”两个字，遇是相遇，配是成配，所以看的是一场婚事，不是一个案子或一场交战。看这则故事，讲得着的只有相遇与成配这一层：成亲之后，两家从此通了往来，逢时节彼此走动。
+    en: This story has only two names in it, one man and one woman. Shao Liang is
+      the one asking for the marriage, Yuniang the woman waiting to be married. What
+      is told is a stretch of meeting, agreeing and marrying. The man comes to the
+      house to ask for the match, and the woman's family first wants to look him over.
+      Elders and a go-between carry words back and forth, the two sides settle the
+      terms and each nods, and the match is fixed. From then on the two families have
+      dealings. The title turns on meeting and matching - coming upon someone, and
+      being joined to them. So what is seen here is a marriage, not a court case or
+      a battle. All this story reaches is the layer of meeting and being joined. After
+      the wedding the two families keep up their visits and call on each other at
+      the festivals.
+  poem_connection:
+    zh: 签诗有“求得贵人多得利，和合自有两分明”一句，故事题取“遇玉娘配”四字，正是相遇成配、两边和合这一层。
+    en: The poem speaks of gain through a noble helper and of two sides coming clear
+      in harmony; the title's meet and match are just meeting and being joined, with
+      both sides at peace.
+- title:
+    zh: 邵良父子黃玉娘叫合
+    en: Shao Liang and His Son Join with Huang Yuniang Through a Mediator
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事只留下一个题名，没有传下具体经过。题里有三方：邵良父子是一对父子，黄玉娘是一位女子，此外还藏着一个出面说合的人。题中的“叫合”，就是请人从中说合、撮合的意思。讲的是有人从旁牵线，把一桩事情说成。父子与一位女子本来未必相干，全靠中间人出力，两边才连在一处。至于父子二人因何事与黄玉娘相干，中间又由谁出面，如今只知题目，说不出细节。题名把人物与一个动作并在一处，重心就落在“叫合”两个字上。这样的事，成与不成，全看那个中间人肯不肯出力。题名就把这一层点明了。
+    en: Only the title of this story has survived. No account of what actually happened
+      was handed down. Three parties appear in the title. Shao Liang and his son are
+      a father and a son. Huang Yuniang is a woman. Behind them stands someone who
+      stepped forward to speak on their behalf. The words for bringing people together
+      in the title mean asking a person to mediate and make a matter succeed. The
+      story is about someone working from the side to set a match and bring a thing
+      to an agreement. A father and son and a woman need not have had anything to
+      do with each other. Only because a middleman put in effort were the two sides
+      joined. Why the father and son had dealings with Huang Yuniang, and who the
+      middleman was, is now unknown. Only the title remains, and it gives no details.
+      The title puts the people and one action side by side, so the weight falls on
+      the two words for mediation. Whether such a matter succeeds depends on whether
+      that middleman is willing to put in the effort. The title makes this point clear.
+  poem_connection:
+    zh: 签诗“求得贵人多得利”“和合自有两分明”，讲的正是要有贵人出面说合、两边才能分明。
+    en: The lot's poem says a noble helper brings much gain, and that when both sides
+      agree each is clearly seen. It is about needing a helper to mediate.
+- title:
+    zh: 鬼谷子演課
+    en: Guiguzi Casts a Divination
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 战国时期，有一位隐士住在鬼谷这个地方，人们便称他鬼谷子。传说他通晓天文、历法和阴阳之术，也懂用兵。苏秦、张仪、孙膑、庞涓这些后来出名的人，都跟他学过。有人来问事情，他先看当天的天干地支，再排出禄马落在什么方位，然后据此说这个人前程顺不顺。禄马是旧时占课里的说法，指掌人福禄和走动的一组星位。来问的人得了他的指点，多半能照着趋吉避凶。鬼谷子替人排课、推演前程的这段事，多在民间流传，各家的排法也不一样。
+    en: During the Warring States period, a hermit lived at a place called Guigu,
+      so people called him Guiguzi. He is said to have known astronomy, the calendar,
+      and the arts of yin and yang, and to have understood warfare as well. Su Qin,
+      Zhang Yi, Sun Bin, and Pang Juan, all famous later, studied under him. When
+      someone came with a question, he first noted the heavenly stems and earthly
+      branches of that day. Then he worked out where the lu-ma fell. From this he
+      told the person whether their prospects ran smooth. Lu-ma is an old term in
+      divination. It means a set of star positions that governs a person's fortune
+      and their travels. Those who received his guidance could mostly seek good and
+      avoid harm. This tale of Guiguzi casting readings and working out people's prospects
+      passed down mostly among common people. The methods used by different schools
+      are not the same.
+  poem_connection:
+    zh: 签诗有“看看禄马拱前程”，禄马正是排课时用的字眼，故配鬼谷子排课推演一事。
+    en: The poem has the line watch the lu-ma hold up your prospects; lu-ma is the
+      very term used in casting a reading, so it is paired with Guiguzi working out
+      fortunes.
+- title:
+    zh: 薛丁山著飛刀
+    en: Xue Dingshan Wounded by the Flying Dagger
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛丁山是唐朝名将薛仁贵的儿子，也是唐朝西征故事里的主将。西征的时候，敌阵中有善用飞刀的人。飞刀一出，随着名号飞出，能在几十步以外伤人，唐军将领多被他困住。薛丁山在阵前与敌将相搏，被飞刀打中，负伤退下。后来他与樊梨花结亲，得樊梨花相助，才破掉飞刀的招法，西征的战局就有了转机。樊梨花是唐军中的女将，与薛丁山早有婚约。飞刀一破，敌阵再无凭仗，唐军才得以向前推进。中飞刀和收飞刀讲的是同一段故事的两面：先是不敌受伤，后来得到贵人相助，转危为安。
+    en: 'Xue Dingshan was the son of the famous Tang general Xue Rengui and the leading
+      commander in the tales of the Tang campaign to the west. In that campaign there
+      was a man on the enemy side skilled with flying daggers. When a dagger flew
+      out it came with its name and could wound a man dozens of paces away, and many
+      Tang generals were pinned down by it. Xue Dingshan fought an enemy general before
+      the lines, was hit by a dagger, and fell back wounded. Later he married Fan
+      Lihua. With her help he broke the trick of the flying daggers, and the western
+      campaign turned. Fan Lihua was a woman general in the Tang army and had long
+      been promised to Xue Dingshan. Once the daggers were broken, the enemy ranks
+      had nothing left to rely on, and the Tang army could push forward. Being struck
+      by the dagger and stopping the dagger are two faces of one stretch of story:
+      at first he could not hold and was wounded, and later he had a helper and turned
+      danger into safety.'
+  poem_connection:
+    zh: 签诗说求得贵人多得利，和合自有两分明。薛丁山中刀之后得樊梨花相助解厄，两家结亲而后破敌，正合这一层。
+    en: The lot poem says one gains much by finding a noble helper, and that the two
+      sides come clear. Xue Dingshan is wounded, then helped by Fan Lihua, and the
+      two families marry and break the enemy.

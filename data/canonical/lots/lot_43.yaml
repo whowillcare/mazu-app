@@ -1,0 +1,446 @@
+id: 43
+lot_number: 43
+ganzhi:
+  zh: 辛丑
+  pinyin: Xin-chou
+title:
+  en: Li Sanjie and Her Son Meet by the Well
+  zh: 李三姐母子井邊相會
+hexagram:
+  zh: 水风井
+  name_and_structure_en: Jing (Water over Wind)
+  binary_code: ●○●○○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 李三姐母子井邊相會
+    en: Li Sanjie and Her Son Meet by the Well
+  variants_en:
+  - Liu Zhiyuan Takes the Throne
+  - Li Siyuan Enters Luoyang
+  - The Pavilion Chief of Sishui Becomes Son of Heaven
+  - Emperor Hongwu Urges the People to Farm
+  - Xue Rengui Is Appointed a Great General
+  - The Third Aunt Brings Good News
+  - Su Qin Comes Home Pretending to Have Failed
+  variants_zh:
+  - 劉知遠稱帝
+  - 李嗣源入洛陽
+  - 泗水亭長作天子
+  - 洪武君勸農
+  - 薛仁貴拜為大將
+  - 三嬸報喜
+  - 蘇秦回家假不第
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'a waiting season, good after its turn: 凡事 候時過月半。貴人成／家運 光輝門庭／治病 月半過。有貴人／來人
+      月光到／討海 月半過大進 - set against 功名 不就／出外 不利／移居 不可／月令 了錢／歲君 起倒／婚姻 平平 (jie_yue_score
+      13)'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'The temple judgements read this as a lot of waiting: household fortune,
+      health, visitors, boat work, sea work, fry and distant news all place the improvement
+      after the middle of the month, and the entries on advancement and the home leave
+      room; at the same time advancement, travel, moving house and the month''s entry
+      point to resistance in the earlier stretch. A level lot: hold first, act after.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（庙本解曰原文，照抄）：凡事 候時過月半。貴人成／作事 月半好／家事 喜遇貴人／家運 光輝門庭／婚姻 平平／求兒
+      平正。且候寬緩／六甲 先女後男／求財 未遇時。月半合／功名 不就。得意允進／歲君 起倒／治病 月半過。有貴人／出外 不利／經商 先無後有／行舟 小有利益／移居
+      不可／失物 月光在／官事 不畏／討海 月半過大進／作塭 後有大利／魚苗 月半過有利／月令 了錢／尋人 月半過有人報／遠信 中旬可至。总评：平签，宜候时（jie_yue_score
+      13）——多类目把好转落在「月半」之后，功名「不就。得意允進」（同一项自带反读）、出外「不利」、移居「不可」三处是当下的阻力；月令「了錢」提醒过渡期有花用。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词把本签读成一支候时的签：家运、治病、来客、行舟、讨海、鱼苗、远信多项都把好转放在月中之后，功名与家宅两项留有余地；同时功名、出外、移居与月令四项指向前一段的阻力。吉凶相半的平签，先守后动。
+provenance:
+  editorial_note: '*the temple list carries the same tale as 偶才母井邊相會; it adds two
+    stories the wiki group does not have: 三嬸報喜; 蘇秦回家假不第.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 一年作事急如飛，
+    en: All year you have worked as if in headlong flight;
+  - line_number: 2
+    zh: 君爾寬心莫遲疑，
+    en: set your heart at ease, and do not waver;
+  - line_number: 3
+    zh: 貴人還在千里外，
+    en: the helper you need is still a thousand li away;
+  - line_number: 4
+    zh: 音信月中漸漸知。
+    en: word of it comes to you little by little, toward mid-month.
+keywords:
+  favourable:
+    en:
+    - keeping the heart easy
+    - the helper who is on the way
+    - waiting past mid-month
+    - quiet word from a distance
+    zh:
+    - 把心放宽
+    - 贵人正在路上
+    - 过了月中再等
+    - 远处来的轻声消息
+  guarded:
+    en:
+    - haste carried through the whole year
+    - fretting while the helper is still far
+    - reading a delay as a refusal
+    - moving house in a thin season
+    zh:
+    - 整年都在急
+    - 贵人在远处时自己干着急
+    - 把迟来读成回绝
+    - 在淡季里搬家
+reading_notes:
+- term: 寬心
+  pinyin: kuān-xīn
+  en: 'to make the heart wide, to ease the mind: loosen your grip on the pace of things;
+    take heart and be patient; it addresses mood, not a promised outcome.'
+  zh: 既是把手里那份对快慢的紧握松开，也是稳住心气、耐着性子；它管的是心情，不是许诺一个结果。
+- term: 貴人
+  pinyin: guì-rén
+  en: 'the noble one, the person of influence who helps: a powerful benefactor who
+    can move the matter; in the older sense, an auspicious person whose arrival turns
+    one''s luck; the poem places them far off.'
+  zh: 既是能推动这件事的那位有力者，也是旧说里一到来就把人的运气转过来的人；诗把这位放在千里之外。
+- term: 月中
+  pinyin: yuè-zhōng
+  en: 'the middle of the month: mid-way through the current month; the middle stretch
+    of a cycle or season; a window of time, not a fixed date.'
+  zh: 既是本月中间那一段，也是一个周期或一季的中段；是时间的窗口，不是定下来的日子。
+plain_meaning:
+  en: 'A season of hurry that wants slowing: you have been pressing hard all year,
+    yet the help you need is still far off and word of it reaches you only gradually.
+    Ease your mind, set the doubt down, and hold your course toward the middle of
+    the month, when the picture begins to clear.'
+  zh: 这是一季该慢下来的急：一年到头你一直赶着做，而你要的那份助力还在远处，消息只能一点一点到你手上。把心放宽，把疑心放下，守住方向；到月中的那一段，局面开始清楚。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Should I quit my job and move abroad right now?
+    zh: 我现在该辞职、搬到国外去吗？
+  rewritten_to:
+    en: What is mine to prepare while the help I need is still far off?
+    zh: 在我要的那份助力还在远处的时候，有什么是我可以准备的？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问是封闭式的是非题，改为回到自己这一侧的准备问题。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Ordinary and steady - not this season's main gift; do not hurry a decision
+      here.
+    zh: 平平稳稳——不是这一季的主要礼物；这里不要催出一个决定。
+    compliance_tag: null
+  career:
+    en: Advancement does not come yet; the helpful figure is still far off, so keep
+      the work sound and wait.
+    zh: 升进还不到；能帮上忙的人还在远处，把事做扎实，等。
+    compliance_tag: null
+  money:
+    en: Money does not come at the right time yet; it comes together after the middle
+      of the month. (Not financial advice.)
+    zh: 时机还没对上；过了月中才凑得起。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The illness clears after the middle of the month and there is help in the
+      matter; seek care rather than worry. (Not medical advice.)
+    zh: 过了月中这一项会转好，事上也有人帮；去求治，不要自己愁。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: A good season for the house - a benefactor visits and the door is brightened.
+    zh: 家宅的好时节——有贵人上门，门庭添光。
+    compliance_tag: null
+  travel_moving:
+    en: Going far is out of season and moving house is not advised; keep to what is
+      near.
+    zh: 远行不合时、搬家不宜，守住近处。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Small gain on the water; the larger profit waits past mid-month.
+    zh: 水上小有进益；更大的利要等过了月中。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A modest harvest; after the middle of the month the ponds and the fry do better.
+    zh: 收成不厚；过了月中，塭与鱼苗好一些。
+    compliance_tag: null
+  timing:
+    en: The window is the second half of the month; word of what you await is still
+      on its way - never a date.
+    zh: 窗口是本月的后半段；你等的东西还在路上被人转递——只讲窗口，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Haste and second-guessing; moving house or setting out in a thin season.
+    zh: 急躁与反复后悔；淡季里搬家或动身。
+    compliance_tag: null
+  reassurance:
+    en: The counsel is patience, and the poem names help on the way; the delay is
+      not a refusal.
+    zh: 这一签说的是耐心；诗点出助力正在路上，迟不是回绝。
+    compliance_tag: null
+stories:
+- title:
+    zh: 李三姐母子井邊相會
+    en: Li Sanjie and Her Son Meet by the Well
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 李三娘是李员外的女儿，嫁给刘知远。父母去世后，兄嫂李洪一夫妇要独霸家产，把刘知远逼走，让他外出投军，又逼三娘改嫁。三娘不肯，兄嫂就罚她白天挑水、夜里推磨，日子过得很苦。三娘在磨房里生下了一个儿子，没有剪刀，用牙咬断了脐带，孩子就取名咬脐郎。嫂嫂想害这个孩子，靠窦老把孩子送到太原刘知远那里抚养。十六年后，咬脐郎长大，出外打猎，追赶一只白兔，追到井边，遇上了正在打水的母亲，母子这才相认。刘知远随后赶到，一家人团圆。
+    en: Li Sanniang was the daughter of Squire Li and married Liu Zhiyuan. After her
+      parents died, her older brother Li Hongxin and his wife wanted the family property
+      for themselves. They drove Liu Zhiyuan out and made him go away to join the
+      army, and then pressed Sanjie to marry again. She refused, so her brother and
+      his wife punished her by making her carry water by day and turn the mill by
+      night, and her days were very hard. Sanjie gave birth to a son in the mill room.
+      She had no scissors, so she bit through the cord with her teeth, and the boy
+      was named Yaoqilang, Bite-the-Cord Boy. Her sister-in-law meant to harm the
+      child, and old man Dou carried him to Taiyuan to Liu Zhiyuan to raise. Sixteen
+      years later Yaoqilang had grown up. He went out hunting and chased a white rabbit.
+      He followed it to a well and met his mother there, drawing water, and mother
+      and son knew each other at last. Liu Zhiyuan arrived soon after, and the family
+      was reunited.
+  poem_connection:
+    zh: 签诗说宽心莫迟疑、贵人还在千里外、音信月中渐知；母子井边重逢，正合这一层。
+    en: The poem says keep an easy heart and do not delay, that the good backer is
+      still a thousand miles off, and that news reaches one slowly. Mother and son
+      by the well fits.
+- title:
+    zh: 劉知遠稱帝
+    en: Liu Zhiyuan Takes the Throne
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘知远是太原人，年轻时家里穷，在后唐的军队里当兵。他娶了李三娘为妻，因为受到妻兄李洪信夫妇的忌恨，离家投到河东节度使石敬瑭部下。刘知远为人沉静有谋略，屡立战功，官做到河东节度使、北平王。契丹南下灭掉后晋，中原一时无主，他在太原称帝，国号汉，后人称他后汉高祖，随后下诏定都汴州。他与李三娘从军发迹、妻儿受苦、井边相会、终于团圆的一段，也在民间讲了很久。后汉是五代里最短的一朝，只传了两代。他在军中多年，一步步升到最高的位置上。
+    en: Liu Zhiyuan came from Taiyuan. His family was poor when he was young, and
+      he served as a soldier in the army of the Later Tang. He married Li Sanniang.
+      Because the wife's elder brother, Li Hongxin, and his wife disliked him, he
+      left home and joined Shi Jingtang, the military governor of Hedong. Liu Zhiyuan
+      was a quiet man with plans of his own, and he won merit again and again, rising
+      to be military governor of Hedong and Prince of Beiping. When the Khitan came
+      south and destroyed the Later Jin, the central lands were left without a ruler
+      for a time. He took the throne in Taiyuan and named his state Han; later people
+      called him Emperor Gaozu of the Later Han. He then ordered the capital to be
+      set at Bianzhou. The story of him and Li Sanniang, from their rise in the army
+      and her years of hardship to their meeting by the well and their final reunion,
+      was told by people for a long time. The Later Han was the shortest of the Five
+      Dynasties, lasting only two reigns.
+  poem_connection:
+    zh: 这一签写事业骤然兴起、消息还在远方而终会传到，正扣签诗“贵人还在千里外，音信月中渐渐知”。
+    en: A career that rises at once while news is still far off and reaches home at
+      last fits a lot whose poem says the helper is a thousand li away and word comes
+      gradually.
+- title:
+    zh: 李嗣源入洛陽
+    en: Li Siyuan Enters Luoyang
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李嗣源是后唐庄宗李存勖的义兄，以骁勇善战出名，当时人称他李横冲。他在军中多年，部下多愿听他号令。庄宗末年，邺都发生兵变，庄宗派李嗣源带兵去平乱。到了邺都，军士哗变，反把李嗣源推为首领，要他带兵南下。李嗣源本打算脱身，军众却不肯散去，他只好被众人推着走，转而南下汴州。庄宗从洛阳东出，听说有变就折回，部下离散，在兴教门被伶人郭从谦杀死。李嗣源于是进入洛阳，即位为帝，就是后唐明宗。他即位后革除前朝的苛政，罢掉不急的事务。
+    en: Li Siyuan was the sworn elder brother of Li Cunxu, Emperor Zhuangzong of Later
+      Tang. He was known for his daring and skill in war, and people of the time called
+      him Li the Charger. He spent many years in the army, and his men were glad to
+      take his orders. In the last years of Emperor Zhuangzong, mutiny broke out at
+      Yedu, and the emperor sent Li Siyuan with troops to put it down. When he reached
+      Yedu, the soldiers mutinied and pushed Li Siyuan forward as their leader, asking
+      him to take them south. Li Siyuan meant to get away, but the soldiers would
+      not disperse, and he was carried along by them and turned south towards Bianzhou.
+      Emperor Zhuangzong left Luoyang going east, and when he heard of the change
+      he turned back. His men scattered, and he was killed at Xingjiao Gate by the
+      actor Guo Congqian. Li Siyuan then entered Luoyang and took the throne as Emperor
+      Mingzong of Later Tang. After taking the throne he did away with the harsh policies
+      of the former court and dropped the matters that were not urgent.
+  poem_connection:
+    zh: 签诗说一年作事急如飞，君尔宽心莫迟疑。邺都变起、事势急转，正合“急如飞”一句。
+    en: The lot poem says a year's work flies like the wind, and tells one to be at
+      ease and not hesitate. The mutiny at Yedu turns the hour fast, just that flying
+      speed.
+- title:
+    zh: 泗水亭長作天子
+    en: The Pavilion Chief of Sishui Becomes Son of Heaven
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘邦是沛县丰邑人，丰邑在今天江苏丰县一带，他是汉朝的开国皇帝。他壮年时做过泗水亭长。亭长是秦朝乡里最低的一级小吏，管捕盗贼、接送过往的人。他曾押送服役的人去骊山，路上逃走了不少。他索性把剩下的人都放了，带着十几个人躲进芒砀山。做亭长的时候，他到过咸阳，见过秦始皇出巡的排场。陈胜起兵之后，他也在沛地起事，号称沛公，后来依靠项梁和楚怀王，先于诸侯带兵入关，接受秦王子婴的投降，与关中的父老约法三章，就是只定三条简单的法令。项羽入关后，他被封为汉王，居巴蜀汉中。此后他与项羽相持几年，终于在垓下一战破了楚军，做了皇帝。跟他起事的多是沛县的乡人，萧何、曹参、樊哙都在其中。
+    en: Liu Bang was a man of Feng in Pei county, Feng being in the Fengxian area
+      of Jiangsu today. He became the founding emperor of the Han. In his prime he
+      served as Pavilion Chief of Sishui. A pavilion chief was the lowest rank of
+      country officer under the Qin. He was in charge of catching robbers and of seeing
+      travelers through. He once escorted men going to labor service to Mount Li,
+      and a good many of them ran off along the way. He simply freed the rest, took
+      a dozen men into Mount Mangdang, and hid there. While he was a pavilion chief
+      he had been to Xianyang and seen the procession of the First Emperor on tour.
+      After Chen Sheng raised troops, he too rose in Pei, calling himself Duke of
+      Pei. Later, leaning on Xiang Liang and King Huai of Chu, he took troops through
+      the passes ahead of the other lords. He received the surrender of Ziying, king
+      of Qin, and agreed three simple laws with the elders of the region. After Xiang
+      Yu entered the passes he was made King of Han, holding Ba, Shu and Hanzhong.
+      After that he held out against Xiang Yu for several years. At last he broke
+      the Chu army in one battle at Gaixia and became emperor. Most of those who rose
+      with him were men of Pei county, among them Xiao He, Cao Shen and Fan Kuai.
+  poem_connection:
+    zh: 签诗说“贵人还在千里外，音信月中渐渐知”，正与刘邦起自亭长、位次第而至的经历相合；题名取的是从微职到大位一层。
+    en: The poem says the noble helper is still a thousand li away and word comes
+      by degrees toward the middle of the month; Liu Bang began as a pavilion chief
+      and rose step by step to the high seat.
+- title:
+    zh: 洪武君勸農
+    en: Emperor Hongwu Urges the People to Farm
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 洪武君就是明朝的开国皇帝朱元璋。他出身濠州的农家，濠州在今天的安徽凤阳。他年少时给人做佃户，又当过和尚，对田里的活计很熟悉，深知种田人的辛苦。登基以后，他对农事十分留意。洪武年间，朝廷几次下令，要地方官劝课农桑，督促百姓栽种桑树、麻和木棉，又规定田亩的数目，以里社为单位设仓备荒。他还编了一部教民的书，叫百姓习读。这些做法，都是想让百姓有地可种、有粮可吃。民间把这位布衣出身的皇帝与农事编成故事，说他亲自出宫劝农，向老农问话，减免赋税，赈济灾民。
+    en: Emperor Hongwu was Zhu Yuanzhang, founder of the Ming dynasty. He came from
+      a farming family in Haozhou; Haozhou is present-day Fengyang in Anhui. As a
+      young man he worked as a tenant farmer for others and was also a monk. He was
+      familiar with work in the fields and knew well how hard the life of a farmer
+      was. After he took the throne he paid close attention to farming. In the Hongwu
+      years the court ordered local officials several times to encourage farming and
+      sericulture, pressing the people to plant mulberry, hemp, and cotton. It also
+      set the number of fields and set up granaries by district against famine. He
+      also compiled a book to teach the people and had them study it. All of this
+      was meant to let the people have land to farm and grain to eat. Among the people,
+      this emperor of commoner birth was joined to farm matters in stories. They say
+      he went out of the palace himself to urge farming on, questioned old farmers,
+      reduced taxes, and gave relief to disaster victims.
+  poem_connection:
+    zh: 签诗“一年作事急如飞”“音信月中渐渐知”，农事宜及时而不失时，正合劝农一节。
+    en: The lot's poem says work in a year goes fast as flying, and that news is known
+      by degrees in the middle of the month. Farm work that must be done in good time
+      fits this call to farming.
+- title:
+    zh: 薛仁貴拜為大將
+    en: Xue Rengui Is Appointed a Great General
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛仁贵是绛州龙门人，家在今天的山西河津一带。他年轻时家里穷，靠种田过日子，力气却大得过人。唐太宗亲自征讨辽东，薛仁贵应募从军，编在将军张士贵的部下。辽东在今天辽宁一带。安市城一战，唐军和高丽兵相持不下。薛仁贵想立一件大功，就换上白衣白甲，手里拿着长戟，腰间挂着弓箭，大声呼喊着冲进敌阵，冲到哪儿都挡不住。唐军趁势向前，高丽兵大败。唐太宗在远处望见阵中那个白衣冲杀的人，派人去问他是谁。战事结束后，太宗召见他，给了丰厚的赏赐，授他游击将军。这一签说一年作事急如飞，又说贵人还在千里外、音信月中渐渐知，正配薛仁贵从军远征、以战功得到赏识的一段。
+    en: Xue Rengui was a man of Longmen in Jiangzhou, whose family home was in what
+      is today the Hejin area of Shanxi. He was poor when young and lived by farming,
+      but his strength was beyond other men's. Emperor Taizong of the Tang went in
+      person to campaign in Liaodong, and Xue Rengui enlisted in the army and was
+      placed under the general Zhang Shigui. Liaodong is in what is today Liaoning.
+      At the battle of Anshi Fortress the Tang army and the Goguryeo troops were locked
+      together. Xue Rengui wanted to win great merit, so he put on white clothes and
+      white armor, took a long halberd in his hand, hung a bow at his waist, and charged
+      the enemy lines with loud shouts. Nothing could stop him wherever he went. The
+      Tang army pressed forward on the strength of it, and the Goguryeo troops were
+      badly beaten. Emperor Taizong, watching from far off, saw the man in white cutting
+      through the lines and sent men to ask who he was. When the fighting was over,
+      Taizong called him in, gave him generous rewards, and appointed him General
+      of the Roaming Cavalry.
+  poem_connection:
+    zh: 这一签说贵人还在千里外、音信月中渐渐知，正配薛仁贵从军远征、以战功见用的一段。
+    en: This lot says the noble helper is still a thousand li away, and that news
+      comes clear little by little in the middle of the month - Xue Rengui on campaign
+      far off, recognized for what he did in battle.
+- title:
+    zh: 三嬸報喜
+    en: The Third Aunt Brings Good News
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 战国时候，苏秦先去劝说秦惠王，要秦国用连横的办法吞并六国，秦惠王不听。他的黑貂皮袍穿破了，一百斤黄金也花光了，回家的路费都没有。回到家里，妻子不下织机，嫂子不给做饭，父母也不同他说话。苏秦于是发愤读书，得到一部讲谋略的古书，揣摩了一年，再出去游说燕国、赵国，终于结成六国的合纵之盟，佩上六国相印。合纵就是六国联合起来对付秦国。等他显达还乡，父母听说他要回来，打扫房屋，清出道路，摆下酒食，到三十里外去迎接。这一签题作三婶报喜，说的就是家里人先得到苏秦归来的消息，上门报喜这一段。
+    en: In the Warring States period, Su Qin first tried to persuade King Hui of Qin
+      to use the horizontal alliance to swallow the six states. The king did not listen.
+      His black sable robe wore through, and his hundred jin of gold were spent, so
+      he had not even the fare home. At home his wife did not leave her loom, his
+      sister-in-law did not cook for him, and his parents would not speak to him.
+      Su Qin then studied hard. He got hold of an old book on strategy and brooded
+      over it for a year. Then he went out again to persuade Yan and Zhao, and at
+      last he formed the vertical alliance of the six states and wore the seals of
+      all six as their minister. The vertical alliance means the six states joining
+      together against Qin. When he returned home in glory, his parents heard he was
+      coming. They swept the house, cleared the road, set out wine and food, and went
+      thirty li out of town to meet him. This lot is titled The Third Aunt Brings
+      Good News. It tells of the family getting word of Su Qin's return and coming
+      to bring the news.
+  poem_connection:
+    zh: 签诗“音信月中渐渐知”，正合家中报知苏秦归讯一事；“贵人还在千里外”也合他远游而归之况。
+    en: The poem says news comes gradually in the middle of the month, which fits
+      the household carrying news of Su Qin's return; that the benefactor is still
+      a thousand li away matches his long journey home.
+- title:
+    zh: 蘇秦回家假不第
+    en: Su Qin Comes Home Pretending to Have Failed
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏秦是战国时洛阳人，跟着鬼谷子学习。他外出游说多年，劝说秦惠王没有成功，黄金花光了，貂皮袍子也破了，只好回家。家里人见他落魄都看不起他：母亲骂他，妻子照旧织布不理他，嫂子不肯给他做饭。苏秦发愤读书，夜里研读兵法，困了就用锥子刺自己的大腿，血流到脚上。一年之后他学成，先去劝说赵国和燕国，最后用合纵的办法把六个国家联合起来对抗秦国，自己佩上六国相印。他路过家乡时，兄弟、妻子、嫂子都侧着眼睛不敢正面看他，嫂子趴在地上迎他。合纵之约一成，秦国的兵十多年不敢窥伺函谷关。
+    en: Su Qin was a man of Luoyang in the Warring States period and studied under
+      Guiguzi. He traveled about for years trying to persuade rulers. He failed to
+      persuade King Hui of Qin. His gold was gone and his sable coat was worn out,
+      so he went home. His family looked down on him in his low state. His mother
+      scolded him. His wife went on weaving and paid him no attention. His sister-in-law
+      would not cook for him. Su Qin set his heart on study. At night he read books
+      on war, and when he grew sleepy he stabbed his own thigh with an awl until the
+      blood ran to his feet. A year later he had mastered his learning. He first persuaded
+      Zhao and Yan, and at last joined six states together against Qin by the vertical
+      alliance, and he wore the seals of all six states. When he passed his home town,
+      his brothers, his wife and his sister-in-law turned their eyes aside and did
+      not dare look at him straight, and his sister-in-law bowed low to the ground
+      to welcome him. Once the alliance was made, the armies of Qin did not dare look
+      toward the Hangu Pass for more than ten years.
+  poem_connection:
+    zh: 一签说贵人在千里之外、音信渐渐传来，一签说运通喜至。苏秦困顿待时与佩印荣归，各扣一头。
+    en: One lot says a noble helper is a thousand li away and news comes slowly; another
+      says that when fortune opens, joy arrives. Su Qin's hard waiting and his proud
+      return each answer one side.
+- title:
+    zh: 偶才母井邊相會
+    en: Yaoqilang Meets His Mother at the Well
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘知远入赘李家，受到妻兄李洪信夫妇的忌恨，被迫离家从军。他的妻子李三娘在家受尽折磨。临产时没人帮她，她在磨房里生下儿子，自己咬断脐带，孩子因此乳名叫咬脐郎。兄嫂又要加害，她托人把孩子送到太原，交给刘知远。十六年后，咬脐郎长大成人，因为追赶一只白兔来到井边，遇见一个正在打水的妇人。母子问答之下，才发现这妇人正是自己的母亲。一家人这才骨肉相认。李三娘在家等了十六年，直到儿子长大。咬脐郎把母亲接回太原，一家人终于团圆。
+    en: Liu Zhiyuan married into the Li family. He was hated by his wife's elder brother,
+      Li Hongxin, and Li Hongxin's wife, and he was forced to leave home and join
+      the army. His wife, Li Sanniang, suffered greatly in that house. When her time
+      came no one helped her. She gave birth in the mill room and bit through the
+      umbilical cord herself, and the child was therefore called by the milk name
+      Yaoqilang, the cord-biter. The brother and his wife then wanted to harm the
+      boy, so she had him sent to Taiyuan and given to Liu Zhiyuan. Sixteen years
+      later Yaoqilang had grown up. He chased a white rabbit and came to a well, where
+      he met a woman drawing water. Mother and son questioned each other, and only
+      then did they find that this woman was his mother. So the family knew one another
+      again. Li Sanniang had waited at home for sixteen years, until her son was grown.
+      Yaoqilang took his mother back to Taiyuan, and the family was at last together.
+  poem_connection:
+    zh: 这一签写母子久隔、音信尚在远方而终将得报，正扣签诗“贵人还在千里外，音信月中渐渐知”。
+    en: A mother and son long kept apart, with word still far off but bound to arrive,
+      fits a lot whose poem says the helper is a thousand li away and news comes gradually.

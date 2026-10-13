@@ -1,0 +1,334 @@
+id: 12
+lot_number: 12
+ganzhi:
+  zh: 乙亥
+  pinyin: Yi-hai
+title:
+  en: Liu Zhiyuan Fights the Melon Spirit
+  zh: 劉知遠戰瓜精
+hexagram:
+  zh: 兑为泽
+  name_and_structure_en: Dui (Lake over Lake)
+  binary_code: ●○○●○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 5
+  primary:
+    zh: 劉知遠戰瓜精
+    en: Liu Zhiyuan Fights the Melon Spirit
+  variants_en:
+  - Liu Zhiyuan Joins the Army
+  - The Peach Blossom Girl Lifts the Year-Star
+  - The Peach Garden Oath
+  - Cao Cao Grants Guan Yu Robes and a Horse
+  variants_zh:
+  - 劉知遠從軍
+  - 桃花女解太歲
+  - 桃園三結義
+  - 曹操賜雲
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive — 凡事 月光好／作事 進行有利／婚姻 可合成者吉／求財 好運。得意／經商
+      大吉／行舟 大吉, with 功名 難得 and 月令 破財不遂 as the dent (jie_yue_score +15)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: income, trade and boat passage all lean
+      supportive, while rank and the month''s turn carry real friction and legal matters
+      close slowly. The two directions sit side by side, so we read it as mixed rather
+      than cleanly positive.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 月光好／作事 進行有利／家事 光耀門閭／家運 漸安／婚姻 可合成者吉／求兒 吉／六甲 先男高貴／求財 好運。得意／功名
+      難得／歲君 順吉／治病 月光好。老不痊／出外 有貴人扶／經商 大吉／來人 近日到／行舟 大吉／移居 平正／失物 急尋在。遲難尋／求雨 遠／官事 了錢。求貴人脫／六畜
+      可納／耕作 平平／築室 慢即可／墳墓 地勢有合／討海 微利后有／作塭 漸得如意／魚苗 中有利／月令 破財不遂／尋人 近日／遠信 速至（jie_yue_score
+      +15）。整签偏吉，唯 功名 難得、月令 破財不遂 两处是缺口，婚姻 一项附条件（可合成者吉）。校勘：全一致（六源同文），无裁定改动。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：求财、经商、行舟偏支持，功名与月令明显带阻，官事收尾也慢。两个方向并列，故读作 mixed。
+provenance:
+  editorial_note: '*the temple site carries a different group for this lot: 桃園三結義;
+    曹操賜雲.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 長江風浪漸漸靜，
+    en: The wind and the waves on the Long River are settling by degrees;
+  - line_number: 2
+    zh: 于今得進可安寧，
+    en: now the way forward opens, and there is calm in it;
+  - line_number: 3
+    zh: 必有貴人相扶助，
+    en: there is a benefactor at hand to lend support;
+  - line_number: 4
+    zh: 凶事脫出見太平。
+    en: the bad affair is thrown off, and the calm shows itself.
+keywords:
+  favourable:
+    en:
+    - smooth water after a storm
+    - a benefactor at hand
+    - an opening taken at the right hour
+    - peace after a scare
+    zh:
+    - 风浪过去后的平水
+    - 身边就有贵人
+    - 在恰当的时候进那一步
+    - 虚惊之后的太平
+  guarded:
+    en:
+    - assuming the calm ends the work
+    - crossing while the water still rolls
+    - refusing the help that is offered
+    - spending the gain before it lands
+    zh:
+    - 以为水面平了事情就算完
+    - 水还在涌就抢先过去
+    - 把送上门的帮助推出去
+    - 进项还没到手就先花掉
+reading_notes:
+- term: 漸漸靜
+  pinyin: jiàn-jiàn-jìng
+  en: 'settling by degrees: the water calms little by little, not all at once; the
+    trouble is quieting of itself, without a hand at the tiller; the line marks a
+    direction, not a finished state.'
+  zh: ：水是一点一点平下来的，不是一下子静的；这场麻烦是自己缓下来的，没有谁在掌舵。这一句指的是方向，不是已经定局的状态。
+- term: 貴人
+  pinyin: guì-rén
+  en: 'benefactor: a person of standing who opens a door; any timely help arriving
+    from outside oneself; the poem says help comes, not who it is.'
+  zh: ：一位有分量、能替你开口的人；也泛指任何从外面及时到来的帮助。诗只说帮助会来，没说来的是谁。
+- term: 凶事脫出
+  pinyin: xiōng-shì-tuō-chū
+  en: 'the bad affair thrown off: release from an entanglement already entered; a
+    near miss that passes by; the line claims escape, not immunity.'
+  zh: ：一是从已经陷进去的纠缠里脱身；二是一场擦身而过的惊吓。这一句说的是脱险，不是从此不受任何事。
+plain_meaning:
+  en: 'A clearing season: water that was rough is going calm, and the way ahead is
+    passable. Help arrives from outside - a benefactor, an opening, an introduction
+    - and the tangle behind you loosens. Move on the practical matter once the water
+    is quiet, and say clearly what you need, so that the help can find you.'
+  zh: 这是一个转清明的季节：先前湍急的水正在平下来，前面的路可以走了。帮助从外面来——一位贵人、一个开口、一次引荐——身后的纠缠也松开了。等水静下来再去办那件实在的事，并把自己的需要说清楚，好让帮得上的人找得到你。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will things work out for my business?
+    zh: 我的生意会顺利吗？
+  rewritten_to:
+    en: What should I move on now, and where do I need to ask for help?
+    zh: 现在该着手哪一件事，又该向谁求助？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是「会不会」的封闭式问法，改成可着手、可动作的开问。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A season that favours accord; an understanding is reached here and the quarrelling
+      settles. Say plainly what you want, since a go-between is part of the pattern.
+    zh: 这一季利于和合：谈得成条件，争吵也平息下来。把自己的想法直说，牵线说合的人在局中。
+    compliance_tag: null
+  career:
+    en: The way forward opens and the support you need turns up — ask for it. The
+      one place rank comes slowly is formal honours, so advance the practical matter
+      first.
+    zh: 前面的路打开了，需要的助力会出现——开口去要。唯一走得慢的是功名一类的正式名位，所以先把实务往前推。
+    compliance_tag: null
+  money:
+    en: Money comes in and the luck of it is good, but the season's own books run
+      a deficit; keep part of the gain back. *(Not financial advice.)*
+    zh: 进项进得来，运气也好，但这一季自己的账面上是倒挂的；留一部分收益下来。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Ordinary rest and care do the work here; the one case the temple takes slowly
+      is age, so bring in a qualified professional rather than waiting it out. *(Not
+      medical advice.)*
+    zh: 寻常的休息与调养在这里管用；庙本对年长的情形看得慢，该请合格的专业人士来看，不要拖着等。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household settles and gains face; a house that was noisy comes quiet.
+    zh: 家宅渐安，也有脸面；原本吵闹的屋子安静下来。
+    compliance_tag: null
+  travel_moving:
+    en: Passage is good, and a helper meets you on the road.
+    zh: 路上平安，途中有人接应。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'Good water: the wind drops, the passage is safe, and the catch or the freight
+      shows a modest profit first.'
+    zh: 水色好：风落下来，航行平安，头一趟的渔获或货利是薄利。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The ponds come right by degrees and the season pays a fair, unspectacular
+      return; keep the round of work regular.
+    zh: 鱼塭渐入顺境，这一季的回报平稳、不出彩；把活计的节奏做规律些。
+    compliance_tag: null
+  timing:
+    en: The calm is already setting in — read as a season, never as a date.
+    zh: 水面已经在安静下来——只讲一季，不给日子。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Crossing before the water has gone quiet; spending the gain before it lands.
+    zh: 水还没静就抢先过去；进项还没到手就先花掉。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs forcing; the worst of it sits behind the question.
+    zh: 这里没有什么需要硬推的事；最坏的那一段已经在问题背后了。
+    compliance_tag: null
+stories:
+- title:
+    zh: 劉知遠戰瓜精
+    en: Liu Zhiyuan Fights the Melon Spirit
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 刘知远年轻时家里穷，入赘到李家，娶了李三娘。岳父去世后，家里由三娘的兄嫂当家。兄嫂处处欺侮他们，还想出一条毒计，叫刘知远去看守瓜园，想借园里的瓜精把他害死。夜里，刘知远拿着兵器，到瓜园里和瓜精交手。瓜精打不过他，化作一团火钻进地下。刘知远就地挖掘，挖出一只石匣，里面装着盔甲、一把宝剑，还有一部兵书。他从此用心读兵书，揣摩用兵之法，后来离开家去投了军。李三娘留在家里，受尽兄嫂的折磨，母子一别多年，很久以后才得以团圆。
+    en: Liu Zhiyuan was poor when young. He married into the Li family as a live-in
+      son-in-law and took Li Sanniang as his wife. After his father-in-law died, the
+      household was run by Sanniang's elder brother and his wife. The couple bullied
+      them at every turn, and then thought up a cruel plan. They sent Liu Zhiyuan
+      to guard the melon garden, hoping the melon spirit in it would kill him. At
+      night Liu Zhiyuan took up a weapon and went into the garden to fight the melon
+      spirit. The spirit could not beat him and turned into a ball of fire that burrowed
+      into the ground. Liu Zhiyuan dug where it had gone and uncovered a stone box.
+      Inside were armor, a sword, and a book of military strategy. From then on he
+      studied the book with care and worked out how to command troops. Later he left
+      home and joined the army. Li Sanniang stayed behind and suffered every kind
+      of torment from her brother and his wife. Mother and son were parted for many
+      years and only came together again long afterward.
+  poem_connection:
+    zh: 这一签说风浪渐静、凶事脱出，正配刘知远战退瓜精、掘得兵书而投军。
+    en: This lot says the waves are dying down and trouble has passed. It fits Liu
+      Zhiyuan driving off the melon spirit, digging up the book of strategy, and joining
+      the army.
+- title:
+    zh: 劉知遠從軍
+    en: Liu Zhiyuan Joins the Army
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘知远小时候死了父亲，家里很穷，四处流浪。有个李太公收留了他，还把女儿李三娘许配给他。太公夫妇去世后，三娘的哥哥嫂子嫌他穷，逼他写下休书，又派他去看守卧牛冈的瓜园。那园子有妖怪，没人敢去。刘知远在园中打退了铁面瓜精，从地下挖出一只石匣，匣里有盔甲、宝剑和兵书，他就日夜研读。三娘劝他去投军，他便去了太原，投在岳节度使麾下，屡立战功，一直做到节度使。三娘留在家中，受尽兄嫂的折磨，在磨房产下一个儿子，取名咬脐郎。孩子靠老仆窦老抚养，长大后被送去寻父。母子后来在井边相认，一家人才重新团聚。
+    en: Liu Zhiyuan lost his father when he was small. The family was very poor, and
+      he drifted from place to place. An old man, Squire Li, took him in. He married
+      his daughter Li Sanniang to him. After the squire and his wife died, Sanniang's
+      brother and his wife despised Liu Zhiyuan for his poverty. They forced him to
+      write a letter of divorce. They sent him to watch the melon field at Sleeping
+      Ox Ridge. The garden had a demon in it, and no one dared go there. Liu Zhiyuan
+      drove off the iron-faced melon spirit. He dug a stone box out of the ground.
+      In the box were armour, a sword, and books of war. He studied them day and night.
+      Sanniang urged him to join the army. He went to Taiyuan and took service under
+      the military commissioner Yue. He won merit again and again and rose to be a
+      military commissioner himself. Sanniang stayed at home and suffered every cruelty
+      from her brother and his wife. She gave birth to a son in the mill house and
+      named him Yaoqilang. The boy was raised by an old servant, Dou Lao. When he
+      grew up he was sent to find his father. Mother and son met again by a well,
+      and the family came together once more.
+  poem_connection:
+    zh: 这一签的签诗说风浪渐渐平静，往前可得安宁，必有贵人相助，凶险过去就见太平。刘知远离家从军，正是一步步脱离困境。
+    en: The poem says the wind and waves gradually calm and going on you find peace;
+      a noble helper is sure to come. Liu Zhiyuan left home for the army and step
+      by step left his trouble behind.
+- title:
+    zh: 桃花女解太歲
+    en: The Peach Blossom Girl Lifts the Year-Star
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 桃花女是民间流传很广的斗法故事里的女主角。她对术数也很有研究，跟一位精于卜算的术士周公比斗。太岁是旧时术数里的一颗凶星，民间认为碰上它就要遭灾，解太岁就是设法把这一灾化解掉。周公算她某处要遭灾，她就预先设好法子化解：该避的凶煞避开，该破的灾星破掉，周公所设的种种刁难都被她一一解开。周公算出来的事大多应验，桃花女偏偏能把他算定的灾祸都解掉，当地就有人把她称作解太岁。两人斗来斗去，最后结成婚姻。旧时的婚嫁择吉，常拿这件事来说。
+    en: The Peach Blossom Girl is the heroine of a widely told tale of magical contests.
+      She also knew a good deal about the arts of reckoning, and she matched skills
+      with a diviner named Zhou Gong, who was skilled at casting. Tai Sui was a malefic
+      star in the old arts of reckoning, and people believed that meeting it brought
+      disaster. Lifting Tai Sui meant finding a way to undo that disaster. Zhou Gong
+      reckoned that she would meet disaster in a certain place. She prepared her methods
+      in advance. She avoided the bad influences that should be avoided. She broke
+      the disaster star that should be broken, and she untied one by one the difficulties
+      Zhou Gong set for her. Most of what Zhou Gong reckoned came true, yet the Peach
+      Blossom Girl could undo the disasters he fixed. People there began to call her
+      the one who lifts Tai Sui. The two went on contending until they married. In
+      old times, choosing lucky days for a wedding was often discussed through this
+      tale.
+  poem_connection:
+    zh: 签诗说风浪渐静、凶事脱出见太平；桃花女解煞破灾、由险转安，正扣这一层。
+    en: The poem says the wind and waves grow still and that trouble passes into calm.
+      The Peach Blossom Girl broke the spells and turned danger to safety, which fits.
+- title:
+    zh: 桃園三結義
+    en: The Peach Garden Oath
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 东汉末年，朝政败坏，张角兄弟带着黄巾军起义，各地纷纷响应。刘备，字玄德，是涿郡人，靠卖草鞋、织草席过日子。他看到招兵的告示，长叹一声。他先后认识了卖酒杀猪的张飞和流落江湖的关羽。三人志气相投，就在张飞庄后的桃园里摆下乌牛白马，祭告天地，烧香行礼，结为异姓兄弟。他们立誓同心协力，救助危难的人。此后三人招募乡兵，参加讨伐黄巾，转战各地，终于成就一番事业。三人从此情同手足，有事一起担当。他们在桃园里结下的这份情义，后来一直被人称道。
+    en: In the last years of the Eastern Han dynasty, government grew corrupt. The
+      brothers Zhang Jiao led the Yellow Turban rebels, and places all over rose to
+      answer them. Liu Bei, whose courtesy name was Xuande, came from Zhuo Commandery.
+      He made a living selling straw sandals and weaving straw mats. When he saw the
+      notice calling for soldiers, he gave a long sigh. He came to know Zhang Fei,
+      who sold wine and slaughtered pigs, and Guan Yu, who was then wandering the
+      country. The three shared the same aims. In a peach garden behind Zhang Fei's
+      house they set out a black ox and a white horse, made sacrifice to heaven and
+      earth, burned incense, bowed, and became sworn brothers of different surnames.
+      They swore to join their strength, to help one another, and to rescue people
+      in danger. Afterwards the three recruited men from their district and joined
+      the campaign against the Yellow Turbans, fighting across many places, and in
+      the end they built up a great cause.
+  poem_connection:
+    zh: 这一签取结义相助、同心脱难，正扣签诗“必有贵人相扶助，凶事脱出见太平”。
+    en: Sworn brothers helping one another out of danger fits a lot whose poem says
+      a helper of worth comes to one's side and trouble is escaped into peace.
+- title:
+    zh: 曹操賜雲
+    en: Cao Cao Grants Guan Yu Robes and a Horse
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 关羽，字云长，是刘备的结义兄弟。他与刘备失散，要保护刘备的家眷，不得已暂时投降曹操。投降之前他先说定两件事：一是降汉不降曹，二是一旦知道兄长刘备的下落就离去。曹操爱惜他的才能，待他很厚：送金银，送战袍。曹操见他的旧袍穿得久，就拿新袍相赠；关羽把新袍穿在里面，仍旧把旧袍罩在外面，说旧袍是兄长所赐，不敢有了新衣就忘了旧情。曹操又送他赤兔马，一匹日行千里的好马。关羽恭敬地谢过，说这马跑得快，若知道兄长在哪里，一天就能见到。曹操待他再厚，终究留不住他。后来关羽打听到刘备的下落，就把金银封好、官印挂起，留下书信告辞而去。
+    en: Guan Yu, whose courtesy name was Yunchang, was the sworn brother of Liu Bei.
+      He was cut off from Liu Bei and had to protect Liu Bei's family, so he surrendered
+      to Cao Cao for a time. Before surrendering he set two conditions. First, he
+      was surrendering to the Han, not to Cao Cao. Second, as soon as he learned where
+      his elder brother Liu Bei was, he would leave. Cao Cao valued his ability and
+      treated him generously. He gave him gold and silver, and gave him a war robe.
+      Cao Cao saw that his old robe was much worn, so he gave him a new one. Guan
+      Yu wore the new robe underneath and kept the old one on the outside. He said
+      the old robe was a gift from his elder brother, and he did not dare forget an
+      old bond just because he had new clothes. Cao Cao also gave him the Red Hare,
+      a fine horse that could run a thousand li a day. Guan Yu thanked him with respect
+      and said the horse was fast, and if he knew where his elder brother was, he
+      could see him in a single day. However well Cao Cao treated him, in the end
+      he could not keep him. Later Guan Yu learned where Liu Bei was. He sealed up
+      the gold and silver, hung up his official seal, left a letter, and took his
+      leave.
+  poem_connection:
+    zh: 签诗说必有贵人相扶助，凶事脱出见太平。关羽失散之际遇曹操厚待，得以全身而去，正合这一层。
+    en: The lot poem says a noble helper must come to one's aid, and trouble passes
+      into peace. Guan Yu, cut off from his brother, was well treated by Cao Cao and
+      came away whole.

@@ -1,0 +1,412 @@
+id: 58
+lot_number: 58
+ganzhi:
+  zh: 癸未
+  pinyin: Gui-wei
+title:
+  en: The White Snake Claims She Sails to the South Sea
+  zh: 白娘子詐言南海
+hexagram:
+  zh: 风山渐
+  name_and_structure_en: Jian, Gradual Advance (Wind over Mountain)
+  binary_code: ○○●○●●
+  shared_with_lot: 23
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 白娘子詐言南海
+    en: The White Snake Claims She Sails to the South Sea
+  variants_en:
+  - Song Jiang Takes to the Marshes
+  - Huang Chao Raises Rebellion
+  - Luo Jiangdong Returns to Wu and Yue
+  - Wang Mang Usurps the Throne
+  - Murong Zhen Plays Chess
+  variants_zh:
+  - 宋江落草
+  - 黃巢起事
+  - 白娘子詐言往南海
+  - 羅江東歸吳越
+  - 王莽篡位
+  - 慕容貞下棋
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements sit near the middle — 凡事 不好。難成／婚姻 不吉／治病 拖尾。不痊癒／月令
+      破財。多逢口舌, with 行舟 可得小利／討海 可得小利, 六甲 弄璋之喜 and 失物 尋在 as the small openings (jie_yue_score
+      +2)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as unfavourable: the general, household, marriage,
+      income and rank lines all sit uneasy with one another, the month carries friction,
+      and only a birth line is left as a single opening. The stretch tends to obstruct,
+      so we keep the reading protective.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 不好。難成／婚姻 不吉／治病 拖尾。不痊癒／功名 未該得。不能進／月令 破財。多逢口舌；而 行舟 可得小利、討海
+      可得小利、失物 尋在、尋人 辰日在、墳墓 穴地平安（jie_yue_score +2）。整签中平偏负，水上小利一途是唯一的开口。故事：庙本此签另带一则「袁達入昭國關」，维基故事群六则。校勘：第三句一处异文，部分源作「寬心座」，定本取「寬心坐」（多数决，未另改字）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 unfavourable：总类、家运、婚姻、求财与功名都不轻松、彼此牵扯，月令多口舌，唯添丁是孤例开口。偏阻，故读作 unfavourable，取保护口径。
+provenance:
+  editorial_note: '*The temple site carries the white-snake tale and one further story,
+    Yuan Da at the Zhaoguo Pass.*'
+  textual_provenance: majority — 「寬心坐 — sit with a wide heart (维基文库; 好廟網; feishuai)」→「寬心座
+    — the same phrase with 座 for 坐 (mznn; 91chouqian)」, majority, kept — two sources
+    read 寬心座.
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 蛇身意欲變成龍，
+    en: The snake would make itself a dragon;
+  - line_number: 2
+    zh: 只恐命內運未通，
+    en: the only fear is that its time has not opened;
+  - line_number: 3
+    zh: 久病且作寬心坐，
+    en: long ill — so sit down with a wide heart;
+  - line_number: 4
+    zh: 言語雖多不可從。
+    en: and though the words are many, do not follow them.
+keywords:
+  favourable:
+    en:
+    - resting through a long complaint
+    - small gains taken quietly
+    - keeping your own counsel
+    zh:
+    - 久病中静养
+    - 静静收下小利
+    - 主意留在自己手里
+  guarded:
+    en:
+    - being talked into a move
+    - expecting a transformation out of season
+    - mistaking many advisers for wisdom
+    - pushing a slow recovery
+    zh:
+    - 被人说动走出一步
+    - 在不当时的时令求蜕变
+    - 把人多当智慧
+    - 硬催一段慢的复原
+reading_notes:
+- term: 蛇身
+  pinyin: shé-shēn
+  en: '"a snake''s body": at once *the animal* and *the shape of a person whose turn
+    has not come*. The poem does not despise the ambition; it questions the hour.'
+  zh: 既指那动物本身，也指一个时运还没到的人现在这副样子；诗不轻看这份志向，它问的是时候。
+- term: 寬心坐
+  pinyin: kuān-xīn-zuò
+  en: '"sit with a wide heart": at once *rest the body* and *do not let the mind tighten*;
+    It is a prescription for the long illness of the third line.'
+  zh: 既是让身子歇着，也是别让心绷紧；这是给第三句那场久病开的方子。
+- term: 言語雖多不可從
+  pinyin: yán-yǔ-suī-duō-bù-kě-cóng
+  en: '"though the words are many, do not follow them": at once *do not take advice
+    from everyone* and *do not be talked into a move*; The line is about what you
+    listen to.'
+  zh: 既指别谁的劝都收下，也指别被人说动去动一步；这一句讲的是你听什么。
+plain_meaning:
+  en: 'The wish is to become something larger than the season allows: a long illness
+    and a long wait are what the poem names, and its counsel is to sit quiet, take
+    the small gains that are actually there, and not be talked into a move by the
+    many voices around you.'
+  zh: 想变成比这一季容得下的更大的东西；诗点到的是久病与久等。此时宜安静坐着、把确实在的小利收下，不要被人多口杂推着走出一步。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Not a good season for a match; the talk around it does not settle anything.
+    zh: 这一季不宜定下事；围着它的那些话，也定不下来什么。
+    compliance_tag: null
+  career:
+    en: The advancement is not due yet; do not be talked into leaving a position to
+      chase it.
+    zh: 升进的时候还没到；不要被人说动，辞了位置去追它。
+    compliance_tag: null
+  money:
+    en: Small gains only, taken quietly; no large commitment. *(Not financial advice.)*
+    zh: 只有小利，静静收着；不要大的投入。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A lingering complaint that does not resolve; keep the treatment steady and
+      do not be talked out of it by advice from all sides. *(Not medical advice.)*
+    zh: 一场拖着不解的久病；照护要稳定，别被四面八方的话说动而松了它。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Wait rather than decide; nothing in the household is gained by hurrying.
+    zh: 先等，别急着定；家里的事，赶也赶不出什么。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says wait; go only if it cannot be put off.
+    zh: 诗说等；除非推不开，才走。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Small fishing, small freight — take the small gain and do not force the voyage.
+    zh: 小捕小运——把小利收下，别硬做一趟远航。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A middle season; worked evenly, it holds.
+    zh: 中平一季；按部就班地做，就守得住。
+    compliance_tag: null
+  timing:
+    en: The transformation is not in this season — a season, never a date.
+    zh: 蜕变不在这一季——只给季节，不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Taking everyone's advice at once; forcing a change of state before its time.
+    zh: 把所有人的劝都收下；不到时候就硬改状态。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here is lost by waiting, and the small gains are real. This describes
+      a difficult season, not a forecast of harm. If this reading touches anxiety
+      or money worry, please reach out to someone you trust or a qualified professional.
+    zh: 等下去不会丢什么，那些小利是真的。
+    compliance_tag: null
+stories:
+- title:
+    zh: 白娘子詐言往南海
+    en: The White Snake Claims She Sails to the South Sea
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 白娘子是一条白蛇修炼成的女子，取名白素贞。她在杭州西湖边遇见许仙，两人结成夫妻，婚后帮他开了一间药铺。镇江金山寺的和尚法海看出她的本相，一再从中挑拨。端午节那天，白素贞喝了雄黄酒，现出蛇身，许仙受惊而死。她远赴仙山盗取仙草，把丈夫救活。后来法海把许仙留在寺里，白素贞与侍女青儿运水漫上金山，因腹中有孕而败。法海用钵把她收住，压在雷峰塔下。题名说她诈言往南海，取的是她以言语相诳的一节。南海是观音菩萨的道场，往南海就是去求菩萨。
+    en: Lady White was a woman formed from a white snake in long cultivation, and
+      she took the name Bai Suzhen. By West Lake in Hangzhou she met Xu Xuan. The
+      two became husband and wife, and after the marriage she helped him open a medicine
+      shop. The monk Fahai of Jinshan Temple in Zhenjiang saw her true form and kept
+      stirring up trouble between them. On the day of the Dragon Boat Festival, Bai
+      Suzhen drank realgar wine and showed her snake body, and Xu Xuan died of fright.
+      She travelled far to a mountain of the immortals, stole a magic herb, and brought
+      her husband back to life. Later Fahai kept Xu Xuan in the temple. Bai Suzhen
+      and her maid Xiaoqing raised water to flood Jinshan, but failed because she
+      was with child. Fahai caught her in his alms bowl and pinned her under Leifeng
+      Pagoda. The title says she falsely claimed she was going to the South Sea. It
+      takes the part where she deceived others with words. The South Sea is the place
+      of Guanyin Bodhisattva, and going there means going to ask the Bodhisattva for
+      help.
+  poem_connection:
+    zh: 签诗说蛇身意欲变成龙，又说言语虽多不可从。白蛇之身与“诈言”二字，正与这条签的语汇相合。
+    en: The lot poem says a snake's body wishes to become a dragon, and that many
+      words are not to be followed. The white snake and the false claim match the
+      very words of this lot.
+- title:
+    zh: 宋江落草
+    en: Song Jiang Turns Outlaw
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 宋江原是郓城县衙里的一名押司。押司是衙门里管文书的小吏，地位不高，管的是案卷和公文。因为一桩人命官司，他杀了阎婆惜，从此逃亡，几经周折被刺配到江州，也就是被发配充军到江州。在江州，他到浔阳楼饮酒，醉后在墙上题了诗，被黄文炳看见，摘出诗里的句子去告发，成了死罪。梁山的好汉得知消息，赶到江州法场，把他劫了出来。宋江从此跟随众人上梁山入伙，也就是落草。后来他坐了第一把交椅，把聚义厅改名为忠义堂，最终受了朝廷招安，奉命去征讨四方。
+    en: Song Jiang was a clerk in the county office of Yuncheng. Such a clerk handled
+      documents within the office, a minor post with little standing, and his work
+      was case files and official papers. Because of a case involving a death, he
+      killed Yan Poxi, and from then on he was on the run. After many twists he was
+      sentenced to exile and sent as a conscript to Jiangzhou. There he drank at the
+      Xunyang Pavilion. Drunk, he wrote a poem on the wall. Huang Wenbing saw it,
+      picked out lines from it, and reported him, and the matter became a capital
+      charge. When the sworn brothers of Mount Liang heard of it, they came to the
+      execution ground at Jiangzhou and pulled him out by force. From then on Song
+      Jiang joined the company on Mount Liang, which is to say he became an outlaw.
+      In time he took the head seat, and he changed the Hall of Gathering to the Hall
+      of Loyalty and Righteousness. At last he accepted the court's amnesty and was
+      ordered to campaign in all directions.
+  poem_connection:
+    zh: 签诗说蛇身欲变龙而运未通、言语多不可从；宋江由小吏变草寇，正合这一层。
+    en: The poem says a snake wishes to turn into a dragon but its time has not come,
+      and that words should not be followed. Song Jiang going from minor clerk to
+      outlaw fits.
+- title:
+    zh: 黃巢起事
+    en: Huang Chao Raises a Rebellion
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 黄巢是曹州冤句人，家里以贩私盐为业。他善于骑马射箭，几次到京城应考进士，都没有考中。唐朝末年赋税和差役很重，又接连闹水灾旱灾，王仙芝在长垣起兵，黄巢聚集人马响应。他的队伍转战山东、河南、淮南之间，声势越来越大。王仙芝兵败身死之后，黄巢自称冲天大将军，带兵南下，一度打进广州。因为部下不服水土，他又掉头北上，渡过长江，攻破洛阳，进入长安。他在长安登位称帝，国号大齐。唐朝调集各路兵马反攻，黄巢退出长安，在河南、山东一带转战，最后死在泰山的狼虎谷。
+    en: Huang Chao came from Yuanju in Caozhou. His family made its living by smuggling
+      salt. He was a good horseman and archer, and he went to the capital several
+      times to sit for the highest examination, but he never passed. In the last years
+      of the Tang dynasty taxes and labor service weighed heavily on the people, and
+      floods and droughts came one after another. Wang Xianzhi raised troops at Changyuan,
+      and Huang Chao gathered men of his own and joined him. His band fought its way
+      across Shandong, Henan and Huainan, and grew larger and louder as it went. After
+      Wang Xianzhi was defeated and killed, Huang Chao took the title of Great General
+      Who Rushes to Heaven, led his men south, and at one point entered Guangzhou.
+      His troops could not bear the climate there, so he turned north again, crossed
+      the Yangtze River, broke through Luoyang, and entered Chang'an. In Chang'an
+      he took the throne and named his state Qi. The Tang court gathered armies from
+      every region and struck back. Huang Chao left Chang'an and fought across Henan
+      and Shandong, and in the end he died at Wolf-Tiger Valley in Mount Tai.
+  poem_connection:
+    zh: 这一签写起事的人出身低微却志在腾达，正扣签诗“蛇身意欲变成龙，只恐命内运未通”。
+    en: A man of low birth who sets his heart on rising high fits a lot whose poem
+      speaks of a snake wanting to become a dragon while its time has not yet come.
+- title:
+    zh: 羅江東歸吳越
+    en: Luo Jiangdong Returns to Wu and Yue
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 罗隐字昭谏，唐末余杭人，余杭在今天浙江杭州一带。他诗写得好，自称江东罗隐，人们叫他罗江东。他十次去考进士，一次也没有考中。此后他在各地幕府之间流转，先到湖南，又到淮南，投靠一位位地方大员。他的诗文里讥刺时政的话多，为当权的人所忌，很久都不得志。后来他回到杭州，依附钱镠。钱镠占着两浙一带，待他很厚，用他的主意，只是不喜欢他那些讥刺的话。罗隐也替吴越谋划政事，朝廷授他给事中的官职，这是掌驳正政令的官。他晚年的境况比先前安定了些。题名取的“归吴越”三个字，讲的就是他放下科举、进钱氏幕府这一段。
+    en: Luo Yin, whose courtesy name was Zhaojian, was a man of Yuhang in the late
+      Tang. Yuhang lies in the Hangzhou area of Zhejiang today. He wrote good poetry,
+      called himself Luo Yin of Jiangdong, and people called him Luo Jiangdong. Ten
+      times he sat for the imperial examination, and not once did he pass. After that
+      he moved about among the staffs of one regional governor after another, going
+      first to Hunan and then to Huainan. He attached himself to one high official
+      after the next. His poems and prose held a good deal of mockery of the politics
+      of the day, which the men in power disliked. For a long time he got nowhere.
+      Later he went back to Hangzhou and attached himself to Qian Liu. Qian Liu held
+      the two Zhe provinces, treated him generously and used his ideas, only he did
+      not care for the mocking words. Luo Yin also planned affairs of state for Wu
+      and Yue. The court gave him the office of supervising secretary, an officer
+      who reviews and corrects government orders. His last years were more settled
+      than his earlier ones. The three words of the title, returning to Wu and Yue,
+      cover the stretch in which he laid down the examinations and entered Qian's
+      service.
+  poem_connection:
+    zh: 签诗说“蛇身意欲变成龙，只恐命内运未通”，正对罗隐自比蛟龙却屡试不第的处境；“久病且作宽心坐”与久困而终得依人相贴。
+    en: The poem says the snake wants to become a dragon but the time within is not
+      open; Luo Yin likened himself to a dragon yet never passed, and long illness
+      sits with long hardship ended by another's support.
+- title:
+    zh: 王莽篡位
+    en: Wang Mang Usurps the Throne
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王莽字巨君，是西汉外戚王家的子弟。外戚就是皇帝的母族和妻族。他的姑母是汉元帝的皇后王政君。王莽入朝做官，为人谦恭俭省，又结交名士，名声很好，官职一路升到大司马，后来封为安汉公。平帝去世后，他立两岁的孺子婴为帝，自己称摄皇帝，代行皇帝之权。不久，他借符命图谶之说，说天意要他做皇帝，就接受让位，登上皇位，改国号为“新”，西汉就此中断。符命图谶是当时流行的预言和祥瑞之说。他在位时托古改制，法令繁苛，又逢连年天灾，天下大乱，赤眉、绿林两支人马先后起事。新朝很快覆亡，王莽死在乱兵之中。
+    en: Wang Mang, whose courtesy name was Jujun, was a member of the Wang family
+      of consort relatives in the Western Han. Consort relatives were the families
+      of an emperor's mother and wife. His aunt was Wang Zhengjun, empress of Emperor
+      Yuan of Han. Wang Mang entered court as an official. He was modest and frugal,
+      and he made friends with famous scholars, so his reputation was good. His offices
+      rose until he was Grand Marshal, and he was later made Duke Anhan. After Emperor
+      Ping died, he set up the two-year-old Ruzi Ying as emperor and called himself
+      regent emperor, holding an emperor's powers in place of the ruler. Before long
+      he used prognostic texts and omens to say that heaven wanted him as emperor.
+      He accepted the abdication, took the throne, and changed the name of the realm
+      to Xin. The Western Han ended there. Prognostic texts and omens were predictions
+      and auspicious signs in fashion at the time. In power, he reformed the system
+      in the name of antiquity. His laws were harsh and complicated, and years of
+      natural disaster followed. The realm fell into great disorder. The Red Eyebrows
+      and the Green Woods rose one after the other. The Xin dynasty soon fell, and
+      Wang Mang died among mutinous soldiers.
+  poem_connection:
+    zh: 签诗首句“蛇身意欲变成龙”，以蛇变龙，正对以臣代君、越分称帝这一段。
+    en: The first line of the lot's poem says a snake's body wants to become a dragon.
+      A snake turning into a dragon fits a subject replacing his ruler and taking
+      the imperial title.
+- title:
+    zh: 慕容貞下棋
+    en: Murong Zhen Plays Chess
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 慕容贞是清代一部章回小说里的一名剑侠，绰号一枝梅，在江湖上很有名气。章回小说是分成一回来一回讲的长篇故事。他来到一座寺院，与院里一个叫静空的和尚对坐下棋。静空名义上是出家人，却不守佛门的规矩。出家人本该清心寡欲，他却贪财好利，一边招待来往客人，一边经营斋堂，处处盘算银钱。慕容贞坐下来与他下棋，一盘棋还没分出胜负，静空这些行径已经被人看在眼里。棋局之外，谁是怎样的人，也看得清清楚楚。后来静空为财惹出祸事，连性命也搭了进去。这一签说蛇身意欲变成龙，又说只恐命内运未通，言语虽多不可从，正配对局相看、志向虽大而终究难成的一段。
+    en: Murong Zhen is a swordsman in a chapter novel of the Qing, nicknamed A Spray
+      of Plum, and well known in the martial world. A chapter novel is a long story
+      told chapter by chapter. He came to a temple and sat down to play chess with
+      a monk there called Jingkong. Jingkong was a monk in name, but kept no rule
+      of the Buddhist order. A monk should keep his mind clear and his wants few.
+      He was greedy for money and profit, serving guests on one hand and running a
+      dining hall on the other, and counting silver at every turn. Murong Zhen sat
+      down to play with him. Before the game was decided, these doings of Jingkong
+      had been noted by others. Outside the board, it was plain to see what sort of
+      man each one was. Later Jingkong brought disaster on himself over money and
+      lost his life with it.
+  poem_connection:
+    zh: 这一签说蛇身意欲变成龙、只恐命内运未通，又言语虽多不可从，正配局中人对弈相看而志大而身未能成的一段。
+    en: This lot says a snake's body wants to become a dragon, and that many words
+      are not to be followed - the two at the board, with great aims and no way to
+      make them come true.
+- title:
+    zh: 白蛇精詐言往南海遇漢文
+    en: The White Snake Spirit Meets Xu Hanwen
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 一条白蛇修炼成精，化成女子，取名白素贞。她打听到从前放生过自己的善人许汉文在杭州，就带着侍女小青下山，要去找他报恩。她对别人说自己要往南海去进香，一路经过西湖。南海是传说中观音菩萨住的地方，香客常去进香。在西湖边，她遇见了许汉文。当时正下着雨，两人借伞相识，后来结为夫妻。金山寺的和尚法海看出白素贞是蛇精，几次点破。白素贞为了找回许汉文，施法引来大水，淹了金山寺。法海用佛法收住她，把她压在雷峰塔下。这座塔在西湖边上。
+    en: A white snake practiced until it became a spirit and took the form of a woman,
+      and called herself Bai Suzhen. She learned that Xu Hanwen, a kind man who had
+      once set her free, was in Hangzhou. She came down from the mountain with her
+      maid Xiaoqing to find him and repay his kindness. She told others she was going
+      to the South Sea to burn incense, and on the way she passed West Lake. The South
+      Sea is where the Bodhisattva Guanyin is said to live in legend, and worshippers
+      often go there to burn incense. By West Lake she met Xu Hanwen. It was raining,
+      and the two came to know each other by lending an umbrella, and later they became
+      husband and wife. The monk Fahai of Jinshan Temple saw that Bai Suzhen was a
+      snake spirit and exposed her several times. To find Xu Hanwen again, Bai Suzhen
+      used her magic to raise a great flood and drown the Jinshan Temple. Fahai caught
+      her with the power of the Buddhist law and pressed her under Leifeng Pagoda.
+      This pagoda stands by West Lake.
+  poem_connection:
+    zh: 签诗说蛇身想变成龙，只怕命里的时运还没通。白蛇化形求变却终于受阻，正合此题。
+    en: The lot poem says a snake's body wants to become a dragon, but fears its time
+      has not yet come. The white snake took human form to seek change and was held
+      back at last.
+- title:
+    zh: 袁達入昭國關
+    en: Yuan Da Enters Zhaoguo Pass
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 袁达是战国时齐国的一员猛将，力气很大，拜在孙膑门下。秦始皇要吞并六国，攻破赵国的界牌关以后，又进兵燕国。燕国抵挡不住，向齐国求救。齐国派保国公袁达和将军李牧领兵来援助，在易水附近扎营。秦国的将军王翦和袁达对阵，打不过他。王翦便暗念咒语，祭起一口宝剑。空中出现一朵红云，托着宝剑，直取袁达的头顶。袁达举起大斧招架，却招架不住，中剑落马。题面上的昭国关，就是昭谷关，是同一个地名写成的另一种样子。孙膑原先劝过袁达不要硬闯，他没有听从。
+    en: Yuan Da was a fierce general of the state of Qi in the Warring States period.
+      He was very strong and became a follower of Sun Bin. The First Emperor of Qin
+      meant to swallow the six states. After breaking through the Jiepai Pass of Zhao
+      he moved his troops on toward Yan. Yan could not hold out and asked Qi for help.
+      Qi sent the Duke of Baoguo, Yuan Da, and the general Li Mu with troops to aid
+      Yan, and they camped near the Yi River. Wang Jian, general of Qin, faced Yuan
+      Da and could not beat him. So Wang Jian secretly recited an incantation and
+      raised up a sword. A red cloud appeared in the sky, holding the sword, and it
+      came straight for the top of Yuan Da's head. Yuan Da lifted his great axe to
+      block it, but could not hold it off, was struck by the sword, and fell from
+      his horse. The name on the title is the same place as Zhaogu Pass, written in
+      another form. Sun Bin had earlier warned Yuan Da not to force his way through,
+      and he did not listen.
+  poem_connection:
+    zh: 这一签说只恐运未通、言语虽多不可从，正配袁达不听劝告、硬闯关隘而落马。
+    en: This lot says the time is not yet open, and much is said that should not be
+      followed. It fits Yuan Da ignoring the warning and forcing the pass, only to
+      fall from his horse.

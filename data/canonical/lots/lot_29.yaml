@@ -1,0 +1,467 @@
+id: 29
+lot_number: 29
+ganzhi:
+  zh: 戊申
+  pinyin: Wu-shen
+title:
+  en: Guan Yu Kills Cai Yang at the Old City
+  zh: 古城會關公斬蔡陽
+hexagram:
+  zh: 雷火丰
+  name_and_structure_en: Feng (Thunder over Fire)
+  binary_code: ●●○○●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 9
+  primary:
+    zh: 古城會關公斬蔡陽
+    en: Guan Yu Kills Cai Yang at the Old City
+  variants_en:
+  - Confucius Passes Through Song and Chen, Meeting Danger and Finding a Way Out
+  - Confucius Beset Between Chen and Cai
+  - King Zhou's Kingdom Falls
+  - Baili Xi Feeds Cattle, Then Becomes a Minister
+  - Lord Wang of Yi Prays
+  - Yan Junji Divines at the Palace
+  - Yan Junping Sells Divinations
+  - Zhou Yuanbiao, Sent into Exile, Is Rescued
+  variants_zh:
+  - 孔夫子過宋入陳除險解難
+  - 孔子厄於陳蔡之間
+  - 紂王滅國
+  - 百里奚食牛入相
+  - 王沂公祈禱
+  - 嚴君疾卜宮
+  - 嚴君平賣卦
+  - 周元表充軍遇救
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements read as a holding season - 凡事 待時／作事 難成／婚姻 平平／求財 新業差。舊業平／功名
+      不就／出外 不可／經商 須守安命不可／月令 不遂, with the household side in good order (家事 平安／家運 合家興旺／失物
+      援尋。必在／遠信 音信速至) (jie_yue_score +6)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as unfavourable: the working categories — undertakings,
+      rank, sea work, going out and the month''s turn — all close in the present stretch,
+      and legal matters run long. One household line stays sound, but the overall
+      direction is blocked; the counsel is protective, guarding what is already in
+      place.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 待時／作事 難成／婚姻 平平／求財 新業差。舊業平／功名 不就／出外 不可／經商 須守安命不可／月令 不遂，而 家事
+      平安／家運 合家興旺／失物 援尋。必在／遠信 音信速至——判词读作守成之季：新开诸事不前，家宅一侧安好，失物、远信两处留有余地。（平签、守成季，非凶季。）
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 unfavourable：作事、功名、讨海、出外与月令几处都收住，官事久不结。仅家宅一线尚可取，总体偏阻，宜取守势、护住已有。
+provenance:
+  editorial_note: null
+  textual_provenance: user_ruled — 「還在 - still there, still hidden」→「反在／返在 - contrarily
+    there, or turned back there」, user_ruled - the settled text keeps 還; under 枯木未逢春／寬心且守
+    the still-in-the-dark reading is the smoother one, and 反／返 is a homophone variant.
+    The chosen reading was also the majority across the six sources.; 「，commas throughout
+    (维基文库, feishuai, mznn)」→「、enumerating stops throughout (91chouqian, temple01 好廟網)」,
+    house style - the settled text keeps commas; the variant is punctuation only and
+    changes nothing in sense
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 枯木可惜未逢春，
+    en: The withered tree has not yet met the spring - what a pity;
+  - line_number: 2
+    zh: 如今還在暗中藏，
+    en: for now it is still hidden away in the dark.
+  - line_number: 3
+    zh: 寬心且守風霜退，
+    en: Ease your heart and hold still until the wind and frost withdraw;
+  - line_number: 4
+    zh: 還君依舊作乾坤。
+    en: then the same world is handed back to you to make.
+keywords:
+  favourable:
+    en:
+    - waiting out the season
+    - holding what is already yours
+    - the old trade kept steady
+    - a household in good order
+    zh:
+    - 等这一季过去
+    - 守住手上已有的
+    - 旧业照旧做稳
+    - 家宅安好
+  guarded:
+    en:
+    - starting something new before spring
+    - reading the dark as a loss
+    - pressing for recognition too early
+    - uprooting the household on a blocked sky
+    zh:
+    - 春前就开新局
+    - 把暗处读成损失
+    - 太早硬要人认你
+    - 天色未开就搬动家宅
+reading_notes:
+- term: 枯木
+  pinyin: kū-mù
+  en: 'the withered tree: a thing that looks dead but still holds its life; the questioner''s
+    own situation before its season comes.'
+  zh: 既是看着枯死、其实还留着生机的一棵树，也指问事人自身时令未到的处境。
+- term: 寬心且守
+  pinyin: kuān-xīn-qiě-shǒu
+  en: 'ease your heart and hold still: waiting a season out with a settled mind; holding
+    on to what you already have rather than letting it go; 守 carries both.'
+  zh: 一句里是两件事：放宽心把这一季等过去；「守」还含守住手上已有的意思，两层都在。
+- term: 作乾坤
+  pinyin: zuò-qián-kūn
+  en: 'to make a world: to build something of your own; to take charge of affairs;
+    the phrase is grander than either English option.'
+  zh: 字面是经营天地，实指闯出自己的一片、或把局面担起来；比哪一种现成译法都更阔大。
+plain_meaning:
+  en: 'A season of keeping rather than beginning: the tree has not met its spring,
+    and the matter you are asking about is still hidden in the dark. Ease your mind,
+    hold what you already have, and let the frost pass; when the season turns, the
+    same world comes back to you to build in.'
+  zh: 守成的一季，不是开新的一季：枯木还没碰上春天，你问的这件事眼下仍藏在暗处。放宽心，守住手上已经有的，让风霜先退；等节令一转，同一片天地还回到你手里去做。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Attachments hold level rather than advancing; keep faith with what is already
+      agreed, and do not press a new decision out of this season.
+    zh: 感情一行平稳而不向前；已经讲定的照约定守着，别在这一季里硬推出新的决定。
+    compliance_tag: null
+  career:
+    en: Rank and recognition do not come forward yet; hold your post, do the work
+      in front of you, and let the season turn.
+    zh: 名位与认可还不到时候：守住现在的位子，把眼前的事做完，让季节去转。
+    compliance_tag: null
+  money:
+    en: A new venture shows poor returns while the old one stays level; keep to established
+      income and keep your reserves. (Not financial advice.)
+    zh: 新开的一摊收成寡薄，旧的那一摊照常持平；照既有收入过日子，留好底子。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Rest does the work this season and an old complaint eases with spring; keep
+      a close eye on the elderly and have anything persistent seen to by a qualified
+      professional. (Not medical advice.)
+    zh: 这一季靠歇息撑住，旧毛病随开春转松；不舒服要找合格的专业人士看，不要熬着等，家里长辈要多留意。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household itself is well and prospering; keep it warm, and do not unsettle
+      it by moving house now.
+    zh: 家宅本身安好而且兴旺；把家里捂暖，此刻不要因搬迁把它打乱。
+    compliance_tag: null
+  travel_moving:
+    en: Setting out and settling elsewhere are both marked not yet - postpone any
+      move that can wait.
+    zh: 出门与迁居两处都标着尚未到时候；能等的行程就先缓一缓。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The old grounds and the old boat still pay; new waters do not. Do not put
+      out on an unfamiliar course.
+    zh: 老海域、老船照旧有收，新水域则不然；不要往不熟的水路出海。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Seedbed and fry do well in spring, and the field this season yields half or
+      less, so work from what you have stored.
+    zh: 鱼苗、种苗在开春得力，而这一季田里收半分上下；动用存下的来做。
+    compliance_tag: null
+  timing:
+    en: The turn is tied to spring returning - read as a season, never as a date.
+    zh: 转机系在开春回来——按季节读，不按日子读。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Starting something new before the season turns; uprooting the household; forcing
+      recognition.
+    zh: 季节未转就开新事；搬动家宅；硬要人认你。
+    compliance_tag: null
+  reassurance:
+    en: The poem's counsel here is comfort, not alarm - ease your heart, hold what
+      you have, and let the frost withdraw. This describes a difficult season, not
+      a forecast of harm. If this reading touches anxiety or money worry, please reach
+      out to someone you trust or a qualified professional.
+    zh: 此诗的用意是宽心，不是吓人：放宽心，守住手上的，让风霜退去。
+    compliance_tag: null
+stories:
+- title:
+    zh: 古城會關公斬蔡陽
+    en: Guan Yu Kills Cai Yang at the Old City
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 关羽、刘备、张飞三人是结义兄弟。曹操领兵东征，刘备兵败，关羽不得已暂且投降曹操，事先和曹操约定三件事。后来他打听到刘备的下落，就把曹操赏的金银封好、官印挂起，带着刘备的两位夫人北上去找兄长，一路上过了五道关口，斩了六员守将。走到半路，他听说张飞占了一座古城，便前去相会。张飞却疑心他背弃旧义、投降了曹操，关起城门不肯接纳。正好曹操的部将蔡阳带兵追到古城，要为先前被杀的秦琪报仇。张飞就以敲三通鼓为限，要关羽出战，以表明心迹。鼓声还没停，关羽已经把蔡阳斩于马下。张飞这才解了疑心，兄弟重新相会聚义。
+    en: Guan Yu, Liu Bei, and Zhang Fei were sworn brothers. Cao Cao led his troops
+      east, and Liu Bei's army was beaten. Guan Yu had no choice but to submit to
+      Cao Cao for a time. Before doing so he agreed on three conditions with Cao Cao.
+      Later he learned where Liu Bei was. He sealed up the gold and silver Cao Cao
+      had given him and hung up his official seal. Then he went north with Liu Bei's
+      two wives to find his elder brother. On the way he passed five passes and killed
+      six defending officers. Halfway along he heard that Zhang Fei had taken an old
+      city, and he went to meet him. But Zhang Fei suspected that he had turned his
+      back on his old loyalty. He would not open the gate to take him in. Just then
+      Cai Yang, an officer under Cao Cao, brought troops to the old city. He came
+      to avenge Qin Qi, who had been killed earlier. Zhang Fei set a limit of three
+      rolls of the drum. He told Guan Yu to go out and fight, to show where his heart
+      lay. Before the drumming stopped, Guan Yu had struck Cai Yang from his horse.
+      Only then did Zhang Fei's doubt clear. The brothers came together in their bond
+      again.
+  poem_connection:
+    zh: 这一签的签诗说枯木还没等到春天，如今只能藏在暗处，宽心守着等风霜过去，自然还你一个天地。关羽忠义被疑，终得说明。
+    en: The poem says the withered tree has not yet waited for spring, so for now
+      it must hide in the dark; wait at ease for the frost to pass. Guan Yu's loyalty
+      was doubted and at last made clear.
+- title:
+    zh: 孔夫子過宋入陳除險解難
+    en: Confucius Passes Through Song and Chen, Meeting Danger and Finding a Way Out
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孔子是中国春秋时期的思想家，出身鲁国，带着弟子周游列国十多年，走过卫、陈、宋、蔡、楚等地，一路屡遭困厄。路过宋国时，他和弟子在大树下面练习礼仪。宋国的司马桓魋想害他，派人把那棵树砍倒，孔子只好离开宋国。走到陈国和蔡国之间，楚国派人来聘请孔子，陈、蔡的大夫怕孔子为楚国所用对自己不利，就发兵把孔子一行围在野外，断绝了粮食七天，跟随的人生病饿得站不起来。孔子照旧讲诵、弹琴唱歌不停。子路、子贡都来问怎么办，孔子告诉他们，君子处在困境里也要守住自己。后来楚国人赶来迎接，围困才解除。
+    en: Confucius was a thinker of China's Spring and Autumn period. He came from
+      the state of Lu and spent more than ten years traveling through the states with
+      his followers. He went through Wei, Chen, Song, Cai, and Chu, and met hardship
+      again and again on the way. Passing through Song, he and his disciples practiced
+      the rites under a large tree. Huan Tui, a marshal of Song, meant to harm him
+      and sent men to cut the tree down, so Confucius had to leave Song. Between Chen
+      and Cai, Chu sent men to invite him. The senior officers of Chen and Cai feared
+      that Confucius might serve Chu to their disadvantage, so they moved troops and
+      surrounded his company in open country. They cut off food for seven days. His
+      followers fell ill and were too weak with hunger to stand. Confucius went on
+      reciting and singing and playing the qin without stopping. Zilu and Zigong both
+      came to ask what to do. Confucius told them that a gentleman holds to himself
+      even in hardship. Then men from Chu came to welcome him, and the siege was lifted.
+  poem_connection:
+    zh: 签诗说枯木未逢春、宽心且守风霜退；孔子周游被阻、终得解围，正合守困待时这一层。
+    en: The poem says the withered tree has not met spring, and counsels an easy heart
+      and standing fast until the frost passes. Confucius was blocked in his travels
+      and finally freed, which fits.
+- title:
+    zh: 孔子厄於陳蔡之間
+    en: Confucius Beset Between Chen and Cai
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孔子带着弟子周游列国，来往于卫、陈、蔡之间，希望有诸侯用他，好推行他的主张。楚昭王听说孔子贤能，想请他到楚国去。陈、蔡两国的大夫怕孔子入楚会不利于自己，就发兵把孔子一行人围困在陈蔡之间的野地里。师徒断了粮食，随行的人饿病交加，站都站不起来。弟子子路愤愤地来见孔子，问君子是不是也有穷困的时候。孔子答，君子能安于穷困，小人一穷就什么坏事都做得出来。弟子们仍旧诵书弹琴唱歌，孔子照常弹琴。后来子贡到楚国求救，楚昭王发兵来迎，孔子一行才脱身离开。
+    en: Confucius traveled through the states with his disciples, going back and forth
+      between Wei, Chen and Cai, hoping some ruler would employ him and carry out
+      his ideas. King Zhao of Chu heard that Confucius was a man of worth and wanted
+      to invite him to Chu. The chief ministers of Chen and Cai feared that Confucius
+      in Chu would harm their own position. So they sent troops and surrounded Confucius
+      and his followers in the open country between Chen and Cai. Master and disciples
+      ran out of food; those with him were weak from hunger and sickness and could
+      not even stand. The disciple Zilu came to Confucius in anger and asked whether
+      a gentleman could also fall into want. Confucius answered that a gentleman can
+      remain at ease in want, while a small man in want does anything base. The disciples
+      went on reciting texts and playing music, and Confucius went on playing his
+      qin. Later Zigong went to Chu to ask for help, and King Zhao of Chu sent troops
+      to welcome them. Confucius and his followers then got away.
+  poem_connection:
+    zh: 这一签写枯木未逢春、只得暗中伏藏、放宽心守候，正扣签诗“宽心且守风霜退，还君依旧作乾坤”。
+    en: A dead tree that has not yet met spring, waiting out the frost in hiding,
+      fits a lot whose poem tells the reader to wait with an easy heart until the
+      frost passes.
+- title:
+    zh: 紂王滅國
+    en: King Zhou's Kingdom Falls
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 纣王是商朝最后一个君主。他在位时，用酒装满池子，把肉挂得像树林，宠幸妃子妲己，加重赋税，刑罚又重，诸侯多半背离了他。西边的西伯姬昌，就是后来的周文王，修养德行，善待士人，天下人心多归向他。文王死后，他的儿子周武王继位，在盟津会合诸侯。周武王率领战车和勇士讨伐商朝，两军在商都郊外的牧野交战。纣王的军队虽然多，却都不肯卖命，前面的队伍掉转戈头，反过来迎接周军。纣王败走，登上鹿台，穿上宝玉做的衣服，自焚而死。商朝就此灭亡，周朝得到天下，分封诸侯。
+    en: King Zhou was the last ruler of the Shang dynasty. In his reign he made a
+      pool filled with wine and hung meat till it looked like a forest. He favoured
+      his consort Daji, raised taxes, and used heavy punishments, and most of the
+      lords turned away from him. In the west, the Western Earl Ji Chang, who later
+      became King Wen of Zhou, cultivated virtue and treated men of worth well, and
+      the hearts of the realm turned to him. After King Wen died, his son King Wu
+      of Zhou took the throne and gathered the lords at Mengjin. King Wu led chariots
+      and fighting men against Shang. The two armies met at Muye outside the Shang
+      capital. King Zhou's army was large, but the men would not fight with their
+      lives. The front ranks turned their spears around and welcomed the Zhou army
+      instead. King Zhou fled, climbed the Deer Terrace, put on robes of precious
+      jade, and burned himself to death. The Shang dynasty ended there. Zhou won the
+      realm and enfeoffed the lords.
+  poem_connection:
+    zh: 签诗说枯木可惜未逢春，宽心且守风霜退，还君依旧作乾坤。商亡周兴、改换天地，正合末句的收束。
+    en: The lot poem says the withered tree has not met spring, so wait for the frost
+      to pass, and the world is yours again. Shang falls, Zhou rises, heaven and earth
+      changed.
+- title:
+    zh: 百里奚食牛入相
+    en: Baili Xi Feeds Cattle, Then Becomes a Minister
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 百里奚是春秋时虞国的大夫。晋献公消灭虞国，他被俘，当作陪嫁的仆从，跟着秦穆公的夫人进了秦国。半路上他逃走，跑到宛地，被楚人抓住。秦穆公听说他有本事，想拿重金把他赎回来，又怕楚人不放，就用五张黑羊皮把他赎回，那时候他已经七十多岁了。穆公跟他谈了三天，很高兴，把国政交给他，称号叫五羖大夫，羖就是黑羊。后来的人还讲他曾替人喂牛，拿养牛的道理去劝秦国的君主，所以有食牛这个名目。穆公用他和蹇叔的谋略修明国政，秦国从此强起来，又用由余，称霸西戎，成为春秋的强国。题名取的就是他从低贱的差役里起身，终于做到国相这一段。
+    en: Baili Xi was a minister of the state of Yu in the Spring and Autumn period.
+      Duke Xian of Jin did away with Yu, and Baili Xi was taken prisoner. Made part
+      of a dowry train of servants, he went with the wife of Duke Mu of Qin into Qin.
+      He ran off on the way, got to the place called Wan, and was seized by men of
+      Chu. Duke Mu heard that he had ability and wanted to buy him back with a large
+      sum. But he feared that Chu would not let him go, so he redeemed him with five
+      black sheepskins. Baili Xi was over seventy by then. Duke Mu talked with him
+      for three days and was pleased, and handed him the government of the state,
+      with the title Five-Ram Minister, after the five black rams paid for him. People
+      of later times also told that he had once fed cattle for others, and used the
+      principles of raising cattle to advise the ruler of Qin - which is where the
+      title's 'feeding cattle' comes from. Duke Mu used his plans and those of Jian
+      Shu to set the government in order, and Qin grew strong from then on. With You
+      Yu it became chief among the western Rong and a leading power of the Spring
+      and Autumn period. What the title takes is the stretch in which he rose from
+      lowly servitude to the chief ministry.
+  poem_connection:
+    zh: 签诗说“枯木可惜未逢春，如今还在暗中藏。宽心且守风霜退，还君依旧作乾坤”，与百里奚年老被擒、守待而后得用一节相贴。
+    en: The poem speaks of dead wood that has not met the spring, still hidden in
+      the dark, and of waiting out the frost; Baili Xi was taken in old age and waited,
+      then was put to use.
+- title:
+    zh: 王沂公祈禱
+    en: Lord Wang of Yi Prays
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王曾字孝先，是北宋青州益都人，益都在今天的山东。他少年时就有文名，由乡里选送到京城应考，礼部考试和皇帝亲试都考了第一，接连夺魁。他一生做官，历任翰林学士、参知政事、枢密使等职，后来封为沂国公。因为他封沂国公，签题就称他王沂公。他为人端方厚道，做官守正，不喜欢求人，也不受奉承。他考中状元还乡时，本州的官员吩咐父老备好乐队，出城迎接。他听说后，换掉官服，坐一辆小车，从别的城门进城，直接去拜见知州，知州见了他大为惊讶。民间说他为官时诚心祷告，求风调雨顺、国泰民安。
+    en: Wang Zeng, whose courtesy name was Xiaoxian, was from Yidu in Qingzhou in
+      the Northern Song; Yidu is in present-day Shandong. He was known for his writing
+      as a young man. He was sent by his home district to the capital for the examinations,
+      and he came first both in the exam of the Ministry of Rites and in the exam
+      held by the emperor in person, taking the top place one after the other. He
+      held office all his life, serving as Hanlin academician, assistant administrator
+      of state affairs, and commissioner of military affairs, and was later made Duke
+      of Yi. Because he was Duke of Yi, the title of the lot calls him Lord Wang of
+      Yi. He was upright and kind by nature and kept to what was right in office.
+      He did not like asking favors, and he did not accept flattery. When he came
+      home after taking first place in the palace exam, the officials of his prefecture
+      told the elders to have a band ready and to go out of the city to meet him.
+      When he heard of it, he changed out of his official robes, rode in a small cart,
+      entered by another gate of the city, and went straight to call on the prefect.
+      The prefect was greatly startled to see him. Folk accounts say that when in
+      office he prayed with a sincere heart for timely wind and rain and for a peaceful
+      realm and contented people.
+  poem_connection:
+    zh: 签诗“枯木可惜未逢春”“宽心且守风霜退”，枯木待春、守正待时，正对王曾守志终显。
+    en: The lot's poem says a withered tree has not yet met spring, and counsels ease
+      of mind while frost and wind pass. A dry tree waiting for spring fits Wang Zeng
+      keeping his purpose until he was known.
+- title:
+    zh: 嚴君疾卜宮
+    en: Yan Junji Divines at the Palace
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 严君疾是战国时秦国宗室。他的本名叫疾，是秦孝公的儿子、秦惠文王的异母弟弟，封在严道，所以人称严君疾。他住在樗里，又号樗里子。这个人能说会道，足智多谋，秦国人给他起了个外号叫智囊。他先后在惠文王、武王、昭王三朝做官，出将入相，立过不少战功。他精通看地脉的方术，能预知身后的事。晚年他亲自为自己挑了一块葬地，选在渭南章台以东。渭南在今天的陕西。他生前说过，百年之后，会有天子的宫殿夹在他的坟墓两旁。后来汉朝兴起，长乐宫建在他墓的东边，未央宫建在他墓的西边，武库正对着他的坟。他当年的话一一应验。这一签说宽心且守风霜退，又说还君依旧作乾坤，正配樗里子自择葬地、预知久后应验的一段。
+    en: Yan Junji was of the ruling clan of Qin in the Warring States. His original
+      name was Ji. He was a son of Duke Xiao of Qin and a half-brother of King Huiwen
+      of Qin, enfeoffed at Yandao, so people called him Lord Yan. He lived at Chuli
+      and was also known as Master Chuli. He was a ready talker and full of schemes,
+      and the people of Qin nicknamed him the Wisdom Bag. He held office under three
+      reigns, those of King Huiwen, King Wu and King Zhao, serving as general and
+      as minister, and won no small merit in war. He was skilled in the arts of reading
+      the lay of the land, and could foretell what would come after him. In his later
+      years he chose a burial place for himself, east of Zhangtai in the south of
+      the Wei. Weinan is in what is today Shaanxi. In his lifetime he said that a
+      hundred years on, palaces of the Son of Heaven would stand on either side of
+      his grave. Later, when the Han rose, the Changle Palace was built east of his
+      grave and the Weiyang Palace west of it, with the armory facing it. What he
+      had said came true one by one.
+  poem_connection:
+    zh: 这一签说宽心且守风霜退、还君依旧作乾坤，正配严君疾自卜葬地、预言久而后验的一段。
+    en: This lot says to be easy in the heart and hold on until the wind and frost
+      pass - Master Chuli choosing his own burial place, and his words borne out long
+      after.
+- title:
+    zh: 嚴君平賣卦
+    en: Yan Junping Sells Divinations
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 严君平，名遵，西汉时蜀郡人。蜀郡在今四川一带。他是个隐士，在成都的街市上给人占卜。每天挣到一百钱，够自己过日子，他就关上门，放下帘子，讲学著书，写下十几万字的文章。有人来卜问，就算问的是不正的事，他也一定借占卜的结果把人往好处引：对做儿子的说孝，对做弟弟的说顺，对做臣子的说忠。他看各人的处境，往好处劝导，所以蜀地的人都很敬爱他。扬雄年轻时曾跟他读书，后来在朝中做官，多次称道他的德行。严君平为人淡泊自守，不贪荣利，除了占卜就闭门著书，活到九十多岁才去世。后来讲在街市上卖卜隐居的人，多以他为例。
+    en: Yan Junping, whose given name was Zun, was a man of Shu commandery in the
+      Western Han. Shu commandery lay in what is now Sichuan. He was a hermit who
+      told fortunes in the market of Chengdu. Each day, when he had earned a hundred
+      coins, enough to live on, he shut his door and let down a curtain. He gave lectures
+      and wrote books, turning out more than a hundred thousand words. When people
+      came to consult him, even when the question was improper, he always used the
+      result of the divination to steer the person toward good. To a son he spoke
+      of dutiful care for parents. To a younger brother he spoke of obedience. To
+      a minister he spoke of loyalty. He looked at each person's situation and advised
+      them toward what was good, and so the people of Shu respected and loved him.
+      Yang Xiong studied with him as a young man. He later became an official at court
+      and often spoke of Yan Junping's virtue. Yan Junping kept to a simple life and
+      wanted no glory or profit. Besides divining, he shut his door and wrote. He
+      lived past ninety. Later, when people spoke of men who sold divinations in the
+      market and lived in seclusion, they mostly took him as their example.
+  poem_connection:
+    zh: 签诗“宽心且守风霜退”，正合严君平卖卜糊口、隐居待时之状；“还君依旧作乾坤”也取他以卜告人祸福、还人一个分明之意。
+    en: The poem tells the reader to be easy and wait out the frost and wind, which
+      fits Yan Junping selling divinations for a living and living withdrawn; the
+      closing line also takes his showing people a clear fortune through divination.
+- title:
+    zh: 周元表充軍遇救
+    en: Zhou Yuanbiao, Sent into Exile, Is Rescued
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 明朝的神宗皇帝夜里梦见有人害他，惊醒后叫大臣解梦。大臣断定朝中藏着乱象，能替皇帝分忧的是前朝老臣海瑞。海瑞是当时有名的清官，早已退了下来。权相张居正把持朝政，不愿海瑞再被起用，就谎称海瑞已经死了。周元表是个读书人，到京城参加考试。张居正向他索贿，他没有给，张居正就把他的试卷涂黑，把他赶出考场。周元表在门前题字出气，因此被问罪充军。充军就是把犯人押到远处服苦役。海瑞在赴京的路上遇到被押解的周元表，问明原委，从解差手里取回文书，带他进京作证，揭发了张居正卖官受贿的事。神宗查明之后，赦免了周元表，还赐他进士出身，海瑞也重新被起用。
+    en: Emperor Shenzong of Ming dreamed at night that someone was going to harm him.
+      He woke with a start and had his ministers explain the dream. They judged that
+      disorder was hidden in the court, and that the one who could share the emperor's
+      worry was the old minister of an earlier reign, Hai Rui. Hai Rui was a famous
+      upright official of the time, and he had long since retired. The powerful chief
+      minister Zhang Juzheng held the government and did not want Hai Rui brought
+      back, so he lied that Hai Rui was dead. Zhou Yuanbiao was a scholar who came
+      to the capital for the examination. Zhang Juzheng asked him for a bribe, and
+      he did not give one. Zhang Juzheng then blackened his paper and drove him out
+      of the hall. Zhou Yuanbiao wrote words on the gate in anger, and for that he
+      was charged and sent into exile. Exile meant being taken far away to hard labor.
+      On the road to the capital, Hai Rui met Zhou Yuanbiao under escort. He asked
+      what had happened, took the papers from the guards, and brought him to the capital
+      as a witness. He exposed Zhang Juzheng's selling of offices and taking of bribes.
+      When Shenzong had the facts, he pardoned Zhou Yuanbiao and granted him the standing
+      of a presented scholar. Hai Rui was called back to office too.
+  poem_connection:
+    zh: 签诗说枯木还没遇到春天，眼下只能藏在暗处，宽心守着，风霜过去就恢复旧貌。周元表遇救正合此意。
+    en: The lot poem says the dead tree has not yet met spring, and that for now one
+      should stay hidden and keep an easy mind until the frost passes. Zhou Yuanbiao
+      was rescued in just this way.

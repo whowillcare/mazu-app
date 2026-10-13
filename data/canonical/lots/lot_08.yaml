@@ -1,0 +1,261 @@
+id: 8
+lot_number: 8
+ganzhi:
+  zh: 乙卯
+  pinyin: Yi-mao
+title:
+  en: Xue Rengui Comes Home
+  zh: 薛仁貴回家
+hexagram:
+  zh: 山水蒙
+  name_and_structure_en: Meng (Mountain over Water)
+  binary_code: ○●●●○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 2
+  primary:
+    zh: 薛仁貴回家
+    en: Xue Rengui Comes Home
+  variants_en:
+  - Zhu Bing Comes Home
+  variants_zh:
+  - 朱並回家
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive with a late-season dent — 凡事 和者得。不和失／婚姻
+      成。大吉。兩全其美／求財 下半年好。家利／月令 破財。下年不畏 (jie_yue_score +18)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: the marriage, household and livestock lines
+      come through well, and income improves in the later half of the season, but
+      going out and the month''s turn sit under caution. Support and friction appear
+      together, so we read it as mixed rather than positive.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 和者得。不和失／家事 進益團美／家運 平安／婚姻 成。大吉。兩全其美／求兒 吉／求財 下半年好。家利／功名
+      二次得進／歲君 和氣／出外 不可／經商 有利必得／行舟 得財／移居 大吉／失物 速尋必在／官事 二次完明。了財／六畜 大吉／耕作 下半年有收成／築室 居中。鼓員固美／墳墓
+      地運有合／討海 好／作塭 允收／魚苗 大利／月令 破財。下年不畏／尋人 速至／遠信 速至——整签偏正（jie_yue_score +18），惟 出外 不可、治病
+      少不畏。老不好、月令 破財。下年不畏 三处留有余地。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：婚姻、家宅、六畜几处都顺，进项后半季见好；出外与月令两处带提醒。支持与阻力同现，故读作 mixed。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 禾稻看看結成完，
+    en: Look — the rice has ripened and stands full;
+  - line_number: 2
+    zh: 此事必定兩相全，
+    en: and this matter comes whole for both of you;
+  - line_number: 3
+    zh: 回到家中寬心坐，
+    en: come back into the house and sit at ease;
+  - line_number: 4
+    zh: 妻兒鼓舞樂團圓。
+    en: wife and children clap, and the reunion is glad.
+keywords:
+  favourable:
+    en:
+    - a harvest already in hand
+    - a mutual completion
+    - coming home
+    - household gladness
+    zh:
+    - 收成已经握在手里
+    - 双方的圆满
+    - 回到家里
+    - 一家人的欢喜
+  guarded:
+    en:
+    - setting out again too soon
+    - a one-sided settlement
+    - joy that overstays the season
+    zh:
+    - 太早又出门
+    - 一边倒的结法
+    - 欢喜赖过了时节
+reading_notes:
+- term: 看看
+  pinyin: kàn-kàn
+  en: '"look, by and by": at once *seeing* and *watching it come about*; The ripening
+    is already under way.'
+  zh: 是眼看着、渐渐要：既指看见，也指看着它成起来。成熟已经在进行中。
+- term: 兩相全
+  pinyin: liǎng-xiāng-quán
+  en: '"whole for both sides": a mutual completion; not a one-sided win.'
+  zh: 是两边都成全：是双方一齐圆满，不是一方独赢。
+- term: 鼓舞
+  pinyin: gǔ-wǔ
+  en: 'to clap and dance: at once *encouragement* and *the drumming of celebration*;
+    One old edition reads 皷腹 (*patting a full belly*) — the sense of plenty is the
+    same.'
+  zh: 是拍掌起舞：既指鼓舞，也指庆贺的擂鼓。旧本有一处作「皷腹」（拍着吃饱的肚子），饱满这一层意思是一样的。
+plain_meaning:
+  en: 'Something is already ripening: the terms are whole for both sides if you keep
+    to accord, and the poem sends you home to sit at ease rather than to press the
+    matter further. The household is the good ground here.'
+  zh: 有些东西已经在熟了：只要顺着和气走，条件对双方都是完整的；诗把你送回家里安坐，而不是要你再把事情往前逼。这一签的好地面在家里。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A good, consenting season; a mutual settlement is well supported — do it in
+      accord, not in argument.
+    zh: 一段温厚、彼此愿意的时节；双方的结法有依托——要顺着和气办，不要在争里办。
+    compliance_tag: null
+  career:
+    en: 'A hard first stage, then a rise: advance twice, and the second step is the
+      fuller.'
+    zh: 开头一段辛苦，之后往上走：走两步，第二步更饱满。
+    compliance_tag: null
+  money:
+    en: The second half of the season is the profitable one, and household money does
+      well. *(Not financial advice.)*
+    zh: 这一季的后半程才是进项所在，家里的钱也走得顺。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A mild thing in the young, a heavier one in the old — steady care rather than
+      drastic measures. *(Not medical advice.)*
+    zh: 年轻的人身上是小事，年长的人身上重一些——要的是稳定的调养，不是猛药。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Increase, plenty and reunion; the gladness is at home.
+    zh: 进益、丰足与团圆；喜气是在家里的。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out; what you want is being assembled at home.
+    zh: 诗里说不要出门；你要的东西正在家里聚起来。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Good water — the catch and the freight both come in well.
+    zh: 水路好——渔获与货运都进得来。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The harvest comes late in the year and comes well; the early months are thin.
+    zh: 收成在该年的后段，而且收得好；开头的月份是薄的。
+    compliance_tag: null
+  timing:
+    en: Late in the season — a season, never a date.
+    zh: 在该季的后段——按季节去读，不要当成日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Setting out again too soon; settling in a one-sided way.
+    zh: 太早又出门；用一种一边倒的方式把事情结掉。
+    compliance_tag: null
+  reassurance:
+    en: The plenty here is already on its way; it does not need to be forced.
+    zh: 这里的丰足本来就在长起来；不需要硬求。
+    compliance_tag: null
+stories:
+- title:
+    zh: 薛仁貴回家
+    en: Xue Rengui Comes Home
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 薛仁贵是唐朝的将军，家在龙门县。他年轻时家里很穷，妻子柳金花带着女儿金莲住在寒窑里。薛仁贵跟随唐太宗出征高丽，屡次立功。班师回朝后，他被封为平辽王，还奉命在故乡龙门县修建王府，由老将程咬金督造。王府建成，薛仁贵衣锦还乡，从寒窑里接回妻子和女儿。地方上的官吏和乡绅都来道贺。当年他落魄时，曾向伯父薛雄求助，被伯父羞辱。如今伯父送来贺礼，他叫人把礼退回去，说不认这门亲戚。另有一位王茂生，当年挑着杂货担帮他渡过难关，又替他说成这门亲事。王茂生扛着酒来贺，薛仁贵亲自走出府门相迎。
+    en: Xue Rengui was a general of the Tang dynasty, and his home was in Longmen
+      County. When he was young his family was very poor. His wife Liu Jinhua lived
+      with their daughter Jinlian in a cold, shabby cave dwelling. Xue Rengui followed
+      Emperor Taizong on a campaign against Goguryeo and won merit again and again.
+      After the army returned in triumph, he was made Prince of Pingliao and ordered
+      to build a princely mansion in his home county of Longmen. The old general Cheng
+      Yaojin supervised the work. When the mansion was finished, Xue Rengui came home
+      in fine robes and brought his wife and daughter back from the cave dwelling.
+      Local officials and country gentlemen all came to congratulate him. In the years
+      when he was down and out, he had asked his uncle Xue Xiong for help and been
+      humiliated. Now his uncle sent a congratulatory gift, and he had it sent back,
+      saying he did not recognize this relative. Another man, Wang Maosheng, had once
+      carried a peddler's load to help him through hard times and had arranged his
+      marriage. Wang Maosheng came carrying wine to congratulate him, and Xue Rengui
+      walked out of the gate himself to welcome him.
+  poem_connection:
+    zh: 这一签说回到家中宽心坐、妻儿团圆，正配薛仁贵接回妻女、一家团聚这一段。
+    en: This lot speaks of sitting at ease at home with wife and children reunited.
+      That fits the scene where Xue Rengui brings his wife and daughter back and the
+      family is together.
+- title:
+    zh: 朱並回家
+    en: Zhu Bing Returns Home
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱并回家，说的是一个离家在外的人重新回到家中。这一签的画面正落在秋收的时候。田里的稻子一株株长成，眼看就要收割完毕，两下里的事都有了着落。秋收是农家一年里最忙、也最踏实的时候，割下谷子，仓里有了存粮。一年的辛苦到了这时才算落定。出门在外的人赶在这个时候动身，一路回到家中。到家以后，妻子和儿女欢喜相迎，一家人重新聚在一处，坐得安稳。乡下人一年到头盼的，就是田里收成好、出门的人平安回来、一家团团圆圆。
+    en: 'Zhu Bing returns home: a man who has been away comes back to his own house.
+      The picture in this lot falls at the autumn harvest. The rice in the fields
+      has ripened stalk by stalk. The reaping is nearly done, and both sides of the
+      matter have come to rest. Harvest is the busiest and steadiest time of the year
+      for a farming family. The grain is cut and there is food in the store. Only
+      then does the work of a whole year settle. The man who has been away sets out
+      at this season and travels home. When he arrives, his wife and children come
+      out to meet him gladly. The family is gathered in one place again and sits down
+      at ease. Through the year country people hope for a good harvest, a safe return
+      for those who are away, and a family gathered whole.'
+  poem_connection:
+    zh: 这一签的签诗说禾稻看看结成，这件事必定两全，回到家中宽心坐着，妻儿欢欣团圆。题面的“回家”二字正与末两句相应。
+    en: The poem says the rice is seen to ripen, the matter must turn out whole, and
+      at home the wife and children are glad. The title's word 'return home' matches
+      the last two lines.
+- title:
+    zh: 朱并(幷)回家
+    en: Zhu Bing Returns Home
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签讲的是回家。朱并出门在外多年，如今动身回来。他上路的时候，田里的稻子正好长成，眼看就要收割完毕。一路上走走停停，等他到了家，收割的事也刚刚了结。人和稻子都到了完满的时候，两下里都没有欠缺。妻子和儿女见到他回来，欢喜得很，一家人重新聚在一处，安心坐下。收成到手，人也到家，一年的心事总算放下。乡下人一年到头盼的，就是田里收成好、出门的人平安回来、一家团团圆圆。题面上只写着“回家”两个字，讲的正是这番景象。
+    en: This lot is about coming home. Zhu Bing had been away for many years, and
+      now he sets out to return. When he took the road, the rice in the fields had
+      just ripened. The reaping was nearly done. He travelled on and rested by turns.
+      By the time he reached home the harvest had only just been finished. The man
+      and the rice had both come to their completion, and neither side fell short.
+      His wife and children were very glad to see him back. The family gathered in
+      one place again and sat down with peace of mind. The harvest was in hand and
+      the man was home, and the cares of a whole year were set down at last. Through
+      the year country people hope for a good harvest, a safe return for those who
+      are away, and a family gathered whole. The title says only returning home, and
+      this is the picture it tells.
+  poem_connection:
+    zh: 这一签的签诗说禾稻眼看结成了，这件事必定两全，回到家中宽心坐下，妻儿欢欣团圆。题面的“回家”二字与末两句正相呼应。
+    en: The poem says the rice is seen to ripen and the matter must turn out whole;
+      back home one sits at ease while wife and children gather gladly. The title's
+      return home answers the last two lines.

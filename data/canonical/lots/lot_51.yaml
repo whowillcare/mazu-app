@@ -1,0 +1,365 @@
+id: 51
+lot_number: 51
+ganzhi:
+  zh: 壬辰
+  pinyin: Ren-chen
+title:
+  en: Zhao Xuanlang Fights the Great Battle of Hedong at Dragon-Tiger Pass
+  zh: 趙玄郎河東大戰龍虎關
+hexagram:
+  zh: 震为雷
+  name_and_structure_en: Zhen (Thunder over Thunder)
+  binary_code: ●●○●●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 趙玄郎河東大戰龍虎關
+    en: Zhao Xuanlang Fights the Great Battle of Hedong at Dragon-Tiger Pass
+  variants_en:
+  - Emperor Taizu of Song Fights the Hedong War
+  - Zhao Kuangyin Shut In at Hedong, Fighting at Dragon-Tiger Pass
+  - Zhuge Liang Lies at Ease in Longzhong
+  - Lord Yang Smashes the Memorial Stele
+  - The Song's Zhao Kuangyin Shut In at Hedong
+  variants_zh:
+  - 宋太祖河東大戰
+  - 趙匡胤困河東戰龍虎關
+  - 諸葛隆中高臥
+  - 楊令公撞碑
+  - 宋朝趙匡胤困河東
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'the judgements run positive across the board - 家運 門庭永昌／婚姻 成好／求財 冬天大吉／官事
+      萬和／歲君 吉／六畜 有利 - with the good tied to the household and to staying in: 凡事 自守待運／出外
+      不可／移居 不可／行舟 了本／月令 不遂 (jie_yue_score +15)'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: the household, marriage and thrifty-income
+      lines stand well and reward staying put, while going out, moving house, boat
+      passage and the month''s turn close. A stay-put reading rather than an open
+      one, so we read it as mixed.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 自守待運／作事 勤成／家事 門庭大益／家運 門庭永昌／婚姻 成好／求兒 平平／六甲 先男後女。貴氣／求財
+      冬天大吉。依舊好／功名 後科／歲君 吉／治病 命拖尾。老少安／出外 不可／經商 小利。在家好／來人 月光到／行舟 了本／移居 不可／失物 尋有／求雨 不日到／官事
+      萬和／六畜 有利／耕作 早平晚好／築室 平平／墳墓 地勢適宜／討海 無大財／作塭 自守可得／魚苗 小利益／月令 不遂／尋人 時到則回／遠信 音信緩至——整签偏正，好处系在家里、也系在当令，惟
+      出外、移居 皆阻，行舟折本、討海 無大財、月令 一项留有余地（jie_yue_score +15）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：家运、婚姻与勤俭所得偏顺，宜守；出外、迁居、舟行与月令几处则收住。这是守则得、动则损之象，故读作 mixed。
+provenance:
+  editorial_note: '*the temple list carries the same Hedong cluster, giving the second
+    tale as 宋朝趙匡胤困河東.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 東西南北不堪行，
+    en: East and west, south and north - no road here can be walked;
+  - line_number: 2
+    zh: 前途此事正可當，
+    en: the road that lies ahead is exactly what must be faced.
+  - line_number: 3
+    zh: 勸君把定莫煩惱，
+    en: I urge you to hold firm and not to fret;
+  - line_number: 4
+    zh: 家門自有保安康。
+    en: your own household of itself keeps its peace and health.
+keywords:
+  favourable:
+    en:
+    - waiting out the season at home
+    - the household that holds firm
+    - gain tied to the cold season
+    - keeping to known ground
+    zh:
+    - 在家等这段时节过去
+    - 撑得住的这一家
+    - 好处系在寒季
+    - 守住熟悉的地面
+  guarded:
+    en:
+    - setting out in any direction
+    - moving house under this sky
+    - putting capital on the water
+    - reading a quiet season as a closed one
+    zh:
+    - 朝任何一个方向动身
+    - 在这种天色下搬迁
+    - 把钱压到水路上
+    - 把清静的时节读成闭门
+reading_notes:
+- term: 東西南北
+  pinyin: dōng-xī-nán-běi
+  en: 'east, west, south and north: the four directions named one after another, leaving
+    no quarter open; a figure for ''anywhere at all'' rather than four separate destinations.'
+  zh: 把四个方向挨个点过，一处不留；说的是「哪儿都一样」，重点落在「处处」这一层。
+- term: 不堪行
+  pinyin: bù-kān-xíng
+  en: 'not fit to be walked: the going is more than a body can bear; the road itself
+    refuses the traveller; the line blames the way, not the person.'
+  zh: 是走不动、受不住：既指身子吃不消，也指路本身不容人走——这一句怪的是路，不是人。
+- term: 把定
+  pinyin: bǎ-dìng
+  en: 'to hold firm: hold the mind still and stop turning the matter over; hold the
+    position already in hand - stay put rather than set out.'
+  zh: 有两层：把心定住，别再翻来覆去；也指守住手里已有的位置——留在此处，不要动身。
+plain_meaning:
+  en: 'A season to stand where you are: the poem says no direction on the compass
+    can be walked, and that the matter is met at home instead. The household is the
+    part that holds and prospers, and the gain this lot names is tied to the cold
+    season and to staying in. The counsel is to settle the heart, stop turning the
+    question over, and keep what is already yours.'
+  zh: 这是一段原地守持的时节：诗里说四方都走不通，事情要在家里应对。能撑住、能兴旺的是这一家，签中所指的好处系在寒季，也系在不出门。劝的是把心定下来，不要再把这件事翻来覆去，守住已经握在手里的。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Should I quit my job and move overseas now?
+    zh: 我该不该现在辞职、移居海外？
+  rewritten_to:
+    en: What should I protect this season, and what should I leave until the month
+      turns?
+    zh: 这一季我该护住什么，什么该等到月令转过再说？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是一个封闭式的是非问（只求「该不该」），改为可护住、可等待的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A supported season for a match; the one caution is distance - keep the relationship
+      where the household is.
+    zh: 这一段时节对姻缘是托得住的；唯一要留心的是距离——把关系留在家的这一边。
+    compliance_tag: null
+  career:
+    en: Advancement is given as slow rather than sudden, and the judgements favour
+      the home base; deepen what you already hold.
+    zh: 进取被写作慢成而非速成，判词又偏向本乡本业；把你已经握住的东西往深处做。
+    compliance_tag: null
+  money:
+    en: The gain attached to this lot is seasonal and local - hold reserves and keep
+      the venture small. (Not financial advice.)
+    zh: 签里的好处是有季节、有地点的——留住储备，生意做小。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The illness judgements point to something slow rather than dangerous, with
+      the old and the young coming through; have anything long-standing looked at
+      properly. (Not medical advice.)
+    zh: 身体上的判词说的是缠绵而非凶险，老小都过得去；拖得久的毛病要正经去看。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: 'The household is the strong part of this lot: it prospers and its good name
+      holds.'
+    zh: 家宅是这一签最结实的一处：兴旺，名声也立得住。
+    compliance_tag: null
+  travel_moving:
+    en: The two things this lot turns down are going far off and moving house; postpone
+      both if they can wait.
+    zh: 这一签推掉的是两件事：远行与搬家；能等的就先都等一等。
+    compliance_tag: null
+  sea_and_voyage:
+    en: On the water the judgement reads as a loss on the boat; keep the boats in
+      and work from the shore this season.
+    zh: 水路上的判词是折本；这一季把船收回来，在岸上做活。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The field pays late and the animals pay now; work the known ground and the
+      stores rather than the market.
+    zh: 田里出得晚，畜生当下就有进项；做熟悉的地面与库存，不追市面。
+    compliance_tag: null
+  timing:
+    en: The gain is placed in the cold season and the delay in the current month -
+      read as seasons, never as dates.
+    zh: 好处被放在寒季，拖延被放在当月的这一轮——按季节读，不要当日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Setting out in any direction, and moving house while the month does not carry
+      you.
+    zh: 朝任何一个方向动身；在时令不托你的时候搬家。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs forcing; the household stands on its own.
+    zh: 这里没有哪一件事需要硬求；这一家自己就站得住。
+    compliance_tag: null
+stories:
+- title:
+    zh: 趙玄郎河東大戰龍虎關
+    en: Zhao Xuanlang Fights the Great Battle of Hedong at Dragon-Tiger Pass
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 赵玄郎是民间对宋太祖赵匡胤的俗称。他年轻时行侠仗义，在关西、河东一带闯荡。河东在黄河以东，关西在函谷关以西，都是当时险要的地方。他一路结交了郑恩、柴荣等朋友，吃了不少苦头，后来才做了皇帝。他曾在河东与敌军大战于龙虎关。这一仗打得凶险，四面八方都走不通，进退都难，全靠他定住心神，把队伍稳住，才守住阵脚。龙虎关是这一带最险要的关口，两边山势夹着一条路，敌人据险来攻。赵玄郎在这里苦战之后，才脱出险境，回转家门。
+    en: Zhao Xuanlang is the popular name for Zhao Kuangyin, the founding emperor
+      of the Song. As a young man he did chivalrous deeds and roamed the regions of
+      Guanxi and Hedong. Hedong lay east of the Yellow River and Guanxi west of the
+      Hangu Pass, both strategic places of the time. On the way he made friends with
+      Zheng En, Chai Rong, and others, took a good deal of hardship, and only later
+      became emperor. He once fought a great battle against enemy forces at Dragon-Tiger
+      Pass in Hedong. The fight was dangerous. Every road in all four directions was
+      closed, and there was no easy way forward or back. He steadied his own heart
+      and held the ranks together, and only so did he keep his ground. Dragon-Tiger
+      Pass was the most vital gate in that area, with hills on both sides pinching
+      a single road, and the enemy attacked from strong ground. After hard fighting
+      there, Zhao Xuanlang got clear of the danger and turned back toward home.
+  poem_connection:
+    zh: 签诗说东西南北不堪行、把定莫烦恼、家门自保安康；大战龙虎关四顾皆难，正合这一层。
+    en: The poem says east, west, south, and north are all bad roads, that one should
+      hold steady and not fret, and that the household keeps itself safe. The battle
+      at the pass fits.
+- title:
+    zh: 宋太祖河東大戰
+    en: Emperor Taizu of Song Fights the Hedong War
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵匡胤做了宋朝的皇帝，就是宋太祖。他黄袍加身之后，南方各国先后归附，北方还有北汉占据河东一带，靠着契丹做后援。宋太祖决意亲自出征，派将领分路出击，自己带大军北上，围攻太原城。北汉主向辽国求救，辽国出兵来援，宋军和辽军交战，围城几个月也没能攻下。天气炎热又多雨，士兵生病的很多，只好撤兵回来。河东在十年里两次大举用兵，虽然都没有平定，却为后来宋太宗灭掉北汉打下了底子。宋太祖亲自到城下督战，也没能改变局面。他回到京城之后，河东的事仍旧悬着。
+    en: Zhao Kuangyin became emperor of the Song dynasty, and is known as Emperor
+      Taizu. After he was dressed in the yellow robe, the states of the south came
+      over to him one after another. In the north the Northern Han still held the
+      Hedong region, with the Khitan behind it. Emperor Taizu decided to lead a campaign
+      in person. He sent his generals out along several roads and took the main army
+      north himself, laying siege to the city of Taiyuan. The ruler of the Northern
+      Han asked Liao for help, and Liao sent troops. The Song and Liao armies fought,
+      and the siege lasted several months without the city falling. The weather turned
+      hot and wet, and many soldiers fell ill, so the army had to be pulled back.
+      In ten years two large campaigns were fought over Hedong, and although neither
+      settled the matter, they laid the ground for Emperor Taizong of Song, who later
+      destroyed the Northern Han. Back in the capital, the emperor still had Hedong
+      on his mind.
+  poem_connection:
+    zh: 这一签写四出征战而四方都有阻碍、只宜守住本处，正扣签诗“东西南北不堪行”“劝君把定莫烦恼”。
+    en: Fighting in every direction while every direction holds an obstacle, so that
+      a man should only hold his own ground, fits a lot whose poem says no way is
+      passable from east, west, south or north.
+- title:
+    zh: 趙匡胤困河東戰龍虎關
+    en: Zhao Kuangyin Shut In at Hedong, Fighting at Dragon-Tiger Pass
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵匡胤是五代末年的人，后来做了宋朝的开国皇帝，就是宋太祖，民间又称他赵玄郎。他早年流落江湖，吃过不少苦。他曾被困在河东一带，与敌军在龙虎关大战。河东指黄河以东的地方，大致在今山西一带。他困守关下，四面受敌，人马疲惫，一时走不出去。敌军从四面八方围上来，粮草也渐渐接不上。他在军中结识了不少能干的将领，日后都成了他的班底。靠部下将领护卫、当地乡民相助，他才脱身出来。此后他从军，得到后周世宗的重用，渐渐掌握兵权。世宗去世，他接替后周，取得天下，定国号为宋。
+    en: Zhao Kuangyin lived at the end of the Five Dynasties and later became the
+      founding emperor of the Song, Emperor Taizu. Among the people he was also called
+      Zhao Xuanlang. In his early years he drifted about and suffered much hardship.
+      He was once shut in around Hedong and fought a great battle with the enemy at
+      Dragon-Tiger Pass. Hedong means the land east of the Yellow River, roughly the
+      region of modern Shanxi. He held his ground below the pass, under attack from
+      all sides, with weary men and horses, and for a time could not get out. The
+      enemy closed in from every direction, and supplies of grain ran short. In the
+      army he came to know many able generals, who later became his own group. Only
+      with the guard of his officers and the help of the local villagers did he get
+      free. After that he joined the army, was much used by Emperor Shizong of Later
+      Zhou, and gradually took command of troops. When Shizong died, he took over
+      from Later Zhou, won the realm, and named his dynasty Song.
+  poem_connection:
+    zh: 签诗说东西南北不堪行，劝君把定莫烦恼，家门自有保安康。困守关下、四面受敌而终得脱身，正合这一层。
+    en: The lot poem says east, west, south, and north cannot be travelled, and tells
+      one to stand firm. Shut in below the pass and ringed on all sides, he still
+      gets free.
+- title:
+    zh: 諸葛隆中高臥
+    en: Zhuge Liang Lies at Ease in Longzhong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 诸葛亮字孔明，琅琊人，琅琊在今天山东一带。他早年丧父，跟叔父到了荆州，后来在南阳隆中种地读书。他喜欢吟唱一首叫梁父吟的曲子，常把自己比作管仲和乐毅，管仲是春秋时的名相，乐毅是战国时的名将。当时的人不认他这句话，只有徐庶等几个朋友信他。刘备驻在新野，徐庶把诸葛亮荐给刘备。刘备去了三次才见到他，那年诸葛亮二十七岁。见面之后，诸葛亮把天下的形势讲了一遍：曹操势力已成，不能跟他硬争；孙权占着江东，可结盟不可图谋；应当取荆州和益州，西边与各族和好，南边安抚夷越，外结孙权，内修政事，等天下有变再分两路北伐。刘备从此用他的主意，后来成了三分天下的基业。
+    en: Zhuge Liang, whose courtesy name was Kongming, was a man of Langya, Langya
+      being in the Shandong area today. He lost his father early, went with his uncle
+      to Jingzhou, and afterwards farmed and read at Longzhong in Nanyang. He liked
+      to sing a tune called Liangfu Yin. He often compared himself to Guan Zhong,
+      a famous chief minister of the Spring and Autumn period, and to Yue Yi, a famous
+      general of the Warring States. People of the time did not accept this claim,
+      and only a few friends such as Xu Shu believed him. Liu Bei was stationed at
+      Xinye, and Xu Shu recommended Zhuge Liang to him. Liu Bei went three times before
+      he met him, and Zhuge Liang was twenty-seven that year. When they met, Zhuge
+      Liang set out the shape of the world. Cao Cao's power was already made, and
+      could not be contested head on. Sun Quan held Jiangdong and could be allied
+      with but not plotted against. Jingzhou and Yizhou should be taken. The peoples
+      to the west should be befriended, and the Yi and Yue in the south settled. Sun
+      Quan should be bound by alliance outside, and the government put in order within.
+      When the world changed, two armies should go north. Liu Bei used his plans from
+      then on, and later built the base of a realm divided in three.
+  poem_connection:
+    zh: 签诗说“劝君把定莫烦恼，家门自有保安康”，与诸葛亮高卧隆中、守待而其主自至一节相贴，题名取的是高卧守时之意。
+    en: The poem says to hold steady and not fret, for the household has its own peace
+      and health; Zhuge Liang lay at ease in Longzhong and waited, and his lord came
+      to him of himself.
+- title:
+    zh: 楊令公撞碑
+    en: Lord Yang Smashes the Memorial Stele
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杨业是北宋初年的名将。他本是北汉的将领，归宋以后镇守雁门、代州一带，屡次打败契丹的兵马，当时人称杨无敌，后世叫他杨令公。契丹是北方的一个民族，建立过辽国。宋太宗北伐时，杨业奉命护送云、应等州的百姓内迁。监军王侁等人逼他出战，他不敌兵败，被围在陈家谷，力战之后被擒。被俘以后，他不肯投降，绝食三天而死。民间杨家将的故事把结局改写成另一种样子：杨业兵败退到苏武庙，见庙里有李陵碑。李陵是汉朝投降匈奴的将领，杨业痛恨他降敌，也耻于自己被俘，一头撞在碑上，就此身亡。
+    en: Yang Ye was a famous general of the early Northern Song. He had been a general
+      of the Northern Han. After he came over to the Song he held the Yanmen and Daizhou
+      area, and beat the Khitan troops again and again. People of the time called
+      him Yang the Invincible, and later ages called him Lord Yang. The Khitan were
+      a northern people who founded the Liao state. When Emperor Taizong of Song went
+      north on campaign, Yang Ye was ordered to escort the people of Yun, Ying, and
+      other prefectures inland. The army overseer Wang Shen and others forced him
+      into battle. He was beaten, surrounded at Chenjia Valley, and taken after fighting
+      to the end. Once captured he would not surrender, and starved himself for three
+      days until he died. The folk tales of the Yang family generals rewrote the ending
+      in another shape. Yang Ye fell back in defeat to the temple of Su Wu and saw
+      there a stele for Li Ling. Li Ling was a Han general who had surrendered to
+      the Xiongnu. Yang Ye hated him for going over to the enemy and was ashamed of
+      his own capture. He dashed his head against the stele and died there.
+  poem_connection:
+    zh: 签诗“东西南北不堪行”“劝君把定莫烦恼”，四面无路而无可复行，正对杨业力尽被围。
+    en: The lot's poem says east, west, south, and north are all impassable, and advises
+      one to hold firm and not fret. No road in any direction fits Yang Ye surrounded
+      with his strength spent.
+- title:
+    zh: 宋朝趙匡胤困河東
+    en: The Song's Zhao Kuangyin Shut In at Hedong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵匡胤是宋朝的开国皇帝，就是宋太祖。河东一带当时由北汉占据。河东是今天山西南部。赵匡胤亲自带兵去征讨河东。北汉的军队守着城池，不肯出战，外面又有援兵接应。宋军前部有个将领暗中跟北汉通消息。到了阵上，他按兵不动，还故意把宋军引进险地。赵匡胤轻敌冒进，竟被困在河东城下，进退两难，情势十分危急。后来全靠众将拼力死战，才接应上他，宋军得以退出。这一签说东西南北不堪行，又说前途此事正可当，正配太祖亲征河东、四面被围不得脱身的一段。
+    en: Zhao Kuangyin was the founding emperor of the Song, that is Emperor Taizu
+      of Song. The Hedong region was held at the time by the Northern Han. Hedong
+      is the south of what is today Shanxi. Zhao Kuangyin led troops himself to attack
+      Hedong. The Northern Han army held to its cities and would not come out to fight,
+      and relief troops came to meet it from outside. One commander in the forward
+      part of the Song army secretly passed word to the Northern Han. When the battle
+      came, he kept his troops still and on purpose led the Song army into dangerous
+      ground. Zhao Kuangyin, making light of the enemy, pushed forward and was trapped
+      at the walls of Hedong, unable to move either way, in great danger. In the end
+      it was only by the hard fighting of the commanders that he was relieved, and
+      the Song army got out.
+  poem_connection:
+    zh: 这一签说东西南北不堪行、前途此事正可当，正配太祖亲征河东、四面被围不得脱身的一段。
+    en: This lot says no road east, west, south or north can be taken, and that this
+      matter ahead must be faced now - Taizu on campaign at Hedong, surrounded on
+      all sides and unable to break free.

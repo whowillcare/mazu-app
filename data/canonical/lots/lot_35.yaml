@@ -1,0 +1,498 @@
+id: 35
+lot_number: 35
+ganzhi:
+  zh: 己酉
+  pinyin: Ji-you
+title:
+  en: Wu Han Kills His Wife
+  zh: 吳漢殺妻
+hexagram:
+  zh: 雷地豫
+  name_and_structure_en: Yu (Thunder over Earth)
+  binary_code: ●●○●●●
+  shared_with_lot: 10
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 12
+  primary:
+    zh: 吳漢殺妻
+    en: Wu Han Kills His Wife
+  variants_en:
+  - Wu Qi Kills His Wife
+  - Wu Han Kills His Wife for His Mother
+  - Zhu Wen Runs from the Ghost
+  - Zhu Wenkui Meets a Ghost
+  - 'Yitie Jin Blocks the Road: Zhu Wenkui Meets a Ghost'
+  - Yi Tiejin Meets a Ghost on the Road
+  - Lü Mengzheng in the Cold Kiln
+  - Liu, Guan and Zhang Reunite at the Ancient City
+  - A Monk Reads Song Jiao's Face
+  - Sima Qian Suffers His Ordeal
+  - Chen Jinggu Pacifies the Water Demon
+  variants_zh:
+  - 吳起殺妻
+  - 吳漢殺妻為母救主
+  - 朱文走鬼
+  - 朱文魁遇鬼
+  - 一貼金攔路朱文魁遇鬼
+  - 乙貼金走路遇鬼
+  - 呂蒙正苦居寒窯
+  - 劉關張古城相會
+  - 胡僧相宋郊
+  - 司馬遷被難
+  - 陳靖姑臨水平妖
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements net positive with friction (凡事 臨機應變／婚姻 難成·成大吉／行舟 先失後得／月令
+      不遂祈神); jie_yue_score +7
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: marriage, income and the sea-work lines
+      open only after a first difficulty, while rank and legal matters stay tangled
+      and the month''s turn is unsettled. Support and obstacle are both present, so
+      we read it as mixed and the counsel is to stay adaptable.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 臨機應變／作事 辰半月成好／婚姻 難成。成大吉／求財 遇呆人。漸很利／行舟 先失後得／功名 有活鬼。難進／月令
+      不遂祈神（jie_yue_score +7）。判词净偏正，是摩擦与迟成并存的长线签。本签故事群挂十二则、出自十二出不同戏，为六十签中故事群最大者——组内既有杀妻、遇鬼，也有古城相会、临水平妖；我们只标故事群，不取单则作答。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：婚姻、进项与讨海都要过第一道难才见好，功名与官事仍在缠结，月令不安。支持与障碍同现，故读作 mixed。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 此事何須用心機，
+    en: Why should this take such scheming?
+  - line_number: 2
+    zh: 前途變怪自然知，
+    en: the strange turns ahead become plain soon enough;
+  - line_number: 3
+    zh: 看看此去得和合，
+    en: look — this way you come into accord;
+  - line_number: 4
+    zh: 漸漸脫出見太平。
+    en: little by little you slip out and see calm.
+keywords:
+  favourable:
+    en:
+    - accord after friction
+    - strange turns made plain
+    - a slow emergence
+    - reunion
+    zh:
+    - 先摩擦后和合
+    - 怪变见得明
+    - 渐渐脱出
+    - 重逢
+  guarded:
+    en:
+    - scheming over a thing that needs none
+    - judging at the darkest point
+    - impatience with a slow turn
+    zh:
+    - 对不需心机之事仍算计
+    - 在最暗处下判断
+    - 耐不住缓慢的一转
+reading_notes:
+- term: 變怪
+  pinyin: biàn-guài
+  en: '"strange turns": at once *surprising bad news* and *the odd shape a situation
+    takes before it settles*; the poem treats both as knowable in time.'
+  zh: 既指突然传来的坏消息，也指事情在定下来之前那副古怪的样子；诗里说这两种都会随时间变得可看清。
+- term: 脫出
+  pinyin: tuō-chū
+  en: '"to slip out of": escape from trouble *and* the slow emergence of something
+    good; the line means emergence, not flight.'
+  zh: 既是从麻烦里脱身，也是好东西慢慢浮出来；这一句说的是浮现，不是逃走。
+plain_meaning:
+  en: 'The way is strange before it is clear: friction and odd turns give way to accord
+    and calm, if you stop scheming over what needs no scheming. Emergence comes gradually,
+    not in one movement.'
+  zh: 路是先怪后明的：摩擦与怪变让位于和合与太平——只要在对不需要心机的事情上停止算计。脱出是渐渐来的，不是一步到位。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: 'Accord arrives after friction: a hard start can still resolve well, and the
+      darkest point is not the place to judge it.'
+    zh: 和合在摩擦之后才到；开头难，未必收得不好。最暗的时候不要下判断。
+    compliance_tag: null
+  career:
+    en: The situation turns strange before it clears; keep your footing and let it
+      resolve.
+    zh: 局面先变怪再转清；站稳脚跟，让它自己落定。
+    compliance_tag: null
+  money:
+    en: First a loss, then a gain — small steps, patient margin. *(Not financial advice.)*
+    zh: 先失后得——一步一步，留出余量。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Recovery is slow and uneven and the strain is real — rest, and have anything
+      persistent seen to by a qualified professional. *(Not medical advice.)*
+    zh: 复元慢而不匀，方向是往它去的；照护要持续。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: What looks tangled in the household untangles; reunions are well-starred.
+    zh: 家里看着纠缠的地方会解开；重逢是好的时节。
+    compliance_tag: null
+  travel_moving:
+    en: The first stage is rough; what follows is calmer.
+    zh: 头一段路难走；后面平缓些。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Loses first, wins after — do not abandon the water at the first bad tide.
+    zh: 先损后得——不要第一个坏潮就把船收了。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Early season is flat, the late season is good; hold your nerve.
+    zh: 前半季平淡，后半季好；心要稳。
+    compliance_tag: null
+  timing:
+    en: The calm comes at the end of the turn — a season, never a date.
+    zh: 安静在这一转的末尾到——只给季节，不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Scheming over what needs none; judging at the worst moment.
+    zh: 对不需心机的事费心机；在最坏的时刻下判断。
+    compliance_tag: null
+  reassurance:
+    en: The calm is already on its way.
+    zh: 太平已在路上。
+    compliance_tag: null
+stories:
+- title:
+    zh: 吳漢殺妻
+    en: Wu Han Kills His Wife
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 吴汉是潼关的守将，娶了新朝皇帝王莽的妹妹王英为妻，替新朝做事。吴汉的父亲早年死在王莽手里，母亲萧氏带着他逃难他乡，忍了很多年。如今儿子不但替仇家做事，还和仇家结了亲，母亲终日闷闷不乐。一天，吴汉来报，说自己抓住了刘秀，立了大功。刘秀是汉朝的宗室，正是起兵反对王莽的人。母亲听了大怒，指责他忘了国仇家恨。吴汉这才决意归向汉家，按母亲的吩咐杀了妻子。王英没有反抗，伸着脖子受死，母亲随后也自缢身亡。这门亲事，就这样了结了。
+    en: Wu Han was the defending general of Tong Pass. He had married Wang Ying, sister
+      of Wang Mang, emperor of the Xin dynasty. He served the Xin court. Wu Han's
+      father had died at Wang Mang's hand years before. His mother, Madam Xiao, had
+      fled with him to another place. She endured it for many years. Now her son served
+      the family that had killed his father. He had even married into it. Day after
+      day she was gloomy. One day Wu Han came to report that he had taken Liu Xiu
+      and won great merit. Liu Xiu was of the Han imperial clan. He was the very man
+      who had raised troops against Wang Mang. His mother was furious on hearing it.
+      She charged him with forgetting his family's grievance and his country's shame.
+      Wu Han then resolved to go over to the Han. At his mother's order he killed
+      his wife. Wang Ying did not resist. She stretched out her neck and died. His
+      mother then took her own life. And so that marriage came to its end.
+  poem_connection:
+    zh: 这一签的签诗说不必费尽心机，前途的变故自然明白，往前走终会合上、脱离困境。吴汉遭遇突变，经大割舍而后相合。
+    en: The poem says there is no need to scheme so hard; the turn of the road is
+      plain, and going on you come together and leave trouble behind. Wu Han came
+      together only after a great cutting away.
+- title:
+    zh: 吳起殺妻
+    en: Wu Qi Kills His Wife
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 吴起是战国时有名的将领和政治家，先后在鲁国、魏国、楚国做官。他在鲁国的时候，齐国来攻打鲁国。鲁国的国君想用吴起带兵，却因为他娶了齐国的女子做妻子，对他不太放心。吴起为了表明自己跟齐国没有私情，就把妻子杀了。鲁君终于让他做了将军，他带兵大败齐军。吴起为人猜忌狠忍，在鲁国被猜疑，只好离开；到魏国，被魏文侯、魏武侯重用，多次打败秦兵，镇守西河很有名声；后来到楚国，楚悼王用他改革，削减贵族势力，贵族怨他。楚悼王死后，吴起被人杀死在楚王的尸体旁边。
+    en: Wu Qi was a famous commander and statesman of the Warring States period. He
+      held office in Lu, then Wei, then Chu, one after another. While he was in Lu,
+      Qi attacked the state. The ruler of Lu wanted to put Wu Qi in command of the
+      army. He did not quite trust him, because Wu Qi had married a woman from Qi.
+      To show that he had no private tie to Qi, Wu Qi killed his wife. The ruler of
+      Lu finally made him general, and he led the troops to a heavy defeat of the
+      Qi army. Wu Qi was a suspicious and hard man. Suspected in Lu, he had to leave.
+      In Wei he was trusted by Marquis Wen and Marquis Wu, beat the Qin army several
+      times, and held the Western River region with much renown. Later he went to
+      Chu. King Dao of Chu used him to reform the state and cut back the power of
+      the nobles, so the nobles bore him a grudge. When King Dao died, Wu Qi was killed
+      beside the king's body.
+  poem_connection:
+    zh: 签诗说何必用心机、变怪自然知；吴起因见疑而杀妻，正合猜疑生变这一层。
+    en: The poem asks why use scheming, since strange turns are known by themselves.
+      Wu Qi killed his wife out of suspicion, and suspicion breeding sudden change
+      fits.
+- title:
+    zh: 吳漢殺妻為母救主
+    en: Wu Han Kills His Wife for His Mother
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 吴汉是东汉开国的一位名将，以勇武有谋著称。王莽夺取汉朝天下以后，吴汉因为救过他，得到赏识，王莽把妹妹王英嫁给他，吴汉便在王莽朝中做将。他的母亲萧氏，自丈夫被王莽害死之后，带着儿子远走他乡。她多年闷闷不乐。一天，吴汉擒住起兵复汉的刘秀，回后堂向母亲报功，母亲大怒，才把父亲被害的旧事说出来，责他既不能为父报仇，反倒替仇人出力，还娶了仇人家的女儿。吴汉悲愤之下，提剑进经堂杀了妻子，他母亲随后也自缢而死。吴汉的名字，后来列在东汉开国的功臣里。
+    en: Wu Han was a famous general at the founding of the Eastern Han dynasty, known
+      for his courage and his plans. After Wang Mang took the Han throne, Wu Han won
+      his favor because he had once saved him. Wang Mang married his sister, Wang
+      Ying, to Wu Han, and Wu Han served as a general under Wang Mang. His mother,
+      whose family name was Xiao, had taken her son far away after her husband was
+      killed by Wang Mang. For years she was sunk in gloom. One day Wu Han captured
+      Liu Xiu, who had raised troops to restore the Han, and came to the inner hall
+      to report his success to his mother. She flew into a rage. Only then did she
+      tell him the old story of his father's murder, and she blamed him for failing
+      to avenge his father, for working instead for the murderer, and for marrying
+      the murderer's daughter. In grief and anger Wu Han took his sword into the chapel
+      and killed his wife. His mother then hanged herself. Wu Han's name was later
+      entered among the founding heroes of the Eastern Han.
+  poem_connection:
+    zh: 这一签写事情来得非常、变故当前只能临机自决，正扣签诗“此事何须用心机，前途变怪自然知”。
+    en: A matter arriving that is far from ordinary, and a man forced to decide on
+      the spot, fits a lot whose poem says no scheming is needed, since a strange
+      road becomes clear by itself.
+- title:
+    zh: 朱文走鬼
+    en: Zhu Wen Runs from the Ghost
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱文是旧时乡间故事里的一个人物。一天夜里，他摸黑赶路，路上遇到了鬼。夜路难行，四下没有灯火，也看不到人家。他不敢停下，只顾往前赶。鬼缠住他不放，他左躲右避，一步一步才挣脱出来。他一路奔走，走到天光，那阵古怪才算过去。题名里的鬼是什么形貌，故事里没有细说。题名里的“走”字，既是逃走、避开，也是奔走赶路。签诗说，这件事何须多用心机，前途有变怪，到时候自然知道。又说此去得和合，渐渐脱出见太平。朱文走鬼，走的正是这样一段夜路。
+    en: Zhu Wenkui is a figure in old country tales. One night he was hurrying along
+      a road in the dark, and on the way he met a ghost. A night road is hard to walk.
+      There was no lamp anywhere, and no house in sight. He did not dare stop, and
+      only pressed on. The ghost clung to him and would not let go. He dodged this
+      way and that, and step by step he worked free. He ran the whole way, and only
+      when daylight came did that strange affair pass. The tale does not say in detail
+      what the ghost looked like. The title's running means both fleeing and dodging,
+      and hurrying along a road. The lot poem says there is no need for much scheming
+      in this matter. The road ahead holds strange changes, and in time one knows
+      them without being told. It also says that this going brings harmony, and that
+      one comes free and sees peace. In running from the ghost, Zhu Wenkui walked
+      just such a night road.
+  poem_connection:
+    zh: 签诗说前途变怪自然知道，又说脱出见太平。题名“走鬼”正合夜行遇怪、摆脱而去的一段。
+    en: The lot poem says strange turns on the road show themselves in time, and that
+      one comes free and sees peace. Running from the ghost is just such a night walk,
+      ending in escape.
+- title:
+    zh: 朱文魁遇鬼
+    en: Zhu Wenkui Meets a Ghost
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱文魁是这则故事里的人名。题名说他遇上了鬼。这一类故事自成一格：主角多是出门赶路的人，有读书的，有做买卖的，天黑了赶夜路，或是半路借宿，路上撞见鬼怪，受了惊吓，后来弄明白缘由，人也脱了身。人名的取法也是这一路的做法，用的是真名真姓的格式，事却无从对证。他走的是哪条路、遇上的是什么、后来怎样，都没有留下。题名只说遇鬼，不说后来的结果，也许原本的故事较长，留下的只是上半段。故事里没有写他去了哪里、遇的是什么鬼、最后怎样，这些都没有留下。
+    en: Zhu Wenkui is the personal name in this story. The title says he met a ghost.
+      Stories of this kind form a class of their own. The main figure is usually someone
+      traveling on the road, a scholar or a trader. He walks at night, or puts up
+      for the night part of the way along. He runs into a ghost or a monster and is
+      badly frightened. Afterwards the reason comes out and the man gets clear of
+      it. The way the name is given follows the same habit. It has the shape of a
+      full real name, and yet the event cannot be checked against anything. Which
+      road he walked, what he met, and what came afterwards were not left behind.
+      The title only says he met a ghost, and gives no outcome. Perhaps the original
+      story was long and only the first half survives. The story does not say where
+      he went, what ghost he met, or how it ended, and none of that is left.
+  poem_connection:
+    zh: 签诗说“前途变怪自然知”，故事题取“遇鬼”的变怪一层，与诗面变怪二字相应。
+    en: The poem says the strangeness on the road ahead is known of itself; the title
+      takes meeting a ghost as that layer of the strange, which answers the poem's
+      word for the strange.
+- title:
+    zh: 一貼金攔路朱文魁遇鬼
+    en: 'Yitie Jin Blocks the Road: Zhu Wenkui Meets a Ghost'
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱文是北宋一位落第的秀才。他去投亲没有遇上，暂住在东京一家客栈里。东京就是北宋的都城开封。客栈主人姓王，夫妇二人开这间店，养着一个女儿，名叫一粒金。一粒金不肯做卖笑的营生，被养父母打骂折磨，死在家中。她的鬼魂见朱文为人老实，半夜现形，借点灯为由进了他的房间，与他结为夫妻，还送他一只装满太平钱的箱子作信物。太平钱是当时的一种铜钱。后来王家夫妇把内情说破，朱文连夜逃走。一粒金的鬼魂仍旧跟着他，一起远走他乡。故事里人鬼难分、真假相混。
+    en: Zhu Wenkui was a failed scholar of the Northern Song. He went to seek help
+      from relatives but did not find them, and he lodged for a time in an inn in
+      Dongjing. Dongjing was the Northern Song capital, Kaifeng. The innkeeper was
+      a man named Wang. He and his wife kept the inn and had raised a daughter named
+      Yitie Jin. Yitie Jin refused to live by selling smiles, and her foster parents
+      beat and tormented her until she died at home. Her ghost saw that Zhu Wenkui
+      was an honest man. At midnight she took visible form, entered his room on the
+      excuse of lighting a lamp, became his wife, and gave him a chest full of Taiping
+      coins as a token. Taiping coins were a kind of copper coin of the time. Later
+      the Wang couple told what had happened, and Zhu Wenkui fled in the night. The
+      ghost of Yitie Jin still followed him, and they went far away together. In the
+      story, people and ghosts are hard to tell apart, and true and false are mixed.
+  poem_connection:
+    zh: 签诗“此事何须用心机，前途变怪自然知”，“变怪”二字正对人鬼相混这一段。
+    en: The lot's poem says the matter needs no scheming, for the strangeness ahead
+      becomes clear by itself. That word for strangeness fits the mixing of human
+      and ghost.
+- title:
+    zh: 乙貼金走路遇鬼
+    en: Yitie Jin Meets a Ghost on the Road
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事里的人叫乙贴金，是个走夜路的行人。故事只说他一人在路上赶路，半路遇见了鬼。旧时出门，多半靠双脚走路。天黑了赶不到客栈，就得连夜走。夜里道路看不清，风一吹、草一动，都像有什么东西。走路遇鬼，说的就是这样的夜晚，行人与鬼物狭路相逢。乙贴金走的是哪条路，那鬼又是什么模样，故事里都没有说。讲到撞见为止，后来怎样脱身，也没有下文。这一签说此事何须用心机，又说前途变怪自然知，正配走路遇鬼、从变怪中渐渐脱出的一段。
+    en: The man in this story is called Yitie Jin, a traveler walking at night. The
+      story only says that he was hurrying along the road alone and met a ghost halfway.
+      In old times people mostly went about on foot. If night came before one reached
+      an inn, one had to walk through the night. On a dark road one could not see
+      clearly, and a stir of wind or a move in the grass looked like something. Meeting
+      a ghost on the road is about nights like that, when a traveler and a ghost come
+      face to face on a narrow way. Which road Yitie Jin took, and what the ghost
+      looked like, the story does not say. It stops at the meeting. How he got away
+      after that is not told either.
+  poem_connection:
+    zh: 这一签说此事何须用心机、前途变怪自然知，正配夜间行路撞见鬼物、渐渐脱出的一段。
+    en: This lot says the matter needs no scheming and that the strange turns ahead
+      show themselves - walking the road at night, meeting a ghost, and little by
+      little getting free.
+- title:
+    zh: 呂蒙正苦居寒窯
+    en: Lü Mengzheng Endures Life in a Cold Kiln
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 吕蒙正，北宋人，小时候家里很穷。他被父亲赶出家门，同母亲两人自己过活，在洛阳城外一座破窑里住下。破窑是就着土坡挖成的简陋住处。他每天读书不停，没有地方讨饭，就到附近的寺庙里跟着僧人吃斋饭。僧人嫌他常来，故意等吃完饭才敲钟。钟一响，吕蒙正赶来，饭已经吃完了。他困在破窑里，又冷又饿，人情冷暖都尝过。旁人的冷眼，他都忍了下来，读书却不曾停。后来他考中进士，也就是通过了朝廷最高一等的考试，做了官，一直升到宰相。
+    en: Lü Mengzheng was a man of the Northern Song. His family was very poor when
+      he was a child. His father drove him from the house, and he lived with his mother
+      alone in a broken kiln outside Luoyang. A kiln was a crude dwelling dug into
+      a dirt slope. He read without stopping every day. Having no place to beg, he
+      went to a nearby temple and ate vegetarian meals with the monks. The monks tired
+      of his visits. They deliberately rang the bell only after the meal was over.
+      When the bell rang, Lü Mengzheng hurried over, and the food was already gone.
+      Trapped in the cold kiln, hungry and cold, he learned the coldness and warmth
+      of human feeling. He endured people's cold looks. All the same he never stopped
+      reading. Later he passed the jinshi examination, the highest court examination
+      of the realm. He became an official and rose all the way to chief minister.
+  poem_connection:
+    zh: 签诗“渐渐脱出见太平”“此事何须用心机”，正合吕蒙正从寒窑困顿走到显达、由困转通一段。
+    en: The poem tells of slowly breaking free to see peace and of no need for scheming,
+      which fits Lü Mengzheng moving from a cold kiln to high office, from hardship
+      to freedom.
+- title:
+    zh: 劉關張古城相會
+    en: Liu, Guan and Zhang Meet at Gucheng
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 关羽、张飞和刘备是结拜兄弟，一起打天下。关羽驻守下邳，兵败后被曹操收留了一段时间。他打听到刘备的下落，就挂印封金，护送刘备的两位夫人，千里寻兄。一路上他闯过五道关口，杀了六员守将。走到古城，听说张飞在城里守着。关羽前去相见，张飞却怀疑他投降了曹操，带兵出城和他动手，不让他进城。正在争执，曹操的部将蔡阳领兵追到。张飞约定以三通鼓为限，要关羽杀了蔡阳才信他。鼓声还没停，关羽就斩了蔡阳。张飞这才放下疑心，兄弟相见。随后赵云和刘备也到了，众人重新聚在一起。
+    en: Guan Yu, Zhang Fei and Liu Bei were sworn brothers who fought together to
+      win the world. Guan Yu was guarding Xiapi. After he was beaten in battle, Cao
+      Cao took him in for a time. When he learned where Liu Bei was, Guan Yu hung
+      up his seal and sealed his gold. He escorted Liu Bei's two wives and searched
+      for his brother over a thousand li. On the way he forced his way through five
+      passes and killed six defending officers. He came to Gucheng and heard that
+      Zhang Fei was holding the town. Guan Yu went to meet him, but Zhang Fei suspected
+      that he had surrendered to Cao Cao. He led troops out of the town and fought
+      him, and would not let him in. While they argued, Cai Yang, a general under
+      Cao Cao, came up with soldiers in pursuit. Zhang Fei set a limit of three drum
+      rolls. He said he would trust Guan Yu only if he killed Cai Yang. Before the
+      drumbeats stopped, Guan Yu had cut Cai Yang down. Only then did Zhang Fei let
+      go of his doubt, and the brothers met. Soon Zhao Yun and Liu Bei arrived too,
+      and the group was together again.
+  poem_connection:
+    zh: 签诗说一时疑惑不必多费心机，变怪自会明白，最终又能和合。古城相会先疑后合，正是这样。
+    en: The lot poem says a moment of doubt need not cost much scheming, for the strange
+      turns become clear and in the end things join again. Gucheng saw doubt first
+      and union after.
+- title:
+    zh: 胡僧相宋郊
+    en: A Monk Reads Song Jiao's Face
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 宋朝有兄弟两人，哥哥叫宋郊，弟弟叫宋祁，两人一起去考进士。考前，一位会看相的僧人见了他们，说弟弟宋祁会考中第一名，哥哥宋郊也能博得功名。过了些日子，僧人又见到宋郊，惊讶地发现他的面相变了，像是救活过几万条性命的人。宋郊说自己是穷书生，哪有钱去救人。僧人说，凡是会走会飞的，都是性命，请他再想想。宋郊想了很久，才想起书房旁边有个蚂蚁窝。有一回快下大雨，雨水就要淹到蚁窝，他编了一座竹桥，让蚂蚁爬过去。僧人听了就说，正是这件事。后来宋郊果然中了状元。
+    en: In the Song dynasty there were two brothers, Song Jiao the elder and Song
+      Qi the younger, who went together to sit the imperial examination. Before the
+      exam, a monk who could read faces saw them. He said the younger brother, Song
+      Qi, would come first, and the elder, Song Jiao, would also win a degree. Some
+      time later the monk met Song Jiao again and was startled to find his face changed.
+      It was like the face of a man who had saved tens of thousands of lives. Song
+      Jiao said he was a poor scholar and had no money to save anyone. The monk said
+      that everything that can walk or fly has life, and asked him to think again.
+      Song Jiao thought for a long time. Then he remembered an anthill beside his
+      study. Once when heavy rain was coming and the water was about to flood the
+      anthill, he had woven a small bamboo bridge so the ants could crawl across.
+      When the monk heard this he said that was the very deed. Later Song Jiao did
+      come out first in the examination.
+  poem_connection:
+    zh: 这一签说不必多用心机、此番终得和合，正配宋郊无心搭桥渡蚁、面相由此改变。
+    en: This lot says there is no need for scheming, and this time things come together.
+      It fits Song Jiao building a bridge for ants without thinking and his face changing.
+- title:
+    zh: 司馬遷被難
+    en: Sima Qian Suffers His Ordeal
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 司马迁继承父亲司马谈的官职，做了太史令，接着写父亲没有写完的史书。汉朝的将军李陵带兵去打匈奴，打到箭用完了、路也走尽了，终于投降。汉武帝问朝中大臣怎么看这件事，众人都骂李陵。只有司马迁替他说话，说李陵平日和士兵同甘共苦，这次是力尽而降，不是存心背叛汉朝。汉武帝认为他是在替李陵开脱，把他下狱，处以宫刑。司马迁受了刑，忍着屈辱活下来，一心写书，最后写成史记。他出狱后做了中书令，仍旧把写书当成自己的事。
+    en: 'Sima Qian took up his father Sima Tan''s office and became grand historian.
+      He went on writing the history his father had left unfinished. Li Ling, a general
+      of the Han, led troops against the Xiongnu. He fought until his arrows were
+      gone and the road ran out. At last he surrendered. Emperor Wu of Han asked the
+      ministers what they thought, and they all cursed Li Ling. Only Sima Qian spoke
+      for him. He said Li Ling had shared hardship with his soldiers in ordinary times.
+      This time he had given in only when his strength was spent. He had not meant
+      to betray the Han. Emperor Wu took this as an excuse made for Li Ling. He had
+      Sima Qian thrown into prison and sentenced to castration. Sima Qian bore the
+      punishment and lived on through the shame with one purpose: to finish his book.
+      In the end he completed the Records of the Grand Historian. After leaving prison
+      he served as director of the Secretariat. He still treated the writing of the
+      book as his own task.'
+  poem_connection:
+    zh: 这一签的签诗说前途的变故自然明白，渐渐脱出困境就见太平。司马迁无端遭难，靠隐忍成事，正合“脱出”二字。
+    en: The poem says the turn of the road is plain by itself, and step by step out
+      of trouble you see peace. Sima Qian met disaster without cause and finished
+      his work by endurance.
+- title:
+    zh: 陳靖姑臨水平妖
+    en: Chen Jinggu Subdues the Demon at Linshui
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 陈靖姑是福建、台湾一带很受供奉的女神，民间称她临水夫人、顺天圣母。她生在闽县，曾到闾山学法，学会了符咒法术，能驱邪除祟。古田有个临水洞，洞里有蛇妖出来害人。陈靖姑用道法把蛇妖镇住，替一方除了害，百姓感念她，就在当地立庙奉祀，从此称她临水夫人。后来她又以保佑产妇、婴儿出名，求子、催生、保孩子的事都有人去求她。庙里还配祀三十六位婆姐，分掌保产育子的事。这一带临水夫人的庙和妈祖庙常常同在一方，香火都很盛。
+    en: Chen Jinggu is a goddess widely worshipped in Fujian and Taiwan. People call
+      her Lady Linshui and the Holy Mother Who Follows Heaven. She was born in Min
+      County. She went to Mount Lü to study the arts, learned charms and spells, and
+      could drive out evil spirits and noxious things. At Linshui Cave in Gutian there
+      was a snake demon that came out and harmed people. Chen Jinggu subdued the snake
+      demon with Daoist arts and cleared the harm from that district. In gratitude
+      the people built a temple there in her honor and called her Lady Linshui from
+      then on. She later became known for protecting women in childbirth and infants.
+      People went to her for help in conceiving, in safe delivery, and in keeping
+      a child well. In her temples thirty-six elder sisters are also honored, each
+      with a share in protecting mothers and raising children. In that region, temples
+      of Lady Linshui and temples of Mazu often stood in the same place, both with
+      heavy incense.
+  poem_connection:
+    zh: 签诗说变怪自然知、脱出见太平；陈靖姑临水除妖、由乱而安，正扣这一层。
+    en: The poem says strange turns are known by themselves, and that trouble passes
+      and calm appears. Chen Jinggu cleared the demon at Linshui and turned disorder
+      into peace, which fits.

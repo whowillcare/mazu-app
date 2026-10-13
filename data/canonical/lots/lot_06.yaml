@@ -1,0 +1,324 @@
+id: 6
+lot_number: 6
+ganzhi:
+  zh: 甲戌
+  pinyin: Jia-xu
+title:
+  en: The Roc-Spirit Brings Chaos to the Song
+  zh: 大鵬鳥精亂宋朝
+hexagram:
+  zh: 火天大有
+  name_and_structure_en: Dayou (Fire over Heaven)
+  binary_code: ○●○○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 4
+  primary:
+    zh: 大鵬鳥精亂宋朝
+    en: The Roc-Spirit Brings Chaos to the Song
+  variants_en:
+  - Guanyin Subdues the Roc
+  - Lu Xun Enters the Stone Maze
+  - Liu Bei Attacks Wu
+  variants_zh:
+  - 觀音大士收大鵬鳥
+  - 陸遜入石頭陣
+  - 劉先主攻東吳
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout — 凡事 待望／婚姻 不宜／求財 空有／治病 邪作病。險不吉／月令
+      不遂 (jie_yue_score −17)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: On this lot the temple book runs against the matter almost everywhere
+      — general affairs, undertakings, household, family fortune, marriage, children,
+      income, advancement, the year's ruler, illness, going out, trade, boats, moving
+      house, lost property, legal matters, livestock, field work, building, graves,
+      sea work, ponds, fry, the month's season, finding people, and distant news;
+      only the child line is left open. We read it as unfavourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 待望／作事 不成局／家事 家庭相爭／家運 有怪必防／婚姻 不宜／求兒 不可／求財 空有／功名
+      難望／歲君 破財。二七月令不吉／治病 邪作病。險不吉／出外 無貴人／經商 財本耗散／行舟 不好／移居 且慢／失物 運如此。路難逢／官事 了錢。拖尾／六畜
+      不佳／耕作 無收／築室 犯凶星／墳墓 地運不佳／討海 邪祟不利／作塭 失利／魚苗 失利了錢／月令 不遂／尋人 遲遇／遠信 無望——整签偏负，唯 六甲 男高貴。晚投枝
+      一项留有余地（jie_yue_score -17）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上差不多处处偏阻——总类、作事、家事、家运、婚姻、求儿、求财、功名、岁君、治病、出外、经商、行舟、移居、失物、官事、六畜、耕作、筑室、坟墓、讨海、作塭、鱼苗、月令、寻人、远信都在负面一侧；唯子嗣（六甲）一项留有余地。故列为本批的偏负一档。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 風雲致雨落洋洋，
+    en: Wind and cloud bring the rain down in sheets;
+  - line_number: 2
+    zh: 天災時氣必有傷，
+    en: the season's disorder leaves its wound;
+  - line_number: 3
+    zh: 命內此事難和合，
+    en: this matter is hard to bring into accord;
+  - line_number: 4
+    zh: 更逢一足出外鄉。
+    en: and one foot is already outside the village.
+keywords:
+  favourable:
+    en:
+    - waiting out the season
+    - keeping the household together
+    - guarding what is already earned
+    zh:
+    - 等这段时节过去
+    - 把一家人拢在一起
+    - 守住已经挣到的
+  guarded:
+    en:
+    - forcing an accord that will not hold
+    - spending into a bad season
+    - sending more out from home
+    - reading warning signs as noise
+    zh:
+    - 强求一个拢不住的共识
+    - 往坏时节里花钱
+    - 再从家里往外放人放钱
+    - 把预警信号当成杂音
+reading_notes:
+- term: 時氣
+  pinyin: shí-qì
+  en: 'the *seasonal air*: at once the weather of the moment and *an epidemic influence*
+    in the old medical sense; The line blames the time, not the person.'
+  zh: 既指当下的天气，也指旧医书所说的疫气；这一句怪的是时令，不是人。
+- term: 和合
+  pinyin: hé-hé
+  en: 'to bring into accord: both *making peace between people* and *making a thing
+    work*; The poem says it will not come together now.'
+  zh: 既可指人跟人讲和，也可指把事情做圆；此诗说现在圆不起来。
+- term: 一足出外鄉
+  pinyin: yī-zú-chū-wài-xiāng
+  en: '"one foot out of the home village": at once *a departure already made*; *a
+    warning against setting out further*.'
+  zh: 既指那一步已经迈了出去，也指别再多往外走一层。
+plain_meaning:
+  en: 'A season with injury in it: the weather and the time work against the matter,
+    agreement is hard, and someone is already away from home. The counsel is protective
+    — hold your people and your resources close, and do not push the matter to a conclusion
+    now.'
+  zh: 这是一段带着伤损的时节：天时与气候都在跟事情作对，要谈拢很难，而且已经有人离家在外。诗里的意思是保护性的——把自己的人和底子收在身边，现在不要把这件事推到结论上去。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Should I move abroad for work now?
+    zh: 我现在该不该出国工作？
+  rewritten_to:
+    en: What should I protect this season, and what should I leave until it turns?
+    zh: 这一季我该护住什么，什么该等到转机再说？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是一个封闭式的是非问（只求「该不该」），改为可护住、可等待的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Accord does not hold now; do not force a decision or a reunion under this
+      sky.
+    zh: 现在谈不拢；在这种天色下，不要强求一个决定，也不要强求团聚。
+    compliance_tag: null
+  career:
+    en: The plan does not come together this season; keep your position rather than
+      enlarge it.
+    zh: 计划这一季合不拢；守住现有的位置，别急着扩张。
+    compliance_tag: null
+  money:
+    en: Loss comes from spending into a bad season; hold reserves and defer commitments.
+      *(Not financial advice.)*
+    zh: 损处在于往坏时节里花钱；留住储备，把承诺往后推。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Take symptoms seriously and see a qualified professional rather than waiting
+      on the weather to change. *(Not medical advice.)*
+    zh: 身体上的信号要当真，去找有资质的专业人士看，不要等着天气转好。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is unsettled and quarrels do damage; keep close and keep the
+      peace.
+    zh: 家里不安，口角最容易伤到人；把人拢住，把和气留住。
+    compliance_tag: null
+  travel_moving:
+    en: Going far from home is what the poem cautions against; postpone travel if
+      it can wait.
+    zh: 离家远走正是诗里提醒要避的；能等的出行就先等。
+    compliance_tag: null
+  sea_and_voyage:
+    en: An unclean influence on the water — do not put out; bring the boats in.
+    zh: 水路不好——不要出海，把船收回来。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season yields nothing; work from your stores rather than from the field.
+    zh: 这一季地里出不来东西；靠存粮过日子，不要指望田里。
+    compliance_tag: null
+  timing:
+    en: Wait out the reverse of the season; no date is promised.
+    zh: 等这一季的逆势过去；不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Forcing the accord; sending more out from home.
+    zh: 强求共识；再从家里往外放人放钱。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这里说的是一段艰难的时节，不是预告有祸。若这段解读触动了你的焦虑或钱财上的担心，请去找你信得过的人或专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 大鵬鳥精亂宋朝
+    en: The Roc-Spirit Brings Chaos to the Song
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 传说有一只大鹏鸟，本是佛前的护法神鸟。它的翅膀很大，张开能遮住日光。它因犯了戒，被谪落到人间。它落到宋朝，化作人形，到处作乱。它所到之处，风雨失调，天灾接连不断，百姓死伤很多，日子过得很苦。朝廷想不出办法对付它，民间也没有人能治得住它，只盼有神佛来解救。后来观音菩萨下凡，出手把它收服，这场祸乱才平息下来。这就是“大鹏鸟精乱宋朝”这个题名的来由。故事里的风云骤起、灾伤遍地，写的是灾异临头、人事难合的一种局面。
+    en: A great roc guarded the Buddha's law. Its wings were so wide that when spread
+      they hid the sunlight. It broke a rule of the faith and was banished to the
+      human world. It came down in the Song dynasty and took human form, stirring
+      trouble everywhere. Wherever it went, wind and rain fell out of season. Natural
+      disasters followed one after another. Many common people were killed or hurt,
+      and their lives were hard. The court could find no way to deal with it. No one
+      among the people could subdue it either. They could only hope that a god or
+      a Buddha would come and set them free. Then Guanyin, the Bodhisattva of Compassion,
+      came down to the world. She acted and captured the creature. Only then did the
+      trouble end. The sudden storms and the fields of the wounded, as the story tells
+      them, point to a time when calamity arrives and human plans do not fit together.
+  poem_connection:
+    zh: 签诗“风云致雨落洋洋，天灾时气必有伤”写风云灾异，正对鸟精作乱、天灾频仍这一段。
+    en: The lot's poem speaks of wind and clouds bringing rain, and of disasters that
+      bring injury. That fits the bird-spirit's rampage and the run of natural calamities.
+- title:
+    zh: 觀音大士收大鵬鳥
+    en: Guanyin Subdues the Roc
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 观音是佛教里救苦救难的菩萨，长住在南海。她身边有一只大鹏鸟，是传说里翅膀极大、一天能飞千里的神鸟。宋朝仁宗皇帝在位的时候，这只大鹏鸟离开菩萨身边，变成人的模样，落到人间。它一现身，风雨就不调顺，灾害一件接一件。田里的庄稼受害，百姓的日子过不安稳。人们只知道祸事不断，却不知祸从哪里来。观音察觉大鹏鸟私自下凡作乱，便亲自离开南海，来到人间。她现出本相，把大鹏鸟收住，带回身边。大鹏鸟一去，风雨恢复正常，灾害止息，百姓重新安生。这一签说风云致雨落洋洋、天灾时气必有伤，又说命内此事难和合；正像大鹏鸟作乱的那段日子，天灾不断，人事也难以顺当。
+    en: Guanyin is the bodhisattva of Buddhism who saves people from suffering, and
+      she lives in the South Sea. Beside her lived a roc, a divine bird of legend
+      with enormous wings that could fly a thousand li in a day. When Emperor Renzong
+      of the Song was on the throne, this roc left the bodhisattva, took the shape
+      of a man, and came down to the human world. As soon as it appeared, wind and
+      rain fell out of season and disasters came one after another. The crops in the
+      fields suffered, and ordinary people could not live in peace. People only knew
+      that trouble kept coming, not where it came from. Guanyin noticed that the roc
+      had left on its own to stir up trouble. She left the South Sea herself and came
+      to the human world. She showed her true form and subdued the roc, then took
+      it back with her. Once the roc was gone, wind and rain returned to normal, the
+      disasters stopped, and the people lived at peace again.
+  poem_connection:
+    zh: 这一签讲天灾，又讲一事难以和合、有脚走出外乡，正配大鹏鸟离了菩萨、下凡作乱，终被观音收回的一段。
+    en: 'This lot speaks of disaster from the season and of a matter that does not
+      come into accord: the days when the roc left the bodhisattva and brought trouble
+      until Guanyin took it back.'
+- title:
+    zh: 陸遜入石頭陣
+    en: Lu Xun Enters the Stone Maze
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 三国时期，刘备为给关羽报仇，带蜀军东征吴国，结果大败，退守白帝城。吴国的大将陆逊乘胜追击。陆逊是吴国年轻的统帅，很会用兵。他追到夔州鱼腹浦，见江边滩上堆着许多乱石，排成营垒的模样，只当是从前驻军留下的石子，就带兵走了进去。这石阵按一套古阵法摆成，摆阵的人把生路和死路分别藏在乱石之间。人和马一进去就分不清方向，四边全是乱石，进退都找不到路。陆逊困在阵里，来回找路，半天也出不来。正没办法的时候，来了一位老人黄承彦。黄承彦是诸葛亮的岳父，受女婿嘱托，怕吴军人马困死在阵中，便引陆逊一行走出石阵。陆逊出阵之后，才知道自己布阵的本事远不如诸葛亮。
+    en: During the Three Kingdoms period, Liu Bei marched east against Wu to avenge
+      Guan Yu. His army was crushed, and he fell back to Baidi City. Lu Xun, Wu's
+      young commander and a skilled general, chased the retreat. At Yufupu near Kuizhou
+      he saw heaps of loose stones on a river sandbar, arranged like camp walls. He
+      took them for old army debris and led his men in. The stones were laid out as
+      an ancient battle formation. Its builder had hidden a road of life and a road
+      of death among them. Once men and horses entered, they lost all sense of direction.
+      Stones stood on every side, and no way in or out could be found. Lu Xun was
+      trapped. He searched back and forth and could not get out for half a day. Just
+      as he despaired, an old man, Huang Chengyan, appeared. Huang Chengyan was Zhuge
+      Liang's father-in-law. His son-in-law had asked him to keep Wu's men and horses
+      from dying inside, so he guided Lu Xun and his party out of the stone maze.
+      Only after he came out did Lu Xun understand that his own skill at laying formations
+      was far below Zhuge Liang's.
+  poem_connection:
+    zh: 石阵困人，进也进不得，退也退不得，正扣“命内此事难和合”“更逢一足出外乡”的失路之景。
+    en: The stones trap a man who can go neither forward nor back, matching the poem's
+      hard-to-harmonise matter and the line about one foot already outside the village.
+- title:
+    zh: 劉先主攻東吳
+    en: Liu Bei Attacks Eastern Wu
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘备是三国时蜀汉的君主。他的大将关羽镇守荆州，被东吴袭杀，荆州也丢了。刘备不顾群臣劝阻，决意出兵攻打东吴。另一员大将张飞因为催办军需，鞭打部下，反被部下杀死，首级被送到孙权那里。刘备更加愤怒，亲自带大军沿长江东下，扎下几百里连营。东吴派陆逊做大将抵挡。陆逊坚守不出，等蜀军疲惫，又把营地移进树林避暑，才用火攻。蜀军连营着火，大败而回。刘备退到白帝城，第二年病死。这一战蜀国元气大伤。此后多年，全靠诸葛亮收拾残局，蜀国才重新立住脚跟。
+    en: Liu Bei was the ruler of Shu Han during the Three Kingdoms period. His great
+      general Guan Yu was guarding Jingzhou. Eastern Wu attacked and killed Guan Yu,
+      and Jingzhou was lost. Liu Bei did not listen to his ministers, who urged him
+      to stop. He was set on sending an army against Eastern Wu. Another of his great
+      generals, Zhang Fei, pressed his men for military supplies. He beat his officers,
+      and they killed him in turn. They carried his head to Sun Quan. Liu Bei grew
+      even angrier. He led a large army east down the Yangtze River himself. He pitched
+      camps that stretched for hundreds of li. Eastern Wu sent Lu Xun as its commander
+      to hold him off. Lu Xun stayed behind his walls and did not come out. He waited
+      until the Shu troops were worn out. Then he moved his own camps into the woods
+      to escape the heat, and only then used fire. The linked camps of Shu caught
+      fire, and the army was badly beaten. Liu Bei pulled back to Baidicheng and died
+      of illness the next year. This battle drained Shu's strength. For many years
+      after, only Zhuge Liang held things together, and so Shu stood on its feet again.
+  poem_connection:
+    zh: 签诗说所求难以凑合，又说到有人出行在外。刘备这次兴兵东下、离国远征，正是这个情境。
+    en: The lot poem says what is sought is hard to bring together, and it speaks
+      of someone traveling far from home. Liu Bei marched east and left his own land,
+      which is just this setting.
+- title:
+    zh: 烏精亂宋朝
+    en: The Dark Spirit Brings Chaos to the Song
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 从前有一只大鹏金翅鸟，是佛祖座前的神鸟，翅膀极大，力气极猛。它啄死了一只蝙蝠，因此被贬下凡，转世成为岳飞。岳飞是南宋的名将，带兵抵抗北方金国的进攻。金国是女真族建立的国家，当时已经打到长江一带。同在这一段因果里的还有别的生灵：一条赤须龙转世成了金国的统帅金兀术，一条蛟精转世成了秦桧，被啄死的那只蝙蝠转世成了秦桧的妻子王氏。几番恩怨牵连在一起，就引出金兵大举南侵、宋朝大乱的局面。岳飞带兵抵抗，屡次取胜，最后却被秦桧设计召回，含冤而死。
+    en: Long ago there was a great golden-winged roc, a divine bird that sat before
+      the Buddha. Its wings were huge and its strength was great. It pecked a bat
+      to death, and for that it was sent down into the world and reborn as Yue Fei.
+      Yue Fei was a famous general of the Southern Song, and he led troops against
+      the attacks of the Jin state in the north. Jin was a state built by the Jurchen
+      people, and by then they had pushed to the Yangtze River. Other beings were
+      caught in the same chain of cause and effect. A red-whiskered dragon was reborn
+      as Wuzhu, the Jin commander. A flood dragon spirit was reborn as Qin Hui, and
+      the bat that was pecked to death was reborn as Qin Hui's wife, Lady Wang. These
+      debts of grudge and kindness were tangled together, and from them came the great
+      Jin invasion to the south and the disorder in the Song. Yue Fei led the resistance
+      and won again and again. In the end Qin Hui had him called back by a scheme,
+      and he died with his name uncleared.
+  poem_connection:
+    zh: 签诗说风雨骤来、水势汪洋，天灾时气之下必有人受伤。妖精乱世、灾祸接连而来，正合这个情境。
+    en: The lot poem says wind and rain come suddenly and the waters spread wide,
+      and that under bad weather from heaven someone is bound to be hurt. Spirits
+      in disorder and one disaster after another fit this.

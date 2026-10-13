@@ -1,0 +1,299 @@
+id: 48
+lot_number: 48
+ganzhi:
+  zh: 辛亥
+  pinyin: Xin-hai
+title:
+  en: A Dragonfly Blunders into a Spider's Web
+  zh: 蜻蜓飛入蜘蛛網
+hexagram:
+  zh: 天地否
+  name_and_structure_en: Pi (Heaven over Earth)
+  binary_code: ○○○●●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 4
+  primary:
+    zh: 蜻蜓飛入蜘蛛網
+    en: A Dragonfly Blunders into a Spider's Web
+  variants_en:
+  - Wang Zhaojun Drowns Herself
+  - Qin Shi Huang Conscripts the People to Build the Wall
+  - Xiang Yu Gives Lü Matong a Horse
+  variants_zh:
+  - 王昭君投水
+  - 秦始皇點民造長城
+  - 項王贈呂馬童
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout — 凡事 被人害。和者吉／婚姻 不好／求財 輕。無利／家運
+      有邪氣。不安／月令 失暗難通 (jie_yue_score −6)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book's own categories run blocked in marriage, money, household
+      fortune and the month, net negative overall; only the note on keeping peace,
+      and the line on sons, leave room. The text here follows a six-source majority
+      on a single character.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 被人害。和者吉／作事 難成／家事 不合／家運 有邪氣。不安／婚姻 不好／求財 輕。無利／行舟 了無利／功名
+      無／月令 失暗難通（jie_yue_score −6）。整签偏负，唯「和者吉」与六甲 生男（晚来得）留有余地。校勘：六源多数决，作事 未『知』同→未『和』同（依据见
+      mazu_签诗_六源投票与裁定.csv）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在婚姻、求财、家运、月令几处都偏阻，整体偏负；只有「顺和」一项与子嗣一项留有余地。校勘上本签是一处一字之改，依六源多数决所定。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「作事未知同 — not known to be the same (维基文库 alone)」→「作事未和同
+    — not yet in accord (好廟網; feishuai; mznn; 91chouqian)」, six-source vote 5/6, recorded
+    in mazu_签诗_六源投票与裁定.csv.
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 陽世作事未和同，
+    en: In this life your work is not yet in accord with others;
+  - line_number: 2
+    zh: 雲遮月色正朦朧，
+    en: the cloud covers the moon and it is dim;
+  - line_number: 3
+    zh: 心中意欲前途去，
+    en: in your heart you still want to set out for the road ahead;
+  - line_number: 4
+    zh: 只恐命內運未通。
+    en: the only fear is that your season has not opened.
+keywords:
+  favourable:
+    en:
+    - waiting with your mind made up
+    - keeping your own counsel
+    - a season that will open
+    zh:
+    - 定下心来等
+    - 把主意留在自己手里
+    - 时令会开
+  guarded:
+    en:
+    - setting out while it is dim
+    - taking disagreement for error
+    - being drawn into another's quarrel
+    - acting on a plan nobody has agreed to yet
+    zh:
+    - 在暗处上路
+    - 把分歧当成自己错
+    - 被卷进别人的争执
+    - 照着还没人点头的计划行动
+reading_notes:
+- term: 未和同
+  pinyin: wèi-hé-tóng
+  en: '"not yet in accord": the dictionary text and the temple site both read 未和同;
+    one branch has 未知同 (*not known to be the same*). We keep the majority reading,
+    which is the one the second line''s dimness answers.'
+  zh: 既指跟人还没谈拢，也指事情本身还没配齐；另有一处本子作「未知同」（不知道是否相同）。我们取多数本，也正是下一句「朦胧」所应的那层意思。
+- term: 朦朧
+  pinyin: méng-lóng
+  en: '"dim, hazy": at once *the moon behind cloud*; *the unclear state of the affair*.'
+  zh: 既指月亮被云遮住，也指事情本身看不清。
+- term: 運未通
+  pinyin: yùn-wèi-tōng
+  en: '"the season has not opened": about *timing*, not about *capacity*; The poem
+    doubts the hour, not the person.'
+  zh: 说的是时令，不是本事；诗疑的是时候，不是人。
+plain_meaning:
+  en: 'Nothing is in accord yet and the light is dim: the wish to go is not in question,
+    only the timing. The counsel is to hold your plan and keep your own counsel until
+    the season opens, rather than force agreement or set out in the haze.'
+  zh: 眼下诸事都还没和合，光线也暗：想走的那颗心不是问题，问题在时机。此时宜守住计划、把主意留在自己这里，等时令开了再动，不必强求别人同意，也别在雾里上路。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Not a good season for a match; disagreement between the parties is the obstacle
+      the poem names.
+    zh: 这一段不是定下关系的好时节；诗点出的障碍是双方之间的分歧。
+    compliance_tag: null
+  career:
+    en: The work is not in accord with others yet; keep the plan and wait for the
+      season to open.
+    zh: 这件事跟别人还没合上拍；把计划守着，等时令开。
+    compliance_tag: null
+  money:
+    en: Nothing is gained by moving now; hold what you have. *(Not financial advice.)*
+    zh: 此时动钱得不着什么；先守住手上的。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A season for real care rather than endurance; get qualified attention promptly.
+      *(Not medical advice.)*
+    zh: 这是要正经照护、不是硬撑的一段；尽早找专业的人看。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is not in accord; do not carry someone else's quarrel.
+    zh: 家里没有合上；不要把别人的争执接过来。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out into the haze.
+    zh: 诗说不宜在雾里上路。
+    compliance_tag: null
+  sea_and_voyage:
+    en: No profit on the water now; keep the boat in port.
+    zh: 眼下水上得不着什么；船先留在港里。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season gives a half return at best; work what is already yours.
+    zh: 这一季最多只有一半的收；先把已经属于自己的做扎实。
+    compliance_tag: null
+  timing:
+    en: The season opens later — a season, never a date.
+    zh: 时令转开在后面——只给季节，不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Setting out while it is dim; being drawn into another's quarrel.
+    zh: 在暗处上路；被卷进别人的争执。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这里说的是难走的一季，不是对伤害的预告。若这段读来让你心里发紧，或牵动钱的忧心，请找你信任的人或专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 蜻蜓飛入蜘蛛網
+    en: A Dragonfly Blunders into a Spider's Web
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 蜘蛛结网在房檐和梁柱之间，丝又细又密，不仔细看很难发现。蜻蜓鼓着翅膀飞过，一头撞进网里，翅膀被丝缠住。它越挣扎，丝缠得越紧，明明有翅膀也飞不掉。这一类故事讲的就是误撞进去、被缠住、脱不了身。题名取的是眼前的一幅景象，没有人物，也没有朝代。同一条目下还有写作“飞入”和“误入”的，用字不同，说的是同一件事。签诗说，阳世做事未必都能如意，云遮月色正朦胧；心里想要往前去，只恐命内运未通。网前的蜻蜓，正是这样一片朦胧。
+    en: A spider spreads its web between the eaves and the beams. The threads are
+      fine and close, and hard to see unless one looks carefully. A dragonfly comes
+      flying on its wings and blunders head first into the web. Its wings are caught
+      in the threads. The more it struggles, the tighter the threads wind round it.
+      It has wings, yet it cannot fly away. Tales of this kind tell of blundering
+      in, being caught, and being unable to get free. The title takes a single scene
+      before the eyes. There is no person in it, and no dynasty. Other accounts of
+      this lot title the scene flying in, or blundering in. The wording differs, but
+      they tell the same thing. The lot poem says that in this world things do not
+      always go as one wishes, and that clouds cover the moon and the light is dim.
+      The heart wants to go forward, yet one fears the time within one's lot has not
+      come. The dragonfly before the web sits in just such a dimness.
+  poem_connection:
+    zh: 签诗说云遮月色正朦胧，心中意欲前途去。蜻蜓误撞进网中，正合这种看不清前路、进退不得的情形。
+    en: The lot poem says clouds dim the moon, and the heart wants to go on. A dragonfly
+      that blunders into the web is caught in just such dimness, unable to go forward
+      or back.
+- title:
+    zh: 王昭君投水
+    en: Wang Zhaojun Throws Herself into the River
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王昭君是汉元帝后宫里的良家女子，名叫王嫱，昭君是她的字。北方的匈奴单于来朝求婚，元帝把昭君赐给单于，封号宁胡阏氏，阏氏就是单于妻子的称呼。宫里挑人靠画像，画工毛延寿替宫女画像，谁给钱就把谁画得好看。昭君不肯送钱，被画得难看，皇帝一直没有见她。到要出塞的时候，皇帝才见到她本人，见出的是一位美人。昭君随单于北上，走到汉与匈奴交界的地方，她不肯进番，投江而死。她走后，元帝夜里梦见她，醒来只听见雁叫的声音。她的墓在江边，出塞和亲这件事，从此成为诗里常写的一段。
+    en: Wang Zhaojun was a woman of good family in the rear palace of Emperor Yuan
+      of the Han. Her name was Wang Qiang, and Zhaojun was her courtesy name. The
+      chanyu, that is, the ruler of the Xiongnu in the north, came to court to ask
+      for a marriage. The emperor gave Zhaojun to him with the title Ninghu Yanzhi,
+      yanzhi being the word for a chanyu's wife. Women were chosen for the palace
+      by their portraits, and the painter Mao Yanshou drew a woman well if she paid
+      him. Zhaojun would not send money, so she was drawn plain, and the emperor never
+      saw her. When the time came for her to leave for the frontier, the emperor saw
+      her in person for the first time and saw a beauty. Zhaojun went north with the
+      chanyu. At the border between the Han and the Xiongnu she would not go on into
+      foreign country, and drowned herself in the river. After she was gone the emperor
+      dreamed of her at night and woke to the sound of geese. Her grave stands by
+      the river, and this frontier marriage became a stretch often written of in poems.
+  poem_connection:
+    zh: 签诗说“心中意欲前途去，只恐命内运未通”，正对昭君出塞、前路阻绝的处境；“云遮月色正朦胧”也与出塞途中的境象相合。
+    en: The poem says the heart wants to go on along the road ahead but the time within
+      is not open; Zhaojun's road past the frontier was cut off, and the clouded moon
+      fits that journey out.
+- title:
+    zh: 秦始皇點民造長城
+    en: Qin Shi Huang Conscripts the People to Build the Great Wall
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 秦始皇灭掉六国、统一天下以后，为防北方的胡人南下，派大将蒙恬领兵驱逐匈奴，又把燕、赵、秦三国原有的边墙连接起来，筑成一道长墙，西起临洮，东到辽东。胡人是当时对北方游牧民族的称呼。民间把这项工程叫作“点民”，就是按户口点数壮丁，一批批征去服役。修墙的人常年在外，累死、病死的很多，路上常见死者。流传最广的是孟姜女的故事。她的丈夫万喜良被征去筑城，孟姜女怕他受寒，远路送棉衣到边塞。到了才听说丈夫已经死了。她在城下痛哭，城墙竟被她哭塌了一段。
+    en: After Qin Shi Huang destroyed the six states and unified the realm, he moved
+      to keep the northern Hu peoples from coming south. He sent the general Meng
+      Tian with troops to drive out the Xiongnu. He also joined the old border walls
+      of Yan, Zhao, and Qin into one long wall. It ran from Lintao in the west to
+      Liaodong in the east. Hu was the name used at the time for the northern pastoral
+      peoples. Among the people, this work was called counting the people. That meant
+      counting the able-bodied men by household and taking them off in batches for
+      labor service. The men who built the wall stayed away year after year. Many
+      died of exhaustion or illness, and dead bodies were often seen on the roads.
+      The best-known story is that of Meng Jiangnu. Her husband, Wan Xiliang, was
+      taken to build the wall. Meng Jiangnu feared he would suffer from cold, so she
+      carried padded clothes a long way to the frontier. Only when she arrived did
+      she hear that her husband was dead. She wept beneath the wall, and a section
+      of the wall collapsed from her weeping.
+  poem_connection:
+    zh: 签诗“阳世作事未和同”“云遮月色正朦胧”，人事难合、世情昏暗，正对征夫筑城之苦。
+    en: The lot's poem says affairs in the world do not agree, and that clouds hide
+      the moon and the moonlight is dim. Human plans that do not fit and a murky world
+      fit the hardship of conscripted builders.
+- title:
+    zh: 項王贈呂馬童
+    en: The Hegemon King's Gift to Lü Matong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 项羽是秦朝末年的一路诸侯，勇猛善战，号称西楚霸王。他在垓下一战败给刘邦的汉军。垓下在今天安徽一带。那一夜，他听见四周的汉军营里都唱起楚地的歌，知道大势已去，便带八百多名骑兵突围，向南逃走。到了乌江边，跟随他的只剩二十多人，后面追赶的汉军却有几千。乌江是长江边的一条支流。项羽自知跑不掉了，回身再战，又杀伤汉军上百人。汉军里有个骑兵军官叫吕马童，官名是司马。项羽认出他是旧相识，便对他说：听说汉王拿我的头悬赏，谁能得到，就赏千金、封万户侯；今天就把这份功劳送你。说完，他自刎而死。汉军争抢他的尸身，自相残杀的就有几十人，最后吕马童等五人各得到一段，都因此封了侯。这一签说云遮月色正朦胧，又说只恐命内运未通，正配项羽垓下被围、末路相赠的一段。
+    en: 'Xiang Yu was one of the lords at the end of the Qin, brave and good at war,
+      and was called the Hegemon King of Western Chu. He lost to Liu Bang''s Han army
+      at the battle of Gaixia. Gaixia is in what is today Anhui. That night he heard
+      the songs of Chu being sung in the Han camps all around him, knew that his cause
+      was lost, and broke out with more than eight hundred horsemen, fleeing south.
+      At the Wu River only twenty-odd men were left with him, while several thousand
+      Han troops were chasing. The Wu River is a branch of the Yangtze. Xiang Yu knew
+      he could not get away, turned and fought again, and killed or wounded more than
+      a hundred of the Han soldiers. Among the Han cavalry was an officer named Lü
+      Matong, whose post was sima. Xiang Yu recognized him as an old acquaintance
+      and said to him: I hear the King of Han has offered a reward for my head, a
+      thousand pieces of gold and a fief of ten thousand households for whoever gets
+      it; today I give that honor to you. Then he cut his own throat. The Han soldiers
+      fought over his body, and several dozen of them killed one another. In the end
+      Lü Matong and four others each got a part, and all of them were made marquises
+      for it.'
+  poem_connection:
+    zh: 这一签说云遮月色正朦胧、只恐命内运未通，正配项羽兵败被围、临末以此相赠故人的一段。
+    en: This lot says the clouds hide the moon and all is dim, and that the luck within
+      this life is not yet open - Xiang Yu shut in at Gaixia, giving to an old friend
+      at the end.

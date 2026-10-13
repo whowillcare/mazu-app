@@ -1,0 +1,384 @@
+id: 40
+lot_number: 40
+ganzhi:
+  zh: 庚午
+  pinyin: Geng-wu
+title:
+  en: 'The Threefold Assembly: Ge Qiliang and His Wife Are Reunited'
+  zh: 三元會葛其量夫妻相會
+hexagram:
+  zh: 水天需
+  name_and_structure_en: Xu (Water over Heaven)
+  binary_code: ●○●○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 三元會葛其量夫妻相會
+    en: 'The Threefold Assembly: Ge Qiliang and His Wife Are Reunited'
+  variants_en:
+  - Ge Xiliang and His Wife Are Reunited
+  - 'The Threefold Assembly: Cai Kun Buys Books'
+  - Guo Ziyi and His Wife Make Birthday Offerings
+  - Feng Changle Serves Five Generations as Chancellor
+  - Shi Pinggui Visits the Cold Kiln
+  variants_zh:
+  - 葛希亮夫妻相會
+  - 三元會喜葛其蔡坤買書
+  - 郭子儀夫妻拜壽
+  - 馮長樂五代為相
+  - 石平貴探寒窯
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'temple judgements run positive: 家事 大吉進益／家運 五世其昌／婚姻 美滿／求財 有大進／功名 指日高陞／六畜
+      可喜有利／討海 後必大利, with a slow tail - 凡事 拖尾。了錢。漸吉／作事 難得成功／月令 不遂 (jie_yue_score 18)'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: household, marriage, income and rank all
+      point forward with force, yet the general and undertaking lines carry a short
+      delay before they settle. A late-clearing stretch with friction up front, so
+      we read it as mixed: hold what is in place and let it settle.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（庙本解曰原文，照抄）：凡事 拖尾。了錢。漸吉／作事 難得成功／家事 大吉進益／家運 五世其昌／婚姻 美滿／六甲
+      先男後女／求財 有大進／功名 指日高陞／治病 少漸癒。老不安／經商 有成／行舟 有利／討海 後必大利／耕作 平平。下半年好／月令 不遂／遠信 將近就至。总评：整签偏吉（jie_yue_score
+      18），正面类目最密；惟凡事「拖尾。了錢。漸吉」、作事「難得成功」、月令「不遂」三处是慢与耗的提醒。版本：第二句按六源多数决取「君家門戶定光輝」，维基文库独作「光生輝」。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：家运、婚姻、求财与功名都指向前进；唯总类与作事两处在落定前有一段短滞。先滞后顺，故读作 mixed，重在守成。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「君家門戶光生輝 — 维基文库」→「君家門戶定光輝 — feishuai / mznn / 91chouqian
+    / temple01 (好廟網)」, six-source majority vote; the reading carried by four of the
+    sources is taken as the line
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 平生富貴成祿位，
+    en: A whole life long, wealth and rank come to their place;
+  - line_number: 2
+    zh: 君家門戶定光輝，
+    en: your household and its gate are sure to shine;
+  - line_number: 3
+    zh: 此中必定無損失，
+    en: within this there is no loss to be found;
+  - line_number: 4
+    zh: 夫妻百歲喜相隨。
+    en: man and wife, a hundred years, rejoice side by side.
+keywords:
+  favourable:
+    en:
+    - fulfilled wealth and rank
+    - a household that shines
+    - no loss in the matter
+    - man and wife to a great age
+    zh:
+    - 富贵与禄位到手
+    - 门庭光显
+    - 此事之中没有损失
+    - 夫妻相守到老
+  guarded:
+    en:
+    - a lagging finish on a good thing
+    - an undertaking that resists finishing
+    - the month's turn running against it
+    - spending the gain before it settles
+    zh:
+    - 好事尾巴拖得慢
+    - 一桩做不完的实事
+    - 月令这一转不顺着它
+    - 进项没落定就先花掉
+reading_notes:
+- term: 祿位
+  pinyin: lù-wèi
+  en: 'the rank and stipend that come with office: a position and its salary, reached
+    in a working life; in the older sense, a share of fortune allotted to a person;
+    the line treats it as already in place.'
+  zh: 既是官职与那份俸禄，也是旧说里一个人命分中分到的那一份；这一句当作已经在位来读。
+- term: 門戶
+  pinyin: mén-hù
+  en: 'the gate and doors of a house, and by extension the household: the family and
+    its standing in the world; the literal gate of the house, which is said to shine;
+    both senses are meant at once.'
+  zh: 既是家门与门第，也是屋子里那道实在的门；这一句两义同时用。第二句另有异文：维基文库作「君家門戶光生輝」，feishuai／mznn／91chouqian／好廟網四源作「定光輝」；本定本按六源多数决取「定光輝」，两读一并摊开。
+- term: 夫妻百歲
+  pinyin: fū-qī-bǎi-suì
+  en: 'man and wife to a hundred years: a marriage that lasts a whole lifetime; a
+    blessing spoken over a couple; the poem wishes it rather than fixing a term.'
+  zh: 既是相守一辈子，也是给一对夫妻的祝语；诗是在祝愿，不是在定一个期限。
+plain_meaning:
+  en: 'A season of fulfilment with a lagging finish: wealth, household and standing
+    all move forward, while the one thing that stalls is the start of a practical
+    undertaking. Keep your hand on what is already yours, and let the delayed piece
+    catch up in its own time rather than forcing it.'
+  zh: 这是一季收成的时节，只是尾巴拖得慢：财、家、名位都在往前走，唯独一件实事开不了头。手按在已经属于你的东西上，让迟来的那一块自己跟上，不要去硬推。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: 'A warm and lasting season for a couple: the bond named in the poem runs to
+      old age. Do not test it by pressing.'
+    zh: 这一季对一对夫妻是暖的、长的：诗里点的这份情分走到老。不要用紧逼去试它。
+    compliance_tag: null
+  career:
+    en: Standing and name move forward; the practical undertaking, though, takes its
+      own time to close.
+    zh: 名位与声望都在往前；只是那一桩实事要按自己的时候收口。
+    compliance_tag: null
+  money:
+    en: Gain is named plainly, but the month's turn runs against it - keep reserves
+      rather than committing deeply. (Not financial advice.)
+    zh: 进项是明写着的，但这一转月令不顺着它——留出储备，别深投。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The young mend; for the old the season asks caution and rest. Consult a qualified
+      professional about anything that lingers. (Not medical advice.)
+    zh: 年少的人一点点好起来；年长的人这一季宜留心、宜静养。凡有拖着不走的，去看有资质的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household prospers and its name is raised; this is a good season for a
+      house.
+    zh: 家门兴盛、名声往上抬；这也是盖房安宅的好时候。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is safe; journeys come off without harm.
+    zh: 出门平安；路程走下来没有损伤。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'For boats and for those who work the water: the profit is real, but it comes
+      late - hold the course.'
+    zh: 船与讨海的人：利是真的，只是来得晚——把航向守住。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The fields are ordinary, better late in the season; the animals do well.
+    zh: 田事平平，后半季更好；六畜可喜。
+    compliance_tag: null
+  timing:
+    en: The turn is gradual - favourable late in the season rather than at once; read
+      as a window, never a date.
+    zh: 这一转是渐来的——利于这一季的后段，而不是一上来就到；当窗口读，不当日子读。
+    compliance_tag: null
+  what_to_avoid:
+    en: Judging a good thing by its slow start; spending the gain before it settles.
+    zh: 用开头慢来判断一桩好事；进项还没落定就先花掉。
+    compliance_tag: null
+  reassurance:
+    en: This lot's judgements are largely favourable; nothing here needs to be forced.
+    zh: 本签判词大体偏正面；这里没有什么是需要硬推的。
+    compliance_tag: null
+stories:
+- title:
+    zh: 三元會葛其量夫妻相會
+    en: 'The Threefold Assembly: Ge Qiliang and His Wife Are Reunited'
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签的故事题作“三元会葛其量夫妻相会”，讲的是一个叫葛其量的人，在三元会上和妻子相见。三元指上元、中元、下元，旧时以这三日为节令。正月十五是上元，七月十五是中元，十月十五是下元。民间在这三天张灯、设醮、聚会。可是葛其量这个人，正史和常见的戏曲、小说里都查不到。这一签里另有一条，也用了三元会的名字，人名写作葛奇。这个故事从哪儿来、情节怎么起收，都查不实。所以这一条只照题面讲明夫妻在会中相见，不另编造情节。签诗末句说“夫妻百岁喜相随”，正合这会面成双的意思。
+    en: 'This lot''s story is titled The Threefold Assembly: Ge Qiliang and His Wife
+      Are Reunited. It tells of a man named Ge Qiliang meeting his wife at the Threefold
+      Assembly. The Threefold Assembly means the Upper, Middle, and Lower Primes,
+      three days kept as festivals in older times. The fifteenth day of the first
+      month is the Upper Prime. The fifteenth day of the seventh month is the Middle
+      Prime. The fifteenth day of the tenth month is the Lower Prime. On these three
+      days, people put up lanterns, held rites, and gathered together. But the man
+      Ge Qiliang appears in no standard history and in no common play or novel. One
+      other entry in these lots also uses the name of the Threefold Assembly, with
+      the man''s name written Ge Qi. Where this story comes from, and how it begins
+      and ends, cannot be checked. So this entry sets out only, by its title, that
+      husband and wife meet at the gathering, with no plot invented beyond that. The
+      last line of the lot''s poem says that husband and wife live a hundred years
+      together in joy, which fits exactly the sense of this meeting as a couple.'
+  poem_connection:
+    zh: 签诗末句作“夫妻百岁喜相随”，故配三元会葛其量夫妻相会一事。
+    en: The poem's last line says husband and wife live a hundred years together in
+      joy, which fits the couple meeting as a pair at the Threefold Assembly.
+- title:
+    zh: 葛希亮夫妻相會
+    en: Ge Xiliang and His Wife Are Reunited
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事题作葛希亮夫妻相会，讲的是一对夫妻分离之后重新见面的事。葛希亮是故事中男子的名字，传下来的只有这样一个题目。题目里说得分明：他和妻子曾经分开，后来终于相见，见面之后夫妻团聚，家中的事也重新和顺起来。和它排在一起的故事，讲的也都是这一类情景。有的说老臣郭子仪过寿，夫妻一同受晚辈拜贺；有的说石平贵远行归来，回到寒窑探看妻子。这些故事的人物各有不同，讲的意思却相近：夫妻经得起分开，终究还能重新聚在一起。
+    en: This story is titled Ge Xiliang and His Wife Are Reunited, and it tells of
+      a husband and wife who met again after being parted. Ge Xiliang is the name
+      of the man in the story, and only this title has come down to us. The title
+      says plainly that he and his wife were once apart and met at last, that after
+      the meeting the couple were together again, and that the affairs of the household
+      became smooth again. The stories placed beside it tell the same kind of scene.
+      One says the old minister Guo Ziyi celebrated his birthday, and the couple received
+      the respects of the younger generation together. Another says Shi Pinggui came
+      home from a long journey and went back to the cold kiln to look for his wife.
+      The people in these stories differ, but the meaning is close. A husband and
+      wife can bear being parted and still come together in the end.
+  poem_connection:
+    zh: 签诗说夫妻百岁相随，这里直接点出夫妻相会。题面和诗句正好合在一处。
+    en: The lot poem says husband and wife stay together to a hundred years, and this
+      title points straight at their meeting. Title and verse line up.
+- title:
+    zh: 三元會喜葛其蔡坤買書
+    en: 'The Threefold Assembly: Cai Kun Buys Books'
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 蔡良在卢州城里开了一家书铺。他早说过，谁能对出白鹤洞留下的一句上联，就把女儿蔡曼锦许配给谁。葛其量父母早亡，一个人住在卢州城外。上元节那天，他和朋友上街闲逛，走进蔡家的书铺买书。他和蔡曼锦讨价还价，两人打赌：他若能背出书里的文句，书就白送给他。葛其量背得又快又顺。蔡家便请他到家里对对联。蔡良出上联，其量对出下联，对得工整。蔡良大为赞赏，就把曼锦许配给了他。中元节时，南蛮的残兵进城抢粮，城里大乱，夫妻两人失散。两年后，葛其量带兵平定了南蛮，大胜归来，两人才重新团聚。
+    en: 'Cai Liang kept a bookshop in the city of Luzhou. He had said long before
+      that whoever could match the upper line of a couplet left at White Crane Cave
+      would have his daughter Cai Manjin in marriage. Ge Qiliang''s parents had died
+      early and he lived alone outside Luzhou. On the Lantern Festival he strolled
+      the streets with friends and went into the Cai bookshop to buy a book. He and
+      Cai Manjin haggled over the price, and the two made a bet: if he could recite
+      the passages in the book, it would be given to him free. Ge Qiliang recited
+      quickly and smoothly. The Cai family then invited him to their house to match
+      couplets. Cai Liang gave the upper line and Qiliang matched the lower with skill.
+      Cai Liang admired it greatly and promised Manjin to him. At the Ghost Festival
+      the remains of the southern troops came into the city to seize grain. The city
+      fell into disorder and the couple was parted. Two years later Ge Qiliang led
+      troops, put down the southern peoples, and returned in triumph. Only then did
+      the two come together again.'
+  poem_connection:
+    zh: 这一签说夫妻百岁相随、此中必无损失，正配葛其量乱后重聚、夫妻团圆。
+    en: This lot says husband and wife stay together a hundred years and nothing here
+      is lost. It fits Ge Qiliang and his wife meeting again after the disorder and
+      being reunited.
+- title:
+    zh: 郭子儀夫妻拜壽
+    en: Guo Ziyi and His Wife Make Birthday Offerings
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 郭子仪是唐朝中兴的名将，平定了安史之乱，因功封为汾阳郡王，官做到太尉、中书令。他有七个儿子、八个女婿，都在朝中做官，孙子有几十个。孙子们成群来问安，他认不过来，只好点点头。他做寿那天，儿子女婿都来道贺，上朝用的笏板堆满了床头。笏板是官员上朝时手里拿的记事板，家里堆得这样多，说的是这一门做官的人多。他先后在玄宗、肃宗、代宗、德宗四朝做官，一生功名到头，活到八十五岁。这一题取的就是夫妻高寿、子孙满堂称庆的景象。
+    en: 'Guo Ziyi was a famous general of the Tang revival. He put down the An Lushan
+      rebellion. For his merit he was made Prince of Fenyang and rose to be grand
+      commandant and director of the Secretariat. He had seven sons and eight sons-in-law,
+      all of them officials at court, and dozens of grandsons. When the grandsons
+      came in groups to ask after him, he could not keep them apart. He could only
+      nod to them. On his birthday his sons and sons-in-law came to offer congratulations.
+      The tablets of office piled up by his bed. Those tablets were the note boards
+      officials held at court. To have so many in the house meant that many in the
+      family held office. He served under four reigns: Xuanzong, Suzong, Daizong,
+      and Dezong. His life of office came to its height, and he lived to eighty-five.
+      This title takes the scene of husband and wife long-lived and children and grandchildren
+      gathered to celebrate.'
+  poem_connection:
+    zh: 这一签的签诗说平生富贵、位至禄位，家门生辉，此中不会有所损失，夫妻百岁相随。题面上“夫妻”和“拜寿”正与末句相应。
+    en: The poem says a life of wealth and rank, a seat among the officials, the household
+      shining, and husband and wife together to a hundred. The title's husband and
+      wife matches the last line.
+- title:
+    zh: 馮長樂五代為相
+    en: Feng Changle Serves Five Generations as Chancellor
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 冯长乐就是冯道，字可道，自号长乐老。五代是唐朝灭亡之后的一段乱世，中原一带接连换了五个短命朝代。冯道历仕后唐、后晋、后汉、后周四个朝代，还一度在契丹任职，前前后后做了二十多年的宰相。在那样的乱世里，朝代换了又换，他仍旧久居相位，是当时官场上少见的长久在位者。他为父亲守丧回乡时，亲自下地耕种，过着自给的日子。冯道留心保全百姓，那时战乱连年，他设法减免赋役，让百姓稍得安稳。后周时他仍任太师、中书令，死后追封瀛王。
+    en: Feng Changle was Feng Dao. His courtesy name was Kedao, and he called himself
+      Old Man of Long Joy. The Five Dynasties were a stretch of disorder after the
+      fall of the Tang, when the central plains passed through five short-lived dynasties
+      one after another. Feng Dao served the Later Tang, Later Jin, Later Han, and
+      Later Zhou, and at one point held office under the Khitan as well. Altogether
+      he was chancellor for more than twenty years. In such disorder, with dynasties
+      replaced again and again, he still held the chancellorship a long time. He was
+      a rare case in that official world of long service in place. When he went home
+      to mourn his father he worked the fields himself and lived on what he grew.
+      Feng Dao took care to protect the common people. The wars ran on year after
+      year, and he found ways to cut taxes and labor service so that people had a
+      little steadiness. Under the Later Zhou he still held the posts of Grand Preceptor
+      and Director of the Secretariat, and after his death he was given the title
+      Prince of Ying.
+  poem_connection:
+    zh: 签诗说平生富贵成禄位、门户光生辉；冯道累朝久居相位，正合禄位久安这一层。
+    en: The poem says a life of wealth and honor comes to office and rank, and that
+      the house and gate shine with light. Feng Dao held the chancellorship through
+      several courts, which fits.
+- title:
+    zh: 石平貴探寒窯
+    en: Shi Pinggui Visits the Cold Kiln
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛平贵是个穷汉。唐朝丞相王允的女儿王宝钏抛绣球招亲，绣球打中了他。相府嫌他贫寒，父女因此翻脸，宝钏跟着平贵住进城南的寒窑。平贵投军西征，被人暗害，流落西凉，娶了代战公主，后来做了西凉之主。宝钏独自住在寒窑，靠挖野菜过日子，苦守多年。平贵重回中原，先到武家坡前装作同袍试探她，然后与她相认。此后他登殿即位，封宝钏为正宫娘娘。平贵走的时候，宝钏还年轻，等他回来已经过了许多年。寒窑在城南的坡下，四面透风，她在那里等了一年又一年。
+    en: Shi Pinggui was a poor man. Wang Baochuan, daughter of the Tang chief minister
+      Wang Yun, threw a silk ball to choose a husband, and the ball struck him. The
+      minister's house thought him too poor, and father and daughter fell out over
+      it, and Baochuan went with Pinggui to live in the cold kiln south of the city.
+      Pinggui joined the army and marched west, where he was secretly done harm, drifted
+      to the western lands, married Princess Daizhan, and later became ruler there.
+      Baochuan lived alone in the cold kiln, kept herself by digging wild greens,
+      and held out for many years through every season. When Pinggui came back to
+      the central lands, he first went to the slope at the Wu family village and pretended
+      to be a fellow soldier to test her, and then made himself known to her. Afterwards
+      he took the throne and made Baochuan his empress. When Pinggui left, Baochuan
+      was still young, and by the time he came back many years had passed.
+  poem_connection:
+    zh: 这一签写夫妻久别重逢、终于同处，正扣签诗“平生富贵成禄位”“夫妻百岁喜相随”。
+    en: Husband and wife meeting again after a long parting and at last living together
+      fits a lot whose poem speaks of honor and station won and a couple growing old
+      in joy.
+- title:
+    zh: 三元會葛奇蔡坤買書
+    en: 'The Threefold Assembly: Ge Qi and Cai Kun Buy Books'
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 蔡良在城里开书铺卖书。他早就有话在先：谁若对得上白鹤洞留下的一句上联，就把女儿蔡曼锦许配给谁。葛其量父母早亡，孤身一人住在卢州城外。上元节那天，他和朋友上街，走进蔡家的书铺。他和蔡曼锦为了书价争了几句，两人打赌，他只要能背出书里的文句，书就白送。葛其量背得又快又顺，蔡家便请他去家里对对联。蔡良出上联，其量对出下联，十分工整。蔡良大为赞赏，把曼锦许配给他。后来南蛮残兵进城抢粮，城中大乱，夫妻失散。两年后葛其量平番大胜归来，夫妻才重新团聚。
+    en: 'Cai Liang kept a bookshop in the city, selling books. He had said long before
+      that whoever could match the upper line of a couplet left at White Crane Cave
+      would have his daughter Cai Manjin in marriage. Ge Qiliang''s parents had died
+      early, and he lived alone outside the city of Luzhou. On the Lantern Festival
+      he went out on the streets with friends and stepped into the Cai bookshop. He
+      and Cai Manjin argued a little over the price of a book, and the two made a
+      bet: if he could recite the passages in the book, it would be given to him free.
+      Ge Qiliang recited quickly and smoothly, and the Cai family asked him to their
+      house to match couplets. Cai Liang gave the upper line and Qiliang matched the
+      lower with great skill. Cai Liang admired it greatly and promised Manjin to
+      him. Later the remains of the southern troops came into the city to seize grain,
+      the city fell into chaos, and the couple was parted. Two years later Ge Qiliang
+      returned in triumph from putting down the southern peoples, and only then were
+      husband and wife reunited. Their meeting came late, but the two were together
+      again.'
+  poem_connection:
+    zh: 这一签说夫妻百岁相随、此中必无损失，正配葛其量乱后重聚、夫妻团圆。
+    en: This lot says husband and wife stay together a hundred years, and nothing
+      here is lost. It fits Ge Qiliang and his wife meeting again and being reunited
+      after the disorder.

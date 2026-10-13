@@ -1,0 +1,355 @@
+id: 44
+lot_number: 44
+ganzhi:
+  zh: 辛卯
+  pinyin: Xin-mao
+title:
+  en: Hong Yichun Lends Chen San an Umbrella
+  zh: 洪益春留傘愛陳三
+hexagram:
+  zh: 山地剥
+  name_and_structure_en: Bo (Mountain over Earth)
+  binary_code: ○●●●●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 洪益春留傘愛陳三
+    en: Hong Yichun Lends Chen San an Umbrella
+  variants_en:
+  - Xiao He Pursues Han Xin Under the Moon
+  - Zhou Yu Defeats Cao's Fleet at Red Cliff
+  - The Weaver Girl Meets the Herd Boy
+  - Su Gong Presents Daji
+  - The Lady Hou Watches for Zhang Kui
+  variants_zh:
+  - 洪益春愛陳三
+  - 蕭何月下追韓信
+  - 周郎赤壁敗曹兵
+  - 牛郎織女相識
+  - 蘇公進妲己
+  - 侯氏望張睽。
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive — 凡事 月光好／作事 運至事成／功名 必能得進／行舟 大吉有利, with
+      官事 了錢／歲君 起倒／求兒 不可 and 月令 待時可安 as the caution (jie_yue_score +17)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'The temple judgements read favourable overall: advancement, travel,
+      business, sea work and moving house are all well placed, marriage is level,
+      and the month''s entry counsels waiting for the time. Only the legal entry carries
+      a cost. The lot is read as favourable.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 月光好／作事 運至事成／家事 志氣遠大／家運 左右平安／婚姻 中和／六甲 弄瓦之慶／求財
+      漸利益。亨可喜／功名 必能得進／出外 一路順風／經商 大吉利市／行舟 大吉有利／移居 大吉／耕作 平平。有利可得／築室 可居安樂／墳墓 地氣漸發財／討海
+      可能得利／作塭 有獲大利／魚苗 有利可得／月令 待時可安／遠信 速報好音。总评：整签偏吉（jie_yue_score +17）；惟官事 了錢、求兒 不可两处保留。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词整体取吉：功名、出外、经商、行舟、移居几项都良好，婚姻一项平和，月令提示等时候到；官事一项则是先有花用。整签按顺取读。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「雖是中間防進退 (定本; 维基文库; 東海; mznn — four of six sources)」→「雖是中間逢進退
+    (好廟網 alone)」, majority, kept — four of six sources; the temple site reads 逢 alone.
+    The difference is advice (防, guard your footing) against event (逢, meeting the
+    in-and-out).
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 客到前途多得利，
+    en: A visitor comes, and the road ahead pays well;
+  - line_number: 2
+    zh: 君爾何故兩相疑，
+    en: so why are the two of you doubting each other?
+  - line_number: 3
+    zh: 雖是中間防進退，
+    en: it is true that the middle stretch wants care, going in and pulling back;
+  - line_number: 4
+    zh: 月出光輝得運時。
+    en: but when the moon comes up, the light is your season.
+keywords:
+  favourable:
+    en:
+    - an arriving opportunity
+    - trust returning
+    - the moon as the season
+    - steady gain
+    zh:
+    - 机会到了门口
+    - 信任回来
+    - 月亮就是这一季
+    - 稳稳的进益
+  guarded:
+    en:
+    - mutual suspicion over a good thing
+    - losing your footing in the middle stretch
+    - trading in and out in a season that rewards patience
+    zh:
+    - 对着好事互相猜疑
+    - 中段路上站不稳脚
+    - 在奖赏耐心的时节里进进出出
+reading_notes:
+- term: 客
+  pinyin: kè
+  en: '"the guest": at once *a visitor to the house* and *the arriving opportunity*;
+    The old usage carries both, and so does the poem.'
+  zh: 既是上门来的客人，也是正在到来的机会；旧时用法两义都有，签诗也一样。
+- term: 兩相疑
+  pinyin: liǎng-xiāng-yí
+  en: '"the two doubting each other": mutual suspicion, not one-sided; The poem treats
+    the doubt, not the person, as the obstacle.'
+  zh: 是两边互相猜疑，不是单方面的；签诗把疑心当障碍，不是把人当障碍。
+- term: 防進退
+  pinyin: fáng-jìn-tuì
+  en: '"guard the going in and the pulling back": at once *being careful of your footing*
+    and *watching the timing of the move*; The other reading, 逢, makes the middle
+    stretch *meet* you instead — we keep the majority text and show the variant.'
+  zh: 既是留心脚下，也是留意进退的时机。另有作「逢」的一读，那样中段就是「遇上」进退；我们守多数文本，同时把这处异文摊开。
+plain_meaning:
+  en: 'The opportunity is already at the door and the doubt is the only obstacle:
+    the middle of the road wants care, but the season''s light comes with the moon.
+    This lot is about trusting what has arrived rather than testing it.'
+  zh: 机会已经到门口了，挡路的只是那份疑心：中段路上是要小心，但这一季的光是跟着月亮来的。这支签讲的是相信已经到来的东西，而不是去试它。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Should I trust him?
+    zh: 我该信他吗？
+  rewritten_to:
+    en: What is mine to do about the doubt between us?
+    zh: 我们之间这份疑心，我能做的是什么？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问是封闭式的是非题，改为把着力点放回自己能做的事上。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The doubt is the only real difficulty — a middle-stage caution, then a good
+      season. Do not test the other person.
+    zh: 疑心才是真正的难处——中段留一份小心，之后是好时节。不要去试探对方。
+    compliance_tag: null
+  career:
+    en: The opportunity arrives through someone coming to you; the opening is real,
+      though the gain comes later in the season.
+    zh: 机会是有人来找你而带来的；这个口子是实的，只是进益要到这一季后段。
+    compliance_tag: null
+  money:
+    en: The gains come gradually and they hold; avoid trading in and out. *(Not financial
+      advice.)*
+    zh: 进益是慢慢来的，而且守得住；避免频繁进出、反复买卖。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Safe with steady care; the recovery is unspectacular and it holds. *(Not medical
+      advice.)*
+    zh: 稳稳照护就平安；好转不张扬，但守得住。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Ambition in the household is well-starred; a settled home is a good choice
+      now.
+    zh: 家里的志向与方向都好；此时挑一处安稳住处也挑得对。
+    compliance_tag: null
+  travel_moving:
+    en: Clear going — the road is kind this season.
+    zh: 路好走——这一季的路对你是和善的。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Good water and real profit; a season in which the boats do well.
+    zh: 水好，利也在；这一季船走得顺。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A level season that pays those who work it regularly.
+    zh: 这是个平稳的季，按常规下工夫的人就有得拿。
+    compliance_tag: null
+  timing:
+    en: The light comes with the moon, later in the season — a season, never a date.
+    zh: 光跟着月亮来，在这一季后段——只讲季节，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Testing what has already arrived; pulling in and out of the position.
+    zh: 去试探已经到了的东西；在位置上进进出出。
+    compliance_tag: null
+  reassurance:
+    en: The doubt is the only thing in the way, and it is yours to drop.
+    zh: 挡路的只有那份疑心，而它是你自己可以放下的。
+    compliance_tag: null
+stories:
+- title:
+    zh: 洪益春愛陳三
+    en: Hong Yichun Lends Chen San an Umbrella
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 陈三是福建泉州的书生。他送兄嫂去广南上任，路过潮州。正赶上元宵灯会，他遇见黄五娘。元宵是正月十五的灯节。五娘用手帕包了一颗荔枝，从楼上掷下来送他。陈三拾起荔枝，就留在潮州不走了。后来他扮成磨镜子的工匠进黄府，故意把黄家的一面宝镜打破，卖身做奴三年，好接近五娘。黄家有个婢女叫益春，从中替他传信，来回出力。这签题里称她洪益春。两人之间有过猜疑，也有进退两难的时候。故事后来几经波折，陈三和五娘才得成婚，一同还乡。
+    en: Chen San was a scholar from Quanzhou, in Fujian. He was escorting his elder
+      brother and sister-in-law to a post in Guangnan when he passed through Chaozhou.
+      It was the time of the Lantern Festival. An old custom marks the fifteenth day
+      of the first month with lanterns. At the festival he met Huang Wuniang. Wuniang
+      wrapped a lychee in a handkerchief and threw it down from an upper floor to
+      him. Chen San picked up the lychee and stayed in Chaozhou instead of going on.
+      Later he dressed as a mirror-polisher and entered the Huang house. He deliberately
+      broke a precious mirror of the family and sold himself as a slave for three
+      years, so as to be near Wuniang. At the Huang family there was a maid named
+      Yichun. She carried messages for him and worked hard on his behalf. The title
+      of this lot calls her Hong Yichun. Between the two there was suspicion, and
+      there were times when they could neither advance nor step back. After many twists,
+      Chen San and Wuniang married and went home together.
+  poem_connection:
+    zh: 签诗“君尔何故两相疑”“月出光辉得运时”，正合陈三为奴三年、中间疑阻而终成之事；益春居中传信，即“客到前途多得利”。
+    en: The poem asks why the two should doubt each other and says the moon rises
+      to bring fortune; this fits Chen San's three years as a slave and the final
+      marriage, with Yichun's messages as the good news.
+- title:
+    zh: 蕭何月下追韓信
+    en: Xiao He Chases Han Xin by Moonlight
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 韩信出身贫寒，先投在项羽手下，不受重用。后来他改投刘邦，也只做了个小官，一气之下跟着别的将领逃走。刘邦的丞相萧何一向知道韩信有本事，来不及报告，连夜骑马去追，顾不得天黑路远。有人报告刘邦说丞相也跑了，刘邦大怒。萧何把韩信追回来，向刘邦说明：一般的将领容易找，韩信这样的人才天下无双，想争天下就非用他不可。刘邦于是择日斋戒，设起高台，用隆重的礼节拜韩信为大将。韩信上任后为刘邦定下东进的方略，终于帮刘邦打下了江山。
+    en: Han Xin came from a poor family. He first served under Xiang Yu but was given
+      no important post. Later he went over to Liu Bang, and again he held only a
+      small office. In anger he left with other generals who were running away. Xiao
+      He, Liu Bang's chief minister, had long known that Han Xin had real ability.
+      He had no time to report, and rode after him through the night, paying no heed
+      to the darkness or the distance. Someone reported to Liu Bang that the chief
+      minister had run off too, and Liu Bang was furious. Xiao He brought Han Xin
+      back. He explained to Liu Bang that ordinary officers were easy to find, but
+      a man of Han Xin's kind had no equal in the world. If Liu Bang wanted to contend
+      for the empire, he had to use him. Liu Bang then chose a day, fasted, built
+      a high platform, and made Han Xin commander-in-chief with full ceremony. Once
+      in office, Han Xin drew up a plan for Liu Bang to march east. In the end he
+      helped Liu Bang win the empire.
+  poem_connection:
+    zh: 签诗问两人为何互相猜疑，又说月出之后时运到来。萧何连夜追回韩信、刘邦终于重用他，就是这一层。
+    en: The lot poem asks why two people doubt each other, and says that after the
+      moon rises the time comes. Xiao He chased Han Xin back by night, and Liu Bang
+      finally gave him high office.
+- title:
+    zh: 周郎赤壁敗曹兵
+    en: Zhou Yu Defeats Cao Cao's Army at Red Cliff
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 曹操带着大军南下，要进攻江东。刘备和孙权两家联合起来抵抗。曹操的战船在长江赤壁一带的水面上首尾相连，排成长长的阵势。江东的统帅周瑜和老将黄盖定下计策。黄盖先假装要投降曹操，带着几十艘快船，船上装满柴草和油。船外裹着红布，插上军旗，趁着刮起东南大风，直冲曹操的水寨。快船驶近水寨时，一齐点火。火借风势，一直烧到岸上的营寨。曹军顿时大乱。周瑜和程普各带兵马随后杀来。这场大战在赤壁的江面上打得十分激烈。曹操大败，从华容道一带退走。
+    en: Cao Cao led a great army south to attack the lands east of the Yangtze. Liu
+      Bei and Sun Quan joined forces to resist him. Cao Cao's warships were linked
+      bow to stern on the water around Red Cliff and stretched out in one long line.
+      Zhou Yu, the commander of the east, and the veteran general Huang Gai worked
+      out a plan. Huang Gai first pretended that he meant to surrender to Cao Cao.
+      He set out with several dozen fast boats loaded with firewood and oil. The boats
+      were wrapped in red cloth outside and flew military banners. When a strong southeast
+      wind rose they drove straight at Cao Cao's river fort. As the fast boats drew
+      near, they were set alight all at once. The fire rode the wind and burned all
+      the way to the camps on shore. Cao Cao's army fell into chaos at once. Zhou
+      Yu and Cheng Pu led their troops in behind them. The great battle on the water
+      at Red Cliff was fought fiercely. Cao Cao was badly beaten and withdrew by way
+      of the Huarong road.
+  poem_connection:
+    zh: 这一签说借客军之力而多得利，正配赤壁一役东吴借来东风大火破曹这一段。
+    en: This lot says borrowing the strength of another's army brings great gain.
+      It fits the battle of Red Cliff, where the east borrowed a great wind and fire
+      to break Cao Cao.
+- title:
+    zh: 牛郎織女相識
+    en: The Cowherd and the Weaver Girl Meet
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 织女是天帝的孙女，在天上织云霞做锦缎。人间有个放牛郎，父母早早去世，跟着哥哥嫂子过活，分家的时候只分到一头老牛。老牛指点他到河边去，他在那里遇见下凡的织女，两人结成夫妻，男耕女织，生下一双儿女。天帝知道了，命织女回到天上。牛郎挑着一双儿女在后面追，眼看就要追上，却被隔开。从此两人隔着天河相望，一年只见一面。天河两岸，一边是牛郎，一边是织女。七夕的传说，就是从他们身上来的。这一题取的是“相识”，讲的是他们在河边初次相遇的那一段。
+    en: The Weaver Girl was the granddaughter of the Emperor of Heaven. In the sky
+      she wove the clouds of sunset into brocade. On earth there was a cowherd. His
+      parents had died early, and he lived with his elder brother and his brother's
+      wife. When the family divided its property, he got only one old ox. The old
+      ox told him to go to the river. There he met the Weaver Girl, who had come down
+      from the sky. The two became husband and wife. He farmed and she wove, and they
+      had a son and a daughter. The Emperor of Heaven learned of it and ordered the
+      Weaver Girl back to the sky. The cowherd carried the two children on a pole
+      and followed after. He almost caught up, but the two were parted. From then
+      on they look at each other across the River of Heaven. They see each other once
+      a year. On one bank stands the cowherd; on the other, the Weaver Girl. The tale
+      of the seventh night comes from the two of them. This title takes 'first meeting'
+      and tells of the time they met by the river.
+  poem_connection:
+    zh: 这一签的签诗说客人到时前路多有利得，何必两相猜疑，到月出光辉时便得运势。牛郎织女正是初遇相识、机缘刚刚开始的一段。
+    en: The poem says when the guest arrives the road ahead holds many gains, so why
+      doubt each other; at the bright moon the time favours you. The two had just
+      met.
+- title:
+    zh: 蘇公進妲己
+    en: Su Hu Sends Daji to Court
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏护是商朝末年的冀州侯，人称苏公。冀州在商的北边，商朝的都城在朝歌，纣王是当时的君主。纣王听说苏护的女儿妲己长得极美，就下令叫他送女儿入朝。苏护不肯从命，甚至在朝门上题下反诗。反诗就是公开表示不服朝廷的题字，这么一来，几乎要动兵对抗。北伯侯崇侯虎带兵来攻，苏护出兵把他打败。后来西伯侯姬昌从旁劝解，苏护念着君臣的名分，终于把女儿妲己送进朝歌。妲己入宫后很得纣王宠爱，从此纣王荒废朝政，诸侯离心，天下大乱。妲己进宫这一节，是商朝末年祸乱的开端。
+    en: Su Hu was the Marquis of Jizhou at the end of the Shang dynasty, and people
+      called him Lord Su. Jizhou lay north of Shang. The Shang capital was at Chaoge,
+      and King Zhou was the ruler of the time. King Zhou heard that Su Hu's daughter
+      Daji was extremely beautiful and ordered him to send her to court. Su Hu would
+      not obey. He even wrote a defiant poem on the gate of the court. A defiant poem
+      was a public inscription refusing to accept the court's authority, and matters
+      came close to armed revolt. Marquis Chong of the North, Chong Houhu, brought
+      troops to attack, and Su Hu marched out and defeated him. Later the Marquis
+      of the West, Ji Chang, spoke as a peacemaker from the side. Su Hu was mindful
+      of the duty between ruler and subject, and he finally sent his daughter Daji
+      to Chaoge. Once in the palace, Daji held King Zhou's favor closely, and from
+      then on he let government fall idle, the lords turned away, and the realm fell
+      into disorder. Daji's entry into the palace was the start of the troubles at
+      the end of Shang.
+  poem_connection:
+    zh: 签诗说来客有利、何故两相疑、中间防进退；苏护送女前犹疑相抗，正合这一层。
+    en: The poem says a visitor brings gain, asks why the two sides should doubt each
+      other, and warns against moving between advance and retreat. Su Hu wavered before
+      sending his daughter, which fits.
+- title:
+    zh: 侯氏望張睽
+    en: Lady Hou Watches for Zhang Kui
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 侯氏是旧时对妇人的称呼，张睽是男子的名字。这一条讲的是一位姓侯的女子等候张睽。望是远望、等候的意思。旧时丈夫或亲人出门在外，家中的女子站到高处张望，盼他早日回来，就叫望归。两人之间后来的经过没有传下来，留下的只是女子盼人、人却迟迟未至这一层情景。旧时出行不便，一去经年，消息难得，家里人只有登高远望，从月出等到月落，一直等下去。日子一天天过去，盼的人始终不见回来。旧时的女子多守在家中，能做的只有等。月上楼头，她还在原处站着。
+    en: Lady Hou is an old way of naming a woman, and Zhang Kui is a man's name. This
+      entry tells of a woman of the Hou family who waited for Zhang Kui. To watch
+      means to look far off and to wait. In former days, when a husband or a close
+      one was away, the woman at home would climb to a high place and gaze into the
+      distance, hoping for his early return. This was called watching for the return.
+      Nothing of what passed between these two has come down. All that remains is
+      the picture of a woman hoping and a man long in coming. Travel was hard in those
+      times. A man could be gone for years and news was rare. The family at home could
+      only go up and look out, waiting from moonrise to moonset and going on waiting.
+      The days went by one after another, and the one she waited for never came. Women
+      mostly kept to the house then, and the only thing they could do was wait. The
+      moon rose over the roof, and she was still standing where she had been.
+  poem_connection:
+    zh: 这一签写一方盼待、一方未到，盼到月出还在等，正扣签诗“君尔何故两相疑”“月出光辉得运时”。
+    en: One side waiting while the other has not come, waiting on until moonrise,
+      fits a lot that asks why the two doubt each other and speaks of the moon's light
+      rising when the time arrives.

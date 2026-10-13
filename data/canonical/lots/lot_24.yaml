@@ -1,0 +1,330 @@
+id: 24
+lot_number: 24
+ganzhi:
+  zh: 丁亥
+  pinyin: Ding-hai
+title:
+  en: Qin Shubao Rescues the Tang King
+  zh: 秦叔寶救唐王
+hexagram:
+  zh: 地水师
+  name_and_structure_en: Shi (Earth over Water)
+  binary_code: ●●●●○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 5
+  primary:
+    zh: 秦叔寶救唐王
+    en: Qin Shubao Rescues the Tang King
+  variants_en:
+  - Meng Liang and Jiao Zan Rescue Zongbao
+  - Yang Wenguang Campaigns in the South
+  - Wen Zhong Will Not Hear Fan Shaobo
+  - Xu Lin Dreams His Way to the Immortal Terrace
+  variants_zh:
+  - 孟良焦讚救宗保
+  - 楊文廣征南蠻
+  - 文種不聽范少伯
+  - 許凜夢入仙台
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run favourable on home and standing but closed on
+      money - 家事 大進圓滿／家運 平安／婚姻 和合／求兒 好／功名 顯榮祖宗。恐有變 against 求財 少有／經商 無利／月令 不遂／治病 陰邪祟／求雨
+      未有 (jie_yue_score +16). The season clears, but only on the ground of household
+      and standing, not trade.
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'The temple judgements turn favourable on the household, on standing
+      and on marriage, and hold back on money, trade and the month''s affairs. Read
+      both sides together: a fair lot whose bright edge sits on the home.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 緊和平。了錢工。／作事 月光即成。／家事 大進圓滿。／家運 平安／婚姻 和合。／求兒
+      好。／六甲 先男。／求財 少有。／功名 顯榮祖宗。恐有變。／歲君 中和／治病 陰邪祟。求神安。／出外 先少利。後可得。／經商 無利。／來人 月光到。／行舟
+      財輕。平平。／月令 不遂。／討海 無大財。陰作祟。／耕作 平正。／築室 漸且候。待日期。——总评：整签为平（jie_yue_score +16），家事、家運、婚姻、求兒一路开，求財、經商、月令一路收；两面并存，是典型的平中带亮。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在家宅、名位、婚姻、子嗣几处都开出好面，落点集中在门户与人伦上；同一个签在钱财、买卖与月令三处则偏于收束。两面对读，是平中带亮的一签。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 月出光輝四海明，
+    en: The moon comes out, and its light makes the four seas bright;
+  - line_number: 2
+    zh: 前途祿位見太平，
+    en: on the road ahead, rank and office find their peace;
+  - line_number: 3
+    zh: 浮雲掃退終無事，
+    en: the floating clouds are swept back, and nothing remains;
+  - line_number: 4
+    zh: 可保禍患不臨身。
+    en: and harm and trouble may be kept from coming near.
+keywords:
+  favourable:
+    en:
+    - moonlight on open water
+    - clearing weather for rank
+    - a household that grows
+    - peace kept deliberately
+    zh:
+    - 月照四海
+    - 名位见晴
+    - 家宅进益
+    - 和气靠守
+  guarded:
+    en:
+    - chasing profit in a thin month
+    - paying out for peace
+    - pushing an accord to close it
+    - asking the oracle again about the same thing
+    zh:
+    - 薄月里追利
+    - 为和气掏钱
+    - 催着把和合收口
+    - 同一件事反复再问
+reading_notes:
+- term: 月出光輝
+  pinyin: yuè-chū guāng-huī
+  en: 'the moon rising and its light: plain night-sky weather, a clear hour to act
+    in; the moon as the sign of the household and of quiet influence; the poem''s
+    later lines tie the timing to it.'
+  zh: 一面是写天象：夜里月亮出来、一片明白，是能动手的一段时辰；一面是拿月亮当家门与柔性影响的记号——后面几句的时机都系在这月光上，诗里没说动手扫云的是谁。
+- term: 祿位
+  pinyin: lù-wèi
+  en: 'rank and stipend, office: a salaried post or appointment; standing among others
+    more broadly; the line reads as peace on the road ahead, not as a promise of promotion.'
+  zh: 一面指一份有俸禄的职位或任命，一面泛指在人前的名分与地位；此句说的是前路得安，不是升迁的许诺。
+- term: 浮雲掃退
+  pinyin: fú-yún sǎo-tuì
+  en: 'the drifting clouds swept back: weather imagery: the sky before the moon is
+    cleared; obstacles, talk or slander swept out of the way; the poem does not say
+    who sweeps them.'
+  zh: 一面是天象，遮月的云散开；一面指障蔽、口舌与流言被清掉。两层都留着，诗里不点破。
+plain_meaning:
+  en: 'This is a season that clears: what was clouded lifts, standing steadies, and
+    the household advances. Where it thins is in money - the judgements give little
+    gain in wealth and no advantage in trade, and call the month''s work slow. The
+    counsel is to keep the peace and look to the home rather than to a quick profit.'
+  zh: 这一签是平中带亮的一签，两面同时存在：月亮出来、遮着的浮云被扫开，名位与家宅这一路走得顺——家里进益圆满，名声与位子见稳，婚姻也谈得拢。反过来看，钱财与买卖这一面是收着的：求财只给一点，经商这一途看不出好处，月令也拖得慢。签诗的意思不是趁亮去追利，而是把和气与门庭守住。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: 'Accord is open here: the judgement lets a marriage come together and treats
+      children kindly. Move gently toward it rather than force it.'
+    zh: 婚姻这一项判作和合，求兒一项也好，是通气的；顺着走、慢慢谈，别硬把话说死了去逼成。
+    compliance_tag: null
+  career:
+    en: Standing and name are favoured, but the judgement adds that things may turn;
+      keep your footing and do not over-reach.
+    zh: 名位与名声这一面偏开，但判词在这一项后面缀了一句「恐有变」；站稳脚下，别把手伸得过长。
+    compliance_tag: null
+  money:
+    en: Little is granted to chasing profit, and trade shows no advantage; hold what
+      you have and decline new commitments. (Not financial advice.)
+    zh: 求财只给一点，经商这一途看不出好处；手上的留住，新的承诺先不接。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement reads the trouble as a shadowy influence rather than a plain
+      illness - seek proper care and do not wait on the season. (Not medical advice.)
+    zh: 判词把这一场读作阴邪一类缠身，不是明面上的病；该找正经诊治就去找，不要等节气过去。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: 'This is the lot''s strong ground: the household advances and fills out, and
+      the home stays peaceful.'
+    zh: 这是本签最亮的一面：家门进益、越过越圆，家运作平安。
+    compliance_tag: null
+  travel_moving:
+    en: Going out brings little at first and something later; prepare the ground before
+      you move.
+    zh: 出外是先少利、后可得；动身之前先把地面铺好。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Light takings on the water and no great wealth; keep to short hauls and known
+      ground rather than a long throw.
+    zh: 水上收成是轻的，没有大财；短程、熟路可走，远投不必。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Pond work needs watching against water, fry come small at first and then better,
+      and the fields give an even, ordinary crop.
+    zh: 作塭途中要防水，鱼苗先微后有，田里是一季平正的常收。
+    compliance_tag: null
+  timing:
+    en: The judgements hang on the moon once it is bright, so read this as a window
+      in the moon's clear phase, not a date.
+    zh: 判词几处都系在月光上——作事 月光即成、來人 月光到；把它读成月明的一段窗口，而不是某一个日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Forcing a profit out of a thin month; pressing an accord instead of letting
+      it come.
+    zh: 在薄月里硬挤利润；把该慢慢成的和合催着收口。
+    compliance_tag: null
+  reassurance:
+    en: The clearing is real; the counsel is only to let it come at its own pace.
+    zh: 云开是真的，只是它按自己的步子来；这一签不同时给你全部，家与人先得，钱与买卖慢一步。
+    compliance_tag: null
+stories:
+- title:
+    zh: 秦叔寶救唐王
+    en: Qin Shubao Rescues the Tang King
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 秦琼字叔宝，是齐州历城人，历城在今天的山东济南一带。隋朝末年他在张须陀、李密、王世充手下做过事，最后归唐，成为李世民帐下的勇将。民间有一个秦琼救唐王的故事。唐王李渊还没有起兵的时候，得罪了朝中权贵，被调去太原。他出城不久就遭人追杀，眼看要败。危急时，一名壮士从山岗上冲下来，手里挥一对短兵器，打退了伏兵，救下李渊一命。李渊问他的姓名，才知道是押解人犯路过此地的秦琼。后来民间又因秦琼和尉迟恭曾经为太宗守门，把两人的像画在门上，当作门神。
+    en: Qin Qiong, whose courtesy name was Shubao, was from Licheng in Qizhou; Licheng
+      is in the region of present-day Jinan in Shandong. At the end of the Sui dynasty
+      he served under Zhang Xutuo, Li Mi, and Wang Shichong, and in the end he went
+      over to the Tang and became a brave general in Li Shimin's command. Among the
+      people there is a story of Qin Qiong saving the Tang king. Before Li Yuan, the
+      Tang king, raised troops, he offended a powerful man at court and was posted
+      to Taiyuan. Not long after he left the city he was hunted down by assassins,
+      and it looked as if he would be beaten. At the critical moment a strong man
+      charged down from a hill, swinging a pair of short weapons in his hands. He
+      drove off the ambush and saved Li Yuan's life. Li Yuan asked his name, and only
+      then learned that he was Qin Qiong, who happened to be passing that way escorting
+      prisoners. Later, because Qin Qiong and Yuchi Gong had once guarded the gates
+      for Emperor Taizong, people painted their images on doors as door gods.
+  poem_connection:
+    zh: 签诗“月出光辉四海明”“浮云扫退终无事”，浮云散去而祸患不侵，正对杀退伏兵救主。
+    en: The lot's poem says the moon rises and its light brightens all the seas, and
+      that floating clouds are swept away and trouble ends. Clouds cleared and harm
+      kept off fits beating back the ambush to save one's lord.
+- title:
+    zh: 孟良焦讚救宗保
+    en: Meng Liang and Jiao Zan Rescue Zongbao
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孟良和焦赞，是北宋守边名将杨延昭手下的两员猛将。北宋和北方的辽国长年交战，杨延昭父子几代人守在边境上。孟良、焦赞出身草莽，阵上勇猛，平时又爱互相打趣、彼此激将，是一对分不开的搭档。杨延昭的儿子杨宗保，少年就跟着父亲从军，几次随军出征。有一回，宗保带兵在外，被敌军围住，情势十分危急。孟良、焦赞听到消息，立刻带兵赶去接应。两人冲进敌阵，奋力厮杀，终于把宗保从重围里救了出来。这一签说月出光辉四海明，又说浮云扫退终无事，可保祸患不临身，正配孟良、焦赞扫开围敌、救出宗保的一段。
+    en: Meng Liang and Jiao Zan were two fierce generals under Yang Yanzhao, a famous
+      commander who guarded the northern border in the Northern Song. The Northern
+      Song fought the Liao in the north for years, and Yang Yanzhao and his sons guarded
+      the frontier for several generations. Meng Liang and Jiao Zan came from the
+      rough ranks. They were fierce in battle, and in quiet times they loved to tease
+      each other and goad each other on. They were a pair that could not be parted.
+      Yang Yanzhao's son Yang Zongbao joined the army young with his father and went
+      on campaign several times. On one occasion Zongbao was leading troops in the
+      field and was surrounded by the enemy, in great danger. When Meng Liang and
+      Jiao Zan heard of it, they led troops at once to relieve him. The two charged
+      into the enemy lines and fought hard, and in the end they brought Zongbao out
+      of the ring of enemy troops.
+  poem_connection:
+    zh: 这一签说浮云扫退终无事、可保祸患不临身，正配孟良、焦赞冲围救出宗保的一段。
+    en: This lot says the floating clouds are swept away and in the end there is nothing,
+      and that trouble need not come near the body - Meng Liang and Jiao Zan breaking
+      the ring and getting Zongbao out.
+- title:
+    zh: 楊文廣征南蠻
+    en: Yang Wenguang Campaigns in the South
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杨文广是杨家将故事里的人物。杨家将讲的是北宋一个世代带兵的将门，几代人都在边关领兵。故事里说他是杨延昭的孙子、杨宗保的儿子，年纪很轻就跟着军队出征。一次他奉命南征，去平定南方的部族。南蛮是旧时对南方部族的称呼。南方的路远山多，行军很不容易。一路上险阻重重，他几次被围困，兵将都陷在困难里。最后他靠着勇和谋破了敌，平定了南方，才带兵回来。杨文广是杨家将里的第三代，祖母佘太君、父亲杨宗保都是这套故事里的名人。南蛮是旧时对南方各部族的泛称。
+    en: Yang Wenguang is a figure from the tales of the Yang-family generals. Those
+      tales tell of a Northern Song military house that led troops for generation
+      after generation, with several generations serving at the frontier. The story
+      says he was the grandson of Yang Yanzhao and the son of Yang Zongbao, and that
+      he went out with the army when he was very young. Once he was ordered on a southern
+      campaign, to pacify the tribes of the south. Southern barbarian is an old name
+      for the tribes of the south. The southern roads were long, and there were many
+      mountains. Marching was very hard. The road was full of danger, and several
+      times he was trapped. His officers and men all sank into hardship. In the end,
+      by courage and by planning, he broke the enemy and pacified the south, and only
+      then led his troops home. Yang Wenguang is the third generation of the Yang
+      generals. His grandmother, She Taijun, and his father, Yang Zongbao, are well
+      known in this cycle of stories.
+  poem_connection:
+    zh: 签诗“月出光辉四海明”“浮云扫退终无事”，正合杨文广南征、历险而终于平定南方一事。
+    en: The poem says the moon rises and lights the four seas and that floating clouds
+      are swept away with nothing left to trouble, which fits Yang Wenguang's southern
+      campaign through danger to a final peace.
+- title:
+    zh: 文種不聽范少伯
+    en: Wen Zhong Refuses to Hear Fan Shaobo
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 范少伯就是范蠡，他和文种一起辅佐越王勾践。越国被吴国打败后，勾践忍辱自励，用两人的计策，终于灭掉吴国。功成之后，范蠡看出勾践这个人可以共患难，却不能共安乐，就辞去官职，坐船泛游五湖走了。他从齐国写信给文种，信里说：飞鸟打光了，好弓就要收起来；狡兔抓住了，猎狗就要下锅。他是劝文种早点退身。文种看过信，称病不再上朝，可是已经有人进谗言，说他要作乱。勾践于是赐给他一把剑，说他教人伐吴的计策还有没用的，让他自己处置。文种自杀了。范蠡离开越国后改名换姓，到齐国，又迁到陶地，靠经商发了财，人称陶朱公。
+    en: 'Fan Shaobo was Fan Li. He and Wen Zhong served King Goujian of Yue together.
+      After Yue was beaten by Wu, Goujian bore his shame and roused himself, and with
+      the two men''s plans he destroyed Wu in the end. After the success, Fan Li saw
+      that Goujian could share hardship with a man but not share ease. So he gave
+      up his office and sailed off over the Five Lakes. From Qi he wrote to Wen Zhong.
+      The letter said: when the birds of the air are all shot, the good bow is put
+      away; when the cunning hare is caught, the hunting dog goes into the pot. He
+      was urging Wen Zhong to withdraw early. Wen Zhong read the letter and pleaded
+      illness, and stopped going to court. But men had already spoken against him,
+      saying he meant to stir up trouble. Goujian then gave him a sword and said that
+      the plans Wen Zhong had taught for attacking Wu still had unused parts, so he
+      should settle them himself. Wen Zhong killed himself. After leaving Yue, Fan
+      Li changed his name. He went to Qi, then moved to Tao, made a fortune in trade,
+      and was known as Tao Zhu Gong.'
+  poem_connection:
+    zh: 签诗说浮云扫退就没事，祸患不会临身。范蠡劝文种及早退身，说的正是这个道理。
+    en: The lot poem says that when the floating clouds are swept away there is no
+      trouble, and harm does not come near the man. Fan Li urged Wen Zhong to step
+      back in good time.
+- title:
+    zh: 許凜夢入仙台
+    en: Xu Lin Dreams His Way to the Immortal Terrace
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 许凛是一个读书人。他做过一个梦，梦见自己走进了一座仙台。仙台是传说里神仙居住的楼台。他在梦里登上高台，眼前一片清朗，醒来以后一切如常。梦入仙台，说的就是人在睡梦中游历仙境的一类故事。醒来以后，他依旧照常读书生活。旧时也有人把朝廷里的尚书省叫作仙台，因为那里掌管文书、选拔官员。同一个题目在传写中写法不一，有写作许俚的，也有写作徐立的。许凛是什么人，梦中还见到什么，都没有细说。流传下来的，只是这样一个入梦游仙的题目。
+    en: Xu Lin was a scholar. He had a dream in which he walked onto an immortal terrace.
+      The immortal terrace is the tower in legend where immortals live. In the dream
+      he climbed the high terrace, and everything before his eyes was clear and bright.
+      When he woke, all was as usual. Dreaming one's way onto the immortal terrace
+      means stories of this kind, in which a person journeys through the land of the
+      immortals in sleep. After waking he went on with his reading and his life as
+      before. In old times people also called the Secretariat of the court the immortal
+      terrace, because it handled documents and selected officials. The same title
+      is written in more than one way as copies were handed down. Who Xu Lin was,
+      and what else he saw in the dream, are not told in detail. What survives is
+      only this title of a dream journey among the immortals.
+  poem_connection:
+    zh: 这一签说浮云扫退、祸患不临身，正配许凛梦中入仙台、醒来安然这一段。
+    en: This lot says the floating clouds are swept away and trouble does not come
+      near. It fits Xu Lin entering the immortal terrace in a dream and waking safe.

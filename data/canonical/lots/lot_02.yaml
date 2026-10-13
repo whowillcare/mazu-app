@@ -1,0 +1,513 @@
+id: 2
+lot_number: 2
+ganzhi:
+  zh: 甲寅
+  pinyin: Jia-yin
+title:
+  en: Chen Dongchu's Plum Rite Brings Rescue
+  zh: 陳東初祭梅得救
+hexagram:
+  zh: 水山蹇
+  name_and_structure_en: Jian, Obstruction (Water over Mountain)
+  binary_code: ●○●○●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 10
+  primary:
+    zh: 陳東初祭梅得救
+    en: Chen Dongchu's Plum Rite Brings Rescue
+  variants_en:
+  - Zhao Zilong Rescues A Dou
+  - Xue Jiao and Xue Gui Meet the Embroidered Ball at the Painted Tower
+  - Emperor Taizong of Tang Takes the Wu Girl as a Talented Lady
+  - Emperor Taizong Has Wu Meiniang View the Flowers
+  - The Zhengde Emperor Returns to the Yan Palace
+  - Jiang Taigong Fishes on the Wei River Bank
+  - Fuchai Flees
+  - Yang Jian Smashes the Five-Thunder Pass
+  - The Four White-Haired Elders Retire and Sing of the Purple Mushroom
+  variants_zh:
+  - 趙子龍救阿斗
+  - 薛蛟與薛癸旁州遇彩樓得繡球
+  - 唐太宗選武氏為才人
+  - 唐太宗令武媚娘賞花
+  - 正德君回燕宮
+  - 姜太公渭濱垂釣
+  - 夫差奔走
+  - 楊戩大破五雷鎮
+  - 四皓歸隱歌紫芝
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements open positive but keep a cold half — 凡事 春天到／婚姻 永偕伉儷／經商
+      大吉利市／築室 大吉, with 求財 如泉湧。先有後無／作事 春成美。冬不佳／出外 春夏好。秋冬呆／移居 平平。不可／討海 春有冬無 (jie_yue_score
+      11)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs mostly favourable on this lot — general affairs,
+      undertakings, household, family fortune, marriage, children, income, advancement,
+      trade, travel, boats, livestock, field work, building, graves, sea work, ponds,
+      fry, finding people and distant news all sit on the positive side; only the
+      income line turns thin after a first surge, and moving house and autumn-winter
+      travel are left open. Support comes with a reversal inside it, so we read this
+      lot as mixed.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 春天到。／作事 春成美。冬不佳。／家事 必得進益。／家運 福祉茂盛。／婚姻 永偕伉儷。／求兒
+      適宜。／六甲 生男。／求財 如泉湧。先有後無。／功名 二次成。秋進連中。／歲君 中和。／治病 老不好。少平安。／出外 春夏好。秋冬呆。／經商 大吉利市。／來人
+      南方。／行舟 有大財。／移居 平平。不可。／失物 謹尋在。遲者無。／求雨 甲子日得有。／官事 完局。／六畜 興旺大利。／耕作 春季如意。／築室 大吉。／墳墓
+      光前裕後。／討海 春有冬無。／作塭 可慶獲利。／魚苗 大利。／月令 不畏。／尋人 南方。／遠信 春天到。——整签偏正，开头旺、入冬转淡；唯 求財 先有後無、移居
+      平平。不可、出外 秋冬呆 三处留有余地（jie_yue_score 11）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上大体偏正面——总类、作事、家事、家运、婚姻、求儿、子嗣、求财、功名、经商、出行、行舟、六畜、耕作、筑室、坟墓、讨海、作塭、鱼苗、寻人、远信都在正面一侧；只有求财一项先旺后淡，搬居与秋冬出行两项留有余地。支持中带着一次反转，故读作
+      mixed。
+provenance:
+  editorial_note: '*the temple site carries a different group for this lot: 趙子郎救阿斗;
+    陳東初祭梅得救. Primary by verse-image match (欲吐百花魁／春色到).*'
+  textual_provenance: majority — 「于今此景正當時 (维基文库; feishuai; mznn)」→「於今此景正當時 (temple01
+    好廟網)」, 字形异体（于/於），按字形归一，不改字 — an orthographic variant only, the reading is unchanged;
+    「。 and ， as in 维基文库 / mznn / temple01」→「; as in feishuai」→「、 as in 91chouqian」,
+    punctuation normalised to the majority reading; the wording is untouched
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 于今此景正當時，
+    en: Right now this scene is exactly at its hour;
+  - line_number: 2
+    zh: 看看欲吐百花魁，
+    en: look — the hundred flowers are near to bursting from the bud;
+  - line_number: 3
+    zh: 若能遇得春色到，
+    en: if one can meet the spring light as it arrives,
+  - line_number: 4
+    zh: 一洒清吉脫塵埃。
+    en: then a single washing, clear and auspicious, shakes off the dust.
+keywords:
+  favourable:
+    en:
+    - an opening at its hour
+    - spring work done in spring
+    - a steady heart
+    - gain kept rather than shown
+    zh:
+    - 恰逢其时
+    - 春事在春
+    - 把心定住
+    - 得而不露
+  guarded:
+    en:
+    - spending into the winter half
+    - sending more out from home
+    - fretting over a thing already given
+    - reading the first gain as the whole of it
+    zh:
+    - 花到冬的那半程
+    - 再从家里往外放人放钱
+    - 为已经付出的事反复操心
+    - 拿头一笔进项当成全部
+reading_notes:
+- term: 百花魁
+  pinyin: bǎi-huā-kuí
+  en: 'the chief of the hundred flowers: the first and finest blossom to open, the
+    one that leads the rest; 魁 also means chief or champion, so the line reads as
+    an excellence queued up and not yet shown.'
+  zh: 既指头一枝、最出众的那朵花，也含「魁首」的意思；这一句说的是拔尖的东西已经排在队上，只是还没露出来。
+- term: 塵埃
+  pinyin: chén-āi
+  en: 'dust: plain dust, the grit of a hard season washed off; in Buddhist usage the
+    dust of worldly trouble; 脫塵埃 reads as release from it.'
+  zh: 既是地上的尘土，佛家也用它指俗世的烦扰；「脫塵埃」读作从其中脱出，两层都留着。
+- term: 春天到
+  pinyin: chūn-tiān-dào
+  en: 'spring arrives: the favourable window is the growing season; the same phrase
+    closes 遠信, so news also arrives with the spring; the judgement list uses it two
+    ways.'
+  zh: 一是说好的窗口就是生长的时节；二是同一句也收在「遠信」一项下，所以消息也随春天到——判词把这个说法用了两处。
+plain_meaning:
+  en: 'A season on the point of opening: the image is a hundred flowers about to break
+    from the bud, waiting on the spring light. The counsel is to steady the heart
+    and keep to the favourable half of the year — the judgements hold good in spring
+    and thin out in winter, and the first gain does not stay unless it is kept. Work
+    with the opening; do not spend against the cold end of it.'
+  zh: 一个正要打开的季节：诗里写的是百花将吐、候着春光的景象。劝的是把心定住，紧着一年里好的那半程走——判词上说春季成、入冬转淡，头一笔进项若不守住，也留不下来。顺着这个开头做，不要对着冷的那一头花出去。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is this a good year for me to push for promotion?
+    zh: 今年我该不该使劲去争升迁？
+  rewritten_to:
+    en: What should I hold steady this season, and what is mine to put in order?
+    zh: 这一季我该守住什么，哪些才是我该去整理的？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是一个封闭式的是非问（只求「好不好」），改为可守住、可行动的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The signs favour a lasting match here; the poem's counsel is that a steady
+      heart settles more than a hasty one.
+    zh: 这一签在婚配上偏向长久；诗里的意思是，心定比心急管用。
+    compliance_tag: null
+  career:
+    en: Advancement comes on a second attempt — one opening in the growing season
+      and another at the autumn round; the winter half of the year is not the time
+      to press.
+    zh: 功名是二回成、且落在生长的时节；一年里冷的那半程，不是使劲的时候。
+    compliance_tag: null
+  money:
+    en: Gain rises like a spring and then thins out — take it in its season and hold
+      reserves. *(Not financial advice.)*
+    zh: 进项像泉涌一样起来，之后会转淡——当季该收就收，留住储备。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgements read mild for the young and stubborn for the old; get ordinary
+      complaints looked at early. *(Not medical advice.)*
+    zh: 判词上年轻人轻、年长者缠；寻常的不舒服，早点找有资质的专业人士看。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household gains rather than loses; keep the peace and the benefit accumulates.
+    zh: 家事是进益的一头，不是耗损的一头；把和气留住，好处自会累起来。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is supported in spring and summer and poor in autumn and winter;
+      moving house is not advised in this reading.
+    zh: 出门在春夏有依托，秋冬就差些；搬居一项，这一签读得平平，劝你先不动。
+    compliance_tag: null
+  sea_and_voyage:
+    en: There is money on the water in spring and none in winter — work the season
+      as it comes, not the calendar.
+    zh: 水路是春有、冬无——按当年的时节做，不要照着日历做。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Crops, stock and fish fry all read well; the spring rounds are the ones to
+      put work into.
+    zh: 耕作、六畜、鱼苗都读得好；力气要花在春季那一轮上。
+    compliance_tag: null
+  timing:
+    en: The opening window is the spring half of the year; no date is given.
+    zh: 打开的窗口是一年里春的那半程；不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Spending into the winter half; moving house; treating the first gain as the
+      whole of it.
+    zh: 往冷的那半程里花钱；搬居；拿头一笔进项当成全部。
+    compliance_tag: null
+  reassurance:
+    en: This is a spring lot with a cold edge; nothing in it needs to be forced early.
+    zh: 这是一支春签，带一点冷意；里面没有哪一件事需要提早硬来。
+    compliance_tag: null
+stories:
+- title:
+    zh: 陳東初祭梅得救
+    en: Chen Dongchu's Plum Rite Brings Rescue
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝时候，陈东初在朝中做官。宰相卢杞陷害他。他的同科好友梅伯高出面营救，也受到牵连，被关进牢里，一家人被杀，只剩一个儿子梅良玉逃了出来。陈东初辞官回乡，住在扬州。一天，他遇到一个落难的年轻人，化名叫王喜童，就留他在家中的梅园里当差，并不知道他的来历。梅伯高忌日那天，陈东初在梅园设祭。忌日是纪念死者的日子。忽然刮起风雪，满园梅花都落了。陈东初十分伤心，立誓除非梅花重开、能证明梅家还有后人，否则他就出家。他的女儿杏元诚心祝祷，梅花果然第二次开放。随后他们得知王喜童就是老朋友的儿子梅良玉，陈东初便把女儿许配给他。
+    en: In Tang times Chen Dongchu held office at court. The chancellor Lu Qi plotted
+      against him. His friend Mei Bogao, who had sat the examination in the same year,
+      came forward to save him. Mei Bogao was drawn into the case and put in prison.
+      His whole household was killed, and only one son, Mei Liangyu, escaped. Chen
+      Dongchu gave up his post and went home to live in Yangzhou. One day he met a
+      young man in distress who gave his name as Wang Xitong. He kept him on to work
+      in the plum garden of his house, not knowing where he came from. On the death
+      day of Mei Bogao, a day for remembering the dead, Chen Dongchu held a rite in
+      the plum garden. Suddenly wind and snow came, and every plum blossom in the
+      garden fell. Chen Dongchu was grieved. He swore that unless the plums opened
+      again, and so showed the Mei family still had an heir, he would leave home and
+      become a monk. His daughter Xingyuan prayed with a true heart, and the plums
+      did open a second time. Afterward they learned that Wang Xitong was the son
+      of his old friend, Mei Liangyu. Chen Dongchu betrothed his daughter to him.
+  poem_connection:
+    zh: 签诗“看看欲吐百花魁”“若能遇得春色到”，正合梅园花落而二度重开一节，取逢春再发之意。
+    en: The poem speaks of a hundred flowers about to burst and of meeting the spring,
+      which fits the plum garden's blossoms falling and then opening a second time,
+      a sign of spring coming back.
+- title:
+    zh: 趙子龍救阿斗
+    en: Zhao Zilong Rescues A Dou
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵云是刘备手下的一员大将，字子龙。曹操带兵南下，刘备带着百姓撤退，在当阳的长坂坡被追上，妻儿都在乱军中失散。赵云一个人拨转马头，回头去找。他先救出甘夫人，送到张飞那里，又转身杀回阵中，找到抱着婴儿阿斗的糜夫人。糜夫人受了重伤，怕拖累他，把阿斗交给他就投井而死。赵云推倒土墙把井盖住，把阿斗抱在怀里，上马突围。曹军一路追杀，他来回冲杀，夺过长枪，杀死敌将，终于冲出重围，战袍上都是血。曹操在山上望见他往来冲杀，传令不许放箭，要活捉，他才得以脱身。
+    en: Zhao Yun was a great general under Liu Bei, and his courtesy name was Zilong.
+      Cao Cao led his army south. Liu Bei pulled back with the common people, and
+      at Changban Slope in Dangyang the enemy caught up with them. His wife and children
+      were lost in the confusion of the army. Zhao Yun alone turned his horse around
+      and rode back to look for them. First he rescued Lady Gan and brought her to
+      Zhang Fei. Then he turned and charged back into the ranks. He found Lady Mi,
+      who was holding the baby A Dou. Lady Mi was badly hurt. She was afraid of holding
+      him back, so she handed A Dou to him and threw herself into a well. Zhao Yun
+      pushed down an earth wall to cover the well. He held A Dou against his chest,
+      mounted, and broke through. The enemy troops chased him all the way. He charged
+      back and forth, seized a long spear, killed enemy officers, and at last broke
+      out of the ring, his battle robe covered in blood. Cao Cao watched from the
+      hill as he came and went through the fighting. He gave orders that no arrows
+      were to be shot and that Zhao Yun was to be taken alive, and so Zhao Yun got
+      away.
+  poem_connection:
+    zh: 签诗说春天的颜色一到，尘埃都洗净了。赵云怀抱幼主冲出重围、脱身而回，正是这一情境。
+    en: The lot poem says that when spring color arrives, the dust is all washed away.
+      Zhao Yun carried the young heir out through the ring of troops and came back
+      alive.
+- title:
+    zh: 薛蛟與薛癸旁州遇彩樓得繡球
+    en: Xue Jiao and Xue Gui Meet the Embroidered Ball at the Painted Tower
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛蛟是薛家将的第三代子弟。薛家一门从薛仁贵、薛丁山传下来，世代都是武将。薛家曾遭奸臣陷害，满门受害，薛蛟是侥幸活下来的一支血脉。他和同伴薛癸结伴出门，走到旁州。正赶上当地一户富家在搭彩楼招亲。那家的小姐站在彩楼上，把一只绣球往下抛，球落到谁身上，就把女儿许给谁。围观的人一拥而上，都伸手去抢。绣球最后落到薛蛟身上。他就这样和那家小姐成了婚。旧时富家招亲，常搭彩楼、抛绣球，看中的人便算招得女婿。这桩婚事就成在旁州的彩楼之下。
+    en: Xue Jiao was a third-generation member of the Xue family of generals. The
+      family ran from Xue Rengui and Xue Dingshan, generation after generation of
+      military men. The Xues had once been ruined by a treacherous minister, and the
+      whole household suffered. Xue Jiao was one branch of the bloodline that survived
+      by luck. He and his companion Xue Gui set out together and came to Pangzhou.
+      It happened that a rich family there was putting up a painted tower to choose
+      a husband for their daughter. The young lady stood on the tower and threw down
+      an embroidered ball. Whoever the ball landed on would get her hand. The crowd
+      surged forward and all stretched out their hands to snatch it. In the end the
+      ball landed on Xue Jiao. That was how he married the young lady. In old times
+      rich families often chose a son-in-law this way, putting up a painted tower
+      and throwing an embroidered ball, and the person it hit was taken as the chosen
+      son-in-law. This match was made under the painted tower at Pangzhou.
+  poem_connection:
+    zh: 这一签说正当其时、喜事临门，正配薛蛟在旁州遇上抛绣球招亲、得以成婚。
+    en: This lot says the time is right and a happy event arrives. It fits Xue Jiao
+      meeting the tower where the ball was thrown and gaining a wife.
+- title:
+    zh: 唐太宗選武氏為才人
+    en: Emperor Taizong of Tang Takes the Wu Girl as a Talented Lady
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 武氏是并州文水人，父亲武士彟是唐朝开国的功臣。唐太宗贞观年间，她因容貌出众被选进宫，封为才人。才人是后宫里的一种名号，品级不高。那时她只有十四岁。她在宫里住了十多年，名位一直没有升迁。太宗晚年，宫中传出有“女主武王”的说法，意思是将来会有姓武的女子掌权。太宗去世后，按例她要出宫，进感业寺做了尼姑。后来高宗到寺里进香，又把她召回宫中，一路升为昭仪、皇后。高宗晚年多病，政事多半由她决断。她后来改唐为周，自己称帝。这一题取的，是她当初进宫做才人的那一段。
+    en: The Wu girl was from Wenshui in Bingzhou. Her father, Wu Shihuo, was a founder
+      of the Tang state. In the Zhenguan years of Emperor Taizong of Tang she was
+      chosen for the palace for her beauty. She was given the title of talented lady,
+      and it was not a high rank. She was only fourteen then. She lived in the palace
+      for more than ten years, and her rank never rose. In the emperor's later years
+      a saying went about the palace. It spoke of a 'woman ruler, King Wu', meaning
+      that a woman of the Wu surname would hold power in time. After Taizong died,
+      custom required her to leave the palace. She entered Ganye Temple as a nun.
+      Later Emperor Gaozong came to the temple to burn incense and called her back
+      into the palace. She rose step by step to be a lady of bright deportment and
+      then empress. In Gaozong's later years he was often ill, and most affairs of
+      state were settled by her. In time she changed Tang into Zhou and took the throne
+      herself. This title takes the part where she first entered the palace.
+  poem_connection:
+    zh: 这一签的签诗说眼下正是时候，眼看就要吐出百花之魁，若能遇上春色便清爽吉利。武氏入宫正合“正当时”，从此才有后来一段局面。
+    en: The poem says the time is now, the queen of a hundred flowers is about to
+      open, and meeting spring is clear and lucky. Her entry into the palace fits
+      'just at the time'.
+- title:
+    zh: 唐太宗令武媚娘賞花
+    en: Emperor Taizong Has Wu Meiniang View the Flowers
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 武媚娘是唐太宗宫中的才人。才人是宫中女官的一种，地位不高，十四岁入宫，太宗赐她这个名号。赏花是宫中春日的一桩常事，园里的花木都有人照管。春日的宫里，花开正盛，太宗命她到园中赏花。园里花枝迎春开放，枝条上花苞连片，正是要绽开的时候。牡丹开得最盛，颜色也最艳，在百花里开在最前，被称作花中之魁，也就是花里头的第一名。这样的好时节就在眼前。武媚娘后来经历了一番很大的起落：太宗去世后她出家为尼，又被高宗接回宫中，最后登上皇位，改唐为周。
+    en: Wu Meiniang (the future Wu Zetian) was a junior consort in Emperor Taizong's
+      palace. The rank she held was one of the lower palace offices, and she entered
+      the palace at fourteen, when Taizong gave her that title. Viewing flowers was
+      an ordinary spring pastime at court, and the trees and plants in the garden
+      were tended by staff. On a spring day in the palace the flowers were at their
+      fullest, and Taizong ordered her to go into the garden and look at them. The
+      branches opened to meet the spring, each twig heavy with buds, and the moment
+      of blooming had come. The peonies were the fullest in bloom and the richest
+      in color. They opened ahead of all the other flowers and were called the leader
+      of the flowers, that is, the first among them. Such a fine season was right
+      before the eyes. Wu Meiniang later went through great rises and falls. After
+      Taizong died she became a nun. Emperor Gaozong brought her back to the palace,
+      and in the end she took the throne and changed the name of Tang to Zhou.
+  poem_connection:
+    zh: 签诗通篇以花为喻，说此景正当时；太宗令武媚娘赏花，正扣一园春色的题面。
+    en: The whole poem uses flowers as its figure and says this scene is timely. Taizong
+      having Wu Meiniang view the flowers matches the picture of a garden in spring.
+- title:
+    zh: 正德君回燕宮
+    en: The Zhengde Emperor Returns to the Yan Palace
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 正德君就是明朝的武宗皇帝朱厚照，都城在北京，那时叫燕京。他在位时喜欢换上便装出宫，先巡宣府、大同，自称威武大将军总兵官，驻在宣府。后来宁王朱宸濠起兵，他借机亲自南下，事情平定之后仍不立刻回京，一路游历扬州、南京等地。他在位期间还流传着私行到梅龙镇、遇见酒家女李凤姐的故事。他在南巡归途中，于清江浦坐船落水，因此得病，回到京城后不久就死了。他出宫的时候，行踪常不让人知道。他在位十几年，出游的次数很多，一路上地方官接驾，排场很大。
+    en: The Zhengde Emperor was Zhu Houzhao, Emperor Wuzong of the Ming dynasty. His
+      capital was Beijing, which was then called Yanjing. During his reign he liked
+      to leave the palace in ordinary clothes. First he toured Xuanfu and Datong,
+      and there he called himself the General Who Spreads Might and Commander-in-Chief,
+      and made his headquarters at Xuanfu. Later Prince Ning, Zhu Chenhao, raised
+      troops. The emperor took the chance to go south in person. After the rising
+      was put down, he still did not return to the capital at once, and traveled through
+      Yangzhou, Nanjing and other places. During his reign people also told a story
+      of him going out in secret to Meilong Town and meeting Li Fengjie, the daughter
+      of a tavern keeper. On the way back from that southern tour, at Qingjiangpu
+      he fell into the water as he was boarding a boat. He fell ill from it and died
+      soon after he reached the capital. When he left the palace, his whereabouts
+      were often kept from people. He reigned for more than ten years and went out
+      very often; wherever he went, the local officials received him with great display.
+  poem_connection:
+    zh: 这一签写出游既久而后回到本处，正扣签诗“若能遇得春色到，一洒清吉脱尘埃”。
+    en: A long journey out that ends with a return to where one belongs fits a lot
+      whose poem speaks of reaching the spring colors and shaking off the dust.
+- title:
+    zh: 姜太公渭濱垂釣
+    en: Jiang Taigong Fishes on the Wei River Bank
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 吕尚年老穷困，隐居在渭水边，靠钓鱼过日子，后人称他姜太公。他的钓法跟别人不一样：鱼钩是直的，不弯成钩形，还离水面好几尺，也不放鱼饵。他要的不是鱼，而是一个能同他共事的人。周族的首领西伯准备出猎，先占了一卦。卦辞说，这趟所得不是龙，也不是熊，而是辅佐霸业的人才。西伯在渭水北岸遇到吕尚，一谈就投合，用车子载他一同回去，拜他为师，后来还亲自为他拉车，表示敬重。吕尚辅佐周室，周武王伐纣而取得天下，他受封于齐。
+    en: Lu Shang was old and poor. He lived in retirement by the Wei River and got
+      by on fishing. Later people called him Jiang Taigong. His way of fishing was
+      unlike other men's. His hook was straight, not bent into a hook shape, and it
+      hung several feet above the water. He used no bait. What he wanted was not fish,
+      but a man he could work with. The chief of the Zhou people, the Western Earl,
+      was about to go hunting, and first cast a divination. The words of the divination
+      said that what he gained this time would be neither a dragon nor a bear, but
+      a man of talent to aid a great cause. The Western Earl met Lu Shang on the north
+      bank of the Wei River. They took to each other at once. He carried him home
+      in his carriage and honoured him as a teacher, and later even pulled the carriage
+      himself to show respect. Lu Shang aided the house of Zhou. King Wu of Zhou overthrew
+      King Zhou and won the realm, and Lu Shang was enfeoffed in Qi.
+  poem_connection:
+    zh: 签诗说于今此景正当时，若能遇得春色到。太公晚年垂钓渭滨，等到文王，正合“正当时”“春色到”的语意。
+    en: The lot poem says this scene is just now timely, if one can meet the spring.
+      Taigong fishes on the Wei bank in old age and meets King Wen, just that timely
+      meeting.
+- title:
+    zh: 夫差奔走
+    en: Fuchai Flees
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 夫差是春秋时吴国的国君。他即位不久，在夫椒把越国打败。越王勾践带五千残兵退守会稽山，派大夫文种来求和。大夫伍子胥劝夫差不要答应，夫差不听，许了越国的和。此后夫差志得意满，掉头北上争霸，在黄池与诸侯会盟，跟晋国争当盟主，先歃了血。越军趁他不在，偷袭吴国，俘了吴国太子，吴军大败。夫差回师与越国讲和，越国暂时答应，过后又来攻打，几年之后围住吴国都城。夫差派人求和，勾践想答应，范蠡说不能许。伍子胥此前屡次进谏，已经被夫差赐死。夫差求和不成，就自杀了。他临死觉得没脸见伍子胥，让人用布蒙住他的脸。吴国由此灭亡。
+    en: Fuchai was the ruler of the state of Wu in the Spring and Autumn period. Not
+      long after he came to the throne he beat Yue at Fujiao. King Goujian of Yue
+      withdrew with five thousand surviving soldiers to Mount Kuaiji and sent his
+      minister Wen Zhong to ask for peace. The minister Wu Zixu urged Fuchai not to
+      agree, and Fuchai did not listen and granted Yue its peace. After that Fuchai
+      was full of himself and turned north to contend for leadership. He met the other
+      lords at Huangchi and vied with Jin to be first in the oath, and he smeared
+      the blood of the pact himself. The Yue army took the chance of his absence,
+      raided Wu, captured the Wu crown prince, and beat the Wu army badly. Fuchai
+      brought his army back and made peace with Yue. Yue agreed for a time and then
+      attacked again, and after some years ringed the Wu capital. Fuchai sent men
+      to ask for peace, and Goujian meant to agree, but Fan Li said it could not be
+      granted. Wu Zixu had already been put to death by Fuchai after many remonstrances.
+      When peace failed, Fuchai took his own life. At the end he felt he could not
+      face Wu Zixu, and had his face covered with cloth. Wu came to an end with him.
+  poem_connection:
+    zh: 签诗写时景春色、百花将开，故事里的夫差却在全国最强的时候北上争长，末了只剩出走一路，时景与人事各翻一面。
+    en: The poem's scene is spring and blossoms about to open, while Fuchai went north
+      to be first among the lords at his strongest, and was left with nothing but
+      the road of flight.
+- title:
+    zh: 楊戩大破五雷鎮
+    en: Yang Jian Smashes the Five-Thunder Pass
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杨戬是神话里的神将，民间又称他二郎神，住在灌江口。他额上多生一只眼睛，民间说他能看破妖邪的化身，因此专能识破敌阵里的法术。他拜玉泉山金霞洞的玉鼎真人为师，学得一身变化的本领和战场上的法术。后来他奉师父之命下山，帮助姜子牙讨伐商纣王。姜子牙是辅佐周文王、周武王两朝的军师。杨戬在周营中以多变著称，几次深入敌阵，破掉对手布下的法术。“五雷”本是道教雷法的名目，常用来称术士布下的雷阵。题作“大破五雷镇”，说的就是杨戬破去这样一座雷法之阵。
+    en: Yang Jian is a divine general in myth. Among the people he is also called
+      Erlang Shen, and he lives at the mouth of the Guan River. He has an extra eye
+      on his forehead. People say it lets him see through the disguises of demons,
+      so he is good at spotting spells used in an enemy formation. He took the Daoist
+      master Yuding Zhenren of the Golden Cloud Cave on Jade Spring Mountain as his
+      teacher and learned a whole set of skills in transformation and battle magic.
+      Later, on his teacher's order, he came down from the mountain to help Jiang
+      Ziya attack King Zhou of Shang. Jiang Ziya was the strategist who served King
+      Wen and King Wu of Zhou. In the Zhou camp Yang Jian was known for changing shape.
+      Several times he went deep into enemy lines and broke the spells his opponents
+      had laid. Five Thunder was a name in Daoist thunder ritual, often used for a
+      thunder formation laid by a master of the arts. The title tells how Yang Jian
+      broke a formation of this kind.
+  poem_connection:
+    zh: 签诗“于今此景正当时”“一洒清吉脱尘埃”，正对神将临阵破阵、脱身险厄这一段。
+    en: The lot's poem says this scene is just now at its time, and that a cleansing
+      sprinkle frees one from the dust. A divine general facing the enemy and breaking
+      through, escaping danger, fits that.
+- title:
+    zh: 四皓歸隱歌紫芝
+    en: The Four White-Haired Elders Retire and Sing of the Purple Mushroom
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 秦朝末年天下大乱，有四位年高有德的隐士躲进商山，避开战乱。商山在今天陕西商洛一带。四人被人合称商山四皓。皓是洁白的意思，说的是他们须发都已雪白。这四人名叫东园公、绮里季、夏黄公、甪里先生。他们隐居山中，不肯出来做官，靠采一种叫紫芝的菌类充饥。紫芝是长在山里的一种蘑菇。他们还在山中编了歌，唱的就是紫芝。汉朝建立后，开国皇帝刘邦几次派人去请，四人都没有应召。后来刘邦想把太子刘盈废掉，改立戚夫人的儿子。皇后吕氏按谋臣张良的计策，备下厚礼，把四位老人请出山，让他们陪太子入朝。刘邦见到四人须眉雪白，仪态不凡，又知道太子已经得到他们的辅佐，就打消了废太子的念头。这一签说若能遇得春色到，又说一洒清吉脱尘埃，正配四皓弃世归隐、歌咏紫芝而脱出尘网的一段。
+    en: At the end of the Qin, when the empire fell into disorder, four elders of
+      high years and virtue hid on Mount Shang to keep out of the fighting. Mount
+      Shang is in what is today the Shangluo area of Shaanxi. People called the four
+      together the Four White-Haired Elders of Mount Shang. Hao means white, and it
+      says that their hair and beards were already snow white. The four were Lord
+      Dongyuan, Qili Ji, Lord Xiahuang and Master Luli. They lived in hiding on the
+      mountain and would not come out to hold office, living on a fungus called the
+      purple mushroom, which grows in the mountains. They also made songs on the mountain,
+      and what they sang of was this mushroom. After the Han was founded, the founding
+      emperor Liu Bang sent people to invite them several times, and none of the four
+      answered. Later Liu Bang wanted to set aside the crown prince Liu Ying and make
+      the son of Lady Qi heir in his place. The empress, Lady Lü, on the advice of
+      the minister Zhang Liang, prepared generous gifts and brought the four old men
+      out of the mountain to attend the crown prince at court. Liu Bang saw the four
+      with snow-white brows and beards and uncommon bearing, and knew the crown prince
+      already had their support. He dropped the idea of setting him aside.
+  poem_connection:
+    zh: 这一签说若能遇得春色到、一洒清吉脱尘埃，正配四皓避世归隐、歌紫芝而脱于尘网的一段。
+    en: This lot says that if one can meet the color of spring, one comes free of
+      the dust - the four elders withdrawing from the world, singing of the purple
+      mushroom and leaving the net of dust.
+- title:
+    zh: 趙子郎救阿斗
+    en: Zhao Zilang Rescues A Dou
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵子郎就是赵子龙的另一种写法，说的是同一个人，也就是赵云。他是东汉末年刘备手下的一员大将。当阳长坂一战，刘备被曹操的追兵打败，仓皇南逃，妻子和儿子都失散了。赵云独自冲回乱军之中，怀里抱着刘备的幼子，就是后来的后主刘禅，又保护着甘夫人，一路杀出重围，使他们都没有遇难。刘备因此升他做牙门将军。民间故事把这一段铺演得更热闹，说他单枪匹马在乱军中几进几出，救出阿斗，到长坂桥交给断后的张飞接应。签题写“赵子郎”而不写“子龙”，是抄写时音近写错所致。
+    en: 'Zhao Zilang is another way of writing Zhao Zilong, and both mean the same
+      man, Zhao Yun. He was one of Liu Bei''s great generals at the end of the Eastern
+      Han. At the battle of Changban in Dangyang, Liu Bei was beaten by Cao Cao''s
+      pursuing troops and fled south in haste, and his wife and son were scattered.
+      Zhao Yun charged back alone into the disordered army. He carried Liu Bei''s
+      young son in his arms, the boy who later became the last ruler Liu Shan, and
+      he also protected Lady Gan. He cut his way out of the surrounding troops and
+      brought them all through safely. For this Liu Bei raised him to the rank of
+      general of the gate. The tale makes this episode more lively: he went in and
+      out of the disordered army several times single-handed, saved A Dou, and handed
+      him over at the Changban bridge to Zhang Fei, who was holding the rear. The
+      lot gives Zhao Zilang rather than Zilong.'
+  poem_connection:
+    zh: 签诗“于今此景正当时”“看看欲吐百花魁”，正当其时而气象将发，正对乘时突围护主。
+    en: The lot's poem says this scene is just now at its time, and that the hundred
+      flowers are about to open. Being at the right time fits breaking out with the
+      young master in the nick of time.

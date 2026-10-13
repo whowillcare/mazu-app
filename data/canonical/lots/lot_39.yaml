@@ -1,0 +1,429 @@
+id: 39
+lot_number: 39
+ganzhi:
+  zh: 庚辰
+  pinyin: Geng-chen
+title:
+  en: Yang Wenguang Trapped in Liuzhou City
+  zh: 楊文廣被困柳州城
+hexagram:
+  zh: 风地观
+  name_and_structure_en: Guan (Wind over Earth)
+  binary_code: ○○●●●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 楊文廣被困柳州城
+    en: Yang Wenguang Trapped in Liuzhou City
+  variants_en:
+  - Confucius Answered by a Child
+  - Jiang Ziya Strays Into the Ten Deadly Formations
+  - Fifth Lady Sick With Longing
+  - Cao Cao Sends Mi Heng to Huang Zu
+  - Jiang Taigong Meets King Wen
+  - Liu Xuande Leaves Wu for Jingzhou
+  - Lü Bu Shoots the Halberd at the Camp Gate
+  variants_zh:
+  - 孔夫子小兒答
+  - 姜子牙誤入聞太師十絕陣
+  - 五娘悶相思
+  - 曹操遣彌衡投黃祖
+  - 姜太公遇文王
+  - 劉玄德出吳回荊
+  - 呂布轅門射戟
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements promise help and a good ending, but only after a lean
+      opening - 作事 有貴人。好到尾／家運 漸漸平安／經商 先平後利／討海 先不利後小利 against 月令 不遂了財／求兒 不可。有事／六畜 不可;
+      gain is first withheld and then granted small (jie_yue_score +13, but the profile
+      is double-natured rather than bright)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'The temple book on this lot runs in two halves - it promises help and
+      a good ending, but always after a lean opening: undertakings, family fortune,
+      trade, income, advancement, and building are all described as gradual, and boats,
+      sea work, ponds, and fry all run loss-first and gain-after; children, livestock,
+      the month''s season, visitors, finding people, and rain run against. Taken together
+      it reads as adverse first and modestly better after, We read it as mixed.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 漸應。／作事 有貴人。好到尾。／家事 永獲吉慶。／家運 漸漸平安。／婚姻 成好。二次者成好。／求兒
+      不可。有事。／六甲 子媳晚。得弄璋。／求財 漸有。／功名 望後科。／歲君 淡安。／治病 少貴人。老拖運。／出外 遇貴人／經商 先平後利。／來人 難在。／行舟
+      先不利。後小利。／失物 尋在。／求雨 未有。／官事 後有貴人。／六畜 不可。／耕作 照舊種。可收成。／築室 後好。／墳墓 地勢允好。／討海 先不利後小利。／作塭
+      先失利後有利。／魚苗 失在前利在後。／月令 不遂了財。／尋人 難在。／遠信 緩緩就至。——整签两截（jie_yue_score +13）：通篇许的是助力与好结局，却一律排在清薄的开头之后——作事、家運、經商、求財、功名、築室
+      都作渐进，行舟、討海、作塭、魚苗 一路都是先失后得；而 求兒 不可、六畜 不可、月令 不遂了財、來人 難在、尋人 難在、求雨 未有 几处偏阻。先不利而后小利，故列为本批的「平」一档。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上是两截的——它许了助力与好结局，但一律排在开头那一段清薄之后：作事、家运、经商、求财、功名、筑室都作渐进之象，行舟、讨海、作塭、鱼苗一路都是先折后得；而求儿、六畜、月令、来人、寻人、求雨几处偏阻。合起来是开头一段不顺、之后转为小利，故列为本批的「平」一档。
+provenance:
+  editorial_note: '*the temple list carries the same siege together with 孔夫子小兒答, a
+    tale that stands outside the wiki group.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 意中若問神仙路，
+    en: If in your heart you ask the way of the immortals,
+  - line_number: 2
+    zh: 勸爾且退望高樓，
+    en: the counsel is to step back and look toward the high tower;
+  - line_number: 3
+    zh: 寬心且守寬心坐，
+    en: set your heart at ease and sit at ease, keeping what is yours;
+  - line_number: 4
+    zh: 必然遇得貴人扶。
+    en: help then arrives - a noble one lends a hand.
+keywords:
+  favourable:
+    en:
+    - stepping back
+    - the high vantage
+    - an easy, settled mind
+    - the helper who comes late
+    zh:
+    - 退后一步
+    - 居高处的眼界
+    - 放宽而安定的心
+    - 迟来的贵人
+  guarded:
+    en:
+    - pressing the matter now
+    - mistaking withdrawal for giving up
+    - spending into the lean stretch
+    zh:
+    - 此刻去逼这件事
+    - 把退让当成放弃
+    - 在清薄的那一段里花用
+reading_notes:
+- term: 神仙路
+  pinyin: shén-xiān-lù
+  en: 'the road of the immortals: a way beyond ordinary means; any road that asks
+    more than human effort; the line does not say which is meant.'
+  zh: 既指超出常人办法的一条路，也泛指任何一桩要人多费力气的事；这一句没有说定指的是哪一种。
+- term: 且退
+  pinyin: qiě-tuì
+  en: 'for the present, step back: withdraw for now; stand back to see the whole;
+    the Chinese gives no subject.'
+  zh: 是暂且退一退：既指眼下先撤开，也指站远些才看得见全局；中文原句没有点出是谁在退。
+- term: 寬心
+  pinyin: kuān-xīn
+  en: 'a widened heart: setting worry aside; making the mind broad enough to wait.'
+  zh: 是把心放宽：既指把挂虑放下，也指把心量撑到等得起那么大。
+- term: 貴人
+  pinyin: guì-rén
+  en: 'the noble one, the helpful person: a person of rank who can assist; anyone
+    who turns up at the needed moment; the word carries both.'
+  zh: 既指有身份、能出力的人，也泛指在要紧关头冒出来的那个人；这个说法两层都带着。
+plain_meaning:
+  en: 'A waiting season: the poem turns the question back and advises distance rather
+    than approach - step away, look from the high place, keep the heart easy. Help
+    is named, but it comes after the withdrawal, not instead of it. Some matters in
+    this lot simply are not ripe yet. The counsel is to hold what you have and keep
+    to your usual work.'
+  zh: 一段等候的时节：诗把问题挡了回来，劝的是离远些看，不是凑上去——退一步，从高处看，把心放宽。贵人是点出来了，但他是在你退开之后才来，不是替你退。这一签里有些事，就是还没到时候。劝的是守住手里的，把日常的活照旧做下去。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Am I going to be promoted this year?
+    zh: 我今年会不会升职？
+  rewritten_to:
+    en: What is mine to do while this matter is not yet ripe, and what should I hold
+      steady until it is?
+    zh: 这件事还没到时候，这期间我该做什么？又该稳住什么，等到它熟？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是一个封闭式的是非问（只要一个「会不会」的答案），改为可动手、可守住的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The judgement allows unions, and names a second attempt as the better one;
+      nothing here asks to be hurried.
+    zh: 判词对结缘是允许的，还说第二次的成法更好；这里没有一处是催着办的。
+    compliance_tag: null
+  career:
+    en: Help comes from others and the matter ends well - but only after the retreat
+      the poem asks for.
+    zh: 助力来自别人，事情到后面是好的——但要在诗里说的那一步退开之后。
+    compliance_tag: null
+  money:
+    en: The first stretch runs flat and the gain sits behind it; hold reserves through
+      the lean part. (Not financial advice.)
+    zh: 开头一段是平的，进项落在它后头；在清薄的那一段里把储备留住。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement is careful here — help is named for the young and a longer haul
+      for the old; arrange care rather than waiting it out. (Not medical advice.)
+    zh: 这一项的判词是谨慎的，并且对年纪大的人说要拖得久些；该安排照料就去安排，不要干等着它过去。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Home matters settle by degrees; the judgement reads peace as something that
+      arrives gradually.
+    zh: 家中的事是一点点安定下来的；判词把平安读成渐渐才到的东西。
+    compliance_tag: null
+  travel_moving:
+    en: Going out meets help in the judgement; the caution here is about timing, not
+      about the going.
+    zh: 判词说出外会遇上贵人；这里要拿捏的是时候，不是走不走。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water starts against you and turns to small gains; do not stake a whole
+      season on the first run.
+    zh: 水路上先是不利的，之后才转成小利；不要把整季都押在第一趟上。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Keep to the usual work - plant as before and the harvest comes; the stock
+      pen is the one caution.
+    zh: 照旧做手上的活——按老样子种，收成会来；六畜这一处是唯一要留意的。
+    compliance_tag: null
+  timing:
+    en: Late and slow - help and gain both arrive after the waiting; no date is given.
+    zh: 又晚又慢——助力和进项都要等过这一段才到；不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pressing the matter now; mistaking withdrawal for giving up.
+    zh: 此刻去逼这件事；把退让当成放弃。
+    compliance_tag: null
+  reassurance:
+    en: Help is named in almost every line of this lot; the counsel is to wait for
+      it with an easy mind.
+    zh: 这一签几乎每一行都点到助力；劝的是放宽心等着它。
+    compliance_tag: null
+stories:
+- title:
+    zh: 楊文廣被困柳州城
+    en: Yang Wenguang Trapped in Liuzhou City
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 宋朝时，元帅狄青奉命征讨南方的蛮兵，被困在蒙云关。杨文广是杨家将的后代，领兵前去救援。南蛮的女将段红玉会施邪术，把杨文广的军队团团围住，困在柳州城里。杨文广被困之后，一时冲不出去，只能守住城池，等候援兵。这一困，就是好些日子。城中粮食还够支撑一阵，援兵一时还没有赶到。同这一路的故事里，还有一段说段红玉后来在阵前和杨文广结为夫妻，反过来帮宋军攻破了关隘。守关的南蛮一方常以法术取胜，宋将一方则靠仙人、法宝破阵，是这一路故事的常见格局。
+    en: In the Song dynasty the marshal Di Qing was ordered to put down the southern
+      tribes and was trapped at Mengyun Pass. Yang Wenguang, a descendant of the Yang
+      family of generals, led troops to relieve him. Duan Hongyu, a woman general
+      of the southern peoples, knew how to work sorcery. She surrounded Yang Wenguang's
+      army on every side and penned it up in Liuzhou City. Once trapped, Yang Wenguang
+      could not break out for the moment and could only hold the city and wait for
+      relief troops. The siege lasted many days. There was still grain enough in the
+      city to hold out for a while, and the relief troops had not yet arrived. In
+      the stories on this line there is also a part in which Duan Hongyu later marries
+      Yang Wenguang before the ranks and then helps the Song army break the passes.
+      The southern side holding the passes often won by magic, and the Song generals
+      broke the formations with immortals and magic treasures. This was the common
+      pattern of the stories on this line.
+  poem_connection:
+    zh: 这一签说宽心且守、必然遇贵人相扶，正配杨文广被困城中、等候援兵。
+    en: This lot says keep your heart easy and hold your ground, for a helper is sure
+      to come. It fits Yang Wenguang trapped in the city, waiting for relief troops.
+- title:
+    zh: 孔夫子小兒答
+    en: Confucius Answered by a Child
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孔子是春秋时鲁国的思想家，一生带着学生周游列国。一天，他坐着车出门，路上遇见一个小孩在路上玩。这孩子叫项橐，正用土堆成一座城。孔子让他让开车，孩子却说，车子应当避开城，哪有城避开车的道理。孔子听了就下了车。两人接着互相问答，孩子问起夫妻、风雨、山石、房屋这些事，孔子一时答不上来。小孩年纪虽小，见识却不浅。孔子感叹后生可畏，登车走了。项橐七岁，做过孔子的老师。这一题取的就是孔子路上遇见小孩、互相问答的那一段。
+    en: Confucius was a thinker of Lu in the Spring and Autumn period. He spent his
+      life travelling from state to state with his students. One day he rode out in
+      his carriage and came upon a child playing in the road. The child was Xiang
+      Tuo, and he was piling up earth into a city. Confucius told him to make way
+      for the carriage. The child said that a carriage should go around a city; how
+      could a city go around a carriage? Hearing that, Confucius got down from the
+      carriage. The two then questioned each other in turn. The child asked about
+      husband and wife, wind and rain, mountains and rocks, houses and rooms. Confucius
+      could not answer at once. The child was young, but his understanding was not
+      shallow. Confucius sighed that the young are to be feared. He got into his carriage
+      and drove off. Xiang Tuo was seven, and he had been Confucius's teacher. This
+      title takes the part where Confucius met the child on the road.
+  poem_connection:
+    zh: 这一签的签诗说若问神仙的路，劝你先退一步往高处看，宽心守着，自会遇到贵人扶持。孔子遇上小儿而自屈，退让反有所得。
+    en: The poem says if you ask about the road of the immortals, take a step back
+      and look up; wait at ease, and a noble helper comes. Confucius gave way to a
+      child and gained by it.
+- title:
+    zh: 姜子牙誤入聞太師十絕陣
+    en: Jiang Ziya Strays Into the Ten Deadly Formations
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 商朝末年的太师闻仲领兵讨伐西岐。西岐是周人的地盘，在商的西边。闻仲在周营前摆下十座大阵，向周营挑战。这十座阵各有名目：天绝、地烈、风吼、寒冰、金光、化血、烈焰、落魂、红水、红砂，合起来叫十绝阵。布阵的是金鳌岛的十位道人，闻仲把他们请来助战。姜子牙和同门的人在燃灯道人的主持下破阵。每破一阵之前，都要有人先入阵送命，然后阵法才被破去，十位布阵的道人先后死在阵中。姜子牙自己也曾陷在阵里，险些出来不得。姜子牙靠众仙相助才脱身。
+    en: 'At the end of the Shang dynasty, Grand Preceptor Wen Zhong led troops against
+      Xiqi, the land of the Zhou people west of Shang. Wen Zhong set up ten great
+      formations in front of the Zhou camp and challenged it to battle. Each formation
+      had its own name: Heaven''s End, Earth''s Fierce, Wind''s Roar, Cold Ice, Golden
+      Light, Blood''s Change, Blazing Flame, Soul''s Fall, Red Water, and Red Sand.
+      Together they were called the Ten Deadly Formations. The ten Daoist masters
+      of Golden Turtle Island, whom Wen Zhong had invited to help, laid them out.
+      Jiang Ziya and his fellow students broke the formations under the direction
+      of Master Randeng. Before each one could be broken, someone had to enter it
+      first and lose his life, and then the formation would fall. The ten masters
+      who had laid them out died in the formations one after another. Jiang Ziya himself
+      was once caught inside and nearly could not get out. Only with the help of many
+      immortals did he come free.'
+  poem_connection:
+    zh: 签诗说且退望高楼、宽心且守、遇得贵人扶；子牙误入十绝阵、赖众仙相扶，正合这一层。
+    en: The poem says to fall back and look to the high tower, to keep an easy heart
+      and hold fast, and that a good backer comes. Ziya strayed into the Ten Deadly
+      Formations and was helped out, which fits.
+- title:
+    zh: 五娘悶相思
+    en: Fifth Lady Sick With Longing
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 五娘姓黄，是潮州富户人家的女儿。泉州书生陈三送兄嫂去广南上任，路过潮州，正赶上元宵灯市，两人相遇，彼此爱慕。第二年荔枝成熟，五娘在绣楼上看见陈三从楼下经过，用手帕包了一颗荔枝扔下去给他。陈三为了接近五娘，装扮成磨镜的匠人进黄府，故意打破镜子，卖身做奴三年抵债。两人靠婢女益春在中间传话，来往越来越密，终于私下定了终身，又带着益春连夜逃走。黄家追究，告到官府，几经周折，两人才得团聚。陈三在黄府做奴三年，为的就是能留在五娘身边。
+    en: The Fifth Lady, whose family name was Huang,, and she was the daughter of
+      a rich house in Chaozhou. Chen San, a scholar from Quanzhou, was taking his
+      elder brother and his wife to their post in Guangnan. He passed through Chaozhou
+      just when the Lantern Festival market was on, and the two met and fell in love.
+      The next year, when the lychees were ripe, Fifth Lady saw Chen San passing below
+      her embroidery room. She wrapped a lychee in her handkerchief and threw it down
+      to him. To get closer to her, Chen San dressed as a mirror-polishing craftsman
+      and entered the Huang house. There he deliberately broke a mirror and sold himself
+      as a servant for three years to pay for it. The two passed word to each other
+      through the maid Yichun, and they met more and more often. In the end they pledged
+      themselves to each other in secret and ran off together at night with Yichun.
+      The Huang family took the matter up and brought it to the officials, and after
+      many turns the two were at last reunited.
+  poem_connection:
+    zh: 这一签写心有所盼而人在他方、只宜宽心等待，正扣签诗“劝尔且退望高楼”“宽心且守宽心坐”。
+    en: A heart that waits while the one it longs for is elsewhere, and only an easy
+      mind and patience are of use, fits a lot whose poem says to fall back and look
+      up to the high tower.
+- title:
+    zh: 曹操遣彌衡投黃祖
+    en: Cao Cao Sends Mi Heng to Huang Zu
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 祢衡是东汉末年的人，年少就有才辩。他性子刚傲，看不起人。曹操把汉献帝迎到许都，掌握朝政。祢衡从荆州来，曹操想见他，祢衡一向轻视曹操，就推说有病不去。曹操便召他做鼓吏，管击鼓的小官。祢衡在大庭广众之中脱下衣服站着，慢慢把衣服穿好，把曹操痛骂了一顿。曹操虽然生气，因他有才名，不想杀他，就把他送去荆州见刘表。刘表起初待他不错，后来受不了他的慢待，又把他转送到江夏太守黄祖那里。祢衡与黄祖起了争执，终于被黄祖所杀，死时才二十六岁。
+    en: Mi Heng lived at the end of the Eastern Han and showed wit and eloquence from
+      youth. He was proud and stiff by nature and looked down on others. Cao Cao had
+      brought Emperor Xian of Han to Xu and held the government in his hands. Mi Heng
+      came from Jingzhou. Cao Cao wished to see him, but Mi Heng had always thought
+      little of Cao Cao and pleaded illness. Cao Cao then summoned him to serve as
+      a drummer, a low post in charge of the drums. In front of a great crowd Mi Heng
+      took off his clothes and stood there, then slowly put them on again, and gave
+      Cao Cao a thorough scolding. Cao Cao was angry, but because Mi Heng had a name
+      for talent he did not want to kill him. He sent him to Jingzhou to see Liu Biao.
+      Liu Biao treated him well at first, but later could not bear his rudeness and
+      passed him on to Huang Zu, the governor of Jiangxia. Mi Heng quarrelled with
+      Huang Zu and was killed by him at last, only twenty-six years old.
+  poem_connection:
+    zh: 签诗说劝尔且退望高楼，宽心且守宽心坐。曹操不与祢衡计较，只把他转送他处，正合“且退”二字。
+    en: The lot poem advises falling back and looking to a high tower, and to sit
+      at ease and wait. Cao Cao does not quarrel with Mi Heng but passes him on elsewhere,
+      just that falling back.
+- title:
+    zh: 姜太公遇文王
+    en: Jiang Taigong Meets King Wen
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 太公望名叫吕尚，是周朝开国的大功臣，民间叫他姜太公。他年老而隐居，旧说他在朝歌宰过牛，在孟津卖过饭，后来在渭水北岸钓鱼。周国的西伯，也就是后来的周文王，要出猎，出发前占了一卦。卦上说，这一趟得到的不是龙，不是螭，不是虎，也不是罴，而是霸王的辅佐。他果然在渭水边遇见了吕尚。西伯与他谈过，很高兴，说自己先人太公盼他盼得很久了；太公望这个称号就是从这里来的。西伯请他同车回去，立他为老师。此后吕尚帮西伯修德政，攻打崇与密须等国，天下的三分里周已有其二。武王即位后，他又帮武王伐纣，牧野一战灭了商，吕尚因功封在齐，都城在营丘。
+    en: Taigong Wang was named Lu Shang, and he was a great minister at the founding
+      of the Zhou. Among the people he was called Jiang Taigong. He was old and lived
+      in retirement. The old account says he butchered cattle at Chaoge, sold food
+      at Mengjin, and afterwards fished on the north bank of the Wei River. The Earl
+      of the West, that is, the man who later became King Wen of Zhou, was going out
+      to hunt. He cast a divination before he set off. The reading said that what
+      he got on this trip was not a dragon, not a hornless dragon, not a tiger and
+      not a bear. It was a helper for a leader of the age. He did indeed meet Lu Shang
+      by the Wei River. The Earl talked with him and was pleased, and said that his
+      own forefather the Great Duke had looked for him for a long time. The name Taigong
+      Wang comes from this. The Earl asked him to ride back in the same carriage and
+      made him his teacher. After that Lu Shang helped the Earl put his rule in order
+      and attack the states of Chong and Mixu. In time Zhou held two of the three
+      parts of the world. After King Wu came to the throne he helped him against the
+      Shang, and one battle at Muye ended the Shang. For this service Lu Shang was
+      given fief in Qi, with its capital at Yingqiu.
+  poem_connection:
+    zh: 签诗说“宽心且守宽心坐，必然遇得贵人扶”，与吕尚年老垂钓渭水、守待而遇文王一节相贴。
+    en: The poem says to sit at ease and wait at ease, for a noble helper is certain
+      to come; Lu Shang fished the Wei River in old age and waited, and then met King
+      Wen.
+- title:
+    zh: 劉玄德出吳回荊
+    en: Liu Xuande Leaves Wu for Jingzhou
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赤壁之战以后，刘备占据荆州。周瑜为了夺回荆州，定下一计：把东吴孙权之妹孙尚香许配给刘备，骗他过江成亲，再把他扣在吴地。刘备依诸葛亮的安排前往，先在南徐拜见吴国太，弄假成真，真的做了孙家的女婿。他与孙夫人恩爱，一时不想回荆州。到了年底，赵云照诸葛亮锦囊里的计策，假报荆州有急事，请刘备速归。刘备便借到江边遥祭祖宗为名，带着孙夫人一同离开吴地。孙夫人出身将门，亲自出面挡住追兵，斥退了徐盛、丁奉两员将领，又遇上诸葛亮预先安排的船队接应，刘备安然回到荆州。后来周瑜率兵追赶，反而中了埋伏。
+    en: 'After the battle of Red Cliff, Liu Bei held Jingzhou. To take Jingzhou back,
+      Zhou Yu laid a plan: he would marry Sun Shangxiang, the younger sister of Sun
+      Quan of Wu, to Liu Bei, lure him across the river for the wedding, and then
+      hold him in Wu. Liu Bei went as Zhuge Liang arranged. He first paid his respects
+      to the Dowager of Wu at Nanxu, and the false marriage became real: he truly
+      became the son-in-law of the Sun family. He and Lady Sun were loving, and for
+      a time he did not want to go back to Jingzhou. At the end of the year, Zhao
+      Yun followed the plan in the brocade bag Zhuge Liang had given him and reported
+      falsely that there was an urgent matter in Jingzhou, asking Liu Bei to return
+      at once. Liu Bei then used the excuse of going to the river to make a distant
+      sacrifice to his ancestors, and left Wu with Lady Sun. Lady Sun came from a
+      line of generals, and she stood in person against the pursuing troops, rebuking
+      the two officers Xu Sheng and Ding Feng. Then she met the fleet Zhuge Liang
+      had placed in advance, and Liu Bei returned to Jingzhou safely. Later Zhou Yu
+      led troops in pursuit and fell into an ambush instead.'
+  poem_connection:
+    zh: 签诗“劝尔且退望高楼”“宽心且守宽心坐”，身在异地而宜退守，正对刘备脱身返荆。
+    en: The lot's poem advises one to step back and look toward the high tower, and
+      to be at ease and keep to a quiet seat. Being in a foreign place and best off
+      withdrawing fits Liu Bei's escape back.
+- title:
+    zh: 呂布轅門射戟
+    en: Lü Bu Shoots the Halberd at the Camp Gate
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 东汉末年，各路军阀互相攻打。袁术派大将纪灵领几万人马，去攻驻扎在小沛的刘备。小沛在今天的江苏沛县。刘备兵少，挡不住，只好向吕布求援。吕布手下的谋士劝他趁这个机会除掉刘备。吕布却另有顾虑：袁术灭了刘备之后，就会和北边几股势力连成一片，到那时自己反倒受逼。他打定主意，出兵去救刘备。他带兵到小沛城外，纪灵那边也收兵相待。吕布把两边的主将请来一起饮酒，提出用射箭来定这场仗。他叫人把一支戟立在军营门口。戟是一种像矛又带横枝的兵器。他自己退到一百五十步外，拉弓一箭，正射中戟上的小枝。小枝就是戟旁伸出的那截尖锋。在场的将领都惊呆了。第二天两方再会，各自收兵。这一签说劝尔且退望高楼，又说必然遇得贵人扶，正配吕布辕门射戟、替刘备解围的一段。
+    en: 'At the end of the Eastern Han the warlords fought one another. Yuan Shu sent
+      his great general Ji Ling with tens of thousands of men against Liu Bei, who
+      was stationed at Xiaopei. Xiaopei is in what is today Pei county in Jiangsu.
+      Liu Bei had few troops and could not hold, so he had to ask Lü Bu for help.
+      Lü Bu''s advisers urged him to use the chance to do away with Liu Bei. Lü Bu
+      had another worry: once Yuan Shu had destroyed Liu Bei, he would link up with
+      the powers to the north, and then Lü Bu himself would be pressed. He made up
+      his mind and sent troops to save Liu Bei. He led his men outside the walls of
+      Xiaopei, and Ji Ling drew up his troops to face him. Lü Bu invited the chief
+      commanders of both sides to drink with him and proposed to settle the fight
+      by shooting. He had a halberd set up at the gate of the camp. A halberd is a
+      weapon like a spear with a side branch. He stepped back a hundred and fifty
+      paces, drew his bow, and shot a single arrow that struck the small side branch
+      of the halberd. The small branch is the pointed tip that juts from the side
+      of the halberd. The commanders there were stunned. The next day the two sides
+      met again, and each drew off its troops.'
+  poem_connection:
+    zh: 这一签说劝尔且退望高楼、必然遇得贵人扶，正配吕布辕门射戟、为刘备解围的一段。
+    en: This lot says to step back and look to the high tower, and that one surely
+      meets a noble helper - Lü Bu shooting the halberd at the camp gate to lift the
+      siege for Liu Bei.

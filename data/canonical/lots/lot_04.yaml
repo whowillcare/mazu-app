@@ -1,0 +1,433 @@
+id: 4
+lot_number: 4
+ganzhi:
+  zh: 甲午
+  pinyin: Jia-wu
+title:
+  en: The Dragon King of Lu Seeks a Match for His Son
+  zh: 盧龍王次子招親
+hexagram:
+  zh: 地泽临
+  name_and_structure_en: Lin (Earth over Lake)
+  binary_code: ●●●●○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 盧龍王次子招親
+    en: The Dragon King of Lu Seeks a Match for His Son
+  variants_en:
+  - The Dragon Girl Takes Liu Yi
+  - Lord Mengchang Returns to Xue
+  - Zhao Zilong Breaks the Ring of Troops to Save A Dou
+  - Li Taibai Makes His Name
+  - Zhuge Kongming Leaves the Mountains
+  - Goujian Sleeps on Brushwood and Tastes Gall
+  - Goujian Restores His State
+  variants_zh:
+  - 龍女招柳毅
+  - 孟嘗君回薛
+  - 趙子龍重圍救阿斗
+  - 李太白成名
+  - 諸葛孔明出山
+  - 勾踐臥薪嘗膽
+  - 勾踐復國
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements are broadly positive — 凡事 不須多憂慮／家運 大獲吉昌／功名 顯祖榮宗／經商
+      大吉利／行舟 風平。大吉／治病 近日痊癒, with one guard on gain made away from home (求財 在家好。出外凶)
+      and a slow errand (遠信 遲到) (jie_yue_score 13)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book is broadly favourable on this lot — general affairs,
+      undertakings, household, family fortune, marriage, children, advancement, the
+      year's ruler, illness, going out, trade, visitors, boats, moving house, livestock,
+      field work, building, graves, sea work, ponds, fry, the month's season and finding
+      people all sit on the positive side, many of them tied to the middle or the
+      end of the month; two lines are left open — income reads better at home than
+      abroad, and distant news runs slow. We read it as favourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 不須多憂慮，／作事 有成。／家事 綿綿齊輝。／家運 大獲吉昌。／婚姻 和諧。月半成。／求兒
+      好。／六甲 先男後女。／求財 在家好。出外凶。／功名 顯祖榮宗。／歲君 平安。／治病 近日痊癒。／出外 求財求事如意。／經商 大吉利。／來人 即到。／行舟
+      風平。大吉。／移居 可慶。／失物 月光在。／求雨 月末即到。／官事 破財。求貴人解。／六畜 興盛。／耕作 有收。／築室 門庭興旺。／墳墓 可得瑞氣。／討海
+      有大財。／作塭 有望。／魚苗 月光好。／月令 好。／尋人 快遇。／遠信 遲到。——整签偏正，惟 求財 在家好。出外凶 守住门外那一头，失物／求雨／魚苗／尋人／築室
+      都落在月光月末（jie_yue_score 13）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上大体偏正面——总类、作事、家事、家运、婚姻、求儿、子嗣、功名、岁君、治病、出外、经商、来客、行舟、迁居、六畜、耕作、筑室、坟墓、讨海、作塭、鱼苗、月令、寻人都落在正面一侧，许多项点在月中、月末这个窗口上；两处留有余地：求财一项偏在家、远出则弱，远信一项来得迟。故列为本批的偏正一档。
+provenance:
+  editorial_note: '*the temple site carries only one title for this lot (盧龍王次子招親),
+    while the wiki group runs to eight stories. Primary because the poem''s boat on
+    still water belongs to the dragon-water tale (風恬浪靜可行舟).*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 風恬浪靜可行舟，
+    en: The wind is still and the waves are calm — the boat can put out;
+  - line_number: 2
+    zh: 恰是中秋月一輪，
+    en: it is precisely the mid-autumn moon, one single round;
+  - line_number: 3
+    zh: 凡事不須多憂慮，
+    en: in all matters there is no need for much worry;
+  - line_number: 4
+    zh: 福祿自有慶家門。
+    en: blessing and stipend of themselves bring gladness to the house.
+keywords:
+  favourable:
+    en:
+    - still water
+    - a full moon at mid-month
+    - the house in good order
+    - setting worry down
+    zh:
+    - 风平浪静
+    - 月半月圆
+    - 门庭安好
+    - 把心放下
+  guarded:
+    en:
+    - going far for what is near
+    - carrying worry that is not owed
+    - waiting on news that is slow
+    - pushing past a settled season
+    zh:
+    - 舍近求远
+    - 背不该背的操心
+    - 干等迟来的消息
+    - 在已经定下的时节里再使劲
+reading_notes:
+- term: 風恬浪靜
+  pinyin: fēng-tián-làng-jìng
+  en: 'still wind and calm water: the weather of the sea, the standing figure for
+    safe passage; a household or an affair with no inner conflict in it.'
+  zh: 一是海上的天气，是行船平安的老话；二也指一个家里、一件事里头没有内耗。
+- term: 中秋月一輪
+  pinyin: zhōng-qiū-yuè-yī-lún
+  en: 'the mid-autumn moon, one full round: the eighth-month full moon, an image of
+    completeness; a moon-round — that is, the middle of any month — the judgements
+    here date matters to 月半 and 月光, not to a fixed festival.'
+  zh: 一是八月十五那轮圆月，是圆满的景象；二也指月圆，也就是每月月中——这一签判词把事都定在「月半」「月光」，不是定在某一个节日。
+- term: 自有
+  pinyin: zì-yǒu
+  en: 'comes of itself, is already there: assured provision, the lot''s assurance
+    that the house is supplied; it does not mean no work is needed; the 耕作 and 六畜
+    judgements still ask for the work.'
+  zh: 是本来就备着、自己会来；但不是说不用做事——判词里「耕作」「六畜」两项仍在要这份工。
+plain_meaning:
+  en: 'A calm, well-lit season: the wind is still, a boat can put out, and the mid-autumn
+    moon stands full. The poem asks the reader to set worry down, and the judgements
+    agree — the household prospers, the work completes, the harvest comes in. The
+    one caution sits outside the gate: gain made at home is read better than gain
+    made far away.'
+  zh: 一段平静、明亮的时节：风停浪静，船可以开出去，中秋的月正圆。诗是让人把操心放下的，判词也顺着说——家门兴旺、事情做得成、收成进得来。只有一条提醒，是在门外：在家里挣的，读得比远出挣的好。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The judgements give a harmonious match that settles at the middle of the month;
+      the poem's counsel is calm rather than urgency.
+    zh: 判词给的是和谐的一段婚配，落在月半前后定下来；诗里劝的是平心，不是着急。
+    compliance_tag: null
+  career:
+    en: The work completes and the name is carried home — a lot for finishing well
+      rather than for a new push outward.
+    zh: 事情做得成，名声也带得回家——这是一支把收尾做好的签，不是往外开新局的签。
+    compliance_tag: null
+  money:
+    en: Gain made at home is read better than gain made far away; keep the base and
+      gather in. *(Not financial advice.)*
+    zh: 在家挣的，读得比远出挣的好；守住根基，往里收。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgements read recovery close at hand; rest and quiet are the counsel,
+      with a professional in the picture for anything ongoing. *(Not medical advice.)*
+    zh: 判词上痊愈就在眼前；宜歇、宜安静，还在治的要把有资质的专业人士算进来。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: 'The strong line of this lot: the household is prosperous and glad; the work
+      here is to notice what is already there.'
+    zh: 这是这一签最重的一条：家门兴旺、和乐；要做的是看见已经有的东西。
+    compliance_tag: null
+  travel_moving:
+    en: Moving is glad news and journeys come out well, though the gain from going
+      far is read as weaker than the gain at home.
+    zh: 迁动是可喜的事，出门也走得顺，只是远出挣的读得比在家挣的弱。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Still wind and calm water — good water for boats and for those who work it;
+      the judgement puts real money on the boat, so work it steadily rather than in
+      one throw.
+    zh: 风平浪静——对船、对靠水吃的人都好；利是一点点来的，不是一把捞足。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Harvest, stock and the season's work all read well; the moon-round of the
+      poem marks the mid-month turning of the work.
+    zh: 收成、六畜和这一季的活计都读得好；诗里的月圆，标的是月中的那个转折。
+    compliance_tag: null
+  timing:
+    en: The turning sits at mid-month and at the full moon — a window, never a date.
+    zh: 转折落在月中、落在月圆——是窗口，不是日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Carrying worry the lot does not ask for; reaching past the near gain toward
+      the far one.
+    zh: 背这一签没让你背的操心；放着眼前的利，去够远的那一份。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here is ominous; the poem's whole instruction is to stop worrying.
+    zh: 这里没有一件事是不祥的；整首诗要说的就是别再操心。
+    compliance_tag: null
+stories:
+- title:
+    zh: 盧龍王次子招親
+    en: The Dragon King of Lu Seeks a Match for His Son
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 洞庭龙君的小女儿嫁给泾川龙君的次子。婚后丈夫一味游乐，宠爱身边的婢仆，又听信别人挑拨，把妻子赶到荒野去放羊。柳毅到京城应考没有考中，回家路过泾阳，在河边遇见放羊的龙女。龙女托他带一封信回洞庭娘家。柳毅照她的话做，在洞庭湖边找到龙宫的入口，把信交给龙君。龙君的弟弟钱塘君脾气刚烈，听到这件事，立刻飞到泾川，杀了泾川龙子，把龙女带回家来。龙君想把龙女嫁给柳毅，柳毅认为自己替人解困，不该借此占人便宜，没有答应。后来他几次娶妻都不长久，终于和化成凡人的龙女成了婚。
+    en: The youngest daughter of the Dragon King of Dongting was married to the second
+      son of the Dragon King of Jingchuan. After the wedding, the husband thought
+      only of pleasure. He doted on the servants around him and listened to people
+      who slandered his wife, and in the end he drove her out into the wild to herd
+      sheep. Liu Yi went to the capital to sit for the examination and failed. On
+      his way home he passed through Jingyang and met the dragon girl herding sheep
+      by the river. She asked him to carry a letter back to her family in Dongting.
+      Liu Yi did as she asked, found the entrance to the dragon palace by Lake Dongting,
+      and handed the letter to the Dragon King. The Dragon King's younger brother,
+      Lord Qiantang, had a fierce temper. When he heard what had happened, he flew
+      to Jingchuan at once, killed the son of the Dragon King of Jingchuan, and brought
+      the girl home. The Dragon King wanted to give the girl to Liu Yi in marriage.
+      Liu Yi held that helping someone out of trouble should not be repaid by taking
+      advantage of her, and he refused. Later, several of his marriages were short.
+      In the end he married the dragon girl, who had taken the form of an ordinary
+      woman.
+  poem_connection:
+    zh: 这一签写风波平定之后婚姻成合，正扣签诗“风恬浪静可行舟，恰是中秋月一轮”。
+    en: A marriage that comes together after the storm has passed fits a lot whose
+      poem speaks of sailing in calm water and the moon at mid-autumn.
+- title:
+    zh: 龍女招柳毅
+    en: The Dragon Girl Takes Liu Yi
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 柳毅是一个应考落榜的书生，从都城长安还乡。路过泾阳时，他看见一个女子在野地里放羊，脸色憔悴。女子说，自己是洞庭湖龙君的女儿，嫁给泾川龙君的次子，丈夫放纵无行，屡屡欺辱她，公婆又偏护儿子，才把她赶到这里。柳毅听了，答应替她送信，把书信带进洞庭湖。洞庭龙君读到女儿的信，十分悲痛；他的弟弟钱塘龙君性情刚烈，立刻赶到泾川，杀了泾川龙子，把龙女接了回去。龙宫感激柳毅的义气，想将龙女许配给他，柳毅起初推辞。后来龙女化作人间的女子，与柳毅结成夫妻。
+    en: Liu Yi was a scholar who failed the examinations and was going home from the
+      capital Chang'an. Passing Jingyang, he saw a woman tending sheep in the open
+      country, her face worn and sad. The woman said she was the daughter of the Dragon
+      King of Lake Dongting. She had married the second son of the Dragon King of
+      Jing River. Her husband gave way to his desires and wronged her again and again,
+      and his parents took his side and drove her out here. Liu Yi heard her out and
+      promised to carry her letter. He brought the letter into Lake Dongting. When
+      the Dragon King of Dongting read his daughter's letter, he was overcome with
+      grief. His younger brother, the Dragon King of Qiantang, was fierce by nature.
+      He went at once to Jing River, killed the young dragon, and brought the dragon
+      girl back. The dragon palace was grateful to Liu Yi for his sense of right,
+      and wished to give the dragon girl to him in marriage. Liu Yi refused at first.
+      Later the dragon girl took the form of a mortal woman and became Liu Yi's wife.
+  poem_connection:
+    zh: 签诗说风恬浪静可行舟，恰是中秋月一轮，又说福禄自有庆家门。柳毅出入洞庭传书，龙女归嫁，正合这一层。
+    en: The lot poem says that with wind still and waves calm one can sail, and that
+      blessings come to the house. Liu Yi carries the letter through Dongting, and
+      the dragon girl marries him.
+- title:
+    zh: 孟嘗君回薛
+    en: Lord Mengchang Returns to Xue
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孟尝君名叫田文，是战国时齐国的相国，封地在薛。他在齐国的时候，曾联合韩、魏的兵打败楚国，又率诸侯的军队去打秦国，名声很大。冯谖是他门下的一名食客，自己请求去薛地收债。到了薛地，他把债券烧掉，假托孟尝君的意思，免去百姓欠的钱，回来只说是替孟尝君买了人心。后来孟尝君被免去相位，回到封地薛去，离薛地还有百来里，百姓就扶着老人、带着孩子在路上迎接他。此后冯谖又替他到秦国、齐国之间游说，让齐王恢复他的相位，还请求在薛地立宗庙。孟尝君做相国几十年，没有遭过什么小祸患。冯谖替他谋的三步，后人叫作狡兔三窟，就是兔子要多挖几个洞、好有几处退路的意思。
+    en: Lord Mengchang was named Tian Wen, and he was chief minister of Qi in the
+      Warring States period, with his fief at Xue. While he was in Qi he once joined
+      the forces of Han and Wei to beat Chu, and led the armies of the lords against
+      Qin. His name was great. Feng Xuan was one of the retainers at his gate and
+      asked of his own accord to go to Xue to collect debts. When he reached Xue he
+      burned the bonds and cancelled what the people owed, saying that this was Lord
+      Mengchang's wish. On his return he said only that he had bought the people's
+      hearts for his lord. Later Lord Mengchang was dismissed from the chief ministry
+      and went back to his fief at Xue. He was still about a hundred li away. The
+      people came out leading the old and carrying the young, to meet him along the
+      road. After that Feng Xuan lobbied for him between Qin and Qi and had the king
+      of Qi restore him to the chief ministry. He also asked that an ancestral temple
+      be set up at Xue. Lord Mengchang was chief minister for several decades and
+      met with no small misfortunes. The three steps Feng Xuan planned for him were
+      later called three burrows for a clever rabbit. It means a rabbit digs several
+      holes so as to have more than one way out.
+  poem_connection:
+    zh: 签诗说“凡事不须多忧虑，福禄自有庆家门”，与孟尝君罢相归薛、百姓道路相迎而终复其位一节相合。
+    en: The poem says there is no need for much worry over any matter, since blessings
+      come of themselves to the house; Lord Mengchang lost his place, went home to
+      Xue, was met along the road, and got his place back.
+- title:
+    zh: 趙子龍重圍救阿斗
+    en: Zhao Zilong Breaks the Ring of Troops to Save A Dou
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵云字子龙，是常山真定人，真定在今天的河北。他先跟随公孙瓒，后投刘备。长坂坡一战，曹操的大军追上来，刘备兵败，仓皇南逃，妻儿都失散了。赵云独自拨转马头，冲回曹军阵中寻找。曹军人多势众，赵云只带一队人马，往来冲杀，几番出入。他先找到甘夫人和刘备的幼子阿斗，把甘夫人送到长坂桥，交给张飞接应，又回身杀入重围，把阿斗抱在怀里，单骑突围而出。赵云把孩子平安交到刘备手上，自此更受重用。民间说部与戏曲反复搬演这一段救主的事。
+    en: Zhao Yun, whose courtesy name was Zilong, was from Zhending in Changshan;
+      Zhending is in present-day Hebei. He first followed Gongsun Zan and later joined
+      Liu Bei. At the battle of Changban Slope, Cao Cao's great army caught up. Liu
+      Bei's troops were beaten and fled south in haste, and his wife and children
+      were scattered. Zhao Yun turned his horse around alone and charged back into
+      the Cao lines to look for them. The Cao troops were many and strong, and Zhao
+      Yun had only one unit. He went back and forth, cutting his way in and out several
+      times. He first found Lady Gan and Liu Bei's young son A Dou. He took Lady Gan
+      to the Changban bridge and handed her to Zhang Fei for support, then turned
+      and charged back into the ring of troops. He held A Dou in his arms and broke
+      out alone. Zhao Yun delivered the child safely into Liu Bei's hands, and after
+      that he was trusted even more. Storytellers and opera have staged this rescue
+      of the young master again and again.
+  poem_connection:
+    zh: 签诗“风恬浪静可行舟，恰是中秋月一轮”，险境过后归于平静清明，正对抱子突围。
+    en: The lot's poem says the wind is calm and the waves still, so a boat can go,
+      and that it is like a full moon at mid-autumn. Danger past and calm restored
+      fits carrying the child out.
+- title:
+    zh: 李太白成名
+    en: Li Taibai Makes His Name
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李白字太白，是唐朝有名的大诗人。他年轻时才华出众，喜欢漫游各地，也向往修道求仙。他在岷山、徂徕山一带隐居过一阵。唐玄宗在位的中期，李白奉召来到都城长安。他初到京城，认识他的人并不多。他去拜访贺知章。贺知章当时做太子宾客，是太子的属官，也是文坛上的前辈。贺知章读了他一篇写蜀道艰险的诗，大为叹服，称他是贬到人间的仙人。李白从此名声传遍京城。唐玄宗听说了他的名字，在金銮殿召见他，让他做翰林供奉。翰林供奉是陪在皇帝身边写文章的文学侍从，很受看重。后来李白得罪了朝中权贵，待不下去，皇帝赐他一笔钱，放他还乡。这一签说风恬浪静可行舟，又说凡事不须多忧虑，正配李白初入长安、得到赏识而声名大起的一段。
+    en: Li Bai, whose courtesy name was Taibai, was a famous great poet of the Tang.
+      In his youth his talent stood out. He loved to travel widely, and he also longed
+      to cultivate the Way and seek immortality. For a time he lived in retreat around
+      Mount Min and Mount Culai. In the middle of the reign of Emperor Xuanzong of
+      the Tang, Li Bai was summoned to the capital, Chang'an. When he first arrived,
+      few people knew him. He went to visit He Zhizhang. He Zhizhang was then a guest
+      of the crown prince, an official attached to the heir, and an elder of the literary
+      world. He Zhizhang read a poem of his on the perils of the Shu roads and was
+      full of admiration, calling him an immortal banished to the human world. From
+      then on Li Bai's name spread through the capital. Emperor Xuanzong heard of
+      him, received him in the Golden Phoenix Hall, and made him a Hanlin Attendant.
+      A Hanlin Attendant was a literary servant who wrote by the emperor's side, and
+      was much respected. Later Li Bai offended the powerful men at court and could
+      not stay. The emperor gave him a sum of money and sent him home.
+  poem_connection:
+    zh: 这一签说风恬浪静可行舟、凡事不须多忧虑，正配李白初入长安得人赏识、声名大起的一段。
+    en: This lot says the wind is calm and the waves still and the boat can go, and
+      that nothing needs much worry - Li Bai's first time in Chang'an, admired, and
+      his name rising high.
+- title:
+    zh: 諸葛孔明出山
+    en: Zhuge Kongming Leaves the Mountains
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 东汉末年，刘备带兵驻扎在新野。他四处访求人才，从司马徽、徐庶那里听说了诸葛亮的名字。徐庶对他说，卧龙这样的人不能随便请来，要亲自去求。卧龙是诸葛亮的别号。刘备便同关羽、张飞三次前往隆中。前两次都没见到，第三次才见着。诸葛亮在草屋里给刘备讲天下大势：曹操已经带兵百万，挟持天子号令诸侯，不能同他硬争；孙权占据江东，已经三代，可以结为帮手，不能打他的主意；荆州、益州是用兵的好地方，应当先取下来，再向西安抚各部族，向南安抚夷越，对外结好孙权，对内整治政务。天下有变，就分两路出兵。刘备听完，请他出山相助，诸葛亮答应了。
+    en: In the late Eastern Han, Liu Bei was stationed with his troops at Xinye. He
+      looked everywhere for talented men. From Sima Hui and Xu Shu he heard the name
+      Zhuge Liang. Xu Shu told him that a man like the Crouching Dragon could not
+      be invited at random. One had to go and ask in person. The Crouching Dragon
+      was Zhuge Liang's alias. So Liu Bei went with Guan Yu and Zhang Fei three times
+      to Longzhong. The first two visits he did not see him. The third time he did.
+      In a thatched hut Zhuge Liang told Liu Bei the state of the realm. Cao Cao already
+      had a million troops and held the emperor to command the lords, so he should
+      not be met in open contest. Sun Quan held Jiangdong for three generations and
+      could be taken as an ally, but not attacked. Jingzhou and Yizhou were good ground
+      for war. They should be taken first. Then one should calm the tribes to the
+      west, calm the Yi and Yue peoples to the south, befriend Sun Quan abroad, and
+      put government in order at home. If the realm changed, two armies could set
+      out. When Liu Bei heard this, he asked him to come out and help. Zhuge Liang
+      agreed.
+  poem_connection:
+    zh: 签诗“风恬浪静可行舟”，正合三顾之后刘备得孔明、局面才定下来一节；“福禄自有庆家门”即取贤才入辅之意。
+    en: The poem says that with wind and waves calm one can sail, which fits Liu Bei
+      gaining Kongming after three visits and the situation settling; a worthy man
+      entering service is the blessing of the house.
+- title:
+    zh: 勾踐臥薪嘗膽
+    en: Goujian Sleeps on Brushwood and Tastes Gall
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 勾践是春秋末年越国的君主。他的父亲去世时，吴王阖闾趁丧事发兵来攻，反而被打败，受伤而死。阖闾的儿子夫差继位，日夜练兵，终于在一个叫夫椒的地方大败越国。勾践退到会稽山，听从大夫文种和范蠡的计策，向吴国求和，还亲自到吴国做奴仆，替人养马干活，受尽屈辱。三年以后他才被放回国。回国后他把苦胆挂在屋里，坐着躺着都抬头看它，吃饭前先尝一口苦味，提醒自己不要忘记耻辱。他亲自下田耕作，夫人亲自织布，不吃肉，不穿华服，礼待贤士，安抚百姓。越国慢慢由弱变强，最后出兵灭掉吴国，夫差自杀。
+    en: Goujian was the ruler of Yue in the late Spring and Autumn period. When his
+      father died, King Helu of Wu sent troops to attack during the mourning, but
+      he was beaten instead, and he died of his wound. Helu's son Fuchai took the
+      throne. He drilled his troops day and night and at last crushed Yue at a place
+      called Fujiao. Goujian pulled back to Mount Kuaiji. On the advice of his ministers
+      Wen Zhong and Fan Li, he sued for peace with Wu. He even went to Wu himself
+      as a slave and worked looking after horses, and he bore every humiliation. Only
+      after three years was he sent home. Back in Yue, he hung a gall bladder in his
+      room. Sitting or lying down he raised his head to look at it, and before each
+      meal he tasted its bitterness, to remind himself not to forget the shame. He
+      plowed the fields himself. His wife wove cloth herself. He ate no meat and wore
+      no fine clothes. He treated worthy men with respect and comforted the people.
+      Yue slowly grew from weak to strong, and in the end it sent out its army and
+      destroyed Wu. Fuchai killed himself.
+  poem_connection:
+    zh: 签诗说风平浪静正好行船，又像是中秋的一轮满月。勾践从困厄中熬过来，终于复国，正是这个意象。
+    en: The lot poem says the wind is calm and the sea is level, just right for sailing,
+      and it is like the full moon at mid-autumn. Goujian came through hardship and
+      restored his state.
+- title:
+    zh: 勾踐復國
+    en: Goujian Restores His State
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 越王勾践被吴国打败，带着残兵退到会稽山，向吴王夫差求和。夫差答应了，但要勾践到吴国去做人质。勾践回国以后，一心想着报仇。他在座位旁边挂了一只苦胆。坐下、躺下都抬头看它，吃饭时也要尝一尝，时时提醒自己不要忘了会稽的耻辱。他亲自下田耕作，夫人自己织布。他吃饭不加肉，穿衣不讲花色，放下架子结交贤人，厚待来客，和百姓一起吃苦。越国这样休养了多年，才起兵攻打吴国，大败吴军。夫差求和，勾践不肯，吴国终于被越国灭掉，勾践也成了霸主。
+    en: King Goujian of Yue was defeated by the state of Wu. He withdrew with the
+      remains of his army to Mount Kuaiji and asked King Fuchai of Wu for peace. Fuchai
+      agreed, but required Goujian to go to Wu as a hostage. After Goujian returned
+      home he thought only of revenge. He hung a bitter gall bladder beside his seat.
+      Whether he sat down or lay down he looked up at it, and at meals he tasted it,
+      to remind himself constantly not to forget the shame of Kuaiji. He plowed the
+      fields himself, and his wife wove cloth herself. He ate no meat and wore clothes
+      of no bright color. He set aside his rank to make friends with worthy men, treated
+      guests generously, and shared hardship with his people. Yue rested and recovered
+      in this way for many years. Only then did he raise troops against Wu and beat
+      its army badly. Fuchai asked for peace and Goujian refused. In the end Wu was
+      destroyed by Yue, and Goujian became a leader among the states.
+  poem_connection:
+    zh: 这一签说风平浪静正好行舟、家门自有福庆，正配勾践休养多年、待时而动。
+    en: This lot says the wind is calm and the water still, just right for rowing,
+      and the house has blessings of its own. It fits Goujian resting and recovering
+      for years, waiting for his moment.

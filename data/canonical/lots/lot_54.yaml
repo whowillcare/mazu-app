@@ -1,0 +1,429 @@
+id: 54
+lot_number: 54
+ganzhi:
+  zh: 壬戌
+  pinyin: Ren-xu
+title:
+  en: Yueying Enters the Xiangguo Temple
+  zh: 月英入相國寺
+hexagram:
+  zh: 巽为风
+  name_and_structure_en: Xun (Wind over Wind)
+  binary_code: ○○●○○●
+  shared_with_lot: 15
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 月英入相國寺
+    en: Yueying Enters the Xiangguo Temple
+  variants_en:
+  - The Immortal Lü Dreams While the Millet Boils
+  - Zhongli Tests Dongbin
+  - A Young Lady Prays to Buddha for a Good Marriage
+  - The Buddha Holds Up a Flower
+  - Guanyin Seeks the Man Who Will Fetch the Sutras
+  - Yueying Prays to Buddha for a Good Marriage
+  variants_zh:
+  - 呂仙公枕黃梁未熟
+  - 鍾離試洞賓
+  - 小姐求佛嫁良緣
+  - 釋迦牟尼佛拈花
+  - 觀自在菩薩尋人取經
+  - 念月英求佛嫁良緣
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: the judgements favour the household and the shrine while the working
+      life stays ordinary - 家運 門庭興旺／婚姻 大吉／築室 大吉／官事 和好。得勝 - against 作事 難成／歲君 淡淡／求財
+      先無後有／經商 勿與人合夥／討海 小利 (jie_yue_score +16)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book leans towards the household, the marriage, and the shrine
+      — family fortune, marriage, building, and legal matters fall on the favourable
+      side; while undertakings, the year's ruler, income, trade, sea work, and field
+      work are flat or small. The general entry says plainly that the good of this
+      lot is placed away from wealth. We read it as mixed.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 清吉。不用財／作事 難成／家事 望神保佑／家運 門庭興旺／婚姻 大吉／求兒 成好／六甲 弄璋之慶／求財
+      先無後有／功名 善心有／歲君 淡淡／治病 不畏。拖尾。祈神／出外 須靠自己／經商 勿與人合夥／來人 月尾到／行舟 小利／移居 好／失物 緊尋在／求雨 必來／官事
+      和好。拖尾。得勝／六畜 小利／耕作 允好／築室 大吉／墳墓 地運亨通／討海 小利／作塭 小得微利／魚苗 自己有小利／月令 平平。求神庇佑／尋人 祈求。自回／遠信
+      音信急至——两头都有：家運、婚姻、築室、官事 一路好，而 作事、歲君、求財、經商、討海 则偏阻或偏小；凡事 一句说得明白——清吉而不用财（jie_yue_score
+      +16，列为本批的中间一档）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上偏向家宅、婚姻与庙门——家运、婚姻、筑室、官事数处偏正面；而作事、岁君、求财、经商、讨海、耕作数处平淡或偏小。总类一句说得明白：这一签的好不在钱财上。故列为本批的中间一档。
+provenance:
+  editorial_note: '*the temple list carries the same tale as 念月英相國寺 and 念月英求佛嫁良緣.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 孤燈寂寂夜沉沉，
+    en: One lamp and nothing stirring; the night grown deep;
+  - line_number: 2
+    zh: 萬事清吉萬事成，
+    en: all matters are clear and auspicious, all matters come through;
+  - line_number: 3
+    zh: 若逢陰中有善果，
+    en: if there is good fruit within the hidden side -
+  - line_number: 4
+    zh: 燒得好香達神明。
+    en: burn the incense well, and it reaches the divine.
+keywords:
+  favourable:
+    en:
+    - a lamp kept burning
+    - a household that thrives quietly
+    - good done where no one sees
+    - small returns taken as they come
+    zh:
+    - 续着不灭的一盏灯
+    - 静静兴旺的一家人
+    - 没人看见处做的好事
+    - 有小利就收
+  guarded:
+    en:
+    - forcing an undertaking that does not come together
+    - taking a partner into the venture
+    - counting on the lamp to light the whole night
+    - expecting the quiet season to pay richly
+    zh:
+    - 硬推一件聚不起来的事
+    - 拉人入伙做生意
+    - 指望这盏灯点整夜
+    - 以为安静的时节会大笔进账
+reading_notes:
+- term: 陰中
+  pinyin: yīn-zhōng
+  en: 'within the hidden side: good done where no one sees it; the dark half of things,
+    the unseen side of a life; the line reads as a condition on the blessing and is
+    left open.'
+  zh: 既指没人看见处做的善，也指事情暗的那一半、人生的背面；这一句是给福气加的条件，语气留有余地。
+- term: 善果
+  pinyin: shàn-guǒ
+  en: 'good fruit: the fruit of good deeds, in the old Buddhist sense of a ripening
+    karma; fruit that ripens out of sight; the phrase holds both the moral and the
+    horticultural sense.'
+  zh: 是善行的果实，带一点旧时佛家「果报渐熟」的意思；也照字面指在暗处结出的果。两层都留着。
+- term: 達神明
+  pinyin: dá-shén-míng
+  en: 'to reach the divine: the incense carries the petition up to the gods - in a
+    Mazu temple, to Mazu herself; to be understood by what is divine in the matter,
+    i.e. the intent is received; the ritual sense is kept.'
+  zh: 是香烟把所求送上神前——在妈祖庙里，就是送到妈祖跟前；也指这份心意被事情里那一点神明听懂了。香火这一层意味保留着。
+plain_meaning:
+  en: 'A quiet season lit by one lamp: the poem gives a still night, then all things
+    clear and accomplished - on the condition that good has been kept in hidden places.
+    The judgements favour the household, the marriage and the shrine, while the working
+    life stays ordinary and the profits small. The counsel is to keep the lamp lit,
+    take no partner into the venture, and let what was done in secret come forward.'
+  zh: 这是一段只点一盏灯的安静时节：诗先给一夜深沉，然后说万事清吉、万事得成——前提是暗处存着善。判词偏袒家宅、婚姻与庙门，而活计仍是一般，进项也小。劝的是把这盏灯续着，生意不要拉人合伙，让暗中所做的自己浮出来。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is my sister likely to find a husband soon?
+    zh: 我妹妹是不是很快就能找到对象？
+  rewritten_to:
+    en: What does this season ask of me in my own relationships?
+    zh: 这一季，在我自己的感情里，要我做什么？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 原问法问的是第三人（妹妹）的私事，属他人隐私，故改写为问自己。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Marriage is judged greatly auspicious here - the lot's own tale is a woman
+      praying for exactly that - and the household judgement agrees with it.
+    zh: 婚姻在这一签判作大吉——签里自己的故事，正是一位女子为此求佛——家宅的判词与它相合。
+    compliance_tag: null
+  career:
+    en: The undertaking judgement is a hard one, so the season favours the job already
+      in hand rather than a new or enlarged plan.
+    zh: 作事一项判得重，所以这一季偏向手里已有的职位，而不是新开或扩大的计划。
+    compliance_tag: null
+  money:
+    en: The money judgement runs from nothing first to something after, and the sea
+      gives only small returns; keep the venture your own and small. (Not financial
+      advice.)
+    zh: 钱财的判词是先从没有、后有，海上只给小利；生意自己做，做小。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The illness judgement asks for prayer and treats the thing as slow to clear;
+      keep up ordinary care, and have it checked alongside whatever devotion you keep.
+      (Not medical advice.)
+    zh: 身体上的判词要的是祈神，并把这件事写作缠绵；平常怎么养就怎么养，同时该查的照查。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is judged to flourish and the house to be built well; this is
+      the strong ground of the lot.
+    zh: 家宅判作兴旺，房子也建得好；这是这一签最结实的地面。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is judged as relying on yourself alone, while moving house is judged
+      good - go on your own footing and do not wait on help from elsewhere.
+    zh: 出行判作只能靠自己，而搬家判好——按自己的脚力走，不要等别处的援手。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water gives a small return and not a large one; put out on your own account
+      and keep boat and crew unshared.
+    zh: 水上给的是一点小利，不是大利；自己的本钱出海，船与人手都不与人分。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The field is judged favourable and the animals and ponds pay a little; a steady
+      season rather than a fat one.
+    zh: 田里判得不错，畜生与塭有些小进项；是稳的一季，不是肥的一季。
+    compliance_tag: null
+  timing:
+    en: The window is the quiet part of the season - a late turn with no date attached;
+      keep the practice up rather than watching the calendar.
+    zh: 窗口在这一季安静的那一段——转得偏晚，也不给日期；该做的是把功课续着，不是盯日历。
+    compliance_tag: null
+  what_to_avoid:
+    en: Taking a partner into the venture, and counting on the season to pay large.
+    zh: 拉人入伙做生意；指望这一季大笔进账。
+    compliance_tag: null
+  reassurance:
+    en: The good in this lot is real and it is quiet; nothing here needs to be rushed.
+    zh: 这一签里的好是真的，而且是安静的；没有哪一件需要赶。
+    compliance_tag: null
+stories:
+- title:
+    zh: 月英入相國寺
+    en: Yueying Enters the Xiangguo Temple
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 王月英在京城开了一间卖胭脂的铺子。长安人郭华到京城参加会试，在店里见到月英，便借着买胭脂和她来往，留恋着不肯走。月英派婢女和他约好，元宵看灯的那一夜在相国寺相见。到了那天，郭华先到，等了很久不见人来，就先喝起酒来，醉倒过去不省人事。月英到时见他睡着，叫也叫不醒，就留下一只绣鞋做记号走了。郭华醒来看到鞋，知道错过了约期，悔恨之下拿东西塞住口，差点送命。事情闹开，人们看见那只绣鞋，都疑心是月英害了他。后来包待制审出了实情，两人才结成夫妻。包待制就是包拯，做官清正，做过待制。
+    en: Wang Yueying kept a shop selling rouge in the capital. Guo Hua, a man of Chang'an,
+      came to the capital for the metropolitan examination. He saw Yueying in the
+      shop. He began to visit her on the excuse of buying rouge, and he lingered there
+      and would not leave. Yueying sent her maid to arrange a meeting at the Xiangguo
+      Temple. It was to be on the night of the lantern viewing at the Lantern Festival.
+      When the day came, Guo Hua arrived first. He waited a long time and no one came,
+      so he began to drink. He drank himself senseless. When Yueying came and found
+      him asleep, she could not wake him. She left one of her embroidered shoes as
+      a sign and went away. Guo Hua woke, saw the shoe, and knew he had missed the
+      meeting. In his remorse he stuffed something into his mouth and nearly died.
+      The matter became known, and people saw the embroidered shoe. They suspected
+      that Yueying had done him harm. Later Bao Gong tried the case and found the
+      truth. The two became husband and wife. Bao Gong was Bao Zheng, an upright official
+      who held the court title of Daizhi.
+  poem_connection:
+    zh: 这一签的签诗说孤灯寂寂、夜深沉沉，万事清吉，若在暗中有善果，烧一炷好香能达神明。寺中孤灯下等人相见，正与首句相应。
+    en: The poem says a lone lamp is still and the night is deep; all things are clear
+      and lucky, and good done in the dark, like incense, reaches the god. A lone
+      lamp in a temple, waiting.
+- title:
+    zh: 呂仙公枕黃梁未熟
+    en: The Immortal Lü Dreams While the Millet Boils
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 卢生是个读书人，在邯郸的路上遇见一位道士吕翁，两人同住在旅店里。邯郸是北方的一座大城，南来北往的客商都要从这里经过。卢生叹息自己困顿失意。吕翁拿出一个枕头给他。卢生枕着睡下，做了一场大梦：梦里他娶了名门的女儿，考中做官，出外做将帅，入朝做宰相，享了五十年的荣华，活到八十多岁才去世。梦醒的时候，店主人蒸的黄粱米饭还没有熟。黄粱就是小米，一锅小米饭还没蒸熟，梦却已经过完了一生。卢生由此悟到，人生的得失荣辱不过是一场梦。后来的戏里把这位吕翁写成吕洞宾，讲成仙人度人回头修道的一桩事。
+    en: Lu Sheng was a scholar. On the road at Handan he met a Daoist named Lü Dongbin,
+      and the two lodged at the same inn. Handan was a great city of the north, and
+      traders going north and south all passed through it. Lu Sheng sighed over his
+      own hard and frustrated life. Lü Dongbin took out a pillow and gave it to him.
+      Lu Sheng lay down on it and slept, and had a long dream. In the dream he married
+      a daughter of a great house and passed the examinations. He took office, went
+      out as a commander and came in as chancellor, enjoyed fifty years of splendor,
+      and lived past eighty before he died. When he woke, the millet the innkeeper
+      was steaming was not yet cooked. Millet here means the small grain, and a pot
+      of it had not yet finished steaming while the dream had run through a whole
+      life. From this Lu Sheng saw that gain and loss, honor and shame in a human
+      life are no more than a dream. Later he was known as Lü Dongbin, and the tale
+      was told as an immortal turning a man back to the path.
+  poem_connection:
+    zh: 签诗说孤灯夜沉沉、万事清吉、阴中善果达神明；卢生梦醒觉悟回头修道，正扣这一层。
+    en: The poem speaks of a lone lamp and deep night, of all things clear and lucky,
+      and of good deeds done in secret reaching the gods. Lu Sheng woke and turned
+      to the path, which fits.
+- title:
+    zh: 鍾離試洞賓
+    en: Zhongli Tests Dongbin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 钟离权，号正阳子，是道教八仙之一。吕洞宾名岩，字洞宾，是唐朝人。他上长安应考，在酒铺里遇见钟离权。钟离权替他煮黄粱饭，洞宾疲倦睡着，一梦之间，梦见自己中举、做官、升迁、获罪、流落，一生的荣枯都经历了一遍。醒来时，黄粱饭还没有煮熟。钟离权借这一梦点破人世无常，洞宾从此有心向道。此后钟离权又用十件事试他：用生死吓他，用财物引他，用横逆待他，用美色近他，他都不动心。十试过后，钟离权才把大道传给他。吕洞宾修道有成，度人很多，民间称他吕祖。
+    en: Zhongli Quan, whose style was Zhengyangzi, was one of the eight immortals
+      of Daoism. Lü Dongbin was named Yan, and his courtesy name was Lü Dongbin; he
+      lived in the Tang dynasty. He went to Chang'an for the examination and met Zhongli
+      Quan in a wine shop. Zhongli Quan cooked him a dish of millet, and Lü Dongbin,
+      tired, fell asleep. In one dream he saw himself pass the examination, take office,
+      rise in rank, be charged with a crime and lose everything, going through the
+      whole rise and fall of a life. When he woke, the millet was not yet cooked.
+      Zhongli Quan used the dream to show him the impermanence of the world, and from
+      then on Lü Dongbin had the Way in his heart. Afterwards Zhongli Quan tested
+      him with ten things. He frightened him with death, drew him with wealth, treated
+      him badly, brought beauty close to him, and Lü Dongbin's mind never moved. Only
+      after the ten tests did Zhongli Quan pass the great Way on to him; in time Lü
+      Dongbin was known as Lü Zu, the ancestor who brought many to the Way.
+  poem_connection:
+    zh: 这一签写孤灯夜坐、以善念香火为凭，正扣签诗“孤灯寂寂夜沉沉”“若逢阴中有善果，烧得好香达神明”。
+    en: A lone lamp and a long night, with good intent and incense as the only witness,
+      fits a lot whose poem speaks of a solitary lamp in the deep night and good deeds
+      in the dark.
+- title:
+    zh: 小姐求佛嫁良緣
+    en: A Young Lady Prays to Buddha for a Good Marriage
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 旧时有一位女子，夜里独自在庙里。她点起一盏孤灯，灯下寂寂，夜色沉沉。庙里没有别人，只有她一个，和神前的一点香火。她进庙礼佛，为的是求一段好姻缘，盼着能遇到一个合意的丈夫。她所求的是一段正当的婚配，一个可靠的夫婿。她拈香跪下，把心里的话说给神明听，求将来有个善果。这一类求佛许愿的故事，在民间流传很多。题名里的小姐并没有留下姓名，也不知道是哪个朝代的人。签诗说，孤灯寂寂夜沉沉，万事清吉万事成；若逢阴中有善果，烧得好香达神明。求子嗣、求婚配、求生计，都曾有人这样到庙里上香。
+    en: In old times there was a young woman who was alone in a temple at night. She
+      lit a single lamp, and under it all was still, and the night was deep. There
+      was no one else in the temple, only herself and a little incense before the
+      god. She came into the temple to honour the Buddha, to ask for a good marriage
+      and hope to meet a husband to her liking. What she sought was a proper match
+      and a dependable husband. She took the incense, knelt down, and told the god
+      what was in her heart, asking for a good outcome later on. Stories of this kind,
+      of praying to the Buddha and making vows, were common among the people. The
+      young lady in the title left no name, and it is not known what dynasty she lived
+      in. The lot poem says the single lamp is still in the deep night, and all things
+      are clear and all things come to pass. If good fruit lies hidden in the dark,
+      a good stick of incense reaches the god. For children, for marriage, or for
+      a living, people have gone to temples to offer incense in just this way.
+  poem_connection:
+    zh: 签诗说烧得好香达神明，又说阴中有善果。入庙求佛、祈得好姻缘，正合这两句。
+    en: The lot poem says a good stick of incense reaches the god, and that good fruit
+      lies hidden in the dark. Entering the temple to pray for a good marriage fits
+      both lines.
+- title:
+    zh: 釋迦牟尼佛拈花
+    en: The Buddha Holds Up a Flower
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 释迦牟尼是佛教的创始人。灵山的一场法会上，他手里拈起一枝金色的波罗花，举起来给座上的众人看。众人都不作声，不明白这是什么意思，只有摩诃迦叶一个人破颜微笑，脸上露出笑意。释迦牟尼于是把正法交给摩诃迦叶：正法眼藏、涅槃妙心，不立文字，教外别传。这几句话的意思是，这一门法不用文字传，在经文之外另有一路。摩诃迦叶由此成为西天第一代祖师，就是这一门传法的第一位祖师。这一段以一枝花为示、以一笑相契，一句话也没有，就把法传了下去。禅门后来常引这一段，所重的正是这一层无声的相契。
+    en: 'Shakyamuni is the founder of Buddhism. At a teaching gathering on Vulture
+      Peak he took up a golden flower in his fingers. He held it up for the people
+      seated there to see. None of them made a sound, and none understood what it
+      meant, and only Mahakashyapa broke into a smile, his face showing pleasure.
+      Shakyamuni then handed the true teaching over to Mahakashyapa: the treasury
+      of the true eye of the teaching, the wonderful mind of nirvana. It is not set
+      down in words, but passed on outside the scriptures. The meaning of these lines
+      is that this teaching is not passed on by writing, and that there is a way beside
+      the scriptures. Mahakashyapa became from this the first patriarch of the western
+      line, that is, the first in this line of passing the teaching on. This stretch
+      shows a flower held up and a smile meeting it, and the teaching was passed on
+      with not a single word spoken. The Chan house later often cited this stretch,
+      and what it valued was just this silent meeting.'
+  poem_connection:
+    zh: 签诗说“孤灯寂寂夜沉沉”与“若逢阴中有善果”，取其寂静一心之意；灵山会上众皆默然，只迦叶一人契合，正与此静中相应。
+    en: The poem's lone lamp, the deep still night and the good fruit in the dark
+      are taken as quietness of a single mind; on Vulture Peak all were silent and
+      only Mahakashyapa matched, which answers that stillness.
+- title:
+    zh: 觀自在菩薩尋人取經
+    en: Guanyin Seeks a Man to Fetch the Sutras
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 佛在灵山，见南赡部洲的百姓贪图享乐，争斗杀伐不断，便想把三藏真经传到东土去。他命观音菩萨到东土去寻一个愿意取经的人。观自在是观世音菩萨的旧译名。观音菩萨带惠岸行者下山，一路先收了几名徒弟。她在流沙河遇见沙悟净，在福陵山云栈洞遇见猪悟能，在鹰愁涧救下一条小白龙，又到五行山下见到被压住的孙悟空，劝他改过，等取经人来搭救。这几人后来都成了取经人的徒弟。观音菩萨到了长安，变作一个衣衫破旧的游方僧人，拿着袈裟和锡杖叫卖，访到了和尚玄奘。后来唐太宗主持水陆大会，观音菩萨现出真身，指授大乘佛法，玄奘便愿往西天取经。太宗与他结为兄弟，赐号三藏。
+    en: The Buddha was on Vulture Peak. He saw that the people of the southern continent
+      were greedy for pleasure and that fighting and killing went on without end,
+      so he wished to send the true scriptures of the Tripitaka to the eastern land.
+      He told Guanyin, the Bodhisattva of Compassion, to go to the eastern land and
+      find a person willing to fetch the scriptures. Guanyin took the pilgrim Hui'an
+      down from the mountain, and along the way first took several disciples. At the
+      Flowing Sands River she met Sha Wujing. At the Cloud Ladder Cave on Fuling Mountain
+      she met Zhu Wuneng. At Eagle Sorrow Stream she saved a small white dragon. Then
+      at the Five Elements Mountain she saw Sun Wukong held under the mountain, and
+      urged him to reform and wait for the scripture seeker to set him free. These
+      men later became disciples of the scripture seeker. Guanyin reached Chang'an
+      and changed herself into a wandering monk in worn clothes, offering a cassock
+      and a ringed staff for sale, and there she found the monk Xuanzang. Later, when
+      Emperor Taizong of Tang held the great land and water assembly, Guanyin showed
+      her true form and pointed out the Mahayana teaching, and Xuanzang was willing
+      to go west for the scriptures. The emperor became his sworn brother and gave
+      him the title Tripitaka.
+  poem_connection:
+    zh: 签诗“孤灯寂寂夜沉沉”“烧得好香达神明”，孤灯之下的诚心祈请，正对访求取经人。
+    en: The lot's poem says a lone lamp burns, still and quiet, in the deep night,
+      and that good incense burned reaches the gods. Sincere prayer beneath a lone
+      lamp fits the search for a scripture seeker.
+- title:
+    zh: 念月英求佛嫁良緣
+    en: Yueying Prays to Buddha for a Good Marriage
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 长安人郭华到汴京去赶考。汴京是北宋的都城，在今天的河南开封。他到了京城，留下来不肯回乡，爱上了胭脂铺里的姑娘月英。他常借着买胭脂去找她，一来一往，两人传情。他们约好元宵灯节的夜里在相国寺见面。元宵灯节是正月里看灯的日子。那天夜里月英如约前往，只见郭华醉倒在寺中，推也推不醒。她就把一方香罗帕和一只绣鞋留在他的身边，自己先走了。郭华醒来，看见帕子和鞋子，一时想不开，竟把手帕吞下，噎住而死。寺里的僧人发现尸体，大惊之下报官。包公来审这件案子。包公是北宋有名的清官，民间叫他包公。他以那只绣鞋为证，传月英来问。月英见郭华嘴里还衔着罗帕，伸手把帕子拽了出来，郭华竟然苏醒过来。包公便判两人结为夫妻。这一签说孤灯寂寂夜沉沉，又说若逢阴中有善果，正配月英赴约留鞋、终与郭华结成夫妇的一段。
+    en: Guo Hua, a man of Chang'an, went to Bianjing to sit for the examinations.
+      Bianjing was the capital of the Northern Song, in what is today Kaifeng in Henan.
+      He reached the capital and would not go home, having fallen in love with a girl
+      in a rouge shop called Yueying. He often made excuses to buy rouge so as to
+      see her, and going back and forth the two sent each other their feelings. They
+      agreed to meet at the Xiangguo Temple on the night of the Lantern Festival.
+      The Lantern Festival is the season for looking at lanterns in the first month.
+      That night Yueying went as agreed, and found Guo Hua lying drunk in the temple;
+      she could not shake him awake. She left a perfumed silk kerchief and one embroidered
+      shoe beside him and went off first. When Guo Hua woke and saw the kerchief and
+      the shoe, he could not bear it; he swallowed the kerchief, choked, and died.
+      The monks found the body, were badly startled, and reported it to the officials.
+      Bao Gong tried the case - Bao Zheng, the famous upright official of the Northern
+      Song. Using the embroidered shoe as evidence, he summoned Yueying to question
+      her. Yueying saw that the kerchief was still in Guo Hua's mouth, reached in
+      and pulled it out, and Guo Hua came back to life. Bao Gong then ruled that the
+      two should marry.
+  poem_connection:
+    zh: 这一签说孤灯寂寂夜沉沉、若逢阴中有善果，正配月英赴约留鞋、终得结成夫妇的一段。
+    en: This lot says the lone lamp is dim and the night is deep, and that a good
+      fruit comes out of the hidden - Yueying keeping her tryst and leaving a shoe,
+      and in the end married to Guo Hua.
+- title:
+    zh: 念月英相國寺
+    en: Thinking of Yueying at the Xiangguo Temple
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这是郭华与王月英相恋的一桩旧事，后来成了南管曲里的一支曲。长安人郭华到汴京应考，试后留在京城，遇见女子王月英，爱她姿色，几个月不肯回家。两人自相识以后往来密切，才有相国寺这一约。他们相约在相国寺见面。相国寺是汴京城里的大寺，平日香客游人很多。到了那晚，月英因故迟到，郭华已经醉倒睡熟。月英留下信物，独自回去。郭华醒来，见了信物而不见她本人，悔恨之下几乎丧命。后来官府勘问这桩案子，顺着信物追查，查到王月英。月英到案陈说前情，郭华竟因此复活，最后两人成了婚。
+    en: Guo Hua of Chang'an went to Bianjing for the examinations. After the test
+      he stayed on in the capital, met a woman named Wang Yueying, and loved her beauty,
+      and for several months would not go home. After they came to know each other
+      they saw each other often, and from this came the appointment at the Xiangguo
+      Temple. They agreed to meet at the Xiangguo Temple. The Xiangguo Temple was
+      a large temple in Bianjing, with many pilgrims and visitors at ordinary times.
+      That night Yueying was late for reasons of her own, and Guo Hua had already
+      fallen asleep drunk. Yueying left a token and went home alone. When Guo Hua
+      woke and saw the token without her, he was so full of regret that he nearly
+      died. Later the officials looked into the case. Following the token, they traced
+      it to Wang Yueying. Yueying came to court and told what had happened before,
+      and Guo Hua came back to life. In the end the two were married.
+  poem_connection:
+    zh: 签诗“孤灯寂寂夜沉沉”“若逢阴中有善果”，夜约孤灯、暗中牵合，正对相国寺夜会这段。
+    en: The lot's poem says a lone lamp burns, still and quiet, in the deep night,
+      and that good comes in the dark. A night appointment by a lone lamp fits this
+      meeting at the Xiangguo Temple.

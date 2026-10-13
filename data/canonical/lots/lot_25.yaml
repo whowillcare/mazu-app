@@ -1,0 +1,434 @@
+id: 25
+lot_number: 25
+ganzhi:
+  zh: 戊子
+  pinyin: Wu-zi
+title:
+  en: Fengjiao Asks at the Guanyin Shrine and the Traitor's Plot Finds Her
+  zh: 鳳嬌觀音庵問籤中奸臣計
+hexagram:
+  zh: 泽山咸
+  name_and_structure_en: Xian (Lake over Mountain)
+  binary_code: ●○○○●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 鳳嬌觀音庵問籤中奸臣計
+    en: Fengjiao Asks at the Guanyin Shrine and the Traitor's Plot Finds Her
+  variants_en:
+  - Liu Wenlong Parts from His Wife
+  - Lord Shang Refuses Zhao Liang's Counsel
+  - The Duke of Pei and the King of Chu Meet at Hongmen
+  - Meng Jiangnu Carries Winter Clothes to the Wall
+  - Mulan Takes Her Father's Place in the Army
+  - Wang Zhaojun Goes Beyond the Frontier as a Peace Bride
+  - Hu Fengjiao Burns Incense and Seeks Forgiveness at the Guanyin Temple
+  variants_zh:
+  - 劉文龍別妻
+  - 商君不聽趙良言
+  - 沛公項王鴻門相會
+  - 孟姜女送寒衣
+  - 木蘭代父從軍
+  - 王昭君出塞和番
+  - 胡鳳嬌觀音寺行香求懺
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'temple judgements run negative through the middle of the lot - 婚姻 不好難成／求兒
+      不可／出外 不可／功名 未就／求財 微利不吉／家運 宅舍難居／官事 宜和。必受災殃／月令 下半年平安 (jie_yue_score +3). The one
+      open door is conditional: 凡事 作可作。和者吉 - acting is allowed, but luck rides on
+      keeping the peace.'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: marriage, income and travel all hold back,
+      and the household line asks patience, while the general entry stays open if
+      you keep peace with others. Level and closed lines sit together, so we read
+      it as mixed.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（廟本解曰原文，照抄）：凡事 作可作。和者吉。／作事 慢成。／家事 平平。／家運 宅舍難居。／婚姻 不好難成。／求兒
+      不可。／六甲 謝良愿。求神佛。／求財 微利不吉。／功名 未就。／出外 不可。／經商 新業差。舊業平／六畜 不可。／耕作 只收半。／官事 宜和。必受災殃。／治病
+      運深。酉戌不畏。／月令 下半年平安。——总评：整签偏负（jie_yue_score +3），行事一途留了口子：可以做，但福气系在相和上。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：婚姻、求财与出行取守势，家宅一项须有耐心；唯行事一项与人和气则可开。持平与收住并见，故读作 mixed。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 總是前途莫心勞，
+    en: Whatever the road ahead, do not wear your heart out over it;
+  - line_number: 2
+    zh: 求神問聖枉是多，
+    en: to ask the gods and question the sages is mostly wasted breath;
+  - line_number: 3
+    zh: 但看雞犬日過後，
+    en: only wait until the days of the rooster and the dog are past;
+  - line_number: 4
+    zh: 不須作福事如何。
+    en: no rites of blessing are needed - the matter shows itself in time.
+keywords:
+  favourable:
+    en:
+    - holding the position you have
+    - keeping peace with people
+    - waiting out the fowl-and-dog days
+    - the quieter second half of the season
+    zh:
+    - 守住现位
+    - 与人和气
+    - 等过鸡犬之日
+    - 后半季较平
+  guarded:
+    en:
+    - opening a new venture
+    - setting out from home
+    - asking the same question again and again
+    - thin margin read as gain
+    zh:
+    - 另开新业
+    - 离家出行
+    - 同一件事反复重问
+    - 把薄利当赚头
+reading_notes:
+- term: 雞犬日
+  pinyin: jī-quǎn-rì
+  en: 'the days of the rooster and the dog: the 酉 and 戌 branch-days, that is the ninth
+    and tenth months of the old calendar; loosely, a short stretch of waiting picked
+    out by those days; the poem offers it as a boundary, not a fixed date.'
+  zh: 一说指酉、戌两个支日，也就是旧历的九、十月；一说只是拿这两个日子划出一小段等待的界线。诗里给的是界线，不是固定的日子。
+- term: 求神問聖
+  pinyin: qiú-shén wèn-shèng
+  en: 'to ask the gods and question the sages: consulting oracles and diviners about
+    the outcome; asking other people over and over for reassurance; the line is about
+    the asking, not about whether help exists.'
+  zh: 一面指问卜求签、请人断吉凶，一面指一遍遍向人讨一个安心的答复。这一句怪的是「问」本身，不是说没人能帮你。
+- term: 作福
+  pinyin: zuò-fú
+  en: 'to make merit, to seek blessings: performing rites to secure a good outcome;
+    doing good works in the hope of favour; the poem says neither is what settles
+    this matter.'
+  zh: 指修福、做功德以求庇佑。诗里说这桩事靠哪一样都定不下来。
+plain_meaning:
+  en: 'A thin season, and the poem turns you away from anxious asking: wait out the
+    rooster-and-dog days before you judge anything. The judgements are guarded - the
+    dwelling is hard to live in, marriage and children do not come together, going
+    out is not advised, and a new venture fares worse than the old. The counsel is
+    to hold your ground, stay on good terms with people, and not set out or spend.'
+  zh: 这一季偏薄，签诗先把人的心从焦问里拉出来：鸡犬之日没过，什么也判断不出来，求神问卜多半是白费力气。判词一路收着——宅子住不安稳，婚姻与子息都凑不到一起，出外不取，新开的生意比旧的不如。可取的做法是守住现在的位置、跟人保持和气，不出发、不花钱。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will everything work out for me this year?
+    zh: 我这一整年会不会都顺？
+  rewritten_to:
+    en: What should I protect this season, and what should I leave until it turns?
+    zh: 这一季我该护住什么，又该把什么留到转过弯再说？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问是整年吉凶的封闭式是非题，改为可以行动的守与放之分。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Not a season for a union - the judgement is plain that a match does not come
+      together now; keep faith with what already exists.
+    zh: 不是成亲的一季；判词直说姻缘这段时间凑不到一起。已有的关系好好守，别在这时开新的。
+    compliance_tag: null
+  career:
+    en: Slow to complete and office not yet attained; stay in the post you hold and
+      let the work mature.
+    zh: 作事慢成、功名未就；留在原来的位置上把手上的事做熟，不急着另立门户。
+    compliance_tag: null
+  money:
+    en: Only thin margins, and even those are not to be counted on; the old trade
+      does better than a new one. Keep reserves and decline new ventures. (Not financial
+      advice.)
+    zh: 只有薄利，连这点薄利都还带晦；旧业比新业稳。留出余地，新的投入先不接。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement reads the illness as deep-running, so do not wait it out; seek
+      care from a qualified practitioner and rest properly. (Not medical advice.)
+    zh: 判词说这场病来得深，别拖；去找合格的医生诊治，把休息安排上。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The dwelling is called hard to live in and the household only ordinary; repair
+      at home before taking on anything outside.
+    zh: 宅子这一段住不安稳，家里只是平平；先把家宅修整好，再谈外面的事。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is not advised this season; if the journey can wait, let it.
+    zh: 这一季出门不取；能等的行程就等。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'On the water it depends on agreement among the crew: the peaceable do well
+      and the divided do not; expect light takings.'
+    zh: 水上要靠船上人情相和——和者好、不和者呆；进项是轻的。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Half a harvest from the fields, small returns from ponds and fry, and livestock
+      that the judgement says not to take on now.
+    zh: 田里只收一半，塭与鱼苗都是小利，六畜这一段判词说先不添。
+    compliance_tag: null
+  timing:
+    en: The second half of the season is called peaceful; wait for it, and treat the
+      fowl-and-dog days as a boundary rather than a date.
+    zh: 判词把下半个季叫作平安；等它来，把鸡犬之日当作界线而不是日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Starting a new venture; setting out from home; pressing for an answer before
+      the season turns.
+    zh: 另开新业；离家远行；季节没转就催一个答复。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. Nothing here asks
+      you to give up - it asks you to wait and to keep on good terms with the people
+      around you; if worry is heavy, speak with someone you trust.
+    zh: 这讲的是一段难走的时节，不是预告有祸。签里没有一句要你放弃，只是让你等一等、跟身边的人留和气；若心里压得重，找个信得过的人说一说。
+    compliance_tag: null
+stories:
+- title:
+    zh: 鳳嬌觀音庵問籤中奸臣計
+    en: Fengjiao Asks at the Guanyin Shrine and the Traitor's Plot Finds Her
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 接胡凤娇的故事。凤娇和马进兴订了婚，马进兴辞别之后，几个月没有消息。凤娇的堂姐夫马迪看上了她，先在村里散布谣言，说马进兴做了盗贼已经被杀。凤娇的母亲文氏不信，决意带女儿到观音庵去问签，好断一断心里的疑惑。马迪探知了，事先买通庵里的尼姑设下圈套，打算把母女留在庵中过夜，再行强逼。母女进了庵，被引进后院的禅房，才发觉上了当。危急时候，胡家的老仆胡完挑着担子进庵卖菜，看出庵里的情形不对，夜里翻墙把文氏母女救了出来。他们找到一条船，连夜逃走，去投别处的亲戚。
+    en: This continues the story of Hu Fengjiao. Fengjiao and Ma Jinxing were betrothed,
+      and after Ma Jinxing took his leave there was no news of him for months. Fengjiao's
+      cousin by marriage, Ma Di, had taken a fancy to her. He first spread a rumour
+      in the village that Ma Jinxing had turned bandit and been killed. Fengjiao's
+      mother, Madam Wen, did not believe it. She resolved to take her daughter to
+      the Guanyin shrine to draw a lot. She wanted to settle the doubt in her heart.
+      Ma Di found out. In advance he bribed the nun of the shrine to set a trap. The
+      plan was to keep mother and daughter in the shrine for the night and then force
+      them. The two went in. They were led to a meditation room in the back court
+      before they saw that they had been tricked. At the worst moment Hu Wan, the
+      old servant of the Hu family, came into the shrine with a carrying pole, selling
+      vegetables. He saw that something was wrong there. At night he climbed the wall
+      and got Madam Wen and her daughter out. They found a boat and fled that same
+      night to other relatives.
+  poem_connection:
+    zh: 这一签的签诗说前途的事不必操心，求神问圣也是白费，等鸡犬的日子过去，不必再问。凤娇去问签反遭奸计，正与“问圣”二字相应。
+    en: The poem says there is no need to fret about the road ahead, and asking gods
+      and sages is wasted effort. Fengjiao went to draw a lot and fell into a wicked
+      plot, which matches those words.
+- title:
+    zh: 孟姜女送寒衣
+    en: Meng Jiangnu Carries Winter Clothes to the Wall
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孟姜女是秦朝时的女子，丈夫名叫万喜良。秦始皇下令修筑长城，北方的民夫一批批被征去服役，万喜良也在其中，一走多年没有音信。修长城是极苦的差事，去的人大半回不了家。天气转冷，孟姜女缝好御寒的冬衣，独自千里迢迢送去长城工地。到了那里，她才知道丈夫早已累死，尸骨埋在城墙下面。她在城下痛哭，城墙竟被哭塌了一段，露出丈夫的骸骨。她收起尸骨，带回家乡。也有人说她抱着尸骨投水而死。她一心要送到的那件寒衣，始终没有交到丈夫手上。
+    en: Meng Jiangnu was a woman of the Qin dynasty. Her husband was named Wan Xiliang.
+      The First Emperor ordered the Great Wall built, and men from the north were
+      drafted in batches for labor service. Wan Xiliang was among them. He was gone
+      for years with no word. Building the wall was the hardest of work, and most
+      of those who went never came home. When the weather turned cold, Meng Jiangnu
+      sewed winter clothes against the chill and set out alone on the long road to
+      the wall works. When she got there she learned that her husband had long since
+      died of exhaustion and that his bones were buried under the wall. She wept at
+      the foot of the wall, and a stretch of it collapsed, exposing his remains. She
+      gathered the bones and carried them home. Others say she held the bones and
+      threw herself into the water. The winter clothes she had set her heart on delivering
+      never reached her husband's hands.
+  poem_connection:
+    zh: 签诗说所盼忽然变样、求神无益；孟姜女千里送衣而人已不在，正合这一层。
+    en: The poem says what was hoped for suddenly changes shape and that praying for
+      help brings nothing. Meng Jiangnu carried clothes far to a man already gone,
+      which fits.
+- title:
+    zh: 劉文龍別妻
+    en: Liu Wenlong Parts from His Wife
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘文龙新婚不久就动身进京应试。古时读书人考中功名才能做官，考场设在京城，一去往往经年。他考中以后被权臣留在身边，久久不得回家。他的妻子独自守在家里，有人上门逼她改嫁，她几次以死相拒，始终不肯从命。刘文龙在外多年，一路上历尽艰险，离家越久，音信越难通。他妻子天天盼着消息，只有邻家的鸡犬声一天天照旧。后来刘文龙终于回到家乡，夫妻重新见面。当初分别时，两人留下一面菱花镜作凭信，这面镜子也成了他们重逢的信物。
+    en: Not long after his wedding, Liu Wenlong set out for the capital to sit the
+      examinations. In older times a scholar had to pass before he could hold office,
+      and the examination halls were in the capital. A man who went was often away
+      for years. After he passed, a powerful minister kept him at his side, and for
+      a long time he could not go home. His wife kept the house alone. People came
+      to press her into a second marriage, and several times she refused, ready to
+      die rather than agree. Liu Wenlong was away many years and met dangers all along
+      the road. The longer he was gone, the harder word became. His wife looked for
+      news every day, and only the sounds of the neighbor's chickens and dogs went
+      on as before. In the end Liu Wenlong came home and the two met again. When they
+      parted they had left a mirror with a water-chestnut pattern as a token, and
+      that mirror became the keepsake of their reunion.
+  poem_connection:
+    zh: 签诗说莫心劳、求神枉是多、但看鸡犬日过后；文龙久滞在外、终得还乡，正合这一层。
+    en: The poem says not to wear the heart out and that prayers are useless, but
+      that once the days of chickens and dogs pass, matters are well. Wenlong stayed
+      long abroad and came home, which fits.
+- title:
+    zh: 商君不聽趙良言
+    en: Lord Shang Refuses Zhao Liang's Counsel
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 商鞅本是卫国人，本名公孙鞅，喜欢刑名之学。他到了秦国，向秦孝公讲强国之术，得到信任，主持变法。他废除井田，开辟阡陌，奖励耕战，抑制商贾。他又推行连坐的法令，明定军功的赏格。新法行了几年，秦国富足强盛，兵力大振，商鞅也因功受封于商于一带。但他执法严酷，太子犯法时，他处罚了太子的师傅；又用计骗杀魏国将领公子卬，结下的怨家很多。秦孝公一死，太子即位，商鞅失去靠山。赵良劝过他，靠国君的宠信而居高位，危险得像清晨的露水，应当及早功成身退。商鞅不听。不久他被人告发谋反，出逃无路，起兵失败，被杀之后尸体又被车裂示众。
+    en: Shang Yang was a man of Wei, and his original name was Gongsun Yang. He was
+      fond of the study of law and punishment. He went to Qin, explained to Duke Xiao
+      the art of making a state strong, won his trust, and took charge of reforms.
+      He abolished the old field system, opened up new farmland, rewarded farming
+      and fighting, and held merchants down. He also brought in laws that punished
+      whole groups for one man's crime and set clear rewards for military merit. After
+      the new laws had run a few years, Qin was rich and strong and its armies were
+      powerful, and Shang Yang was given lands at Shang and Yu for his service. But
+      he enforced the law harshly. When the crown prince broke the law, he punished
+      the prince's tutor. He also used a trick to kill Gongzi Ang, a general of Wei,
+      and made many enemies. As soon as Duke Xiao died and the crown prince took the
+      throne, Shang Yang lost his backing. Zhao Liang had warned him that to hold
+      high office on a ruler's favor alone was as dangerous as morning dew, and that
+      he should step back while his work was done. Shang Yang did not listen. Soon
+      he was accused of treason, had nowhere to flee, raised troops and failed, and
+      after he was killed his body was torn apart in public.
+  poem_connection:
+    zh: 这一签写苦口相劝而不被听从，正扣签诗“总是前途莫心劳，求神问圣枉是多”。
+    en: Good advice given over and over and never taken fits a lot whose poem says
+      the road ahead is not worth worrying over and that asking gods and sages is
+      wasted effort.
+- title:
+    zh: 沛公項王鴻門相會
+    en: The Duke of Pei and the King of Chu Meet at Hongmen
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 秦朝灭亡的时候，刘邦的军队先进入关中。项羽率大军开到鸿门，准备攻打刘邦。项羽的叔父项伯与刘邦的谋士张良有旧交，连夜骑马赶去告知。刘邦就亲自到鸿门向项羽谢罪。宴席上，项羽的谋士范增几次举起玉玦，示意项羽下决心，项羽却不回应。范增又让项庄进帐舞剑，想趁机刺杀刘邦。项伯看出用意，起身用身体遮住刘邦。张良出帐叫来樊哙。樊哙手持剑盾闯进帐中，站着喝下一大杯酒，吃下一条猪腿，说话慷慨，项羽也为之动容。刘邦趁隙借口上厕所离席，由樊哙护着跑回霸上，留下张良献上玉璧谢罪，这场会面就此结束。会后项羽进入咸阳，焚烧宫室，分封诸侯，自立为西楚霸王，刘邦受封为汉王。
+    en: When the Qin dynasty fell, Liu Bang's army was the first to enter the passes
+      into the heartland. Xiang Yu led a great army to Hongmen and prepared to attack
+      Liu Bang. Xiang Yu's uncle Xiang Bo was an old friend of Liu Bang's adviser
+      Zhang Liang, and rode through the night to warn him. Liu Bang went in person
+      to Hongmen to apologise to Xiang Yu. At the feast, Xiang Yu's adviser Fan Zeng
+      raised a jade ring several times, meaning that Xiang Yu should make up his mind,
+      but Xiang Yu gave no answer. Fan Zeng then had Xiang Zhuang come in and dance
+      with a sword, hoping to kill Liu Bang. Xiang Bo saw the intent, rose, and shielded
+      Liu Bang with his own body. Zhang Liang went out of the tent and called Fan
+      Kuai. Fan Kuai came in with sword and shield, stood and drank a large cup of
+      wine, ate a leg of pork, and spoke with such spirit that Xiang Yu was moved.
+      Liu Bang took the chance to leave on the excuse of going to the privy, and guarded
+      by Fan Kuai he ran back to Bashang, leaving Zhang Liang to present a jade disc
+      and apologise. The meeting ended there. Afterwards Xiang Yu entered Xianyang,
+      burned the palaces, enfeoffed the lords, and made himself King of Western Chu,
+      while Liu Bang was enfeoffed as King of Han.
+  poem_connection:
+    zh: 签诗说求神问圣枉是多，但看鸡犬日过后。席上举玦、舞剑的算计都没能成事，正合这一层。
+    en: The lot poem says asking gods and spirits is all in vain, and to watch for
+      the day the fowl and dogs pass. The raised ring and the sword dance at the feast
+      all came to nothing.
+- title:
+    zh: 木蘭代父從軍
+    en: Mulan Takes Her Father's Place in the Army
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 木兰的事写在北朝的一首乐府长诗里。诗里说可汗大点兵，可汗是北方君主的名号；征兵的名册一册一册发下来，每一册上都有她父亲的名字。木兰没有长兄，父亲年纪又大，她就自己买鞍买马，换上男子的装束，代父亲去从军。她在军中转战多年，回来见天子。天子论功行赏，要授她尚书郎的官职，她不肯受，只求回家。到了家，她脱下战时的袍子，换上从前做姑娘时的衣裳，出门去看一同回来的伙伴，伙伴们都吃了一惊。同吃同住走了十二年，才知道木兰是个女子。诗里没有写她后来怎样，后世的戏里给她补出封官、成婚等情节，都不是诗里有的。
+    en: Mulan's story is written in a long ballad of the Northern Dynasties. The ballad
+      says the khan, which is the title of a northern ruler, was calling up a great
+      levy. The conscription rolls came out one after another, and on every roll was
+      her father's name. Mulan had no elder brother, and her father was an old man.
+      She bought a saddle and a horse herself, changed into men's dress, and took
+      her father's place in the army. She fought in the ranks for several years and
+      came back to see the Son of Heaven. The Son of Heaven ranked the service and
+      gave out rewards. He meant to give her the post of Director of the Bureau, which
+      she would not accept, asking only to go home. At home she took off the robe
+      she had worn in the field and put on the clothes she had worn as a girl. She
+      went out to see the comrades who had come back with her, and they were astonished.
+      Twelve years of eating and living together, and only then did they learn that
+      Mulan was a woman. The ballad does not say what became of her later. Plays of
+      later ages add offices and a marriage, none of which is in the ballad.
+  poem_connection:
+    zh: 签诗说“总是前途莫心劳，求神问圣枉是多”，与木兰不居功、不受赏、事完就回家的口气相贴。
+    en: The poem says not to labor the mind over the road ahead, and that asking gods
+      and sages is all in vain; Mulan took no credit, took no reward, and went home
+      when the work was done.
+- title:
+    zh: 王昭君出塞和番
+    en: Wang Zhaojun Goes Beyond the Frontier as a Peace Bride
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王昭君名嫱，是南郡秭归人，秭归在今天的湖北。汉元帝时，她以良家女子的身份被选进后宫。当时匈奴的单于呼韩邪来朝，请求和亲。和亲就是汉朝把宗室女子或宫女嫁过去，换得边境安定。汉元帝下令从宫女的名单里挑人赐婚，昭君自愿前往。临行的宴会上，她打扮得光彩照人，一座皆惊，元帝见了大为后悔，可是话已出口，收不回来。昭君到了匈奴，称为宁胡阏氏。呼韩邪死后，他的前妻所生的儿子想照匈奴的习俗娶她。昭君上书请求回汉，成帝命她依从当地习俗，她只好再嫁。民间还说，画工没有收到她的贿赂，把她画丑了，她才一直见不到皇帝。
+    en: Wang Zhaojun, whose given name was Qiang, was from Zigui in Nan commandery;
+      Zigui is in present-day Hubei. In the time of Emperor Yuan of Han she was chosen
+      for the inner palace from among respectable families. At that time the Xiongnu
+      chief Huhanye came to court and asked for a marriage alliance. A marriage alliance
+      meant that the Han court married a woman of the imperial clan or a palace woman
+      to the Xiongnu in exchange for a quiet frontier. Emperor Yuan ordered a woman
+      chosen from the list of palace women and given in marriage, and Zhaojun asked
+      to go. At the farewell banquet she dressed so brightly that the whole room was
+      astonished. The emperor saw her and deeply regretted it, but the words had been
+      spoken and could not be taken back. When Zhaojun reached the Xiongnu she was
+      given the title Ninghu Yanzhi, given to a chanyu's wife. After Huhanye died,
+      the son of his former wife wanted to marry her, following Xiongnu custom. Zhaojun
+      sent a memorial asking to return to Han. Emperor Cheng ordered her to follow
+      local custom, and she had to marry again. It is also said that a court painter
+      was not bribed by her, so he painted her ugly, and that was why she never saw
+      the emperor.
+  poem_connection:
+    zh: 签诗“总是前途莫心劳”“但看鸡犬日过后”，远行在即而心事难言，正对辞汉出塞。
+    en: The lot's poem says not to labor the heart over the road ahead, and to look
+      past the days of the fowl and the dog. A long journey at hand fits leaving Han
+      for the frontier.
+- title:
+    zh: 胡鳳嬌觀音寺行香求懺
+    en: Hu Fengjiao Burns Incense and Seeks Forgiveness at the Guanyin Temple
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事出在闽南和台湾一带的讲古里。唐朝有位太子叫李旦。李旦遭武则天的迫害，流落民间，改名马进兴，在一户姓胡的人家当长工。武则天是唐朝的女皇帝。他在胡家做事，和胡员外的侄女胡凤娇相识，彼此有意，订下了婚约。没过多久，马进兴接到一批前朝忠臣的邀请，要迎请太子到翠云山去起事。他不得不向凤娇辞行，一个人走了。凤娇独自守着空房。她的婚事又被人看上，有人打她的主意。她心里放不下，便备好香烛鲜花，到观音寺去烧香求忏。行香就是到庙里进香。求忏是向神明陈说心意、祈求宽解。她在佛前祈求神明护佑。这一签说总是前途莫心劳，又说求神问圣枉是多，正配凤娇到观音寺烧香、而事情终究难以挽回的一段。
+    en: This story comes from the storytelling of southern Fujian and Taiwan. There
+      was a crown prince in the Tang named Li Dan. Li Dan suffered persecution at
+      the hands of Wu Zetian, drifted among the common people, changed his name to
+      Ma Jinxing, and worked as a hired hand in the household of the Hu family. Wu
+      Zetian was the empress who took the Tang throne. While he worked for the Hu
+      family he came to know Hu Fengjiao, the niece of the master of the house. Each
+      was drawn to the other, and they agreed to marry. Not long after, Ma Jinxing
+      received an invitation from loyal ministers of the former dynasty to escort
+      the crown prince to Mount Cuiyun and raise a rising there. He had to take leave
+      of Fengjiao, and went off alone. Fengjiao kept the empty room by herself. Her
+      marriage was wanted by others too, and someone had designs on her. She could
+      not put the matter out of her mind, so she prepared incense, candles and flowers
+      and went to the Guanyin Temple to burn incense and seek forgiveness. Incense-going
+      is the practice of entering a temple to make offerings. To seek forgiveness
+      is to set out one's heart before the gods and ask for relief. She prayed before
+      the Buddha for protection.
+  poem_connection:
+    zh: 这一签说总是前途莫心劳、求神问圣枉是多，正配凤娇往观音寺行香求忏而事终难回的一段。
+    en: This lot says not to wear out the heart over what lies ahead, and that asking
+      gods and sages is in vain - Fengjiao at the Guanyin Temple with her incense,
+      and the matter past turning back.

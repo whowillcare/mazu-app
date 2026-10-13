@@ -1,0 +1,466 @@
+id: 41
+lot_number: 41
+ganzhi:
+  zh: 庚申
+  pinyin: Geng-shen
+title:
+  en: Shanbo Visits Yingtai
+  zh: 山伯探英台
+hexagram:
+  zh: 风天小畜
+  name_and_structure_en: Xiaoxu (Wind over Heaven)
+  binary_code: ○○●○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 山伯探英台
+    en: Shanbo Visits Yingtai
+  variants_en:
+  - Meng Jiangnü Marries Wan Qiliang
+  - Wang Yueying Brings Trouble Through Desire
+  - Wuniang Falls Ill with Longing
+  - Wuniang and Yichun Strike Down the Lychees
+  - Li Gu Stains His Robe with Willow Sap
+  - Taizu of Song Shelters from the Heat at the Du Estate
+  - Li Biao Seizes an Office
+  variants_zh:
+  - 孟姜女嫁萬啟良
+  - 王月英為色引禍
+  - 五娘病相思
+  - 五娘益春打荔枝
+  - 李固柳汁染衣
+  - 宋太祖杜家莊避暑
+  - 李彪奪官
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'guarded across most categories - 作事 難成／求財 難／功名 無／求兒 不可／行舟 無財可得／六畜 不好／魚苗
+      不好／月令 不遂 - with one strong door open: 凡事 和者吉／婚姻 夙世結成雙／官事 勝局／家運 漸得平安 (jie_yue_score
+      10)'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'In most of its categories the temple judgements keep to a guarded line
+      - money, advancement, sea work, livestock, fry and the month''s entry all point
+      the same way - while the general entry, marriage, legal affairs and the household
+      keep a light on. Whether the lot turns out well hangs on harmony: the judgement
+      attaches the whole reading to amiability rather than to the season. A level
+      lot, read protect-first.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（庙本解曰原文，照抄）：凡事 和者吉／作事 難成／家事 克振家聲／家運 漸得平安／婚姻 夙世結成雙／求兒 不可／六甲
+      得添弄璋／求財 難。酉戌日即成／功名 無／治病 拖尾。戌日不畏／出外 東北方好／經商 遲有利／行舟 無財可得／官事 勝局／六畜 不好／耕作 平平有利／討海
+      無利時待／魚苗 不好／月令 不遂／遠信 酉戌日至。总评：平和偏守（jie_yue_score 10）——多数类目取守，惟凡事「和者吉」、婚姻「夙世結成雙」、官事「勝局」、家事「克振家聲」四处留亮。正面的开关系在「和」上，不在时节上。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在多数类目上取守势，求财、功名、行舟、六畜、鱼苗、月令都指向同一个方向；同时凡事、婚姻、官事与家事四项留有亮处。正面与否系在「和」上——判词把整签挂在和气之上，而不是挂在季节上。这是一支吉凶相半的平签，按先保护后行动读。
+provenance:
+  editorial_note: '*the temple list carries the same tale under a different name:
+    掩雞拖木屐三伯探英台; its other story is 王小姐為色事到禍審英月.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 今行到此實難推，
+    en: Having come this far, it is hard indeed to set the matter aside;
+  - line_number: 2
+    zh: 歌歌暢飲自徘徊，
+    en: singing and drinking freely, one still paces back and forth alone;
+  - line_number: 3
+    zh: 雞犬相聞消息近，
+    en: cocks and dogs are heard from nearby - news is close;
+  - line_number: 4
+    zh: 婚姻夙世結成雙。
+    en: a marriage made in former lives is joined into a pair.
+keywords:
+  favourable:
+    en:
+    - harmony as the deciding note
+    - a bond from former lives
+    - good company and long dinners
+    - news arriving nearby
+    zh:
+    - 和气才是决定的那一笔
+    - 夙世的情分
+    - 好伴与长席
+    - 消息从近处来
+  guarded:
+    en:
+    - forcing what cannot be forced
+    - the effort that will not finish
+    - chasing earnings that stay out of reach
+    - doubt at the moment of arrival
+    zh:
+    - 去推推不动的事
+    - 做不完的那份工夫
+    - 追够不着的进项
+    - 到了跟前反而起疑
+reading_notes:
+- term: 歌歌暢飲
+  pinyin: gē-gē-chàng-yǐn
+  en: 'singing songs and drinking freely: feasting in good company and taking comfort;
+    the line may equally read as a caution about excess, since one is still pacing
+    alone.'
+  zh: 既是与好伴同席、彼此宽慰，也可能反面读作对过量的提醒——因为人还在独自徘徊。两义都在。
+- term: 雞犬相聞
+  pinyin: jī-quǎn-xiāng-wén
+  en: 'cocks and dogs can hear one another: neighbours near enough to hear each other''s
+    animals; news coming from close at hand; the closeness itself is the sign, not
+    any single message.'
+  zh: 既是邻里近到能听见彼此的鸡犬，也是消息就出自近处；要紧的是这份「近」，不是某一封信。
+- term: 夙世
+  pinyin: sù-shì
+  en: 'former lives, the long ago: a match that feels older than this one meeting;
+    a way of speaking of deep affinity, rather than a claim about rebirth.'
+  zh: 既是说这桩姻缘像比这一次相遇更早就在了，也是一种说深厚缘分的讲法，不等于对转世的论定。
+plain_meaning:
+  en: 'A season that asks for harmony and patience: the practical work cannot be forced,
+    and much of what you want to earn or build stays out of reach for now, while a
+    bond between people is deeply supported. Sing, drink, keep good company, and let
+    the news come to you - progress here is measured in patience, not in pressure.'
+  zh: 这是一季要靠和气与耐心的时节：实事硬推不动，想挣、想建的大半眼下够不着，而人与人之间的一份情分受得很实。唱歌、喝酒、交好伴，让消息自己到你面前来——这一签的进境算的是耐心，不是力气。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Does my partner secretly love someone else?
+    zh: 我的伴侣是不是偷偷喜欢别人？
+  rewritten_to:
+    en: What should I bring to this bond this season, and what should I leave time
+      to show?
+    zh: 这一季我该给这份情分带去什么，又该把什么留给时间自己显出来？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 原问牵涉第三人的隐私，改为把着力点放回自己这一侧。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: 'The one strong note: a bond that feels old is well supported. Give it time
+      and good company, not pressure.'
+    zh: 签里最亮的一笔：一份像早就在的情分受得很实。给它时间与好伴，不要给它压力。
+    compliance_tag: null
+  career:
+    en: The work does not come together now; hold your ground and postpone the launch.
+    zh: 事情眼下合不拢；守住原地，把上马往后放。
+    compliance_tag: null
+  money:
+    en: Earnings are hard to force this season and the water trade brings no gain;
+      wait for the days this lot names. (Not financial advice.)
+    zh: 这一季进项硬求不来，水上生意也没有进益；判词点的那几日再等。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: This one takes its time to clear; keep to ordinary care and see a qualified
+      professional rather than waiting it out. (Not medical advice.)
+    zh: 这一项是拖着走的；照常调养，并去找有资质的专业人士，不要干等。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household steadies slowly and its good name is revived; small home matters
+      come right.
+    zh: 家运是慢慢稳下来的，好名声重新立起；家里的小事会顺。
+    compliance_tag: null
+  travel_moving:
+    en: The north-east is called favourable; keep journeys small and local for now.
+    zh: 判词把东北方点作好方位；眼下出门以短、以近为宜。
+    compliance_tag: null
+  sea_and_voyage:
+    en: No profit on the water this season - wait rather than put out.
+    zh: 这一季水上没有进益——等，不要出船。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Fields are ordinary but workable; the animals and the fry do poorly, so keep
+      the stock you have.
+    zh: 田事平平但做得动；六畜与鱼苗都差，把手上已有的守着。
+    compliance_tag: null
+  timing:
+    en: Wait for the days the poem measures (you-xu); news and callers arrive then
+      - a window, not a date.
+    zh: 等签中点的那几日（酉、戌）：消息与来客在那时候到——是窗口，不是日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Forcing the undertaking; borrowing against an income that is slow.
+    zh: 硬推那一桩事；靠一份来得慢的收入去借。
+    compliance_tag: null
+  reassurance:
+    en: The poem keeps one door open - the bond between people - while the rest waits
+      on time. Let the slow parts be slow.
+    zh: 诗里留着一扇门——人与人之间的那份情分——其余交给时间。慢的地方就让它慢。
+    compliance_tag: null
+stories:
+- title:
+    zh: 山伯探英台
+    en: Shanbo Visits Yingtai
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 祝英台是个好学的女子。旧时女子不便出外读书，她只好改扮男装，离家从师。她与梁山伯同窗读书，同住三年，梁山伯一直没有看出她是女子。学业结束，两人分别，祝英台只说家中有个妹妹，约梁山伯日后上门来求亲。后来梁山伯到祝家探访，才知道祝英台本人就是女子，而祝父已经把女儿许配给马家。两人相见，事情已经迟了，终究不能成婚。梁山伯回去以后忧闷成病，不久死去。祝英台出嫁那天，路过他的坟前，墓门忽然打开，她就投身进去。后来民间说，两人化成了蝴蝶。
+    en: Zhu Yingtai was a girl who loved learning. In old times it was not easy for
+      a girl to study away from home, so she dressed as a boy and left home to seek
+      a teacher. She studied in the same school as Liang Shanbo and lived with him
+      for three years, and he never saw that she was a girl. When their studies ended
+      and the two parted, Zhu Yingtai only said she had a sister at home and asked
+      Liang Shanbo to come and ask for her hand one day. Later Liang Shanbo came to
+      the Zhu house to visit, and only then learned that Zhu Yingtai herself was the
+      girl. Her father had already promised her to the Ma family. The two met, but
+      by then it was too late, and they could not marry in the end. After Liang Shanbo
+      went home he fell into grief and sickness, and soon died. On the day Zhu Yingtai
+      was to be married, she passed by his grave, and the tomb door suddenly opened,
+      and she threw herself in. Later people said the two turned into butterflies.
+  poem_connection:
+    zh: 签诗说今行到此实难推，婚姻夙世结成双。山伯登门探访，事已迟了一步，正合“实难推”与“结成双”两句。
+    en: The lot poem says coming to this point is truly hard, and that the marriage
+      was joined in a former life. Shanbo visits and finds it a step too late.
+- title:
+    zh: 孟姜女嫁萬啟良
+    en: Meng Jiangnü Marries Wan Qiliang
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孟姜女的故事流传很广。最早的本事只讲杞梁战死，他的妻子不肯在郊外受吊；后来又有了她迎柩而哭的说法。再往后，这一段与秦始皇修长城连在一起，就成了孟姜女嫁万启良的故事：丈夫被征去修长城，久久不回来。孟姜女千里送寒衣，到了地方才知道丈夫已经死了，埋在城墙下面。她在城下哭，城墙塌了，她收殓了丈夫的骸骨，随后投水自尽。题名取的是婚配这一段。两人成亲没几天，官府就把他征去修长城。这一段写的是一个刚成家的女子，很快就要走上寻夫的路。
+    en: The story of Meng Jiangnu is very widely told. In the old tale Qi Liang died
+      in battle, and his wife would not accept condolence for him out in the open
+      country; in time she was joined to him at his coffin, and the thread of the
+      story was tied to the First Emperor's building of the Great Wall. So it became
+      the story of Meng Jiangnu marrying Wan Qiliang. The husband was called up to
+      build the Wall and did not come home for a long time. Meng Jiangnu carried winter
+      clothes a thousand li. Only when she reached the place did she learn that her
+      husband was dead and buried under the Wall. She wept below the Wall, the Wall
+      fell in, she gathered up her husband's bones, and afterwards drowned herself.
+      What the title takes is the stretch of the marriage. The two had been married
+      only a few days when the government took him off to build the Wall. This stretch
+      shows a woman who has just married and who is soon to set out on the road to
+      look for her husband.
+  poem_connection:
+    zh: 签诗说“婚姻夙世结成双”，与孟姜女嫁万启良、夫妻成配一节相应；“鸡犬相闻消息近”则与她循迹寻夫之事相贴。
+    en: The poem says the marriage was joined into a pair in a life before; Meng Jiangnu
+      marries Wan Qiliang and the two are matched, and news near at hand fits her
+      search along his tracks.
+- title:
+    zh: 王月英為色引禍
+    en: Wang Yueying Brings Trouble Through Desire
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 郭华是进京赶考的书生，与女子王月英互相爱慕。两人约定在元宵节的夜里到相国寺相会。元宵节是正月十五，夜里城里张灯，人人出门游玩。到了那晚，月英被家里的事绊住，赶去时已经迟了。郭华等得久了，醉倒在寺中，怎么叫也不醒。月英只好留下一只绣鞋和一方香罗帕，独自怅然回去。郭华醒来，看见鞋帕却不见人，一急之下竟昏死过去。后来包拯审这桩案子，凭绣鞋一路追查，查到王月英。月英到案，把前因后果说了出来，郭华竟因此苏醒过来。包公便判两人成婚。
+    en: Guo Hua was a scholar going to the capital for the examinations. He and a
+      woman named Wang Yueying were drawn to each other. They agreed to meet at the
+      Xiangguo Temple on the night of the Lantern Festival. The Lantern Festival falls
+      on the fifteenth day of the first month, when lanterns are hung through the
+      city and everyone goes out to enjoy them. That night, Yueying was held up by
+      family matters and arrived late. Guo Hua had waited a long time and was drunk
+      and asleep in the temple, and no calling could wake him. Yueying had to leave
+      one embroidered shoe and one scented silk kerchief and go home alone in disappointment.
+      When Guo Hua woke and saw the shoe and kerchief but no one there, he grew so
+      agitated that he fell down as if dead. Later Bao Zheng tried the case. Following
+      the embroidered shoe, he traced the matter to Wang Yueying. Yueying came to
+      court and told the whole story, and Guo Hua woke up. Bao Gong then ruled that
+      the two should marry.
+  poem_connection:
+    zh: 签诗末句“婚姻夙世结成双”“鸡犬相闻消息近”，正对这一桩由信物牵出的婚姻。
+    en: The last line of the lot's poem says a marriage was joined in a former life,
+      and that news is near when fowl and dog can hear each other. A marriage drawn
+      out by a token fits this case.
+- title:
+    zh: 五娘病相思
+    en: Wuniang Falls Ill with Longing
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事出在闽南和潮州一带。泉州有个书生叫陈三，字伯卿。他送兄嫂去广南，路过潮州，正赶上元宵灯市。元宵是正月里的灯节。他在灯市上遇见潮州黄家的五娘，两人彼此有意。五娘把一颗荔枝和一方手帕送给他，当作信物。陈三为了接近她，扮成磨镜的匠人进了黄家，又故意把黄家的一面宝镜打破，借此卖身做奴，留在府里。五娘早就许给了林大。林大是个只知吃喝玩乐的富家子弟。五娘心里属于陈三，却做不了主，相思成病，躺在床上。幸好有丫鬟益春从中帮忙。后来两人约好一起逃走。林家告到官府，几经周折，两人才成了夫妻。这一签说今行到此实难推，又说婚姻夙世结成双，正配五娘相思成病、终与陈三结为夫妻的一段。
+    en: This story comes from the region of southern Fujian and Chaozhou. A scholar
+      in Quanzhou called Chen San, whose courtesy name was Biqing, was escorting his
+      elder brother and his brother's wife to Guangnan. He passed through Chaozhou,
+      where he happened on the Lantern Market of the Yuanxiao festival. Yuanxiao is
+      the lantern festival in the first month. At the market he met the fifth daughter
+      of the Huang family of Chaozhou, known as Wuniang, and each was drawn to the
+      other. Wuniang gave him a lychee and a handkerchief as a token. To get close
+      to her, Chen San dressed as a mirror grinder and entered the Huang household,
+      then broke a precious mirror of the family on purpose. On that excuse he sold
+      himself as a servant and stayed in the house. Wuniang had long been promised
+      to Lin Da. Lin Da was a rich man's son who thought only of food, drink and pleasure.
+      Wuniang's heart belonged to Chen San, but she could not decide her own marriage,
+      and longing made her ill and kept her in bed. Luckily the maid Yichun helped
+      them. In the end the two arranged to run away together. The Lin family brought
+      a case before the officials, and after many turns the two became husband and
+      wife.
+  poem_connection:
+    zh: 这一签说今行到此实难推、婚姻夙世结成双，正配五娘相思成病、终与陈三结成夫妻的一段。
+    en: This lot says that coming to this point it is hard to refuse, and that the
+      marriage was joined in a former life - Wuniang sick with longing and in the
+      end married to Chen San.
+- title:
+    zh: 五娘益春打荔枝
+    en: Wuniang and Yichun Strike Down the Lychees
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 潮州在元宵节办灯会，黄五娘带着婢女益春一同登楼看灯。泉州的书生陈三从楼下经过。五娘与益春用手帕包了荔枝，掷下楼去相赠。陈三拾起荔枝，就留在潮州不走了。他本是送兄嫂去广南上任的过路人。后来陈三扮作磨镜子的工匠进黄府，卖身做奴三年，好接近五娘。益春在中间传话、出力，经过几番波折，两人终于成了婚。打荔枝说的就是掷荔枝这一段。这出戏在闽南、潮州一带流传很广，梨园、潮调、歌仔各班都有这一出，讲的多是这段因缘。
+    en: Chaozhou held a lantern fair at the Lantern Festival. Huang Wuniang took her
+      maid Yichun up a tower to look at the lanterns. The scholar Chen San, from Quanzhou,
+      passed by below. Wuniang and Yichun wrapped a lychee in a handkerchief and threw
+      it down to him as a gift. Chen San picked up the lychee and stayed in Chaozhou
+      instead of going on. He had been a traveler, escorting his brother and sister-in-law
+      to a post in Guangnan. Later Chen San dressed as a mirror-polisher. He entered
+      the Huang house and sold himself as a slave for three years, so as to be near
+      Wuniang. Yichun carried words between them and worked hard on their behalf.
+      After many twists, the two finally married. Striking down the lychee refers
+      to this moment of throwing the fruit. This play was widely known in southern
+      Fujian and in the Chaozhou region. Liyuan, Chao-diao, and Gezai troupes all
+      performed it, and it told mostly of this match.
+  poem_connection:
+    zh: 签诗“婚姻夙世结成双”，正合掷荔枝为信、终成婚配一事；“鸡犬相闻消息近”则取益春居中传信之意。
+    en: The poem says the marriage was joined as a pair in a former life, which fits
+      the thrown lychee as a token and the final wedding; that chickens and dogs hear
+      each other speaks of Yichun carrying word between them.
+- title:
+    zh: 李固柳汁染衣
+    en: Li Gu Stains His Robe with Willow Sap
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝有个读书人叫李固言，还没有考中功名。有一次他路过一棵老柳树，听到树上传来弹指的声音，就出声发问。树里有个声音回答，自称是柳树的精灵，名叫九烈君。它说已经用柳树的汁水染过他的衣裳，这一科考取不成问题；又说他将来穿上官服，要用枣糕来祭它。李固言答应了。这件事的兆头在于：柳汁把衣裳染成青色，而做官的人正穿青蓝色的官服，染上这种颜色就被看成得官的征验。没过多久，他果然考中状元，也就是科举考试的第一名。他后来一直做到宰相。
+    en: In the Tang dynasty there was a scholar named Li Guyan who had not yet passed
+      the examinations for office. One time he passed an old willow tree and heard
+      a snapping of fingers from the tree. He spoke up and asked who was there. A
+      voice in the tree answered, saying it was the spirit of the willow, named Lord
+      Jiulie. It said it had already stained his robe with willow sap, and that he
+      had no problem passing that year's examination. It also said that when he wore
+      official robes in the future, he should offer it date cakes. Li Guyan agreed.
+      The sign in this lay in one thing. The willow sap dyed the robe blue-green,
+      and officials wore blue-green robes, so taking that color was read as a mark
+      of gaining office. Before long he did take first place, the top place in the
+      imperial examination. In later years he rose as high as chief minister.
+  poem_connection:
+    zh: 签诗说消息近了，姻缘是前生定下的。柳神事先告知吉兆、日子已在眼前，与诗意相应。
+    en: The lot poem says the news is near, and that a marriage was settled in a former
+      life. The willow spirit told of the good sign in advance, with the day close
+      at hand.
+- title:
+    zh: 宋太祖杜家莊避暑
+    en: Taizu of Song Shelters from the Heat at the Du Estate
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 宋太祖赵匡胤是宋朝的开国皇帝。做皇帝以前，他爱在外面行走，结交四方豪杰。他为人豪爽，爱结交朋友。有一年，他路过一处叫杜家庄的地方。那时天气炎热，他就在庄上的一户人家住下来避暑。庄子里人家挨得近，鸡鸣狗叫的声音都能互相听到。他闲时和主人一同喝酒唱歌，随兴徘徊，过得自在。他在庄上住的这些日子，十分惬意。这一类故事讲的是他走访民间的见闻。杜家庄在哪里，庄上的主人是谁，流传下来的题目里都没有细说。人们只知道，他在杜家庄避过一回暑。
+    en: Zhao Kuangyin, Taizu of Song, was the founding emperor of the Song dynasty.
+      Before he became emperor he liked to travel about and make friends with bold
+      men in every quarter. He was open-handed and fond of company. One year he passed
+      a place called the Du Estate. The weather was hot, so he put up at a household
+      in the estate to escape the heat. The houses in the estate stood close together,
+      so that the crowing of cocks and the barking of dogs could be heard from one
+      to another. In his spare time he drank and sang with his host and wandered about
+      as he pleased, living at ease. The days he spent in the estate were most agreeable.
+      Stories of this kind tell what he saw and heard on his visits among the people.
+      Where the Du Estate was, and who the host was, are not told in detail in the
+      title that survives. People only know that he once escaped the heat at the Du
+      Estate.
+  poem_connection:
+    zh: 这一签说鸡犬相闻、消息相近，正配赵匡胤在杜家庄住下、与庄上人家同饮这一段。
+    en: This lot says cocks and dogs hear each other, and news travels between close
+      neighbors. It fits Zhao Kuangyin staying at the Du Estate and drinking with
+      the households there.
+- title:
+    zh: 李彪奪官
+    en: Li Biao Seizes an Office
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 陈光蕊是新科状元，带着妻子殷氏去上任，半路上被两个水贼刘洪和李彪害死。状元是科举考试里的第一名。刘洪冒用陈光蕊的名字，去做了那任官，李彪是他的同谋，一同分占好处。殷氏忍着屈辱留在贼人手里，生下儿子后，把孩子放在一块木板上，顺江漂走。孩子被金山寺的僧人救起，就是后来的玄奘。多年以后，玄奘寻访母亲，把实情告到官府，案子才弄清楚，刘洪和李彪各自按律治罪。题面上的“李彪夺官”，说的就是李彪参与冒占官职、后来被治罪的那一段。
+    en: Chen Guangrui was the top graduate of the new examinations. He set out with
+      his wife, Madam Yin, to take up his post. On the way two river bandits, Liu
+      Hong and Li Biao, killed him. The top graduate was first in the imperial examination.
+      Liu Hong took Chen Guangrui's name and went to hold the office in his place.
+      Li Biao was his accomplice and shared in the gains. Madam Yin endured the shame
+      and stayed in the bandits' hands. After she gave birth to a son, she set the
+      child on a wooden board and let it float down the river. A monk of the Jinshan
+      Temple rescued the child. He grew up to be Xuanzang. Many years later Xuanzang
+      sought out his mother and laid the facts before the authorities. Only then was
+      the case made clear. Liu Hong and Li Biao were each punished under the law.
+      The title's Li Biao seizes an office tells of the part where Li Biao helped
+      to take the post by fraud.
+  poem_connection:
+    zh: 这一签的签诗说走到这里推托不得，姑且饮酒徘徊，消息已经近了，婚事是前缘结成双。案子淹滞多年终得败露，正合“消息近”。
+    en: The poem says you cannot put things off here, so drink and linger; news is
+      near, and the marriage was joined by an earlier bond. The case lay buried for
+      years and came to light.
+- title:
+    zh: 王小姐為色事到禍審英月
+    en: Miss Wang Is Tried Over a Love Affair
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王月英在京城开胭脂铺。长安人郭华到京里参加会试，在铺子里见到她，借着买胭脂和她来往，留恋不去。两人约好元宵看灯那夜在寺里相会。到了那天，郭华先到，等得久了，自己先喝起酒来，醉倒不醒。月英来时见他睡得沉，叫也叫不醒，留下一只绣鞋做记号就走了。郭华醒来见到鞋，知道误了约期，悔恨之下拿东西塞口，几乎丧命。旁人看见那只绣鞋，就疑心月英害人，把她告到官府。案子经过审问，实情才弄清楚，两人后来结成夫妻。题面上说“为色事到祸”，指的就是这场因男女私情惹出的官司。
+    en: Wang Yueying kept a rouge shop in the capital. Guo Hua, a man of Chang'an,
+      came to the capital for the metropolitan examination. He saw her in the shop
+      and began to visit her on the excuse of buying rouge, and he lingered and would
+      not leave. The two agreed to meet in the temple on the night of the lantern
+      viewing at the Lantern Festival. When the day came, Guo Hua arrived first. He
+      waited so long that he began to drink by himself, and he drank himself senseless.
+      When Yueying came and saw him sleeping deeply, she could not wake him. She left
+      one embroidered shoe as a sign and went away. Guo Hua woke and saw the shoe,
+      and knew he had missed the agreed time. In his remorse he stuffed something
+      into his mouth and nearly lost his life. Bystanders saw the embroidered shoe.
+      They suspected that Yueying had done him harm, and they brought a charge against
+      her before the authorities. Only after the case was questioned and tried did
+      the truth come out, and the two afterward became husband and wife. The title's
+      trouble through an affair of desire points to this lawsuit.
+  poem_connection:
+    zh: 这一签的签诗说走到这里推托不得，姑且饮酒徘徊，消息已近，婚姻是前世的缘分成双。因情惹祸、经审断而成婚，正合此语。
+    en: The poem says you cannot put things off here, so drink and linger; news is
+      near, and the marriage was joined by an earlier bond. Trouble came of desire
+      and ended in marriage at the trial.
+- title:
+    zh: 掩雞拖木屐三伯探英台
+    en: Liang Shanbo Visits Yingtai in Secret
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 祝英台是富家的女儿，女扮男装出外求学，和梁山伯同学同处。两人同窗几年，一同读书、同吃同住，情谊很深。三伯是梁山伯在戏里的另一个称呼。后来梁山伯去探访祝英台，怕人察觉，进门前先把鸡按住，不让它叫，又拖着木屐慢慢走，用木屐的声音掩住脚步声。女扮男装这件事，祝英台一直没有说破。两人见面之后，才知道姻缘早已因为身份的隐瞒而错开。后来梁山伯病死，祝英台在出嫁的路上经过他的坟前，坟头裂开，她跳了进去，两人化作一对蝴蝶。
+    en: Zhu Yingtai was the daughter of a rich family. She dressed as a boy and went
+      out to study, and she and Liang Shanbo were classmates and shared the same rooms.
+      They studied together for several years, reading, eating, and living side by
+      side, and their friendship ran deep. Shanbo is called by another name in the
+      plays of this tale. Later Liang Shanbo went to visit Zhu Yingtai. Afraid of
+      being noticed, he held the chickens down before he went in so they would not
+      crow. He dragged his wooden clogs slowly along, using the sound of the clogs
+      to cover the sound of his steps. Zhu Yingtai had never said a word about her
+      disguise as a boy. When the two met, they understood that the match had long
+      since gone wrong because of the hidden identity. Later Liang Shanbo fell ill
+      and died. On the road to her wedding, Zhu Yingtai passed his grave. The mound
+      split open, and she threw herself in, and the two turned into a pair of butterflies.
+  poem_connection:
+    zh: 签诗说鸡犬相闻消息近、婚姻夙世结成双；三伯掩鸡拖屐前来探访，正扣这一层。
+    en: The poem says the sounds of chickens and dogs mean news is near, and that
+      the marriage was joined in an earlier life. Shanbo muffling the cock and visiting
+      fits.

@@ -1,0 +1,422 @@
+id: 56
+lot_number: 56
+ganzhi:
+  zh: 癸卯
+  pinyin: Gui-mao
+title:
+  en: Yang Jian Falls Ill in the Western Chamber
+  zh: 楊戩得病在西軒
+hexagram:
+  zh: 泽地萃
+  name_and_structure_en: Cui (Lake over Earth)
+  binary_code: ●○○●●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 楊戩得病在西軒
+    en: Yang Jian Falls Ill in the Western Chamber
+  variants_en:
+  - Wu Zetian Takes the Throne
+  - Wu Zetian Ends Tang and Proclaims Zhou
+  - Fan Shaobo Drifts on the Five Lakes
+  - Zhang Zifang Learns the Way
+  - Qin Hui Fakes the Gold Tablets to Deceive Prince Yue
+  - Yang the Official Falls Ill in the Western Chamber
+  - Emperor Zhuangzong Sets Out to Fight and Meets the Actor-Officers' Revolt
+  variants_zh:
+  - 武則天坐天
+  - 武則天去唐改周
+  - 范少伯泛舟五湖
+  - 張子房學道
+  - 秦檜假金牌騙岳王
+  - 楊官得病在西軒
+  - 唐莊宗親征遇伶官反
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative across the lot - 凡事 小心為要／作事 難成／婚姻 不可／求兒
+      不吉。無根基／求財 空無／功名 難望／經商 多勞辛苦／官事 拖尾。了錢／月令 不遂／作塭 失利無望／魚苗 無利了錢, with only 家事 門庭小吉
+      and 六甲 先女後男。無求必得 holding the other way (jie_yue_score -5)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: On this lot the temple book runs against the matter almost everywhere
+      — general affairs, undertakings, family fortune, marriage, children, income,
+      advancement, going out, trade, boats, moving house, livestock, building, graves,
+      sea work, ponds, fry, and the month's season; only the household line (a small
+      blessing on the door) and the child line (a daughter first, then a son) are
+      left open, and the legal line carries both delay and loss. We read it as unfavourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 小心為要／作事 難成／家事 門庭小吉／家運 平常罔居／婚姻 不可／求兒 不吉。無根基／六甲
+      先女後男。無求必得／求財 空無／功名 難望／歲君 頗安／治病 先凶後吉／出外 在家待時／經商 多勞辛苦／來人 半月到／行舟 無利益／移居 不好／失物 半月在／求雨
+      尚未／官事 拖尾。了錢／六畜 不可／耕作 平平。半收／築室 多逢疾病。不佳／墳墓 淡淡平平／討海 無利益／作塭 失利無望／魚苗 無利了錢／月令 不遂／尋人
+      信尚遠／遠信 音信耐候——整签偏负，唯 家事 門庭小吉 与 六甲 先女後男。無求必得 两项留有余地（jie_yue_score -5）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在总类、作事、家运、婚姻、求儿、求财、功名、出外、经商、行舟、移居、六畜、筑室、坟墓、讨海、作塭、鱼苗、月令等处都偏阻；唯「家事」门庭小吉、「六甲」先女后男两项留有余地，而「官事」一项兼具拖延与破耗。故列为本批的偏负一档。
+provenance:
+  editorial_note: '*the temple site carries no title list for this lot, and its prose
+    narrates 楊戩得病在西軒.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 病中若得苦心勞，
+    en: If illness lays a bitter toil on the heart;
+  - line_number: 2
+    zh: 到底完全總未遭，
+    en: and in the end nothing is brought through whole;
+  - line_number: 3
+    zh: 去後不須回頭問，
+    en: once gone, there is no need to turn back and ask;
+  - line_number: 4
+    zh: 心中事務盡消磨。
+    en: the matters in the heart are all worn away.
+keywords:
+  favourable:
+    en:
+    - resting while the season is low
+    - keeping the care close to home
+    - letting a finished matter close
+    - small allowances in the house
+    zh:
+    - 低潮里先歇着
+    - 把照看收在家里
+    - 让了结的事就此了结
+    - 家中宽容一些
+  guarded:
+    en:
+    - pressing a settlement that is not ready
+    - spending into a low season
+    - setting out from home
+    - turning back to re-argue an old thing
+    zh:
+    - 去逼一件还没成熟的了断
+    - 往低潮里花钱
+    - 从家里往外走
+    - 回头重翻旧账
+reading_notes:
+- term: 病中
+  pinyin: bìng-zhōng
+  en: 'in the midst of illness: a bodily illness that has someone laid up; any strain
+    that has a person out of action; the poem starts from the weak position, not the
+    strong one.'
+  zh: 既指真的卧病在床，也泛指让人动弹不得的劳累；诗句是从弱处起头，不是从强处起头。
+- term: 去後
+  pinyin: qù-hòu
+  en: 'after the going: after the matter has passed and can no longer be questioned;
+    after a person has left the household; the line declines to say which.'
+  zh: 既指事情已经过去、再问也问不出结果，也指人已经离开这个家；诗句没有点明是哪一层。
+- term: 消磨
+  pinyin: xiāo-mó
+  en: 'to rub away, to wear down: what is kept in the heart thins out by itself; the
+    same word describes energy spent on the affair wearing the person down; both sit
+    in the line.'
+  zh: 是把东西一点点磨掉：心事留在心里会自己变薄，同一个词也说耗在这件事上的力气把人磨损。两层都在这句诗里。
+plain_meaning:
+  en: 'A season with illness and strain in it: effort is spent, and the matter is
+    not brought through whole. The poem''s counsel is to stop turning back to interrogate
+    what is already past, and to let the worry in the heart wear itself out rather
+    than feeding it. Keep the care small and close to home, and wait on the season.'
+  zh: 这一段时节里带着病与操劳：力气花出去了，事情却没能完整地做成。诗里的话，是不必再回头追问已经过去的事，让心里那点挂虑自己磨掉，而不是一遍遍去喂它。把照看收小、收在家里，等时节过去。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is this lot bad news for my mother?
+    zh: 这签对我母亲是不是坏消息？
+  rewritten_to:
+    en: What should I watch over while the season is low, and what can I leave alone?
+    zh: 在低潮的时节里，我该看住什么、又可以把什么放下？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 原问法涉及第三方（母亲）的隐私，也落在是非吉凶上，改为可看住、可放下的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The judgement does not allow a bond to be pushed now. Keep what already exists
+      warm rather than opening anything new.
+    zh: 婚姻一项读作此时不可——姻缘不在这时候去推。把已有的关系焐着，不要新开一段。
+    compliance_tag: null
+  career:
+    en: The plan does not come off this season. Hold your position and finish what
+      is already in hand.
+    zh: 作事一项走不通——这一季的计划落不了地。守住位置，把手头已经接下的事收尾。
+    compliance_tag: null
+  money:
+    en: Pushing brings nothing in. Hold reserves and put no new commitments on the
+      table. (Not financial advice.)
+    zh: 求财一项是空的——硬推也进不来。留住储备，别把新的承诺摆上桌。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The line runs hard first and eases later; take symptoms to a qualified professional
+      rather than waiting them out at home. (Not medical advice.)
+    zh: 身体上的事先苦后转——路子开头硬、后面松；有症状要去找有资质的专业人士看，不要留在家里等它自己过去。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is the one bright line here. Put your effort indoors and do
+      not carry outside quarrels in.
+    zh: 家事一项门庭小吉——家是这一签里唯一的亮处。力气往里放，别把外面的争执带进门。
+    compliance_tag: null
+  travel_moving:
+    en: Stay in place and keep to your own house while the season is low.
+    zh: 出外宜在家待时，移居一项也不好——时节低的时候留在原地，守着自己的家。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water pays nothing this season; bring the boats in.
+    zh: 行舟与讨海两处，水上都不见回报——这一季把船收回来。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Work from what is already stored rather than enlarging the venture.
+    zh: 耕作平平、只收一半，作塭与鱼苗两处也见不到好处——靠已经存下的过日子，别把摊子铺大。
+    compliance_tag: null
+  timing:
+    en: Not now. The poem waits on the season turning, and no date is given.
+    zh: 月令一处偏逆——不是现在。诗等的是时令转过来，不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Turning back to interrogate a matter that is already past; forcing a marriage
+      or a settlement.
+    zh: 回头去追问一件已经过去的事；硬把婚姻或一桩了断推到结论上。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety, illness or money worry, please speak to someone you trust or
+      to a qualified professional.
+    zh: 这里说的是一段艰难的时节，不是预告有祸。若这段解读触动了你的焦虑、身体或钱财上的担心，请去找你信得过的人或有资质的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 楊戩得病在西軒
+    en: Yang Jian Falls Ill in the Western Chamber
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签的故事题作“杨戬得病在西轩”，讲的是一个叫杨戬的人，病倒在西边的屋子里。杨戬这个名字，常见的有两个人。一个是民间供奉的二郎神，出现在讲神怪的小说和戏曲里；另一个是北宋徽宗时的宦官，史书里有传，他做过节度使，管过财赋。这两个人都没有病居西轩的事。题里的杨戬，既然病卧在西边的屋子里，就同上面两人都不相合，或许另有一部小说或戏曲，可是这个人、这部书都查不实。这一签别处也没有相关的条目可以参考。所以这一条只照题面讲明杨戬病卧西轩，不另编造情节。签诗首句说“病中若得苦心劳”，用的正是病中困顿的意思。
+    en: This lot's story is titled Yang Jian Falls Ill in the Western Chamber. It
+      tells of a man named Yang Jian who falls ill in a room on the west side. Two
+      men commonly bear the name Yang Jian. One is Erlang Shen, worshipped among the
+      people and a figure in tales about gods and monsters. The other is a eunuch
+      of Emperor Huizong of the Northern Song, who held high office then; he served
+      as a regional commander and managed the finances. Neither of these two is said
+      to have lain ill in a western chamber. The Yang Jian of this title, since he
+      lies sick in a west-side room, fits neither of them. Perhaps he belongs to another
+      novel or play, but neither the man nor the book can be checked. This lot has
+      no related entry elsewhere to consult. So this entry only sets out, by its title,
+      that Yang Jian lies ill in the western chamber, and adds no plot. The first
+      line of the lot's poem says that in sickness, if one can bear the bitter toil.
+      It uses exactly the sense of being stuck in illness.
+  poem_connection:
+    zh: 签诗首句就是“病中若得苦心劳”，故配杨戬得病西轩一事，取病中困顿、不问前因之意。
+    en: The poem's first line is that in sickness, if one can bear the bitter toil,
+      so it is paired with Yang Jian falling ill in the western chamber, taking the
+      sense of being stuck in illness, the cause unknown.
+- title:
+    zh: 武則天坐天
+    en: Wu Zetian Takes the Throne
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 武则天是并州文水人。她年轻时进宫，做了唐太宗的才人，也就是宫里品级较低的妃嫔。太宗死后，她出家做尼姑，后来被唐高宗接回宫中，立为皇后。高宗晚年多病，朝政多由武则天裁决，当时被称为二圣。高宗死后，她先后废掉中宗和睿宗，自己临朝执政，最后把国号唐改成周，自称皇帝，是中国历史上唯一的女皇帝。她在位时用过酷吏，也选拔人才，开设科举。晚年她病重，宰相张柬之等人发动政变，拥立中宗复位，恢复唐室。她死后和高宗合葬，陵前立了一块无字碑。
+    en: Wu Zetian was a woman of Wenshui in Bingzhou. She entered the palace young
+      and became a junior consort of Emperor Taizong of Tang, a woman of lower rank
+      among the palace consorts. After Taizong died she left home and became a nun.
+      Later Emperor Gaozong brought her back into the palace and made her empress.
+      In Gaozong's later years he was often ill, and Wu Zetian decided most affairs
+      of state, and at the time the two were called the two sages. After Gaozong died
+      she set aside Emperor Zhongzong and then Emperor Ruizong, and took the government
+      into her own hands. At last she changed the name of the state from Tang to Zhou,
+      called herself emperor, and became the only woman emperor in Chinese history.
+      While in power she used cruel officials, and she also selected able men and
+      opened up the examinations. In her late years she fell gravely ill. Chief minister
+      Zhang Jianzhi and others carried out a coup, put Zhongzong back on the throne,
+      and restored the Tang house. After her death she was buried with Gaozong, and
+      a blank stone was set before the tomb.
+  poem_connection:
+    zh: 签诗说事情过去之后不必再回头问。武则天晚年退位、武周告终，这一段正合这个情境。
+    en: The lot poem says that once a matter is past there is no need to look back
+      and ask again. Wu Zetian's late abdication and the end of her Zhou fit that
+      setting.
+- title:
+    zh: 武則天去唐改周
+    en: Wu Zetian Ends Tang and Proclaims Zhou
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 武则天本是唐太宗的才人。太宗死后，她出家做了尼姑，后来又回到宫中。她做了高宗的昭仪，再被立为皇后，和高宗一起处理朝政。高宗死后，她先后废掉中宗、睿宗，自己临朝执政。天授年间，群臣劝她称帝，她接受圣神皇帝的尊号，把国号改为周。她定都洛阳，称为神都，又追尊武家的祖先。唐朝的国号和宗庙，从此和她分开，历史上把这一段叫作武周。她当政几十年，晚年张柬之等人发动宫中的变故，逼她把皇位传给太子李显。中宗复位，恢复唐朝的国号，唐朝又延续下去。
+    en: Wu Zetian was at first a lady-in-waiting of Emperor Taizong of Tang. After
+      Taizong died she left home and became a nun, and later returned to the palace.
+      She became a consort of Emperor Gaozong and then was made empress, and handled
+      state affairs together with him. After Gaozong died she deposed Emperor Zhongzong
+      and then Emperor Ruizong, and took the government into her own hands. In the
+      Tianshou era the ministers urged her to take the throne. She accepted the title
+      of Holy and Divine Emperor and changed the name of the state to Zhou. She made
+      Luoyang her capital, calling it the Divine Capital, and gave posthumous honors
+      to her own Wu ancestors. The name and ancestral temple of the Tang were from
+      then on separate from her, and history calls this stretch the Wu Zhou. She ruled
+      for several decades, and in her late years Zhang Jianzhi and others staged a
+      coup in the palace and forced her to pass the throne to the heir Li Xian. Emperor
+      Zhongzong returned to the throne, the name Tang was restored, and the Tang line
+      went on.
+  poem_connection:
+    zh: 这一签说去后不须回头问，正配武则天改唐为周、把旧国号放下这一段。
+    en: This lot says after going, there is no need to turn back and ask. It fits
+      Wu Zetian changing Tang to Zhou and setting the old state name aside.
+- title:
+    zh: 范少伯泛舟五湖
+    en: Fan Shaobo Drifts on the Five Lakes
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 范蠡字少伯，是楚国宛地人，在越王句践手下做事二十多年。他帮助句践忍辱图强，终于灭掉吴国。灭吴之后，范蠡认为句践这个人可以同患难，却不能同安乐，就辞官离开，泛舟在五湖之上。五湖就是太湖一带的湖泊。他改名换姓，自称鸱夷子皮，在海边种地，积累了数千万家产。齐国人听说他贤能，请他做宰相。他觉得长久享有尊贵的名声不吉利，就归还相印，把家财分给朋友和乡邻，带着贵重的东西走了，最后定居在陶地，自称陶朱公。他做买卖、置产业，终于成为巨富。
+    en: Fan Li, styled Shaobo, was a man of Wan in Chu and served under King Goujian
+      of Yue for more than twenty years. He helped Goujian endure humiliation and
+      build his strength, until at last they destroyed the state of Wu. After Wu fell,
+      Fan Li judged that Goujian could share hardship but not share peace. So he gave
+      up office and left, drifting in a boat on the Five Lakes. The Five Lakes are
+      the lakes around Lake Tai. He changed his name and called himself Chiyi Zipi.
+      He farmed by the sea and built up a fortune of tens of millions. The people
+      of Qi heard of his worth and asked him to be chancellor. He thought it unlucky
+      to hold a noble name for long. So he returned the seal of office, gave his wealth
+      to friends and neighbours, and left with his valuables. At last he settled in
+      Tao, calling himself Tao Zhu Gong. He traded and built up property and became
+      a very rich man.
+  poem_connection:
+    zh: 这一签的签诗说病中若肯苦心操劳，到头来总还周全，离开之后不必回头再问，心里的事都消磨了。范蠡功成舍位而去，一去不回头。
+    en: The poem says if in sickness you work hard at it, in the end all comes whole;
+      once gone, there is no need to ask again. Fan Li left office when his work was
+      done and did not look back.
+- title:
+    zh: 張子房學道
+    en: Zhang Zifang Learns the Way
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 张子房就是张良。他辅佐刘邦平定天下，以功劳封为留侯。汉朝初年，开国的功臣多半没能善终，韩信、彭越、英布都先后被杀。张良体弱多病，就学辟谷、导引这类养身的功夫。辟谷是不吃五谷，导引是调息运气、活动身子，都是当时讲求长生的做法。他闭门不出，谢绝来往应酬。他曾说自己愿意抛开人间的事，跟随赤松子去云游。赤松子是古时传说中的仙人。后来吕后感激他出力保全了太子，硬劝他进食，张良不得已，勉强吃了。他晚年的行迹，越到后来知道的人越少，后人便说他是跟着赤松子去了，从此得道而走。
+    en: Zhang Zifang was Zhang Liang. He helped Liu Bang bring the realm to order
+      and was enfeoffed as Marquis of Liu for his service. In the early years of the
+      Han, most of the founding ministers did not come to a good end. Han Xin, Peng
+      Yue, and Ying Bu were killed one after another. Zhang Liang was frail and often
+      ill, so he took up practices such as grain avoidance and guided exercise. Grain
+      avoidance meant not eating the five grains. Guided exercise meant steadying
+      the breath, moving the body, and keeping the vital force in order. Both were
+      ways of seeking long life in that time. He shut his door and declined all visiting
+      and social duties. He once said that he wished to set aside the affairs of the
+      world and wander with Master Red Pine, a legendary immortal of old. Later Empress
+      Lü, grateful that he had worked to keep the heir safe, pressed him to eat, and
+      Zhang Liang had no choice but to eat a little. As the years went on fewer and
+      fewer people knew where he was. Later generations said he had gone off with
+      Master Red Pine and left the world as one who had attained the Way.
+  poem_connection:
+    zh: 签诗说去后不须回头问、心中事务尽消磨；张良功成学道自处，正合谢事去累这一层。
+    en: The poem says that after going there is no need to look back and ask, and
+      that the affairs of the heart are all worn away. Zhang Liang stepped aside after
+      success, which fits.
+- title:
+    zh: 秦檜假金牌騙岳王
+    en: Qin Hui Fakes the Gold Tablets to Deceive Prince Yue
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 岳飞，字鹏举，是南宋抗金的名将。他带兵北伐，接连打胜仗，一直打到朱仙镇，河北一带的豪杰纷纷响应，金人一度打算往北撤退。岳飞很高兴，对部下说，要一直打到黄龙府，再和大家痛饮一场。这时宰相秦桧主张和议，知道岳飞一心要收复失地，战事一起，和议就难以谈成。岳飞一天之内接到十二道金字牌，命他撤兵回朝。他朝东拜了两拜，说十年之功废于一旦。回朝以后，他被解除兵权，不久被人诬告下狱，和儿子岳云、部将张宪一同死在风波亭。民间把他的死演成秦桧假传诏旨、用金牌把岳飞骗回来的情节。
+    en: Yue Fei, whose courtesy name was Pengju, was a famous general of the Southern
+      Song who fought the Jin. He led his troops north and won battle after battle,
+      reaching Zhuxian Town. Men of worth in the Hebei region answered his call, and
+      the Jin were once ready to pull back north. Yue Fei was glad, and told his officers
+      that they would fight on to Huanglongfu and drink together there. At this point
+      Qin Hui, the chief minister, favored a peace agreement. He knew that Yue Fei
+      was set on recovering the lost land, and that once fighting began no agreement
+      could be reached. In a single day Yue Fei received twelve gold tablets ordering
+      him to withdraw and return to court. He bowed twice toward the east and said
+      that ten years of work was lost in a morning. After he returned he was stripped
+      of command. Before long he was falsely accused and thrown in prison. He was
+      put to death at the Fengbo Pavilion along with his son Yue Yun and his officer
+      Zhang Xian. In popular telling, his death became a story of Qin Hui forging
+      an order and tricking Yue Fei back with gold tablets.
+  poem_connection:
+    zh: 这一签写苦心经营而功业终究消散，正扣签诗“病中若得苦心劳”“心中事务尽消磨”。
+    en: Long labor and patient effort that comes to nothing in the end fits a lot
+      whose poem speaks of work done in sickness and of the affairs in a man's heart
+      wearing away.
+- title:
+    zh: 楊官得病在西軒
+    en: Yang the Official Falls Ill in the Western Chamber
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 旧时有个叫杨官的人，得了一场病，躺在西厢的一间屋子里养病。西轩是正屋西边的一间小屋，古时常用作读书或静养的地方。他不算重病，却总断不了根，一日一日地熬着。病拖了很久，一直不见好。题名里的名字也写作杨戬，指的是神怪故事里的一个人物，两种写法说的是同一件事。至于他姓什么、做什么、病从哪里来，故事里都没有再讲，只留下他卧病西轩这一节。签诗说，病中若得苦心劳，到底完全总未遭；去后不须回头问，心中事务尽消磨。卧病的人，正是这样一段日子。
+    en: 'Long ago there was a man called Yang the Official. He fell ill and lay in
+      a room to the west to recover. The western chamber is a small room west of the
+      main house, often used in old times for study or quiet rest. His illness was
+      not grave, yet it never left him at the root, and he got through one day after
+      another. The sickness dragged on a long time and never improved. The name is
+      also written Yang Jian in some tellings, which points to a figure in tales of
+      gods and monsters. What surname he had, what he did, and where the illness came
+      from, the story never says again. It leaves only this: he lay ill in the western
+      chamber. The lot poem says that in sickness, if one is willing to endure hardship,
+      one comes through in the end. It also says that after going one need not turn
+      back and ask, and the matters in the heart wear away. A man ill in bed has just
+      such a stretch of days.'
+  poem_connection:
+    zh: 签诗首句说“病中”，题名正取卧病西轩的一节；“去后不须回头问”也与病后不再追问的语意相合。
+    en: The lot poem opens with the words in sickness, which is just the title's lying
+      ill in the western chamber, and its line on not looking back after going fits
+      too.
+- title:
+    zh: 唐莊宗親征遇伶官反
+    en: Emperor Zhuangzong Sets Out to Fight and Meets the Actor-Officers' Revolt
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐庄宗李存勖是五代时后唐的皇帝。他灭了梁之后，迷上音律，常自己作曲，跟伶人在庭中玩戏，伶人是奏乐演戏的艺人。伶人景进、史彦琼、郭从谦等人都得了势，军中的赏罚多听伶官的话，将相大臣常被他们说了坏话而获罪。郭从谦做从马直指挥使。他的义父郭崇韬被人进谗言害死，他的部下又与庄宗的亲军结怨，郭从谦就借机激起兵众，率部焚烧兴教门，攻进宫中。庄宗亲自带兵迎战，被流箭射中，伤重而死。伶人善友把宫中的乐器堆在他的尸身上烧了。庄宗死后，李嗣源进洛阳即位，就是明宗。题名亲征遇伶官反，记的就是这一件事。
+    en: Li Cunxu, Emperor Zhuangzong of Later Tang, was emperor in the Five Dynasties.
+      After he did away with the Liang he became absorbed in music, often writing
+      tunes himself and playing at theater in the courtyard with actors. Actors were
+      performers who played music and took parts. The actors Jing Jin, Shi Yanqiong
+      and Guo Congqian all gained power, and rewards and punishments in the army mostly
+      went by the word of the actor-officials. Generals and ministers were often brought
+      to ruin by the bad reports they made of them. Guo Congqian commanded the Congma
+      Guard. His adoptive father Guo Chongtao was killed by slander, and his men had
+      quarreled with Zhuangzong's own guard. So Guo Congqian used the chance to stir
+      up his soldiers, led them to burn the Xingjiao Gate, and burst into the palace.
+      Zhuangzong took troops to meet them himself, was hit by a stray arrow, and died
+      of the wound. An actor, Shanyou, piled the palace instruments on his body and
+      burned them. After Zhuangzong's death Li Siyuan entered Luoyang and took the
+      throne as Emperor Mingzong. The title, going out to fight in person and meeting
+      the actors' revolt, records this one event.
+  poem_connection:
+    zh: 签诗说“心中事务尽消磨”，与庄宗亲征而变起于内、事终消磨一节相贴；“去后不须回头问”也与其事已无可追相应。
+    en: The poem says all the matters of the heart wear away; Zhuangzong went out
+      to fight while the turn came from within and the thing was worn away, and afterwards
+      there was no calling it back.

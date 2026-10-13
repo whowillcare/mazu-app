@@ -1,0 +1,380 @@
+id: 60
+lot_number: 60
+ganzhi:
+  zh: 癸亥
+  pinyin: Gui-hai
+title:
+  en: Xue Gang Kills the Heir and the Emperor Dies of Shock
+  zh: 薛剛踢死太子驚崩聖駕
+hexagram:
+  zh: 地山谦
+  name_and_structure_en: Qian, Modesty (Earth over Mountain)
+  binary_code: ●●●○●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 薛剛踢死太子驚崩聖駕
+    en: Xue Gang Kills the Heir and the Emperor Dies of Shock
+  variants_en:
+  - Yang Liulang Executes His Son
+  - Huang Chao Tests His Swordplay
+  - Yan Guang Withdraws into Seclusion
+  - Cao Mengde Meets Ma Chao at Tong Pass
+  - Shang Lu Tops the Imperial Examination
+  variants_zh:
+  - 楊六郎(六使)斬子
+  - 黃巢試劍法
+  - 嚴光歸隱
+  - 曹孟德潼關遇馬超
+  - 商輅中狀元
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements lean negative on the large undertakings - 凡事 拖尾。了錢／作事
+      成無益。犯官事／婚姻 難得／求財 淡有／出外 不可／移居 不可／月令 不遂／六畜 不得利。了錢／魚苗 無利可得, while household and
+      small works hold and later mend - 家事 門庭平安／家運 小吉／官事 不畏／治病 拖尾。後痊癒／經商 後來有得／耕作 平平
+      (jie_yue_score 5)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book reads this lot two ways — the large undertakings run
+      against (general affairs running long, journeys and moves not for now, an adverse
+      month's season, and nothing to be had from livestock or fry), while the household
+      and small works hold their ground and mend later (a peaceful door, a small blessing
+      on the family fortune, no fear in legal matters, and trade that comes good afterwards).
+      The composite sits near the middle, so we read this lot as mixed. The witnesses
+      also divide on one word in the second line (陰色 vs 蔭色); this edition follows
+      the majority reading 蔽陰色 and holds both senses open.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 拖尾。了錢／作事 成無益。犯官事／家事 門庭平安／家運 小吉／婚姻 難得／求兒 慢即好／六甲
+      先男後女／求財 淡有／功名 望後科／歲君 把方殺／治病 拖尾。後痊癒／出外 不可／經商 後來有得／來人 月光到／行舟 有小利。把定／移居 不可／失物 月光在／求雨
+      不日到／官事 不畏／六畜 不得利。了錢／耕作 平平／築室 不合。按住／墳墓 地運呆。後得吉／討海 平平小利／作塭 有小利／魚苗 無利可得／月令 不遂／尋人
+      遠回／遠信 音信慢至——整签两头读：大事那一边偏阻（凡事 拖尾。了錢／出外 不可／移居 不可／月令 不遂／六畜 不得利。了錢／魚苗 無利可得），家宅与小事那一边站得住、而且后面会回正（家事
+      門庭平安／家運 小吉／官事 不畏／治病 拖尾。後痊癒／經商 後來有得／耕作 平平），故列为平签（jie_yue_score +5）。经文异文见 蔽陰色
+      条：多数本作「陰色」，两本作「蔭色」，从多数作「蔽陰色」。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上两头都读——大事那一边偏阻（总类带尾、出门与搬动都不是时候、月令一处偏逆、牲口与鱼苗两处见不到好处），家宅与小营生那一边站得住，而且后面会回正（家事平安、家运小吉、官事不畏、经商后来有得）。综合分值贴近正负门槛，故列为本批的平签一档。诗第二句另有异文，「陰色」「蔭色」两读并存，本件从多数作「蔽陰色」。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「蔽陰色 - shading its dark colour (维基文库; 好廟網)」→「蔽蔭色
+    - shading its shade (mznn; 91chouqian)」→「蔽阴色 - the same reading as 陰色 in simplified
+    characters (feishuai), so the difference there is orthographic only」, majority
+    of witnesses (the 陰色 reading, counting the simplified witness with the traditional
+    ones)
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 月出光輝本清吉，
+    en: 'The moon comes out: its light is clear and auspicious by nature;'
+  - line_number: 2
+    zh: 浮雲總是蔽陰色，
+    en: but floating clouds keep shading its colour;
+  - line_number: 3
+    zh: 戶內用心再作福，
+    en: within the household, put your heart into doing good again;
+  - line_number: 4
+    zh: 當官分理便有益。
+    en: and when the case is weighed and divided fairly, there is benefit.
+keywords:
+  favourable:
+    en:
+    - work done inside the household
+    - a small honest gain
+    - putting a case to fair judgement
+    - the light behind the cloud
+    - ordinary returns, slowly
+    zh:
+    - 在家里头下的功夫
+    - 一份小而实的进项
+    - 把事交给公断
+    - 云背后的那点光
+    - 慢慢来的寻常回报
+  guarded:
+    en:
+    - enlarging anything this season
+    - going out or moving away
+    - letting a dispute run on and on
+    - money put into stock
+    - reading the cloud as the whole sky
+    zh:
+    - 这一季把摊子铺大
+    - 出门或搬迁
+    - 让争端拖着尾巴走
+    - 把钱压进存货
+    - 把云当成了整片天
+reading_notes:
+- term: 蔽陰色
+  pinyin: bì-yīn-sè
+  en: 'to shade its colour: clouds darkening the moon''s face; something covering
+    over an auspicious quality; the witnesses differ on whether the word is 陰 or 蔭,
+    and the reading holds both open.'
+  zh: 是浮云把月亮的颜色掩暗。此句各本用字不一：多数本作「陰色」（含一个简体本，只是字形之差），另有两本作「蔭色」；本件从多数，作「蔽陰色」，而把「陰」「蔭」两读都留着。
+- term: 戶內
+  pinyin: hù-nèi
+  en: 'inside the door: the family circle and its private affairs; the inner rooms
+    as against the outer world; the counsel works where you already are rather than
+    abroad.'
+  zh: 既指一家人的私事，也指内室，与外头那一面相对；诗的话是在你已经在的地方使得上，不是在外面。
+- term: 當官分理
+  pinyin: dāng-guān-fēn-lǐ
+  en: 'to let the matter be divided by an official: submitting a dispute to lawful
+    judgement; taking office oneself and settling it there; the line does not fix
+    who does the dividing.'
+  zh: 既指把一桩争端交给公断去分，也指自己居其位、在那里把事理清；这一句没有定下分的人是哪一个。
+plain_meaning:
+  en: 'A lot whose own light is covered: the moon is clear by nature and the clouds
+    keep crossing it. Judgement runs heavy on the large undertakings, while the household
+    and small works hold their ground. Put the effort indoors, do the good thing again,
+    and send disputes to fair judgement rather than to a fight. Gains here are small
+    and slow, but they do come.'
+  zh: 这一签本身的光被遮着：月亮本来清吉，浮云却总在掩它的颜色。判词在大事上压得重——总类带着一条尾巴，出外与移居都读作不可——家里和小营生却站得住。力气往里使，把好事再认真做一遍，争端交给公断去分，不要打成一场架。这里的进项小而慢，但是会来。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Which month should I pick for the signing?
+    zh: 我应该挑哪个月去签约？
+  rewritten_to:
+    en: What does this season favour, and what should I keep small for now?
+    zh: 这一季宜于什么，什么该先做小？
+  rewrite_reason:
+    code: out_of_scope
+    zh_explanation: 原问法要的是具体月份，超出本件范围（本件只给季节与窗口，不给日期），改为可留意、可做小的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: This is not the season for new bonds; keep the peace at home instead of negotiating
+      anything.
+    zh: 婚姻一项难得——这不是结新缘的时节；守家里的和气就好，什么都不必去谈。
+    compliance_tag: null
+  career:
+    en: A thing can be brought off and still not profit; keep your position and stay
+      clear of disputes. The name is looked for later, not now.
+    zh: 作事一项是「成而无益」，还牵动官事——事情办得成也未必得利；守住位置，离争端远一点。功名要望后一科，不是现在。
+    compliance_tag: null
+  money:
+    en: Thin returns and a long drain; hold reserves rather than enlarging anything.
+      (Not financial advice.)
+    zh: 求财一项只有淡薄的一点，总类还带着尾巴与耗损——收着储备，别把什么东西扩大。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A slow recovery that does arrive; keep ordinary care, and put anything that
+      persists to a qualified professional. (Not medical advice.)
+    zh: 治病一项带着尾巴，之后才痊愈——是一段慢的恢复，但会到；按平常照看，拖久了的事交给有资质的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The house is the steady part. Do the good work indoors — the poem's own line
+      asks for exactly that.
+    zh: 家事门庭平安、家运小吉——屋子是稳的那一头。照诗里「户内用心再作福」的话，把好事在家里做。
+    compliance_tag: null
+  travel_moving:
+    en: Journeys and moves are both read as not-yet; stay within reach of home.
+    zh: 出外与移居两项都读作不可——出行和搬动都还不是时候，留在离得开家的地方。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Small returns on the water, and only with the heart held steady.
+    zh: 行舟有小利、要点在「把定」，讨海平平小利——水上回报小，而且要心定着才有。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Work the ground and the ponds as usual, and put nothing new into stock this
+      season.
+    zh: 耕作平平、作塭有小利、鱼苗见不到好处、六畜也不见利而且耗钱——田与塘照常做，这一季别往牲口里压新本钱。
+    compliance_tag: null
+  timing:
+    en: This lot's matters run long; the turn is read as a season, not as a date.
+    zh: 总类带尾、治病也带尾——这一签是拖着一条尾巴走的；转机要按时节读，不是日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Letting a dispute become a fight; travelling or moving house while the lot
+      says no.
+    zh: 让一桩争端变成一场斗殴；在这一签读作不可的时候出行或搬家。
+    compliance_tag: null
+  reassurance:
+    en: The cloud has not taken the light; what is asked is to work small and let
+      the season turn.
+    zh: 云并没有把光拿走；这一签要的是把事做小，等时节转。
+    compliance_tag: null
+stories:
+- title:
+    zh: 薛剛踢死太子驚崩聖駕
+    en: Xue Gang Kills the Heir and the Emperor Dies of Shock
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 薛刚是唐朝大将薛丁山的儿子，性子暴烈，又爱喝酒。有一次他要到辽西的姑母家探亲，薛丁山再三告诫他路上不能沾酒。薛刚当场立誓，说要是破了这条戒，愿拿全家来抵。路上他遇到伍雄，两人谈得投合，就破了戒一起喝酒。有一年元宵节的夜里，薛刚跟一班朋友在酒楼饮酒，醉了以后闯进张丞相设宴的酒楼。他被拦住，一怒之下踢死了张丞相的儿子张保，而张保是皇帝的干儿子。薛刚因此被判死罪。行刑的时候，伍雄带人劫了法场，又有程咬金暗中相助，他得以逃脱。皇帝接到报告，说白天竟有人劫走囚犯，惊怒之下死去。这以后武则天掌权，薛家遭难，才引出薛刚反唐的一连串事。
+    en: Xue Gang was the son of the Tang general Xue Dingshan. He was hot-tempered
+      and fond of drink. Once he was going to visit his aunt in Liaoxi, and Xue Dingshan
+      warned him again and again not to touch wine on the road. Xue Gang swore on
+      the spot that if he broke this rule, he would answer for it with his whole family.
+      On the way he met Wu Xiong, and the two took to each other and broke the rule
+      and drank together. One year, on the night of the Lantern Festival, Xue Gang
+      was drinking in a tavern with a group of friends. Drunk, he broke into the tavern
+      where Chancellor Zhang was holding a feast. When he was held back, he flew into
+      a rage and kicked to death Zhang Bao, Chancellor Zhang's son. Zhang Bao was
+      the emperor's godson. Xue Gang was sentenced to death for it. At the execution
+      Wu Xiong and his men broke up the execution ground, and Cheng Yaojin secretly
+      helped too, so Xue Gang escaped. When the report reached the emperor - that
+      prisoners had been taken from the execution ground in broad daylight - he died
+      of shock and rage. After that Wu Zetian took power, and the Xue family met with
+      disaster, which was the start of the long tale of Xue Gang's rebellion against
+      the Tang.
+  poem_connection:
+    zh: 签诗说月光原本清亮，浮云却把光遮住，要在家里多用心。薛刚破戒闯祸、连累家门，正合此意。
+    en: The lot poem says the moonlight was clear, but floating clouds hid its light,
+      and a man should take more care at home. Xue Gang broke his oath and brought
+      harm on his family.
+- title:
+    zh: 楊六郎(六使)斬子
+    en: Yang Liulang Executes His Son
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杨延昭是杨家将的名将，人称杨六郎。杨家一门世代守边，军法极重。他治军也极严。有一回，他的儿子杨宗保在阵前私自招亲，触犯了军法。杨延昭不顾众将求情，把儿子绑到辕门外，要按军法处置。他的母亲佘太君亲自出面说情，他也没有答应。杨宗保私自招亲的对象，是女将穆桂英。穆桂英得知消息，带兵赶来，提出愿意帮宋军攻破天门阵，用来换杨宗保的性命。杨延昭答应了，杨宗保这才免去一死，戴罪立功。这一节讲的是军法和亲情之间的一场纠葛。
+    en: Yang Yanzhao was a famous general of the Yang family of generals, known as
+      Yang Liulang. The Yang household guarded the frontier for generations and military
+      law weighed heavily with them. He commanded his troops with great strictness
+      as well. Once his son Yang Zongbao took a wife on his own before the ranks,
+      which broke the military law. Yang Yanzhao, despite pleas from his officers,
+      had his son bound outside the army gate and meant to deal with him under the
+      law. His mother, Lady She, came in person to plead, and he would not agree.
+      The woman Yang Zongbao had taken on his own was the woman general Mu Guiying.
+      When Mu Guiying heard the news she brought troops at speed and offered to help
+      the Song army break the Heaven Gate Formation, in exchange for Yang Zongbao's
+      life. Yang Yanzhao agreed, and only then was Yang Zongbao spared death and allowed
+      to atone by service. This passage tells of a tangle between military law and
+      family feeling.
+  poem_connection:
+    zh: 这一签说户内用心、当官分理便有益，正配辕门斩子这桩军法与亲情的事。
+    en: This lot says use your heart within the household, and holding office with
+      fairness brings gain. It fits the case at the army gate, where military law
+      and family feeling meet.
+- title:
+    zh: 黃巢試劍法
+    en: Huang Chao Tests His Swordplay
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 黄巢是曹州冤句人，家在今天的山东一带，世代贩盐，他自己也读过书。进士考试是唐朝选拔官员的考试，考中就能做官。他多次去考，都没有考中。唐朝末年，各地起兵的人很多。科场失意之后，他见唐朝政局混乱，就聚集人马起兵，转战河南、江淮和福建、广东一带，最后攻进长安，称帝建号。他起兵以后，声势很大。他最终被唐军打败，死在泰山的狼虎谷。题面上的“试剑法”，说的是他试自己手里那把剑的一段事。人到这个时候，利器在手，志向却还没有定下来。
+    en: Huang Chao was a man of Yuanju in Caozhou, in what is now part of Shandong.
+      His family sold salt for generations, and he himself had studied. The metropolitan
+      examination was the test by which the Tang chose its officials, and passing
+      it meant office. He sat for it several times and never passed. In the last years
+      of the Tang, men rose in arms in many places. After failing in the examinations,
+      he saw that the government of the Tang was in disorder. So he gathered men and
+      raised troops. He fought across Henan, the Huai and Yangtze country, Fujian,
+      and Guangdong. At last he took Chang'an and declared himself emperor with a
+      reign name. After he rose, his force was very strong. In the end he was beaten
+      by the Tang armies and died at Wolf-Tiger Valley on Mount Tai. The title's testing
+      his swordplay tells of the part where he tried the sword in his hand. A man
+      at such a point has a sharp tool in his hand, and his aim is still unsettled.
+  poem_connection:
+    zh: 这一签的签诗说月出本来清吉，浮云总是遮住月色，在家中用心多做善事，当官理事便有益。利器在手而其志未定，正合此意。
+    en: The poem says the moon comes out and is clear and lucky, but drifting cloud
+      always hides the moonlight; do good works at home. A sharp tool in hand, the
+      aim not yet settled.
+- title:
+    zh: 嚴光歸隱
+    en: Yan Guang Withdraws into Seclusion
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 严光，字子陵，会稽余姚人，年轻时就很有名声，和后来的汉光武帝刘秀是同学。刘秀做了皇帝以后，严光改换了姓名，躲起来不见人。光武帝想念这位贤人，派人四处访求，后来在齐国找到他，把他接到洛阳，用老朋友的身份相待，还和他同住同睡。严光睡熟了，把脚搁在光武帝的肚子上。第二天太史来报，说夜里有客星冒犯御座，光武帝笑着说，那是老友同睡的缘故。光武帝想让他做谏议大夫，严光不肯接受，回到富春山种地，在江边钓鱼，终老在家。后人把他钓鱼的地方叫作严陵濑。
+    en: Yan Guang, whose courtesy name was Ziling, was a man of Yuyao in Kuaiji. He
+      had a name for learning while young, and he and Liu Xiu, who later became Emperor
+      Guangwu of Han, were fellow students. After Liu Xiu took the throne, Yan Guang
+      changed his name and hid from people. Emperor Guangwu missed this able man and
+      sent men to look for him everywhere. They found him in Qi in the end and brought
+      him to Luoyang. The emperor received him as an old friend and had him stay and
+      sleep in the same room. Yan Guang, deep asleep, laid his leg across the emperor's
+      belly. The next day the court astronomer reported that in the night a strange
+      star had come too close to the imperial seat. Emperor Guangwu laughed and said
+      it was only because an old friend had slept there. The emperor wanted to make
+      him a counselor of remonstrance, and Yan Guang would not accept. He went back
+      to Mount Fuchun to farm and fish by the river, and died at home. Later people
+      called the place where he fished Yanling Shallows.
+  poem_connection:
+    zh: 签诗说月出光辉本清吉、当官分理便有益；严光辞官归隐、不重荣名，正合这一层。
+    en: The poem says the moon rises and its light is naturally clear and lucky, and
+      that holding office and setting things in order brings benefit. Yan Guang declined
+      office and went back to the hills, which fits.
+- title:
+    zh: 曹孟德潼關遇馬超
+    en: Cao Mengde Meets Ma Chao at Tong Pass
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 马超，字孟起，是马腾的儿子，西凉的勇将。曹操想借道关中征讨汉中，马超和韩遂等人怀疑他要对付自己，就联合关西各部起兵抵抗曹操，据守潼关。曹操亲自带兵西征，初战不利。一次渡河时，马超的骑兵追来，箭像雨点一样落下，部下许褚扶他上船，将士争着上船，几乎脱不了身。又一次他在阵前被马超的人马冲散，西凉军大喊穿红袍的是曹操，他赶紧脱下红袍；又喊长胡子的是曹操，他就拔剑割掉胡须，仓皇逃走。后来曹操用贾诩的计策，离间马超和韩遂，关西联军自己散了，马超兵败逃走，后来投奔张鲁、刘备。
+    en: Ma Chao, whose courtesy name was Mengqi, was the son of Ma Teng and a brave
+      general of the western lands. Cao Cao wanted to move through the Guanzhong region
+      to attack Hanzhong. Ma Chao and Han Sui suspected that he meant to deal with
+      them instead. They joined the various groups west of the pass, raised troops
+      against Cao Cao, and held Tong Pass. Cao Cao led his army west in person and
+      lost the first battle. Once, while crossing the river, Ma Chao's horsemen came
+      after them and arrows fell like rain. His officer Xu Chu helped him onto a boat.
+      The soldiers fought to get aboard, and he barely got away. Another time Ma Chao's
+      men broke up his lines, and the western troops shouted that the man in the red
+      robe was Cao Cao. He pulled off the red robe at once. Then they shouted that
+      the man with the long beard was Cao Cao, and he drew his sword, cut off his
+      beard, and fled in confusion. Later Cao Cao used Jia Xu's plan to set Ma Chao
+      and Han Sui against each other. The western alliance fell apart by itself, and
+      Ma Chao, defeated, fled first to Zhang Lu and later to Liu Bei.
+  poem_connection:
+    zh: 这一签写月光被浮云遮住、只有在家中用心作福，正扣签诗“月出光辉本清吉，浮云总是蔽阴色”“户内用心再作福”。
+    en: Moonlight covered by drifting cloud, so that a man can only do good quietly
+      within his own house, fits a lot whose poem speaks of the moon's light and of
+      clouds that always darken it.
+- title:
+    zh: 商輅中狀元
+    en: Shang Lu Tops the Imperial Examination
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 商辂，字弘载，是明代浙江淳安人。他先在家乡的乡试中考了第一，会试又考了第一，最后由皇帝亲考的殿试也是第一。状元是殿试的第一名。乡试、会试、殿试三场都考第一，就叫三元及第。明代的例子只有两位，前一位是洪武年间的黄观，后一位就是商辂，两百多年里仅这两个人。商辂在正统、景泰、天顺、成化四朝做官，官至内阁大学士、吏部尚书，曾参与商议拥立景泰帝。英宗复辟以后，他一度被削职为民，成化初年又重新起用，入阁办事。
+    en: Shang Lu, whose courtesy name was Hongzai, was a man of Chun'an in Zhejiang
+      in the Ming dynasty. He first took first place in the provincial examination
+      in his home region, then first place again in the metropolitan examination,
+      and finally first place in the palace examination set by the emperor himself.
+      The top graduate is the first in the palace examination. Taking first in all
+      three examinations is called the three firsts. In the Ming dynasty there were
+      only two such men. The earlier one was Huang Guan in the Hongwu years, and the
+      later one was Shang Lu. In more than two hundred years only these two. Shang
+      Lu served through four reigns and rose to be a grand secretary of the inner
+      cabinet and minister of personnel, and once took part in the discussion of putting
+      Emperor Jingtai on the throne. After Emperor Yingzong returned to power, he
+      was stripped of office and made a commoner for a time, and in the early Chenghua
+      years he was called back and entered the cabinet again.
+  poem_connection:
+    zh: 签诗说月出光辉本清吉，浮云总是蔽阴色。商辂一朝被黜、后又再起，正合光辉与浮云两句。
+    en: The lot poem says the moon is bright and all is well, but floating clouds
+      always dim the light. Shang Lu is dismissed once and rises again, just that
+      light and cloud.

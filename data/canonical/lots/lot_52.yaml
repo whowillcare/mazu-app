@@ -1,0 +1,390 @@
+id: 52
+lot_number: 52
+ganzhi:
+  zh: 壬午
+  pinyin: Ren-wu
+title:
+  en: Xue Rengui Returns Home and Meets Ding Shan
+  zh: 薛仁貴回家遇丁山
+hexagram:
+  zh: 泽水困
+  name_and_structure_en: Kun, Oppression (Lake over Water)
+  binary_code: ●○○●○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 薛仁貴回家遇丁山
+    en: Xue Rengui Returns Home and Meets Ding Shan
+  variants_en:
+  - Jiang Taigong Becomes Minister at Eighty
+  - Kongming Ploughs His Own Fields at Nanyang
+  - Zhenwu Subdues the Turtle and the Snake
+  - Li Yaxian Rescues Zheng Yuanhe
+  - Du Zimei Remembers His Brothers on a Moonlit Night
+  - The Lord Emperor Subdues the Turtle and the Snake
+  variants_zh:
+  - 姜太公八十歲拜相
+  - 孔明躬耕南陽
+  - 真武上帝收龜蛇
+  - 李亞仙救鄭元和
+  - 杜子美月夜憶兄弟
+  - 上帝公收龜蛇
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: the judgements cut both ways - 凡事 慢成。大險／求財 浮沉／歲君 起倒／官事 有虛。破財完局 - against
+      家事 家庭大吉／家運 到處有貴人／婚姻 成好／討海 得財在三日過 (jie_yue_score +14, positive overall while
+      carrying 大險)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs both ways on this lot — household, family fortune,
+      marriage, going out, trade, boats, sea work, ponds, fry, and the month's season
+      lean favourable, with a benefactor met on the road as the through-line; while
+      general affairs carry the risk the lot names, money floats, the year has its
+      rises and falls, and the legal entry ends in cost. The composite sits near the
+      middle, so we read this lot as mixed.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 慢成。大險／作事 急成。遲者了錢／家事 家庭大吉／家運 到處有貴人／婚姻 成好／求兒 好／六甲
+      添之弄璋／求財 浮沉／功名 事業本由天，／歲君 起倒／治病 三日過貴人好／出外 行遇主公／經商 萬商雲集／來人 立即到／行舟 有利可得／移居 平正／失物
+      難尋。速尋在／求雨 多風雨少／官事 有虛。破財完局／六畜 有利／耕作 平平有收／築室 可以平安／墳墓 穴場允吉／討海 得財在三日過／作塭 有大利／魚苗
+      此近日得大財／月令 平平。漸漸平安／尋人 漸回／遠信 音信立至——两头都有：家事、家運、貴人、海上一路好，而 凡事 带大险、功名 一处照抄诗句未另出判词、錢財
+      浮沉、歲君 起倒、官事 破財完局 则偏阻（jie_yue_score +14，列为本批的中间一档）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上两头都有——家事、家运、婚姻、出外、经商、行舟、讨海、作塭、鱼苗、月令数处偏正面，并以路上得贵人为主线；而总类带险、钱财浮动、岁君有起落、官事结算伤财数处偏阻。综合分值贴近正负门槛，故同列为本批的中间一档。
+provenance:
+  editorial_note: '*the temple list gives the second tale as 上帝公收龜蛇 for the wiki 真武上帝收龜蛇.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 功名事業本由天，
+    en: Office and enterprise were Heaven's to grant from the first;
+  - line_number: 2
+    zh: 不須掛念意懸懸，
+    en: there is no need to hang the heart up, swinging;
+  - line_number: 3
+    zh: 若問中間遲與速，
+    en: and if you ask whether it comes late or soon -
+  - line_number: 4
+    zh: 風雲際會在眼前。
+    en: wind and cloud meet before your eyes.
+keywords:
+  favourable:
+    en:
+    - a prompt first move
+    - a benefactor met on the road
+    - the household at ease
+    - help that comes just past the turn
+    zh:
+    - 早出的第一步
+    - 路上遇到的贵人
+    - 家里安适
+    - 转折刚过就到的助力
+  guarded:
+    en:
+    - panic-hurry
+    - treating a crossing as a steady course
+    - money that floats
+    - reading only the good half
+    zh:
+    - 惊慌赶急
+    - 把一次交会当成常态
+    - 浮浮沉沉的钱
+    - 只看好的那一半
+reading_notes:
+- term: 意懸懸
+  pinyin: yì-xuán-xuán
+  en: 'the heart hung up and swinging: worry that swings back and forth; suspense
+    before a result; the poem asks you to stop keeping the heart up on its hook.'
+  zh: 是心挂着晃：既指来回摆动的忧，也指结果未出之前的悬着；诗是叫你别再把心挂在那只钩上。
+- term: 遲與速
+  pinyin: chí-yǔ-sù
+  en: 'late and soon: the pace of the outcome; whether to press or to wait; the answer
+    points at an open window rather than at a schedule.'
+  zh: 既指结果来得早晚，也指该催还是该等；答案指向一扇已经打开的门，不是一张日程表。
+- term: 風雲際會
+  pinyin: fēng-yún-jì-huì
+  en: 'wind and cloud meeting: the propitious meeting of a man and his chance; storm
+    weather gathering: an opening that stands in front of you rather than far off.'
+  zh: 既有风云相合、君臣相遇这一层，也有风暴将起这一层；说的是眼前就有开口，不必等到远处。
+plain_meaning:
+  en: 'A season of slow ripening with real risk in it: the poem says office and enterprise
+    were Heaven''s to give, and that the wind-and-cloud meeting is already in view.
+    The judgements turn up and down - the household and the patron are good, money
+    floats, the year has its rises and falls. The counsel is to make the one first
+    move early and then let the rest ripen.'
+  zh: 这是一段慢慢熟成、却真有风险的时节：诗里说功名事业本是天给的，风云际会已经在眼前。判词两头都有——家里与贵人是好的，钱财浮沉，这一年有起有落。劝的是那一步要早动，之后就让它慢慢熟。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A favourable judgement for a match; what the poem asks is that you stop carrying
+      the outcome around in your head.
+    zh: 姻缘一项判词是允的；诗要你做的，是别再把这桩结果整天挂在心里。
+    compliance_tag: null
+  career:
+    en: The appointment ripens slowly while the first move is best made at once; a
+      patron is in the picture - cultivate the person, not the timetable.
+    zh: 功名是慢熟的，而第一步又最好当即就迈；画面里有一位年长的贵人——去经营那个人，不要盯着时辰。
+    compliance_tag: null
+  money:
+    en: The money judgement floats up and down; keep commitments small and expect
+      the first round to come in short. (Not financial advice.)
+    zh: 钱财的判词浮浮沉沉；承话做小些，第一轮进项会短。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement makes the turn a short one and puts a helper in it; have anything
+      physical seen early rather than late. (Not medical advice.)
+    zh: 身体上的判词把这个转折写得短，还放了一位帮手进去；身上有实症要早看，不要拖到后头。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is judged greatly auspicious and helpers appear along the way;
+      settle the small quarrels before they carry.
+    zh: 家宅判作大吉，一路上也有贵人出现；小口角在扩大之前先平息。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is judged as meeting a patron on the road - set out, but plan for
+      a shifting timetable and a slow return.
+    zh: 出行被写作路上遇贵人——可以动身，只是行程要有弹性，回程会慢。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'There is profit on the water, and it is timed: the judgement puts the money
+      past the first days. Go with the tide rather than ahead of it.'
+    zh: 水路上有利可图，而且带时辰：判词把这笔钱放在头几日之后。顺潮出去，不要抢在潮头前。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The fields give an ordinary harvest while the ponds and the fry carry the
+      money; the season pays more in the water than on the land.
+    zh: 田里是一般年成，钱财落在塭与鱼苗上；这一季水里比地上更出钱。
+    compliance_tag: null
+  timing:
+    en: The ripening is slow and the helpful turn is put only a few days in - read
+      as a window, never as a date.
+    zh: 熟成是慢的，转身的好时候只放在几日程内——按窗口读，不要当日期。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Panic-hurry, and carrying the result around in your head before it exists.
+    zh: 惊慌赶急；在结果还没出现之前就整天把它挂在脑子里。
+    compliance_tag: null
+  reassurance:
+    en: 'The risk named here is named so that it can be managed: move early, then
+      let it ripen.'
+    zh: 这里点出的风险，是为了可以料理：早动那一步，然后让它慢慢熟。
+    compliance_tag: null
+stories:
+- title:
+    zh: 薛仁貴回家遇丁山
+    en: Xue Rengui Returns Home and Meets Ding Shan
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝初年，薛仁贵东征有功，被封为平辽王。朝廷赐他回乡，在龙门县老家建府。龙门县在今山西河津一带。他离家多年，回来时走到汾河湾，看见一个少年在河湾里射雁。薛仁贵也射了一箭，误中了那少年，少年倒地死了。等他回到家中，才知道自己射死的正是儿子薛丁山。各处说的详略不一样，有的说是有意射的，有的说是误中。薛仁贵在史上是唐初的名将，征高丽有功；薛丁山、樊梨花这些人，多是小说里添出来的。薛丁山是薛仁贵的儿子。父子在汾河湾相遇，父亲一箭误伤了儿子，这一段就以此著名。
+    en: In the early Tang dynasty, Xue Rengui won merit in the eastern campaign and
+      was made Prince of Pingliao. The court granted him leave to go home, and he
+      built a residence at his old home in Longmen County. Longmen County lies in
+      the present Hejin area of Shanxi. He had been away from home many years. On
+      the way back he came to the bend of the Fen River and saw a youth shooting wild
+      geese there. Xue Rengui also shot an arrow, and by mistake he struck the youth,
+      who fell. When he reached home, he learned that the one he had killed was his
+      own son, Xue Dingshan. Accounts differ in detail. Some say he shot on purpose,
+      and some say it was a mistake. In history Xue Rengui was a famous general of
+      the early Tang, with merit in the campaign against Goguryeo. Xue Dingshan and
+      Fan Lihua are mostly figures added in novels. Xue Dingshan was the son of Xue
+      Rengui. Father and son met at the Fen River bend, and the father's one arrow,
+      shot by mistake, wounded the son. This passage is famous for that.
+  poem_connection:
+    zh: 签诗“风云际会在眼前”，正合薛仁贵功成回乡、父子在汾河湾相遇之际；“功名事业本由天”也合他征东受封之况。
+    en: The poem says wind and cloud meet before one's eyes, which fits Xue Rengui
+      returning in glory and father and son meeting at the Fen River bend, and that
+      fame comes from heaven matches his eastern campaign and title.
+- title:
+    zh: 姜太公八十歲拜相
+    en: Jiang Taigong Becomes Minister at Eighty
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 姜太公就是吕尚，东海一带的人。他年老穷困，靠在渭水边钓鱼过日子。周国的西伯准备出猎之前先占卜，卦上说他要得到的不是龙也不是虎，而是能辅佐霸主的人才。西伯果然在渭水北岸遇见吕尚。谈过话以后，西伯非常高兴，说这正是先父太公盼望的圣人，于是称他为太公望，请他上车一同回去，拜为老师。此后吕尚辅佐文王和武王，筹划攻打商纣的事，终于成就周朝开国的大功。周朝分封诸侯时，他被封在齐，成了齐国的始祖。齐国都城在营丘，他鼓励工商，又用当地靠海的优势发展鱼盐之利，齐国因此渐渐成为强国。
+    en: Jiang Taigong was Lu Shang, a man of the East Sea region. He was old and poor,
+      and lived by fishing on the bank of the Wei River. Before the Western Duke of
+      Zhou went out hunting, he read a hexagram. The reading said he would gain neither
+      a dragon nor a tiger, but a man able to help a leader of lords. On the north
+      bank of the Wei the Western Duke did meet Lu Shang. After they talked, the duke
+      was very glad, and said this was the sage his late father the Great Duke had
+      hoped for. So he called him Taigong Wang, asked him to get into the carriage
+      and ride back with him, and honored him as his teacher. After that Lu Shang
+      helped King Wen and King Wu and planned the attack on King Zhou of Shang, and
+      in the end brought about the founding of the Zhou dynasty. When Zhou gave out
+      fiefs, he was enfeoffed in Qi and became the first ancestor of the state of
+      Qi. The Qi capital was at Yingqiu. He encouraged trade and crafts and used the
+      place's nearness to the sea to develop the profits of fish and salt, and Qi
+      slowly became a strong state.
+  poem_connection:
+    zh: 签诗说功名事业自有它的时机，若问快慢，风云际会就在眼前。太公晚年才遇明主，正是这样。
+    en: The lot poem says office and career have their own time, and that if one asks
+      whether it comes soon or late, the meeting of wind and cloud is at hand. Jiang
+      Taigong met his lord in old age.
+- title:
+    zh: 孔明躬耕南陽
+    en: Kongming Ploughs His Own Fields at Nanyang
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 诸葛亮是三国时的人物，早年跟着叔父到荆州躲避战乱。叔父死后，他隐居在襄阳城西的隆中山里，自己种地过日子。他喜欢吟唱古时的歌谣，常把自己比作管仲和乐毅这两位名相名将。当时的人大多不以为然，只有崔州平、徐庶几个人和他交好。后来徐庶向刘备推荐他，说他只能亲自去请，不能硬把他招来。刘备便三次到茅庐去拜访。诸葛亮为他分析了天下三分的形势，从此出山相助。他出山以后，帮刘备联合孙权抵抗曹操，取得荆州，又进军益州。三国鼎立的局面就这样形成。
+    en: Zhuge Liang was a figure of the Three Kingdoms period. In his early years
+      he followed his uncle to Jingzhou to escape the wars. After his uncle died he
+      lived in seclusion in the Longzhong hills west of Xiangyang and farmed for a
+      living. He liked to chant old songs and often compared himself to Guan Zhong
+      and Yue Yi, a famous chancellor and a famous general. Most people of the time
+      did not take this seriously. Only a few, such as Cui Zhouping and Xu Shu, were
+      his friends. Later Xu Shu recommended him to Liu Bei, saying that Liu Bei would
+      have to go and invite him in person and could not summon him by force. Liu Bei
+      then went three times to the thatched cottage to call on him. Zhuge Liang set
+      out for him the situation by which the realm would divide in three, and from
+      then on came out to help him. After he came out he helped Liu Bei join with
+      Sun Quan against Cao Cao, take Jingzhou, and move into Yizhou. The balance of
+      the three kingdoms took shape in this way.
+  poem_connection:
+    zh: 这一签说功业自有天定、风云际会就在眼前，正配诸葛亮躬耕隆中、待时出山。
+    en: This lot says achievement has its own time in heaven and the meeting of wind
+      and cloud is at hand. It fits Zhuge Liang ploughing at Longzhong and waiting
+      to come out.
+- title:
+    zh: 真武上帝收龜蛇
+    en: Zhenwu Subdues the Turtle and the Snake
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 真武上帝是道教供奉的北方之神。道教是中国本土的宗教，把北方的星宿当作神来供奉，玄武就是其中的一位。这位神又叫北极玄天上帝、真武君、上帝公、北帝。他的像多半披着头发、光着脚，手里拿着剑，脚下踩着龟和蛇。龟和蛇这两样东西在江里兴风作浪，掀翻往来船只，伤害船家。后来它们被玄天上帝收服，做了他手下的神将，分列在他的座位两旁。所以他的神像上，总能看到脚踩龟蛇的样子。这一题说的，就是凶物被神明制住、收归座下的一段。
+    en: Zhenwu Shangdi is the god of the north worshipped in Daoism. Daoism is the
+      native religion of China, and it worships the stars of the north as gods. Xuanwu
+      is one of them. This god is also called the Dark Heaven Emperor of the North
+      Pole, Lord Zhenwu, the Lord on High, and the Northern Emperor. His image is
+      usually barefoot, with his hair loose, a sword in his hand, and a turtle and
+      a snake under his feet. The turtle and the snake stirred up wind and waves in
+      the rivers. They overturned passing boats and did harm to boatmen. Later Xuantian
+      Shangdi brought them under his sway. They became spirit generals under him,
+      standing to either side of his seat. That is why his image always shows him
+      treading on a turtle and a snake. What this title tells is the part where a
+      violent creature is mastered by a god and taken into his service.
+  poem_connection:
+    zh: 这一签的签诗说功名事业本由天定，不必挂念悬心，若问中间的迟早，风云际会就在眼前。龟蛇终归神明座下，正合此意。
+    en: The poem says office and career are set by heaven, so there is no need to
+      hang on them in worry. The turtle and the snake came at last under the god's
+      seat.
+- title:
+    zh: 李亞仙救鄭元和
+    en: Li Yaxian Rescues Zheng Yuanhe
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李亚仙就是李娃，是长安城里的名妓。荥阳公的儿子郑元和进京应试，与她相恋，把带来的钱财花得精光。鸨母设了个局，把他赶出门去。他流落在丧事铺子里做挽郎，替人唱挽歌。父亲进京知道这件事，气得把他打成重伤。郑元和醒后沦为乞丐，一路讨饭。有天乞讨到李亚仙门前，李亚仙听出他的声音，出来看见他饥寒困顿，就替自己赎了身，另租房子安顿他，替他调养身体。等他身体好了，又买书劝他读书，陪他读到深夜。郑元和接连考中，做了成都府参军。李亚仙自请退为婢妾，郑元和不肯；后来得到父亲同意，两人成婚，李亚仙受封汧国夫人。
+    en: Li Yaxian was Li Wa, a famous courtesan of Chang'an. Zheng Yuanhe, son of
+      the Duke of Xingyang, came to the capital for the examinations and fell in love
+      with her. He spent everything he had brought. The madam set a trap and had him
+      driven out. He drifted into an undertaker's shop and worked as a mourner, singing
+      laments for the dead. His father came to the capital, learned of it, and beat
+      him so badly that he was gravely hurt. Zheng Yuanhe woke a beggar and lived
+      by asking alms from door to door. One day he begged at Li Yaxian's gate. She
+      heard his voice and came out, saw how hungry and cold he was, bought her own
+      freedom, rented other rooms for him, and nursed him back to health. When he
+      had recovered, she bought books and urged him to study, and sat with him late
+      into the night. Zheng Yuanhe passed the examinations one after another and became
+      an army administrator in the Chengdu prefecture. Li Yaxian asked to step down
+      to the rank of a maidservant concubine, and he refused. Later, with his father's
+      consent, the two married, and Li Yaxian was given the title Lady of Qian.
+  poem_connection:
+    zh: 签诗说功名事业本由天、风云际会在眼前；郑元和落难后复得登第，正合这一层。
+    en: The poem says office and name are set by heaven, and that the meeting of wind
+      and cloud is before the eyes. Zheng Yuanhe fell on hard times and then passed,
+      which fits.
+- title:
+    zh: 杜子美月夜憶兄弟
+    en: Du Zimei Remembers His Brothers on a Moonlit Night
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杜甫，字子美，是唐代的诗人，后人称他杜工部。安史之乱中，他带着家人逃难，辗转到了秦州一带。当时他的几个弟弟分散在河南、山东的战乱地区，音信难通。他在秦州写下一首诗：边地的更鼓断绝了行人，秋夜里传来孤雁的叫声；今夜正是白露，露水从今夜起变白，月亮还是故乡的最明。诗中又说，几个弟弟都离散了，家在战乱中，连打听生死都无处可问。寄信常常寄不到，何况战事还没有停。他和几个弟弟多年见不上一面。这首诗里写的，就是那时战乱中的境况。
+    en: Du Fu, whose courtesy name was Zimei, was a poet of the Tang dynasty, and
+      later people called him Du Gongbu. During the An Lushan rebellion he fled with
+      his family and came by stages to the Qinzhou region. At that time his younger
+      brothers were scattered through the war zones of Henan and Shandong, and word
+      could hardly reach them. In Qinzhou he wrote a poem. It says that the frontier
+      drums have cut off travelers, and that in the autumn night comes the cry of
+      a lone wild goose. Tonight is White Dew, the dew turns white from tonight on,
+      and the moon is brightest at home. The poem also says his brothers are all scattered,
+      that home lies in the middle of the fighting, and that there is no place to
+      ask whether they are alive or dead. Letters often do not reach their mark, and
+      the fighting has not stopped. He and his brothers did not meet for many years.
+  poem_connection:
+    zh: 这一签写功名事业要靠天时、心里悬着而时机将近，正扣签诗“不须挂念意悬悬”“风云际会在眼前”。
+    en: Fame and career that wait on the right season, with a heart held in suspense
+      while the time comes near, fits a lot whose poem says not to worry and that
+      wind and cloud meet before the eyes.
+- title:
+    zh: 上帝公收龜蛇
+    en: The Lord Emperor Subdues the Turtle and the Snake
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 玄天上帝是道教所奉的北方之神，又叫北极玄天上帝、真武大帝，民间称上帝公。他的神像多是披着头发、赤着脚，脚下踩着龟和蛇。龟和蛇两种水怪在江中兴风作浪，往来行旅受害。龟伏在水底，蛇游在水面，都是水中之物。玄天上帝把它们降伏收服，龟蛇就成了他身边的两员部将，一直随侍左右。收伏之后，江面才得平静，行船的人不再受害。北方天空的星象本来以龟蛇相缠为形，后人就把龟蛇说成上帝公收下的部将。福建和台湾一带的庙宇多供奉玄天上帝，神像足下都踏着龟蛇，庙里也一起供奉龟蛇二将。
+    en: Xuantian Shangdi is the god of the north in Daoism. He is also called Zhenwu
+      Shangdi, the Great Emperor Zhenwu, and among the people Lord Emperor. His images
+      usually have loose hair and bare feet, standing on a turtle and a snake. The
+      turtle and the snake were two water monsters that stirred up waves in the river,
+      and travellers passing that way suffered. The turtle hid at the bottom of the
+      water and the snake swam on the surface, and both were creatures of the water.
+      Xuantian Shangdi subdued and took them in, and the turtle and the snake became
+      two officers at his side, always attending him. After they were taken in, the
+      river grew calm, and those who sailed it were no longer harmed. In the northern
+      sky the stars are shaped like a snake coiled about a turtle, and later people
+      told of the turtle and the snake as officers taken in by the Lord Emperor. Temples
+      in Fujian and Taiwan often honour Xuantian Shangdi, and his images stand on
+      a turtle and a snake, and the two officers are worshipped in the temples too.
+  poem_connection:
+    zh: 签诗说不须挂念意悬悬，风云际会在眼前。龟蛇在江中兴波，终于际会被收，正合这一句。
+    en: The lot poem says do not hang on in suspense, for wind and cloud meet before
+      the eyes. The turtle and snake stir the river and are taken in at last, just
+      that meeting.

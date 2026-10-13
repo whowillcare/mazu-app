@@ -1,0 +1,450 @@
+id: 46
+lot_number: 46
+ganzhi:
+  zh: 辛未
+  pinyin: Xin-wei
+title:
+  en: Jiang Zhongli Meets the Yongle Emperor
+  zh: 江中立遇永樂君
+hexagram:
+  zh: 山火贲
+  name_and_structure_en: Bi, Adornment (Mountain over Fire)
+  binary_code: ○●●○●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 江中立遇永樂君
+    en: Jiang Zhongli Meets the Yongle Emperor
+  variants_en:
+  - Jiang Zhongli Granted First Place by the Emperor
+  - Li Shimin Takes the Eastern Palace
+  - Di Renjie Restores the Tang
+  - Di Renjie Becomes Chancellor
+  - Di Renjie Debates the Heir
+  - Zhao Pu Retires to the Mountains
+  - The Prince of Han Becomes a Village Schoolmaster
+  variants_zh:
+  - 江中立欽賜狀元
+  - 李世民正位東宮
+  - 狄仁傑中興大唐
+  - 狄仁傑作相
+  - 狄仁傑議嗣太子
+  - 趙普隱居
+  - 趙韓王為村學究
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive throughout - 凡事 大吉利／作事 成好／家運 安居樂業／婚姻
+      偕老／經商 利市三倍／月令 漸平安 (jie_yue_score 22); only 求財 平平 and 官事 破財 pull the other way
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs positive across general affairs, the household,
+      family fortune, marriage, advancement, trade, boats, moving house, sea work,
+      ponds, the month's season, finding people and distant news; only income and
+      legal matters pull the other way, and the medical line separates the young from
+      the old. The fourth line follows a six-source majority on a single character
+      and keeps its sense.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 大吉利／作事 成好／家事 福祉其昌／家運 安居樂業／婚姻 偕老／求兒 好／六甲 先男後女／功名 得意與君顯，／歲君
+      吉／出外 有貴人好／經商 利市三倍／來人 月半有／行舟 可喜吉利／移居 好／失物 月光有／求雨 月半到／六畜 平平／耕作 平正／築室 得其所居／墳墓 得其吉地／討海
+      月半過漸得利／作塭 可得財利／魚苗 利路亨通／月令 漸平安／尋人 月光在／遠信 月半就至（jie_yue_score +22）。整签偏正，惟 求財 平平、官事
+      破財。完局 两处往下拉，治病 老拖尾。少立癒。则把老者一节说慢；月半（月中）是这份判词反复落点的地方。校勘：第四句依六源多数决，「團圓照滿天」→「團圓光滿天」（依据见
+      mazu_签诗_六源投票与裁定.csv）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在总类、家事、家运、婚姻、功名、经商、行舟、移居、讨海、作塭、月令、寻人、远信等处皆偏正面，唯「求财」与「官事」两项往下拉，医疗一类还把少者与老者分开说。校勘上第四句按六源多数决定字，不改文意。
+provenance:
+  editorial_note: '*the temple list keeps the same tale under the name 江中立遇永祿君.*'
+  textual_provenance: majority — 「團圓照滿天」→「團圓光滿天」, six-source majority vote; the traditional
+    wording 光 滿天 was adopted and the 照 variant dropped; 「…與君顯，…喜安然。…明月照，」→「…與君顯、…喜安然、…明月照、」→「…與君顯；…喜安然；…明月照，」,
+    punctuation normalised to the standard marks; wording unchanged
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 功名得意與君顯，
+    en: Merit and fame come to you, your name made visible;
+  - line_number: 2
+    zh: 前途富貴喜安然，
+    en: the road ahead holds wealth and honour, ease and joy.
+  - line_number: 3
+    zh: 若遇一輪明月照，
+    en: If a single round bright moon comes shining down —
+  - line_number: 4
+    zh: 十五團圓光滿天。
+    en: on the fifteenth it comes round whole, its light filling the sky.
+keywords:
+  favourable:
+    en:
+    - recognised effort
+    - the open road
+    - the full moon's light
+    - honour that holds
+    zh:
+    - 努力被看见
+    - 前路开阔
+    - 满月的光照满天
+    - 守得住的体面
+  guarded:
+    en:
+    - overreaching past the opening
+    - forcing a gain the season calls level
+    - letting an old quarrel cost money
+    zh:
+    - 越过开口处去硬求
+    - 硬争一份时令认作平平的进项
+    - 让旧日争执耗掉钱财
+reading_notes:
+- term: 功名得意
+  pinyin: gōng-míng-dé-yì
+  en: 'success in merit and name: passing the examinations and gaining rank; being
+    recognised more widely for work already done.'
+  zh: 既指真去考、真得了功名，也指已经做出来的事被更广地认下来；诗里两层都带着，不必挑定一层。
+- term: 團圓
+  pinyin: tuán-yuán
+  en: 'round and whole: the moon full and round at mid-month; a household gathered
+    whole; both senses sit under the one image.'
+  zh: 既指月中那轮圆月，也指一家人聚齐；两个意思都落在这一个意象底下。
+- term: 明月
+  pinyin: míng-yuè
+  en: 'the bright moon: a patron or ruler who sees you clearly; a bright but borrowed
+    light - brightness that is still the light of night.'
+  zh: 既指看得清你的贵人，也指明亮却是借来的光——再亮，也还是夜里的光。
+plain_meaning:
+  en: 'A season that opens: effort is recognised and the road ahead holds wealth and
+    honour, with the moon at full lighting the whole sky. The poem''s counsel is to
+    work on toward the recognised goal and let the opening do its work; the small
+    delays are reminders not to overreach.'
+  zh: 这是一段开了口的时节：出力会被认下来，前路是富贵安稳的路，月亮一圆，光就满了天。诗里的话，是顺着这份被看见往前走，让时令自己发力；那几处小拖累提醒的是别越过这道开口去硬求。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will I pass and become famous for it?
+    zh: 我会不会考上、因此成名？
+  rewritten_to:
+    en: What should I steady myself toward this season, and what does the work ask
+      of me now?
+    zh: 这一季我该把心思稳在什么上面，这件事现在要我做什么？
+  rewrite_reason:
+    code: closed_question
+    zh_explanation: 原问法是一个封闭式的是非问（只求「会不会」），改为可以留心、可以行动的问法。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A warm and lasting season for bonds; honour and ease at home support a commitment
+      made now.
+    zh: 这是一段温厚、能长久的时节；此刻定下的承诺，家里安稳和顺，托得住。
+    compliance_tag: null
+  career:
+    en: Merit and name are recognised this season - say what you are aiming at and
+      move on it; the opening rewards steady effort.
+    zh: 这一季功名与名声会被认下来——把你要瞄的目标说出来，然后动手；这道开口回报的是稳着走的人。
+    compliance_tag: null
+  money:
+    en: Gain flows from steady trade rather than from squeezing a margin; money is
+      level rather than abundant, so work the opening and keep reserves. (Not financial
+      advice.)
+    zh: 进项靠稳当的生意来，不靠硬挤那点差价；钱是平而不是丰，顺着开口做、把底子留好。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The old mend slowly and the young mend quickly - rest and ordinary care are
+      the counsel; consult a qualified professional for anything that persists. (Not
+      medical advice.)
+    zh: 老的养得慢，少的养得快——宜休养、按平常的照料来；有拖着不好的症状，找有资质的专业人士看。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Household and home are settled and well-placed; keep the peace and let the
+      good season hold.
+    zh: 家宅安顿、位置也对；把这份和气守住，让好时节自己走完。
+    compliance_tag: null
+  travel_moving:
+    en: All four directions are favourable; journeys and a change of home go well,
+      and help comes from the right quarter.
+    zh: 四方都宜；出行、搬家都走得顺，帮手会从对的方向来。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Good water for boats and for those who work it; profit comes in after mid-month
+      rather than at the start.
+    zh: 水上好，对船、对靠海吃饭的人都好；利是过了月中才一点点来的，不是一开头就有的。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Fields, fish-ponds and fry all favour the season; the harvest is sound and
+      the ponds return their profit.
+    zh: 这一季里田地、鱼塭、鱼苗都占时令的便宜；收成平正，塭里也有回报。
+    compliance_tag: null
+  timing:
+    en: The opening falls at the full moon - read mid-month as a window, never as
+      a date.
+    zh: 开口落在满月时——把月中读成一段窗口，不要读成一个日期。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Overreaching past the opening; reading a level money line as a loss; letting
+      an old quarrel drain your purse.
+    zh: 越过开口处去硬求；把一份平的钱路读成亏损；让旧日争执掏空你的钱袋。
+    compliance_tag: null
+  reassurance:
+    en: Nothing here needs to be forced; the season is already open.
+    zh: 这里没有哪一件事需要硬来；时令本来就是开着的。
+    compliance_tag: null
+stories:
+- title:
+    zh: 江中立遇永樂君
+    en: Jiang Zhongli Meets the Yongle Emperor
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 永乐是明朝皇帝的年号，永乐帝出宫时好穿平民衣服走动。他在路上遇见一个正在苦读的读书人，名叫江中立。皇帝问他为什么整日守在书桌前。江中立说功名还没有着落，课业不敢丢下。皇帝出了一个上联让他对，上联里嵌着大明的字样；江中立对的下联里嵌着永乐。皇帝很高兴，知道他是可造之材，就赐他状元。这一则讲的是皇帝微行遇上读书人、读书人凭一联登第的一段。皇帝出门走动一类的事在明清的笔记里讲得不少，拿对联定科名一类的情节也在别处出现过。留下的就是苦读登第这一层。
+    en: Yongle is the reign name of one emperor of the Ming. When the Yongle emperor
+      went out of the palace he liked to walk about in the clothes of a common man.
+      On the road he met a scholar who was studying hard, by the name of Jiang Zhongli.
+      The emperor asked him why he sat over his desk all day. Jiang Zhongli said that
+      his name had not yet been made in the examinations and that he did not dare
+      drop his lessons. The emperor made him the first half of a couplet, with the
+      words Great Ming worked into it. Jiang Zhongli's answering half worked in the
+      words Yongle. The emperor was pleased, saw that he was a man worth bringing
+      on, and granted him the top place on the examination list. The tale is of an
+      emperor going about in disguise who meets a scholar, and the scholar reaches
+      the top on one couplet. Plots in which a couplet fixes an examination result
+      turn up elsewhere as well. What is left is the layer of hard study and coming
+      first.
+  poem_connection:
+    zh: 签诗说“功名得意与君显”与“若遇一轮明月照，十五团圆照满天”，与题名所取的苦读登第一层相贴。
+    en: The poem speaks of success in name shown to you, and of a bright moon that
+      comes round full and lights all the sky; the title takes the layer of hard study
+      and coming first.
+- title:
+    zh: 江中立欽賜狀元
+    en: Jiang Zhongli Granted First Place by the Emperor
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这个故事讲的是明朝永乐皇帝的民间逸闻。科举三年一次，读书人考中的机会很小，江中立因此日夜苦读。他住的地方陈设简单，只有书和一盏灯。永乐皇帝换了便服出宫，路上遇见这个书生，正伏在案上苦读。皇帝问他为什么这样用功，江中立回答说，科名还没有到手，不敢把学业放下。科名就是科举考试的功名。皇帝当场出一句上联，要他对。江中立对得工整，又顺着意思称颂，皇帝大为高兴，认为他是栋梁之才，当即赐他状元。江中立一夜之间登第。状元是科举殿试的第一名。
+    en: This story tells a folk anecdote of the Yongle emperor of the Ming dynasty.
+      The examinations were held once every three years, and a scholar had only a
+      small chance of passing. Jiang Zhongli studied hard day and night for this reason.
+      The place where he lived was plainly furnished, with only books and one lamp.
+      The Yongle emperor changed into ordinary clothes and left the palace. On the
+      road he met this scholar, bent over his desk studying hard. The emperor asked
+      him why he worked so hard. Jiang Zhongli answered that the rank in the examinations
+      was not yet in his hands, and he did not dare set his studies aside. Rank in
+      the examinations meant the honors won in the civil examinations. The emperor
+      set him a first line on the spot and told him to match it. Jiang Zhongli matched
+      it neatly and went on to praise him in keeping with the sense. The emperor was
+      greatly pleased and thought him a man fit to be a pillar of state, and at once
+      granted him first place. Jiang Zhongli rose to the top in a single night. First
+      place was the highest rank in the palace examination.
+  poem_connection:
+    zh: 签诗“功名得意与君显”“十五团圆照满天”，功名得意、光焰照人，正对因对句而登第。
+    en: The lot's poem says honor won in the examinations shows in the man, and that
+      a full moon at the fifteenth lights the whole sky. Honors won and a shining
+      light fits rising to the top through matching a line.
+- title:
+    zh: 李世民正位東宮
+    en: Li Shimin Takes the Eastern Palace
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐朝初年，李渊做了皇帝，就是唐高祖。他立大儿子李建成为太子，住在东宫。东宫是太子居住和办公的地方。另一个儿子李世民封为秦王，带兵在外，军功卓著，威望一天比一天高。兄弟两人各自结交党羽，彼此猜忌越来越深。有一次，李世民带着长孙无忌、尉迟敬德等人在玄武门埋伏下兵马。玄武门是皇宫的北门。李建成和弟弟齐王李元吉入朝经过这里，事发被杀。高祖当时正在宫中划船，听到变故大吃一惊，问大臣该怎么办。大臣们奏请立秦王为太子，把国政交给他。高祖就下诏，立李世民为皇太子。过了两个月，高祖传位，李世民即位，就是唐太宗。这一签说若遇一轮明月照，又说十五团圆照满天，正配玄武门之变后世民受立为太子、随即即位的一段。
+    en: In the early Tang, Li Yuan became emperor, that is Emperor Gaozu of Tang.
+      He made his eldest son Li Jiancheng crown prince, to live in the Eastern Palace.
+      The Eastern Palace is where the crown prince lived and worked. Another son,
+      Li Shimin, was enfeoffed as Prince of Qin, led troops in the field, won outstanding
+      military merit, and rose in standing day by day. The two brothers each gathered
+      their own faction, and their suspicion of each other grew deeper. On one occasion
+      Li Shimin, with Zhangsun Wuji, Yuchi Gong and others, placed troops in ambush
+      at the Xuanwu Gate. The Xuanwu Gate was the north gate of the palace. Li Jiancheng
+      and his brother Li Yuanji, Prince of Qi, came to court through it and were killed
+      in the affair. Gaozu was boating in the palace at the time. He was greatly startled
+      by the news and asked his ministers what should be done. The ministers asked
+      that the Prince of Qin be made crown prince and given the government. Gaozu
+      then issued the order making Li Shimin crown prince. Two months later Gaozu
+      passed on the throne, and Li Shimin took it, as Emperor Taizong of Tang.
+  poem_connection:
+    zh: 这一签说若遇一轮明月照、十五团圆照满天，正配李世民受立东宫、随即即位的一段。
+    en: This lot says that one bright moon shines and the full moon of the fifteenth
+      lights the sky - Li Shimin made crown prince in the Eastern Palace and taking
+      the throne soon after.
+- title:
+    zh: 狄仁傑中興大唐
+    en: Di Renjie Restores the Tang
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 狄仁杰，字怀英，并州太原人，是唐朝武则天时的名臣。并州太原在今山西太原。武则天是唐朝的女皇帝，很看重狄仁杰的才干，狄仁杰心里却向着唐朝的宗室。武则天想立侄子武三思做太子，问狄仁杰的意见。狄仁杰说，人心还没有忘掉唐朝的恩德，而且姑侄和母子相比，母子要亲得多，力劝她把庐陵王接回来。几年之后，武则天想通了，派人把庐陵王迎回东都洛阳，重新立为太子，唐朝的国统因此没有中断。狄仁杰还向朝廷推荐了张柬之、桓彦范、敬晖、姚崇等几十人。后来张柬之等人果然办成了恢复唐朝的事。狄仁杰死的时候，武则天叹说朝堂上没有人了。
+    en: Di Renjie, whose courtesy name was Huaiying, was a man of Taiyuan in Bingzhou.
+      He was a famous minister in the Tang dynasty under Wu Zetian. Bingzhou Taiyuan
+      is present-day Taiyuan in Shanxi. Wu Zetian was the woman emperor of the Tang.
+      She valued Di Renjie's ability, but his heart leaned toward the Tang imperial
+      house. Wu Zetian wanted to make her nephew Wu Sansi crown prince, and she asked
+      Di Renjie his opinion. Di Renjie said that people's hearts had not forgotten
+      the kindness of the Tang. He also said that between an aunt and a nephew, and
+      between a mother and a son, mother and son were far the closer. He urged her
+      strongly to bring back the Prince of Luling. Some years later Wu Zetian came
+      around. She sent men to welcome the Prince of Luling back to the eastern capital,
+      Luoyang, and made him crown prince again. So the Tang line was not broken. Di
+      Renjie also recommended Zhang Jianzhi, Huan Yanfan, Jing Hui, Yao Chong, and
+      dozens of others to the court. Later Zhang Jianzhi and the others did in fact
+      bring the Tang back. When Di Renjie died, Wu Zetian sighed that the court had
+      no men left.
+  poem_connection:
+    zh: 签诗“若遇一轮明月照，十五团圆照满天”，正合狄仁杰力劝武则天迎回庐陵王、唐朝一脉复得团圆一事。
+    en: The poem says that if one meets a full moon's shining, its roundness lights
+      all the sky, which fits Di Renjie urging Wu Zetian to bring the Prince of Luling
+      back and the Tang line coming whole.
+- title:
+    zh: 狄仁傑作相
+    en: Di Renjie Becomes Chancellor
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 狄仁杰是唐朝并州太原人，通过科举中的明经科入仕。他做大理丞的时候，一年之内处理掉大批积压的案件，没有一个人喊冤。任豫州刺史时，他为受牵连的百姓平反；任宁州刺史时，很受当地百姓拥护。武则天当政时，狄仁杰曾被酷吏来俊臣诬告下狱，他想办法申诉，才免去死罪，被贬到彭泽做县令。后来武则天起用他做宰相。他几次劝武则天把政权还给李氏，又推荐张柬之、桓彦范等正直的人。武则天很尊重他，称他国老，他的意见大多被采纳。他做官所到之处，百姓多为他立碑记功。
+    en: Di Renjie was a man of Taiyuan in Bingzhou in the Tang dynasty. He entered
+      office through the mingjing section of the imperial examinations. While he served
+      as assistant director of the court of judicature, he cleared a great pile of
+      backlogged cases within a year, and not one person cried out that he had been
+      wronged. As prefect of Yuzhou he cleared the names of people who had been drawn
+      into a case. As prefect of Ningzhou he was much supported by the local people.
+      When Wu Zetian ruled, Di Renjie was once falsely accused by the cruel official
+      Lai Junchen and thrown into prison. He found a way to appeal, and so escaped
+      the death penalty and was sent down to be magistrate of Pengze. Later Wu Zetian
+      brought him back as chief minister. Several times he urged her to return the
+      government to the Li family, and he recommended upright men such as Zhang Jianzhi
+      and Huan Yanfan. Wu Zetian respected him greatly and called him the state elder,
+      and most of his advice was taken. Wherever he held office, the people mostly
+      set up stones to record his merits.
+  poem_connection:
+    zh: 签诗说功名得意、前途富贵安然，又说一轮明月照满天空。狄仁杰终登相位、抱负得展，正合此意。
+    en: The lot poem says office and fame are won as one wishes, and the road ahead
+      is rich and secure, and that a round moon lights the whole sky. Di Renjie reached
+      the chief ministry at last.
+- title:
+    zh: 狄仁傑議嗣太子
+    en: Di Renjie Debates the Heir
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 狄仁杰是唐朝武则天时的名相。武则天做了皇帝以后，她的侄子武承嗣、武三思几次想谋取太子的位子，武则天也有这个意思。狄仁杰常常找机会劝她。他说，姑侄和母子，哪一样更亲。传位给儿子，百年之后还能进太庙享受祭祀；传位给侄子，从没听说侄子做了皇帝，会把姑姑供进自家宗庙的。武则天听了，心里受到触动，终于把贬在外地的儿子李显召回，重新立他为太子。当时契丹、突厥进犯边境，打的都是迎回李显的旗号。狄仁杰一生举荐了几十个人，张柬之、桓彦范、姚崇都在其中。后来这些人拥立中宗，恢复了唐朝。
+    en: Di Renjie was a famous chancellor in the reign of Wu Zetian of the Tang. After
+      Wu Zetian took the throne, her nephews Wu Chengsi and Wu Sansi several times
+      sought the place of heir, and she had the same idea herself. Di Renjie often
+      found occasions to counsel her. He said that between aunt and nephew and between
+      mother and son, which was closer? If she passed the throne to a son, then after
+      her death she would still be honored in the ancestral temple with sacrifices.
+      If she passed it to a nephew, no one had ever heard of a nephew who became emperor
+      and put his aunt in his own family temple. Wu Zetian was moved at heart, and
+      in the end recalled her son Li Xian from exile and made him heir again. At the
+      time the Khitan and the Turks raided the frontier, all under the banner of restoring
+      Li Xian. Over his life Di Renjie recommended dozens of men, among them Zhang
+      Jianzhi, Huan Yanfan, and Yao Chong. Later these men put Emperor Zhongzong on
+      the throne and the Tang house was restored.
+  poem_connection:
+    zh: 这一签说明月照满天、一家团圆，正配狄仁杰劝武后召回李显、母子团圆。
+    en: This lot says the bright moon shines over all the sky and the family is reunited.
+      It fits Di Renjie persuading Empress Wu to recall Li Xian and mother and son
+      coming together.
+- title:
+    zh: 趙普隱居
+    en: Zhao Pu Retires to the Mountains
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵普字则平，是幽州蓟地人，后来迁到洛阳居住。他早年在赵匡胤手下做事。赵匡胤在陈桥驿被将士拥立为皇帝，建立宋朝，赵普出力很多。宋朝立国以后，他凭这份功劳几次出任宰相，太宗时又再度入相，前后三次拜相，封为韩王，去世后谥号忠献。他年轻时熟悉的是官府的事务，学问不深，晚年却喜欢读论语，后来便有半部论语治天下的说法。他没有做官的时候，曾在乡里设馆教书，人们叫他村学究。这一题说“隐居”，指的当是他未显达时的那段日子。
+    en: Zhao Pu, styled Zeping, was a man of Ji in Youzhou, and his family later moved
+      to Luoyang. In his early years he served under Zhao Kuangyin. When Zhao Kuangyin
+      was raised by his officers to be emperor at Chenqiao Post Station and founded
+      the Song, Zhao Pu gave great help. After the Song was founded, on the strength
+      of that service he served as chancellor several times. Under Taizong he entered
+      the chancellery again. He was chancellor three times in all and was made Prince
+      of Han. After his death he was given the posthumous name Zhongxian. In his youth
+      he was familiar with the business of government offices and not deeply learned.
+      In later years he liked to read the Analects, and from this came the saying
+      that half the Analects is enough to govern the world. When he held no office
+      he had set up a school in his village to teach. People called him the village
+      schoolmaster. This title says living in retirement, and it points to the days
+      before he became known.
+  poem_connection:
+    zh: 这一签的签诗说功名得意与你显扬，前途富贵安然，若遇一轮明月照来，十五的团圆照亮满天。赵普未显时潜居教书，后名位俱显。
+    en: The poem says office and fame are glad and bring you renown, and wealth ahead
+      is calm. Zhao Pu lay low and taught before he became known.
+- title:
+    zh: 趙韓王為村學究
+    en: The Prince of Han Becomes a Village Schoolmaster
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 赵韩王就是赵普，宋朝初年的宰相，封为韩王。宰相是百官之首，总理朝政。他年轻时读过书，后来做了宰相，宋太祖劝他多读。他从此手不释卷，每次回到家里，就关上房门，打开箱子取出书来读，第二天上朝办事，决断得又清楚又快。人们说他凭半部论语就足以治理天下。论语是孔子和弟子的言论集，这句话是说他把这部书读得透、用得活。赵普没有做官的时候，曾在乡间的学塾里教过书，也就是做村里的教书先生。后来他投到军中，做了掌书记，一步步升到宰相。
+    en: The Prince of Han was Zhao Pu, a chancellor of the early Song, enfeoffed as
+      the Prince of Han. The chancellor stood at the head of the officials and directed
+      the government. Zhao Pu had studied in his youth, and after he became chancellor,
+      Emperor Taizu urged him to read more. From then on he never let a book out of
+      his hands. Each time he came home he shut his door, opened a box, and took out
+      a book to read. The next day at court he handled business with great clarity
+      and speed. People said that half of the Analects was enough for him to govern
+      the realm. The Analects is a collection of the sayings of Confucius and his
+      disciples, and the phrase means that he read the book thoroughly and used it
+      with skill. Before he held office, Zhao Pu had taught in a country school, that
+      is, he worked as a village schoolmaster. Later he joined the army as a secretary
+      for documents and rose step by step to chancellor.
+  poem_connection:
+    zh: 签诗说功名得意与君显、前途富贵喜安然；赵普起于乡间教书、终居相位，正合这一层。
+    en: The poem says office and name come to the reader's satisfaction, and that
+      the road ahead is wealth and honor, pleased and at ease. Zhao Pu rose from village
+      teacher, which fits.
+- title:
+    zh: 江中立遇永祿君
+    en: Jiang Zhongli Meets Emperor Yongle
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 明朝永乐年间，永乐帝换上便服出宫游历。路上他遇到一个叫江中立的读书人，见这人在路边用功读书，就问他为什么这样。江中立答，自己还没有考取功名，所以一天也不敢荒废学业。永乐帝便出一句对联试他，出句是“灯明月明，大明百世”。对联是上下两句字数相同、意思相对的文字，考的是才思和应对。江中立随口对道：“君乐臣乐，永乐万年”。两人一句来一句去，对得很快。永乐帝听了很高兴，觉得他是可用之材，就赐他状元及第。江中立由此显名。题名里的永禄君，就是永乐君的另一种写法。
+    en: In the Yongle years of the Ming dynasty, Emperor Yongle put on plain clothes
+      and travelled outside the palace. On the road he met a scholar named Jiang Zhongli.
+      Seeing the man studying hard by the roadside, he asked him why. Jiang Zhongli
+      answered that he had not yet won a degree, so he did not dare waste a single
+      day of study. Emperor Yongle then set him a line of a couplet to test him. The
+      line was that the lamp was bright and the moon was bright, and Great Ming would
+      last a hundred ages. A couplet is two lines of the same length and matching
+      sense, and it tests quickness of mind and reply. Jiang Zhongli answered without
+      pausing that the ruler rejoiced and the subjects rejoiced, and Yongle would
+      last ten thousand years. The two traded lines back and forth and matched quickly.
+      Emperor Yongle was pleased to hear it and thought him a man who could be used,
+      so he granted him the top place in the imperial examination. Jiang Zhongli became
+      known from this. The Yonglu in the title is another way of writing Yongle.
+  poem_connection:
+    zh: 签诗说若遇一轮明月照，十五团圆照满天。帝出对以“月明”起句，江中立因此显达，正合这一句。
+    en: The lot poem says that if one meets a bright moon, the full moon at midmonth
+      lights the whole sky. The emperor's line begins with the bright moon, and Jiang
+      Zhongli rises by it.

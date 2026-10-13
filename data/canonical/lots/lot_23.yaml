@@ -1,0 +1,384 @@
+id: 23
+lot_number: 23
+ganzhi:
+  zh: 丁酉
+  pinyin: Ding-you
+title:
+  en: Jiang Taigong Fishes
+  zh: 姜太公釣魚
+hexagram:
+  zh: 风山渐
+  name_and_structure_en: Jian, Gradual Advance (Wind over Mountain)
+  binary_code: ○○●○●●
+  shared_with_lot: 58
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 姜太公釣魚
+    en: Jiang Taigong Fishes
+  variants_en:
+  - Huang Wuniang Meets Chunsheng
+  - Huang Wu-niang Meets Chen Chunsheng
+  - Jiang Ziya Carries Rice to Cover Wu Ji's Divination
+  - Jiang Ziya Burns the Pipa
+  - Su Qin Is Slighted
+  - Sun Ce Pawns the Jade Seal for Yuan's Troops
+  variants_zh:
+  - 黃(周)五娘遇春生
+  - 黃(周)五姐可遇陳春生
+  - 姜子牙送飯為武吉掩卦
+  - 姜子牙火燒琵琶
+  - 蘇秦受鄙
+  - 孫策以玉璽借袁兵
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative — 凡事 不可作。和者吉／作事 遲緩／功名 無望／月令 不遂, with
+      婚姻 大吉 as the one bright line (jie_yue_score −8)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements run against the querent in most categories — undertakings,
+      advancement, the season, the household, travel and trade all blocked, with delay
+      and expense named in several. Marriage is the single line that runs the other
+      way, and it is the one bright spot.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 不可作。和者吉／作事 遲緩／家運 崎嶇不順／功名 無望／月令 不遂／家事 門庭失運。了錢／出外 不可／經商 顛倒／治病
+      了錢。尾過漸好／移居 不佳。等待——整签偏负，多数类目受阻且带迟延、耗财之意，唯 婚姻 大吉 一项与全签其余判词方向相反，是本签唯一的亮线。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在多数类目上不利：办事、功名、月令、家宅、出行、经商等皆受阻，多处还带着迟延与耗财之意。唯婚姻一项与全签其余判词方向相反，是本签唯一亮色。
+provenance:
+  editorial_note: '*Three of the seven are Jiang Ziya tales — the angler who waits
+    for the willing fish.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 欲去長江水闊茫，
+    en: You would set out on the Long River, wide and vague;
+  - line_number: 2
+    zh: 前途未遂運未通，
+    en: the road ahead does not pay yet and the time is not open;
+  - line_number: 3
+    zh: 如今絲綸常在手，
+    en: and now — the line is always in your hand;
+  - line_number: 4
+    zh: 只恐魚水不相逢。
+    en: the only fear is that the fish and the water never meet.
+keywords:
+  favourable:
+    en:
+    - waiting with the line ready
+    - keeping to the shore you know
+    - small steady work
+    zh:
+    - 备好钓线地等
+    - 守在你熟悉的岸边
+    - 小而稳的活计
+  guarded:
+    en:
+    - setting out on a wide undertaking
+    - reading readiness as a catch
+    - forcing a fit between two parties
+    - spending in a season that has not opened
+    zh:
+    - 对着一片宽水动身
+    - 把有准备当成有收获
+    - 硬促成双方的契合
+    - 在还没开的一季里花钱
+reading_notes:
+- term: 水闊茫
+  pinyin: shuǐ-kuò-máng
+  en: '"wide and vague": the water''s *width*; the *uncertainty of the undertaking*
+    are one phrase.'
+  zh: 里，水的宽与所办之事的不确定是同一句话。
+- term: 絲綸
+  pinyin: sī-lún
+  en: 'silk line: at once *the fisherman''s line* and, in the old usage, *the imperial
+    rescript*; Readiness in hand, not yet answered.'
+  zh: 既指钓丝，旧用也指诏命。线在手里，却还没等到回音。
+- term: 魚水
+  pinyin: yú-shuǐ
+  en: 'fish and water: the classic figure for *a fit between two parties* — ruler
+    and minister, or two people; The poem''s fear is that the fit does not arrive.'
+  zh: 是双方契合的经典比喻——君与臣，或两个人。此诗怕的正是这份契合不来。
+plain_meaning:
+  en: 'The line is in your hand and the water is wide: readiness without the meeting.
+    This is a season to keep to the shore and stop spending on the crossing, not a
+    season for the great undertaking. The poem ends by doubting the fit, and the doubting
+    is the counsel.'
+  zh: 钓线在你手里，水却又宽又茫：有准备，却见不到那场相遇。这一程该守在岸边、别再为过渡掏钱，不是做大事的时候。诗以「怕是配不上」收尾，而这份疑，就是它的劝告。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will this investment pay off?
+    zh: 这笔投资会赚吗？
+  rewritten_to:
+    en: What should I weigh before committing money now, and what is mine to do?
+    zh: 此刻投钱之前该权衡什么，而我能做的是什么？
+  rewrite_reason:
+    code: out_of_scope
+    zh_explanation: 超出问事范围
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The one bright line in this lot; but the poem's figure is a fit that does
+      not arrive by itself — do not press a meeting into being.
+    zh: 这是本签唯一亮的一处；但诗里的比喻是那场契合不会自己到来——不要硬把一次相会促成。
+    compliance_tag: null
+  career:
+    en: Advancement is not on offer this season; hold your position and keep the line
+      in the water.
+    zh: 这一程不谈升进；守住位置，把线留在水里。
+    compliance_tag: null
+  money:
+    en: Loss first and gain late; do not commit reserves to the wide water. *(Not
+      financial advice.)*
+    zh: 先有失、后才有得；不要把积蓄投进那片宽水。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A season of expense and slow mending; keep the treatment going rather than
+      change it. *(Not medical advice.)*
+    zh: 这一程费钱，复原也慢；把现有的照料顺着做下去，不要换来换去。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is out of season; keep costs down and do not force decisions.
+    zh: 家宅正不得时；把开销压住，不要强推决定。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out.
+    zh: 此诗说不要出行。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Poor water for the boat; work the shore and wait for the season to open.
+    zh: 船在这水里不济；守着岸边做，等这一季开。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Not the season for the field — small returns at best and a loss if you force
+      it.
+    zh: 不是下田的时候——最多小收，硬来则要赔。
+    compliance_tag: null
+  timing:
+    en: The time opens later — a season, never a date.
+    zh: 时机要往后才开——只说一程，不给准日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Setting out on the wide water; taking readiness for a result.
+    zh: 对着宽水动身；把有准备当成有结果。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这说的是一段难行的时节，不是对祸事的预告。若这签触到你的焦虑或钱财之忧，请去找你信得过的人，或找有资质的专业人士说一说。
+    compliance_tag: null
+stories:
+- title:
+    zh: 姜太公釣魚
+    en: Jiang Taigong Fishes
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 吕尚是商朝末年人，年纪很大还没有机会施展，后世称他姜太公。他住在渭水边，以钓鱼度日。他的钓法很特别：鱼钩是直的，又离水面几尺，也不放鱼饵。他在意的不是钓上鱼，而是等一个能同他共事的人。周族的首领西伯，就是后来的周文王，要出外打猎，出发前先占卜。占卜的话说，这趟所获的不是龙、不是虎、也不是熊，而是能辅佐霸业的人。西伯在渭水北岸遇到吕尚，谈得投合，就与他同车回去，拜他为师。俗语“姜太公钓鱼，愿者上钩”就出自这里。吕尚辅佐周室，助周武王伐纣，周得天下，他受封于齐，建都营丘。
+    en: Lu Shang lived at the end of the Shang dynasty. He was already old and had
+      never had a chance to use his talents. Later ages called him Jiang Taigong.
+      He lived by the Wei River and spent his days fishing. His way of fishing was
+      strange. His hook was straight, it hung several feet above the water, and he
+      used no bait. What he cared about was not catching fish but waiting for a man
+      he could work with. The chief of the Zhou people, the Western Earl, who later
+      became King Wen of Zhou, was going out to hunt. Before setting out he took a
+      divination. The words of the divination said that what he caught on this trip
+      would be neither a dragon, nor a tiger, nor a bear, but a man able to aid a
+      great cause. The Western Earl met Lu Shang on the north bank of the Wei River.
+      They talked and took to each other. He rode back with him in the same carriage
+      and honoured him as a teacher. The saying about Jiang Taigong fishing and the
+      willing taking the hook comes from this. Lu Shang aided the house of Zhou and
+      helped King Wu of Zhou overthrow King Zhou, the last Shang ruler. Zhou won the
+      realm, and Lu Shang was enfeoffed in Qi, with his capital at Yingqiu.
+  poem_connection:
+    zh: 签诗说如今丝纶常在手，只恐鱼水不相逢。太公年老仍拿着钓竿，静待相遇之人，正合这一层。
+    en: The lot poem says the fishing line is ever in hand, and fears that fish and
+      water never meet. Old Taigong still holds his rod, quietly waiting for the man
+      he is to meet.
+- title:
+    zh: 黃(周)五娘遇春生
+    en: Huang Wuniang Meets Chunsheng
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 陈三是泉州的一位书生。他送哥哥去广南，路过潮州。元宵节的灯会上，他遇见城里的富家小姐黄五娘，两人互相倾心。五娘的父亲已经收下了林家的聘礼，要把她许给林大。五娘不肯，气得投井，被人救起。她获救之后，仍旧不肯依从父亲。陈三改扮成磨镜的匠人，进到黄家，又故意把一面宝镜打破，情愿卖身为奴，好留在府里。五娘用手帕包着荔枝，从绣楼上掷下来，当作信物。事情紧急时，五娘的使女益春帮他们牵线。两人连夜逃出黄家，一起回到泉州。
+    en: Chen San was a scholar from Quanzhou. He was seeing his elder brother off
+      to Guangnan and passed through Chaozhou. At the Lantern Festival he met Huang
+      Wuniang, the daughter of a rich family in the city, and the two fell for each
+      other. Wuniang's father had already accepted betrothal gifts from the Lin family
+      and meant to give her to Lin Da. Wuniang refused. In her anger she threw herself
+      into a well and was pulled out and saved. After she was rescued she still would
+      not obey her father. Chen San disguised himself as a mirror-polishing craftsman
+      and got into the Huang house. He then broke a treasured mirror on purpose and
+      offered to sell himself as a servant so that he could stay in the household.
+      Wuniang wrapped lychees in a handkerchief and threw it down from her embroidery
+      room as a token. When matters came to a head, Wuniang's maid Yichun helped arrange
+      meetings between them. The two fled the Huang house at night and went back to
+      Quanzhou together.
+  poem_connection:
+    zh: 这一签说手中握着丝纶、鱼水终得相逢，正配五娘掷荔枝传情、两人终成夫妻。
+    en: This lot speaks of holding the silk line in hand, of fish and water meeting
+      at last. It fits Wuniang throwing lychees to show her heart and the two becoming
+      husband and wife.
+- title:
+    zh: 黃(周)五姐可遇陳春生
+    en: Huang Wuniang Meets Chen San
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 黄五娘是闽南和潮州一带戏里的人物，也写作周五娘。她和一个少年相恋，题面上这位少年叫陈春生。两人情意相投，却一时没能走到一起，中间经过几番波折，才结成夫妻。这段故事在闽南、潮州流传很广，戏台上常演，戏里的人和事也散在好几出戏中。同一个人，在不同的戏里写法也不一样，五娘有时写作周王姐。两人虽然见了面，却还不能相守，机缘一直没有定下来。这样的戏，看的人多，讲的人也多。这一签要说的，就是相望而未能相聚的光景。
+    en: Huang Wuniang is a character in the opera of southern Fujian and the Chaozhou
+      region. She is also written Zhou Wuniang. She loves a young man, called Chen
+      San in the title of this lot. The two are fond of each other, yet for a time
+      they cannot come together. Only after several turns of trouble do they become
+      husband and wife. The story is widely known in southern Fujian and Chaozhou
+      and is often played on stage. The people and events of it are spread over several
+      plays. The same person is written differently in different plays. Wuniang is
+      sometimes written as Zhou Wujie. The two have met, but they still cannot stay
+      together. The chance has never settled. Such plays have many watchers and many
+      tellers. What this lot describes is a pair who look at each other across a distance
+      and cannot yet join.
+  poem_connection:
+    zh: 这一签的签诗说想去长江而水面广阔，前途未遂，鱼和水的相逢还没有来。题面的“可遇”二字，正记着相见而缘分尚未定下的一段。
+    en: The poem says she longs for the Yangtze but the water is wide, and the meeting
+      of fish and water has not come. The title's 'can meet' is a meeting without
+      a settled bond.
+- title:
+    zh: 姜子牙送飯為武吉掩卦
+    en: Jiang Ziya Brings Food and Shields Wu Ji by Divination
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 姜子牙是商朝末年的人物，奉师父之命下山，住在朝歌城南，靠编竹笊篱、卖面过日子，都不如意，后来到渭水的磻溪边钓鱼，等待时机。城里有位樵夫叫武吉，挑柴进城去卖，失手打死了守门的军士。按西岐的规矩，他要抵命，被关在画地为牢的圈子里，也就是在地上画个圈当牢房。武吉挂念家中老母无人奉养，在路边哭。姜子牙可怜他，教他一套掩星的卜法，让人占不出他的去处。武吉得以回家养母，平日替姜子牙送饭。后来周文王出猎，在渭水边遇见姜子牙，用车把他载回去，拜为太师。
+    en: Jiang Ziya lived at the end of the Shang dynasty. His master sent him down
+      the mountain, and he lived south of the city of Chaoge. He made bamboo strainers
+      and sold flour, and did poorly at both. Later he fished by the Pan Creek on
+      the Wei River, waiting for his time. In the city there was a woodcutter named
+      Wu Ji. He carried firewood in to sell and by accident killed a guard at the
+      gate. Under the rules of Xiqi he owed a life for it. He was held in a prison
+      drawn on the ground, which is to say a circle marked out on the earth to serve
+      as a cell. Wu Ji worried that his old mother at home had no one to feed her,
+      and he wept by the road. Jiang Ziya took pity on him. He taught him a method
+      of hiding the stars so that diviners could not find where he had gone. Wu Ji
+      was able to go home and care for his mother, and in return he carried food to
+      Jiang Ziya. Later King Wen of Zhou went hunting, met Jiang Ziya by the Wei River,
+      brought him back in his carriage, and made him Grand Tutor.
+  poem_connection:
+    zh: 签诗以丝纶在手、鱼水不相逢为喻；姜子牙渭水持竿待时、终于遇主，正是这一景。
+    en: The poem uses a fishing line in hand and fish and water never meeting. Jiang
+      Ziya held his rod by the Wei and waited for his lord, which is that very scene.
+- title:
+    zh: 姜子牙火燒琵琶
+    en: Jiang Ziya Burns the Jade Pipa Spirit
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 姜子牙名叫尚，七十二岁才奉师命下山，投奔结义兄长宋异人，又娶了马氏为妻，在商朝的都城朝歌卖面、算命度日。朝歌城外轩辕坟里有三个妖精，一个是千年狐狸精，一个是九头雉鸡精，一个是玉石琵琶精。一天，玉石琵琶精变成一个妇人，到姜子牙的命馆问卦。姜子牙一眼看出她是妖精，先用话把她留住，再使出三昧真火，把她烧出原形，众人这才看清是一面玉石琵琶。宫里的妲己得知此事，记恨在心，后来借机陷害他。姜子牙在朝歌站不住脚，便休了马氏，往西去辅佐周室。他后来在渭水边遇见周文王，才得施展本领。
+    en: 'Jiang Ziya, whose given name was Shang, was seventy-two when his master sent
+      him down from the mountains. He went to his sworn brother Song Yiren and married
+      a woman named Ma. In Chaoge, the capital of the Shang dynasty, he sold flour
+      and told fortunes to make a living. Outside the city, at Xuanyuan Tomb, there
+      lived three spirits: a fox spirit a thousand years old, a nine-headed pheasant
+      spirit, and a jade pipa spirit. One day the jade pipa spirit took the form of
+      a woman and came to Jiang Ziya''s fortune shop to ask about her future. He saw
+      at once that she was a spirit. First he held her there with talk. Then he used
+      the fire of samadhi to burn her back into her true shape, and the onlookers
+      saw that she was a jade pipa. When Daji in the palace heard of this, she held
+      it against him and later used the chance to ruin him. Jiang Ziya could not stay
+      in Chaoge. He divorced Ma and went west to serve the house of Zhou. Only when
+      he met King Wen of Zhou by the Wei River could he put his abilities to use.'
+  poem_connection:
+    zh: 这一签写本身怀本领的人沉沦市井、待时未遇，正扣签诗“前途未遂运未通”“只恐鱼水不相逢”。
+    en: A man of real ability sunk in the market streets and waiting for his time
+      fits a lot whose poem says the road is not yet open and fish and water have
+      not met.
+- title:
+    zh: 蘇秦受鄙
+    en: Su Qin Is Treated with Contempt
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏秦是东周洛阳人，洛阳是当时周天子所在的地方。他跟一位隐居的老师学的是游说各国君主的口才与谋略。出外几年，事情不成。他往西到秦国，上书十次说给秦惠王听，始终没有被采用。身上的黑貂皮袍穿破了，一百斤黄金也用完了，只好回家。到家的时候，妻子在织布机上不下来看他，嫂子不肯给他做饭，父母也不跟他说话。苏秦受了刺激，夜里翻出一部讲谋略的古书来读，读到困了就拿起锥子刺自己的大腿，血一直流到脚上，这样苦读了一年，把天下的形势揣摩透了。此后他往赵国去，劝六国联合起来抵抗秦国，最后佩上六国的相印。先前轻慢他的家里人，再见到他时都低着头，不敢正眼看他。
+    en: Su Qin was a man of Luoyang in the Eastern Zhou, and Luoyang was where the
+      Zhou Son of Heaven then lived. He learned from a teacher who lived in seclusion
+      the art of persuading rulers, along with the strategy that went with it. He
+      went abroad for several years and got nowhere. He went west to Qin and sent
+      up ten memorials to King Hui of Qin. None of them was ever taken. The black
+      sable robe he wore was worn through and his hundred catties of gold were all
+      spent, so he had to go home. When he reached home his wife stayed at her loom
+      and did not get down to look at him. His sister-in-law would not cook for him,
+      and his parents would not speak to him either. Stung by this, Su Qin dug out
+      an old book of strategy at night and read. When he grew sleepy he took an awl
+      and stabbed his own thigh, and the blood ran down to his feet. He read hard
+      this way for a year and worked out the shape of the whole world. After that
+      he went to Zhao and urged the six states to join against Qin. In the end he
+      wore the seals of all six states as their minister. The family that had once
+      slighted him kept their heads down when they saw him again, and did not dare
+      look him in the face.
+  poem_connection:
+    zh: 签诗说“前途未遂运未通。如今丝纶常在手”，正对苏秦游说不成、裘破金尽，而本事仍在手上的处境。
+    en: The poem says the road is not open and the time not through, with the line
+      still in his hand; Su Qin's talks failed and his robe and gold were gone, yet
+      his skill stayed in his hand.
+- title:
+    zh: 孫策以玉璽借袁兵
+    en: Sun Ce Pawns the Imperial Seal for Yuan's Troops
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 孙策字伯符，是东汉末年孙坚的长子。孙坚的军队进入洛阳时，在废墟中捡到一枚传国玉玺。玉玺是皇帝的印章，得到它的人常被看作有继位的名分。孙坚战死后，玉玺落到孙策手里。孙策投在袁术帐下，屡立战功却得不到重用，手里没有自己的兵马。他年纪轻，兵少粮缺，寄人篱下，早有自立的意思，只是没有本钱。他拿出这枚玉玺作抵押，向袁术借到三千兵、五百匹马，又带上父亲的旧部，渡长江南下。他先平定江东各郡，再谋发展。江东指长江下游南岸一带。袁术得到玉玺很高兴，果然发兵给他。
+    en: Sun Ce, whose courtesy name was Bofu, was the eldest son of Sun Jian at the
+      end of the Eastern Han. When Sun Jian's army entered Luoyang, it picked a jade
+      seal out of the ruins. This seal was the imperial seal. Whoever held it was
+      often seen as having a claim to the throne. After Sun Jian died in battle, the
+      seal came into Sun Ce's hands. Sun Ce served under Yuan Shu. He won merit again
+      and again but was never given an important post, and he had no troops of his
+      own. He was young, his soldiers were few, his grain was short, and he lived
+      under another man's roof. He had long wanted to stand on his own, but he had
+      no capital. He put up the seal as a pledge and borrowed three thousand soldiers
+      and five hundred horses from Yuan Shu. He also took along his father's old soldiers
+      and crossed the Yangtze southward. He first brought the commanderies of Jiangdong
+      under control, and then planned how to grow. Jiangdong means the lands on the
+      south bank of the lower Yangtze. Yuan Shu was glad to get the seal, and he did
+      send troops.
+  poem_connection:
+    zh: 签诗“如今丝纶常在手，只恐鱼水不相逢”，手里有物而还缺人，正对以玉玺换兵马这一段。
+    en: The lot's poem says the line is always in hand, yet fish and water do not
+      meet. Having something in hand while still lacking men fits trading the seal
+      for soldiers.

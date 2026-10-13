@@ -1,0 +1,327 @@
+id: 55
+lot_number: 55
+ganzhi:
+  zh: 癸丑
+  pinyin: Gui-chou
+title:
+  en: Guo Hua Drinks and Misses the Tryst
+  zh: 郭華醉酒誤佳期
+hexagram:
+  zh: 雷风恒
+  name_and_structure_en: Heng (Thunder over Wind)
+  binary_code: ●●○○○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 4
+  primary:
+    zh: 郭華醉酒誤佳期
+    en: Guo Hua Drinks and Misses the Tryst
+  variants_en:
+  - Zhu Maichen Carries Firewood
+  - Su Daji Brings Down Shang
+  - Guo Ai Marries a Princess
+  variants_zh:
+  - 朱買臣負薪
+  - 蘇妲己亂商
+  - 郭曖尚公主。
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements net near zero — little to gain, friction on closing
+      (凡事 了工·無利益／婚姻 不成／行舟 無利／月令 不遂有口舌); jie_yue_score 0
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as unfavourable: the general, marriage, trade and
+      sea-work lines all return little, the month carries friction, and health and
+      legal matters run long. Only a later turn in the household line is left open;
+      the direction is blocked, so we keep the reading protective and presses no forward
+      move.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 了工。無利益／作事 難成／家事 家庭多逢口舌／婚姻 不成／經商 了錢／行舟 無利／官事 拖尾。了錢／月令
+      不遂有口舌；唯家運 先凶後吉、功名 等後科、遠信 漸且待望（jie_yue_score 0）。收束处几乎处处吃力，开合处留一线。校勘：本签为一处倒文，六源
+      5/6 作「總言虛」，定本从多数决（「總虛言」→「總言虛」，本签单列）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 unfavourable：总类、婚姻、经商与讨海都换不回什么，治病与官事久拖。唯家宅留后段转机；方向偏阻，故读作 unfavourable，取保护口径。
+provenance:
+  editorial_note: null
+  textual_provenance: majority — 「須知進退總虛言 (维基文库 alone)」→「須知進退總言虛 (好廟網; feishuai; mznn;
+    91chouqian)」, six-source vote 5/6; inverted wording — this lot is listed separately
+    and the inversion is kept on the record.
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 須知進退總言虛，
+    en: Know that your advance and retreat are, in the end, empty talk;
+  - line_number: 2
+    zh: 看看發暗未必全，
+    en: what looks dark to you may not be the whole;
+  - line_number: 3
+    zh: 珠玉深藏還未變，
+    en: the pearl and jade lie deeply hidden and have not changed;
+  - line_number: 4
+    zh: 心中但得枉徒然。
+    en: in your heart it is all gained in vain.
+keywords:
+  favourable:
+    en:
+    - hidden worth intact
+    - patience with an unclear time
+    - stillness over speech
+    zh:
+    - 藏着的价值还在
+    - 对不明朗的时候有耐心
+    - 静多于说
+  guarded:
+    en:
+    - much talk, little ground
+    - mistaking gloom for the whole picture
+    - effort spent in vain
+    zh:
+    - 话多、落脚处少
+    - 把一片暗当成全貌
+    - 力气白费
+reading_notes:
+- term: 進退
+  pinyin: jìn-tuì
+  en: '"advance and retreat": at once *your moves up and down* and *the two directions
+    a decision can take*; the poem calls both of them, for now, talk rather than result.'
+  zh: 既指你上上下下的举动，也指一个决定可以走的两个方向；诗说眼下两样都还只是话，不是结果。
+- term: 珠玉深藏
+  pinyin: zhū-yù-shēn-cáng
+  en: '"pearl and jade lie deeply hidden": value that is *concealed from view* and
+    value that is *not yet brought out*; the poem says it has not changed — only that
+    it is not yet seen.'
+  zh: 既指价值藏起来、不被看见，也指价值还没被拿出来；诗说它没有变——只是还没被看见。
+- term: 未必全
+  pinyin: wèi-bì-quán
+  en: '"may not be the whole": literally *may not be complete*; the line keeps open
+    the chance that what looks dark is not the entire picture.'
+  zh: 字面是「未必完整」；这一句给「看着暗」留了口子：暗不是全部。
+plain_meaning:
+  en: 'A thin season: talk runs ahead of result and things stay out of sight, so the
+    same effort yields little. Nothing is lost that was truly held — the pearl is
+    intact — but this is a season for still waiting rather than forcing a return.'
+  zh: 淡的一季：话跑在结果前面，事情还留在看不见的地方，同样的力气换回来的不多。真正守住的东西没有丢——珠子还完好——此时宜继续等，而不是硬把回报催出来。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Should I put all my savings into this stock?
+    zh: 我该不该把全部积蓄投进这只股票？
+  rewritten_to:
+    en: What should I weigh before committing money this season, and what is mine
+      to do?
+    zh: 这一季在动钱之前我该衡量什么，哪些是我能做的？
+  rewrite_reason:
+    code: out_of_scope
+    zh_explanation: 原问属越界（问的是具体投资标的与全仓决定），改为可答的范围与自身动作。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Talks do not settle things now; a match made quickly is not made. Keep what
+      is real, move nothing under pressure.
+    zh: 此时谈不成事；赶着定下的关系定不下来。守住真的，压力下不动。
+    compliance_tag: null
+  career:
+    en: Words outrun progress; hold your position rather than argue for a change.
+    zh: 话跑得比进展快；守住位置，别为求变而动口舌。
+    compliance_tag: null
+  money:
+    en: Little to gain from a move now — keep your reserves intact. *(Not financial
+      advice.)*
+    zh: 此时动钱所得甚少——留住底子。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A lingering, low-grade season; steady care over quick fixes. *(Not medical
+      advice.)*
+    zh: 一段拖得久、劲头不大的时候；靠稳定照护，不靠快速见效的法子。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Uncertainties in the household; do not force decisions that can wait.
+    zh: 家里有些不明朗；能等的决定不要硬做。
+    compliance_tag: null
+  travel_moving:
+    en: No advantage in travel now; postpone if you can.
+    zh: 眼下出行没有好处；能推就推。
+    compliance_tag: null
+  sea_and_voyage:
+    en: No profit on the water this season; do not put out on a hunch.
+    zh: 这一季水上得不着什么；不要凭一股感觉出海。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A flat season — work the ordinary rounds, expect no windfall.
+    zh: 平平的一季——照常轮着做，别指望横财。
+    compliance_tag: null
+  timing:
+    en: Hold until the picture clears — a season, never a date.
+    zh: 等图景清楚了再动——只给季节，不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Treating talk as result; mistaking a dark patch for the whole.
+    zh: 把话当结果；把一片暗当成全部。
+    compliance_tag: null
+  reassurance:
+    en: What is genuinely yours is not lost — it is only not yet seen. This describes
+      a difficult season, not a forecast of harm. If this reading touches anxiety
+      or money worry, please reach out to someone you trust or a qualified professional.
+    zh: 真正属于你的没有丢——只是还没被看见。
+    compliance_tag: null
+stories:
+- title:
+    zh: 郭華醉酒誤佳期
+    en: The Pearl Deeply Hidden
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 宋朝有个读书人叫郭华，到都城汴京赶考。汴京是北宋的京城，在今河南开封。他在城里看上一家胭脂铺的女子王月英，落榜以后不肯回家，就留在京城。两人约好夜里相见。到了约定的那晚，王月英来了，郭华却因为喝多了酒，醉倒在床上，怎么推也不醒。王月英没有办法，脱下自己一只鞋，藏在他怀里，然后回去了。郭华醒来，看见怀里的鞋，又悔又恨，竟仰头吞下那只鞋，就此死去。后来的人讲这件事，多把它当作出门误事、因酒失约的戒例。
+    en: In the Song dynasty a scholar named Guo Hua went to the capital, Bianjing,
+      to sit the examination. Bianjing, in present-day Kaifeng in Henan, was the capital
+      of the Northern Song. In the city he fell for a woman of a rouge shop named
+      Wang Yueying. After he failed the examination he refused to go home and stayed
+      on in the capital. The two agreed to meet at night. On the agreed night Wang
+      Yueying came, but Guo Hua had drunk too much. He lay dead drunk on the bed,
+      and no shaking could wake him. Wang Yueying had no way to rouse him. She took
+      off one of her shoes, hid it in his bosom, and went back. When Guo Hua woke
+      and saw the shoe in his bosom, he was full of regret and hate. He threw back
+      his head and swallowed the shoe, and so he died. Later people told this story
+      as a warning. It is a case of a man ruining his business away from home, and
+      of a promise broken through drink.
+  poem_connection:
+    zh: 签诗“须知进退总虚言”“心中但得枉徒然”，正合郭华错过佳期、空留悔恨一事。
+    en: The poem says one must know how to advance and retreat, and that keeping a
+      thing in the heart comes to nothing, which fits Guo Hua missing his night with
+      Yueying and keeping only regret.
+- title:
+    zh: 朱買臣負薪
+    en: Zhu Maichen Shoulders Firewood
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱买臣是西汉时吴地人，家里很穷，靠砍柴卖钱过活。他好学，挑着柴走在路上时，把书挂在担头上，一边走一边读。他的妻子背着柴跟在旁边，几次劝他别在路上念出声，他不听，照旧诵读。妻子觉得丢脸，要求离开他。朱买臣劝她说，自己到了五十岁上会富贵，现在已四十多岁，将来一定报答她。她不肯等，改嫁走了。后来朱买臣跟着地方官属到了长安，上书求见，得到汉武帝接见，做了官，又出任会稽太守。到任时，他看见前妻和她的丈夫在修路，就让后面的车子载他们到官舍供养。过了一个月，前妻自缢而死。
+    en: Zhu Maichen was a man of the Wu region in the Western Han. His family was
+      very poor, and he lived by cutting firewood and selling it. He loved learning.
+      As he walked the road with firewood on his shoulder, he hung his books on the
+      carrying pole and read as he went. His wife carried firewood on her back and
+      followed beside him. Several times she asked him not to read aloud on the road.
+      He did not listen and read on as before. His wife felt shamed and asked to leave
+      him. Zhu Maichen urged her to stay. He said he would rise to wealth and rank
+      at fifty, that he was already past forty, and that he would repay her in the
+      end. She did not wait and married another man. Later Zhu Maichen went with local
+      officials to Chang'an. He sent up a petition and was received by Emperor Wu
+      of Han. He was given office, and later became governor of Kuaiji. When he took
+      up the post, he saw his former wife and her husband repairing the road. He had
+      the carriage behind him carry them to his residence and support them there.
+      A month later she hanged herself.
+  poem_connection:
+    zh: 签诗说进退的话都难作准，眼前昏暗未必就是全无希望。朱买臣长年贫苦，后来才显达，正合此意。
+    en: The lot poem says words of going forward or back are both hard to trust, and
+      that dim light now does not mean all hope is gone. Zhu Maichen was poor for
+      years before he rose.
+- title:
+    zh: 蘇妲己亂商
+    en: Su Daji Ruins the Shang
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 商朝的末代君主纣王去女娲宫里进香，在墙上题了一首诗，言语冒犯了神明。女娲便派一只修行的千年狐狸精，连同另外两个妖怪，下到宫中，去迷惑纣王的心。狐狸精借冀州侯苏护的女儿妲己的身体进了宫，深得纣王宠爱。她进谗言，除掉了姜皇后，逼死了忠臣比干，又设下炮烙、虿盆这样的酷刑。纣王从此天天饮酒作乐，不理朝政，商朝一天天败坏下去。后来周武王起兵讨伐，纣王的军队大败，他在鹿台自焚，商朝灭亡。那只狐狸精事败之后，被斩在辕门之下。
+    en: King Zhou, the last ruler of the Shang dynasty, went to offer incense at the
+      palace of Nuwa and wrote a poem on the wall that offended the goddess. Nuwa
+      therefore sent down a fox spirit that had cultivated itself for a thousand years,
+      along with two other demons, into the palace to bewitch the king's heart. The
+      fox spirit entered the palace in the body of Daji, daughter of Su Hu, the Marquis
+      of Jizhou, and won the deep favor of King Zhou. She slandered and did away with
+      Empress Jiang, hounded the loyal minister Bi Gan to his death, and devised cruel
+      punishments such as the burning pillar and the pit of snakes. From then on King
+      Zhou drank and made merry every day and paid no heed to state affairs, and the
+      Shang declined day by day. Later King Wu of Zhou raised an army and attacked.
+      King Zhou's troops were beaten, he burned himself on the Deer Terrace, and the
+      Shang dynasty ended. When the fox spirit's plot failed, she was beheaded outside
+      the army gate.
+  poem_connection:
+    zh: 这一签说进退失据、珠玉深藏未变，正配纣王听信妲己之言、朝政败坏这一段。
+    en: This lot says advance and retreat both fail, and the pearl stays hidden and
+      unchanged. It fits King Zhou listening to Daji and the government falling into
+      ruin.
+- title:
+    zh: 郭曖尚公主
+    en: Guo Ai Marries the Princess
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 郭暧是唐朝名将郭子仪的儿子，娶了唐代宗的女儿升平公主。尚公主，就是娶皇帝的女儿为妻。这样的亲事，是皇家的恩典。郭子仪做寿，儿子媳妇都来拜寿，只有升平公主仗着自己是皇帝的女儿没有去。郭暧因此被兄弟们取笑，回房和公主争执起来，话里带上了自己的父亲。公主进宫陈诉，代宗没有加罪，只是劝他们夫妻和睦。郭子仪听说了，亲自把郭暧绑起来带到朝上请罪。代宗没有追究，只说做长辈的不妨装些糊涂，还赏了东西安慰他，风波这才平息。
+    en: Guo Ai was a son of Guo Ziyi, the famous general of the Tang. He married Princess
+      Shengping, daughter of Emperor Daizong of Tang. To marry a princess means to
+      take the emperor's daughter as a wife. Such a match was a favour from the imperial
+      house. On Guo Ziyi's birthday his sons and their wives came to offer their good
+      wishes. Only Princess Shengping did not come, relying on being the emperor's
+      daughter. For this his brothers mocked Guo Ai. He went back to his room and
+      quarrelled with the princess, and in his words he slighted his own father. The
+      princess went into the palace and told the emperor. Daizong did not punish anyone;
+      he only urged the couple to live in peace. When Guo Ziyi heard, he tied Guo
+      Ai up himself and brought him to court to ask for punishment. Daizong did not
+      pursue it. He said only that elders do well to act a little blind. He gave gifts
+      to comfort him, and the storm passed.
+  poem_connection:
+    zh: 这一签的签诗说进退都是空话，看着暗淡的事未必不成全，珠玉深藏还没有变。郭暧夫妻这场争执，正是进退失当而起、各让一步而息。
+    en: The poem says advance and retreat are both empty talk, and a dim-looking thing
+      need not fail. Guo Ai and his wife fell out through a misstep and ended when
+      each gave way.
+- title:
+    zh: 玉堂春求佛嫁良緣
+    en: Yutangchun Prays to Buddha for a Good Marriage
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 明朝正德年间，有个名妓叫玉堂春，本名苏三。妓院里的女子靠卖艺卖笑为生。她和吏部尚书的儿子王景隆相好。吏部是朝廷管官员任免的部门，尚书是它的长官。王景隆人称三官。三官在妓院里把银钱花光，被老鸨赶了出来。老鸨就是妓院的老板娘。玉堂春送他银两，让他回乡读书，求取功名。三官走后，玉堂春在院中对着神明烧香许愿，愿三官早日考中，好来与她结成良缘。三官果然高中。可这时玉堂春已被老鸨卖给山西商人沈洪做妾。沈洪又被自己的妻子毒死，妻子反过来诬告玉堂春谋杀亲夫。知县收了贿赂，把她屈打成招。正巧王三官出任山西巡按，重审这件案子，冤情才得昭雪，两人终于团圆。巡按是朝廷派到地方查案的监察官。这一签说须知进退总虚言，又说珠玉深藏还未变，正配玉堂春身陷冤狱、终得昭雪团圆的一段。
+    en: In the Zhengde years of the Ming there was a famous courtesan called Yutangchun,
+      whose real name was Su San. Women in a brothel lived by selling their arts and
+      their smiles. She was close to Wang Jinglong, the son of a Minister of Personnel.
+      The Ministry of Personnel was the office that managed the appointment and dismissal
+      of officials, and the minister headed it. Wang Jinglong was known as Sanguan.
+      Sanguan spent all his silver in the brothel and was thrown out by the madam.
+      The madam was the woman who ran the brothel. Yutangchun gave him silver and
+      told him to go home, study, and seek office. After Sanguan left, Yutangchun
+      burned incense before the gods in the house and made a vow that Sanguan would
+      pass the examination soon and come to marry her. Sanguan did pass with high
+      marks. But by then Yutangchun had been sold by the madam to a Shanxi merchant,
+      Shen Hong, as a concubine. Shen Hong was then poisoned by his own wife, and
+      the wife turned around and accused Yutangchun of murdering her husband. The
+      county magistrate took a bribe and tortured her into a confession. It happened
+      that Wang Sanguan was appointed regional inspector of Shanxi. He retried the
+      case and the wrong was righted, and the two were at last reunited. A regional
+      inspector was a supervising official sent by the court to a region to check
+      on cases.
+  poem_connection:
+    zh: 这一签说须知进退总虚言、珠玉深藏还未变，正配玉堂春身陷冤狱、终得昭雪团圆的一段。
+    en: This lot says that talk of advancing and holding back is all empty words,
+      and that the pearl and jade lie deep and have not changed - Yutangchun caught
+      in a false case and at last cleared and reunited.

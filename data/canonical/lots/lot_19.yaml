@@ -1,0 +1,365 @@
+id: 19
+lot_number: 19
+ganzhi:
+  zh: 丁丑
+  pinyin: Ding-chou
+title:
+  en: Bodhidharma Meets Emperor Wu
+  zh: 達摩祖師見梁皇
+hexagram:
+  zh: 水雷屯
+  name_and_structure_en: Zhun (Water over Thunder)
+  binary_code: ●○●●●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬水利冬 宜其北方
+  en: Water — favours winter; the north is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 達摩祖師見梁皇
+    en: Bodhidharma Meets Emperor Wu
+  variants_en:
+  - The Red Boy Blocks the Road
+  - Fan Dan's Wife Kills Nine Husbands
+  - Yang Xiong Serves Wang Mang
+  - Cai Wenjin Goes to the Capital
+  - Xu Fu Reads Han Xin's Face
+  - Bodhidharma Crosses on a Reed
+  variants_zh:
+  - 紅孩兒截住路頭
+  - 范丹妻未出身殺九夫
+  - 楊雄事新莽為大夫
+  - 蔡文錦往京都
+  - 許負看韓信相
+  - 達摩祖師一葦渡江
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements net near zero — 凡事 被人害。理終明／婚姻 不成／家運 不佳。可住平安／官事 命運犯刑相剋
+      (jie_yue_score −1)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements hold back across marriage, household fortune,
+      advancement, travel, trade, litigation and medical care, while noting for undertakings
+      to move with the moonlight; relocation, callers and distant news are left as
+      workable. The shape of it is cautious, and it ends in a clearing sky.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 被人害。理終明／婚姻 不成。由天註定／家運 不佳。可住平安／功名 難得／出外 不可／經商 難如意。守待時／官事 命運犯刑相剋／治病
+      險。月光好——整签偏负，多类目受阻而带刑剋之意；然 作事 月光好、移居 可、來人 月頭到、遠信 將近就至 等处留有余地，与英文所示「云散天清」的收尾相合。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在婚姻、家运、功名、出外、经商、官事、治病等类目上多持保留，办事一项却注明趁月色行事，移居、来人、远信三项亦留有余地。整体偏保守，收尾处指向云散月明。
+provenance:
+  editorial_note: '*Two of the seven are Bodhidharma tales — the pair answers the
+    poem''s question about rank and worth. The temple site carries a different group
+    for this lot — Zhu Shouchang and Guanyin''s roc — so both are named and neither
+    is chosen.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 富貴由命天註定，
+    en: Wealth and rank are allotted, not chosen;
+  - line_number: 2
+    zh: 心高必然誤君期，
+    en: reach too high and you miss your own time;
+  - line_number: 3
+    zh: 不然且回依舊路，
+    en: if it will not come, then turn back to the road you know;
+  - line_number: 4
+    zh: 雲開月出自分明。
+    en: the clouds open, the moon comes out, and it is plain.
+keywords:
+  favourable:
+    en:
+    - returning to the road that works
+    - patience with an unclear picture
+    - the clearing that follows on its own
+    zh:
+    - 回到走得通的老路
+    - 对不明朗的图景有耐心
+    - 云自行散去的清明
+  guarded:
+    en:
+    - reaching past your means
+    - trusting your own sense of timing
+    - deciding while it is still dark
+    - taking a slow season as a verdict
+    zh:
+    - 越过自身份量去够
+    - 只信自己对时机的感觉
+    - 天还暗时就下决定
+    - 把淡季当成定论
+reading_notes:
+- term: 心高
+  pinyin: xīn-gāo
+  en: '"high-minded": at once *ambition* and *a reach beyond your means*. The line
+    does not condemn the ambition; it warns about its timing.'
+  zh: 既指志向高，也指越过自身份量去够。此句并非贬低志向，只提醒它的时机。
+- term: 依舊路
+  pinyin: yī-jiù-lù
+  en: '"the road as it was": at once *going back the way you came*; *keeping to what
+    already works*.'
+  zh: 既指顺着来时的原路回去，也指守住已经行得通的做法。
+- term: 自分明
+  pinyin: zì-fēn-míng
+  en: '"becomes plain of itself": not "you will be told"; but the picture clearing
+    by itself once conditions turn.'
+  zh: 不是「有人会告诉你」，而是条件一转，那图景自己就清楚了。
+plain_meaning:
+  en: 'The picture is dark and the timing is not yours to choose: the poem asks you
+    to lower your aim for now, go back to the road that already works, and wait for
+    the moon rather than argue with the cloud. It ends in clearing, not in loss.'
+  zh: 眼前图景还暗，时机不由你来挑：此诗劝你此刻把目标放低，回到那条已经走得通的老路，等月出，而不是跟云较劲。它落在云散天清，不落在失去。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A match made in a hurry does not hold; keep faith with what is already yours
+      and let the picture clear.
+    zh: 仓促促成的配对不稳；守住已经属于你的，让图景自己明朗起来。
+    compliance_tag: null
+  career:
+    en: Aim lower for this season; the road you already know is the one that still
+      pays.
+    zh: 这一程把目标放低；仍是那条你熟悉的老路最有回报。
+    compliance_tag: null
+  money:
+    en: Hold your position; this is not the season for a reach. *(Not financial advice.)*
+    zh: 守住现有位置；这阵子不宜伸手去够。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A risky passage that improves with care; get proper attention rather than
+      waiting it out. *(Not medical advice.)*
+    zh: 这是一段有风险的过场，用心照料会好转；宜及时找正规的照看，不要只是拖过去。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Not a good phase, but a liveable one; keep the peace and the routines.
+    zh: 不是好时节，但住得下去；把和气与日常作息守住。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out; going anyway invites the trouble it names.
+    zh: 此诗说不要出行；硬要上路，就会招来它点出的那些麻烦。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water is out of season; work it small and do not force a voyage.
+    zh: 水不经时；小做即可，不要硬开一趟船。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Work the known round rather than the ground you have not farmed.
+    zh: 做你熟悉的那一圈，而不是还没耕过的地。
+    compliance_tag: null
+  timing:
+    en: The moon comes out after the cloud — a season, never a date.
+    zh: 云后月出——只说一程，不给准日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Reaching past your means; deciding while the picture is still dark.
+    zh: 越过自身份量去够；图景还暗就下决定。
+    compliance_tag: null
+  reassurance:
+    en: The clear picture is on its way; nothing is lost by waiting for it.
+    zh: 清楚的图景正在来；等它，不会损失什么。
+    compliance_tag: null
+stories:
+- title:
+    zh: 達摩祖師見梁皇
+    en: Bodhidharma Meets Emperor Wu
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 菩提达摩是南天竺来的僧人，南天竺在古印度南部。他从海上来到中国，先到梁朝的都城建康，那地方就在今天江苏南京一带。梁武帝萧衍信奉佛教，听说他到了，就接见了他。梁武帝问起自己一生造寺、抄经、度僧有多少功德，达摩答说并没有功德。梁武帝再问什么才是真功德，达摩答，清净的智慧圆满自足，本体本来空寂，不是靠世间的作为求来的。两人话不相投。达摩知道机缘不合，就告辞离开，渡江向北，进入魏地，最后住在嵩山少林寺，终日面壁而坐。
+    en: Bodhidharma was a monk who came from South India, in the southern part of
+      ancient India. He came to China by sea and first reached Jiankang, the capital
+      of the Liang dynasty, in the region of modern Nanjing in Jiangsu. Emperor Wu
+      of Liang, whose name was Xiao Yan, believed in Buddhism. When he heard Bodhidharma
+      had arrived, he received him. Emperor Wu asked how much merit he had earned
+      by building temples all his life, copying scriptures, and ordaining monks. Bodhidharma
+      answered that he had earned no merit. The emperor asked again what true merit
+      was. Bodhidharma answered that pure wisdom is complete in itself, and that its
+      own nature is originally empty and still. It is not gained by worldly deeds.
+      The two did not agree. Bodhidharma knew the time was not right and took his
+      leave. He crossed the river north, entered the land of Wei, and in the end stayed
+      at Shaolin Temple on Mount Song, sitting facing a wall all day.
+  poem_connection:
+    zh: 签诗说心高必然误君期，不然且回依旧路。达摩与梁武帝话不投机，便回头北去，各自归到本分。
+    en: The lot poem says a high heart must miss its time and counsels turning back
+      to the old road. Bodhidharma and Emperor Wu had nothing to say to each other,
+      so he turned north, each to his own place.
+- title:
+    zh: 紅孩兒截住路頭
+    en: Red Boy Blocks the Road
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 红孩儿是传说里的一个妖王，住在火云洞，是牛魔王和铁扇公主的儿子。他会喷三昧真火，那是一种烧得极猛、水也浇不灭的火。唐僧是去西方取经的和尚，带着徒弟孙悟空和猪八戒赶路。走到号山一带，红孩儿变成一个吊在树上的小孩，喊救命。唐僧叫孙悟空背着他走，红孩儿趁机刮起一阵风，把唐僧卷走了。孙悟空查出妖怪的来历，和猪八戒上门讨战。红孩儿一喷火，两人招架不住。孙悟空只好去南海请观音菩萨。观音用瓶里的甘露灭了他的火，又把刀变成一座莲台，引他坐上去。刀尖刺穿身体，他连声求饶，答应受戒修行，最后留在观音身边。
+    en: Red Boy was a demon king in legend. He lived in the Fire Cloud Cave. He was
+      the son of the Bull Demon King and the Princess Iron Fan. He could breathe out
+      the true fire of samadhi, a fire that burns fiercely and cannot be put out by
+      water. Xuanzang was a monk who was going to the West to fetch Buddhist scriptures.
+      He traveled with his disciples Sun Wukong and Zhu Bajie. When they came to Mount
+      Hao, Red Boy turned himself into a child hanging in a tree and cried for help.
+      Xuanzang told Sun Wukong to carry him. Red Boy took the chance to raise a wind,
+      and he carried Xuanzang off. Sun Wukong found out where the demon came from.
+      He and Zhu Bajie went to his door and called him out to fight. Red Boy breathed
+      fire, and the two could not hold their ground. Sun Wukong had to go to the South
+      Sea to ask the Bodhisattva Guanyin for help. Guanyin put out his fire with the
+      sweet dew from her bottle. She also turned a knife into a lotus throne and led
+      him to sit on it. The blade points pierced his body. He begged again and again
+      for mercy and promised to take the vows and practice. In the end he stayed at
+      Guanyin's side.
+  poem_connection:
+    zh: 签诗说前路走不通，不如退回原路，云开月出自然分明。红孩儿拦住去路，师徒进退两难，正是这个情境。
+    en: The lot poem says the road ahead is blocked and it is better to turn back,
+      for when the clouds open the moon shows clearly. Red Boy blocks the way, and
+      the travelers can neither go on nor turn back.
+- title:
+    zh: 范丹妻未出身殺九夫
+    en: Fan Dan's Wife Kills Nine Husbands Before Marriage
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: 17
+  narrative: null
+  poem_connection:
+    zh: 这一签说旧日纠葛终会分明、婚姻终得和合，正配这桩好事多磨的婚事。
+    en: This lot says old tangles come clear in the end and the marriage joins. It
+      fits this wedding that took so much trouble.
+- title:
+    zh: 楊雄事新莽為大夫
+    en: Yang Xiong Serves the Xin Court as a Grand Master
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 扬雄字子云，是蜀郡成都人，西汉末年有名的学者。他从小好学，读遍群书，不贪图富贵，说话有些口吃，喜欢一个人深思。汉成帝时，他因文辞出众被召入朝，在皇帝身边任职，写过甘泉赋、河东赋。王莽本是西汉的大臣，后来废掉汉朝，另立新朝，自己当了皇帝。这时扬雄年纪已老，长期住在京城，被任为大夫，在天禄阁校订书籍。当时很多人靠进献符命、图谶得了封赏，那是替王莽称帝编造的天命凭据。扬雄仍旧埋头著书，写成太玄、法言等书。后来刘棻等人犯事被收押，扬雄受到牵连。狱吏上门来抓他，他从天禄阁上跳了下去，几乎送命，事情最终得以开脱。
+    en: Yang Xiong, styled Ziyun, was a man of Chengdu in Shu commandery. He was a
+      famous scholar of the late Western Han. He studied hard from boyhood and read
+      widely. He did not crave wealth or rank. He had a slight stammer and liked to
+      think things over alone. Under Emperor Cheng of Han his writing was judged outstanding,
+      and he was called to court to serve near the emperor. He wrote the Ganquan Fu
+      and the Hedong Fu. Wang Mang had been a minister of the Western Han. He later
+      set aside the Han house, founded the Xin dynasty, and made himself emperor.
+      Yang Xiong was old by then and had long lived in the capital. He was made a
+      grand master and edited books in the Tianlu Pavilion. Many men of that time
+      won rewards by presenting omens and prophecies. Those were the proofs of heaven's
+      mandate made up for Wang Mang. Yang Xiong kept to his books instead. He finished
+      works such as the Taixuan and the Fayan. Later Liu Fen and others were arrested,
+      and Yang Xiong was drawn in. When the officers came for him, he threw himself
+      down from the Tianlu Pavilion and nearly died. In the end the matter was cleared.
+  poem_connection:
+    zh: 这一签的签诗说富贵由天，心高反而误期，不如暂且回到旧路，等云开月出。扬雄身历改朝换代，仍旧守着旧日学问，正合这层意思。
+    en: The poem says wealth and rank come from heaven, and a high heart misses its
+      time; better to return to the old road and wait. Yang Xiong lived through a
+      change of dynasty and kept to his old learning.
+- title:
+    zh: 蔡文錦往京都
+    en: Cai Wenjin Sets Out for the Capital
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 蔡文锦是一位读书人，收拾好行装，动身前往京城，想求取功名。古时读书人要入仕做官，多半得远行到京城应试。京城离家乡很远，一路要花不少盘缠和时间。他走的是官道，古时的官道每隔一段设有驿站，行人在那里换马歇脚。这条路山长水远，途中常有阻滞。他心气很高，恨不得一天赶到，行程却一再延误。眼看前路一时走不通，他索性调头，想回到原来的路上。等到云散开、月亮出来，方向自然看得清楚。他要做的，是把心定住，等路通的时候再往前走。
+    en: Cai Wenjin was a scholar. He packed his bags and set out for the capital,
+      hoping to win office. In older times a scholar who wanted a post in government
+      usually had to travel far to sit the examinations in the capital. The capital
+      lay a long way from his home town, and the road took both money and time. He
+      traveled on the official highway. On those roads there were post stations at
+      fixed intervals, where travelers changed horses and rested. The journey was
+      long and the way often blocked. He was in high spirits and wished to reach the
+      capital in a single day, but his progress kept falling behind. Seeing that the
+      road ahead was closed for the time, he turned back toward his old road. Once
+      the clouds cleared and the moon came out, the direction was plain to see. What
+      he had to do was settle his heart and walk on when the road opened.
+  poem_connection:
+    zh: 签诗说心高误期、且回依旧路、云开月出才分明；赴京受阻而返旧路，正扣这一层。
+    en: The poem speaks of high hopes missing the time, of turning back to the old
+      road, and of the moon showing the way once the clouds part. A blocked journey
+      that turns back fits.
+- title:
+    zh: 許負看韓信相
+    en: Xu Fu Reads Han Xin's Face
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 许负是汉朝初年有名的看相人，看人的富贵祸福，常常说得很准。韩信年轻时家里很穷，曾在街市上从别人的裤裆下爬过，受过这样的羞辱。他先投奔项梁、项羽，都得不到重用，又改投刘邦，只做了个管粮仓的小官，失望之下逃走，被丞相萧何连夜追回。后来许负给韩信看相，说他看正脸，不过封侯，而且有危险；看后背，富贵得说不出来。这话的意思是劝他背弃刘邦，自己立起门户。韩信念刘邦待他很厚，不肯背弃。他后来功大权重，终于被吕后擒住，死在长乐宫。
+    en: 'Xu Fu was a well-known reader of faces in the early Han dynasty. He judged
+      a person''s wealth, honor and misfortune, and his readings often came true.
+      Han Xin was poor when young, and in the marketplace he once crawled between
+      another man''s legs, taking that humiliation. He first joined Xiang Liang and
+      then Xiang Yu, but neither gave him an important post. He then went to Liu Bang
+      and received only a minor office in charge of the grain store. Disappointed,
+      he left, and Chancellor Xiao He chased after him through the night and brought
+      him back. Later Xu Fu read Han Xin''s face. Looking at his front, he said, this
+      man reaches only the rank of marquis, and with danger in it. Looking at his
+      back, his wealth and honor are beyond words. The reading was a way of urging
+      Han Xin to turn against Liu Bang and set up his own house. Han Xin remembered
+      the favor Liu Bang had shown him and would not turn. In the end his great merit
+      and power brought him down: Empress Lü had him seized, and he died in Changle
+      Palace.'
+  poem_connection:
+    zh: 这一签写看相人断人富贵、当事人却心高难安，正扣签诗“富贵由命”“心高必然误君期”。
+    en: A face reader judging a man's wealth and honor fits a lot whose poem speaks
+      of honor coming as it must while a high heart misses the right time.
+- title:
+    zh: 達摩祖師一葦渡江
+    en: Bodhidharma Crosses the River on a Single Reed
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 菩提达摩是南天竺人，也就是今天印度南部一带的人。他坐船从海路东来，先到南海，再到建康，就是今天江苏南京，去见梁武帝。梁武帝问他，造寺、度人出家有什么功德。达摩说，并没有功德。两个人话不投机，达摩转身北上。江上没有船，他折下一枝芦苇，踏在上面渡过长江，这就是后人常说的一苇渡江。到了北方，他住在嵩山少林寺，面壁打坐。后来有个叫神光的和尚，站在雪地里不走，还砍下自己的一条手臂求法。达摩替他安心，把法门与衣钵传给他，这就是东土的二祖慧可。达摩还传下四卷经书，早期的禅门就依它修行。少林寺也因他而有面壁的旧迹，后人常把这段画成图画、刻成碑石。
+    en: Bodhidharma was a man of South Tianzhu, that is, the southern part of India
+      today. He came east by sea, reaching the South Sea first and then Jiankang,
+      which is Nanjing in Jiangsu today, to see Emperor Wu of Liang. The emperor asked
+      him what merit there was in building temples and in having people ordained as
+      monks. Bodhidharma said there was no merit. The two did not agree on anything,
+      and Bodhidharma turned and went north. There was no boat on the river. He broke
+      off a reed and stood on it to cross the Yangtze, and this is the crossing on
+      a reed people often speak of. In the north he lived at Shaolin Temple on Mount
+      Song and sat facing a wall. Later a monk named Shenguang stood in the snow and
+      would not leave, and cut off one of his own arms to seek the teaching. Bodhidharma
+      set his mind at rest and passed him the method and the robe. This was Huike,
+      the second patriarch in the East. Bodhidharma also handed down four volumes
+      of scripture, and the early Chan house practiced by them. Shaolin keeps the
+      old traces of his wall-gazing, and later people often painted this stretch and
+      cut it in stone.
+  poem_connection:
+    zh: 签诗说“不然且回依旧路，云开月出自分明”，正贴达摩与梁武帝一席话不合就折回北上这一段：话不投机，便回原路。
+    en: The poem says that otherwise one turns back by the old road, and clouds part
+      to show the moon; Bodhidharma found no common ground with Emperor Wu and went
+      north again, back by the old road.

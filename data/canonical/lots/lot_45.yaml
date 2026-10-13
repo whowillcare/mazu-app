@@ -1,0 +1,325 @@
+id: 45
+lot_number: 45
+ganzhi:
+  zh: 辛巳
+  pinyin: Xin-si
+title:
+  en: Confucius Meets a Child Abroad
+  zh: 孔夫子過番逢小兒
+hexagram:
+  zh: 火地晋
+  name_and_structure_en: Jin (Fire over Earth)
+  binary_code: ○●○●●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 5
+  primary:
+    zh: 孔夫子過番逢小兒
+    en: Confucius Meets a Child Abroad
+  variants_en:
+  - 'Xue Rengui Trapped at White Tiger Pass: Father and Son Do Not Meet'
+  - Zhang Liang Receives the Book from the Old Man of the Yellow Stone
+  - King Xiang of Chu Shelters at Mount Wu
+  - The Old Man at the Frontier Loses His Horse
+  variants_zh:
+  - 薛仁貴困白虎關父子不相逢
+  - 張良受書黃石老人
+  - 楚襄王避巫山
+  - 塞翁失馬
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: 'positive with a late bloom: 婚姻 合姻緣。百年老／求財 可得萬貫／家運 福祉合亨／六甲 先男後女／功名 晚成大器／六畜
+      興旺／月令 平安 - against 作事 月光好。難成／官事 難完局。拖尾／經商 舊業俊發。後呆／治病 老惡運。少不畏 (jie_yue_score
+      12)'
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: marriage, household fortune, income and
+      rank all lean strong, and the visible gain comes from an established line of
+      work rather than a new one, but undertakings and legal matters close slowly.
+      Support with slow closure, so we read it as mixed, with the emphasis on accepting
+      what has already come.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（庙本解曰原文，照抄）：凡事 以禮待人／作事 月光好。難成／家事 瓜瓞綿綿／家運 福祉合亨／婚姻 合姻緣。百年老／六甲
+      先男後女／求財 可得萬貫／功名 晚成大器／治病 老惡運。少不畏／經商 舊業俊發。後呆／來人 半月到／行舟 先無後有財／移居 平平／失物 歸。拖過。半月在／官事
+      難完局。拖尾／六畜 興旺／耕作 允順／築室 居之即安／墳墓 代代簪纓／討海 先無後有／作塭 後可得利／魚苗 有利可求／月令 平安／尋人 慢回／遠信 慢慢即至。总评：整签偏吉（jie_yue_score
+      12），但开合不一致——作事「月光好。難成」、官事「難完局。拖尾」两处是收得慢；求財「可得萬貫」与經商「舊業俊發。後呆」并读，进项是旧业复起，不是开新摊。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：婚姻、家运、求财与功名几处偏强，进项出于旧业，唯作事与官事收尾偏慢。支持带着慢收，故读作 mixed。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 花開今已結成果，
+    en: The flower has opened and now has set into fruit;
+  - line_number: 2
+    zh: 富貴榮華終到老，
+    en: wealth and honour, in the end, stay with you into old age;
+  - line_number: 3
+    zh: 君子小人相會合，
+    en: the noble and the petty meet and come together;
+  - line_number: 4
+    zh: 萬事清吉莫煩惱。
+    en: all things are clear and auspicious - do not fret.
+keywords:
+  favourable:
+    en:
+    - flowering come to fruit
+    - honour that lasts to old age
+    - clear and auspicious affairs
+    - wealth in the long keeping
+    zh:
+    - 花开结成果
+    - 荣华到老
+    - 诸事清吉
+    - 进项留得住
+  guarded:
+    en:
+    - fretting over what is already settled
+    - mistaking a small man for a great one
+    - forcing an ending that wants time
+    zh:
+    - 为已经定了的事操心
+    - 把小人当君子
+    - 硬催一个要时间的收尾
+reading_notes:
+- term: 君子小人
+  pinyin: jūn-zǐ xiǎo-rén
+  en: 'the noble person and the petty person: the honourable and the self-serving,
+    met in one room and to be handled with courtesy; small person may also mean simply
+    a child, so the line can be read as the grown and the small meeting.'
+  zh: 既是同处一室、要以礼相待的正人与自私之人；「小人」也可以只是指小孩，那样这一句就读成大人与小孩相遇。两读都在。
+- term: 清吉
+  pinyin: qīng-jí
+  en: 'clear and auspicious: plain good order, without trouble; bright and settled,
+    as the same word is used of a clear sky.'
+  zh: 既是平顺无事的好秩序，也是像天清那样明净安定。
+- term: 煩惱
+  pinyin: fán-nǎo
+  en: 'affliction of mind, worry: the fretting the poem tells you to put down; in
+    everyday use, cares and vexations, treated here as something carried rather than
+    imposed.'
+  zh: 既是诗叫放下的那份操心，也是日常说的牵挂与烦扰；这里当作背在身上的东西，不是外加的。
+plain_meaning:
+  en: 'A ripening season: what was planted has come to fruit, and honour and comfort
+    last to a good end. The counsel is to meet every kind of person with courtesy
+    - high and low must deal with one another - and to stop carrying worry that no
+    longer belongs to you.'
+  zh: 这是一季成熟：种下的已经结成果，富贵荣华一路陪你到老。这一签的提醒是以礼待人——高与低总要彼此会面——并把不再属于你的那份忧心放下。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A season that joins well - a match, and a long one; meet the other with courtesy.
+    zh: 这一季宜合——姻缘谈得成，而且是长久的；对另一方以礼相待。
+    compliance_tag: null
+  career:
+    en: 'The fruit is already on the tree: recognition comes late rather than early,
+      ripening into a great place.'
+    zh: 果已经结在树上了：名分来得晚，不是来得早，一路长成大器。
+    compliance_tag: null
+  money:
+    en: Gain is named plainly - a large sum, and old work reviving; take it patiently.
+      (Not financial advice.)
+    zh: 进项是明写着的——一笔大的，加上旧业复起；耐心收着。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The young have little to fear; for the old the season is harder, so mind it
+      and consult a qualified professional. (Not medical advice.)
+    zh: 年少的人没什么可怕；年长的人这一季难些，要留心，并去看有资质的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The house fills and multiplies; a home moved into is settled and at ease.
+    zh: 家宅人丁兴旺、绵绵不绝；搬进去住的地方安稳。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is even and safe; a simple move is fine.
+    zh: 出门平正平安；简单的搬迁无碍。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water gives nothing at first and something afterwards; keep working the
+      boat.
+    zh: 水上先是无、后是有；把船照旧开下去。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: 'The season runs fair: the fields yield in due order and the cattle thrive.'
+    zh: 这一季顺：田事按着时序有收，六畜兴旺。
+    compliance_tag: null
+  timing:
+    en: The ripening is now and it lasts; read the good turn as a season, not a date.
+    zh: 成熟就在当下，而且持续得久；把这一转当一季来读，不当日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Carrying old worry; refusing a good outcome because it came late.
+    zh: 背着旧操心；因为一个结果来得晚就把它推开。
+    compliance_tag: null
+  reassurance:
+    en: The counsel is to accept what has come and set the fretting down.
+    zh: 这一签的提醒是接受已经到来的，把操心放下。
+    compliance_tag: null
+stories:
+- title:
+    zh: 孔夫子過番逢小兒
+    en: Confucius Meets a Child Abroad
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 孔子是春秋时的思想家，他带着学生周游列国。有一次他坐车出行，路上遇见几个小孩在路当中玩耍。别的孩子都跑开了，只有一个小孩坐着不动，用瓦片在地上垒一座小城。孔子问他为什么不避让车子。小孩回答说，只听说车子要避开城，没听说城要避开车。孔子听了，便下车再问他。小孩说自己姓项名橐。孔子考问他，他答得头头是道。他说有些事是天生的，比如孩子三岁就认得父母，小兔生下三天就会跑，本来就不必人教。孔子邀他一起出游，项橐说家里有严厉的父亲、慈爱的母亲，还有哥哥弟弟和老师要侍奉，没有空闲。孔子很佩服他，感叹后生可畏，就上车走了。
+    en: Confucius was a thinker of the Spring and Autumn period. He traveled through
+      the states with his students. Once, riding in a carriage, he came upon several
+      children playing in the middle of the road. The other children ran off, but
+      one boy sat still, building a little city of tiles on the ground. Confucius
+      asked him why he did not make way for the carriage. The boy answered that he
+      had heard of carriages making way for cities, but never of cities making way
+      for carriages. Hearing this, Confucius got down and questioned him further.
+      The boy said his name was Xiang Tuo. Confucius tested him, and he answered clearly
+      and to the point. He said some things come by nature, as a child of three knows
+      its parents, and a baby rabbit runs three days after birth, with no need to
+      be taught. Confucius invited him to travel with him, but Xiang Tuo said he had
+      a stern father, a loving mother, and elder and younger brothers and a teacher
+      to serve, so he had no free time. Confucius admired him greatly, sighed that
+      the young deserve respect, and got back in his carriage and left.
+  poem_connection:
+    zh: 这一签说君子与小人相会合，正配孔子路遇小儿项橐、以问答相会这一段。
+    en: This lot says the noble and the humble meet and come together. It fits Confucius
+      meeting the boy Xiang Tuo on the road and joining in questions and answers.
+- title:
+    zh: 薛仁貴困白虎關父子不相逢
+    en: 'Xue Rengui Trapped at White Tiger Pass: Father and Son Do Not Meet'
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛仁贵是唐初的名将，早年随军东征，立过大功，后来又领兵西征，在白虎关被围困住，军情危急。军中上下都盼着援兵早到。他的儿子薛丁山带兵前来救援。父子同在军中，彼此却一直有些隔阂。薛仁贵是白虎星下凡。白虎是四方星宿里的西方之神，主征伐，军中常把它看作凶兆。白虎关这一仗，薛丁山在山中看见一个白色的影子，以为是猛兽，就放了一箭。射中的正是他的父亲薛仁贵，薛仁贵因此丧命。父子二人同在一军，到最后也没能相见。不相逢说的是两人同在军中，却始终没能相认。
+    en: Xue Rengui was a famous general of the early Tang. In his early years he went
+      east with the army and won great merit, and later he led troops west. At White
+      Tiger Pass he was surrounded and the situation was desperate. The whole army
+      hoped for relief troops to come soon. His son Xue Dingshan brought troops to
+      the rescue. Father and son were in the same army, yet there had long been some
+      distance between them. Xue Rengui was the star White Tiger come down to earth.
+      The white tiger is the god of the west among the four quarters of the sky. It
+      governs war, and armies often took it as an ill omen. In the battle at White
+      Tiger Pass, Xue Dingshan saw a white shape in the hills. He took it for a fierce
+      beast and shot an arrow. What he hit was his own father, Xue Rengui. Xue Rengui
+      lost his life. Father and son were in one army and never met. Not meeting means
+      they were both in the army and never knew each other.
+  poem_connection:
+    zh: 这一签的签诗说花开已经结果，富贵荣华到老，君子小人相会合，万事清吉不必烦恼。功业将成而骨肉反成隔阂，正合此语。
+    en: The poem says the flowers have opened and set fruit, wealth and honour last
+      to old age, and gentleman and petty man come together. The work was near its
+      height, and flesh and blood were kept apart.
+- title:
+    zh: 張良受書黃石老人
+    en: Zhang Liang Receives the Book from the Old Man of the Yellow Stone
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 张良在下邳住的时候，有一次在桥上遇见一位老人。老人故意把鞋掉到桥下，叫张良去捡，还要替他穿上。张良忍着气，替他捡鞋、穿鞋。老人约他五天后的清早再见。张良两次去晚了，都被责骂。第三次他半夜就动身，比老人先到，老人才拿出一部书交给他，说读了这部书可以做帝王的老师，还说多年以后在济北谷城山下会再见到他，山下那块黄石就是他。张良得到这部书，后来辅佐刘邦平定天下，封为留侯。他跟随刘邦经过济北时，果然在谷城山下见到那块黄石，取回来供了起来。
+    en: While Zhang Liang was living at Xiapi, he met an old man on a bridge one day.
+      The old man deliberately dropped his shoe below the bridge and told Zhang Liang
+      to fetch it, and then to put it on for him. Zhang Liang held his temper and
+      fetched the shoe and put it on the man's foot. The old man told him to come
+      back at dawn five days later. Zhang Liang came late twice and was scolded both
+      times. The third time he set out at midnight and arrived before the old man.
+      Only then did the old man take out a book and give it to him. He said that reading
+      it would make a man fit to be a teacher of kings. He also said that years later
+      they would meet again below Mount Gucheng in Jibei, and that the yellow stone
+      at the foot of that mountain would be him. With that book Zhang Liang later
+      helped Liu Bang bring the realm to order and was made Marquis of Liu. When he
+      passed through Jibei with Liu Bang, he did indeed find the yellow stone below
+      Mount Gucheng, took it home, and honored it.
+  poem_connection:
+    zh: 签诗说花开今已结成果、富贵终到老；张良受书而后辅汉成名，正合先受后成这一层。
+    en: The poem says the flower has now set into fruit, and that wealth and honor
+      last to old age. Zhang Liang received the book and then made his name, which
+      fits.
+- title:
+    zh: 楚襄王避巫山
+    en: King Xiang of Chu Shelters at Mount Wu
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 宋玉是战国时楚国的辞赋家。他陪楚襄王游云梦之台，望见高唐之观，上面独有一片云气。宋玉对襄王讲：从前先王游高唐，疲倦睡着，梦见一位女子，自称是巫山之女。她临去时说，自己住在巫山的南面、高丘的险处，早上是朝云，傍晚是行雨，朝朝暮暮都在阳台下面。第二天早上看那片云气，果然像她说的那样，先王便为她立了一座庙，名叫朝云。后来襄王也在夜里梦见神女，神女容貌极美，却始终守着礼数离去。后世诗文中巫山云雨的话，都是从这段故事来的。
+    en: Song Yu was a writer of Chu in the Warring States period. He went with King
+      Xiang of Chu to the Terrace of Cloud Dream. There they saw the tower of Gaotang,
+      with a single stretch of cloud above it. Song Yu told the king what had happened
+      long before. The late king had visited Gaotang, and, tired, he fell asleep.
+      He dreamed of a woman who said she was the daughter of Mount Wu. As she was
+      leaving, she said she lived on the southern face of Mount Wu, on the steep heights
+      of Gaoqiu. In the morning she was the cloud of dawn, she said, and in the evening
+      the falling rain. Morning and evening she was below the Yangtai. The next morning,
+      when they looked at that cloud, it was as she had said. The late king built
+      a shrine for her called Morning Cloud. Later King Xiang also dreamed of the
+      goddess at night. She was very beautiful, but she kept to the proper forms and
+      left. From this story come the later poetic phrases of the clouds and rain of
+      Mount Wu.
+  poem_connection:
+    zh: 这一签写云雨相逢而随即分离，正扣签诗“花开今已结成果”所写的时节推移。
+    en: Clouds and rain meeting and parting at once fits a lot whose poem speaks of
+      a flower that has already opened and set its fruit, marking how the season moves
+      on.
+- title:
+    zh: 塞翁失馬
+    en: The Old Man at the Frontier Loses His Horse
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 从前，靠近边塞的地方住着一户人家。一天，他家的马无缘无故跑去了塞外。邻人都来安慰，家里的老人却说，这怎么就不能变成好事呢。过了几个月，那匹马带着一匹塞外的骏马回来了。邻人都来道贺，老人又说，这怎么就不能变成坏事呢。家里有了好马，他的儿子喜欢骑马，一次从马上摔下来，跌断了腿骨。邻人又来安慰，老人还是说，这怎么就不能变成好事呢。过了一年，塞外的人大举入侵，村里的壮丁都拿起弓箭去打仗，十个里死了九个。只有这家因为儿子腿跛，父子都保住了性命。
+    en: Long ago a household lived near the frontier. One day their horse ran off
+      beyond the border for no reason. The neighbours came to console them, but the
+      old man of the house said, how do you know this cannot turn into something good?
+      Some months later the horse came back, bringing a fine horse from beyond the
+      border. The neighbours came to congratulate him, and the old man said, how do
+      you know this cannot turn into something bad? With a good horse at home, his
+      son loved to ride. Once he fell from the horse and broke his leg bone. The neighbours
+      came to console them again, and the old man said once more, how do you know
+      this cannot turn into something good? A year later the people beyond the border
+      invaded in great force. The able men of the village all took up bows and went
+      to war, and nine out of ten died. Only this house, because the son was lame,
+      kept both father and son alive.
+  poem_connection:
+    zh: 签诗说花开今已结成果，君子小人相会合，莫烦恼。失马得马、祸福相生，正合“莫烦恼”一句。
+    en: The lot poem says the flower has now borne fruit and tells one not to fret.
+      Losing a horse and gaining one, fortune and harm begetting each other, is just
+      that counsel.

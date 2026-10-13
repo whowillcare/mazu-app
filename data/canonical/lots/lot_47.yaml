@@ -1,0 +1,384 @@
+id: 47
+lot_number: 47
+ganzhi:
+  zh: 辛酉
+  pinyin: Xin-you
+title:
+  en: Liu Yong Takes Office and Shelters His Wife and Child
+  zh: 劉永作官蔭妻兒
+hexagram:
+  zh: 风火家人
+  name_and_structure_en: Jiaren (Wind over Fire)
+  binary_code: ○○●○●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬木利春 宜其東方
+  en: Wood — favours spring; the east is auspicious
+story_group_summary:
+  total_count: 6
+  primary:
+    zh: 劉永作官蔭妻兒
+    en: Liu Yong Takes Office and Shelters His Wife and Child
+  variants_en:
+  - Li Sanniang Meets Her Son at the Well
+  - Song Wenju Comes First and Yuzhen Takes the Road
+  - The Cowherd and the Weaver Girl Meet
+  - Zhu Maichen Endures Poverty
+  - Marici Bodhisattva Saves Zheng He
+  variants_zh:
+  - 李三娘井邊母子會
+  - 宋文舉中狀元玉真行路
+  - 牛郎織女相會
+  - 朱買臣守困
+  - 摩利支大菩薩救鄭和
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements open hard and turn good - 凡事 先凶後好／作事 二次即成／出外 先凶後吉／官事
+      先凶後吉, set against 月令 不遂／求財 輕／家運 門庭小吉／歲君 淡安 (jie_yue_score 15)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book opens this lot hard and turns it good - undertakings,
+      travel and legal matters are all written to come right on a second attempt,
+      while the month's affairs and income are said to need waiting; what is warm
+      in it hangs on marriage, moving house and the fair-season water. Read the opening
+      and the outcome apart. One character's variant form is folded to its standard
+      shape with no change of text.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 庙本解曰：凡事 先凶後好／作事 二次即成／家事 門閭得宜／家運 門庭小吉／婚姻 正好／求兒 好／六甲 年頭女。年尾男／求財
+      輕／功名 有。後科得進／歲君 淡安／治病 逢未月平安／出外 先凶後吉／經商 利市／來人 月光到／行舟 春夏好。秋冬平／移居 正好／失物 尋有。半月在／求雨
+      未久／官事 先凶後吉。半月完局／六畜 平安／耕作 中中／築室 有合不畏／墳墓 地勢套當／討海 春夏大吉／作塭 得利／魚苗 先凶後吉／月令 不遂／尋人 慢回／遠信
+      近日就至（jie_yue_score +15）。整签是先难后成：好话几乎都挂在「过了第一回」上，月令与求财两项则明说要等。校勘：异体字（于／於）按字形归一，不改字。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词是一签开头硬的：办事、出外、官事都写第一回难、第二回才顺，月令与求财两处也明说要等；好的一面挂在婚事、移居与暖季的水上。读法是把开头和结果分开看。校勘上有一个异体字，按字形归一、不改字。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 君爾何須問聖跡，
+    en: Why must you keep asking after holy signs?
+  - line_number: 2
+    zh: 自己心中皆有益，
+    en: What profits you is already in your own heart.
+  - line_number: 3
+    zh: 于今且看月中旬，
+    en: For now, look toward the middle of the month;
+  - line_number: 4
+    zh: 凶事脫出化成吉。
+    en: trouble works itself free and turns to good;
+keywords:
+  favourable:
+    en:
+    - trouble working free
+    - the turn at mid-month
+    - trusting your own judgment
+    zh:
+    - 麻烦自己松开
+    - 月中的那个转弯
+    - 信自己的判断
+  guarded:
+    en:
+    - forcing the first attempt
+    - asking the same question again and again
+    - reading a slow month as defeat
+    zh:
+    - 硬推第一回
+    - 把同一个问题一问再问
+    - 把走得慢的一个月读成输
+reading_notes:
+- term: 聖跡
+  pinyin: shèng-jì
+  en: 'holy signs or traces: evidence of a deity''s power, sought by divination; any
+    sign one keeps looking for outside oneself.'
+  zh: 既指靠占问去求的神明显迹，也指人在自己之外一再找的那个征兆；两层都算。
+- term: 心中
+  pinyin: xīn-zhōng
+  en: 'within the heart: your own judgment; your sincerity or settled intent.'
+  zh: 既指你自己的判断，也指你的诚心、你已经定下的意思。
+- term: 月中旬
+  pinyin: yuè-zhōng-xún
+  en: 'the middle ten days of the month: a window inside the month, not a fixed date;
+    the turning of the season''s cycle.'
+  zh: 是月里的一段窗口，不是一个定死的日子；也可以读作时令这一圈的转折处。
+plain_meaning:
+  en: 'A season that turns: it opens hard, and the judgements say the first attempt
+    must be tried twice and the month does not run smoothly, but the poem points to
+    mid-month for trouble to work free and come out good. The counsel is to trust
+    your own judgment over repeated divination, and to wait for the turn rather than
+    force the first try.'
+  zh: 这是一段会转的时节：开头是硬的，判词说第一回要试两遍、这个月也走不顺；但诗把话放在月中——那时候麻烦会自己松开，转成好。诗的意思是，与其反复去问，不如信自己心里那点判断，等这个转弯，别硬推第一回。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Marriage is spoken well of and a match made now is fitting, but the lot opens
+      hard - let the first friction pass before deciding.
+    zh: 婚姻一项判词写得正好，此时成配也合宜；只是这签开头硬，先让第一阵摩擦过去再定。
+    compliance_tag: null
+  career:
+    en: Advancement is granted in a later round; with the first attempt expected to
+      fail, plan for a second try.
+    zh: 功名一项有，但要到后一科才进；第一次多半空手，就按第二回来安排。
+    compliance_tag: null
+  money:
+    en: Profit is light - work a small, honest margin and do not count on a windfall.
+      (Not financial advice.)
+    zh: 财路轻——做小而实在的那一份利，不要指望一笔横财。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgement points to mending in a month that does not run smoothly - a
+      season-window, not a date; rest and consult a qualified professional. (Not medical
+      advice.)
+    zh: 判词把调养放在未月——那是一段时令的窗口，不是日期；宜休养，并找有资质的专业人士看。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household stands in small good order; keep things modest and steady while
+      the month sorts itself out.
+    zh: 家运是小吉的门庭；这个月自己还在理顺，先把日子过得素净稳当。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is hard first and good after; travel only if it cannot wait, and
+      expect a rough start.
+    zh: 出外先难后好；非走不可才走，并且要有开头不顺的准备。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Spring and summer are good for the boats and the cold half is merely even;
+      time the work to the warm months.
+    zh: 船在春夏好，冷的那半年只是平稳；把活安排在暖的月份里。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Fields are middling and the ponds return their profit; work the season steadily
+      rather than betting on a single big turn.
+    zh: 田事中平，塭里能得利；顺着这一季稳稳做，别押在一次大的翻身上。
+    compliance_tag: null
+  timing:
+    en: The turn is mid-month - a window to watch, never a promised date.
+    zh: 转弯在月中——是一段要留意的窗口，不是许下的日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Forcing the first attempt; asking the same question again and again.
+    zh: 硬推第一回；把同一个问题一问再问。
+    compliance_tag: null
+  reassurance:
+    en: The judgements run hard first, then good; the difficulty belongs to the opening,
+      not to the outcome.
+    zh: 判词说的是先难后好：难在开头，不在结果。
+    compliance_tag: null
+stories:
+- title:
+    zh: 劉永作官蔭妻兒
+    en: Liu Yong Takes Office and Shelters His Wife and Child
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 刘知远从军之后先做更夫，后来得到节度使的赏识，被招为女婿。他又因战功不断升官，做到节度使、北平王，最后称帝。发迹以后，他寻访留在原籍的发妻李三娘，李三娘苦守多年，终于和丈夫、儿子重逢，受封为后。丈夫做了大官，妻儿都跟着荣显，不必再受从前的苦。刘知远与李三娘离合的一段，民间讲得很多。他在军中的时候，从最下层的差事做起。李三娘在原籍苦守，等了很多年，一家重逢的时候，儿子已经长大成人。刘知远做了皇帝，也没有忘记从前的妻子。
+    en: After Liu Zhiyuan joined the army, he first worked as a night watchman. Later
+      a military governor thought well of him and took him as a son-in-law. He rose
+      in office again and again through his merit in war, becoming military governor
+      and Prince of Beiping, and in the end he took the throne. After he had risen,
+      he sought out his first wife, Li Sanniang, who had stayed behind in their home
+      district. Li Sanniang had held out through many hard years, and at last she
+      was reunited with her husband and her son and was given the title of empress.
+      The husband held high office, and his wife and child shared his honor and no
+      longer had to bear the hardships of before. The story of Liu Zhiyuan and Li
+      Sanniang, their parting and their reunion, was much told among the people. Li
+      Sanniang held out in their home district and waited many years, and by the time
+      the family met again their son was grown.
+  poem_connection:
+    zh: 这一签写不必向外求神迹、自己心中自有主张，正扣签诗“自己心中皆有益”“于今且看月中旬”。
+    en: No need to seek signs of favor outside oneself, since a man has his own mind
+      to rely on, fits a lot whose poem says what is held within is good and to watch
+      the middle of the month.
+- title:
+    zh: 李三娘井邊母子會
+    en: Li Sanniang Meets Her Son at the Well
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李三娘是五代时候刘知远的妻子。刘知远还没发迹时很穷，入赘到李家。岳父岳母去世以后，三娘的兄嫂待她很不好，逼着刘知远出去当兵。刘知远走后，又入赘到一位姓岳的节度使家，官渐渐做到节度使。三娘留在家里，受兄嫂的苦，白天挑水，夜里推磨。她在磨房里生下一个儿子，自己咬断脐带，给孩子取名咬脐郎。孩子不能留在身边，她托人送去给刘知远抚养，母子从此断了音信。十几年后，咬脐郎长大，一次到山中打猎，追一只白兔追到井边，遇到一个打水的妇人。妇人说起自己的身世，说着说着，母子才相认。
+    en: Li Sanniang was the wife of Liu Zhiyuan in the Five Dynasties. When Liu Zhiyuan
+      had not yet risen, he was poor and married into the Li family. After her father
+      and mother died, Sanniang's elder brother and his wife treated her badly and
+      forced Liu Zhiyuan out to serve as a soldier. After Liu Zhiyuan left he married
+      into the family of a military commissioner named Yue, and rose in office to
+      military commissioner himself. Sanniang stayed at home and suffered under her
+      brother and his wife, carrying water by day and turning the mill by night. She
+      gave birth to a son in the mill room, bit the cord through herself, and named
+      the child Yaoqilang. The child could not stay with her, so she asked someone
+      to send him to Liu Zhiyuan to raise, and mother and son had no word of each
+      other from then on. More than ten years later Yaoqilang grew up. Once he went
+      hunting in the hills, chased a white rabbit to a well, and met a woman drawing
+      water. The woman told him her story, and as she spoke, mother and son knew each
+      other at last.
+  poem_connection:
+    zh: 签诗说君尔何须问圣迹，凶事脱出化成吉。井边一问验明身世，三娘多年受困终得团圆，正合这一层。
+    en: The lot poem says there is no need to ask after holy traces, for trouble passes
+      into good. The question at the well confirms the kinship and frees Sanniang
+      from long hardship.
+- title:
+    zh: 宋文舉中狀元玉真行路
+    en: Song Wenju Comes First and Yuzhen Takes the Road
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一题里并着两件事。前半是宋文举中状元：一个读书人苦读多年，上京应考，考中第一名的状元，从此显名。后半是玉真行路：一名女子上路远行，一路走一路寻访，最后见到要见的人，事情讲明白。两件事各有一个主角，前者是男子登科，后者是女子在途，遇合或寻访一类。宋文举与玉真这两个名字，别处没有对应的人，这两件事像是被人合在一处讲的。看的是一个人有名、一个人在途。两人的朝代与后来的结果都没有留下。状元是科举考试的第一名，也是当时读书人所能得到的最高名次。
+    en: Two matters are joined in this one title. The first half is Song Wenju coming
+      first. A scholar studies hard for many years, goes up to the capital to sit
+      the examination, and takes first place as zhuangyuan, the top name in the imperial
+      examination. He is famous from then on. The second half is Yuzhen on the road.
+      A woman sets out on a long journey, asking after people as she goes, and at
+      last sees the person she wants to see. The matter is made plain. The two matters
+      each have their own main figure. The first is a man passing the examination
+      and the second a woman on the way, in a meeting or a search. The two names,
+      Song Wenju and Yuzhen, match no person anywhere else. The two matters look as
+      if they were put together by someone and told as one. What is seen is one person
+      with a name and one person on the road. The dynasty of each and what came of
+      them afterwards were not left behind. The top name was the first place in the
+      examination, and also the highest rank a scholar of that time could reach.
+  poem_connection:
+    zh: 签题取中状元一节，与诗面“于今且看月中旬”相贴：登第之期落在月中，与月中旬一语相应。
+    en: 'The title takes the taking of first place, which sits with the poem''s line
+      about the middle of the month: the day of passing falls at mid-month, and the
+      poem''s mid-month word answers it.'
+- title:
+    zh: 牛郎織女相會
+    en: The Cowherd and the Weaver Girl Meet
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 牵牛和织女原本是天上的两颗星。后来民间把这两颗星说成一对夫妻。一个是凡间的放牛人，一个是天上的织女，一个耕地，一个织布。牛郎和织女成婚以后，因为贪恋相守，荒废了织布的本分。天帝发怒，罚他们分在银河两岸，只能隔河相望，一年只许在七月初七的夜里相会一次。银河就是天上那条由许多星星组成的光带。到了这一夜，成群的喜鹊飞来，搭成一座桥，让他们渡河相见，所以这座桥叫鹊桥。历代妇女在七月初七这天夜里，会在庭中摆上瓜果，穿针引线，向织女求巧，叫作乞巧。
+    en: The Cowherd and the Weaver Girl were at first two stars in the sky. Later
+      the two stars were made into a married couple. One was a cowherd of the mortal
+      world and one the Weaver Girl of heaven. One plowed and one wove. After the
+      Cowherd and the Weaver Girl married, they gave themselves up to being together
+      and neglected her weaving. The Jade Emperor grew angry and punished them by
+      separating them on the two banks of the Milky Way. They could only gaze at each
+      other across the river, and once a year, on the night of the seventh day of
+      the seventh month, they were allowed to meet. The Milky Way is the band of many
+      stars across the sky. On that night flocks of magpies flew in and made a bridge
+      so that they could cross the river and meet, and so this bridge is called the
+      magpie bridge. Through the ages, women on the night of the seventh day of the
+      seventh month have set melons and fruit in the courtyard and threaded needles
+      to ask the Weaver Girl for skill. This is called begging for skill.
+  poem_connection:
+    zh: 签诗“于今且看月中旬”“凶事脱出化成吉”，时候一到事有转机，正对一年一度相会。
+    en: The lot's poem says to watch the middle of the month now, and that bad things
+      fall away and turn to good. A turn for the better when the time comes fits a
+      meeting once a year.
+- title:
+    zh: 朱買臣守困
+    en: Zhu Maichen Endures Poverty
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱买臣是西汉吴县人，家在今天的江苏苏州一带。他家里穷，偏偏喜欢读书，不肯经营家业，全靠砍柴卖钱过日子。他挑着柴担在路上走，嘴里还念着书。妻子背着柴跟在后面，几次劝他别在路上念，他不但不听，反而念得更起劲。妻子觉得丢脸，请求离开，另嫁了人。后来朱买臣跟着同乡严助入朝做官，得到汉武帝赏识，被任命为会稽太守。会稽在今天的浙江一带。他做官后回到家乡，路上看见旧日的妻子和她的丈夫正在修路，就把他们一起接到官舍里供养。妻子羞愧难当，自缢而死。这一签说于今且看月中旬，又说凶事脱出化成吉，正配朱买臣困顿多年、晚而得官的一段。
+    en: Zhu Maichen was a man of Wu county in the Western Han, whose home was in what
+      is today the Suzhou area of Jiangsu. His family was poor, but he loved to read
+      and would not manage the family property; he lived by cutting firewood and selling
+      it. He walked along the road with a load of firewood on his shoulder, reciting
+      books as he went. His wife carried firewood behind him and several times told
+      him not to recite in the road. He did not listen, but recited all the louder.
+      His wife found it shameful and asked to leave him, and married another man.
+      Later Zhu Maichen went to court with a man of his own region, Yan Zhu, won the
+      regard of Emperor Wu of the Han, and was appointed governor of Kuaiji. Kuaiji
+      is in what is today Zhejiang. After taking office he came back to his home region
+      and saw his former wife and her husband mending the road. He took them both
+      to the official residence and kept them there. His wife was overcome with shame
+      and hanged herself.
+  poem_connection:
+    zh: 这一签说于今且看月中旬、凶事脱出化成吉，正配朱买臣长期守困、晚而得官的一段。
+    en: This lot says to watch the middle of the month now, and that an ill matter
+      comes out and turns into good - Zhu Maichen long in hardship and gaining office
+      late.
+- title:
+    zh: 摩利支大菩薩救鄭和
+    en: Marici Bodhisattva Saves Zheng He
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一签的故事题作“摩利支大菩萨救郑和”。摩利支天是佛教护法神里的一位，旧时出海和用兵的人常祭拜他。郑和是明代初年奉命出使西洋的太监，先后七次下西洋，船队往来于南海和印度洋之间。签把这两件事连在一起，说摩利支菩萨救护过郑和。这件事流传下来的只有这个题目，经过已不可知。所以这一条只照题面讲明菩萨救护郑和这件事，不做敷演，也不断定真假。摩利支天在密宗里称作摩利支菩萨，像常画成骑猪、手持弓箭的样子。郑和受过菩萨戒，法名福善，航行中也曾向天妃祈祷。
+    en: This lot's story is titled Marici Bodhisattva Saves Zheng He. Marici-deva
+      is one of the protector deities of Buddhism. In older times those who went to
+      sea or sent troops often offered worship to him. Zheng He was the eunuch ordered
+      in the early Ming to sail to the Western Seas. He made seven voyages, and his
+      fleets moved between the South China Sea and the Indian Ocean. This lot joins
+      the two, saying that Marici Bodhisattva rescued Zheng He. Of this tale only
+      the title has come down, and how it ran cannot be known. So this entry sets
+      out only, by its title, that the bodhisattva rescued Zheng He. It does not expand
+      on it, and it does not decide whether it is true. Marici-deva is called Marici
+      Bodhisattva in the esoteric school. Images often show him riding a boar and
+      holding a bow and arrow. Zheng He received the bodhisattva precepts and was
+      given the dharma name Fushan. On his voyages he also prayed to Mazu, the Heavenly
+      Princess.
+  poem_connection:
+    zh: 签诗“君尔何须问圣迹”，正配摩利支天救护郑和的传说；“凶事脱出化成吉”则取他出海涉险而脱之意。
+    en: The poem asks why one should seek the traces of a saint, which suits the tale
+      of Marici-deva saving Zheng He; that danger turns to good matches his escape
+      from peril at sea.
+- title:
+    zh: 李三娘井邊會
+    en: Li Sanniang Meets Her Son at the Well
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘知远贫寒的时候入赘李家，就是做上门女婿，娶了李三娘。后来他从军远去，三娘留在家中，受兄嫂李洪信夫妇的虐待：白天挑水，夜里推磨。她在磨房里生下了一个儿子，托老仆窦公送到刘知远那里抚养，取名承祐，又叫咬脐郎。十六年后，承祐出外打猎，追一只白兔追到井边，遇见一个打水的妇人。说话之间，他认出那是自己的生母，母子在井边相会，就把母亲接了回去。刘知远后来立国，做了后汉的皇帝，李三娘做了皇后。整个故事从入赘、别妻、磨房产子到井边相认，曲折处多落在李三娘这一边。题名井边会，取的就是井边相认这一段。
+    en: When Liu Zhiyuan was poor he married into the Li family, that is, he became
+      a husband who moves into his wife's house. He took Li Sanniang as his wife.
+      Later he went away to serve as a soldier, and Sanniang stayed at home and was
+      badly treated by her brother Li Hongxin and his wife. She carried water by day
+      and turned the mill by night. She gave birth to a son in the mill room, and
+      asked the old servant Old Dou to carry him to Liu Zhiyuan to be raised. He was
+      named Chengyou, and was also called Yaoqilang. Sixteen years later Chengyou
+      went out hunting, chased a white rabbit as far as a well, and met a woman drawing
+      water there. As they talked he saw that she was his own mother, mother and son
+      met at the well, and he took her home. Liu Zhiyuan later founded a state and
+      became emperor of the Later Han, and Li Sanniang became empress. The whole story
+      runs from the marriage into the house, the parting from his wife, the birth
+      in the mill room and the meeting at the well. Its turns mostly fall on Li Sanniang's
+      side. The title, the meeting at the well, takes that stretch of recognition.
+  poem_connection:
+    zh: 签题取母子井边相认、离散而复聚一层，与诗面“于今且看月中旬，凶事脱出化成吉”相贴：先经患难，后得相会。
+    en: The title takes mother and son meeting at the well, parted and then brought
+      together again, which sits with the poem's mid-month line where trouble comes
+      out and turns to good.

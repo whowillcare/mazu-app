@@ -1,0 +1,393 @@
+id: 59
+lot_number: 59
+ganzhi:
+  zh: 癸酉
+  pinyin: Gui-you
+title:
+  en: Shen Wansan Seeks Wealth and Grows Rich
+  zh: 沈萬三求財大富
+hexagram:
+  zh: 地雷复
+  name_and_structure_en: Fu (Earth over Thunder)
+  binary_code: ●●●●●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 沈萬三求財大富
+    en: Shen Wansan Seeks Wealth and Grows Rich
+  variants_en:
+  - Dong Yong Meets the Seventh Fairy
+  - Li Deyu Becomes Chancellor
+  - Su Qin Receives the Seals of Six States
+  - Emperor Gaozu of Han Kills the White Snake
+  - There Are Immortals in the Capital Market
+  - Rat-Spirits Trouble the Song Court
+  variants_zh:
+  - 董永遇七仙女
+  - 李德裕為相國
+  - 蘇秦受六國相印
+  - 漢高祖斬白蛇
+  - 皇都市上有神仙
+  - 老鼠精鬧宋朝
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive, with a deliberate delay built in - 凡事
+      後吉得利／家事 百福百祿／家運 門庭增輝／婚姻 成好／求財 慢好。有利益／出外 平安。後得財星拱照／討海 先失後得／耕作 有收成／月令 漸安, against
+      作事 難成。成者好。 and 墳墓 地運參差 (jie_yue_score 17)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs mostly positive on this lot, with a deliberate
+      delay built in — general affairs, household, family fortune, marriage, income,
+      advancement, going out, moving house, trade, field work, sea work, and ponds
+      all read well, while undertakings put the outcome on how the work is done and
+      graves come out uneven. We read it as favourable, with the return arriving late.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 後吉得利／作事 難成。成者好／家事 百福百祿／家運 門庭增輝／婚姻 成好／求兒 亦可得／六甲
+      得添弄璋／求財 慢好。有利益／功名 有可得／歲君 平和／治病 子丑寅過不畏／出外 平安。後得財星拱照／經商 先呆。後有利／來人 半月到／行舟 後吉／移居
+      好／失物 半月在／求雨 不日到／官事 中和。了錢。完局／六畜 平平／耕作 有收成／築室 吉／墳墓 地運參差／討海 先失後得／作塭 有利可得／魚苗 且慢可得利／月令
+      漸安／尋人 有著／遠信 佳音速報——整签偏正而带延后，唯 作事 難成。成者好 与 墳墓 地運參差 两项留有余地（jie_yue_score +17）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上大体偏正面，并在其中留了一段有意的延后——总类、家事、家运、婚姻、求财、功名、出外、移居、经商、耕作、讨海、作塭等处都往好里读；唯「作事」一项把结果挂在做法上，「坟墓」一项则参差。故列为本批的偏正一档，且回报来得迟。
+provenance:
+  editorial_note: '*the temple list carries a different group for this lot: 皇都市上有神仙;
+    老鼠精鬧宋朝.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 有心作福莫遲疑，
+    en: If you have the heart to do good, do not delay;
+  - line_number: 2
+    zh: 求名清吉正當時，
+    en: to seek a name is clear and auspicious just now;
+  - line_number: 3
+    zh: 此事必能成會合，
+    en: this matter can surely reach its meeting.
+  - line_number: 4
+    zh: 財寶自然喜相隨。
+    en: and wealth and treasure follow along of their own accord.
+keywords:
+  favourable:
+    en:
+    - doing the good thing now
+    - a name sought in clear weather
+    - gain that arrives late
+    - parties meeting again
+    - wealth in the wake of merit
+    zh:
+    - 现在就去做那件好事
+    - 趁清吉的天气求一个名
+    - 迟来的进项
+    - 双方重新会合
+    - 福报后面的财宝
+  guarded:
+    en:
+    - hesitating past the open hour
+    - reading a slow return as no return
+    - demanding the profit early
+    - spending what has not arrived
+    zh:
+    - 犹豫过了那扇开着的时辰
+    - 把慢回报看成没有回报
+    - 要求利钱提前到
+    - 花还没到手的钱
+reading_notes:
+- term: 作福
+  pinyin: zuò-fú
+  en: 'to make merit, to do good: giving to others in the sense of merit-making; setting
+    one''s own house in order before expecting any return; the poem opens on this
+    word and does not narrow it.'
+  zh: 是积福、做善事；也指先把自己家里料理清楚，再去指望回报。诗句从这个词起头，没有把它收窄。
+- term: 會合
+  pinyin: huì-hé
+  en: 'to meet and join: an agreement concluded between two parties; people who have
+    been apart meeting again; both senses sit in the compound.'
+  zh: 既指双方把事情谈成一个定局，也指分开的人重新聚到一处；两层都在这一个复词里。
+- term: 自然
+  pinyin: zì-rán
+  en: 'of itself, of its own accord: without being forced; by the ordinary course
+    of things; the line describes a manner, not a moment.'
+  zh: 既指不必去硬逼，也指照事情的常理自己走到那一步；这一句说的是势态，不是一个时点。
+plain_meaning:
+  en: 'A season that pays, and pays late: the judgements read good after the turn
+    and slow but good, so the gain is real and it comes after the waiting. The poem
+    states its counsel first - if the heart is set on doing good, do not put it off
+    - and adds that the name you are after is best sought while the weather is clear.
+    Move now on the good thing; let the return keep its own pace.'
+  zh: 一段会有回报、而且报得晚的时节：判词读出「后吉」「慢好」，进项是真的，只是要等过这一段才来。诗先把话说明白——心里既有做福的念头，就不要拖；又说想求的名字，趁天时清吉的时候去求最好。该做的好事现在就动，回报让它按自己的步子来。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Things come together this season; speak plainly and do not let the hour pass.
+    zh: 婚姻一项成好——这一季事情会凑到一处；话说明白，别让时辰空过去。
+    compliance_tag: null
+  career:
+    en: The name is available and the work does come off — but only when it is done
+      properly.
+    zh: 功名一项有可得，作事一处则要看做法——名字够得着，事情只有做得得法才算成。
+    compliance_tag: null
+  money:
+    en: The return is slow rather than absent; do not force the early profit. (Not
+      financial advice.)
+    zh: 求财一项慢好、有利益——回报是慢，不是没有；不要去逼那笔早利，还没到手的钱也不要先花。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The hard stretch is read as passing; keep ordinary care, and put anything
+      that lasts to a qualified professional. (Not medical advice.)
+    zh: 治病一项以「子丑寅过不畏」为断——难走的那一段会过去；按平常照看，久不好的要交给有资质的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is the strong part of this lot; do the good work there first.
+    zh: 家事百福百禄、家运门庭增辉——家是这一签的强处；先把家里的好事做起来。
+    compliance_tag: null
+  travel_moving:
+    en: Going out and settling elsewhere are both read as sound.
+    zh: 出外平安、后得财星拱照，移居一项也读作好——出门与另安一处都算平顺。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water gives, but only after the first loss; be patient with the boats.
+    zh: 行舟后吉、讨海先失后得、鱼苗且慢可得利——水上会给，但要先失一回；对船要有耐心。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season returns a harvest to steady work, on land and in the ponds alike.
+    zh: 耕作有收成、作塭有利可得——这一季对肯照常做的人有回报，无论田里还是塘里。
+    compliance_tag: null
+  timing:
+    en: The good window comes after the delay; read it as a season, never as a date.
+    zh: 后吉、慢好、渐安——好窗口在那段延后之后；按时令读，绝不当作日期。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Postponing the good thing already in mind; demanding the profit ahead of its
+      hour.
+    zh: 把已经想到的那件好事往后拖；要求利钱在时辰未到之前先到。
+    compliance_tag: null
+  reassurance:
+    en: The lateness is part of this lot, not a sign against it.
+    zh: 这份晚，是这一签本身的一部分，不是对它的反证。
+    compliance_tag: null
+stories:
+- title:
+    zh: 沈萬三求財大富
+    en: Shen Wansan Seeks Wealth and Grows Rich
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 沈万三是明朝初年江南的大富户，原名沈富，字仲荣。江南是长江下游一带，物产丰饶。他在元朝末年到明朝初年之间，靠做买卖和垦种田产起家，家财之大，在当时数第一。他的田地、商铺很多，买卖也做得大。人们说他有个聚宝盆，放进银子就取不完；又说他常跟海外的商船往来，所以富得极快。他曾帮着修筑南京的城墙，又拿钱去犒赏军队。明太祖朱元璋因此动怒，把他发配到云南，也有人说他因此被杀。他在周庄的旧宅和田产，至今还有人说起。
+    en: Shen Wansan was a great rich man of Jiangnan in the early Ming. His original
+      name was Shen Fu, and his courtesy name was Zhongrong. Jiangnan is the lower
+      stretch of the Yangtze, a region rich in produce. Between the end of the Yuan
+      and the start of the Ming he made his fortune in trade and by opening farmland.
+      The size of his property was first in the land at the time. He had many fields
+      and shops and did business on a large scale. People said he had a bowl that
+      gathered treasure, so that silver put into it could never be taken out to the
+      end. They also said he traded with merchant ships from overseas, which was why
+      he grew rich so fast. He helped build the wall of Nanjing and also spent money
+      to reward troops. Emperor Taizu of Ming, Zhu Yuanzhang, was angered by this,
+      and sent him into exile in Yunnan. Some say he was put to death for it. His
+      old house and fields at Zhouzhuang are still spoken of today.
+  poem_connection:
+    zh: 签诗说有心作福莫迟疑、财宝自然喜相随；沈万三求财致富，正扣这一层。
+    en: The poem says that if one means to do good, one should not delay, and that
+      wealth and treasure follow gladly. Shen Wansan sought wealth and grew rich,
+      which fits.
+- title:
+    zh: 董永遇七仙女
+    en: Dong Yong Meets the Seventh Fairy
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 董永年少就没了母亲，和父亲住在一起，靠种田养活父亲。父亲去世，他没有钱办丧事，就把自己卖给人做奴仆。主人知道他的孝行，给了他一万钱，让他回去办丧。董永守孝三年，回主人家做工还债，路上遇见一个妇人，妇人说愿意做他的妻子。两人一同到主人家，主人叫董永的妻子织一百匹细绢抵债。她十天就织完了。事情办完，妇人向董永告别，说她本是天上的织女，因为董永孝顺，天帝命她下凡帮他偿还债务，说完就飞天而去。后来的戏曲把这段故事改成天帝的第七个女儿帮董永一夜织成锦缎赎身。
+    en: Dong Yong lost his mother when he was young and lived with his father, supporting
+      him by farming. When his father died, he had no money for the funeral, so he
+      sold himself as a bondservant. His master knew of his filial conduct, gave him
+      ten thousand coins, and sent him home to arrange the burial. Dong Yong kept
+      mourning for three years, then returned to his master's house to work off the
+      debt. On the road he met a woman who said she was willing to be his wife. The
+      two went together to the master's house, and the master told Dong Yong's wife
+      to weave a hundred bolts of fine silk to pay off the debt. She finished in ten
+      days. When the work was done, the woman took leave of Dong Yong and said she
+      was in truth a weaver girl from heaven. Because Dong Yong was filial, the Jade
+      Emperor had ordered her down to the world to help him pay his debt. Then she
+      flew up into the sky. In the tale she is the seventh daughter of the Jade Emperor,
+      who wove the silk for him in a single night.
+  poem_connection:
+    zh: 这一签写善行得到回应、所求成合而财宝随来，正扣签诗“有心作福莫迟疑”“此事必能成会合”。
+    en: Good deeds that meet an answer, and a wish that comes together while wealth
+      follows after, fits a lot whose poem says not to delay in doing good and that
+      the matter can be joined.
+- title:
+    zh: 李德裕為相國
+    en: Li Deyu Becomes Chancellor
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 李德裕，字文饶，是唐朝名臣李吉甫的儿子。他年少好学，凭父亲的官荫入仕，先后在宪宗、穆宗、敬宗、文宗、武宗几朝为官。武宗即位后，召他入朝，拜为宰相。他在相位六年，对外抵御回鹘，对内平定泽潞的叛乱，压制藩镇，整肃吏治，裁减多余的官员，朝政为之一振。会昌年间，朝廷用人得当，政事办得有条理。后人把这一朝称为会昌之政，评为唐朝中叶少有的一段治世。武宗去世，宣宗即位，李德裕因旧怨被猜忌，先贬为潮州司马，再贬为崖州司户，最后死在贬所。
+    en: Li Deyu, whose courtesy name was Wenyuan, was the son of Li Jifu, a famous
+      minister of the Tang. He studied hard in youth and entered office by the privilege
+      of his father's rank. He served in the courts of several emperors in turn. When
+      Emperor Wuzong took the throne, he called him to court and made him chancellor.
+      He held the post for six years. Abroad he held off the Uyghurs, and at home
+      he put down the rebellion at Zelu, checked the military governors, tightened
+      up official conduct, and cut surplus posts, and the government was stirred into
+      new life. In the Huichang years the court used the right men and handled affairs
+      in good order. Later ages called this reign the government of Huichang and judged
+      it one of the few well-governed spans in the middle Tang. When Emperor Wuzong
+      died and the next Tang emperor, whose temple name was Xuanzong, took the throne,
+      Li Deyu was suspected out of old grudges. He was first demoted to be a secretary
+      in Chaozhou, then demoted again to a post in Yazhou, and died at the place of
+      his demotion.
+  poem_connection:
+    zh: 签诗说求名清吉正当时，此事必能成会合。李德裕入朝为相、名位俱显的一段，正合“正当时”一句。
+    en: The lot poem says seeking a name is clear and lucky, and that this matter
+      surely comes together. Li Deyu's entry into court as chancellor, with name and
+      place both shown, fits that timeliness.
+- title:
+    zh: 蘇秦受六國相印
+    en: Su Qin Receives the Seals of Six States
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏秦先劝说燕文侯、赵肃侯，再往韩、魏、齐、楚去说，把六国合力抗秦的好处与各自与秦结好的害处，一家一家讲给诸侯听。六国都听了他的话，联合起来，苏秦做从约长，一个人挂上六国的相印。秦兵受这个约的拘束，十几年不敢向函谷关窥探。苏秦的弟弟苏代、苏厉也靠游说在诸侯之间显了名。后来秦国派犀首用连横的说法拉拢齐与魏，两国一同攻打赵国，合纵之约就此散掉。苏秦从赵国到燕国，又到齐国，都受厚待，最后在齐国被人刺杀。合纵是让六国合力去挡强秦；秦的对策是连横，让一国与秦结好，去打别的弱国。约成之后又散，苏代、苏厉仍往来于诸侯之间游说。
+    en: Su Qin first persuaded Marquis Wen of Yan and Marquis Su of Zhao, and then
+      went on to Han, Wei, Qi and Chu. To one lord after another he set out the gain
+      of the six states joining to resist Qin, and the harm of each making friends
+      with Qin on its own. All six listened to him and joined together. Su Qin was
+      head of the alliance, one man wearing the seals of all six states as their minister.
+      The Qin forces were held in check by this pact, and for more than ten years
+      did not look toward Hangu Pass. Su Qin's younger brothers Su Dai and Su Li also
+      made names for themselves among the lords by persuasion. Later Qin sent Xishou
+      (Gongsun Yan) to draw Qi and Wei into a horizontal alliance. The two states
+      attacked Zhao together, and the pact of the vertical line broke up. Su Qin went
+      from Zhao to Yan and then to Qi, well treated in each, and in the end was stabbed
+      to death in Qi. The vertical line was the six states joining their strength
+      to hold off strong Qin. Qin's answer was the horizontal line, one state making
+      friends with Qin in order to attack the weaker states. The pact was made and
+      then broke apart, and Su Dai and Su Li still went to and fro among the lords.
+  poem_connection:
+    zh: 签诗说“求名清吉正当时。此事必能成会合”，与六国联合、苏秦并相授印一节相贴：求名之事正当其时。
+    en: The poem says that seeking a name is clean and timely, and that the matter
+      is certain to come to a joining; the six states joined together and Su Qin was
+      given all their seals.
+- title:
+    zh: 漢高祖斬白蛇
+    en: Emperor Gaozu of Han Kills the White Snake
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘邦做泗水亭长的时候，奉命押送役夫到骊山去。亭长是管地方治安和驿传的小吏。路上逃走的人很多，他估计到不了骊山，走到丰西泽中就停下来喝酒。夜里，他把役夫都放走，让他们各自逃命。有十几个人愿意跟着他。他带着这些人趁醉夜行，走在前面的人回来报告，说路上有条大蛇挡道。刘邦说壮士行路，有什么好怕，上前拔剑把蛇砍成两段。又走了几里，他醉倒在地。后面的人来到斩蛇的地方，看见一个老妇在黑夜里哭。问她为什么哭，老妇说她的儿子是白帝之子，化蛇挡在路中，如今被赤帝之子斩了。众人以为她说胡话，正要去告官，老妇忽然不见了。这件事传开以后，沛县的子弟来投奔他的人渐渐多了。
+    en: When Liu Bang was the Pavilion Chief of Sishui, he was ordered to escort laborers
+      to Mount Li. A Pavilion Chief was a minor official in charge of local order
+      and the post roads. Many of the men ran away on the road. He reckoned that he
+      would not reach Mount Li, and when he came to the marsh at the west of Feng
+      he stopped to drink. At night he released all the laborers and let them run
+      for their lives. A dozen or so chose to follow him. He led these men on through
+      the night while drunk. The man walking in front came back and reported that
+      a great snake lay across the road. Liu Bang said a strong man on the road has
+      nothing to fear, stepped up, and cut the snake in two with his sword. After
+      a few more li he fell down drunk. The men behind reached the place where the
+      snake had been cut and saw an old woman weeping in the dark. Asked why she wept,
+      she said her son was a son of the White Emperor, and had turned into a snake
+      and blocked the road, and that now he had been cut down by a son of the Red
+      Emperor. The men thought she was talking nonsense and were about to report her
+      to the officials when the old woman suddenly vanished. After this got about,
+      more and more young men of Pei county came to join him.
+  poem_connection:
+    zh: 签诗“有心作福莫迟疑”“此事必能成会合”，时当有为而勿失其机，正对斩蛇得众归附。
+    en: The lot's poem says that with the mind set on doing good one should not hesitate,
+      and that this matter can surely come to a joining. Acting at the right time
+      fits killing the snake and drawing followers.
+- title:
+    zh: 皇都市上有神仙
+    en: There Are Immortals in the Capital Market
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 汉朝有个董永，千乘人，家在今天的山东一带。他小时候死了母亲，和父亲相依为命，家里很穷。父亲去世，他没有钱办丧事，只好向人借钱，又答允日后给人做工抵债，这才把父亲安葬了。葬完父亲，他上路去债主家。半路上遇见一个妇人，自愿做他的妻子。两人一同到债主家里，靠织绢抵债。旁人四处打听，找不到这妇人的家人，才准他们成亲。董永的妻子日夜不停地织，一百天织成一批绢，卖了钱，把董永的卖身债还清。事情办完，她向董永告辞而去，自称是天上的织女，因为董永孝顺，天帝命她下凡帮他偿债。这一签说有心作福莫迟疑，又说此事必能成会合，正配董永卖身葬父、与天上织女相遇相合的一段。
+    en: In the Han there was a man named Dong Yong, of Qiansheng, whose home was in
+      what is today the Shandong area. His mother died when he was small, and he and
+      his father lived depending on each other, very poor. When his father died he
+      had no money for the funeral, so he borrowed from others and promised to work
+      for the lender afterward to pay off the debt. Only then was his father buried.
+      After the burial he set out for the lender's house. On the way he met a woman
+      who offered to be his wife. The two went together to the lender's house and
+      paid the debt by weaving silk. The people there asked around on every side and
+      could not find the woman's family, and only then would they let the two marry.
+      Dong Yong's wife wove without stopping day and night, and in a hundred days
+      wove a batch of silk. It was sold, and Dong Yong's debt of servitude was paid
+      off. That done, she took leave of Dong Yong and went away, saying that she was
+      the Weaver Girl of Heaven, and that because Dong Yong was filial the Jade Emperor
+      had ordered her to come down and help him pay the debt.
+  poem_connection:
+    zh: 这一签说有心作福莫迟疑、此事必能成会合，正配董永卖身葬父、仙凡相遇相合的一段。
+    en: This lot says that if one means to do good one should not hesitate, and that
+      this matter surely comes together - Dong Yong selling himself to bury his father
+      and meeting the Weaver Girl from Heaven.
+- title:
+    zh: 老鼠精鬧宋朝
+    en: Rat-Spirits Trouble the Song Court
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 传说宋朝时候，京城里出了五只老鼠精，会变成人形，在城中作怪。它们搅扰官府和人家，谁也制不住。京城就是当时的都城。包公看出其中的妖异，上奏玉帝，说这怪不是人间的力量能除的，求借西方雷音寺如来座下的一只玉面金猫来用。雷音寺是佛经里如来说法的地方。玉帝答应了。包公得到金猫，用它降伏五只老鼠精。五只老鼠现出原形，被捉住，京城才安定下来。这里说的包公本名包拯，是北宋有名的清官，民间叫他包公；玉帝是民间信仰里管天上众神的神。
+    en: In Song times, five rat-spirits appeared in the capital. They could take human
+      form and made trouble in the city. They disturbed government offices and households,
+      and no one could master them. The capital means the seat of government at that
+      time. Bao Gong saw the strangeness in them. He memorialized the Jade Emperor,
+      saying that this monster could not be removed by human power, and asked to borrow
+      a jade-faced golden cat from under the Buddha's seat at the Leiyin Temple in
+      the West. Leiyin Temple is the place in Buddhist scripture where the Buddha
+      preached. The Jade Emperor agreed. Bao Gong got the golden cat and used it to
+      subdue the five rat-spirits. The five rats showed their true forms and were
+      seized, and the capital settled again. The Bao Gong here is Bao Zheng, a famous
+      upright official of the Northern Song, whom the people called Bao Gong. The
+      Jade Emperor is the god who rules the gods of heaven in folk belief.
+  poem_connection:
+    zh: 签诗“有心作福莫迟疑”“此事必能成会合”，正合包公奏请玉帝、借金猫降伏五鼠而事得会合一事。
+    en: The poem says to do good at once and not delay, and that this matter can surely
+      be brought together, which fits Bao Gong memorialising the Jade Emperor, borrowing
+      the golden cat, and subduing the five rats.

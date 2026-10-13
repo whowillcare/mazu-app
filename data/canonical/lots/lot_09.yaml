@@ -1,0 +1,301 @@
+id: 9
+lot_number: 9
+ganzhi:
+  zh: 乙巳
+  pinyin: Yi-si
+title:
+  en: Dragon and Tiger Meet
+  zh: 龍虎相會
+hexagram:
+  zh: 地天泰
+  name_and_structure_en: Tai (Earth over Heaven)
+  binary_code: ●●●○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 4
+  primary:
+    zh: 龍虎相會
+    en: Dragon and Tiger Meet
+  variants_en:
+  - Xiang Yu Besieged at Gaixia
+  - Emperor Jingtai's Grave Illness
+  - Dragon and Tiger Fight
+  variants_zh:
+  - 項王被圍垓下
+  - 景泰君重病
+  - 龍虎相鬥
+register:
+  level: unfavourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run negative throughout — 凡事 謹慎／婚姻 不可／求財 無益／家運 有邪。難安／月令
+      破財有口舌 (jie_yue_score −13)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements lean blocked across marriage, children, money,
+      advancement, household fortune, travel, trade, water work and the turn of the
+      season; we read it as unfavourable.; only questions of dwelling, burial and
+      "better to wait" keep some room. One textual branch prints xiang-ai-yu (相愛愉)
+      where our base text keeps xiang-ai-wu (相愛誤), following the user ruling and the
+      poem's own closing tone; the difference is recorded, not smoothed over.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 謹慎／作事 守己安分／家事 無有際會／家運 有邪。難安／婚姻 不可／求兒 切要不可／六甲 子媳虛／求財 無益／功名
+      不取／歲君 不吉／出外 不可／經商 了錢／行舟 不美／移居 不佳／失物 難尋／官事 不可。破財／六畜 不可納／耕作 無收。了工／討海 有犯邪祟／作塭 了工蝕本／魚苗
+      了錢／月令 破財有口舌／遠信 無望（jie_yue_score −13）。整签偏负，唯 築室 且慢也可、墳墓 地勢適當、求雨 尚未。自有、尋人 漸回 三处留有余地。校勘：多数决；诗文第四字「相愛誤」为用户裁定保留，另有一路版本作「相愛愉」（temple01
+      好廟網、feishuai 作「愉」），定本从裁定，不改字。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在婚姻、子嗣、求财、功名、家运、出行、经商、水上作业与月令各处皆受阻，我方读作 unfavourable。；只有居住、丧葬与「稍缓亦可」一处留有余地。底本文字另有一路版本作「相愛愉」，我方按用户裁定与全诗语气保留「誤」，异文照实记录在案。
+provenance:
+  editorial_note: null
+  textual_provenance: 'user_ruled — 「相愛誤 — loving, and mistaken (维基文库; mznn; 91chouqian;
+    定本白文本)」→「相愛愉 — loving, and pleased (temple01 好廟網; feishuai)」, user ruling (守)
+    — kept 誤: the phrase matches the warning tone and the closing line 「他日與我卻無干」,
+    which 「愉」 contradicts.'
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 龍虎相隨在深山，
+    en: Dragon and tiger keep company in the deep hills;
+  - line_number: 2
+    zh: 君爾何須背後看，
+    en: what need have you to keep looking behind you?
+  - line_number: 3
+    zh: 不知此去相愛誤，
+    en: you do not see that this union goes wrong —
+  - line_number: 4
+    zh: 他日與我卻無干。
+    en: and afterwards it has nothing to do with me.
+keywords:
+  favourable:
+    en:
+    - keeping to your own ground
+    - restraint
+    - a quiet separation from what has soured
+    zh:
+    - 守住自己脚下这块地
+    - 收敛克制
+    - 对已经变味的关系，安静地分开
+  guarded:
+    en:
+    - suspicion between close parties
+    - leaning on a bond already straining
+    - expecting a partnership to hold
+    - taking the surface for the substance
+    zh:
+    - 亲近的人之间彼此猜疑
+    - 倚靠一段本已吃紧的关系
+    - 指望合伙与合股撑得住
+    - 把表面当成实质
+reading_notes:
+- term: 相愛誤
+  pinyin: xiāng-ài-wù
+  en: '"loving, and mistaken": at once *an affection that errs* and *a meeting that
+    was a mistake to make*. The dictionary text prints 誤; one branch prints 愉 (*pleased*),
+    which the last line refuses. We keep 誤 and show the variant rather than smooth
+    it away.'
+  zh: ：既指一份用错了地方的情意，也指一场本就不该凑成的相会。字典一路作「誤」；另有一路版本作「愉」（愉悦），末句不接受这个读法。我方保留「誤」，并把异文照实列出，不替读者抹平。
+- term: 背後看
+  pinyin: bèi-hòu-kàn
+  en: '"looking behind you": at once *suspicion of someone at your back* and *the
+    poem''s own backward glance*; The line is a caution, not an accusation.'
+  zh: ：既指疑心身后有人，也指这首诗自身的回望。这一句是提醒，不是指控。
+- term: 與我卻無干
+  pinyin: yǔ-wǒ-què-wú-gān
+  en: '"has nothing to do with me": the line marks a *separation*. It states distance;
+    it is not a threat.'
+  zh: ：这句标示的是一种分开。它只陈述距离，不是威胁。
+plain_meaning:
+  en: 'Dragon and tiger lodge in the same hills and do not stay companions: intimacy
+    here is already turning into distance, and suspicion only hurries it. The counsel
+    is to stand on your own ground, keep the matter quiet, and let what is ending
+    end without a quarrel.'
+  zh: 龙与虎同住一山，却留不住彼此作伴：这一阵的亲近正在转为疏远，猜疑只会让它走得更快。给出的做法是守住自己的本分、把事情放安静，让该结束的关系结束时不必起争执——诗里那句「他日与我却无干」，说的是距离，不是恐吓。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is my partner cheating on me?
+    zh: 我的伴侣是不是在出轨？
+  rewritten_to:
+    en: What do I need to watch for in this relationship right now?
+    zh: 在这段关系里，此刻我该留意什么？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 涉及第三方隐私。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Affection here tends to turn into distance; do not force a bond that is already
+      separating, and do not act on suspicion.
+    zh: 这一阵的情意容易走成疏远；已经在分开的关系不必强求，也不要凭猜疑行事。
+    compliance_tag: null
+  career:
+    en: Stand on your own ground; partnerships and joint ventures are the weak point
+      this season.
+    zh: 守住自己脚下这块地；这一季的弱点是合伙与合股的事。
+    compliance_tag: null
+  money:
+    en: Little gain and real loss in joining together; keep your accounts separate.
+      *(Not financial advice.)*
+    zh: 掺和进去，进项少而实损多；把各自的账目分开。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: A season to be careful rather than to test; have anything persistent seen
+      to. *(Not medical advice.)*
+    zh: 这一季宜谨慎，不宜试探；有持续不退的状况，请找专业人员看一看。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: A sourness in the household that quarrels feed; keep your own room in order.
+    zh: 家中有一股酸涩气，争吵会喂养它；先把自己的房间理清。
+    compliance_tag: null
+  travel_moving:
+    en: The poem says do not set out.
+    zh: 诗里说不要出门。
+    compliance_tag: null
+  sea_and_voyage:
+    en: There is a bad influence on the water this season — keep the boats in.
+    zh: 这一季水上有些不清净的影响——船先留在港里。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The season returns nothing for the work; keep the rounds small.
+    zh: 这一季的活计换不回什么；把摊子收小，按部就班地做。
+    compliance_tag: null
+  timing:
+    en: Nothing is gained by moving on it now — a season, never a date.
+    zh: 此刻动手并无所得——只讲一季，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Suspicion between close parties; signing into a bond that is already strained.
+    zh: 亲近的人之间互相猜疑；签下本已吃紧的约定。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. If this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这里说的是一季难行，不是预告会有伤害。若这段解读触动了你的焦虑或金钱上的担忧，请找一位你信得过的人，或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 龍虎相會
+    en: Dragon and Tiger Meet
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 龙和虎都是山林里最强的一对猛兽：龙腾云降雨，虎长啸生风。旧时把两股强横的力量碰到一起，就叫作龙虎相会。这一则讲的就是这样一个场面。深山人迹不到，只有风声和水声。两强相邻，谁也不肯让谁。龙与虎同处一座深山，一个在前，一个在后，彼此相随。走在后面的人总忍不住回头张望，怕同伴从背后动手。这两股力量本来相处得好，一旦起了猜疑，先前的情分就变成了过错。到那时候，彼此再无干系。题名取的是龙虎并处、由合到分的一层意思，谁强谁弱、谁先谁后，都在这深山里见分晓。
+    en: The dragon and the tiger are the strongest pair of beasts in the mountain
+      forests. The dragon rises on clouds and brings rain. The tiger roars long and
+      raises wind. In old times, when two harsh powers came against each other, people
+      called it a meeting of dragon and tiger. This entry shows just such a scene.
+      Deep in the mountains no human track is found. Only the sound of wind and the
+      sound of water. The two strong ones live side by side, and neither yields to
+      the other. Dragon and tiger share one deep mountain, one ahead and one behind,
+      each following the other. The one who walks behind cannot help turning his head,
+      for fear his companion might strike from the back. The two powers once got along
+      well. Once suspicion is roused, the former goodwill turns into a fault. By then
+      they have nothing to do with each other. The title takes the sense of dragon
+      and tiger placed together, moving from union to separation. Who is strong and
+      who is weak, who leads and who follows, all come clear in these deep mountains.
+  poem_connection:
+    zh: 签诗写龙虎相随在深山，君尔何须背后看。题名“相会”与签诗“相随”“相爱误”同属龙虎并处、由合到分的语意。
+    en: The lot poem has dragon and tiger following each other in deep mountains and
+      asks why one looks behind. The title's meeting shares that sense of two powers
+      together, moving from union to separation.
+- title:
+    zh: 項王被圍垓下
+    en: Xiang Yu Surrounded at Gaixia
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 项羽是秦朝末年起义的首领，自称西楚霸王。他跟刘邦争夺天下，屡次交战，最后兵败，退到垓下，被汉军和各路诸侯的军队团团围住。兵少，粮也尽了。夜里，四周的汉营都唱起楚地的歌。项羽带八百多名壮士趁夜向南突围，渡过淮河时身边只剩一百多人。走到阴陵，他迷了路，向一个种田的老人问路，老人指错方向，一行人陷进沼泽，被汉军追上。再往东走，到东城时只余下二十八骑。最后到乌江边，乌江的亭长备好船，劝他渡江回江东。项羽不肯，下马步战，身上受了十多处伤，自刎而死。
+    en: Xiang Yu was a leader of the uprising at the end of the Qin dynasty. He called
+      himself the Hegemon King of Western Chu, and he fought Liu Bang for the realm.
+      After many battles he was defeated and fell back to Gaixia, where the Han army
+      and the armies of the other lords closed around him. His men were few and the
+      food was gone. At night, from every Han camp around them, the songs of Chu were
+      sung. Xiang Yu broke out southward in the dark with more than eight hundred
+      picked men. By the time he crossed the Huai River only about a hundred were
+      left. At Yinling he lost the road and asked an old farmer for directions. The
+      man pointed the wrong way. The party rode into marshland and the Han troops
+      caught up. Going further east, at Dongcheng only twenty-eight riders remained.
+      At last he reached the bank of the Wu River. The river warden there had a boat
+      ready and urged him to cross back east. Xiang Yu refused. He got down, fought
+      on foot, took more than ten wounds, and cut his own throat.
+  poem_connection:
+    zh: 签诗写深山被围、不必回头张望；项羽垓下受困、四顾无援，正是这一景。
+    en: The poem pictures a deep mountain surround and says there is no need to look
+      back. Xiang Yu trapped at Gaixia, with help nowhere in sight, is exactly that
+      scene.
+- title:
+    zh: 景泰君重病
+    en: Emperor Jingtai Falls Gravely Ill
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 明朝正统年间，皇帝英宗亲自领兵去打北方的瓦剌，兵败被俘。朝中另立他的弟弟朱祁钰为帝，就是景泰帝。后来英宗被放回，安置在南宫，形同幽禁。景泰帝在位时想换掉太子，改立自己的儿子，儿子不久夭折。景泰帝晚年病重，卧床不能上朝。大臣石亨、徐有贞、曹吉祥见机密议，夜里带兵进南宫，拥英宗到奉天殿复位。事成之后，景泰帝被废为郕王，不久死去，英宗重掌大位。当年拥立英宗的人受赏，兵部尚书于谦等人却被加上谋反的罪名处死。
+    en: During the Zhengtong era of the Ming dynasty, Emperor Yingzong led an army
+      north in person against the Oirat and was defeated and taken prisoner. The court
+      then put his younger brother, Zhu Qiyu, on the throne as Emperor Jingtai. Yingzong
+      was later released and lodged in the Southern Palace, where he lived much like
+      a prisoner. Jingtai wanted to set aside the heir and make his own son crown
+      prince, but the boy soon died. In his last years Jingtai fell gravely ill and
+      could no longer hold court. Three ministers, Shi Heng, Xu Youzhen and Cao Jixiang,
+      met in secret. They took soldiers into the Southern Palace at night and brought
+      Yingzong to the Hall of Heavenly Favor to take back the throne. Once the move
+      succeeded, Jingtai was reduced to Prince of Cheng and died soon after, and Yingzong
+      ruled again. Men who had backed Yingzong received rewards, while Yu Qian, the
+      minister of war, and others were put to death on a charge of treason.
+  poem_connection:
+    zh: 这一签写大势在暗中翻转、局中人背后受制，正扣签诗“龙虎相随在深山，君尔何须背后看”。
+    en: A lot about power shifting in the dark, with those involved held from behind,
+      fits, like the poem's dragon and tiger deep in the mountains.
+- title:
+    zh: 龍虎相鬥
+    en: Dragon and Tiger Fight
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 这一题只画一个场面：深山里有龙，也有虎。两样都是极强的东西，各占一段山、一段水，谁也不肯让路。山里的路只有一条，前头有龙，后头有虎，走在中间的人回头看，也还是这两样。龙与虎在山中本来各有去处，硬凑到一处，就免不了相争相斗。斗起来的时候，两方都强，谁也压不住谁，看着像是并立，实则互相牵制。签诗说“龙虎相随在深山，君尔何须背后看”，讲的就是这个处境：人夹在两种强力的中间，前有前者，后有两者的来路，回头再看也看不出个所以然。深山里的这一幅景象就是故事的全部：一龙一虎，一前一后，各不相让。
+    en: 'The scene is a single one: in the deep mountains there is a dragon, and there
+      is also a tiger. Both are very strong things. Each holds a stretch of mountain
+      and a stretch of water, and neither yields the road. There is only one road
+      in the hills, dragon in front and tiger behind. A person walking between them
+      looks back and finds the same two. Dragon and tiger each have their own place
+      in the mountains. Forced into one spot, they cannot help coming to blows. When
+      they fight, both are strong and neither can press the other down. It looks like
+      standing side by side, but is really each holding the other back. The poem says,
+      dragon and tiger go together in the deep mountains, why should you look behind
+      you. That is just this position. A person is caught between two strong forces,
+      one ahead and one behind, and finds nothing to learn by turning his head. This
+      one sight is the whole story: one dragon, one tiger, one ahead and one behind,
+      neither giving way.'
+  poem_connection:
+    zh: 签诗首句写“龙虎相随在深山”，故事题就从这一句里取“龙虎相斗”四字为名，两者共用龙虎这一语汇。
+    en: The poem's first line puts dragon and tiger together in the deep hills; the
+      title takes its two beasts from that line, so both share the same pair.

@@ -1,0 +1,314 @@
+id: 7
+lot_number: 7
+ganzhi:
+  zh: 乙丑
+  pinyin: Yi-chou
+title:
+  en: The Duke Secretly Searches for the White-Robed General
+  zh: 國公暗查白袍將
+hexagram:
+  zh: 风水涣
+  name_and_structure_en: Huan (Wind over Water)
+  binary_code: ○○●●○●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 3
+  primary:
+    zh: 國公暗查白袍將
+    en: The Duke Secretly Searches for the White-Robed General
+  variants_en:
+  - Yuchi Gong Takes Command
+  - Xue Dingshan Marries Fan Lihua
+  variants_zh:
+  - 尉遲恭掛帥
+  - 薛丁山娶樊梨花
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements lean positive but slow — 凡事 後成／作事 月光成／求財 有成／六畜 興旺／耕作
+      有收／出外 滿路異香／遠信 可喜, with 月令 淡淡／功名 少有成。老無／移居 不吉／行舟 須當先防 keeping the timing late
+      and mild (jie_yue_score 10)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: most of the temple''s categories lean supportive
+      — undertakings, household fortune, income — while a caution sits on moving house,
+      boat passage and legal matters, and advancement arrives late. Support and friction
+      are present together, so we read it as mixed rather than cleanly positive.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 後成。／作事 月光成。／家事 冒險。平安。／家運 漸漸平安。／婚姻 皆由天註定，／求兒 好。／六甲
+      定必生女。／求財 有成。／功名 少有成。老無。／歲君 好。／治病 少險。老不畏。／出外 滿路異香。／經商 成者大吉。／來人 月中到。／行舟 須當先防。／移居
+      不吉。／失物 月光在。月暗無。／求雨 初無。月尾有。／官事 破財。完局。／六畜 興旺。／耕作 有收。／築室 月中好。／墳墓 地勢甚美。／討海 合和吉。不合凶。／作塭
+      須防風水。／魚苗 月中吉。／月令 淡淡。／尋人 月中遇。／遠信 可喜。——整签偏正而慢，好处落在月中与偏后；惟 移居 不吉、功名 少有成。老無、月令 淡淡
+      三处留有余地（jie_yue_score 10）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：作事、家运、求财多偏支持，迁居、行舟与官事三处带提醒，功名偏后段。支持与阻力同现，故读作 mixed。
+provenance:
+  editorial_note: '*the temple site carries only one title for this lot (國公暗察白袍將),
+    while the wiki group lists three; 察/查 is an orthographic variant. Primary because
+    the hidden general is the figure the poem''s moon-out-of-clouds reveals (雲開月出正分明).*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 雲開月出正分明，
+    en: The clouds open and the moon comes out — all is distinct;
+  - line_number: 2
+    zh: 不須進退問前程，
+    en: there is no need to weigh advance and retreat, or to ask about the road ahead;
+  - line_number: 3
+    zh: 婚姻皆由天註定，
+    en: marriage, too, is set down in heaven's record;
+  - line_number: 4
+    zh: 和合清吉萬事成。
+    en: where there is accord, clear and auspicious, all things turn out well.
+keywords:
+  favourable:
+    en:
+    - clouds breaking
+    - the visible path
+    - middle-of-the-month patience
+    - accord before action
+    zh:
+    - 云开
+    - 看得见的路
+    - 等月中
+    - 先和合再动手
+  guarded:
+    en:
+    - asking everyone about the future
+    - moving house when the judgement says no
+    - pressing for the result before it sets
+    - underrating a slow season
+    zh:
+    - 逢人就问前路
+    - 在淡时节搬家
+    - 还没定就催结果
+    - 小看了一段慢时节
+reading_notes:
+- term: 不須進退問前程
+  pinyin: bù-xū-jìn-tuì-wèn-qián-chéng
+  en: 'no need to weigh advance and retreat and ask about the road ahead: stop canvassing
+    other people about your future; an instruction about method rather than a statement
+    that the road is shut.'
+  zh: 一是叫你别再到处采问自己往后的事；二是在说方法，不是在前路已被关死。
+- term: 天註定
+  pinyin: tiān-zhù-dìng
+  en: 'set down in heaven''s record: the poem''s way of lifting a matter out of anxious
+    control; it reads as ''stop forcing it'', not as a claim that outcomes are fixed
+    in advance.'
+  zh: 是诗把一件事从焦急的手里接过去的说法；读作「别再硬推」，不是断言结局早已定死。
+- term: 月
+  pinyin: yuè
+  en: 'moon, and also month: the moon of the poem''s opening image; a timing word
+    in this lot''s judgements (月中到／月尾有／月光成), so the same character carries both the
+    picture and the window.'
+  zh: 在诗里是开头那轮月亮，在这一签的判词里又是计时的字（月中到／月尾有／月光成）；同一个字既带画面也带窗口。
+- term: 和合
+  pinyin: hé-hé
+  en: 'accord, a fitting together: people in agreement with one another; things that
+    fit and work; 清吉 adds the sense of clear and clean on top of it.'
+  zh: 一是人跟人能讲到一处，二是事情合得上、能成；「清吉」在上面再加一层清朗干净。
+plain_meaning:
+  en: 'Clouds clear and the moon comes out: a season for visible ground rather than
+    guessing. The poem tells the reader to stop testing the road ahead, leaves the
+    marriage question to heaven''s record, and makes accord the workable path. The
+    judgements keep asking for month-scale patience — matters mature at the middle
+    of the month, and the results arrive on the later side.'
+  zh: 云开月出，看得分明：这是看脚下实路、不用靠猜的一段时节。诗让人别再反复试问前路，把婚配的事交回天注，把和合当成走得通的路。判词的尺度是按月算的——事情在月中最熟，结果落在偏后的一头。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Does my partner really care about me, and should we be building a life together?
+    zh: 我伴侣到底在不在意我，我们该不该一起过下去？
+  rewritten_to:
+    en: What is mine to do in this relationship this season, and what can I leave
+      alone?
+    zh: 这段关系里，这一季有哪些是我该做的，哪些我可以放下不管？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 原问法把第三个人的心意拿出来问，涉及他人隐私；改为只问自己这一方可做的部分。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The poem does not refuse the match; it asks you to stop forcing it. Accord
+      is the part that is yours.
+    zh: 诗把这段婚配从焦急的手里接出去——不是拒绝，是叫你别再硬推；清朗干净的和合，才是你这一份。
+    compliance_tag: null
+  career:
+    en: The judgements read the later side of the line for advancement and little
+      for a late push; steady work now, results after.
+    zh: 功名判词读的是这一条线的后段，晚来的使劲也读得少；现在稳稳做，结果在后头。
+    compliance_tag: null
+  money:
+    en: Gain comes on the slow side, with the middle of the month named for it; nothing
+      here needs hurrying. *(Not financial advice.)*
+    zh: 进项是偏慢的一头，判词把月中点给了它；这里没有哪一件需要赶。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The judgements read light risk for the young and little to fear for the old;
+      keep ordinary complaints with a professional. *(Not medical advice.)*
+    zh: 判词上年轻人风险轻、年长者没什么可惧；寻常的不舒服，交给有资质的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household settles by degrees rather than at once; give it the time and
+      keep the peace.
+    zh: 家里的事是一点点安下来的，不是一下子；给它时间，把和气留住。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is called fragrant all the way; moving house is not read well, so
+      stay if the choice is open.
+    zh: 出门读作一路异香；搬居读得不好，选择还开着，就先别动。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'The water asks for care first and for goodwill among the crew: accord is
+      read as fair and discord as foul.'
+    zh: 水路要先防一手，也要靠船上人和气：和合读作吉，不合读作凶。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Stock, crops and fish fry all read well, with the middle of the month named
+      for the hatchery; guard the ponds against weather.
+    zh: 六畜、耕作、鱼苗都读得好，作塭在月中；塘要防着天气。
+    compliance_tag: null
+  timing:
+    en: The window is the middle of the month and the later side of the matter; no
+      date is given.
+    zh: 窗口是月中、是这件事偏后的一头；不给日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Asking everyone else about the road ahead; moving house; forcing the timing.
+    zh: 逢人便问前路；搬家；硬催时程。
+    compliance_tag: null
+  reassurance:
+    en: The clearing has already begun; this reading asks for patience, not for worry.
+    zh: 云已经开了；这一签要的是耐心，不是担心。
+    compliance_tag: null
+stories:
+- title:
+    zh: 國公暗查白袍將
+    en: The Duke Secretly Searches for the White-Robed General
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 唐太宗出兵征高丽，梦见一个穿白袍的小将救了自己。醒来以后，他命兵马总管张士贵去找到这个应梦的人。薛仁贵应募从军，身穿白袍，屡次立下大功。张士贵却先让女婿何宗宪冒名顶替，又把薛仁贵的战功都记在何宗宪名下，还用话骗他，让他藏在军中当伙夫。唐初名将尉迟恭封为国公，奉旨暗查这个白袍将。两军交战时，他看见一个白袍将往来冲杀，想上前相认，却在乱军中被对方走脱。又一次尉迟恭中了埋伏，危急时被白袍将救出，他想去道谢，那白袍将还是躲着不见。后来真相终于明白，薛仁贵才得以显名。
+    en: Emperor Taizong of Tang sent troops against Goguryeo. He dreamed that a young
+      general in a white robe saved him. When he woke he ordered Zhang Shigui, commander
+      of the army, to find the man of his dream. Xue Rengui joined the army in answer
+      to the call. He wore a white robe and won great merit again and again. But Zhang
+      Shigui first let his son-in-law He Zongxian take his place under a false name.
+      He also had Xue Rengui's battle honours recorded under He Zongxian's name. He
+      even talked Xue Rengui into hiding in the ranks as a cook. Yuchi Gong was a
+      famous general of the early Tang and held the title of duke. He was ordered
+      to search quietly for the white-robed general. Once, in a battle, he saw a white-robed
+      general charging to and fro. He tried to go up and greet him, but the man got
+      away in the press of troops. Another time Yuchi Gong fell into an ambush. He
+      was in dire straits when the white-robed general saved him. He wanted to thank
+      him, but the man still kept out of sight. At last the truth came out, and Xue
+      Rengui won his name.
+  poem_connection:
+    zh: 这一签的签诗说云开月出，一切都看得分明，不必再问前程进退。白袍将一再自隐，到后来才云开月出、身份分明，正合这句。
+    en: The poem says the clouds open and the moon comes out, everything is seen plainly,
+      and the road ahead need not be asked. The white-robed general hid himself again
+      and again, and only later did his name show.
+- title:
+    zh: 尉遲恭掛帥
+    en: Yuchi Gong Takes Command
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 尉迟恭是唐朝初年的名将，跟随唐太宗李世民征战，功劳排在前面。唐朝在宫中画下开国功臣的像，放在一座叫凌烟阁的楼里，尉迟恭名列其中。在征东的战事里，唐太宗手下有个穿白袍的年轻将领薛仁贵，屡次立下战功，上司张士贵却把功劳记在何宗宪名下。老将尉迟恭挂帅出征，在阵上几次被那位白袍将军救下，想上前相认又认不出人，于是设法四处查访。最后终于查明真相，替薛仁贵申明功绩。尉迟恭晚年自请退职，闭门谢客十多年，终老家中。
+    en: Yuchi Gong was a famous general of the early Tang who followed Emperor Taizong,
+      Li Shimin, in his campaigns and stood near the top in merit. The Tang court
+      painted portraits of the founding generals and placed them in a tower called
+      Lingyan Pavilion, and Yuchi Gong was among them. On the eastern campaign Taizong
+      had a young general in a white robe named Xue Rengui, who won honor after honor.
+      His superior Zhang Shigui credited them to He Zongxian instead. The veteran
+      Yuchi Gong took command of the expedition. In the field he was saved several
+      times by that white-robed general. He wanted to greet him and could not tell
+      who he was, so he set about searching everywhere. In the end the truth came
+      out and he made Xue Rengui's service known. In his later years Yuchi Gong asked
+      to retire, shut his door to visitors for more than ten years, and died at home.
+  poem_connection:
+    zh: 签诗说云开月出正分明、不须问前程；尉迟恭访得白袍将军、终为表功，正合这一层。
+    en: The poem says the clouds part and the moon comes out clear, so there is no
+      need to ask about the road ahead. Yuchi Gong found the white-robed general and
+      declared his merit, which fits.
+- title:
+    zh: 薛丁山娶樊梨花
+    en: Xue Dingshan Marries Fan Lihua
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 樊梨花是寒江关守将的女儿，自幼跟梨山老母学道，武艺和法术都很精。唐朝军队西征，她在阵前遇见唐将薛丁山，心里中意。两人交手几次，中间几番曲折，终于在阵前成亲。樊梨花归顺唐朝，做了唐军将领，帮助唐军攻破关隘，平定西边。婚后薛丁山曾经疑心她反复，把她休弃，过后又把她请回来。她后来常和花木兰、穆桂英并称，被看作女子中的英雄。梨山老母在故事里也曾几次出面指点。薛家将的故事，在戏台上演得很多，樊梨花在唐军里位列将帅。
+    en: Fan Lihua was the daughter of the commander who held Hanjiang Pass. From childhood
+      she studied the Way with the Old Mother of Mount Li, and she became highly skilled
+      in arms and in magic. When the Tang army marched west, she met the Tang general
+      Xue Dingshan on the field and took a liking to him. The two fought each other
+      several times, and the matter went through several turns before they were married
+      on the field itself. Fan Lihua then submitted to the Tang and became one of
+      its generals. She helped the Tang army break through the passes and pacify the
+      western lands. After the marriage, Xue Dingshan once suspected her of changing
+      sides and divorced her, and afterwards he called her back. In later times she
+      was often named alongside Hua Mulan and Mu Guiying, and was seen as a heroine.
+      The Old Mother of Mount Li also appears several times in the story to give guidance.
+      The tales of the Xue family generals were performed on stage many times, and
+      Fan Lihua held the rank of commander in the Tang army.
+  poem_connection:
+    zh: 这一签写两姓结亲、婚姻成合，正扣签诗“云开月出正分明”“和合清吉万事成”。
+    en: Two families joined in marriage fits a lot whose poem speaks of clouds parting
+      and the moon coming out clear, and of harmony bringing all things to completion.
+- title:
+    zh: 國公暗察白袍將
+    en: The Duke Secretly Investigates the White-Robed General
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐太宗决定亲自征讨高丽之前，做过一个梦。军师徐茂公为他解梦，说要去山西龙门县，招到一位穿白袍、姓薛名仁贵的壮士，跨海远征才能取胜。负责招兵的张士贵欺上瞒下。他早把薛仁贵改名为薛礼，藏在营后的洞里。又把白袍将军立下的军功，都记在自己女婿何宗宪的名下。元帅尉迟恭觉得事情可疑，几次暗中查访，想弄清白袍将军到底是谁。张士贵知道尉迟恭爱喝酒，先把他灌醉，点名还没点完，尉迟恭就睡着了。张士贵又放出风声，说要捉拿薛仁贵。薛仁贵只好逃出军营。尉迟恭查来查去，始终没有查出白袍将军是谁。
+    en: Before Emperor Taizong of Tang decided to campaign against Goguryeo in person,
+      he had a dream. His strategist Xu Maogong read the dream for him and said that
+      they must go to Longmen County in Shanxi and recruit a strong man in white robes,
+      surnamed Xue and named Rengui. Only with him could they cross the sea on the
+      distant campaign and win. Zhang Shigui, who was in charge of recruitment, deceived
+      those above and below him. He had already changed Xue Rengui's name to Xue Li
+      and hidden him in a cave behind the camp. He also recorded the military achievements
+      of the white-robed general under the name of his own son-in-law, He Zongxian.
+      The marshal Yuchi Gong found the matter suspicious and made several secret inquiries,
+      trying to find out who the white-robed general really was. Zhang Shigui knew
+      that Yuchi Gong loved to drink, so he first got him drunk. Before the roll call
+      was finished, Yuchi Gong had fallen asleep. Zhang Shigui then put out word that
+      Xue Rengui was to be arrested, and Xue Rengui had no choice but to flee the
+      camp. Yuchi Gong inquired this way and that and never found out who the white-robed
+      general was.
+  poem_connection:
+    zh: 这一签说云开月出正分明，正配尉迟恭暗访白袍将军、想查个分明这一段。
+    en: This lot says the clouds part and the moon comes out, and all is clear. It
+      fits Yuchi Gong inquiring in secret after the white-robed general and trying
+      to see the matter plainly.

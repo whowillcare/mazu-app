@@ -1,0 +1,342 @@
+id: 15
+lot_number: 15
+ganzhi:
+  zh: 丙辰
+  pinyin: Bing-chen
+title:
+  en: Jiang Taigong Fishes in the Wei River
+  zh: 渭水河太公釣魚
+hexagram:
+  zh: 巽为风
+  name_and_structure_en: Xun (Wind over Wind)
+  binary_code: ○○●○○●
+  shared_with_lot: 54
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 5
+  primary:
+    zh: 渭水河太公釣魚
+    en: Jiang Taigong Fishes in the Wei River
+  variants_en:
+  - Wu Ji Meets Jiang Taigong
+  - Jiang Shang Reads Good and Ill Fortune
+  - Zhuangzi Breaks Open the Coffin
+  - Old Xue Storms the Lantern Fair
+  - the Heir Falls Dead and the Emperor Dies of Fright
+  variants_zh:
+  - 武吉遇太公
+  - 姜尚未卜吉凶事
+  - 莊子破棺
+  - 薛公大鬧花燈跌死太子驚死聖駕
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements close the present season — 凡事 大破財。求解和／作事 難成／功名 難就／耕作
+      無收／作塭 無望／行舟 不如意。有事／月令 不遂, with 求財 晚即發 and 歲君 先平後吉 putting the turn later (jie_yue_score
+      -3)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: the working categories — field work, ponds,
+      rank — press hard in the present stretch, but income, the year''s fortune and
+      burial all turn on a later day. Hard and open lines interlace, so we read it
+      as mixed and the advice is to wait rather than force.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 大破財。求解和／作事 難成／家事 平平／家運 平平／婚姻 配偶慢成／求兒 不可／六甲 先女後男／求財 晚即發／功名
+      難就／歲君 先平後吉／治病 求平安。十日險／出外 慢日可行／經商 漸且候時／來人 月尾有／行舟 不如意。有事／移居 待時／失物 緊尋得。遲者無／求雨 不日到／官事
+      不吉。求貴人和／六畜 漸且退步／耕作 無收／築室 漸且退步／墳墓 遲必發／討海 無財和者吉／作塭 無望／魚苗 且守慢至／月令 不遂／尋人 不可急／遠信
+      遲延（jie_yue_score −3）。整签偏负，唯 求財 晚即發、歲君 先平後吉、墳墓 遲必發 三处把转机推后，失物 緊尋得、求雨 不日到 两处是快的开口，唯此五处留有余地。校勘：全一致（六源同文），无裁定改动。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：耕作、鱼塭、功名这几处眼前偏吃紧，求财、岁运与丧葬则落到后段。吃力与开口交错，故读作 mixed，取缓进之象。
+provenance:
+  editorial_note: '*the temple site carries a different group for this lot: 莊子破棺;
+    薛公大鬧花燈跌死太子驚死聖駕; 姜尚未卜吉凶事.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 八十原來是太公，
+    en: Eighty years old — such was Taigong;
+  - line_number: 2
+    zh: 看看晚景遇文王，
+    en: look at the evening of his life, when he meets King Wen;
+  - line_number: 3
+    zh: 目下緊事休相問，
+    en: do not put the pressing matter to the question now;
+  - line_number: 4
+    zh: 勸君且守待運通。
+    en: hold, and wait for the season to come through.
+keywords:
+  favourable:
+    en:
+    - holding through a closed season
+    - the late success of the patient
+    - keeping the means for a better hour
+    zh:
+    - 在这个收着的季节里守住
+    - 熬得住的人后头才成
+    - 把本钱留着等好时候
+  guarded:
+    en:
+    - pressing an urgent matter now
+    - spending capital to force the turn
+    - leaving the field to chance
+    - going out on bad water
+    zh:
+    - 眼下拿急事去催
+    - 花本钱去逼那个转机
+    - 把田里的活交给运气
+    - 水色不好的时候出海
+reading_notes:
+- term: 太公
+  pinyin: tài-gōng
+  en: 'the Grand Duke, Jiang Taigong: the old man who waited at the Wei river for
+    a lord who would come; a byword for a late career; the poem takes him as the pattern
+    of waiting, not as a promise of a throne.'
+  zh: 就是姜太公：那位在渭水边等着、等来一位肯用他的君主的老者，也是大器晚成这句旧话的来处。诗取他作等待的样子，不是许诺一顶王冠。
+- term: 晚景
+  pinyin: wǎn-jǐng
+  en: 'the evening of a life: the closing stretch of a life; a late season in general;
+    the line is about late timing, not about age.'
+  zh: ：一指一个人生命的后段，二泛指来得晚的季节。这一句说的是时候晚，不是岁数。
+- term: 且守
+  pinyin: qiě-shǒu
+  en: 'hold for now: guard what you have and wait; keep the position and do not move
+    on it yet; the line ties the turn to waiting, not to effort.'
+  zh: ：守住手上有的，等着；也是维持现在的位置、暂不动作。这一句把转机系在等上，不系在用力上。
+plain_meaning:
+  en: 'A season that is closed for now: the poem''s example is the old man who waited,
+    and its plain instruction is to hold rather than to press. Nothing urgent settles
+    while the ground is like this, and the losses the temple names belong to the present.
+    The turn it points to lies later - wait, and let the season come round.'
+  zh: 这是一个眼下收着的季节：诗里举的例子是那位一直等下去的老人，它明白的吩咐是守，不是推进。地气这样的时候，急事办不下来，庙本点出的亏损都属于眼前。它指的转机在后头——等下去，让季节自己转过来。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Should my daughter leave her job now?
+    zh: 我女儿现在该辞掉工作吗？
+  rewritten_to:
+    en: What can I do for my household this season, and what is not mine to decide?
+    zh: 这一季我能为家里做什么，哪些不是我该决定的？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 问到了第三个人的私事，改成只问自己这一头。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A match comes slowly here, and the judgement says the partner arrives late
+      rather than not at all; do not press a decision this season.
+    zh: 姻缘在这里来得慢；判词说配偶迟成，是来得晚，不是没有；这一季不必催一个决定。
+    compliance_tag: null
+  career:
+    en: A post and formal honours are hard to come by now; hold the place you hold,
+      and let the late season bring what it brings.
+    zh: 职位与正式名位这一季都难办；守住手上的位子，让晚来的季节给什么就是什么。
+    compliance_tag: null
+  money:
+    en: The judgement calls this a season of large loss and puts the gain later; settle
+      what you can, keep the means, and do not chase the turn. *(Not financial advice.)*
+    zh: 庙本把这一季看成大笔损失的一季，把进项放在后头；能结的先结掉，本钱留住，不必去追那个转机。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Ask for ordinary safety this season and get the body seen to; the judgement
+      marks a short risky stretch in it. *(Not medical advice.)*
+    zh: 这一季只求平安，把身体交给专业人士看；判词点出其中有一段短的风险。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Household and fortunes are level, neither rising nor falling; keep the round
+      regular and keep a costly quarrel from starting.
+    zh: 家宅与家运平平，不上也不下；把日子过规律，别让一场费钱的争吵起来。
+    compliance_tag: null
+  travel_moving:
+    en: Going out and moving house both wait on time here; a journey can be made later,
+      not now.
+    zh: 出外与搬家在这里都等时候；行程可以晚些再走，不是现在。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water is unfavourable and brings trouble with it; keep the boat in and
+      let the weather turn.
+    zh: 水色不顺，还会带事上来；船先留在港里，等天气转。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The fields give no harvest and the ponds no return this season, and the herds
+      thin out; hold what is in store.
+    zh: 这一季田里没有收成，鱼塭没有进项，六畜也渐渐退步；守住仓里的存底。
+    compliance_tag: null
+  timing:
+    en: The turn comes after this season passes, late rather than soon — a season,
+      never a date.
+    zh: 转机在这一季过去之后，偏晚不偏早——只讲一季，不给日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Pressing an urgent matter now; forcing a decision to stop the loss.
+    zh: 眼下拿急事去催；为了止住亏损就硬定一个决定。
+    compliance_tag: null
+  reassurance:
+    en: This describes a difficult season, not a forecast of harm. if this reading
+      touches anxiety or money worry, please reach out to someone you trust or a qualified
+      professional.
+    zh: 这里说的是一季难行，不是预告会有伤害。诗自己的劝法就是守住、等季节转过来；若这段解读触动了你的焦虑或金钱上的担忧，请找一位你信得过的人，或合格的专业人士谈一谈。
+    compliance_tag: null
+stories:
+- title:
+    zh: 渭水河太公釣魚
+    en: Jiang Taigong Fishes in the Wei River
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 姜尚字子牙，是一位有大才而长久不得志的老人。他的祖先受封在吕地，所以他又称吕尚、吕望。商朝末年，纣王当政，天下将乱，姜尚避居东海边上。后来他向西来到周国，天天在渭水边钓鱼。渭水在今天的陕西。他钓鱼用的是一根直钩，也不安鱼饵，别人看着奇怪，他却说鱼自己愿意来才会上钩。他钓的其实不是鱼。周国的君主西伯出外打猎之前先占卜，卜辞说这次得到的不是龙，也不是虎，而是一位辅佐霸王之业的人才。西伯就是后来的周文王。他一路上果然在渭水边遇见了姜尚，两人谈得很投机。西伯说，我的先君太公盼贤才盼了很久，说的就是你吧。就尊他为师，同车回到都城。那时姜尚已经八十岁。后来周武王起兵伐纣，姜尚辅佐他，灭掉商朝，建立了周朝。这一签说八十原来是太公，又说看看晚景遇文王，正是渭水边钓鱼、晚年见到文王的一段。
+    en: Jiang Shang, whose courtesy name was Ziya, was an old man of great ability
+      who could not get on for a long time. His ancestors were enfeoffed at Lü, so
+      he is also called Lü Shang or Lü Wang. At the end of the Shang, when King Zhou
+      was on the throne and the empire was about to fall into disorder, Jiang Shang
+      went to live by the Eastern Sea. Later he came west to Zhou and fished by the
+      Wei River every day. The Wei River is in what is today Shaanxi. He fished with
+      a straight hook and no bait. Others found it strange, but he said a fish would
+      only take the hook if it came of its own accord. What he was fishing for was
+      not really fish. The lord of Zhou, the Western Earl, divined before he set out
+      to hunt, and the reading said he would get neither a dragon nor a tiger but
+      a man to help him to the work of a hegemon. This Western Earl was the later
+      King Wen of Zhou. On the way he did meet Jiang Shang there, and the two talked
+      with much pleasure. The Western Earl said his late father had waited long for
+      a worthy man, and this was the man. He honored him as his teacher and rode back
+      to the capital with him. Jiang Shang was then already eighty. Later King Wu
+      of Zhou raised troops against the Shang, and Jiang Shang helped him destroy
+      the Shang and found the Zhou.
+  poem_connection:
+    zh: 这一签说八十原来是太公、看看晚景遇文王，直取姜尚渭水垂钓、晚年遇见文王的一段。
+    en: This lot says that eighty is Taigong after all, and to look to the late years
+      for meeting King Wen - Jiang Shang fishing at the Wei River and meeting King
+      Wen in his old age.
+- title:
+    zh: 武吉遇太公
+    en: Wu Ji Meets Jiang Taigong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 商朝末年，姜子牙隐居在渭水的磻溪边钓鱼。他用的是直钩，还离水面三尺高。有人问起，他说愿意上钩的自然会上钩。西岐有个樵夫叫武吉，挑柴进城，失手打死了守门的兵士王相。按律法，他该拿命来偿，被画地为牢。画地为牢，就是在地上画个圈当牢房，让犯人在里面等着受罚。武吉回家别过母亲，回来受刑，路上遇到姜子牙。姜子牙知道他家中有老母无人奉养，就教他回家挖个坑，铺上草席，摆好饭菜，照法子做一遍，就能脱开这场难。武吉照着做了，别人再找不到他的踪影，追捕的人便以为他已经死了。后来文王知道了这件事，知道有异人在，就出城访求贤才，最后请到了姜子牙辅佐周。
+    en: At the end of the Shang dynasty, Jiang Ziya lived as a hermit at Panxi, on
+      the bank of the Wei River, and fished there. He used a straight hook, and he
+      held it three feet above the water. When people asked why, he said that whatever
+      was willing to be hooked would be hooked. In Xiqi there was a woodcutter named
+      Wu Ji. Carrying firewood into the city, he accidentally killed the gate guard
+      Wang Xiang. By law his life was owed, and he was imprisoned by a circle drawn
+      on the ground. That was the old practice of drawing a circle on the earth as
+      a cell, letting the prisoner wait inside for his punishment. Wu Ji went home
+      to say good-bye to his mother. He came back to take his punishment, and on the
+      road he met Jiang Ziya. Jiang Ziya knew he had an old mother at home and no
+      one to support her. So he taught him to go home, dig a pit, spread a straw mat,
+      set out food, and carry out the same steps once. In this way he could escape
+      the trouble. Wu Ji did so, and no one could find a trace of him. The men sent
+      to seize him thought he had died. Later King Wen learned of this and knew an
+      extraordinary man was near. He went out from the city to seek talent, and in
+      the end he invited Jiang Ziya to aid Zhou.
+  poem_connection:
+    zh: 签诗直说“八十原来是太公，看看晚景遇文王”，故取姜子牙在渭水遇武吉、终被文王访求一事相配。
+    en: The poem says plainly that at eighty he was still Taigong and that his late
+      years met King Wen, so it is paired with Jiang Ziya meeting Wu Ji at the Wei
+      River and being sought out by King Wen.
+- title:
+    zh: 姜尚未卜吉凶事
+    en: Jiang Shang Reads Good and Ill Fortune
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 姜尚字子牙，又称姜太公，是商朝末年的人。他年纪很大了，家里很穷，曾在朝歌、孟津一带卖吃食，做什么都不顺利，一直没有机会施展。后来他隐居到渭水边的磻溪，天天钓鱼。他的钓法很特别：鱼钩是直的，不放鱼饵，还离水面三尺高。他图的不是鱼，是等一个时机。渭水在今天的陕西一带。后来周国的国君西伯，也就是后来的周文王，准备出外打猎，先占卜一卦，卦上说他要得到的不是龙也不是虎，而是能辅佐霸主的人才。西伯果然在渭水北岸遇见了姜尚，谈过之后非常高兴，说这正是先父太公盼望的圣人，于是称他为太公望，请他同车回去，拜为国师。
+    en: Jiang Shang, whose courtesy name was Ziya, was also called Jiang Taigong.
+      He lived at the end of the Shang dynasty. He was very old and his family was
+      poor. He sold food around Zhaoge and Mengjin, and nothing he did went well.
+      He never had a chance to use his ability. Later he went into hiding by the Pan
+      Stream, on the bank of the Wei River, and fished every day. His way of fishing
+      was strange. His hook was straight, he used no bait, and it hung three feet
+      above the water. What he wanted was not fish, but a time to come. The Wei River
+      is in what is now Shaanxi. Later the ruler of Zhou, the Western Duke, who became
+      King Wen of Zhou, was about to go out hunting. First he read a hexagram for
+      good and ill fortune. The reading said he would gain neither a dragon nor a
+      tiger, but a man able to help a leader of lords. The Western Duke did meet Jiang
+      Shang on the north bank of the Wei. After they talked he was very glad, and
+      said this was the sage his late father the Great Duke had hoped for. So he called
+      him Taigong Wang and made him teacher of the state.
+  poem_connection:
+    zh: 签诗说八十岁的太公，晚年才遇到文王。姜尚在渭水边等待多年，说的正是这一段。
+    en: The lot poem says Jiang Taigong was eighty when he met King Wen. Jiang Shang
+      waited many years by the Wei River, and this is that stretch of his life.
+- title:
+    zh: 莊子破棺
+    en: Zhuangzi Breaks Open the Coffin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 庄子有一次经过坟地，看见一个穿孝服的妇人拿着扇子扇一座新坟。妇人说，丈夫临死前交代，等他坟上的土干了，自己才可以改嫁，所以她来赶工。庄子替她把土扇干，妇人高高兴兴地走了。庄子回家，把这件事讲给妻子田氏听。田氏痛骂那妇人无情，还把扇子撕了。过了几天，庄子突然病重死去，田氏在家守孝。第七天，来了一个年轻人，自称是庄子的学生，说要守丧一百天。田氏动了心，不到二十天就和他成了婚。那年轻人忽然说心口疼，要用人的脑髓才能治好。田氏便拿起斧头，去劈庄子的棺材。庄子从棺材里坐了起来，原来他是装死，想试试妻子的心。田氏又羞又愧，自尽了。
+    en: Once, passing a graveyard, Zhuangzi saw a woman in mourning clothes fanning
+      a new grave with a fan. The woman said that before her husband died he had told
+      her she could remarry only after the earth on his grave was dry, so she was
+      hurrying the work along. Zhuangzi fanned the earth dry for her, and the woman
+      went off happily. Zhuangzi went home and told the story to his wife, Lady Tian,
+      who cursed the woman for heartlessness and tore up the fan. A few days later
+      Zhuangzi suddenly fell gravely ill and died, and Tian kept mourning at home.
+      On the seventh day a young man came, saying he was Zhuangzi's student and that
+      he meant to mourn for a hundred days. Tian's heart was moved, and in less than
+      twenty days she married him. The young man then suddenly complained of a pain
+      in his chest that could be cured only with a human brain. Tian picked up an
+      axe and went to split open Zhuangzi's coffin. Zhuangzi sat up from inside it.
+      He had been pretending to be dead, to test his wife's heart. Ashamed and mortified,
+      Tian took her own life.
+  poem_connection:
+    zh: 这一签说眼前急事不必急着问、且先守着，正配田氏急急劈棺取脑髓这一段。
+    en: This lot says there is no need to ask about an urgent matter before you; wait
+      and watch. It fits Tian splitting the coffin in haste to get the brain.
+- title:
+    zh: 薛公大鬧花燈跌死太子驚死聖駕
+    en: Old Xue Storms the Lantern Fair; the Heir Falls Dead and the Emperor Dies
+      of Fright
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 薛刚是薛丁山的儿子，性子傲，爱喝酒。他要去辽西探望姑母，临行前父亲告诫他不能饮酒，薛刚立下誓言才动身。路上遇见伍雄等人，他破了戒，一起喝起酒来。上元灯节也叫元宵，这一天京城里家家挂灯，皇宫也在街市上摆起灯棚。薛刚进京观灯，在街上和人争执起来。他酒后掀起皇宫摆设的灯，混乱中惊动了内宫。太子被他踢死，皇帝也受惊而死。事后朝廷降罪，薛家满门被诛。薛刚突围逃脱，流落江湖，后来招集兵马反唐，终于洗清了冤屈。
+    en: Xue Gang was the son of Xue Dingshan. He was proud and fond of drink. He was
+      going to western Liao to visit his aunt. Before he left, his father warned him
+      not to drink. Xue Gang swore an oath and set out. On the way he met Wu Xiong
+      and others. He broke his oath and drank with them. The Lantern Festival, also
+      called the first full moon night, is when every house in the capital hangs lanterns.
+      The palace set up lantern sheds in the market streets as well. Xue Gang went
+      into the capital to see the lanterns. In the street he fell into a quarrel.
+      Drunk, he overturned the lanterns set out by the palace, and in the confusion
+      the inner palace was alarmed. He kicked the crown prince to death. The emperor
+      died of the shock. Afterward the court laid the blame and put the whole Xue
+      household to death. Xue Gang broke out and escaped and drifted through the rivers
+      and lakes. In time he gathered troops and rose against the Tang, and at last
+      he cleared his name.
+  poem_connection:
+    zh: 这一签的签诗说大器晚成、晚年才遇合，眼前的事先别问，劝你守着等待时运转好。薛刚少年任性闯下大祸，此后只能慢慢等待时机。
+    en: The poem says the great vessel is finished late and its time comes in old
+      age; keep to your place and wait. Xue Gang's hot youth brought ruin, and after
+      that he could only wait.

@@ -1,0 +1,444 @@
+id: 37
+lot_number: 37
+ganzhi:
+  zh: 庚子
+  pinyin: Geng-zi
+title:
+  en: Emperor Zhengde Calls the Green Peony to Bloom
+  zh: 正德君呼綠牡丹開
+hexagram:
+  zh: 艮为山
+  name_and_structure_en: Gen (Mountain over Mountain)
+  binary_code: ○●●○●●
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 9
+  primary:
+    zh: 正德君呼綠牡丹開
+    en: Emperor Zhengde Calls the Green Peony to Bloom
+  variants_en:
+  - Emperor Zhengde Watches the Green Peony Open
+  - Emperor Zhengde Teases Li Fengjie
+  - Emperor Zhengde Meets Miss Li
+  - Cai Junmo Writes a Poem on Chen San
+  - Guan Gongming Withdraws to Liaodong
+  - Lord Liu Not Yet Met With His Helper
+  - Yang Wenguang Breaks Through Flying-Goose Mountain
+  - Duke Jing of Qi Weeps Over an Ox
+  variants_zh:
+  - 正德君看呼綠牡丹開
+  - 正德君戲李鳳姐
+  - 正德君遇李小姐
+  - 蔡君謨作陳三詩
+  - 管公明避隱遼東
+  - 劉皇叔未遇
+  - 楊文廣破飛鵝山
+  - 齊景公涕牛
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements are positive throughout with small reservations -
+      凡事 有錢。拖尾。平安／作事 可成。有口舌／婚姻 好／功名 望後科。身顯／經商 峻發日新／討海 和大利。漸得進; the flat notes are
+      失物 難尋 and 官事 破財 (jie_yue_score +18)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs largely positive here - general affairs, undertakings,
+      household, family fortune, marriage, children, income, advancement, the year's
+      ruler, going out, trade, boats, moving house, livestock, field work, building,
+      graves, sea work, ponds, fry, the month's season, finding people, and distant
+      news all sit on the good side; only lost property and legal matters run against,
+      and the general and undertaking lines each carry a small delay. We read it as
+      favourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 有錢。拖尾。平安。／作事 可成。有口舌。／家事 克振家聲。。／家運 居之平安。／婚姻 好。／求兒
+      好吉。／六甲 先男後女。／求財 漸有。／功名 望後科。身顯。／歲君 平安。／治病 險不畏。祈平安。／出外 平正。／經商 峻發日新。／來人 立即到。／行舟
+      有利可得。／移居 好吉。／失物 難尋。／求雨 不日到。／官事 破財。結局。／六畜 適宜吉昌。／耕作 平平。有收。／築室 清吉。／墳墓 得其所哉。／討海
+      和大利。漸得進。／作塭 漸得利。／魚苗 漸好。／月令 漸好。／尋人 盡心得回。／遠信 佳音速至。——整签偏正（jie_yue_score +18）：通篇判词偏正面，惟
+      失物 難尋、官事 破財。結局 两处偏阻；凡事「有錢。拖尾」与作事「可成。有口舌」各留一条尾巴。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上大体偏正面——总类、作事、家事、家运、婚姻、子嗣、求财、功名、岁君、出外、经商、行舟、移居、六畜、耕作、筑室、坟墓、讨海、作塭、鱼苗、月令、寻人、远信等处都在正面一侧；只有失物与官事两项偏阻，总类与作事各带一条小尾巴。故列为本批的偏正一档。
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 運逢得意身顯變，
+    en: Fortune turns your way and you come into your own, your name made visible;
+  - line_number: 2
+    zh: 君爾身中皆有益，
+    en: everything within your own keeping turns to good;
+  - line_number: 3
+    zh: 一向前途無難事，
+    en: the road ahead holds nothing hard for you;
+  - line_number: 4
+    zh: 決意之中保清吉。
+    en: keep your resolve settled, and the outcome stays clear and auspicious.
+keywords:
+  favourable:
+    en:
+    - rising fortune
+    - a name made visible
+    - the light road ahead
+    - clean resolve
+    zh:
+    - 运势往上走
+    - 显出来的名头
+    - 轻省的前路
+    - 干净的决断
+  guarded:
+    en:
+    - idle talk around the matter
+    - small losses at the edges
+    - letting a good season make you careless
+    zh:
+    - 事情周遭的闲话
+    - 边角上的小折损
+    - 让一段好时节把自己松懈掉
+reading_notes:
+- term: 得意
+  pinyin: dé-yì
+  en: 'coming into one''s own: getting what one wanted; being at ease with oneself;
+    the phrase carries both success and satisfaction.'
+  zh: 既指得偿所愿、事情办成，也指心里自在称意；这一复词两层都带着，不必只取一层。
+- term: 身顯變
+  pinyin: shēn-xiǎn-biàn
+  en: 'the person becomes visible, and shifts: standing and reputation become apparent;
+    one''s own circumstances change; the Chinese names no agent.'
+  zh: 说的是本身显了出来、并且起变化：既指身份与名声变得明显，也指自身的处境转了；中文原句没有点出是谁在变。
+- term: 決意
+  pinyin: jué-yì
+  en: 'the settling of intent: a decision taken and held; the resolve that keeps a
+    decision on course.'
+  zh: 是把心意定下来：既指一次做成的决定，也指让这个决定一路走下去的那份坚持。
+plain_meaning:
+  en: 'A season of rising fortune: the position improves, the name becomes visible,
+    and the road ahead is described as light. The reservations are at the edges -
+    friction in talk, small losses where disputes arise. The counsel is to decide
+    cleanly and keep your conduct clean, which is what this lot makes the luck rest
+    on.'
+  zh: 运势往上走的一季：身份地位见好，名头显了出来，前面的路被说成轻省的。留的余地都在边角上——口舌上的摩擦，争端里折掉的小钱。劝的是把决定干脆定下、把行止守干净；这一签正是把运气搁在这上头。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The judgement is warm on unions; a good season to speak plainly and mean it.
+    zh: 判词对结缘是温的；这一季适合把话说清楚，并且说到做到。
+    compliance_tag: null
+  career:
+    en: Standing becomes visible after the present stage; the next step is well supported.
+    zh: 身份地位要到眼前这一段过后才显出来；下一步是有依托的。
+    compliance_tag: null
+  money:
+    en: Gain arrives by degrees rather than at once; let it build and keep the edges
+      tidy. (Not financial advice.)
+    zh: 进项是一点一点来的，不是一次到手；让它自己积，同时把边角上的小折损看住。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Reassuring but not careless - attend to things properly rather than testing
+      them. (Not medical advice.)
+    zh: 这一项读着安心，但不能大意——正经去照看，不要拿身体去试。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: A household that lifts its own name; order kept at home is what holds the
+      season.
+    zh: 是要把自家门声抬起来的家；把家里理出秩序，这一季才稳得住。
+    compliance_tag: null
+  travel_moving:
+    en: Movement reads as level and safe; nothing here argues for either haste or
+      delay.
+    zh: 走动读成平正稳妥；这里既没有催你快走的意思，也没有叫你拖着的理由。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Good water and steady returns for boat and pond work; profit comes by degrees.
+    zh: 水路好，行舟与作塭都有渐进的进项；利是一点一点来的。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Field and stock both read as fitting; steady work brings its yield.
+    zh: 田作与六畜都读成相宜；稳稳做，收成自然跟来。
+    compliance_tag: null
+  timing:
+    en: Most of the good is here and now; only the office is named for a later round
+      - a season, never a date.
+    zh: 好处落在后面一段——过了下一轮再看；按季节去读，不要当成日期。
+    compliance_tag: null
+  what_to_avoid:
+    en: Idle talk around the matter; letting a good season make you careless at the
+      edges.
+    zh: 事情周遭的闲话；让一段好时节把自己在边角上松懈掉。
+    compliance_tag: null
+  reassurance:
+    en: The matter is supported; the work asked of you is to decide cleanly and keep
+      your word.
+    zh: 这件事是有依托的；要你做的那点功课，就是把决定定干净、把话说住。
+    compliance_tag: null
+stories:
+- title:
+    zh: 正德君呼綠牡丹開
+    en: Emperor Zhengde Calls the Green Peony to Bloom
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 正德君就是明朝的武宗皇帝朱厚照。他在位时喜欢换上便装出宫，南来北往地巡游，民间因此生出许多关于他的故事。他出行时，曾在园中对着绿牡丹开口，命它开花。牡丹本是春天开花的花木，平常要等到时节才开。这一条讲的，就是帝王一句话，花木便应命开放的一类情景。同一签下还收着他私行遇李凤姐的故事，讲他在梅龙镇遇见酒家女李凤姐。他在位时出行的次数多，留下来的故事也就多。他一句话下去，园里的牡丹果然开了花，这件事在民间讲得很热闹。
+    en: The Zhengde Emperor was Zhu Houzhao, Emperor Wuzong of the Ming dynasty. During
+      his reign he liked to leave the palace in ordinary clothes and travel north
+      and south, and the common people made up many stories about him because of it.
+      On one of his outings he spoke to a green peony in a garden and told it to open.
+      The peony is a plant that blooms in spring and normally waits for its season.
+      What this entry tells is just the kind of scene where one word from an emperor
+      makes a plant open as ordered. Under the same lot there is also a story of him
+      going out in secret and meeting Li Fengjie, the daughter of a tavern keeper
+      at Meilong Town. At his word, the peony in the garden did open, and people told
+      of it with great liveliness.
+  poem_connection:
+    zh: 这一签写时运得意、身临显变，前途看不出难处，正扣签诗“运逢得意身显变”“一向前途无难事”。
+    en: A time when fortune runs high and a change shows in the man himself, with
+      no difficulty visible ahead, fits a lot whose poem speaks of favor arriving
+      and an easy road.
+- title:
+    zh: 正德君看呼綠牡丹開
+    en: Emperor Zhengde Watches the Green Peony Open
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 明武宗正德帝在位时喜好换上便服出宫游历，民间因此留下不少关于他的故事。常见的一段是：他改装出游，走到梅龙镇的一家酒店，见店中卖酒的女子李凤姐生得好看，用言语和她玩笑，后来把她纳入宫中。梅龙镇是出行路上的一处小镇，镇上开着一家酒店。另一段叫“看呼绿牡丹开”：他在某处赏花，对着花一唤，花就开了；也有人说，是赏花的时候花恰好盛开，因此得名。“呼”就是一唤的意思。“绿牡丹”是牡丹里的一种，花开时满株都是花。同一签下另录的李凤姐、李小姐等条目，也都是正德帝出巡故事里的人物。
+    en: 'During the reign of Emperor Wuzong of Ming, whose era name was Zhengde, the
+      emperor liked to put on plain clothes and travel outside the palace. Many stories
+      about him were left among the people. One common stretch runs like this: he
+      travelled in disguise and came to an inn at Meilong Town. He saw the girl who
+      sold wine there, Li Fengjie, and thought her lovely. He joked with her in words,
+      and later took her into the palace. Meilong Town was a small town on his route,
+      with an inn in it. Another stretch is called watching the green peony open at
+      a call. He was enjoying flowers somewhere, and when he called to the flower
+      it opened. Others say the flower happened to be in full bloom while he was viewing
+      it, and so the name came about. Calling here means summoning with the voice.
+      The green peony is one kind of peony, and when it blooms the whole plant is
+      covered with flowers. The entries Li Fengjie and Miss Li under this lot are
+      also figures from the stories of Emperor Zhengde''s travels.'
+  poem_connection:
+    zh: 签诗说运逢得意身显变，决意之中保清吉。正德帝出游得意、际遇顿改，正合题名的语意。
+    en: The lot poem says when fortune comes the self is changed and shown. Emperor
+      Zhengde travels in ease and his fortune turns at once, just the title's sense.
+- title:
+    zh: 正德君戲李鳳姐
+    en: Emperor Zhengde Teases Li Fengjie
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 明武宗正德帝是明朝的皇帝，他好在外面走动，常穿平民的衣服出宫，叫微服出游。他在位时屡次出关玩乐，曾经驻在宣府，宣府在今天河北宣化。他自称总督军务威武大将军总兵官，又在边地营建镇国府。民间和戏里演他微行到梅龙镇的一家酒肆，遇见店主的妹妹李凤姐，拿话相戏，后来把她纳进宫里。这一段常演的戏叫游龙戏凤，又叫梅龙镇。戏里李龙、李凤姐兄妹是酒肆的主人，结局各处不同，有的作入宫受封，有的作中途殁了。明人笔记里记武宗的行止，多到出游、驻跸为止，并没有李凤姐这个人。题名取的就是他在酒肆里相戏这一段。
+    en: 'Emperor Zhengde, the Ming emperor Wuzong, liked to be out and about. He often
+      went out of the palace in the clothes of a common man, which is called going
+      about in disguise. In his reign he went out through the passes several times
+      for pleasure. He once stayed at Xuanfu, Xuanfu being Xuanhua in Hebei today.
+      He styled himself Generalissimo and Commander-in-Chief of Military Affairs,
+      and built a princely residence on the frontier. In the tales he is shown in
+      disguise at a wine shop in Meilong Town. There he met the innkeeper''s sister
+      Li Fengjie and teased her with words, and later took her into the palace. This
+      stretch, often played, is called The Wandering Dragon Teases the Phoenix, and
+      also Meilong Town. In the play Li Long and Li Fengjie are brother and sister
+      and keep the wine shop. The endings differ from one version to another: some
+      have her enter the palace and receive a title, some have her die on the way.
+      The title takes the stretch where he teases her in the wine shop.'
+  poem_connection:
+    zh: 签诗说“运逢得意身显变”，与正德帝微行出游、得意忘形一节相贴；故事所取的正是这一得意忘检的场面。
+    en: The poem says that when a man meets good fortune his person shows a change;
+      Emperor Zhengde went about in disguise and grew careless in his pleasure, which
+      is just the scene the story takes.
+- title:
+    zh: 正德君遇李小姐
+    en: Emperor Zhengde Meets Miss Li
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 正德君是明朝的武宗皇帝。史书上说他喜好武事，也爱出巡，几次出居庸关，到宣府、大同等地，还给自己取了个威武大将军的名号，臣下屡次劝谏他也不听。民间由此生发出许多他微服出行的故事，最著名的一桩是游龙戏凤。正德皇帝换上便服，走到梅龙镇。梅龙镇是城外一处小镇，酒肆不大，来往的多是过路客人。他进了一家酒肆，这间店是李龙、李凤哥兄妹开的。他见凤姐貌美，便用言语相挑，两人终于结成姻缘。这件事后来编成戏，演的就是这一段。
+    en: Emperor Zhengde was Emperor Wuzong of the Ming dynasty. The histories say
+      he was fond of military matters and of going out on tours. Several times he
+      went out through the Juyong Pass to Xuanfu, Datong, and other places, and even
+      gave himself the title of mighty general, and would not listen when his officials
+      remonstrated with him again and again. From this the people spun many stories
+      of his travels in plain clothes. The best known is the tale of the wandering
+      dragon and the phoenix. The Zhengde emperor changed into ordinary clothes and
+      went to Meilong Town. Meilong Town was a small town outside the city wall. The
+      tavern there was not large, and most of the people who came and went were travelers
+      passing through. He entered a tavern kept by the brother and sister Li Long
+      and Li Fengjie. He saw that the younger sister was beautiful and teased her
+      with words, and in the end the two were joined in marriage. This matter was
+      later made into a play, which stages this episode.
+  poem_connection:
+    zh: 签诗“运逢得意身显变”，时来气象一变，正对正德君微行市井、酒肆相遇这一段。
+    en: The lot's poem says that when fortune comes one's bearing changes with success.
+      A turn in the weather when the time comes fits Emperor Zhengde moving among
+      the markets and meeting her in a tavern.
+- title:
+    zh: 蔡君謨作陳三詩
+    en: Cai Junmo Writes a Poem on Chen San
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 蔡君谟本名蔡襄，是北宋的名臣，家在兴化军仙游，也就是今天的福建仙游。他在宋仁宗天圣年间考中进士。进士是当时科举考试里最高的一档。他先后做过谏院的官，又做过福州和泉州的知州。知州是一州的长官。他在泉州主持修建了洛阳桥。洛阳桥横跨洛阳江入海的地方，是古代有名的跨海石桥，到今天还在。他还写过讲茶和荔枝的书，书法也很出色，与苏轼、黄庭坚、米芾并称宋四家。这一签题作蔡君谟作陈三诗。陈三诗说的是什么，故事里没有留下来。这一签说运逢得意身显变，又说决意之中保清吉，正配蔡襄以文章书法显名、宦途通达的一段。
+    en: Cai Junmo, whose original name was Cai Xiang, was a famous minister of the
+      Northern Song, from Xianyou in the Xinghua commandery, in today's Fujian. He
+      passed the jinshi examination in the Tiansheng years of Emperor Renzong of the
+      Song. A jinshi was the highest grade in the civil examinations of the time.
+      He served as an official of the remonstrance bureau, and later as prefect of
+      Fuzhou and of Quanzhou. A prefect was the chief official of a prefecture. In
+      Quanzhou he directed the building of the Luoyang Bridge. The Luoyang Bridge
+      crosses the Luoyang River where it meets the sea. It is a famous old stone bridge
+      over the sea, and it still stands today. He also wrote books on tea and on lychees,
+      and he was excellent at calligraphy. He is named with Su Shi, Huang Tingjian
+      and Mi Fu as the Four Masters of the Song. The lot's title says he wrote a poem
+      on Chen San, but what that poem said has not come down to us.
+  poem_connection:
+    zh: 这一签说运逢得意身显变、决意之中保清吉，正配蔡襄以文章书法显名、仕途通达的一段。
+    en: This lot says that when luck comes round the person shows the change, and
+      that keeping to one's decision brings safety - Cai Xiang making his name by
+      writing and calligraphy, with a smooth road in office.
+- title:
+    zh: 管公明避隱遼東
+    en: Guan Gongming Withdraws to Liaodong
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 管辂，字公明，是三国时魏国人，以会占卜出名。他替人卜算，常能说中人的生死祸福。可是避乱到辽东去的，是另一个姓管的人，叫管宁。管宁是东汉末年人，和邴原、王烈一同到辽东，依附那里的地方长官公孙度，在山谷里讲学，过了几十年才回来。签题写“管公明避隐辽东”，是把两个人的事和到了一起。管辂以术数出名，管宁以避乱守节出名，本是两回事。管宁在辽东的时候，常戴黑帽，穿布衣，讲诗书，摆礼器，讲明礼仪，不是求学的人不见。辽东的百姓因此渐渐懂得礼让，公孙度以下的人都敬重他，想给他官做，他不接受。
+    en: Guan Lu, whose courtesy name was Gongming, was a man of Wei in the Three Kingdoms
+      period, famous for his skill at divination. He told fortunes for others and
+      often hit on their life and death, fortune and misfortune. But the man who fled
+      the troubles and went to Liaodong was a different person, also surnamed Guan,
+      named Guan Ning. Guan Ning lived at the end of the Eastern Han. With Bing Yuan
+      and Wang Lie he went to Liaodong and attached himself to Gongsun Du, the local
+      governor. He lectured in the valleys there and came back only after some decades.
+      The title of this lot, Guan Gongming Withdraws to Liaodong, joins the affairs
+      of two men into one. Guan Lu was known for the arts of calculation. Guan Ning
+      was known for fleeing trouble and keeping his integrity. The two were separate
+      matters. While in Liaodong, Guan Ning often wore a black cap and plain cloth.
+      He taught the Odes and Documents, set out ritual vessels, and explained the
+      rites. He would not see anyone who was not a student. The people of Liaodong
+      thus came to understand courtesy and yielding, and everyone from Gongsun Du
+      down respected him. They wanted to give him office, but he would not accept
+      it.
+  poem_connection:
+    zh: 签诗“运逢得意身显变”“决意之中保清吉”，故取管辂善卜知机、管宁避乱辽东以保全自身一事相配。
+    en: The poem says that when fortune comes one's standing changes and that a firm
+      decision keeps one clear and safe, which fits Guan Lu's skill at divining and
+      Guan Ning's withdrawal to Liaodong to stay whole.
+- title:
+    zh: 劉皇叔未遇
+    en: Lord Liu Not Yet Met With His Helper
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 刘备自称是汉朝皇族的后代，民间称他刘皇叔。他早年以织席卖鞋为生，起兵之后屡次受挫，没有一块固定的地盘。他做过安喜县的县尉，因为上级督邮逼迫，弃官走了。之后他依附过公孙瓒，投奔过陶谦，跟过曹操，也投靠过袁绍和刘表，一直寄人篱下。在荆州依附刘表时，他驻在新野，兵少将寡。他求贤若渴，经徐庶推荐，三次到诸葛亮的茅庐去请，终于请出诸葛亮。诸葛亮为他分析了天下大势，定下联合东吴、共抗曹操的方略。此后刘备取得荆州，又拿下益州，终于建立起蜀汉。人们用未遇两个字，概括他奔走无成的这一段。
+    en: Liu Bei said he was a descendant of the Han imperial house, and people called
+      him Lord Liu. In his early years he lived by weaving mats and selling shoes.
+      After he raised troops he met with one setback after another and had no fixed
+      territory. He served as a county commandant in Anxi and gave up the post when
+      a superior inspector pressed him. After that he leaned on Gongsun Zan, went
+      to Tao Qian, followed Cao Cao, and also joined Yuan Shao and Liu Biao, living
+      all along under other men's roofs. While he depended on Liu Biao in Jingzhou,
+      he was stationed at Xinye with few soldiers and officers. He wanted worthy men
+      badly. On Xu Shu's recommendation he went three times to Zhuge Liang's thatched
+      hut, and at last brought him out. Zhuge Liang analyzed the state of the realm
+      for him and set the plan of joining with Eastern Wu to stand against Cao Cao.
+      After that Liu Bei took Jingzhou and then Yizhou, and at last built up Shu Han.
+      People use the words not yet met to sum up this time of running about with nothing
+      to show.
+  poem_connection:
+    zh: 签诗说时运到来、境况就变，前途再没有难事。刘备未得志时四处奔走，后来得诸葛亮相辅，正合此意。
+    en: The lot poem says that when the time comes the situation changes and the road
+      ahead holds no more hard thing. Liu Bei wandered without success until he gained
+      Zhuge Liang's help.
+- title:
+    zh: 楊文廣破飛鵝山
+    en: Yang Wenguang Breaks Through Flying-Goose Mountain
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 杨文广是杨家将的后代，父亲是名将杨延昭。杨家几代人都在边疆带兵，从杨业、杨延昭一直传到杨文广。这一年，杨文广奉命带兵南征。大军一路南下，遇到南蛮据守的险要关隘。这一带的山关，是南蛮凭险据守的要地。其中有一座飞鹅山，山势险峻，守军凭险顽抗。杨文广指挥将士攻关夺隘，终于攻破了飞鹅山。山关一破，南蛮的守军溃败退走，大军便可继续南进。他一路挥军向前，没有遇到大碍。这一路故事讲的都是杨家将第四代征南、征西的战事，多以险要的山关为骨。
+    en: Yang Wenguang was a descendant of the Yang family of generals. His father
+      was the famous general Yang Yanzhao. For generations the Yang family led troops
+      on the frontier, from Yang Ye and Yang Yanzhao down to Yang Wenguang. That year
+      Yang Wenguang was ordered to lead a southern campaign. The great army moved
+      south and met strong passes held by the southern peoples. The mountain passes
+      in this region were key points the southern peoples defended by force of terrain.
+      Among them was Flying-Goose Mountain, steep and dangerous, its defenders holding
+      out behind the natural barrier. Yang Wenguang directed his officers and men
+      to storm the passes and take them, and at last broke through Flying-Goose Mountain.
+      Once the mountain pass fell, the southern defenders scattered and pulled back,
+      and the great army could go on south. He drove his troops forward all the way
+      without meeting serious trouble. The stories on this line all tell of the fourth
+      generation of the Yang generals campaigning in the south and the west, and most
+      of them turn on steep mountain passes.
+  poem_connection:
+    zh: 这一签说运逢得意、前路无难事，正配杨文广攻关夺隘、攻破飞鹅山。
+    en: This lot says luck is riding high and nothing lies hard ahead. It fits Yang
+      Wenguang storming and taking the passes and breaking through Flying-Goose Mountain.
+- title:
+    zh: 齊景公涕牛
+    en: Duke Jing of Qi Weeps on Mount Niu
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 齐景公是春秋时齐国的国君。一天，他和群臣登上牛山游玩，向北望着自己的都城，忽然流下泪来。他说人生这样短，终究要死，若自古就没有死，自己就不必离开这个位子。身边的大臣艾孔和梁丘据也跟着流泪。只有晏子在旁边笑。晏子是齐国的大臣，以直言著称。景公问他笑什么。晏子说，若贤人一直守着自己的国家，开国的姜太公、称霸的齐桓公早就长远占着齐国了。若勇者一直守着，庄公、灵公也早就占着不走。正因这些国君一个个来、一个个去，国君今天才能坐上这个位子。如今只为自己的死伤心流泪，是替不仁的国君、逢迎的臣子伤心，所以才笑。景公听了惭愧，端起酒杯罚自己，也罚了两个大臣。
+    en: Duke Jing was the ruler of Qi in the Spring and Autumn period. One day he
+      climbed Mount Niu with his ministers to look about. Gazing north at his own
+      capital, he suddenly burst into tears. He said that life is so short and that
+      everyone must die in the end. If there had been no death since ancient times,
+      he would not have to leave his seat. Two ministers beside him, Ai Kong and Liangqiu
+      Ju, wept along with him. Only Yanzi laughed. Yanzi was a minister of Qi known
+      for plain speaking. The duke asked him why he laughed. Yanzi said that if worthy
+      men had always kept their states, then Jiang Taigong, who founded Qi, would
+      have held Qi long before. If brave men had always held on, then Duke Zhuang
+      and Duke Ling would still hold it as well. It was just because one ruler after
+      another came and went that the duke could sit in this seat today. To weep now
+      for his own death was to weep for an unkind ruler and for flattering ministers.
+      The duke was ashamed. He took up his cup, fined himself, and fined the two ministers
+      as well.
+  poem_connection:
+    zh: 这一签的签诗说运势得意、身显其变，往前没有难事，决意之中得清吉。景公临高自省、听了直言而改容，正合“身中皆有益”之意。
+    en: The poem says fortune is in good order and nothing ahead is hard, and firm
+      purpose is clear and lucky. Duke Jing looked out from a height and changed at
+      plain words.

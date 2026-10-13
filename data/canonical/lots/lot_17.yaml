@@ -1,0 +1,337 @@
+id: 17
+lot_number: 17
+ganzhi:
+  zh: 丙申
+  pinyin: Bing-shen
+title:
+  en: Zhuangzi Tests His Wife
+  zh: 莊子試妻
+hexagram:
+  zh: 风泽中孚
+  name_and_structure_en: Zhongfu (Wind over Lake)
+  binary_code: ○○●●○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 5
+  primary:
+    zh: 莊子試妻
+    en: Zhuangzi Tests His Wife
+  variants_en:
+  - Zhuangzi's Wife Splits the Coffin
+  - Luo Guanguang Leaves Home for the Monastery
+  - Red Boy Blocks the Road
+  - Fan Dan's Wife Kills Nine Husbands Before Marriage
+  variants_zh:
+  - 莊子妻大劈棺
+  - 駱觀光出家
+  - 紅孩兒捷住路頭
+  - 范丹妻未出身殺九夫
+register:
+  level: mixed
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive with conditions attached - 婚姻 大吉／求財 勤儉必得／功名
+      修陰德必中／家事 和為貴／家運 居之則安／月令 不畏。漸漸平安 (jie_yue_score +5); the progress itself is stipulated
+      as 先難後易, and quarrelling is the named hazard (官事 和為貴。不和凶)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: 'We read this lot as mixed: marriage and thrift-led income stand well,
+      but many of the smaller lines run only level, the children question is held
+      back, and quarrelling is the named hazard. Because the support is conditional,
+      we read it as mixed rather than positive.'
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 人害緊。和無事／作事 先難後易／家事 和為貴／家運 居之則安／婚姻 大吉／求財 勤儉必得／功名 修陰德必中／月令 不畏。漸漸平安——整签偏正（jie_yue_score
+      +5）。张力在同组之内：求兒 不可 与 婚姻 大吉、六甲 先男後女 并排；官事 和為貴。不和凶 是点名的险处。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 我方读作 mixed：婚姻与勤俭所得的进项偏顺，多条目却只走平路，子嗣一项被按住，争端为点名之险。支持带条件，故读作 mixed。
+provenance:
+  editorial_note: '*the temple list carries a different group for this lot: 紅孩兒捷住路頭;
+    范丹妻未出身殺九夫.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 舊恨重重未改為，
+    en: Old grievances, layer upon layer, have not yet been undone;
+  - line_number: 2
+    zh: 家中禍患不臨身，
+    en: the trouble in the house does not come down on your own person.
+  - line_number: 3
+    zh: 須當謹防宜作福，
+    en: Keep careful watch, and let good deeds stand as your protection;
+  - line_number: 4
+    zh: 龍蛇交會得和合。
+    en: when dragon and snake meet, the accord is reached.
+keywords:
+  favourable:
+    en:
+    - keeping the peace
+    - steady thrift
+    - merit quietly done
+    - waiting for the turn
+    zh:
+    - 守住和气
+    - 勤俭持家
+    - 悄悄行善
+    - 等到时运转
+  guarded:
+    en:
+    - letting an old grudge set the terms
+    - quarrelling over the household
+    - mistaking slowness for refusal
+    - dropping the careful watch
+    zh:
+    - 让旧怨定调
+    - 为家事争吵
+    - 把慢当成没有回应
+    - 松了提防
+reading_notes:
+- term: 舊恨
+  pinyin: jiù-hèn
+  en: 'old rancour: a grievance carried over from the past; a matter left unresolved
+    from before; the poem names the wound, not the one who caused it.'
+  zh: 既指从前带下来的怨，也指一件一直没解开的旧事；籤文只点出这道伤口，没有说是谁造成的。
+- term: 和合
+  pinyin: hé-hé
+  en: 'to bring into accord: peace made between people; the joining of a marriage
+    - the same word stands in the judgement 婚姻 大吉.'
+  zh: 既可指人跟人讲和，也指婚姻的合成——同一个词在解曰的婚姻一项里再次出现，两边都算数。
+- term: 龍蛇交會
+  pinyin: lóng-shé-jiāo-huì
+  en: 'dragon and snake meet: a time-image, the chen and si positions of the calendar;
+    any meeting of parties that do not match; the poem does not say which comes first.'
+  zh: 既是一个时象，指历法上辰、巳这两个位置；也可指本来不相合的两方碰在一处；籤文没说谁先到。
+- term: 作福
+  pinyin: zuò-fú
+  en: 'to make merit: offerings made to the deity; good works done for others; the
+    line sets both against the old grudge.'
+  zh: 既可指给神明的供献祈福，也可指为别人做的善事；这一句把两者都拿来对着旧怨说。
+plain_meaning:
+  en: 'A season with an old quarrel still in it and a household so far spared: nothing
+    is broken, but the poem asks for watchfulness and for quietly done merit rather
+    than for pressing on. The judgements favour plain, steady effort - thrift, patience,
+    keeping the peace - and place the opening at the meeting of the dragon and snake
+    positions.'
+  zh: 这一季里还留着旧日的争执，而家宅至今无恙：眼下并没有破，籤文要的是提防，以及静静地做些善事，不是硬往前推。解曰偏向平实的稳功夫——节俭、耐心、守住和气——并把转机放在龙蛇相交的那个位置上。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: Accord is well supported here; the condition the judgements attach is that
+      the peace be kept rather than the case argued.
+    zh: 这一项解曰给的是正面，条件是把和气守住，而不是把道理争出来。
+    compliance_tag: null
+  career:
+    en: 'A slow start and a later opening: the judgements reward quiet merit and steady
+      work more than a loud push.'
+    zh: 先难后易：解曰看重的是一点一点积起来的善与稳当的做法，不是大声硬推。
+    compliance_tag: null
+  money:
+    en: Gain is judged to come from thrift and routine rather than from one large
+      move; keep the margin modest. *(Not financial advice.)*
+    zh: 进项读作来自节俭与日常经营，不是靠一次大动作；宜把利润留薄一点。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: The reading is for gradual recovery through the fortnight; keep to ordinary
+      care and put anything that persists to a qualified professional. *(Not medical
+      advice.)*
+    zh: 这一项解曰说的是半个月里渐渐好转；照平常的法子调养，久久不退的症候交给合格的专业人士。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is safe where it stands; the work here is keeping the peace,
+      not settling old scores.
+    zh: 家宅安在它所在的位置；这里的功夫是守住和气，不是清旧账。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is workable in the dragon-and-snake window; a change of residence
+      is left to your own judgement.
+    zh: 出门在龙蛇这个窗口里可行；迁居一项解曰交由自己斟酌。
+    compliance_tag: null
+  sea_and_voyage:
+    en: 'Plain water: small returns for those who work it, and no gain in forcing
+      a longer trip.'
+    zh: 水头平平：讨海的人所得是小利，把航程硬拉长也不会多。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: An ordinary season — a little profit from field and fish fry, and no expansion
+      of stock just now.
+    zh: 一个平常的季节——田作与鱼苗各有些小利，眼下不宜扩栏扩塘。
+    compliance_tag: null
+  timing:
+    en: Things arrive late and in half measure; read the turn as the dragon-and-snake
+      window, never as a date.
+    zh: 事情来得迟，也只来得一半；转机读作龙蛇这个窗口，不要当成某个日子。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Settling old scores; quarrelling over the household; expecting a fast result.
+    zh: 清旧账；为家事争吵；指望马上出结果。
+    compliance_tag: null
+  reassurance:
+    en: The watchfulness asked for here is ordinary care, not fear.
+    zh: 这里要的提防是平实的留心，不是恐惧。
+    compliance_tag: null
+stories:
+- title:
+    zh: 莊子試妻
+    en: Zhuangzi Tests His Wife
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 庄子名周，字子休，是战国时的思想家。他辞去官职，同妻子田氏住在南华山。一天他出门游玩，看见一个年轻妇人拿着扇子扇一座新坟。他问缘故，妇人说丈夫临终留下话，要等坟土干了才能改嫁，所以来赶工。庄子替她扇了三下，坟土很快就干了。回家后，庄子把这件事讲给田氏听。田氏不信世上有这样的事。庄子便要试她一试，假装病死，入了棺，停在家里。几天后，来了一位自称楚王孙的年轻人吊丧，说愿意拜在庄子门下做弟子，留在庄家住下。不久他托人向田氏提亲，田氏答应了。成亲那天晚上，楚王孙忽然得了急病，要用人脑髓和酒才能治。田氏便拿斧头去劈棺材，要取庄子的脑髓。棺盖一开，庄子活了过来。
+    en: In the Warring States period, Zhuangzi, whose given name was Zhou and whose
+      courtesy name was Zixiu, was a thinker. He gave up his official post and lived
+      with his wife, whose family name was Tian, on South Hua Mountain. One day he
+      went out walking. He saw a young woman fanning a new grave. He asked her why.
+      She said her husband had left word that she could remarry only after the earth
+      over the grave had dried, so she came to hurry it along. Zhuangzi fanned it
+      three times for her, and the earth dried quickly. At home Zhuangzi told his
+      wife about it. She did not believe that such a thing could happen. Zhuangzi
+      decided to test her. He pretended to fall ill and die, and he was laid in a
+      coffin that was set in the house. Some days later a young man who called himself
+      the Prince of Chu came to mourn. He said he wished to become a disciple under
+      Zhuangzi and asked to stay in the house. Soon he sent someone to propose marriage
+      to the wife, and she agreed. On the night of the wedding, the Prince of Chu
+      suddenly fell gravely ill. He needed human brains and wine to be cured. The
+      wife took an ax and went to the coffin to cut out Zhuangzi's brains. As the
+      lid opened, Zhuangzi came back to life.
+  poem_connection:
+    zh: 签诗“旧恨重重未改为”，正合庄子试妻、旧事翻覆一节；“须当谨防”则取家中生变、宜防在后之意。
+    en: The poem says the old grievance is not changed and warns one to be on guard,
+      which fits Zhuangzi testing his wife and the old matter turning over, with trouble
+      arising inside the home.
+- title:
+    zh: 范丹妻未出身殺九夫
+    en: Fan Dan's Wife Kills Nine Husbands Before Marriage
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 从前有个姑娘，还没出嫁，就先后许配过九家人。这九个未婚夫都在成婚之前死了。乡里人因此把她看成不吉利的人，谁也不敢再娶她。这一类故事讲的是好事多磨的婚姻：女方往往一出场就背着不好的名声，无人敢娶，最后却仍得成家。她也是这样。她背着这样的名声，日子过得很艰难。几经周折，她终于嫁给了范丹。范丹家里很穷，靠替人做工过活。那九个人究竟是怎么死的，流传下来的说法没有细讲。这段亲事来得十分不易，拖了很久，两人才终于成了家。
+    en: Long ago there was a young woman who was promised in marriage to nine families
+      before she ever married. All nine men she was betrothed to died before the wedding.
+      The people of her village therefore saw her as unlucky, and no one dared to
+      marry her. Stories of this kind are about marriages that take much trouble to
+      come about. The woman often carries a bad name from the moment she appears,
+      and no one dares to take her, yet in the end she still marries. She was like
+      this too. With such a name hanging on her, her days were hard. After many turns
+      and delays, she finally married Fan Dan. Fan Dan's family was very poor, and
+      he made a living by working for others. How those nine men actually died is
+      not told in detail in the versions that survive. This match came with great
+      difficulty, and the two dragged on a long time before they finally became husband
+      and wife.
+  poem_connection:
+    zh: 这一签说旧日纠葛终会分明、婚姻终得和合，正配这桩好事多磨的婚事。
+    en: This lot says old tangles come clear in the end and the marriage joins. It
+      fits this wedding that took so much trouble.
+- title:
+    zh: 莊子妻大劈棺
+    en: Zhuangzi's Wife Splits the Coffin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 庄子是周朝末年的人，做过地方上的小吏，后来辞官，和妻子田氏隐居在南华山。有一天他出门，经过一片坟地，看见一个戴孝的妇人拿着扇子，正对着一座新坟扇风。庄子问她缘由。妇人说坟里埋的是她丈夫，丈夫临死前交代，要等坟上的土干了才能改嫁，所以她要赶紧把土扇干。庄子答应帮忙，接过扇子摇了几下，土果然很快就干了。回家后，庄子把这件事告诉田氏，田氏认为那妇人不守贞节。没过多久，庄子装病而死。楚国的王孙前来吊丧，田氏和他商议婚事。王孙忽然心痛，说要用活人的脑髓来治，田氏就提起斧头劈开庄子的棺木，要取他的脑髓。棺盖一开，庄子坐了起来，田氏上吊死了。
+    en: Zhuangzi lived at the end of the Zhou dynasty. He held a small local office,
+      then gave it up, and lived in hiding with his wife, Lady Tian, on South Hua
+      Mountain. One day he went out and passed a graveyard. He saw a woman in mourning
+      holding a fan and fanning a new grave. Zhuangzi asked her why. The woman said
+      her husband was buried there. Before he died he had told her to wait until the
+      earth on the grave was dry before she married again, so she was hurrying to
+      fan it dry. Zhuangzi offered to help. He took the fan and waved it a few times,
+      and the earth dried very quickly. When he got home, Zhuangzi told Lady Tian
+      about it, and Lady Tian said the woman had no chastity. Not long after, Zhuangzi
+      fell ill and died. A royal grandson of Chu came to offer condolences, and Lady
+      Tian talked with him about marriage. The royal grandson suddenly had a pain
+      in his heart and said human brains were needed to cure it. Lady Tian took up
+      an axe and split Zhuangzi's coffin to get out his brains. As soon as the lid
+      was open, Zhuangzi sat up, and Lady Tian hanged herself.
+  poem_connection:
+    zh: 签诗说要谨防家中的祸患。庄子设局是在自己家里，祸事起于闺门之内，正合这个情境。
+    en: The lot poem warns a man to guard against trouble at home. Zhuangzi set his
+      trap in his own house, and the harm began within the women's rooms.
+- title:
+    zh: 駱觀光出家
+    en: Luo Guanguang Leaves Home for the Monastery
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 骆观光是一位读书人。他看破世事，抛下家业，出了家，到山里修道。他离开家门，告别亲人，从此过着清苦的修行日子。他这一走，就再没有回头。这一类故事讲的是看破世情、辞亲入山，主人翁常常是不如意的书生，或是家中出了变故的人。他们走出家门，就不再理会家里的祸福，只安心过自己的修行生活。骆观光的故事留下来的只有这一个题目。他是什么人，为什么出家，出家以后又怎样，都没有细说。人们只知道，他是一位舍下家业、走进山里的书生。
+    en: Luo Guanguang was a scholar. He saw through the ways of the world, set aside
+      his family property, left home, and went into the mountains to cultivate the
+      Way. He walked out of his family gate, took leave of his kin, and from then
+      on lived a plain and austere life of practice. Once he left, he never turned
+      back. Stories of this kind are about seeing through worldly affairs and taking
+      leave of one's family to enter the mountains. The person is often a scholar
+      whose hopes were disappointed, or someone whose household met with trouble.
+      They walk out of the family gate and pay no more attention to the good or ill
+      fortune of the house, and settle down to their own life of practice. Of Luo
+      Guanguang's story only this title survives. Who he was, why he left home, and
+      what he did afterward are not told in detail. People only know that he was a
+      scholar who gave up his family property and walked into the mountains.
+  poem_connection:
+    zh: 这一签说家中祸患不落到身上，正配骆观光舍家修道、脱身家外这一段。
+    en: This lot says trouble in the household does not fall on you. It fits Luo Guanguang
+      giving up his family to cultivate the Way and stepping clear of the house.
+- title:
+    zh: 紅孩兒捷住路頭
+    en: Red Boy Blocks the Road
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 唐僧带着徒弟往西天取经，走到号山，路被一个妖怪拦住。这妖怪叫红孩儿，是牛魔王和铁扇公主的儿子，在火焰山修炼多年，自称圣婴大王。他知道吃了唐僧的肉能长生，就变成被绑在树上的小孩，高声喊救命。孙悟空是大徒弟，一眼识破。他背起妖怪时把对方往山石上摔去，红孩儿立刻刮起旋风，把唐僧卷进洞里。孙悟空和他交手，被他口里喷出的三昧真火烧退，这火连水也扑不灭。孙悟空打不过，只好去南海求观音菩萨。菩萨用净瓶装来海水，又让天罡刀化成莲台，把红孩儿引上台，用金箍儿套住他的手脚，收为善财童子，唐僧这才脱身。
+    en: Xuanzang set out west with his disciples to fetch the scriptures. At Mount
+      Hao a demon blocked their road. The demon was Red Boy, son of the Bull Demon
+      King and the Princess Iron Fan. He had trained for years on Flaming Mountain.
+      He called himself the Holy Infant King. He knew that eating the Tang monk's
+      flesh gives long life. He turned into a child tied to a tree and cried for help
+      at the top of his voice. Sun Wukong was the eldest disciple. He saw through
+      it at once. When he took the demon on his back he threw him at a rock. Red Boy
+      at once raised a whirlwind and carried the monk into his cave. Sun Wukong fought
+      him and was driven back by the true fire the demon breathed from his mouth.
+      Even water could not put that fire out. Sun Wukong could not win, so he went
+      to the South Sea to ask Guanyin for help. The Bodhisattva brought sea water
+      in her pure vase and turned a blade into a lotus throne. She drew Red Boy onto
+      the throne and closed golden rings on his hands and feet. She took him as her
+      attendant, the Child of Good Wealth. Only then was the monk free.
+  poem_connection:
+    zh: 这一签的签诗说旧恨未改，家中祸患不进门，须当谨防、多做好事，到龙蛇交会才能和合。红孩儿截住路头，正是一路提防而后得解。
+    en: The poem says old grudges are not mended and trouble at home does not pass
+      the door; be on your guard and do good. Red Boy cut off the road, and only after
+      guarding against him was it opened, when dragon and snake meet.

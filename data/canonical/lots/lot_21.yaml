@@ -1,0 +1,323 @@
+id: 21
+lot_number: 21
+ganzhi:
+  zh: 丁巳
+  pinyin: Ding-si
+title:
+  en: Zhu Shouchang Resigns to Seek His Mother
+  zh: 朱壽昌辭官尋母
+hexagram:
+  zh: 泽天夬
+  name_and_structure_en: Guai (Lake over Heaven)
+  binary_code: ●○○○○○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬土利年 四方皆宜
+  en: Earth — favours the whole year; all four directions are auspicious
+story_group_summary:
+  total_count: 4
+  primary:
+    zh: 朱壽昌辭官尋母
+    en: Zhu Shouchang Resigns to Seek His Mother
+  variants_en:
+  - Zhu Shouchang Finds His Mother at the Long Pavilion
+  - Shakyamuni Converts the Five Ascetics
+  - Emperor Yingzong Returns to Yanjing
+  variants_zh:
+  - 朱壽昌尋母在長亭
+  - 釋迦文佛渡五比丘
+  - 英宗回燕都
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive — 凡事 貴人扶持／家運 必得吉昌／治病 大命險。貴人扶／行舟 無大利,
+      with 婚姻 難成 noted as the exception (jie_yue_score +15)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements run positive in most categories — help and support,
+      trade that turns from hard to smooth, money that comes late; the medical line
+      carries risk but names outside help. Marriage is the one exception, and voyaging
+      is rated merely level. On the whole this is a favourable lot.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 貴人扶持／家運 必得吉昌／作事 和大吉。散得失／求財 先無後有／經商 先難後吉／治病 大命險。貴人扶／行舟 無大利——整签偏吉，多类目有贵人扶助、先难后转，唯
+      婚姻 難成 一项为例外，行舟 亦只言无大利。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在多数类目上偏正面：凡事、家运、作事、经商等皆有扶助与渐次转顺之意，求财先少后多，治病一项虽带风险却注明有外力可倚。唯婚姻一项为例外，行舟一项亦只言平平。整体是偏吉的一签。
+provenance:
+  editorial_note: '*The temple site carries a further pair — Zhou Yu-jie and Chen
+    Chunsheng, and Jiang Ziya''s rice for Wu Ji; we record the difference rather than
+    choose for the reader.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 十方佛法有靈通，
+    en: The teaching of the ten directions answers those who ask;
+  - line_number: 2
+    zh: 大難禍患不相同，
+    en: great troubles do not fall on everyone alike;
+  - line_number: 3
+    zh: 紅日當空常照耀，
+    en: the red sun stands overhead and shines without pause;
+  - line_number: 4
+    zh: 還有貴人到家堂。
+    en: and a benefactor is still to come to your house.
+keywords:
+  favourable:
+    en:
+    - help that answers when it is asked
+    - the sun standing overhead
+    - a benefactor at the door
+    - a trouble that is not the worst
+    zh:
+    - 一问就应的援手
+    - 太阳正当头
+    - 贵人在门前
+    - 不是最坏的那一桩麻烦
+  guarded:
+    en:
+    - waiting without asking
+    - assuming the trouble is the common case
+    - scheduling the help to your own timetable
+    zh:
+    - 只等不问
+    - 以为自己的麻烦就是常规情形
+    - 把援手排进自己的时间表
+reading_notes:
+- term: 十方
+  pinyin: shí-fāng
+  en: '"the ten directions": at once *everywhere* and the specific sense of *the teaching
+    that answers from every quarter*; The line is about asking in the right place.'
+  zh: 既指处处、遍一切处，也特指从四面八方都应答的那种教化。此句讲的是问对地方。
+- term: 不相同
+  pinyin: bù-xiāng-tóng
+  en: '"not the same": the poem means *your case is not the common one*; an assurance
+    about severity, not a promise of escape.'
+  zh: 意即你的情形不是那种常见的普遍情形——这是对严重程度的宽解，不是脱身的许诺。
+- term: 貴人
+  pinyin: guì-rén
+  en: 'benefactor: at once *a person who helps you* and *the noble star of the old
+    charts*; The poem keeps both senses alive.'
+  zh: 既指来相助的人，也指旧命书上的贵人星。此诗两义并存。
+plain_meaning:
+  en: 'Something answers those who ask, and the worst of it is not your case: the
+    sun is overhead and a benefactor is on the way to the house. The counsel is to
+    ask plainly in the right quarter, and then not to force the timing of the answer.'
+  zh: 有回应，是给开口去问的人的；而最坏的情形不是你这一桩：太阳正当头，贵人正往你家来。要诀是把话说清楚、问到对的地方，然后不要去催那答案的时辰。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Will this illness pass?
+    zh: 这个病会好吗？
+  rewritten_to:
+    en: Where should I ask for help now, and what is mine to do while I wait?
+    zh: 此刻该到哪里去求助，而我在等待期间能做什么？
+  rewrite_reason:
+    code: out_of_scope
+    zh_explanation: 超出问事范围
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: The match needs a hand from outside to settle — family or an intermediary;
+      do not decide it alone.
+    zh: 这桩配对要外头有人帮衬才定得下来——家人或中间人；不要一个人去定。
+    compliance_tag: null
+  career:
+    en: A benefactor is the deciding factor this season; ask, and be plain about what
+      you want.
+    zh: 这一程，贵人是决定因素；开口去问，把你要的说明白。
+    compliance_tag: null
+  money:
+    en: Little at first and more later; the help comes through people rather than
+      through the timing. *(Not financial advice.)*
+    zh: 先少后多；助益来在人与人之间，而不是来在时辰上。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Take the risky part seriously and get qualified care — in practice, that is
+      what the benefactor means here. *(Not medical advice.)*
+    zh: 有风险的那部分要认真对待，找有资质的照看——落到实处，这里的贵人就是这个意思。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: Good news at the door and honour to the household; a celebration is well-starred.
+    zh: 好消息临门，家门有光；喜事星光正好。
+    compliance_tag: null
+  travel_moving:
+    en: Help awaits you where you are going; travel gently and let it come to you.
+    zh: 你要去的地方有援手等着；缓着走，让它来找你。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The water gives little at first and more later; keep the boat steady rather
+      than push it.
+    zh: 水路先给得少、后给得多；把船把稳，不要硬推。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: A level season that pays late; the returns go to those who stay with the round.
+    zh: 平顺的一程，回报偏晚；收益归给守住这一轮的人。
+    compliance_tag: null
+  timing:
+    en: The help comes late in the season — a season, never a date.
+    zh: 援手在这一程的后半才到——只说一程，不给准日子。
+    compliance_tag: null
+  what_to_avoid:
+    en: Waiting without asking; deciding alone what needs help to decide.
+    zh: 只等不问；本该有人帮着定的事，自己一个人定。
+    compliance_tag: null
+  reassurance:
+    en: The sun is up, and the help is already moving toward you.
+    zh: 太阳在天上，援手已经在往你这儿来。
+    compliance_tag: null
+stories:
+- title:
+    zh: 朱壽昌辭官尋母
+    en: Zhu Shouchang Resigns to Seek His Mother
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 朱寿昌是北宋人，字康叔。他年幼时，生母刘氏被家中赶出，改嫁到别处，母子从此分开，再没有音信。生母改嫁以后，很少还有人知道她的去处。朱寿昌长大后做了官，几次出任州的长官，却始终不知道母亲在哪里，几次托人打听也没有消息。他辞去官职，前往秦地寻访母亲，临行对家人说，找不到母亲就不回来。秦地指今天陕西一带。后来他走到同州，终于打听到母亲的下落。刘氏已经改嫁到党家，年纪过了七十。朱寿昌把母亲接回家中奉养，又把母亲后来生的两个弟弟一同接来，一家人重新团聚。
+    en: Zhu Shouchang was a man of the Northern Song, and his courtesy name was Kangshu.
+      When he was small, his birth mother, Lady Liu, was driven out of the household
+      and married again elsewhere. Mother and son were parted from then on, and no
+      word of her came again. After his birth mother remarried, few people still knew
+      where she had gone. Zhu Shouchang grew up and became an official, serving several
+      times as head of a prefecture, but he never knew where his mother was. He asked
+      people to make inquiries several times and got no news. He gave up his post
+      and went to the Qin region to look for his mother, saying to his family before
+      he left that he would not come back unless he found her. The Qin region means
+      the area of present-day Shaanxi. Later he reached Tongzhou and finally learned
+      where his mother was. Lady Liu had married into the Dang family and was past
+      seventy. Zhu Shouchang brought his mother home and looked after her, and also
+      brought along the two younger brothers she had borne afterward, and the family
+      was reunited.
+  poem_connection:
+    zh: 签诗“还有贵人到家堂”，正对朱寿昌寻母得母、母子重聚这一段。
+    en: The lot's poem says a noble helper comes to the house. Zhu Shouchang finding
+      his mother and the two being reunited fits that promise.
+- title:
+    zh: 朱壽昌尋母在長亭
+    en: Zhu Shouchang Searches for His Mother at the Long Pavilion
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 朱寿昌是北宋人，家在今天的安徽天长一带。他的生母刘氏是父亲的妾。妾是旧时男子正妻之外另娶的女子，在家里的地位很低。刘氏不被正妻所容，在寿昌七岁那年被赶出家门，改嫁别人。母子从此分离，一别就是几十年。寿昌长大做了官，名声不错，心里却一直放不下母亲。他四处打听，始终没有消息。宋神宗刚即位的那几年，他索性辞去官职，发誓不见到母亲就不再回来。他亲自上路，在江淮一带跋涉，见人就问，寒来暑往，吃了很多苦。后来他在同州一个地方偶然找到了母亲。这时刘氏已经七十多岁，母子重逢，算来分别将近五十年。这一签说十方佛法有灵通。十方是佛教的说法，指东西南北上下各个方向。又说还有贵人到家堂，正配寿昌辞官寻母、终于把母亲迎回家中的一段。
+    en: Zhu Shouchang was a man of the Northern Song, whose family lived in what is
+      today the Tianchang area of Anhui. His birth mother, Lady Liu, was his father's
+      concubine. A concubine was a woman a man took besides his legal wife in old
+      times, and she had a low place in the household. The legal wife would not have
+      her, and in the year Shouchang turned seven she was driven out of the house
+      and married another man. Mother and son were parted from then on, and the parting
+      lasted for decades. Shouchang grew up and became an official with a good name,
+      but he could never put his mother out of his mind. He asked around everywhere
+      and never got news of her. In the first years after Emperor Shenzong of the
+      Song came to the throne, he simply gave up his office and swore that he would
+      not come home until he had seen his mother. He set out in person and traveled
+      through the Jianghuai region, asking everyone he met. Cold and heat passed,
+      and he went through much hardship. Later he found his mother by chance in a
+      place in Tongzhou. Lady Liu was then over seventy, and mother and son met again
+      after nearly fifty years apart.
+  poem_connection:
+    zh: 这一签说十方佛法有灵通、还有贵人到家堂，正配朱寿昌辞官寻母、母子重新团聚的一段。
+    en: This lot says the dharma of the ten directions has its own way of reaching,
+      and that a noble helper comes to the family hall - Shouchang giving up office
+      to find his mother and bring her home.
+- title:
+    zh: 釋迦文佛渡五比丘
+    en: The Buddha Converts the Five Monks
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 释迦牟尼是佛教的创立者。他本是古印度北部一个王国的王子，姓乔达摩，名悉达多。他在菩提树下悟道成佛以后，想到应当先度化从前跟随他的五个人。这五个人本是净饭王派来陪太子修行的。太子苦修六年，接受了一位牧女送来的乳粥，这五个人以为他退了道心，就离开他，到鹿野苑自己修行去了。成道之后，释迦牟尼来到鹿野苑找他们。他先讲不偏向苦、也不偏向乐的道理，再讲四谛和八正道。四谛是佛教说的四种道理，八正道是八条正当的修行路子。五个人当中，㤭陈如最先明白，其余的人随后也懂了。他们成了佛最早的弟子，人称五比丘。
+    en: The Buddha was the founder of Buddhism. He was born a prince of a kingdom
+      in northern ancient India. His family name was Gautama, and his given name was
+      Siddhartha. After he found enlightenment under the bodhi tree, he thought he
+      should first bring over the five men who had once followed him. These five had
+      been sent by King Suddhodana to keep the prince company in his practice. The
+      prince had practiced harsh austerities for six years. Then he accepted a bowl
+      of milk porridge from a cowherd girl. The five believed he had given up the
+      path. They left him and went to the Deer Park to practice on their own. After
+      his enlightenment, he came to the Deer Park to find them. He first taught a
+      way that leans neither toward suffering nor toward pleasure. Then he taught
+      the Four Noble Truths and the Eightfold Path. The Four Noble Truths are the
+      four truths of Buddhism. The Eightfold Path is eight right ways of practice.
+      Among the five, Kaundinya understood first. The others understood soon after.
+      They became the Buddha's earliest disciples, and people called them the Five
+      Monks.
+  poem_connection:
+    zh: 签诗说“十方佛法有灵通”“还有贵人到家堂”，正扣佛度五比丘、使人得法的接引之缘。
+    en: The poem speaks of the Buddha's law reaching everywhere and a benefactor coming
+      to one's hall, which fits the Buddha bringing the five monks over and giving
+      people the teaching.
+- title:
+    zh: 英宗回燕都
+    en: Emperor Yingzong Returns to Yanjing
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 明英宗名叫朱祁镇。他听信太监王振的话，亲自带兵北上，去打瓦剌。瓦剌是当时北方的一个蒙古部族。大军走到土木堡被包围，全军溃败，王振死在乱军之中，英宗被俘。消息传到京城，大臣们立英宗的弟弟为帝，就是景泰帝，并尊英宗为太上皇。太上皇是给退位皇帝的名号。主管军事的于谦主持守城，打退了来犯的军队。瓦剌挟着英宗去攻城门，守将奉命不开，对方拿他没办法，只好议和，第二年把他送回北京。北京古称燕都，英宗回来后住在南宫。
+    en: Emperor Yingzong of Ming was named Zhu Qizhen. He listened to his eunuch Wang
+      Zhen. He led an army north himself to attack the Oirat, a Mongol tribe of the
+      north at that time. The army was surrounded at Tumu Fort and was routed. Wang
+      Zhen died in the chaos, and Yingzong was taken prisoner. When the news reached
+      the capital, the ministers put Yingzong's younger brother on the throne. He
+      was Emperor Jingtai. They also gave Yingzong the title retired emperor, a name
+      given to a ruler who had stepped down. Yu Qian, who was in charge of military
+      affairs, led the defense of the city and drove off the attackers. The Oirat
+      took Yingzong with them and attacked the city gates. The defending general had
+      orders not to open them. There was nothing the other side could do, so they
+      agreed to peace. The next year they sent him back to Beijing. Beijing was called
+      Yanjing in older times. After his return, Yingzong lived in the Southern Palace.
+  poem_connection:
+    zh: 签诗说身经大难而终有贵人扶持。英宗被俘之后还能回到京城，正合这一层意思。
+    en: The lot poem says a man goes through great danger and in the end has a noble
+      helper. Yingzong came home to the capital after being taken prisoner, which
+      fits that sense.
+- title:
+    zh: 周玉姊可遇陳春生
+    en: Zhou Yu Meets Chen San
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 周玉是这则故事里的女子，陈春生是男子。题名里的“可遇”就是得遇。从题面看，讲的是两个人相遇的一段：女子周玉在难中或是在路上，遇见陈春生，得他相助，两人从此有了往来。这是遇合一类的故事，男女各占一边，中间由人牵线或由一场事凑成。这一类题目用女子的人名立题，题里的姊字是对女子的称呼。两个人后来如何，没有留下。故事落在遇字上，讲的是路上相值、得人一把之力那一点；周玉此后的日子，也没有再留下什么。这一类题目取的只是两人相见的那一刻，前后经过多已不传。
+    en: 'Zhou Yu is the woman in this story, and Chen San is the man. The word meet
+      in the title means to come upon someone. From what the title shows, what is
+      told is a stretch of two people meeting. The woman Zhou Yu, in trouble or on
+      the road, meets Chen San and gets his help, and from then on the two have dealings.
+      This is a story of the meeting kind, with a man and a woman on either side.
+      They are brought together by someone passing words between them, or by some
+      event. Titles of this kind are set up on a woman''s name. The title''s word
+      for the woman is a form of address, not a kinship term. How the two fared afterwards
+      was not left behind. The story comes down on the word meet: the point is coming
+      upon a person along the way and getting a hand from him. Nothing more is left
+      about Zhou Yu''s days after that. Titles of this kind take only the moment when
+      the two see each other. The before and after are in most cases not handed down.'
+  poem_connection:
+    zh: 签题落在遇字上，与诗面“还有贵人到家堂”相贴：所遇的是能相助的人，故事取的正是相遇得助之意。
+    en: 'The title comes down on the word meet, which sits with the poem''s noble
+      helper arriving at the house: the one met is a person who can help, and the
+      story takes meeting and getting help.'

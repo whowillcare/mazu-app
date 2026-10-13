@@ -1,0 +1,387 @@
+id: 53
+lot_number: 53
+ganzhi:
+  zh: 壬申
+  pinyin: Ren-shen
+title:
+  en: Su Qin and His Wife Meet Again
+  zh: 蘇秦夫妻相會
+hexagram:
+  zh: 天火同人
+  name_and_structure_en: Tongren (Heaven over Fire)
+  binary_code: ○○○○●○
+  shared_with_lot: null
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬金利秋 宜其西方
+  en: Metal — favours autumn; the west is auspicious
+story_group_summary:
+  total_count: 7
+  primary:
+    zh: 蘇秦夫妻相會
+    en: Su Qin and His Wife Meet Again
+  variants_en:
+  - Su Qin Goes Home
+  - Liu Yuanpu Gains Twin Noble Sons
+  - Wang Jinglue Talks of War
+  - Lin Xiangru Writes on the Bridge
+  - Su Qin Fails the Examination
+  - Su Qin Comes Home Feigning Failure
+  variants_zh:
+  - 蘇秦回家
+  - 劉元普雙生貴子
+  - 王景略談兵
+  - 藺相如題橋
+  - 蘇秦不第
+  - 蘇秦回家假不第
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: the judgements run positive throughout - 凡事 大吉。有貴人／家運 禎祥福祉／求財 積善大利／行舟
+      大吉利／討海 可得大進／作塭 滿載而歸／月令 平安 (jie_yue_score +22, the highest of this stem-group)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple book runs positive here almost throughout — general affairs,
+      undertakings, household, family fortune, marriage, advancement, trade, boats,
+      moving house, building, graves, sea work, ponds, fry, the month's season, finding
+      people, and distant news all fall on the favourable side, with the household's
+      gain as the through-line; only the year's ruler and field work are flat, and
+      the illness entry concedes something long-drawn. We read it as favourable.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 内部判据（照抄庙本解曰）：凡事 大吉。有貴人／作事 成好／家事 進益無窮／家運 禎祥福祉／婚姻 成好。益夫旺子／求兒 先女後男／六甲
+      雙生貴子／求財 積善大利／功名 可得進／歲君 中平／治病 拖尾不畏。平安／出外 好。利路亨通／經商 萬利可得／來人 月光到／行舟 大吉利／移居 平安／失物
+      援尋／求雨 月尾到／官事 緊審和好。完者大吉／六畜 可納平安／耕作 中平／築室 可好。瑞氣呈祥／墳墓 大吉。世代流芳／討海 可得大進／作塭 滿載而歸／魚苗
+      有大利／月令 平安／尋人 得回／遠信 速報佳音——整签偏正，本组最高分；惟 求財 積善大利 把好处系在已积之善上、治病 拖尾不畏。平安 仍留一个缠绵，歲君
+      中平 与 耕作 中平 两项平平（jie_yue_score +22）。
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本判词在这一签上几乎处处偏正面——总类、作事、家事、家运、婚姻、功名、经商、行舟、移居、筑室、坟墓、讨海、作塭、鱼苗、月令、寻人、远信都在这边，并以家宅的进益为主线；唯总类之外，岁君与耕作两项平平，治病一项留有缠绵。故列为本批的偏正一档，是这一组的最高分。
+provenance:
+  editorial_note: '*the temple list adds two further Su Qin titles: 蘇秦不第 and 蘇秦回家假不第.*'
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 看君來問心中事，
+    en: I see you come to ask the thing that is on your heart;
+  - line_number: 2
+    zh: 積善之家慶有餘，
+    en: a house that gathers good has blessings to spare;
+  - line_number: 3
+    zh: 運亨財子雙雙至，
+    en: the run is clear - wealth and children come two by two;
+  - line_number: 4
+    zh: 指日喜氣溢門閭。
+    en: and the joy of it spills over the gate within days.
+keywords:
+  favourable:
+    en:
+    - good gathered over time
+    - helpers arriving
+    - wealth and children together
+    - a full return
+    zh:
+    - 平日里积下的善
+    - 贵人到来
+    - 财与子一同来
+    - 满满的归还
+  guarded:
+    en:
+    - asking for the return before the groundwork
+    - mistaking a near season for a fixed day
+    - leaning on the good judgement instead of the work
+    zh:
+    - 底子还没打就讨回报
+    - 把眼前一个近的时节当成固定的一天
+    - 仗着好判词，不下功夫
+reading_notes:
+- term: 積善
+  pinyin: jī-shàn
+  en: 'piling up good: good deeds accumulated across a family''s history; the classical
+    tag 積善之家必有餘慶 (the house that piles up good has blessings left over): the blessing
+    is inherited, not purchased.'
+  zh: 是一家人一代代攒下来的善；用典是「積善之家必有餘慶」——这份福泽是承下来的，不是买来的。
+- term: 指日
+  pinyin: zhǐ-rì
+  en: 'pointing at the day: shortly, within a few days; the day can already be pointed
+    to, i.e. the outcome sits in the near season - a manner of speech, not a date.'
+  zh: 是日子已经能指着数了：一是指就在这几日内，二是指结果落在近处的一个时节——是一种说法，不是日期。
+- term: 門閭
+  pinyin: mén-lǘ
+  en: 'the gate and the lane: the household''s own gate; the lane and the neighbourhood,
+    which share in its honour.'
+  zh: 既指自家门口，也指门外的里巷——这份荣耀是这一带一起沾的。
+plain_meaning:
+  en: 'An open, well-supplied season: the poem answers a question asked from the heart
+    with a house that has blessings left over, and puts wealth and children at the
+    gate. The judgements agree and add helpers - the run is smooth, the roads out
+    are good, and the work of the sea comes home full. The counsel is to keep up the
+    good this rests on, and to spend the season rather than test it.'
+  zh: 这是一个开阔、有余的时节：诗里对一句从心里问出的话，答的是积善之家福气有剩，把财与子放在门口。判词与它一路相合，还添了贵人——运势顺、出门的路好、海上的活儿满载而归。劝的是把这份好所依托的善继续做下去，这一季拿去用，而不是拿去试。
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: ''
+    zh: ''
+  rewritten_to:
+    en: ''
+    zh: ''
+  rewrite_reason:
+    code: none
+    zh_explanation: 未需改写
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A good judgement for a match, given as a blessing on both sides of it; the
+      lot's own story is a husband and wife meeting again.
+    zh: 姻缘判得好，被写作对双方的祝福；这一签自己的故事就是夫妻重会。
+    compliance_tag: null
+  career:
+    en: Advancement is judged as coming, and help arrives from senior people - show
+      the work rather than pressing for the promotion.
+    zh: 功名判作可进，助力出自年长者——把活儿摆出来，不要逼那个位置。
+    compliance_tag: null
+  money:
+    en: The gain judgement ties itself to the good a household has already stored,
+      and the returns it names are large; let the venture stand on its existing footing.
+      (Not financial advice.)
+    zh: 进项的判词把它系在一家已经攒下的善上，说出的数目不小；生意就按现有的根基走。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Something slow is conceded but not feared, and the judgement ends in peace;
+      keep up ordinary care and have it looked at. (Not medical advice.)
+    zh: 缠绵被说破，但不必怕，判词最后落在平安；平常怎么养就怎么养，该看的还是去看。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The household is judged to gain without limit and to carry auspiciousness;
+      the blessing of this lot sits on the family first.
+    zh: 家宅判作进益无穷、吉祥福气；这一签的福先是落在家上的。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is judged well with the roads open; movement, removal and long journeys
+      all read easily here.
+    zh: 出行判得好，路是通的；移动、搬迁与长途在这一签都走得轻松。
+    compliance_tag: null
+  sea_and_voyage:
+    en: The boats are judged greatly auspicious and the sea-work comes home full -
+      this is the strong season for the water.
+    zh: 船判作大吉，海上的活儿满载归来——这一季水中最旺。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: The fields give an ordinary harvest while the ponds and the fry do well; the
+      money is in the water and in what the household has already built.
+    zh: 田里是一般年成，塭与鱼苗都不错；钱在水里，也在这个家已经做起来的东西里。
+    compliance_tag: null
+  timing:
+    en: The window is near, and the judgement is laid on the season rather than on
+      a day; keep the ordinary work going.
+    zh: 窗口是近的，判词把它落在时节上而不是某一天；平常的活儿照做。
+    compliance_tag: null
+  what_to_avoid:
+    en: Asking for the return before the groundwork, and treating a near season as
+      a fixed date.
+    zh: 底子还没打就讨回报；把眼前一个近的时节当成固定的一天。
+    compliance_tag: null
+  reassurance:
+    en: The blessing named here rests on the household's own good; there is nothing
+      to force.
+    zh: 这里说的福泽，靠的是这一家自己积下的善；没有哪一件需要硬求。
+    compliance_tag: null
+stories:
+- title:
+    zh: 蘇秦夫妻相會
+    en: Su Qin and His Wife Meet Again
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 苏秦说通六国联合抗秦，事成之后佩六国的相印，做从约长，就是合纵之约的盟主。他北去向赵王复命，沿路诸侯各派使者相送，车马和辎重多得可比王者的排场。他路过洛阳，家里的情形与先前大不相同。先前他裘破金尽回到家里，妻子在织布机上下都不下来，嫂子不肯给他做饭。这一回家里却扫地相迎。妻子侧着眼看他、倾着耳听他说话，嫂子弯着身子走路，连连下拜，跪着谢罪。苏秦拿这一前一后的两副面孔问她。嫂子认的是他位高而钱多。这一前一后，后人用前倨后恭四个字来概括，就是先前傲慢、后来恭敬的意思。题名夫妻相会，取的是他富贵归家见妻这一段。
+    en: Su Qin talked the six states into joining to resist Qin. When it was done
+      he wore the seals of the six states as minister and was head of the alliance,
+      that is, the leader of the pact of the vertical line. He went north to report
+      to the king of Zhao. Along the road the lords each sent envoys to see him off,
+      with carriages and baggage in a train to compare with a king's. He passed through
+      Luoyang, and things at home were quite unlike what they had been. Earlier he
+      had come home with his sable robe worn through and his gold gone. His wife would
+      not come down from her loom, and his sister-in-law would not cook for him. This
+      time the family swept the ground to welcome him. His wife looked at him out
+      of the corner of her eye and turned her ear to listen to him. His sister-in-law
+      walked bent over, bowed again and again, and knelt to beg his pardon. Su Qin
+      asked her about the two faces, before and after. What his sister-in-law went
+      by was his high rank and his money. People of later times summed up the before
+      and the after in four words, haughty first and respectful later. The title,
+      husband and wife meeting, takes the stretch in which he comes home rich and
+      sees his wife.
+  poem_connection:
+    zh: 签诗说“运亨财子双双至，指日喜气溢门闾”，与苏秦富贵归家、一门改容相迎一节相贴。
+    en: The poem says the time runs well and both wealth and children come, and joy
+      fills the gate; Su Qin came home rich and the whole house changed its face to
+      welcome him.
+- title:
+    zh: 蘇秦回家假不第
+    en: Su Qin Comes Home Pretending to Have Failed
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: 43
+  narrative: null
+  poem_connection:
+    zh: 一签说贵人在千里之外、音信渐渐传来，一签说运通喜至。苏秦困顿待时与佩印荣归，各扣一头。
+    en: One lot says a noble helper is a thousand li away and news comes slowly; another
+      says that when fortune opens, joy arrives. Su Qin's hard waiting and his proud
+      return each answer one side.
+- title:
+    zh: 蘇秦回家
+    en: Su Qin Goes Home
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏秦是战国时洛阳人，学的是游说各国的纵横之术。他第一次出门，去秦国游说秦王，上书十次都没被采纳，路费用尽，身上的皮衣也破了，只好回家。到家以后，家人对他非常冷淡：正在织布的妻子不下机来见他，嫂子不肯给他做饭，父母也不跟他说话。他因此发愤读书，闭门一年揣摩一部讲谋略的古书，再次出门。这一次他说动了赵王，约合六国共同抗秦，身佩六国相印。后来他北上向赵王复命，路过洛阳，身后的车马随从多得可比王侯。周显王听说他来了，派人清道、到郊外慰劳。他的兄弟、妻子、嫂子都侧着身子，不敢抬头看他，低头伏在地上侍奉他吃饭。苏秦看了，散出钱财送给宗族和朋友。
+    en: Su Qin was from Luoyang in the Warring States period. He studied the arts
+      of persuading the various states. On his first journey he went to Qin to persuade
+      the king of Qin, but his memorials were rejected ten times. His travel money
+      ran out and his fur coat was worn through, so he had to go home. When he arrived,
+      his family treated him very coldly. His wife, who was at her weaving, did not
+      leave the loom to see him. His sister-in-law would not cook for him. His parents
+      would not speak to him. Because of this he threw himself into study, shut his
+      door for a year, and worked over an old book on strategy, then set out again.
+      This time he persuaded the king of Zhao, made a pact with six states to resist
+      Qin together, and wore the seals of all six states. Later, on his way north
+      to report to the king of Zhao, he passed through Luoyang with a following of
+      carriages and attendants as great as that of a lord. When King Xian of Zhou
+      heard he was coming, he sent men to clear the road and to greet him outside
+      the city. His brothers, wife, and sister-in-law all turned their bodies aside
+      and did not dare raise their heads to look at him. They bowed low to the ground
+      and served him his food. Seeing this, Su Qin gave out money to his clan and
+      friends.
+  poem_connection:
+    zh: 签诗“运亨财子双双至”“指日喜气溢门闾”，显达还家、门庭喧赫，正对苏秦佩印还乡。
+    en: The lot's poem says fortune and wealth come in pairs, and that in a few days
+      joy fills the door. Coming home in splendor with a loud household fits Su Qin
+      returning with the seals.
+- title:
+    zh: 劉元普雙生貴子
+    en: Liu Yuanpu Gains Twin Noble Sons
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 洛阳人刘元普年老还没有儿子，家里却十分富有。他为人重义气，肯散财帮人。他的老朋友李克让死在外乡，留下妻子儿女，无依无靠。李克让临终前留下一封信，托刘元普照看他的家小，信纸却是空白的，一个字也没来得及写。刘元普收到这封空信，还是把李克让的妻儿接来家中安顿。他又出钱出力，替他们办了婚嫁，成家立业，从不计较回报。后来刘元普的妻子忽然有了身孕。一天夜里，她梦见神人相告，说刘元普积善得报。她一连生下两个儿子，两个孩子都聪慧出众，日后显达。这一签说积善之家庆有余，又说运亨财子双双至，正配刘元普好义疏财、晚年连得二子的一段。
+    en: Liu Yuanpu, a man of Luoyang, was old and had no son, though his household
+      was very rich. He was a man who valued loyalty and was willing to give his wealth
+      away to help others. His old friend Li Kerang died far from home, leaving a
+      wife and children with no one to rely on. Before he died, Li Kerang left a letter
+      asking Liu Yuanpu to look after his family, but the paper was blank; he had
+      not managed to write a single word. Liu Yuanpu received this blank letter and
+      still brought Li Kerang's wife and children into his own house and settled them
+      there. He also spent money and effort to arrange marriages for them and to set
+      them up in life, and never counted what he was owed. Later Liu Yuanpu's wife
+      suddenly found that she was with child. One night she dreamed that a spirit
+      told her that Liu Yuanpu's good deeds would be repaid. She gave birth to two
+      sons in a row, and both boys were unusually bright and rose high in the world
+      later on.
+  poem_connection:
+    zh: 这一签说积善之家庆有余、运亨财子双双至，正配刘元普好义疏财、晚年双生贵子的一段。
+    en: This lot says the household that piles up good deeds has blessings to spare,
+      and that when luck runs well wealth and sons come in pairs - Liu Yuanpu giving
+      freely, gaining twin sons in his later years.
+- title:
+    zh: 王景略談兵
+    en: Wang Jinglue Talks of War
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 王猛，字景略，北海剧县人，是东晋十六国时候的人。他小时候家里穷，靠卖畚箕过活。畚箕是装土用的竹器。王猛博学，好读兵书，为人稳重严正，气度不凡，不跟一般人往来。桓温北伐，带兵进了关中，王猛去见他。他一面捉着身上的虱子，一面谈论当时的天下大事，旁若无人。桓温觉得他不寻常，问他为什么不肯跟自己南下。王猛回答说，桓温留不住关中，跟着南下也没有用。后来王猛在前秦的君主苻坚手下做丞相，执法严明，压制豪强，起用沉沦的人才，前秦因此大治，关陇一带安宁，百姓富足。他临死时劝苻坚不要打东晋，苻坚不听，后来果然在淝水打了大败仗。
+    en: Wang Meng, whose courtesy name was Jinglue, was a man of Juxian in Beihai,
+      and he lived in the time of the Eastern Jin and the Sixteen Kingdoms. His family
+      was poor when he was a child, and he made a living by selling baskets. A basket
+      here is a bamboo container for carrying earth. Wang Meng was widely learned
+      and fond of books on war. He was steady and stern, of uncommon bearing, and
+      he did not mix with ordinary people. When Huan Wen led his northern campaign
+      into Guanzhong, Wang Meng went to see him. Picking lice off himself, he talked
+      of the great affairs of the realm, as if no one else were present. Huan Wen
+      found him unusual and asked why he would not come south with him. Wang Meng
+      answered that Huan Wen could not hold Guanzhong, so going south with him would
+      be of no use. Later Wang Meng served as chancellor under Fu Jian, the ruler
+      of Former Qin. He enforced the law strictly, held the powerful in check, and
+      raised men long passed over. Former Qin was therefore well governed, the Guan-Long
+      region at peace, and the people well off. At his death he urged Fu Jian not
+      to attack the Eastern Jin. Fu Jian did not listen, and later indeed suffered
+      a great defeat at the Fei River.
+  poem_connection:
+    zh: 签诗说“运亨财子双双至”“指日喜气溢门闾”，故配王猛扪虱谈兵、得苻坚任用而致通显一事。
+    en: The poem says fortune runs well and wealth and children come at once, and
+      that the door soon brims with joy, so it is paired with Wang Meng talking of
+      war while picking lice and being raised high.
+- title:
+    zh: 藺相如題橋
+    en: Lin Xiangru Writes on the Bridge
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 题桥的人是汉代的司马相如，蜀郡成都人。他少年时喜欢读书，也练剑。因为仰慕战国时赵国的大臣蔺相如，他把自己的名字改成了相如。后来有人把题桥这件事记在蔺相如名下，题目就这么传了下来。司马相如初次到长安求官，路过成都的升仙桥，在桥柱上写下一句话：将来不坐上四匹马拉的高车，就不再过这座桥。他以此激励自己。后来他写的赋得到汉武帝赏识，做了郎官，又奉命出使西南一带。回来的时候，他果然乘着驷马高车重入蜀地，风光地回到了家乡。
+    en: The man who wrote on the bridge was Sima Xiangru of the Han dynasty, a man
+      of Chengdu in Shu commandery. As a boy he liked to read and also practiced with
+      the sword. Because he admired Lin Xiangru, a minister of Zhao in the Warring
+      States period, he changed his own name to Xiangru. Later someone recorded the
+      bridge writing under the name Lin Xiangru, and the title came down that way.
+      When Sima Xiangru first went to Chang'an to seek office, he passed the Shengxian
+      Bridge in Chengdu and wrote a line on a bridge post. He said he would not cross
+      this bridge again until he rode in a high carriage drawn by four horses. In
+      this way he spurred himself on. Later his rhymed prose was admired by Emperor
+      Wu of Han, and he became an imperial attendant, and was also sent on a mission
+      to the southwest. On his way back he did ride into Shu in a high carriage with
+      four horses, and returned to his home town in splendor.
+  poem_connection:
+    zh: 签诗说积善的人家福庆有余，运道一通喜气就上门。司马相如立志求显、终于得偿，正合此意。
+    en: The lot poem says a family that piles up good deeds has blessings to spare,
+      and that when fortune opens, joy comes to the door. Sima Xiangru aimed at high
+      place and gained it.
+- title:
+    zh: 蘇秦不第
+    en: Su Qin Fails the Examination
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 苏秦是战国时的纵横家，早年跟着老师鬼谷子学习。他出门游历了好几年，想谋个出路，却处处碰壁，只好回家。他先劝秦王用连横之策吞并六国，上书十次都没被采纳。身上的黑貂皮袍破了，带去的钱也花光了，他只得离开秦国。回到家里，妻子只顾织布，不下机来迎他；嫂子不肯给他做饭；父母也不和他说话。苏秦又惭愧又伤心，从此关起门来读书。他读到夜里困了，就用锥子刺自己的大腿，血一直流到脚上。一年之后，他学成出来，改用合纵之策游说六国。六国采纳了他的主张，他身佩六国相印，做了合纵的盟主。
+    en: Su Qin was a diplomat of the Warring States period and studied in his early
+      years under his teacher Guiguzi. He traveled abroad for several years hoping
+      to make his way, but met refusal everywhere and had to go home. He first urged
+      the King of Qin to use the horizontal alliance to swallow the six states, and
+      sent up ten memorials with no result. His black sable robe was worn through
+      and his money was spent, and he had to leave Qin. When he reached home, his
+      wife went on with her weaving and did not leave the loom to greet him. His sister-in-law
+      would not cook for him. His parents would not speak to him. Su Qin was ashamed
+      and hurt, and shut himself in to study. When he grew sleepy at night he stabbed
+      his own thigh with an awl, and the blood ran down to his feet. A year later,
+      his studies done, he came out and urged the six states to join in the vertical
+      alliance. The six states took his plan. He wore the seals of all six states
+      and became leader of the alliance.
+  poem_connection:
+    zh: 这一签说运通时喜气满门，苏秦失意归家与后来拜相归家正成两截，此则取前截。
+    en: This lot says when the time is open, joy fills the house. Su Qin coming home
+      in failure and coming home as chancellor are two halves, and this part takes
+      the first.

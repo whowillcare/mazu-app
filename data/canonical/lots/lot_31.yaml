@@ -1,0 +1,416 @@
+id: 31
+lot_number: 31
+ganzhi:
+  zh: 己丑
+  pinyin: Ji-chou
+title:
+  en: The Fairy Brings Dong Yong a Child at the Imperial City
+  zh: 董永皇都市仙女送孩兒
+hexagram:
+  zh: 火水未济
+  name_and_structure_en: Weiji (Fire over Water)
+  binary_code: ○●○●○●
+  shared_with_lot: 34
+  disclosure:
+    en: 'Sixty lots map to fifty-four hexagrams: six hexagrams are shared by two lots
+      each, and ten hexagrams are not used at all.'
+    zh: 60 支映射 54 卦（6 卦各两支共用、10 卦未用），不是一签一卦。
+element_and_direction:
+  zh: 屬火利夏 宜其南方
+  en: Fire — favours summer; the south is auspicious
+story_group_summary:
+  total_count: 8
+  primary:
+    zh: 董永皇都市仙女送孩兒
+    en: The Fairy Brings Dong Yong a Child at the Imperial City
+  variants_en:
+  - Meng Jiangnu Chooses a Husband
+  - Peng Zu's Thirty-Six Wives and Seventy-Two Sons, and No Son at His Death
+  - Peng Zu Dies Without a Son
+  - Bodhidharma Faces the Wall
+  - Tang Sanzang Fetches the Sutras
+  - Lady Liang Beats the Battle Drum
+  - Zhu Hai Admonishes Sun Bin
+  variants_zh:
+  - 孟姜女招親
+  - 彭祖三十六妻七十二子臨終無子
+  - 彭祖死時無子
+  - 達摩面壁
+  - 唐三藏取經
+  - 梁夫人擂鼓
+  - 朱亥勸孫臏
+register:
+  level: favourable
+  source: curated
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    source_note: 人工定档，判据＝解曰判词极性；第二轮独立定档待母语审
+    evidence: temple judgements run positive throughout - 凡事 得利／作事 成功／家事 瓜瓞綿綿／家運 世世興旺／婚姻
+      好結尾／求財 用心即有／功名 差人來報喜／歲君 大吉／出外 大吉可進／經商 大發資財／行舟 財發萬金／討海 財發萬金／月令 不遂 (jie_yue_score
+      +19)
+  external:
+    visibility: public
+    audience: all_users
+    source_note: our editorial reading of the lot's tone；the temple books do not grade
+      these lots
+    evidence: The temple judgements read favourable right across the working and household
+      categories; only the month's turn and a dispute carry a sting, the dispute one
+      being a quick close that costs money. We read it as a lot for acting while the
+      season is open. This lot shares the Weiji (Fire over Water) hexagram with lot
+      34; the two are read together, one hexagram serving two lots.
+criteria:
+  internal:
+    visibility: internal
+    audience: admin_and_internal_audit_only
+    description_zh: 照抄庙本解曰（庙方原文，供核验）
+    raw_temple_text: 凡事 得利／作事 成功／家事 瓜瓞綿綿／家運 世世興旺／婚姻 好結尾／求財 用心即有／功名 差人來報喜／歲君 大吉／出外
+      大吉可進／經商 大發資財／行舟 財發萬金／討海 財發萬金，独 月令 不遂、官事 緊完局。了錢——判词通篇顺遂，唯月令与官事两处留刺。（本签与第三十四签同属《火水未济》一卦，六十四卦一卦两签，须并看。）
+  external:
+    visibility: public
+    audience: all_users
+    description_zh: 我方概括（合规发布用）
+    summary_zh: 庙本解曰通篇顺遂：凡事、作事、家事、家运、婚姻、求财、功名、出外、经商、行舟、讨海等类目皆指向好处；仅月令、官事两处留刺，官事一处提示速结、并牵涉花费。我方读为当令可为之季。（本签与第三十四签同属《火水未济》一卦，须并看。）
+provenance:
+  editorial_note: null
+  textual_provenance: null
+  reviewed_on: '2026-10-06'
+verse:
+  classical_form: 七言絕句 (7-character quatrain)
+  english_style: unrhymed cadence
+  lines:
+  - line_number: 1
+    zh: 綠柳蒼蒼正當時，
+    en: Green willows, thick and deep - this is their very hour;
+  - line_number: 2
+    zh: 任君此去作乾坤，
+    en: as you please, go from here and make your world;
+  - line_number: 3
+    zh: 花果結實無殘謝，
+    en: blossom and fruit set firm, with nothing withered or fallen;
+  - line_number: 4
+    zh: 福祿自有慶家門。
+    en: blessing and provision come of themselves to gladden the household.
+keywords:
+  favourable:
+    en:
+    - the green willow at its hour
+    - fruit setting firm
+    - blessing arriving at the door
+    - going out to make your world
+    zh:
+    - 绿柳正当时
+    - 花果结得实
+    - 福气自己到门口
+    - 出去闯出自己的天地
+  guarded:
+    en:
+    - wasting an open season
+    - letting one sour line colour the whole
+    - waiting for everything at once
+    - assuming an easy season needs no work
+    zh:
+    - 把当令的一季荒掉
+    - 一句涩话染了整篇
+    - 指望一次全拿到
+    - 以为顺的一季不必出力
+reading_notes:
+- term: 蒼蒼
+  pinyin: cāng-cāng
+  en: 'deep green, thick-grown: the deep green of heavy growth; also the hoary white
+    of great age; here the season is at its best, not its end.'
+  zh: 既是浓密深绿的样子，也通指年老的白；此处是草木当令，不是将尽的时节。
+- term: 任君
+  pinyin: rèn-jūn
+  en: 'as you please, it is left to you: the choice is yours to make; the way is simply
+    left open to you; both senses give permission rather than command.'
+  zh: 既解「随你的意」，也解「路就摆在那里、由你走」；两层都是给权，不是下命令。
+- term: 福祿
+  pinyin: fú-lù
+  en: 'blessing and worldly provision: good fortune and material support, taken together;
+    the household''s allotted share of each; the line keeps them as one word.'
+  zh: 福分与俸禄合为一词：既是运气，也是实际养家的那一份；句中不作拆分。
+- term: 無殘謝
+  pinyin: wú-cán-xiè
+  en: 'nothing withered or fallen: no blossom fails to set fruit; nothing is left
+    over or thrown away; 殘 carries both remnant and loss.'
+  zh: 既是没有开了花不结果的，也是没有剩下、抛掉的；「殘」兼含残余与残缺两义。
+plain_meaning:
+  en: 'The willows are green and this is their hour: an open, fruitful season for
+    going out and building. Blossom sets and the fruit does not fall; blessing arrives
+    of itself at the household door. Take the opening with both hands - the one sour
+    line concerns a matter you cannot hurry. (This lot shares its hexagram with Lot
+    34.)'
+  zh: 柳色正绿，正是当令：出去成事的一季，开花结果不落。福分自己走到家门来。机运就在眼前，宜双手接住；唯一一句涩话落在一件你急不来的事上。（本签与第三十四签同属《火水未济》一卦。）
+question_gate:
+  scope: one_matter
+  rewritten_from:
+    en: Is my daughter going to marry this year?
+    zh: 我女儿今年会出嫁吗？
+  rewritten_to:
+    en: What can I tend this season so that the household's own plan comes to a good
+      ending?
+    zh: 这一季我可以照看什么，让家里自己的打算有个好结局？
+  rewrite_reason:
+    code: third_party_privacy
+    zh_explanation: 原问涉及第三人的私事（婚嫁属他人隐私），故改为问事人自己能照看的那一问。
+  blocked: false
+  disclosed_to_user: true
+guidance:
+  relationships:
+    en: A good ending is marked - commitments made and kept in this season stand on
+      firm ground.
+    zh: 婚姻标着好结尾：这一季里定下并守住的事，站得住。
+    compliance_tag: null
+  career:
+    en: 'The way is open: name what you are aiming at and go, and word of recognition
+      comes to you.'
+    zh: 路是开的：把你要做的说明白再走，认你的话自己会到。
+    compliance_tag: null
+  money:
+    en: Returns come to those who apply themselves; trade and the water both pay in
+      this season. (Not financial advice.)
+    zh: 用心去做就有回报；这一季做买卖、走水路都见收。（非财务建议。）
+    compliance_tag: not_financial_advice
+  health:
+    en: Recovery is favoured and good practitioners appear; keep to ordinary, sensible
+      care. (Not medical advice.)
+    zh: 恢复得好，也遇得上好手；照常理、按常识调养。（非医疗建议。）
+    compliance_tag: not_medical_advice
+  family_home:
+    en: The house is gladdened; descendants and provision both grow, and a move to
+      a fitting place suits the season.
+    zh: 家门有喜；子嗣与福分都往上长，迁到合宜的地方也合这一季。
+    compliance_tag: null
+  travel_moving:
+    en: Going out is well-starred, and a move finds its right place.
+    zh: 出外吉，搬迁找得到合宜的地方。
+    compliance_tag: null
+  sea_and_voyage:
+    en: Good water and good returns for the boats that work it; the season pays those
+      who put out.
+    zh: 好水好收，出船的都有份；这一季报答肯出海的人。
+    compliance_tag: null
+  livelihood_and_seasons:
+    en: Planting, stock and seedbed all take well, and rain comes in time; this is
+      a working season, not a waiting one.
+    zh: 耕作、牲口、鱼苗都拿得住，雨也及时到；这是出力的季节，不是等的季节。
+    compliance_tag: null
+  timing:
+    en: Now, while the willows are green - read as a season, never as a date.
+    zh: 就在当下、柳色正绿之时——按季节读，不按日子读。
+    compliance_tag: seasonal_windows_only
+  what_to_avoid:
+    en: Leaving the work to the season itself; letting the one awkward line about
+      a disputed matter colour the whole reading.
+    zh: 把事全交给季节本身；让关于争议的那一句涩话染了整篇。
+    compliance_tag: null
+  reassurance:
+    en: The season is open; the poem's single caution is not to waste it.
+    zh: 季节是开的；此诗只有一句提醒：别把它荒掉。
+    compliance_tag: null
+stories:
+- title:
+    zh: 董永皇都市仙女送孩兒
+    en: The Fairy Brings Dong Yong a Child at the Imperial City
+  is_primary: true
+  is_variant: false
+  cross_reference_lot: null
+  narrative:
+    zh: 董永是汉代千乘人，家住今天的山东一带。他小时候死了母亲，和父亲相依为命。父亲死时，他没有钱安葬，只好向人借了一万钱，说好日后还不清，就卖身为奴。丧事办完，董永在路边遇见一位妇人。妇人愿意做他的妻子，跟他一起去见债主。债主让他们织三百匹细绢来抵债，妇人不到一个月就织完了。事情了结，妇人向董永告别，说自己本是天上的织女，因为董永孝顺，天帝才派她下凡帮他偿债。说完，她就腾空飞走了。后来又有仙女送孩儿的一段：织女回到天上以后，和董永约定在皇都市上把所生的儿子送还给他。董永得了儿子，家门也重新有了后人。
+    en: Dong Yong lived in the Han dynasty, at Qiansheng, in what is now the Shandong
+      area. His mother died when he was small, and he and his father depended on each
+      other. When his father died he had no money for the burial, so he borrowed ten
+      thousand coins and agreed that if he could not repay them he would sell himself
+      as a servant. After the funeral Dong Yong met a woman by the roadside. She was
+      willing to be his wife and went with him to see the creditor. The creditor told
+      them to weave three hundred bolts of fine silk to pay the debt, and the woman
+      finished the work in less than a month. When it was settled, the woman said
+      goodbye to Dong Yong. She said she was a weaver girl from Heaven, and that because
+      Dong Yong was filial the Heavenly Emperor had sent her down to help him pay
+      the debt. With that she rose into the air and flew away. Later there is the
+      part about a fairy bringing a child. After the weaver girl returned to Heaven
+      she agreed with Dong Yong to give him back the son she had borne, at the imperial
+      city. Dong Yong received the boy and the family had an heir again.
+  poem_connection:
+    zh: 这一签说花果结实、家门有庆，正配董永孝行得报、仙女送还孩儿这一段。
+    en: This lot says flowers bear fruit and the household has a blessing. It fits
+      Dong Yong rewarded for his filial conduct and the fairy bringing back his child.
+- title:
+    zh: 孟姜女招親
+    en: Meng Jiangnu Chooses a Husband
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 传说孟家种了一棵葫芦，藤上结出的葫芦里生出一个女孩，就给她取名孟姜女。她长大以后，一天在后花园里遇见一个年轻人。这人叫范喜良，为了躲避官府的徭役逃难出来。孟姜女见他落魄，便许下婚事，招他为婿。这就是“招亲”。婚后没有多久，范喜良就被官府抓走，押到北方去修长城。孟姜女缝好寒衣，千里迢迢去寻丈夫。到了长城脚下才知道，丈夫已经死了，尸骨被筑进了城墙里。她放声大哭，城墙塌了一段。后来她用滴血认骨的老法子认出丈夫的遗骸，最后投海而死。
+    en: It is said that the Meng family grew a gourd, and from the gourd on the vine
+      a girl was born. They named her Meng Jiangnu. When she was grown, she met a
+      young man one day in the back garden. His name was Fan Xiliang, and he had run
+      away to escape labour service for the government. Meng Jiangnu saw how worn
+      down he was. She promised herself to him in marriage and took him as her husband.
+      This is what the title means by choosing a husband. Not long after the wedding,
+      Fan Xiliang was seized by the government and sent north to build the Great Wall.
+      Meng Jiangnu sewed winter clothes and travelled a thousand li to find her husband.
+      At the foot of the Wall she learned that he was dead. His bones had been built
+      into the wall. She wept aloud, and a stretch of the wall collapsed. Later she
+      used the old test of dripping blood to find which bones were his. In the end
+      she threw herself into the sea and died.
+  poem_connection:
+    zh: 这一签的签诗说绿柳正当时，任你此去开创事业，花果结得实在，福禄自会到家门。孟姜女当春许婚、成家立业，正合“正当时”的话。
+    en: The poem says the green willows are just at their time, and you can go and
+      open your work; the flowers and fruit set solid. Meng Jiangnu married in spring
+      and made her household, which fits just at the time.
+- title:
+    zh: 彭祖三十六妻七十二子臨終無子
+    en: Peng Zu's Thirty-Six Wives and Seventy-Two Sons, and No Son at His Death
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 彭祖是上古有名的长寿人物，姓篯名铿，是颛顼的后代。颛顼是上古的一位帝王。彭祖活得很久，经历夏、商两代而不显老，平日爱吃桂芝。桂芝是一种香草，古人认为吃了能延年。他也常做导引行气的功夫，就是调匀呼吸、活动身子来养身。长寿的名声传得很远。后人说他活了八百岁，这是夸他享寿极长的说法。民间讲他一生娶过三十六个妻子，生过七十二个儿子，子孙满堂。到临终的时候，身边却没有一个儿子为他送终。他一生妻儿众多，到头来却是独自离世。
+    en: Peng Zu was a famous long-lived figure of high antiquity. His surname was
+      Jian and his given name Keng, and he was a descendant of Zhuanxu, an ancient
+      emperor. Peng Zu lived a very long time and passed through the Xia and Shang
+      dynasties without showing age. He liked to eat cassia mushrooms, a fragrant
+      herb that people of old believed lengthened life. He also practiced guided breathing
+      and stretching, that is, steadying the breath and moving the body to keep in
+      health. His fame for long life spread far. Later people said he lived eight
+      hundred years, a way of praising the great length of his years. Popular accounts
+      say he married thirty-six wives in his life and had seventy-two sons, so his
+      house was full of children and grandchildren. Yet at the end, when he lay dying,
+      not one son was beside him to see him off. He had many wives and children all
+      his life, and in the end he left the world alone.
+  poem_connection:
+    zh: 签诗说绿柳苍苍正当时、福禄自有庆家门；彭祖丰足长寿、儿孙众多，正扣这一层。
+    en: The poem says the green willows are thick and this is the right season, and
+      that blessing and salary bring their own celebration to the house. Peng Zu's
+      long life and many sons fit that.
+- title:
+    zh: 彭祖死時無子
+    en: Peng Zu Dies Without a Son
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 彭祖姓篯，名铿，是上古颛顼帝的后人。他经历夏、商两朝，寿命很长，活到七百多岁，相貌却不见衰老。他常年服食桂芝、云母一类药材，又练习导引行气，所以能活得这么久。后来的说法把他的年岁夸大到八百岁，说他先后娶过几十个妻子，生过几十个儿女。他临终的时候，身边却没有儿子为他送终。他一生跨过好几代，见过许多朝代更替。人们讲他，多半讲他活得久，也讲他临终时身旁冷清。他死后，世上再没人见过这样长命的人。他见过的君王，换了一代又一代。
+    en: Peng Zu's family name was Jian and his given name was Keng. He was a descendant
+      of the ancient emperor Zhuanxu. He lived through the Xia and Shang dynasties
+      and lived a very long life, past seven hundred years, yet his face never showed
+      age. He took herbs such as cinnamon and mica over the years and practiced breathing
+      exercises, and this is why he could live so long. Later accounts stretched his
+      age to eight hundred years and said that he married dozens of wives in turn
+      and fathered dozens of sons and daughters. At the end of his life, however,
+      no son stood by him. His one life ran across several ages, and he saw many dynasties
+      change. When people tell of him, they mostly tell of how long he lived, and
+      also of how cold and bare his bedside was at the end. After he died, no one
+      in the world ever saw so long-lived a man again, and the king's he had known
+      were replaced age after age.
+  poem_connection:
+    zh: 这一签写绿柳当春、花果结实，而身后之事自有一番境况，正扣签诗“绿柳苍苍正当时”“花果结实无残谢”。
+    en: Green willows in spring and fruit that sets and ripens, with the matter of
+      what comes after left to its own course, fits a lot whose poem speaks of the
+      willows and of fruit that does not wither.
+- title:
+    zh: 達摩面壁
+    en: Bodhidharma Faces the Wall
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 菩提达摩是古印度南部来的僧人。他从梁朝北上，进入魏地，住在嵩山少林寺。嵩山在中原，少林寺是那里有名的大寺。寺里的人来来去去，他都不为所动。他终日面对石壁而坐，默不作声，旁人猜不透他在做什么，当时的人称他壁观婆罗门。他就这样坐了九年，坐处的石壁上留下他的身影。有个叫神光的僧人仰慕他的道法，站在雪地里不肯离开。达摩并不理他。神光便砍下自己一条手臂，表示决心。达摩这才为他说法，把安心的道理传给他，并交付衣钵。神光就是后来禅宗的二祖慧可。
+    en: Bodhidharma was a monk from southern India. He went north from the Liang court,
+      entered the land of Wei, and stayed at Shaolin Temple on Mount Song. Mount Song
+      lies in the Central Plain, and Shaolin was a famous great temple there. People
+      came and went in the temple, and he was unmoved by all of it. All day he sat
+      facing a rock wall and said nothing. Those about him could not tell what he
+      was doing, and people of the time called him the Wall-Gazing Brahmin. In this
+      way he sat for nine years, and his shadow was left on the rock wall where he
+      sat. A monk named Shenguang admired his teaching and stood in the snow, refusing
+      to leave. Bodhidharma paid him no heed. Then Shenguang cut off one of his own
+      arms to show his resolve. Only then did Bodhidharma teach him, passing on the
+      truth of setting the mind at rest and giving him the robe and bowl. Shenguang
+      was Huike, the second patriarch of Chan Buddhism.
+  poem_connection:
+    zh: 签诗说任君此去作乾坤，花果结实无残谢。达摩北来开宗，传法付衣，正合“花果结实”的收束。
+    en: The lot poem says let this going make a world, and the flower and fruit ripen
+      without fading. Bodhidharma came north to open the school and passed on the
+      robe.
+- title:
+    zh: 唐三藏取經
+    en: Tang Sanzang Fetches the Sutras
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 玄奘是唐朝的僧人，人们叫他唐僧。民间讲他奉唐太宗之命西行取经，受赐三藏的称号，路上收了孙悟空、猪八戒、沙僧三个徒弟。师徒一路经过八十一难，到西天的雷音寺拜见如来，取回真经。头一回搬回来的是一堆白本，一个字也没有，只好折回去换有字的真经。事完之后回到东土，师徒各得了封职。另有一种讲法，说玄奘是金蝉子转世，观音奉佛祖之命东行来找取经的人。这些路途与磨难是一路讲下来的。史册上的实情是他自己出关西行，到天竺求法，天竺就是今天的印度，跟民间讲的缘由并不一样。取经的人马也从最初的一个，一路添到师徒四人。
+    en: 'Xuanzang was a monk of the Tang, and people called him Xuanzang. In the tale
+      he goes west to fetch the scriptures on the order of Emperor Taizong and takes
+      the title Xuanzang. Along the way he takes three disciples: Sun Wukong, Zhu
+      Bajie and Sha Wujing. Master and disciples passed through eighty-one trials
+      on the road and came to Leiyin Temple in the Western Heaven to pay their respects
+      to the Buddha. They carried the true scriptures back. The first load they brought
+      away was a stack of blank volumes with not one word in them. They had to turn
+      back and exchange them for scriptures with writing. Their task done, they came
+      back to the eastern land, and master and disciples each received a post. Another
+      telling makes Xuanzang the rebirth of the Golden Cicada. It has Guanyin go east
+      on the Buddha''s order to look for the man who would fetch the scriptures. These
+      journeys and ordeals were told as one long line. Plainly he went out through
+      the passes on his own to seek the teaching in Tianzhu, Tianzhu being India today.
+      That is not the reason the tale gives. The party of scripture-seekers grew from
+      one man at first to master and three disciples.'
+  poem_connection:
+    zh: 签诗说“任君此去作乾坤”，与玄奘西行取经、终成其事相合；“绿柳苍苍正当时”正取出行正当其时之意。
+    en: The poem gives the traveler the making of the world, which fits Xuanzang going
+      west for the scriptures and finishing the work; the green willows say the setting
+      out is timely.
+- title:
+    zh: 梁夫人擂鼓
+    en: Lady Liang Beats the Battle Drum
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 梁夫人是南宋名将韩世忠的妻子。史书上只称她梁氏。她出身军中，懂得用兵，能亲自带兵。黄天荡一战，韩世忠用八千水军截击金将兀术的大队人马。梁夫人亲自击鼓助战，兵士听见鼓声，人人奋勇，金兵被拦住，渡不过江。双方相持了四十多天。后来金人另开一条河道，才得以脱身。韩世忠镇守楚州时，亲自在荒地上开辟营地、设立军府，和士卒一起干活。梁夫人也亲手织帘子搭屋，帮着料理防务。后世的说部和戏曲把她演成擂鼓督阵、阵前立功的女将。
+    en: Lady Liang was the wife of Han Shizhong, a famous general of the Southern
+      Song. The histories call her only by the surname Liang. She came from army circles,
+      understood the use of troops, and could lead soldiers herself. At the battle
+      of Huangtiandang, Han Shizhong used eight thousand sailors to cut off the large
+      force of the Jin general Wuzhu. Lady Liang beat the drum herself to urge the
+      troops on. When the soldiers heard the drum, every man fought hard. The Jin
+      troops were held back and could not cross the river. The two sides faced each
+      other for more than forty days. In the end the Jin opened another channel and
+      got away. When Han Shizhong held Chuzhou, he opened a camp on waste ground himself
+      and set up a military office, working alongside the soldiers. Lady Liang wove
+      curtains by hand to build huts and helped with the defense arrangements. Later
+      storytellers and opera made her into a woman general who beat the drum to direct
+      the troops and won merit in front of the ranks.
+  poem_connection:
+    zh: 签诗“绿柳苍苍正当时”“任君此去作乾坤”，正当时而大有可为，正对梁夫人擂鼓督战。
+    en: The lot's poem says the green willows are thick and this is just the time,
+      and that one can go and shape heaven and earth. Being at the right time with
+      much to do fits Lady Liang beating the drum.
+- title:
+    zh: 朱亥勸孫臏
+    en: Zhu Hai Admonishes Sun Bin
+  is_primary: false
+  is_variant: true
+  cross_reference_lot: null
+  narrative:
+    zh: 战国时候，孙膑和庞涓同拜一位隐士鬼谷子为师，学的是用兵的本事。孙膑的本事比庞涓大。庞涓先出来做官，在魏国当上大将。他忌恨孙膑的才能，设下圈套陷害，使孙膑被挖去膝盖骨，脸上还被刺了字。孙膑装疯避祸，才逃回齐国，躲进云梦山里。魏国人朱亥有一身力气，仰慕孙膑的名声，亲自进山寻访。他几次相请，还曾在坟前痛哭。他见到孙膑之后，恳切劝他出山。孙膑终于跟着他下山，到魏国去见国君，摆开阵势论说兵法，一时名声大起。这一签说绿柳苍苍正当时，又说任君此去作乾坤，正配孙膑随朱亥下山、重图功业的一段。
+    en: In the Warring States period Sun Bin and Pang Juan both studied under a hermit,
+      Guiguzi, and what they learned was the art of war. Sun Bin was the abler of
+      the two. Pang Juan came out to office first and became a great general in Wei.
+      He was jealous of Sun Bin's ability and laid a trap for him, so that Sun Bin
+      had his kneecaps cut out and his face tattooed. Sun Bin feigned madness to escape
+      danger, fled back to Qi, and hid in the Yunmeng hills. A man of Wei named Zhu
+      Hai had great strength and admired Sun Bin's name, and went into the hills himself
+      to look for him. He invited him out several times, and once wept at his grave.
+      When he met Sun Bin he urged him earnestly to come out of the hills. Sun Bin
+      at last came down with him and went to Wei to meet its ruler, and there laid
+      out his military teaching in full order. His name rose at once.
+  poem_connection:
+    zh: 这一签说绿柳苍苍正当时、任君此去作乾坤，正配孙膑随朱亥下山、再图功业的一段。
+    en: This lot says the green willows are thick and this is the time, and that one
+      can go and make the world - Sun Bin going down the hill with Zhu Hai to seek
+      achievement again.
