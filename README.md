@@ -45,6 +45,9 @@ All project specifications, business model breakdowns, and architectural bluepri
 12. **[11_LOT_CARD_ARTWORK_CATALOG.md](docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md)**
    Master visual catalog containing completed cards (Lots 1–10 & 17), artwork gallery, and full production prompts for all 60 lots.
 
+13. **[12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md](docs/planning/12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md)**
+   Layered card production architecture, authentic 4-character Qin Seal (秦小篆) formula, automated compositor pipeline, and multi-platform SVG/React component implementation.
+
 ---
 
 *Note: As per project guidelines, no code will be implemented until the planning documentation is reviewed and approved.*

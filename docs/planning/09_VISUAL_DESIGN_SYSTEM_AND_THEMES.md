@@ -75,9 +75,9 @@ To capture the physical luxury of a collector's gold-foil oracle deck and elimin
 2. **Authentic 4-Character Qin Seal Stamp (秦小篆 2×2 Grid)**:
    - Square cinnabar red stamp (`#C23B22`).
    - Rather than padding with filler characters, the seal strictly combines the **Ganzhi Pair** and the **2-Digit Card Index** (padded with `零` for single digits):
-     - **Right Column (Top-to-Bottom)**: Heavenly Stem & Earthly Branch (e.g. `甲子`, `甲寅`, `辛巳`).
+     - **Right Column (Top-to-Bottom)**: Heavenly Stem & Earthly Branch (e.g. `甲子`, `甲寅`, `丙申`).
      - **Left Column (Top-to-Bottom)**: 2-digit numeral in Chinese (e.g. `零一`, `零二`, `一七`, `六零`).
-     - *Examples*: Lot 01 = `甲子零一`, Lot 02 = `甲寅零二`, Lot 10 = `乙未一零`, Lot 17 = `辛巳一七`.
+     - *Examples*: Lot 01 = `甲子零一`, Lot 02 = `甲寅零二`, Lot 10 = `乙未一零`, Lot 17 = `丙申一七`, Lot 45 = `辛巳四五`.
 3. **Central Astrological Mandala**: Sacred geometry, lunar phases, constellation lines, and the canonical narrative archetype in fine gold line art (`#D4AF37`) on obsidian slate (`#0D1117`).
 4. **Traditional Chinese Title**: Classical gold calligraphy characters beneath the mandala (e.g. `包公請雷`, `龍蛇交會`).
 5. **English Translation**: Refined gold serif capitals at the bottom (e.g. `BAO GONG / CALLS DOWN THUNDER`).

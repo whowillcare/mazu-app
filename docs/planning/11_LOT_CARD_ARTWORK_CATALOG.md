@@ -18,7 +18,7 @@
 | ![Lot 8](../../assets/cards/lot_08_card.jpg) | **8** | **乙卯零八** | 薛仁貴回家 | **XUE RENGUI**<br>*THE HOMECOMING* | Returning victorious to family courtyard under full moon; peaceful reunion. |
 | ![Lot 9](../../assets/cards/lot_09_card.jpg) | **9** | **乙巳零九** | 龍虎相會 | **DRAGON & TIGER**<br>*THE CONVERGENCE* | Azure Dragon and White Tiger in dynamic equilibrium; yin-yang harmony. |
 | ![Lot 10](../../assets/cards/lot_10_card.jpg) | **10** | **乙未一零** | 岳飛風波亭 | **YUE FEI**<br>*WIND-WAVE PAVILION* | Steadfast general before wind-swept pillars; unyielding integrity. |
-| ![Lot 17](../../assets/cards/lot_17_card.jpg) | **17** | **辛巳一七** | 龍蛇交會 | **DRAGON & SERPENT**<br>*THE ACCORD* | Intertwining celestial dragon and serpent; overcoming grievances into accord. |
+| ![Lot 17](../../assets/cards/lot_17_card.jpg) | **17** | **丙申一七** | 龍蛇交會 | **DRAGON & SERPENT**<br>*THE ACCORD* | Intertwining celestial dragon and serpent; overcoming grievances into accord. |
 
 ---
 
@@ -44,7 +44,7 @@ All remaining cards follow the canonical dataset extracted from [`data/canonical
 | **14** | 丙寅 | **丙寅一四** | 风火家人 | 火 | 桃園三結義 | The Peach Garden Oath | Three sworn brothers raising wine bowls in blooming orchard |
 | **15** | 丙辰 | **丙辰一五** | 雷水解 | 土 | 渭水河太公釣魚 | Jiang Taigong Fishes on the Wei | Wise elder seated on riverbank with straight line, king approaching |
 | **16** | 丙午 | **丙午一六** | 地火明夷 | 水 | 李世民遊地府 | Emperor Taizong in Underworld | Imperial golden dragon aura guiding path through shadows |
-| **17** | 辛巳 | **辛巳一七** | 风泽中孚 | 火 | 龍蛇交會 (莊子試妻) | Dragon & Serpent Accord | Intertwining celestial dragon and serpent spiral *(Completed)* |
+| **17** | 丙申 | **丙申一七** | 风泽中孚 | 火 | 龍蛇交會 (莊子試妻) | Dragon & Serpent Accord | Intertwining celestial dragon and serpent spiral *(Completed)* |
 | **18** | 丙戌 | **丙戌一八** | 泽火革 | 土 | 楊管醉走白鶴樓 | Yang Guan at White Crane Pavilion | Flying celestial white crane circling a mountain pavilion |
 | **19** | 丁丑 | **丁丑一九** | 火水未济 | 水 | 紅孩兒截住路頭 | Red Boy Blocks the Road | Fiery lotus child wielding spear amidst divine flames |
 | **20** | 丁卯 | **丁卯二零** | 天地否 | 金 | 孫悟空大難火燒葫蘆 | Monkey King in Golden Gourd | Sun Wukong leaping from celestial crucible with fiery eyes |
