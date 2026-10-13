@@ -42,6 +42,9 @@ All project specifications, business model breakdowns, and architectural bluepri
 11. **[10_UI_PAGE_MOCKUPS_AND_FUNCTIONAL_FLOWS.md](docs/planning/10_UI_PAGE_MOCKUPS_AND_FUNCTIONAL_FLOWS.md)**
    High-fidelity ASCII wireframes and functional state layouts for all 10 user journey steps.
 
+12. **[11_LOT_CARD_ARTWORK_CATALOG.md](docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md)**
+   Master visual catalog containing completed cards (Lots 1–10 & 17), artwork gallery, and full production prompts for all 60 lots.
+
 ---
 
 *Note: As per project guidelines, no code will be implemented until the planning documentation is reviewed and approved.*
