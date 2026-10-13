@@ -42,10 +42,12 @@ The system is designed with a **Headless API-First Architecture**, separating th
                                        │
                                        ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                            DATA PERSISTENCE                                 │
-│  • PostgreSQL: Relational store for users, charts, orders, CRD logs         │
-│  • Redis: Session locks, anti-spam draw limits, AI response cache           │
-│  • Object Storage (S3 / R2): Generated PDF reports, card artwork assets     │
+│                     DATA PERSISTENCE & CACHING LAYER                        │
+│  • SQLite / LibSQL (Turso / D1): Ultra-lightweight, zero-devops data store  │
+│    - canonical.db (~2MB read-only embedded DB for offline web/mobile/desktop)│
+│    - user_vault.db (WAL-mode SQLite for users, birth charts & CRD logs)     │
+│  • In-Memory / Redis: Session draw cooldowns & AI intent cache              │
+│  • Object Storage (S3 / R2): Generated PDF reports & card artwork assets   │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 

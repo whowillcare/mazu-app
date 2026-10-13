@@ -210,39 +210,67 @@ def serialize_lot(lot_data: dict, user_role: str = "guest") -> dict:
 
 ---
 
-## 5. Database Architecture Recommendation
+## 5. Database Architecture Recommendation: SQLite-First
 
-To support multi-platform delivery (Web, Mobile, Desktop), the recommended database architecture is a **Hybrid Relational + JSONB Store**:
+Given that the canonical lot corpus is immutable and exactly 60 records (~2 MB), PostgreSQL is excessively heavy and cost-inefficient. Instead, the project adopts an **Ultra-Lightweight SQLite-First Architecture**:
 
-### 5.1 Primary Production Backend: PostgreSQL
-- **Table `canonical_lots`**:
-  ```sql
-  CREATE TABLE canonical_lots (
-      id SERIAL PRIMARY KEY,
-      lot_number INT NOT NULL UNIQUE CHECK (lot_number BETWEEN 1 AND 60),
-      ganzhi_zh VARCHAR(10) NOT NULL,
-      ganzhi_pinyin VARCHAR(20) NOT NULL,
-      title_en VARCHAR(255) NOT NULL,
-      title_zh VARCHAR(255) NOT NULL,
-      element VARCHAR(20) NOT NULL,
-      register_level VARCHAR(20) NOT NULL,
-      data JSONB NOT NULL,
-      created_at TIMESTAMPTZ DEFAULT NOW(),
-      updated_at TIMESTAMPTZ DEFAULT NOW()
-  );
+### 5.1 Architecture Overview
+1. **`canonical_lots.db` (Embedded Read-Only SQLite)**:
+   - Houses the 60 canonical lot records with pre-indexed columns and JSON1 support.
+   - Bundled directly into Web (via in-memory cache/WASM), Mobile (via `expo-sqlite`), and Desktop (Tauri).
+   - Guarantees instant sub-millisecond lookups and 100% offline functionality.
+2. **`user_vault.db` (Server-Side / Edge SQLite via LibSQL or WAL-Mode)**:
+   - Manages user accounts, encrypted birth profiles, generated reports, and CRD Art. 16(m) audit logs.
+   - Zero DevOps complexity: single-file backups, low resource footprint (< 50MB RAM), and runs effortlessly on a micro-instance or edge platform (Turso / Cloudflare D1).
 
-  -- Indexing for fast query and Bazi interaction matching
-  CREATE INDEX idx_lots_number ON canonical_lots (lot_number);
-  CREATE INDEX idx_lots_ganzhi ON canonical_lots (ganzhi_zh);
-  CREATE INDEX idx_lots_element ON canonical_lots (element);
-  CREATE INDEX idx_lots_register_level ON canonical_lots (register_level);
-  CREATE INDEX idx_lots_jsonb_gin ON canonical_lots USING gin (data);
-  ```
+### 5.2 Canonical Lots Table Schema (SQLite)
+```sql
+CREATE TABLE canonical_lots (
+    id INTEGER PRIMARY KEY,
+    lot_number INTEGER NOT NULL UNIQUE CHECK (lot_number BETWEEN 1 AND 60),
+    ganzhi_zh TEXT NOT NULL,
+    ganzhi_pinyin TEXT NOT NULL,
+    title_en TEXT NOT NULL,
+    title_zh TEXT NOT NULL,
+    element TEXT NOT NULL,
+    register_level TEXT NOT NULL,
+    payload_json TEXT NOT NULL  -- Complete merged canonical record
+);
 
-### 5.2 Embedded Client-Side / Offline Cache: SQLite
-- For the Desktop (Tauri) and Mobile (React Native / Expo SQLite) apps:
-  - The compiled JSON bundle (`lots_compiled.json`) is embedded directly into the application bundle.
-  - Can be queried via SQLite with JSON1 extensions or held directly in an in-memory Map (< 2MB footprint).
+CREATE INDEX idx_lots_number ON canonical_lots (lot_number);
+CREATE INDEX idx_lots_ganzhi ON canonical_lots (ganzhi_zh);
+CREATE INDEX idx_lots_element ON canonical_lots (element);
+CREATE INDEX idx_lots_register_level ON canonical_lots (register_level);
+```
+
+### 5.3 User Vault & Transactions Table Schema (SQLite)
+```sql
+CREATE TABLE user_profiles (
+    id TEXT PRIMARY KEY,
+    email TEXT UNIQUE,
+    birth_date TEXT,            -- YYYY-MM-DD
+    birth_time TEXT,            -- HH:MM (or NULL if unknown)
+    birth_city TEXT,
+    true_solar_offset_min INT,  -- Longitude-adjusted minutes
+    bazi_json TEXT,             -- Calculated Four Pillars
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE reading_transactions (
+    id TEXT PRIMARY KEY,
+    user_id TEXT REFERENCES user_profiles(id),
+    lot_number INT NOT NULL,
+    inquiry_domain TEXT NOT NULL,
+    reframed_question TEXT,
+    crd_16m_waiver_agreed BOOLEAN NOT NULL DEFAULT 1,
+    crd_waiver_timestamp DATETIME NOT NULL,
+    crd_waiver_ip_hash TEXT NOT NULL,
+    amount_cents INT NOT NULL,
+    currency TEXT DEFAULT 'USD',
+    stripe_payment_intent_id TEXT,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+```
 
 ---
 

@@ -34,7 +34,13 @@ All project specifications, business model breakdowns, and architectural bluepri
    Phased release plan: Phase 1 (Web MVP & Free Flow), Phase 2 (Engine & Payment), Phase 3 (Mobile Apps), Phase 4 (Physical Cards & Expansion).
 
 9. **[08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md](docs/planning/08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md)**
-   Canonical asset specification comparing internal vs. external manuscripts, merged data schema, RBAC visibility filtering, and PostgreSQL/SQLite database design.
+   Canonical asset specification comparing internal vs. external manuscripts, merged data schema, RBAC visibility filtering, and SQLite/LibSQL database design.
+
+10. **[09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md](docs/planning/09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md)**
+   Aesthetic theme synthesis (Golden Thread + CHANI + Mazu Temple Heritage), color tokens, typography, motion design, and sample card artworks.
+
+11. **[10_UI_PAGE_MOCKUPS_AND_FUNCTIONAL_FLOWS.md](docs/planning/10_UI_PAGE_MOCKUPS_AND_FUNCTIONAL_FLOWS.md)**
+   High-fidelity ASCII wireframes and functional state layouts for all 10 user journey steps.
 
 ---
 
