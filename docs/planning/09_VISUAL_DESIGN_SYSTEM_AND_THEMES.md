@@ -67,9 +67,20 @@ To avoid the kitschy, neon-purple "carnival fortune teller" tropes of early inte
 
 ---
 
-## 4. Starter Lot Card Artwork (Samples)
+## 4. Lot Card Layout & The 4-Character Qin Seal Rule
 
-To capture the physical luxury of a collector's gold-foil oracle deck, each of the 60 Lots features custom esoteric line-art combining **astronomical constellations, sacred geometry, the canonical story protagonist, the hexagram trigram, and the Chinese Ganzhi seal stamp**.
+To capture the physical luxury of a collector's gold-foil oracle deck and eliminate AI filler/gibberish characters in seal carvings, every card strictly adheres to a **5-tier vertical hierarchy**:
+
+1. **Top Universal Numeral**: Clean Arabic numeral (`1` to `60`) for instant global recognition across all languages.
+2. **Authentic 4-Character Qin Seal Stamp (秦小篆 2×2 Grid)**:
+   - Square cinnabar red stamp (`#C23B22`).
+   - Rather than padding with filler characters, the seal strictly combines the **Ganzhi Pair** and the **2-Digit Card Index** (padded with `零` for single digits):
+     - **Right Column (Top-to-Bottom)**: Heavenly Stem & Earthly Branch (e.g. `甲子`, `甲寅`, `辛巳`).
+     - **Left Column (Top-to-Bottom)**: 2-digit numeral in Chinese (e.g. `零一`, `零二`, `一七`, `六零`).
+     - *Examples*: Lot 01 = `甲子零一`, Lot 02 = `甲寅零二`, Lot 10 = `乙未一零`, Lot 17 = `辛巳一七`.
+3. **Central Astrological Mandala**: Sacred geometry, lunar phases, constellation lines, and the canonical narrative archetype in fine gold line art (`#D4AF37`) on obsidian slate (`#0D1117`).
+4. **Traditional Chinese Title**: Classical gold calligraphy characters beneath the mandala (e.g. `包公請雷`, `龍蛇交會`).
+5. **English Translation**: Refined gold serif capitals at the bottom (e.g. `BAO GONG / CALLS DOWN THUNDER`).
 
 ### Starter Sample 1: Lot 01 · 甲子 (Jia-zi) — *Bao Gong Calls Down Thunder*
 - **Theme**: Integrity, clearing doubts, celestial justice.
