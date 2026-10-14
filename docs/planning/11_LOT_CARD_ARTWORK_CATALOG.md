@@ -77,14 +77,14 @@ All remaining cards follow the canonical dataset extracted from [`data/canonical
 | **47** | 辛酉 | **辛酉四七** | 天地否 | 木 | 高祖封韓信 | Han Xin Invested as General | Imperial altar platform, general receiving bronze military seals *(Completed)* |
 | **48** | 辛亥 | **辛亥四八** | 水地比 | 金 | 班超投筆從戎 | Ban Chao Casts Aside the Brush | Scholar throwing calligraphy brush onto desk and taking up spear *(Completed)* |
 | **49** | 壬子 | **壬子四九** | 地雷复 | 木 | 蘇武牧羊 | Su Wu Shepherds Sheep | Lone faithful exile holding imperial rod amidst northern snows *(Completed)* |
-| **50** | 壬寅 | **壬寅五零** | 地风升 | 火 | 小兒路遇孔子 | Xiang Tuo Meets Confucius | Clever child challenging carriage of sage Confucius with riddles |
-| **51** | 壬辰 | **壬辰五一** | 泽地萃 | 金 | 東坡看雙姝 | Su Dongpo and the Two Sisters | Literary master composing verses in bamboo pavilion by lotus pond |
-| **52** | 壬午 | **壬午五二** | 水山蹇 | 土 | 宋江走安東 | Song Jiang Flees to Andong | Traveling boat drifting down reeds river at misty dusk |
-| **53** | 壬申 | **壬申五三** | 雷天大壮 | 金 | 蘇秦夫妻相會 | Su Qin's Joyful Reunion | Statesman adorned with six prime minister seals embracing wife |
-| **54** | 壬戌 | **壬戌五四** | 水天需 | 水 | 念月英相哥 | Nian Yueying and Her Suitor | Maiden looking out carved wooden window at moonlit river |
-| **55** | 癸丑 | **癸丑五五** | 地山谦 | 木 | 郭巨埋兒得金 | Guo Ju Unearths Gold | Filial son digging earth, unearthing glowing vase of golden coins |
-| **56** | 癸卯 | **癸卯五六** | 天泽履 | 金 | 范蠡歸湖 | Fan Li Sails into the Mist | Wise minister poling solitary boat across serene misty lake |
-| **57** | 癸巳 | **癸巳五七** | 地风升 | 水 | 董永皇陵賣身 | Dong Yong and the Silk Maiden | Celestial weaving fairy descending on rainbow cloud to reward filial son |
+| **50** | 壬寅 | **壬寅五零** | 地风升 | 火 | 小兒路遇孔子 | Xiang Tuo Meets Confucius | Clever child challenging carriage of sage Confucius with riddles *(Completed)* |
+| **51** | 壬辰 | **壬辰五一** | 泽地萃 | 金 | 東坡看雙姝 | Su Dongpo and the Two Sisters | Literary master composing verses in bamboo pavilion by lotus pond *(Completed)* |
+| **52** | 壬午 | **壬午五二** | 水山蹇 | 土 | 宋江走安東 | Song Jiang Flees to Andong | Traveling boat drifting down reeds river at misty dusk *(Completed)* |
+| **53** | 壬申 | **壬申五三** | 雷天大壮 | 金 | 蘇秦夫妻相會 | Su Qin's Joyful Reunion | Statesman adorned with six prime minister seals embracing wife *(Completed)* |
+| **54** | 壬戌 | **壬戌五四** | 水天需 | 水 | 念月英相哥 | Nian Yueying and Her Suitor | Maiden looking out carved wooden window at moonlit river *(Completed)* |
+| **55** | 癸丑 | **癸丑五五** | 地山谦 | 木 | 郭巨埋兒得金 | Guo Ju Unearths Gold | Filial son digging earth, unearthing glowing vase of golden coins *(Completed)* |
+| **56** | 癸卯 | **癸卯五六** | 天泽履 | 金 | 范蠡歸湖 | Fan Li Sails into the Mist | Wise minister poling solitary boat across serene misty lake *(Completed)* |
+| **57** | 癸巳 | **癸巳五七** | 地风升 | 水 | 董永皇陵賣身 | Dong Yong and the Silk Maiden | Celestial weaving fairy descending on rainbow cloud to reward filial son *(Completed)* |
 | **58** | 癸未 | **癸未五八** | 山风蛊 | 木 | 袁達入關受挫 | Yuan Da Confronts the Pass | Armored warrior facing impenetrable mountain citadel walls |
 | **59** | 癸酉 | **癸酉五九** | 泽风大过 | 金 | 皇叔別徐庶 | Liu Bei Parts with Xu Shu | Lord and strategist bowing farewell on horseback beneath weeping willow |
 | **60** | 癸亥 | **癸亥六零** | 坤为地 | 水 | 薛剛踢死皇子 | Xue Gang at Lantern Festival | Rousing night festival with dragon dances, lanterns, and sudden twists |
