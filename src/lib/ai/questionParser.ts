@@ -278,9 +278,9 @@ Output strictly valid JSON with no markdown fences:
     const cleanJson = content.replace(/^```json\s*|```\s*$/g, '').trim();
     const parsed = JSON.parse(cleanJson);
 
-    const detectedDomains: DomainCategory[] = (parsed.detectedDomains || []).filter((d: any) =>
-      DOMAINS.some((m) => m.key === d)
-    );
+    const detectedDomains: DomainCategory[] = (parsed.detectedDomains || []).filter((d: unknown) =>
+      typeof d === 'string' && DOMAINS.some((m) => m.key === d)
+    ) as DomainCategory[];
 
     const primaryDomain = (parsed.primaryDomain && DOMAINS.some((m) => m.key === parsed.primaryDomain))
       ? (parsed.primaryDomain as DomainCategory)
@@ -305,21 +305,21 @@ Output strictly valid JSON with no markdown fences:
       isFatalistic: Boolean(parsed.isFatalistic),
       reframedQuestionEn: parsed.reframedQuestionEn || question,
       reframedQuestionZh: parsed.reframedQuestionZh || question,
-      suggestedQuestions: (parsed.suggestedQuestions || []).map((s: any) => {
+      suggestedQuestions: (parsed.suggestedQuestions || []).map((s: { domain?: unknown; questionEn?: string; questionZh?: string }) => {
         const d = (s.domain as DomainCategory) || primaryDomain;
         const meta = DOMAINS.find((m) => m.key === d) || DOMAINS[0];
         return {
           domain: d,
           domainTitleEn: meta.titleEn,
           domainTitleZh: meta.titleZh,
-          questionEn: s.questionEn,
-          questionZh: s.questionZh,
+          questionEn: s.questionEn || '',
+          questionZh: s.questionZh || '',
         };
       }),
       confidence: 0.95,
       provider: 'llm',
     };
-  } catch (err) {
+  } catch {
     clearTimeout(timeoutId);
     return null;
   }

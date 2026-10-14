@@ -14,7 +14,13 @@ export default function MazuLotApp() {
   const [currentStep, setCurrentStep] = useState<JourneyStep>('porch');
 
   // Preferences State
-  const [language, setLanguage] = useState<SupportedLanguage>('en');
+  const [language, setLanguage] = useState<SupportedLanguage>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('mazu_lang') as SupportedLanguage;
+      if (saved === 'en' || saved === 'zh-TW') return saved;
+    }
+    return 'en';
+  });
   const [displayMode, setDisplayMode] = useState<'clean' | 'bilingual'>('clean');
   const [showPreferences, setShowPreferences] = useState(false);
   const [showAlternativeVerse, setShowAlternativeVerse] = useState(false);
@@ -22,8 +28,6 @@ export default function MazuLotApp() {
   // User Inquiry State
   const [selectedDomain, setSelectedDomain] = useState<DomainCategory>('career');
   const [userQuestion, setUserQuestion] = useState('Will I get the senior director promotion next month?');
-  const [reframedQuestion, setReframedQuestion] = useState('');
-  const [gateReason, setGateReason] = useState('');
 
   // AI Inquiry Analysis State
   const [analysis, setAnalysis] = useState<QuestionAnalysisResult | null>(null);
@@ -44,14 +48,6 @@ export default function MazuLotApp() {
     interaction: LotBaziInteraction;
     solarAdjustment: { offsetMinutes: number; trueSolarTime: string };
   } | null>(null);
-
-  // Load saved language on mount
-  useEffect(() => {
-    const saved = localStorage.getItem('mazu_lang') as SupportedLanguage;
-    if (saved === 'en' || saved === 'zh-TW') {
-      setLanguage(saved);
-    }
-  }, []);
 
   const t = translations[language];
 
@@ -110,8 +106,6 @@ export default function MazuLotApp() {
       const data = await res.json();
       if (data.success && data.lot) {
         setDrawnLot(data.lot);
-        setReframedQuestion(data.questionGate?.reframedQuestion || userQuestion);
-        setGateReason(data.questionGate?.reason || '');
       }
     } catch (err) {
       console.error('Error drawing lot:', err);

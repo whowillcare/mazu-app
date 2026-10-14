@@ -82,7 +82,7 @@ export interface CanonicalLot {
       raw_temple_text?: Record<string, string>;
       visibility?: string;
     };
-    [key: string]: any;
+    [key: string]: unknown;
   };
   provenance: string;
   verse: VerseInfo;

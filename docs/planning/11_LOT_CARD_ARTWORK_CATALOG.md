@@ -52,19 +52,19 @@ All remaining cards follow the canonical dataset extracted from [`data/canonical
 | **22** | 丁未 | **丁未二二** | 泽风大过 | 水 | 王翦戰李牧 | Wang Jian and Li Mu | Two legendary strategists surveying battlefield terrain *(Completed)* |
 | **23** | 丁酉 | **丁酉二三** | 火泽睽 | 火 | 周子羽走國入陳 | Zhou Ziyu Seeks Refuge | Lone chariot traveling across open autumn plains *(Completed)* |
 | **24** | 丁亥 | **丁亥二四** | 火天大有 | 金 | 孟良焦贊救宗寶 | Rescue of Yang Zongbao | Valorous rescue cavalry galloping under the northern star *(Completed)* |
-| **25** | 戊子 | **戊子二五** | 雷地豫 | 火 | 孟姜女送寒衣 | Meng Jiangnu at the Great Wall | Devoted traveler carrying garments before towering stone wall |
-| **26** | 戊寅 | **戊寅二六** | 天泽履 | 土 | 范丹問佛 | Fan Dan Inquires of the Buddha | Humble scholar conversing with serene golden Buddha seated in lotus |
-| **27** | 戊辰 | **戊辰二七** | 泽天夬 | 木 | 胡完救文氏母女 | Hu Wan Rescues Widow Wen | Loyal guardian guiding lantern through bamboo groves at night |
-| **28** | 戊午 | **戊午二八** | 雷火丰 | 火 | 李存孝打虎 | Li Cunxiao Subdues the Tiger | Mythic youthful hero wrestling golden tiger on rocky crag |
-| **29** | 戊申 | **戊申二九** | 地泽临 | 土 | 趙子龍救阿斗 | Zhao Zilong at Changban Slope | Gallant armored general galloping through battle carrying infant |
-| **30** | 戊戌 | **戊戌三零** | 天水讼 | 木 | 豬八戒大鬧爛柿山 | Pigsy at Rotten Persimmon Hill | Mountain pass carved open through ancient misty forest |
-| **31** | 己丑 | **己丑三一** | 山泽损 | 水 | 孟姜女招親 | Meng Jiangnu's Betrothal | Traditional red lantern wedding archway in ancient village |
-| **32** | 己卯 | **己卯三二** | 风火家人 | 土 | 常何薦馬周 | Chang He Recommends Ma Zhou | Brilliant scholar presenting imperial memorial at court |
-| **33** | 己巳 | **己巳三三** | 天水讼 | 金 | 鮑叔牙薦管仲 | Bao Shuya Backs Guan Zhong | Two sworn statesmen clasping hands beneath ancient pine |
-| **34** | 己未 | **己未三四** | 火风鼎 | 火 | 蕭何追韓信 | Xiao He Chases Han Xin | Galloping horseman pursuing traveler beneath crescent moon |
-| **35** | 己酉 | **己酉三五** | 风天小畜 | 土 | 吳漢殺妻 | Wu Han's Moral Ordeal | Sword resting on altar table beside incense and ancestral tablets |
-| **36** | 己亥 | **己亥三六** | 火水未济 | 木 | 薛仁貴救駕 | Xue Rengui Rescues the Emperor | Archer piercing through enemy ranks to shield the imperial chariot |
-| **37** | 庚子 | **庚子三七** | 山天大畜 | 金 | 正德君看大龜 | Zhengde Emperor and Sacred Turtle | Ancient giant tortoise rising from lotus pool holding jade tablet |
+| **25** | 戊子 | **戊子二五** | 雷地豫 | 火 | 孟姜女送寒衣 | Meng Jiangnu at the Great Wall | Devoted traveler carrying garments before towering stone wall *(Completed)* |
+| **26** | 戊寅 | **戊寅二六** | 天泽履 | 土 | 范丹問佛 | Fan Dan Inquires of the Buddha | Humble scholar conversing with serene golden Buddha seated in lotus *(Completed)* |
+| **27** | 戊辰 | **戊辰二七** | 泽天夬 | 木 | 胡完救文氏母女 | Hu Wan Rescues Widow Wen | Loyal guardian guiding lantern through bamboo groves at night *(Completed)* |
+| **28** | 戊午 | **戊午二八** | 雷火丰 | 火 | 李存孝打虎 | Li Cunxiao Subdues the Tiger | Mythic youthful hero wrestling golden tiger on rocky crag *(Completed)* |
+| **29** | 戊申 | **戊申二九** | 地泽临 | 土 | 趙子龍救阿斗 | Zhao Zilong at Changban Slope | Gallant armored general galloping through battle carrying infant *(Completed)* |
+| **30** | 戊戌 | **戊戌三零** | 天水讼 | 木 | 豬八戒大鬧爛柿山 | Pigsy at Rotten Persimmon Hill | Mountain pass carved open through ancient misty forest *(Completed)* |
+| **31** | 己丑 | **己丑三一** | 山泽损 | 水 | 孟姜女招親 | Meng Jiangnu's Betrothal | Traditional red lantern wedding archway in ancient village *(Completed)* |
+| **32** | 己卯 | **己卯三二** | 风火家人 | 土 | 常何薦馬周 | Chang He Recommends Ma Zhou | Brilliant scholar presenting imperial memorial at court *(Completed)* |
+| **33** | 己巳 | **己巳三三** | 天水讼 | 金 | 鮑叔牙薦管仲 | Bao Shuya Backs Guan Zhong | Two sworn statesmen clasping hands beneath ancient pine *(Completed)* |
+| **34** | 己未 | **己未三四** | 火风鼎 | 火 | 蕭何追韓信 | Xiao He Chases Han Xin | Galloping horseman pursuing traveler beneath crescent moon *(Completed)* |
+| **35** | 己酉 | **己酉三五** | 风天小畜 | 土 | 吳漢殺妻 | Wu Han's Moral Ordeal | Sword resting on altar table beside incense and ancestral tablets *(Completed)* |
+| **36** | 己亥 | **己亥三六** | 火水未济 | 木 | 薛仁貴救駕 | Xue Rengui Rescues the Emperor | Archer piercing through enemy ranks to shield the imperial chariot *(Completed)* |
+| **37** | 庚子 | **庚子三七** | 山天大畜 | 金 | 正德君看大龜 | Zhengde Emperor and Sacred Turtle | Ancient giant tortoise rising from lotus pool holding jade tablet *(Completed)* |
 | **38** | 庚寅 | **庚寅三八** | 火水未济 | 木 | 劉備三請諸葛亮 | Liu Bei's Three Visits | Snow-covered thatched cottage in Longzhong, three figures waiting |
 | **39** | 庚辰 | **庚辰三九** | 天泽履 | 金 | 楊文廣破飛鵝山 | Yang Wenguang at Flying Goose Hill | Young general standing victorious atop mountain peak under sun |
 | **40** | 庚午 | **庚午四零** | 雷风恒 | 土 | 包公斷真假牡丹 | Bao Gong and the Two Peonies | Magistrate examining two identical glowing golden peony flowers |
