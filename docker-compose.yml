@@ -26,7 +26,7 @@ services:
       labels:
         DESCRIPTION: ''
         DOMAINS: mazu.wit4you.com
-        UPSTREAM: mazu_app
+        UPSTREAM: mazu-app
         EXPOSE: 3000
         SSL: 2
         ISWEB: 2
