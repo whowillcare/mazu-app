@@ -19,8 +19,6 @@ services:
     networks:
       - outside
       - internal
-    volumes:
-      - ${SHAREMNT}/.mazu:/app/data
     deploy:
       replicas: 1
       labels:
