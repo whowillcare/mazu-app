@@ -1,22 +1,39 @@
+networks:
+  internal:
+    external: true
+    name: ${INTRANET:-internal}
+  outside:
+    external: true
+    name: ${LBE}
+
 services:
   mazu-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: mazu-sixty-lots:latest
-    container_name: mazu_lots_app
-    restart: unless-stopped
-    ports:
-      - "3000:3000"
+    image: ${REGISTRY:-127.0.0.1:5000}/mazu-app:latest
     environment:
       - NODE_ENV=production
       - PORT=3000
-      - HOSTNAME=0.0.0.0
       - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY:-}
       - STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET:-}
+    networks:
+      - outside
+      - internal
     volumes:
-      - mazu_data:/app/data
-
-volumes:
-  mazu_data:
-    driver: local
+      - ${SHAREMNT}/.mazu:/app/data
+    deploy:
+      replicas: 1
+      labels:
+        DESCRIPTION: ''
+        DOMAINS: mazu.wit4you.com
+        UPSTREAM: mazu_app
+        EXPOSE: 3000
+        SSL: 2
+        ISWEB: 2
+        OUTEREXTRA: |-
+          server {
+          listen 443 ssl;
+          listen 80;
+          server_name mazu.wit4you.com;
+          include ssl/ssl.conf;
+          include ssl/*wit4you.com[.]conf;
+          return 301 https://mazu.wit4you.com$$request_uri;
+          }
