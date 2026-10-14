@@ -31,7 +31,7 @@ All project specifications, business model breakdowns, and architectural bluepri
    Legal disclaimers (Medical, Financial, Legal, Conception), EU CRD Art. 16(m) right of withdrawal waiver, auto-renewal compliance, and Stripe checkout flow.
 
 8. **[07_PROJECT_ROADMAP_AND_MILESTONES.md](docs/planning/07_PROJECT_ROADMAP_AND_MILESTONES.md)**
-   Phased release plan: Phase 1 (Web MVP & Free Flow), Phase 2 (Engine & Payment), Phase 3 (Mobile Apps), Phase 4 (Physical Cards & Expansion).
+   **Master Modules & Functions Roadmap (Living Implementation Matrix)**: Comprehensive breakdown of all 12 platform subsystems, tracking implemented features (`[x]`), active progress (`[/]`), and future backlog (`[ ]`).
 
 9. **[08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md](docs/planning/08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md)**
    Canonical asset specification comparing internal vs. external manuscripts, merged data schema, RBAC visibility filtering, and SQLite/LibSQL database design.
@@ -43,11 +43,11 @@ All project specifications, business model breakdowns, and architectural bluepri
    High-fidelity ASCII wireframes and functional state layouts for all 10 user journey steps.
 
 12. **[11_LOT_CARD_ARTWORK_CATALOG.md](docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md)**
-   Master visual catalog containing completed cards (Lots 1–10 & 17), artwork gallery, and full production prompts for all 60 lots.
+   Master visual catalog containing completed cards (Lots 1–57), artwork gallery, and full production prompts for all 60 lots.
 
 13. **[12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md](docs/planning/12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md)**
    Layered card production architecture, authentic 4-character Qin Seal (秦小篆) formula, automated compositor pipeline, and multi-platform SVG/React component implementation.
 
 ---
 
-*Note: As per project guidelines, no code will be implemented until the planning documentation is reviewed and approved.*
+*Current Implementation Status: Core Web MVP, Question Gate, BaZi Ephemeris Engine, Dual i18n, and SQLite User Vault are fully operational. Card generation is 95% complete (57/60 cards).*

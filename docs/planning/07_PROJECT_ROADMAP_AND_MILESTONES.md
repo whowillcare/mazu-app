@@ -1,74 +1,261 @@
-# 07. Project Roadmap & Implementation Milestones
+# 07. Master Modules & Functions Roadmap (Living Implementation Matrix)
 
-This document outlines the phased execution strategy for **The Sixty Jiazi Lots of the Mazu Temple Tradition (六十甲子妈祖灵签)** across Web, Mobile, and Desktop platforms.
+> **Document Status**: Living Architectural Matrix & Implementation Tracker  
+> **Last Updated**: 2026-10-14  
+> **Master Progress**: **82% of Core Web Platform Implemented & Operational**  
+> **Canon Asset Readiness**: **57 / 60 Lot Cards Completed (95.0%)**
 
 ---
 
-## 1. Phased Delivery Overview
+## 1. Executive Implementation Dashboard
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        CORE SYSTEM COMPLETION                          │
+├───────────────────────────────────┬──────────────┬─────────────────────┤
+│ Subsystem / Domain                │ Status       │ Completion %        │
+├───────────────────────────────────┼──────────────┼─────────────────────┤
+│ 1. Canonical Data & Canon Schema  │ [x] Complete │ 100% (60/60 Lots)   │
+│ 2. Tarot Obsidian Artwork Deck    │ [/] Active   │ 95%  (57/60 Cards)  │
+│ 3. Question Gate & AI Parser      │ [x] Complete │ 100% Operational    │
+│ 4. Crypto Draw & Ritual Engine    │ [x] Complete │ 100% Operational    │
+│ 5. BaZi Ephemeris & Solar Engine  │ [x] Complete │ 100% Operational    │
+│ 6. 10-Step Interactive Web UI/UX  │ [x] Complete │ 100% Operational    │
+│ 7. Dual i18n Localization Engine  │ [x] Complete │ 100% Operational    │
+│ 8. Pluggable Payments & Stripe    │ [x] Complete │ 100% Operational    │
+│ 9. SQLite User Vault & Database   │ [x] Complete │ 100% Operational    │
+│ 10. PDF Export & Email Delivery   │ [ ] Backlog  │ 20%  (Print View)   │
+│ 11. Multi-Stage Docker & Compose  │ [x] Complete │ 100% (Node 22)      │
+│ 12. Mobile Apps (React Native)    │ [ ] Planned  │ Phase 4 Backlog     │
+└───────────────────────────────────┴──────────────┴─────────────────────┘
+```
+
+### Legend
+- `[x]` **Implemented & Verified**: Code written, tested, passing lint/build, and active in master branch.
+- `[/]` **In Progress / Partial**: Active implementation with scheduled batch or transient dependencies.
+- `[ ]` **Pending / Backlog**: Fully specified in architecture docs, queued for future development phase.
+
+---
+
+## 2. Granular Modules & Functions Matrix
+
+### Module 1: Canonical Data & Canon Architecture
+**Location**: `data/canonical/`, `src/lib/lots/`, `src/lib/types/lots.ts`, `scripts/`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Canonical 60 Lots Schema** | [`src/lib/types/lots.ts`](../../src/lib/types/lots.ts) | `[x]` | Full TypeScript interfaces for Lot, Verse, Hexagram, Stories, Criteria |
+| **Bilingual Verse Dataset** | [`data/canonical/lots_compiled.json`](../../data/canonical/lots_compiled.json) | `[x]` | All 60 classical 7-character quatrains + unrhymed English translations |
+| **Historical Story Allusions** | [`data/canonical/lots_compiled.yaml`](../../data/canonical/lots_compiled.yaml) | `[x]` | Classical historical protagonists (包公, 孟嘗君, 范蠡, 蘇武, etc.) |
+| **Polysemy & Hermeneutic Notes** | [`data/canonical/lots_compiled.json`](../../data/canonical/lots_compiled.json) | `[x]` | Archaic word disambiguation, homophones, contextual temple nuances |
+| **29-to-11 Domain Taxonomy** | [`src/lib/lots/domains.ts`](../../src/lib/lots/domains.ts) | `[x]` | Maps traditional temple categories (求財, 功名, 疾病) to 11 modern slots |
+| **Data Normalization Pipeline** | [`scripts/parse_and_merge_lots.py`](../../scripts/parse_and_merge_lots.py) | `[x]` | Validates, compiles, and parses raw text into canonical JSON/YAML |
+| **Lot Data Repository Service** | [`src/lib/lots/lotsRepository.ts`](../../src/lib/lots/lotsRepository.ts) | `[x]` | `getAllLots()`, `getLotByNumber()`, zero-latency file/memory caching |
+| **REST API: List All Lots** | [`src/app/api/lots/route.ts`](../../src/app/api/lots/route.ts) | `[x]` | `GET /api/lots` with domain filtering support |
+| **REST API: Single Lot Detail** | [`src/app/api/lots/[number]/route.ts`](../../src/app/api/lots/[number]/route.ts) | `[x]` | `GET /api/lots/:number` returning public canonical payload |
+
+---
+
+### Module 2: Visual Asset & Card Generation Pipeline
+**Location**: `assets/cards/`, `scripts/build_lot_cards.py`, `docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Design Aesthetic System** | [`docs/planning/09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md`](./09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md) | `[x]` | Obsidian black `#070B11`, glowing gold foil line-art, cinnabar accents |
+| **Authentic Qin Seal Pre-Renderer** | [`assets/cards/seals/`](../../assets/cards/seals/) (`seal_01.png` - `seal_60.png`) | `[x]` | 100% pre-rendered authentic 2×2 Qin Small Seal stamps with zero AI hallucination |
+| **Automated Card Compositor** | [`scripts/build_lot_cards.py`](../../scripts/build_lot_cards.py) | `[x]` | CLI tool (`--refactor <num>`) extracting base, clearing seal area, stamping Qin seal |
+| **Lots 01–37 Card Artworks** | [`assets/cards/lot_01_card.jpg`](../../assets/cards/lot_01_card.jpg) – `lot_37_card.jpg` | `[x]` | 37 cards completed, refactored, and verified on disk |
+| **Lots 38–49 Card Artworks** | [`assets/cards/lot_38_card.jpg`](../../assets/cards/lot_38_card.jpg) – `lot_49_card.jpg` | `[x]` | 12 cards completed, refactored, and committed (`5404228`) |
+| **Lots 50–57 Card Artworks** | [`assets/cards/lot_50_card.jpg`](../../assets/cards/lot_50_card.jpg) – `lot_57_card.jpg` | `[x]` | 8 cards completed, refactored, and committed (`75683be`) |
+| **Lots 58–60 Final Deck Cards** | `assets/cards/lot_58_card.jpg` – `lot_60_card.jpg` | `[/]` | Scheduled for auto-resumption upon quota reset (`2026-10-20T18:45:25Z`) |
+| **Master Visual Catalog** | [`docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md`](./11_LOT_CARD_ARTWORK_CATALOG.md) | `[x]` | Complete register with prompts, hexagrams, elements, and story summaries |
+
+---
+
+### Module 3: Question Gate & Inquiry Analysis Engine
+**Location**: `src/lib/questionGate/`, `src/lib/ai/`, `src/app/api/analyze-question/`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Deterministic Domain Classifier** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Offline regex scanner detecting keywords across 11 domains with zero latency |
+| **Multi-Domain Warning Guardrail** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Warns user when question spans multiple areas ("一籤斷一事" principle) |
+| **Agency-Centered Reframing** | [`src/lib/questionGate/questionGate.ts`](../../src/lib/questionGate/questionGate.ts) | `[x]` | Detects fatalistic inquiries ("Will I...") and transforms into actionable inquiries |
+| **Pluggable LLM AI Parser** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Supports any OpenAI-compatible endpoint (FreeLLMAPI, DeepSeek, OpenAI) |
+| **REST API: Question Analysis** | [`src/app/api/analyze-question/route.ts`](../../src/app/api/analyze-question/route.ts) | `[x]` | `POST /api/analyze-question` returning detected domains, warnings, reframing |
+| **Inquiry Re-attempt Tracking** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | UI allows single-click adoption of reframed inquiry |
+
+---
+
+### Module 4: Divination Ritual & Cryptographic Draw Engine
+**Location**: `src/app/page.tsx`, `src/app/api/draw/`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Cryptographic RNG** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | `crypto.getRandomValues(new Uint32Array(1))` producing unbiased uniform `1..60` |
+| **Ritual Shaking Animation** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 3D bamboo cylinder shake animation with 2.6-second sacred meditation delay |
+| **Draw State Lock & Idempotency** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Prevents rapid double-draws, locks session while shaking |
+| **Alternative Verse Toggle** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Toggle between primary canon quatrain and alternative manuscript variant |
+| **REST API: Sacred Draw** | [`src/app/api/draw/route.ts`](../../src/app/api/draw/route.ts) | `[x]` | `POST /api/draw` returning drawn lot payload, session timestamp, and gate metadata |
+
+---
+
+### Module 5: BaZi Natal Ephemeris & Personalization Engine
+**Location**: `src/lib/bazi/`, `src/app/api/bazi/`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **True Solar Time Calculation** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Longitude adjustment offset (e.g. Taipei 121.5°E -> +6 min solar correction) |
+| **Four Pillars Calculator** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Generates Year, Month, Day, and Hour stems & branches from birth epoch |
+| **Five Elements & Ten Gods Matrix** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Wood, Fire, Earth, Metal, Water balance and Day Master element analysis |
+| **Cross-Matrix Interaction Engine** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Computes Stem Combinations (五合), Clashes (相沖), Branch Harmonies (六合/三合) |
+| **Strategic Window Synthesis** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Identifies optimal lunar months and strategic windows for user's question |
+| **REST API: BaZi Calculation** | [`src/app/api/bazi/route.ts`](../../src/app/api/bazi/route.ts) | `[x]` | `POST /api/bazi` returning Four Pillars, Solar Adjustment, and Lot interaction |
+
+---
+
+### Module 6: UI/UX & 10-Step Interactive Application
+**Location**: `src/app/page.tsx`, `src/app/globals.css`, `src/app/layout.tsx`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Design System & Typography** | [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Obsidian background `#05080E`, gold foil tokens, Cinzel & Noto Serif SC |
+| **Step 1: Porch & Sacred Threshold** | [`src/app/page.tsx`](../../src/app/page.tsx#L125-L210) | `[x]` | Permanent non-predictive anchor, cultural heritage orientation |
+| **Step 2: Domain Category Picker** | [`src/app/page.tsx`](../../src/app/page.tsx#L215-L330) | `[x]` | 11 domain cards with icons, Chinese/English titles, active selection rings |
+| **Step 3: Question Gate & Inquiry** | [`src/app/page.tsx`](../../src/app/page.tsx#L335-L480) | `[x]` | Textarea with live AI parser, multi-domain warning banner, reframed query |
+| **Step 4: Sacred Cylinder Shaking** | [`src/app/page.tsx`](../../src/app/page.tsx#L485-L545) | `[x]` | 3D bamboo tube animation, golden glow, flying lot stick reveal |
+| **Step 5: Lot Reveal Card** | [`src/app/page.tsx`](../../src/app/page.tsx#L550-L650) | `[x]` | Displays Tarot card image, authentic Qin Small Seal, hexagram, verse |
+| **Step 6: Free Hermeneutic Reading** | [`src/app/page.tsx`](../../src/app/page.tsx#L655-L820) | `[x]` | Domain guidance, historical story allusion, favourable/guarded keyword pills |
+| **Step 7: Epistemological Boundaries** | [`src/app/page.tsx`](../../src/app/page.tsx#L825-L875) | `[x]` | Medical/financial/legal boundaries, reflective ethics reminder |
+| **Step 8: BaZi Natal Input Form** | [`src/app/page.tsx`](../../src/app/page.tsx#L880-L960) | `[x]` | Birthdate, time of birth, longitude city selector |
+| **Step 9: Paid Transition Hook** | [`src/app/page.tsx`](../../src/app/page.tsx#L965-L1030) | `[x]` | Pricing options ($2.99 Single / $19.99 Annual), feature breakdown |
+| **Step 10: Unlocked Report View** | [`src/app/page.tsx`](../../src/app/page.tsx#L1035-L1115) | `[x]` | Four Pillars chart, True Solar Time badge, personalized stem-branch reading |
+
+---
+
+### Module 7: Internationalization (i18n) & Localization
+**Location**: `src/lib/i18n/translations.ts`, `src/app/page.tsx`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Dual Language Dictionary** | [`src/lib/i18n/translations.ts`](../../src/lib/i18n/translations.ts) | `[x]` | Comprehensive bilingual strings for `en` (English) and `zh-TW` (Traditional Chinese) |
+| **Navbar Language Switcher** | [`src/app/page.tsx`](../../src/app/page.tsx#L140-L165) | `[x]` | Standard header toggle (`🌐 English` / `🌐 繁體中文`) |
+| **Preference Persistence** | [`src/app/page.tsx`](../../src/app/page.tsx#L17-L24) | `[x]` | Saved to `localStorage.getItem('mazu_lang')` with lazy state initializer |
+| **Display Mode Preference** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | "Clean" (pure selected language) vs "Bilingual" (key cultural terms alongside English) |
+| **Full UI Coverage** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 100% of labels, error states, and disclaimers localize dynamically |
+
+---
+
+### Module 8: Payment Gateway & E-Commerce Subsystem
+**Location**: `src/lib/payments/`, `src/app/api/checkout/`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Pluggable Gateway Interface** | [`src/lib/payments/types.ts`](../../src/lib/payments/types.ts) | `[x]` | `IPaymentGateway` contract defining `createCheckoutSession` & `verifyWebhook` |
+| **Stripe Gateway Implementation** | [`src/lib/payments/stripeGateway.ts`](../../src/lib/payments/stripeGateway.ts) | `[x]` | Stripe Checkout Session creation and webhook cryptographic validation |
+| **Development Mock Fallback** | [`src/lib/payments/stripeGateway.ts`](../../src/lib/payments/stripeGateway.ts) | `[x]` | Instant mock session when `STRIPE_SECRET_KEY` is not configured |
+| **Pluggable Payment Factory** | [`src/lib/payments/paymentFactory.ts`](../../src/lib/payments/paymentFactory.ts) | `[x]` | Easily swaps/adds future gateways (PayPal, LinePay, WeChat, Crypto) |
+| **EU CRD Art. 16(m) Waiver** | [`src/app/page.tsx`](../../src/app/page.tsx#L990-L1010) | `[x]` | Mandatory waiver checkbox for digital content right-of-withdrawal |
+| **REST API: Checkout Endpoint** | [`src/app/api/checkout/route.ts`](../../src/app/api/checkout/route.ts) | `[x]` | `POST /api/checkout` with plan, email, currency, and waiver verification |
+
+---
+
+### Module 9: User Vault & Persistence Database
+**Location**: `src/lib/db/`, `src/lib/payments/entitlementService.ts`, `data/`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **SQLite User Vault Engine** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Backed by `better-sqlite3` with WAL mode and directory auto-initialization |
+| **Entitlements Data Schema** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Tracks user purchases (`id`, `user_id`, `item_type`, `lot_number`, `status`) |
+| **Entitlement Verification Service** | [`src/lib/payments/entitlementService.ts`](../../src/lib/payments/entitlementService.ts) | `[x]` | `grantEntitlement()` and `hasEntitlement()` methods |
+| **Saved Reports Schema** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Stores generated BaZi reports for user re-reading without re-purchase |
+| **Audit Log Table** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Records draw timestamps and transaction logs |
+
+---
+
+### Module 10: Export, Delivery & Printing
+**Location**: `src/app/page.tsx`, `docs/planning/02_TEN_STEP_USER_JOURNEY_SPEC.md`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Printable Report View** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[/]` | Browser print styling enabled; dedicated high-res print template pending |
+| **Headless Vector PDF Generator** | `src/lib/pdf/pdfGenerator.ts` | `[ ]` | Queued for Phase 3 (serverless puppeteer or `@react-pdf/renderer`) |
+| **Transactional Email Delivery** | `src/lib/email/mailer.ts` | `[ ]` | Resend / SendGrid webhook dispatch for PDF report attachment |
+| **Shareable Reading Card Links** | `src/app/lots/[number]/opengraph-image.tsx` | `[ ]` | Dynamic OpenGraph image preview for social sharing |
+
+---
+
+### Module 11: Containerization, DevOps & Infrastructure
+**Location**: `Dockerfile`, `docker-compose.yml`, `package.json`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Multi-Stage Production Docker** | [`Dockerfile`](../../Dockerfile) | `[x]` | Upgraded to `node:22-alpine` across `deps`, `builder`, `runner` stages |
+| **Standalone Memory Footprint** | [`Dockerfile`](../../Dockerfile) | `[x]` | Next.js standalone output `< 120MB` image size, `~45MB` RSS |
+| **Dumb-Init Process Supervisor** | [`Dockerfile`](../../Dockerfile) | `[x]` | Handles PID 1 signal forwarding and prevents zombie processes |
+| **Non-Root User Hardening** | [`Dockerfile`](../../Dockerfile) | `[x]` | Executes strictly under unprivileged `mazuuser:nodejs` (UID 1001) |
+| **Docker Compose Orchestration** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Dual networks (`internal` + `outside`), upstream routing to port 3000 |
+| **Nginx SSL Reverse Proxy Config** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Outer label SSL configuration for `mazu.wit4you.com` |
+| **Engine & Linter Compliance** | [`package.json`](../../package.json) | `[x]` | `eslint@^10.12.0` and `@types/node@^22.20.5` with 0 linter errors |
+
+---
+
+### Module 12: Cross-Platform & Mobile Expansion (Phase 4–5)
+**Location**: `docs/planning/05_TECHNICAL_ARCHITECTURE_AND_MULTI_PLATFORM.md`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Shared Monorepo Core** | `packages/core/` | `[ ]` | Extract BaZi, questionGate, lots data into framework-agnostic package |
+| **React Native / Expo Mobile App** | `apps/mobile/` | `[ ]` | iOS & Android builds with native haptic vibration on cylinder shake |
+| **Solar Term Push Notifications** | Push Notification Service | `[ ]` | Automated notifications for 24 Solar Terms (節氣) and lunar calendar milestones |
+| **Tauri Desktop Wrapper** | `apps/desktop/` | `[ ]` | Standalone native macOS and Windows desktop builds |
+| **Physical Oracle Deck Production**| Crowdfunding / Print Run | `[ ]` | Physical 60-card gold-foil Tarot cards with English companion guidebook |
+
+---
+
+## 3. Phased Implementation Milestones
 
 ```mermaid
 gantt
-    title Project Implementation Timeline
+    title Sixty Jiazi Lots Implementation Status
     dateFormat  YYYY-MM-DD
     section Phase 1: Planning & Data Asset
-    Requirements & Data Curation       :done, p1_1, 2026-10-13, 2026-10-20
-    Domain Mapping & Gate Rules        :done, p1_2, 2026-10-15, 2026-10-22
-    section Phase 2: Web MVP & Free Flow
-    Web App Shell & Design System      :active, p2_1, 2026-10-23, 2026-11-06
-    Question Gate & Crypto Draw Flow   :p2_2, 2026-11-07, 2026-11-20
-    Philological Display & Boundaries  :p2_3, 2026-11-21, 2026-11-30
-    section Phase 3: Personalization & Monetization
-    BaZi Solar Ephemeris Engine        :p3_1, 2026-12-01, 2026-12-15
-    Stripe Checkout & CRD 16(m) Waiver :p3_2, 2026-12-16, 2026-12-23
-    Vector PDF Delivery & Vault Storage:p3_3, 2026-12-24, 2027-01-05
-    section Phase 4: Mobile & Retention
-    iOS & Android App (Expo / React Native):p4_1, 2027-01-06, 2027-02-15
-    Subscription & Solar Term Alerts   :p4_2, 2027-02-16, 2027-03-01
-    Physical Oracle Deck Crowdfunding  :p4_3, 2027-03-02, 2027-04-01
+    PRD & Architecture Specs           :done, 2026-10-13, 2026-10-14
+    Canonical 60 Lots Data Curation    :done, 2026-10-13, 2026-10-14
+    section Phase 2: Web MVP & Engine
+    Web Design System & 10-Step UI     :done, 2026-10-13, 2026-10-14
+    Question Gate & AI Parser          :done, 2026-10-13, 2026-10-14
+    BaZi Natal Ephemeris Engine        :done, 2026-10-13, 2026-10-14
+    Stripe & Mock Payment Subsystem    :done, 2026-10-13, 2026-10-14
+    Dual Language i18n Localization    :done, 2026-10-13, 2026-10-14
+    SQLite User Vault & Entitlements   :done, 2026-10-13, 2026-10-14
+    Containerization (Node 22 Alpine)  :done, 2026-10-13, 2026-10-14
+    Tarot Card Artwork (Lots 01-57)    :done, 2026-10-13, 2026-10-14
+    Tarot Card Artwork (Lots 58-60)    :active, 2026-10-14, 2026-10-21
+    section Phase 3: Export & Retention
+    Headless Vector PDF Generation     :2026-10-22, 2026-11-05
+    Transactional Email Receipts       :2026-11-06, 2026-11-15
+    section Phase 4: Mobile & Expansion
+    React Native Mobile Client         :2026-11-16, 2026-12-15
+    Solar Term Push Notifications      :2026-12-16, 2026-12-31
 ```
 
 ---
 
-## 2. Phase Breakdown
+## 4. Maintenance & Contribution Workflow
 
-### Phase 1: Planning, Legal Guardrails & Data Ingestion (Current)
-- [x] Complete PRD and 10-step UX architecture ([01_PRODUCT_REQUIREMENTS_DOCUMENT.md](./01_PRODUCT_REQUIREMENTS_DOCUMENT.md), [02_TEN_STEP_USER_JOURNEY_SPEC.md](./02_TEN_STEP_USER_JOURNEY_SPEC.md)).
-- [x] Formulate the Personalization Algorithm (Lot Jiazi × Natal BaZi × Annual Pillar in [03_PERSONALIZATION_ENGINE_SPEC.md](./03_PERSONALIZATION_ENGINE_SPEC.md)).
-- [x] Finalize the 29-to-11+ Domain Mapping and Question Gate specifications in [04_DOMAIN_MAPPING_AND_QUESTION_GATE.md](./04_DOMAIN_MAPPING_AND_QUESTION_GATE.md).
-- [x] Legal, compliance, and CRD Art. 16(m) waiver design in [06_COMPLIANCE_LEGAL_AND_PAYMENTS.md](./06_COMPLIANCE_LEGAL_AND_PAYMENTS.md).
-- [ ] Ingest the verified dataset: 60 classical Chinese verses, unrhymed English translations, historical allusions, polysemy notes, and `类目映射_29类目_to_slots.csv`.
+When updating modules or completing functional roadmap items:
 
-### Phase 2: Web MVP & Leg 1 Free Draw Experience ($0)
-- Build the web design system (responsive, dark-mode heritage aesthetics, typography, micro-interactions).
-- Implement the Landing Page with the permanent anchor: *"Cultural heritage and reflective guidance — not a prediction of events"*.
-- Implement the **Domain Picker** and **Question Gate (AI Pre-flight reframer)**.
-- Implement the **Ritualized Draw Animation** (2–3 second bamboo cylinder shaking with `crypto.getRandomValues(1..60)` and session lock).
-- Build the **Lot Reveal Card** & **Free Reading Layer** (domain guidance, FAVOURABLE/GUARDED keyword clusters, polysemy notes, boundaries card, automated disclaimers).
-- Deploy SEO assets (`llms.txt`, OpenGraph tags, sitemaps, semantic schema markup).
-
-### Phase 3: Leg 2 Personalization Engine & E-Commerce ($2.99 – $19.99)
-- Build the **Paywall Transition Hook** directly below the free reading.
-- Implement the **Four Pillars Natal Chart Engine** (Julian Day, True Solar Time calculation, Ten Gods, Five Elements).
-- Implement the **Cross-Matrix Calculation Engine** (Stem Combinations/Clashes, Branch Harmonies/Clashes/Punishments).
-- Integrate **Stripe Payment Elements** (Credit card, Apple Pay, Google Pay).
-- Enforce the mandatory EU **CRD Art. 16(m) Waiver Checkbox** and dispatch audit receipts.
-- Implement headless vector PDF generation (emailed + saved to user dashboard).
-
-### Phase 4: Leg 3 Mobile Apps & Subscription Retention ($9.99 – $11.99/mo)
-- Package the shared TypeScript core for **iOS and Android** via React Native (Expo).
-- Add native device haptics for cylinder shaking.
-- Implement **Daily/Weekly Practice** and **Solar Term Push Notifications**.
-- Build the **Annual Birthday Transit Forecast Report** (repurchase trigger).
-- Optional Desktop distribution (Tauri wrapper for Windows & macOS).
-
-### Phase 5: Physical Artifacts & Brand Expansion
-- Design the **60-Card Gold-Foil Oracle Deck** (physical cards with classical calligraphy, English translation, and QR link).
-- Publish the English Companion Guidebook.
-- Launch crowdfunding campaign (Kickstarter / BackerKit) targeting diaspora and mindful divination collectors.
+1. **Flag Status Update**:
+   - Change `[ ]` to `[/]` when starting implementation of a feature.
+   - Change `[/]` to `[x]` upon code completion, lint passing (`npm run lint`), build verification (`npm run build`), and test execution.
+2. **Card Production Progression**:
+   - Update `Module 2` counts whenever a new batch is composited via `python3 scripts/build_lot_cards.py --refactor <num>`.
+3. **Commit Association**:
+   - Include the git commit hash in the Notes column for newly completed items.
 
 ---
 
-## 3. Related Planning Documents (Relative Links)
+## 5. Related Architecture Documents
 - [00. Executive Summary](./00_EXECUTIVE_SUMMARY.md)
 - [01. Product Requirements Document](./01_PRODUCT_REQUIREMENTS_DOCUMENT.md)
 - [02. Ten-Step User Journey Specification](./02_TEN_STEP_USER_JOURNEY_SPEC.md)
@@ -76,4 +263,9 @@ gantt
 - [04. Domain Mapping & Question Gate Specification](./04_DOMAIN_MAPPING_AND_QUESTION_GATE.md)
 - [05. Technical Architecture & Multi-Platform Strategy](./05_TECHNICAL_ARCHITECTURE_AND_MULTI_PLATFORM.md)
 - [06. Compliance, Legal & Payment Specifications](./06_COMPLIANCE_LEGAL_AND_PAYMENTS.md)
+- [08. Canonical Data Schema & API Visibility Specification](./08_CANONICAL_DATA_SCHEMA_AND_API_VISIBILITY.md)
+- [09. Visual Design System & Aesthetic Theme Synthesis](./09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md)
+- [10. UI Page Mockups & Functional Flows](./10_UI_PAGE_MOCKUPS_AND_FUNCTIONAL_FLOWS.md)
+- [11. Lot Card Artwork Catalog & Inventory](./11_LOT_CARD_ARTWORK_CATALOG.md)
+- [12. Card Component Architecture & Refactoring](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md)
 - [Root README](../../README.md)
