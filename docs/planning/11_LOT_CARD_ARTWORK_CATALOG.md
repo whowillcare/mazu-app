@@ -65,18 +65,18 @@ All remaining cards follow the canonical dataset extracted from [`data/canonical
 | **35** | 己酉 | **己酉三五** | 风天小畜 | 土 | 吳漢殺妻 | Wu Han's Moral Ordeal | Sword resting on altar table beside incense and ancestral tablets *(Completed)* |
 | **36** | 己亥 | **己亥三六** | 火水未济 | 木 | 薛仁貴救駕 | Xue Rengui Rescues the Emperor | Archer piercing through enemy ranks to shield the imperial chariot *(Completed)* |
 | **37** | 庚子 | **庚子三七** | 山天大畜 | 金 | 正德君看大龜 | Zhengde Emperor and Sacred Turtle | Ancient giant tortoise rising from lotus pool holding jade tablet *(Completed)* |
-| **38** | 庚寅 | **庚寅三八** | 火水未济 | 木 | 劉備三請諸葛亮 | Liu Bei's Three Visits | Snow-covered thatched cottage in Longzhong, three figures waiting |
-| **39** | 庚辰 | **庚辰三九** | 天泽履 | 金 | 楊文廣破飛鵝山 | Yang Wenguang at Flying Goose Hill | Young general standing victorious atop mountain peak under sun |
-| **40** | 庚午 | **庚午四零** | 雷风恒 | 土 | 包公斷真假牡丹 | Bao Gong and the Two Peonies | Magistrate examining two identical glowing golden peony flowers |
-| **41** | 庚申 | **庚申四一** | 泽雷随 | 木 | 王孝先為民祈雨 | Wang Xiaoxian Prays for Rain | Daoist sage on ritual altar summoning life-giving rain clouds |
-| **42** | 庚戌 | **庚戌四二** | 水天需 | 金 | 姜女尋夫 | Lady Meng Seeks Her Husband | Winding mountain trail leading toward distant horizon |
-| **43** | 辛丑 | **辛丑四三** | 天雷无妄 | 土 | 蘇秦回家假不第 | Su Qin's Return Home | Weary scholar walking with scroll bags into village gate |
-| **44** | 辛卯 | **辛卯四四** | 风泽中孚 | 木 | 洪益春留傘愛陳三 | Umbrella in Lantern Festival | Two lovers under oiled-paper umbrella amidst glowing festival lanterns |
-| **45** | 辛巳 | **辛巳四五** | 风泽中孚 | 火 | 莊子試妻 | Zhuangzi Tests His Wife | Butterfly fluttering over stone tomb and incense burner |
-| **46** | 辛未 | **辛未四六** | 泽火革 | 土 | 江中立中狀元 | Jiang Zhongli Claims First Scholar | Scholar ascending palace steps adorned in crimson robes and gold flowers |
-| **47** | 辛酉 | **辛酉四七** | 天地否 | 木 | 高祖封韓信 | Han Xin Invested as General | Imperial altar platform, general receiving bronze military seals |
-| **48** | 辛亥 | **辛亥四八** | 水地比 | 金 | 班超投筆從戎 | Ban Chao Casts Aside the Brush | Scholar throwing calligraphy brush onto desk and taking up spear |
-| **49** | 壬子 | **壬子四九** | 地雷复 | 木 | 蘇武牧羊 | Su Wu Shepherds Sheep | Lone faithful exile holding imperial rod amidst northern snows |
+| **38** | 庚寅 | **庚寅三八** | 火水未济 | 木 | 劉備三請諸葛亮 | Liu Bei's Three Visits | Snow-covered thatched cottage in Longzhong, three figures waiting *(Completed)* |
+| **39** | 庚辰 | **庚辰三九** | 天泽履 | 金 | 楊文廣破飛鵝山 | Yang Wenguang at Flying Goose Hill | Young general standing victorious atop mountain peak under sun *(Completed)* |
+| **40** | 庚午 | **庚午四零** | 雷风恒 | 土 | 包公斷真假牡丹 | Bao Gong and the Two Peonies | Magistrate examining two identical glowing golden peony flowers *(Completed)* |
+| **41** | 庚申 | **庚申四一** | 泽雷随 | 木 | 王孝先為民祈雨 | Wang Xiaoxian Prays for Rain | Daoist sage on ritual altar summoning life-giving rain clouds *(Completed)* |
+| **42** | 庚戌 | **庚戌四二** | 水天需 | 金 | 姜女尋夫 | Lady Meng Seeks Her Husband | Winding mountain trail leading toward distant horizon *(Completed)* |
+| **43** | 辛丑 | **辛丑四三** | 天雷无妄 | 土 | 蘇秦回家假不第 | Su Qin's Return Home | Weary scholar walking with scroll bags into village gate *(Completed)* |
+| **44** | 辛卯 | **辛卯四四** | 风泽中孚 | 木 | 洪益春留傘愛陳三 | Umbrella in Lantern Festival | Two lovers under oiled-paper umbrella amidst glowing festival lanterns *(Completed)* |
+| **45** | 辛巳 | **辛巳四五** | 风泽中孚 | 火 | 莊子試妻 | Zhuangzi Tests His Wife | Butterfly fluttering over stone tomb and incense burner *(Completed)* |
+| **46** | 辛未 | **辛未四六** | 泽火革 | 土 | 江中立中狀元 | Jiang Zhongli Claims First Scholar | Scholar ascending palace steps adorned in crimson robes and gold flowers *(Completed)* |
+| **47** | 辛酉 | **辛酉四七** | 天地否 | 木 | 高祖封韓信 | Han Xin Invested as General | Imperial altar platform, general receiving bronze military seals *(Completed)* |
+| **48** | 辛亥 | **辛亥四八** | 水地比 | 金 | 班超投筆從戎 | Ban Chao Casts Aside the Brush | Scholar throwing calligraphy brush onto desk and taking up spear *(Completed)* |
+| **49** | 壬子 | **壬子四九** | 地雷复 | 木 | 蘇武牧羊 | Su Wu Shepherds Sheep | Lone faithful exile holding imperial rod amidst northern snows *(Completed)* |
 | **50** | 壬寅 | **壬寅五零** | 地风升 | 火 | 小兒路遇孔子 | Xiang Tuo Meets Confucius | Clever child challenging carriage of sage Confucius with riddles |
 | **51** | 壬辰 | **壬辰五一** | 泽地萃 | 金 | 東坡看雙姝 | Su Dongpo and the Two Sisters | Literary master composing verses in bamboo pavilion by lotus pond |
 | **52** | 壬午 | **壬午五二** | 水山蹇 | 土 | 宋江走安東 | Song Jiang Flees to Andong | Traveling boat drifting down reeds river at misty dusk |
