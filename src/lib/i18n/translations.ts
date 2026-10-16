@@ -118,7 +118,42 @@ export interface TranslationDictionary {
     bilingualModeDesc: string;
     closeBtn: string;
   };
+  countdown: {
+    drawingInSeconds: string;
+    drawNow: string;
+    detectedInquiry: string;
+    switchPrompt: string;
+  };
+  disclaimer: {
+    badge: string;
+    title: string;
+    body: string;
+  };
+  rectification: {
+    sectionTag: string;
+    heading: string;
+    subheading: string;
+    exactTimeTab: string;
+    roughTimeTab: string;
+    selectSlotPrompt: string;
+    slotMorning: string;
+    slotAfternoon: string;
+    slotNight: string;
+    slotNotSure: string;
+    startQuizBtn: string;
+    quizHeading: string;
+    quizSubheading: string;
+    lockHourBtn: string;
+    lockingHour: string;
+    verifiedBadge: string;
+    hookHeading: string;
+    hookSubheading: string;
+    unlockLifeBookBtn: string;
+    subscribePredictiveBtn: string;
+    predictiveBadge: string;
+  };
 }
+
 
 export const translations: Record<SupportedLanguage, TranslationDictionary> = {
   en: {
@@ -251,7 +286,42 @@ export const translations: Record<SupportedLanguage, TranslationDictionary> = {
         'Complete bilingual presentation with English translations and Classical Chinese verses displayed side-by-side.',
       closeBtn: 'Apply & Close',
     },
+    countdown: {
+      drawingInSeconds: 'Auto-drawing in {n}s... Not what you meant? Click below to change:',
+      drawNow: 'Draw Now · 立即起籤',
+      detectedInquiry: 'Detected Inquiry Focus',
+      switchPrompt: 'Tap any domain to override before drawing:',
+    },
+    disclaimer: {
+      badge: '✦ PHILOLOGICAL & HERMENEUTIC BOUNDARY',
+      title: 'General Lot Interpretation Disclaimer',
+      body: 'This interpretation offers general philosophical reflection grounded in classical Mazu temple literature, historical allusions, and poetic archetypes. It provides contemplative counsel rather than deterministic fortune-telling. For personal resonance and strategic timing, personalized birth chart analysis is required.',
+    },
+    rectification: {
+      sectionTag: '✦ ADVANCED BAZI KERNEL · HOUR RECTIFICATION',
+      heading: 'Personalized Chart Synthesis & Birth Hour Pinpointing',
+      subheading: 'Connect this lot with your Four Pillars. If you do not remember your exact minute, our engine evaluates historical milestone convergence to pinpoint your birth hour.',
+      exactTimeTab: 'I Know Exact Birth Time',
+      roughTimeTab: "Rough Time / Don't Know",
+      selectSlotPrompt: 'Select your approximate birth time of day:',
+      slotMorning: '🌅 Morning (05:00 - 11:00)',
+      slotAfternoon: '☀️ Afternoon (11:00 - 17:00)',
+      slotNight: '🌙 Night (17:00 - 23:00)',
+      slotNotSure: '❓ Not Sure (All 12 Hours)',
+      startQuizBtn: 'Begin Milestone Verification Questionnaire ►',
+      quizHeading: 'Verify Historical Milestone Events',
+      quizSubheading: 'Select the options that match your real past life experiences to mathematically lock your birth hour:',
+      lockHourBtn: 'Lock Verified Birth Hour · 考時定盤',
+      lockingHour: 'Converging Milestone Matrices...',
+      verifiedBadge: '✓ Birth Hour Converged & Verified',
+      hookHeading: 'Structural Diagnostic Insight (Free Hook)',
+      hookSubheading: 'A diagnostic summary derived directly from your chart structure and past milestone trajectory:',
+      unlockLifeBookBtn: 'Unlock Full 9-Section Life Book ($2.99 Launch Trial)',
+      subscribePredictiveBtn: 'Subscribe to Event-Triggered Annual Transits ($9.99/mo)',
+      predictiveBadge: '✦ PROACTIVE PREDICTIVE TRIGGER',
+    },
   },
+
 
   'zh-TW': {
     common: {
@@ -375,5 +445,40 @@ export const translations: Record<SupportedLanguage, TranslationDictionary> = {
       bilingualModeDesc: '中英完整雙語並列研讀模式，適合深入對照籤詩古典原文與現代英譯。',
       closeBtn: '完成並關閉',
     },
+    countdown: {
+      drawingInSeconds: '即將於 {n} 秒後自動起籤…若意向不符，可點擊下方直接切換：',
+      drawNow: '立即起籤 · Draw Now',
+      detectedInquiry: 'AI 意圖解析問事焦點',
+      switchPrompt: '點擊任一事類即可快速變更：',
+    },
+    disclaimer: {
+      badge: '✦ 經典詮釋與哲學邊界',
+      title: '通用解籤哲理免責聲明',
+      body: '本靈籤解曰為基於古典文獻、籤詩故事與易象象徵之通用哲理指引，旨在提供行事省思與心靈啟迪，非宿命定數預測。具體吉凶應期、宮位感應與決策時機，須結合個人生辰八字與流年氣機深入合參。',
+    },
+    rectification: {
+      sectionTag: '✦ 米圖八字排盤核心 · 考時定盤',
+      heading: '個人八字命盤合參與真實時辰逆推',
+      subheading: '將本靈籤與您的四柱深度鏈接。若您不記得精確出生分鐘，米圖內核可藉由回溯您過往人生重大事件年份，逆推鎖定真實時辰。',
+      exactTimeTab: '我記得精確出生時刻',
+      roughTimeTab: '我只知粗略時段 / 不確定',
+      selectSlotPrompt: '請粗略選擇出生時段：',
+      slotMorning: '🌅 早晨（05:00 - 11:00 · 卯辰巳時）',
+      slotAfternoon: '☀️ 午間（11:00 - 17:00 · 午未申時）',
+      slotNight: '🌙 晚間（17:00 - 23:00 · 酉戌亥時）',
+      slotNotSure: '❓ 不清楚（全部 12 時辰考盤）',
+      startQuizBtn: '進入歷史驗證問卷 ►',
+      quizHeading: '驗證個人歷史里程碑年份',
+      quizSubheading: '請勾選符合您過往真實人生經歷的選項，以進行數學收斂定盤：',
+      lockHourBtn: '確認並鎖定出生時辰 · 考時定盤',
+      lockingHour: '正在收斂里程碑矩陣...',
+      verifiedBadge: '✓ 考時定盤完成 · 真實時柱已鎖定',
+      hookHeading: '命局結構深度診斷（免費試讀）',
+      hookSubheading: '由米圖八字內核直接由命局結構與歷史應期軌跡提煉之深度診斷：',
+      unlockLifeBookBtn: '解鎖全案 9 大章節長篇命書（$2.99 體驗價）',
+      subscribePredictiveBtn: '訂閱事件驅動型流年預測報告（$9.99/月）',
+      predictiveBadge: '✦ 主動事件驅動型預測',
+    },
   },
+
 };

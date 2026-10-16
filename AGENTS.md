@@ -7,3 +7,6 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Mandatory Rule: Continuous Roadmap & Scope Alignment
+Each time there is anything that will affect the roadmap, scopes, implementation progress, or technical direction, [`docs/planning/07_PROJECT_ROADMAP_AND_MILESTONES.md`](./docs/planning/07_PROJECT_ROADMAP_AND_MILESTONES.md) MUST be updated to reflect the real progress and scope.

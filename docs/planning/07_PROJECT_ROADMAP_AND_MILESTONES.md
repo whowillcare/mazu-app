@@ -1,9 +1,9 @@
 # 07. Master Modules & Functions Roadmap (Living Implementation Matrix)
 
 > **Document Status**: Living Architectural Matrix & Implementation Tracker  
-> **Last Updated**: 2026-10-14  
-> **Master Progress**: **82% of Core Web Platform Implemented & Operational**  
-> **Canon Asset Readiness**: **57 / 60 Lot Cards Completed (95.0%)**
+> **Last Updated**: 2026-10-16  
+> **Master Progress**: **94% of Core Web Platform Implemented & Operational**  
+> **Canon Asset Readiness**: **60 / 60 Cards Normalized via SvgLotCard (100%)**
 
 ---
 
@@ -16,15 +16,15 @@
 │ Subsystem / Domain                │ Status       │ Completion %        │
 ├───────────────────────────────────┼──────────────┼─────────────────────┤
 │ 1. Canonical Data & Canon Schema  │ [x] Complete │ 100% (60/60 Lots)   │
-│ 2. Tarot Obsidian Artwork Deck    │ [/] On Hold  │ 95% (Style Audit)   │
-│ 3. Question Gate & AI Parser      │ [/] Active   │ 85% (5s Buffer Plan)│
+│ 2. SvgLotCard Deck & Visuals      │ [x] Complete │ 100% Standardized   │
+│ 3. Question Gate & AI Parser      │ [x] Complete │ 100% (5s Buffer Live)│
 │ 4. Crypto Draw & Ritual Engine    │ [x] Complete │ 100% Operational    │
-│ 5. Dual BaZi & Nayin Engines      │ [/] Active   │ 75% (Hour Rectify)  │
+│ 5. Dual BaZi & Hour Rectification │ [x] Complete │ 100% (考時定盤 Live)│
 │ 6. 10-Step Interactive Web UI/UX  │ [x] Complete │ 100% Operational    │
 │ 7. Dual i18n Localization Engine  │ [x] Complete │ 100% Operational    │
 │ 8. Pluggable Payments & Stripe    │ [x] Complete │ 100% Operational    │
 │ 9. SQLite User Vault & Database   │ [x] Complete │ 100% Operational    │
-│ 10. PDF Export & Subscriptions    │ [/] Active   │ 40% (Predict Alerts)│
+│ 10. PDF Export & Subscriptions    │ [/] Active   │ 60% (Plans in UI)   │
 │ 11. Multi-Stage Docker & Compose  │ [x] Complete │ 100% (Node 22)      │
 │ 12. Mobile Apps (React Native)    │ [ ] Planned  │ Phase 4 Backlog     │
 └───────────────────────────────────┴──────────────┴─────────────────────┘
@@ -63,12 +63,12 @@
 | :--- | :--- | :---: | :--- |
 | **Design Aesthetic System** | [`docs/planning/09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md`](./09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md) | `[x]` | Obsidian black `#070B11`, glowing gold foil line-art, cinnabar accents |
 | **Authentic Qin Seal Pre-Renderer** | [`assets/cards/seals/`](../../assets/cards/seals/) (`seal_01.png` - `seal_60.png`) | `[x]` | 100% pre-rendered authentic 2×2 Qin Small Seal stamps with zero AI hallucination |
-| **Style Drift Audit (Lot 32 Onwards)** | [`docs/planning/12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md`](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md) | `[x]` | Identified top arch plaque and redundant seals on `lot_32`+; canon standard is `lot_01` |
+| **Style Drift Resolution via SVG** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Standardized `lot_01` layout: top number, Qin seal directly below number, Greek key borders, clipped art portal |
 | **Background Task Management** | Runtime System | `[x]` | All pending image generation tasks cancelled (`task-1288` killed). No automated batches running |
-| **Execution Priority Policy** | Planning Policy | `[x]` | Card refactoring is explicitly low priority; only run when system is completely idle |
-| **SVG Vector Hybrid Component** | [`docs/planning/12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md`](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md) | `[/]` | Pure SVG vector frame, top number, seal, and localized text clipping raw central art |
+| **Execution Priority Policy** | Planning Policy | `[x]` | Visual uniformity solved permanently via SVG hybrid card component |
+| **SVG Vector Hybrid Component** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Pure SVG vector frame, top number, 2×2 Qin seal, and localized text clipping raw central art |
 | **Lots 01–31 Canon Master Cards** | [`assets/cards/lot_01_card.jpg`](../../assets/cards/lot_01_card.jpg) – `lot_31_card.jpg` | `[x]` | 31 cards conforming to standard layout (number top, seal below number, clean border) |
-| **Lots 32–57 Cards (Style Refactoring Queued)** | `assets/cards/lot_32_card.jpg` – `lot_57_card.jpg` | `[/]` | On disk; queued for SVG compositor normalization when system is idle |
+| **Lots 32–60 Cards Standardized** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Rendered uniformly across full deck without visual drift |
 
 ---
 
@@ -79,9 +79,10 @@
 | :--- | :--- | :---: | :--- |
 | **Deterministic Domain Classifier** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Offline regex scanner using `domKw.json` detecting 13 domains with zero latency |
 | **Multi-Domain Warning Guardrail** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | "一籤斷一事" principle: prompts user to pick single matter if multiple domains detected |
-| **5-Second Domain Override Buffer** | [`docs/planning/02_TEN_STEP_USER_JOURNEY_SPEC.md`](./02_TEN_STEP_USER_JOURNEY_SPEC.md) | `[/]` | Interactive 5s countdown post-draw-click allowing user to review/override domain |
+| **5-Second Domain Override Buffer** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Interactive 5s countdown modal post-draw-click allowing user to review/override domain with auto-draw |
 | **Agency-Centered Reframing** | [`src/lib/questionGate/questionGate.ts`](../../src/lib/questionGate/questionGate.ts) | `[x]` | Detects fatalistic inquiries ("Will I...") and transforms into actionable inquiries |
-| **Cost-Efficient LLM AI Parser** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Pluggable token routing (FreeLLMAPI, DeepSeek, compact OpenAI-compatible models) |
+| **Cost-Efficient LLM AI Parser** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Pluggable token routing (FreeLLMAPI localhost:3001, DeepSeek, compact OpenAI-compatible models) |
+| **Landing Porch Direct Inquiry** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Direct inquiry textarea on landing page with instant semantic parsing |
 | **REST API: Question Analysis** | [`src/app/api/analyze-question/route.ts`](../../src/app/api/analyze-question/route.ts) | `[x]` | `POST /api/analyze-question` returning detected domains, warnings, reframing |
 
 ---
@@ -92,7 +93,7 @@
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
 | **Cryptographic RNG** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | `crypto.getRandomValues(new Uint32Array(1))` producing unbiased uniform `1..60` |
-| **Ritual Shaking Animation** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 3D bamboo cylinder shake animation with 2.5-second sacred meditation delay |
+| **Ritual Shaking Animation** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 3D bamboo cylinder shake animation with 2.4-second sacred meditation delay |
 | **Draw State Lock & Idempotency** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Prevents rapid double-draws, locks session while shaking |
 | **Alternative Verse Toggle** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Toggle between primary canon quatrain and alternative manuscript variant |
 | **REST API: Sacred Draw** | [`src/app/api/draw/route.ts`](../../src/app/api/draw/route.ts) | `[x]` | `POST /api/draw` returning drawn lot payload, session timestamp, and gate metadata |
@@ -108,11 +109,12 @@
 | **Tier 2: True Solar Time Ephemeris** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Longitude adjustment offset (e.g. Taipei 121.5°E -> +6 min solar correction) |
 | **Four Pillars Calculator** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Generates Year, Month, Day, and Hour stems & branches from birth epoch |
 | **Five Elements & Ten Gods Matrix** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Wood, Fire, Earth, Metal, Water balance and Day Master element analysis |
-| **Birth Hour Rectification (考时定盘)** | [`docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md`](./03_PERSONALIZATION_ENGINE_SPEC.md) | `[/]` | Morning/Afternoon/Night/Not Sure $\to$ 12 candidate hours $\to$ past milestone questionnaire |
-| **Converged Life Milestones (`应期`)** | `verdict.py` Kernel Integration | `[/]` | Tracks 夫妻宫, 子女宫, 财库冲合, 枭夺食, 伤官见官 for past/future convergence |
-| **Convincing Insightful Excerpt Hook** | `settle_nature()` & `main_verdicts()` | `[/]` | Free 2-3 sentence structural diagnostic snippet demonstrating undeniable accuracy |
+| **Birth Hour Rectification (考時定盤)** | [`src/lib/bazi/hourRectification.ts`](../../src/lib/bazi/hourRectification.ts) | `[x]` | Morning/Afternoon/Night/Not Sure $\to$ 12 candidate hours $\to$ historical milestone questionnaire |
+| **Converged Life Milestones (`應期`)** | [`src/lib/bazi/hourRectification.ts`](../../src/lib/bazi/hourRectification.ts) | `[x]` | Tracks 夫妻宮, 子女宮, 財庫衝合, 月令提綱 for mathematical convergence |
+| **Convincing Insightful Excerpt Hook** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Free 2-3 sentence structural diagnostic snippet demonstrating chart accuracy |
+| **REST API: Hour Rectification** | [`src/app/api/bazi/rectify/route.ts`](../../src/app/api/bazi/rectify/route.ts) | `[x]` | `POST /api/bazi/rectify` with actions `get_questionnaire` and `solve` |
 | **Full 9-Section Life Book Synthesis** | `layers_mingshu.py` Format | `[/]` | Generates comprehensive Life Book narrative for paid delivery ($2.99 / $19.99) |
-| **Event-Triggered Predictive Alerts** | `docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md` | `[/]` | Proactive notifications triggered by upcoming `引动年`, `应期`, and Solar Terms |
+| **Event-Triggered Predictive Alerts** | `docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md` | `[/]` | Proactive notifications triggered by upcoming `引動年`, `應期`, and Solar Terms |
 
 ---
 
@@ -121,17 +123,17 @@
 
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **Design System & Typography** | [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Obsidian background `#05080E`, gold foil tokens, Cinzel & Noto Serif SC |
-| **Step 1: Porch & Sacred Threshold** | [`src/app/page.tsx`](../../src/app/page.tsx#L125-L210) | `[x]` | Permanent non-predictive anchor, cultural heritage orientation |
-| **Step 2: Domain Category Picker** | [`src/app/page.tsx`](../../src/app/page.tsx#L215-L330) | `[x]` | 11 domain cards with icons, Chinese/English titles, active selection rings |
-| **Step 3: Question Gate & Inquiry** | [`src/app/page.tsx`](../../src/app/page.tsx#L335-L480) | `[x]` | Textarea with live AI parser, multi-domain warning banner, reframed query |
-| **Step 4: Sacred Cylinder Shaking** | [`src/app/page.tsx`](../../src/app/page.tsx#L485-L545) | `[x]` | 3D bamboo tube animation, golden glow, flying lot stick reveal |
-| **Step 5: Lot Reveal Card** | [`src/app/page.tsx`](../../src/app/page.tsx#L550-L650) | `[x]` | Displays Tarot card image, authentic Qin Small Seal, hexagram, verse |
-| **Step 6: Free Hermeneutic Reading** | [`src/app/page.tsx`](../../src/app/page.tsx#L655-L820) | `[x]` | Domain guidance, historical story allusion, favourable/guarded keyword pills |
-| **Step 7: Epistemological Boundaries** | [`src/app/page.tsx`](../../src/app/page.tsx#L825-L875) | `[x]` | Medical/financial/legal boundaries, reflective ethics reminder |
-| **Step 8: BaZi Natal Input Form** | [`src/app/page.tsx`](../../src/app/page.tsx#L880-L960) | `[x]` | Birthdate, time of birth, longitude city selector |
-| **Step 9: Paid Transition Hook** | [`src/app/page.tsx`](../../src/app/page.tsx#L965-L1030) | `[x]` | Pricing options ($2.99 Single / $19.99 Annual), feature breakdown |
-| **Step 10: Unlocked Report View** | [`src/app/page.tsx`](../../src/app/page.tsx#L1035-L1115) | `[x]` | Four Pillars chart, True Solar Time badge, personalized stem-branch reading |
+| **Design System & Typography** | [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Obsidian background `#05080E`, gold foil tokens, Cinzel & Noto Serif TC |
+| **Step 1: Porch & Sacred Threshold** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Direct inquiry textarea, AI parser, non-predictive anchor, cultural heritage orientation |
+| **Step 2: Domain Category Picker** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 13 canonical domain cards with icons, Chinese/English titles, active selection rings |
+| **Step 3: Question Gate & Inquiry** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Textarea with live AI parser, multi-domain warning banner, reframed query |
+| **Step 4: Sacred Cylinder Shaking** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 3D bamboo tube animation, golden glow, flying lot stick reveal |
+| **Step 5: Lot Reveal Card** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | `<SvgLotCard>` vector Greek key frame, authentic Qin Small Seal, hexagram, verse |
+| **Step 6: Free Hermeneutic Reading** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Domain guidance, historical story allusion, favourable/guarded keyword pills |
+| **Step 7: Epistemological Boundaries** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Prominent General Disclaimer Box, reflective ethics reminder |
+| **Step 8: Dual-Branch BaZi & Rectification** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Exact time vs Rough time selector, milestone questionnaire, locked hour badge |
+| **Step 9: Paid Transition Hook** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Free diagnostic preview teaser, pricing options ($2.99 Single / $9.99/mo Annual) |
+| **Step 10: Unlocked Report View** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Four Pillars chart, True Solar Time badge, personalized stem-branch reading |
 
 ---
 

@@ -6,6 +6,8 @@ import { CanonicalLot, DomainCategory } from '@/lib/types/lots';
 import { FourPillars, LotBaziInteraction } from '@/lib/bazi/baziEngine';
 import { translations, SupportedLanguage } from '@/lib/i18n/translations';
 import { QuestionAnalysisResult } from '@/lib/ai/questionParser';
+import { SvgLotCard } from '@/components/cards/SvgLotCard';
+import { RectificationQuestion, RectificationResult } from '@/lib/bazi/hourRectification';
 
 type JourneyStep = 'porch' | 'domain' | 'question' | 'drawing' | 'reading' | 'report';
 
@@ -27,20 +29,35 @@ export default function MazuLotApp() {
 
   // User Inquiry State
   const [selectedDomain, setSelectedDomain] = useState<DomainCategory>('career');
-  const [userQuestion, setUserQuestion] = useState('Will I get the senior director promotion next month?');
+  const [userQuestion, setUserQuestion] = useState(
+    'Will I get the senior director promotion next month, and how should I position my leadership?'
+  );
 
   // AI Inquiry Analysis State
   const [analysis, setAnalysis] = useState<QuestionAnalysisResult | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
+  // 5-Second Override Countdown State
+  const [countdown, setCountdown] = useState<number>(5);
+  const [countdownActive, setCountdownActive] = useState<boolean>(false);
+
   // Draw State
   const [drawnLot, setDrawnLot] = useState<CanonicalLot | null>(null);
   const [isDrawing, setIsDrawing] = useState(false);
 
-  // BaZi & Report State
+  // BaZi & Rectification State
+  const [timeBranch, setTimeBranch] = useState<'exact' | 'rough'>('exact');
   const [birthDate, setBirthDate] = useState('1992-10-14');
   const [birthTime, setBirthTime] = useState('09:30');
   const [birthLocation, setBirthLocation] = useState('Taipei (121.5°E)');
+  const [roughSlot, setRoughSlot] = useState<'morning' | 'afternoon' | 'night' | 'not_sure'>('morning');
+  const [rectificationQuestions, setRectificationQuestions] = useState<RectificationQuestion[] | null>(null);
+  const [rectificationAnswers, setRectificationAnswers] = useState<Record<string, string>>({});
+  const [isRectifying, setIsRectifying] = useState(false);
+  const [rectifiedResult, setRectifiedResult] = useState<RectificationResult | null>(null);
+
+  // Commercial Checkout State
+  const [purchasePlan, setPurchasePlan] = useState<'single' | 'subscription'>('single');
   const [crdWaiverAccepted, setCrdWaiverAccepted] = useState(false);
   const [isCheckingOut, setIsCheckingOut] = useState(false);
   const [unlockedReport, setUnlockedReport] = useState<{
@@ -56,9 +73,9 @@ export default function MazuLotApp() {
     localStorage.setItem('mazu_lang', newLang);
   };
 
-  // Debounced AI Question Analysis
+  // AI Question Analysis Handler
   const runAiAnalysis = useCallback(async (q: string, domain: DomainCategory) => {
-    if (!q || q.trim().length < 4) {
+    if (!q || q.trim().length < 3) {
       setAnalysis(null);
       return;
     }
@@ -72,6 +89,9 @@ export default function MazuLotApp() {
       const data = await res.json();
       if (data.success && data.analysis) {
         setAnalysis(data.analysis);
+        if (data.analysis.primaryDomain) {
+          setSelectedDomain(data.analysis.primaryDomain as DomainCategory);
+        }
       }
     } catch (err) {
       console.warn('AI analysis failed:', err);
@@ -80,17 +100,17 @@ export default function MazuLotApp() {
     }
   }, []);
 
+  // Debounced auto-analysis when question or domain changes
   useEffect(() => {
-    if (currentStep === 'question') {
-      const timer = setTimeout(() => {
-        runAiAnalysis(userQuestion, selectedDomain);
-      }, 700);
-      return () => clearTimeout(timer);
-    }
-  }, [userQuestion, selectedDomain, currentStep, runAiAnalysis]);
+    const timer = setTimeout(() => {
+      runAiAnalysis(userQuestion, selectedDomain);
+    }, 800);
+    return () => clearTimeout(timer);
+  }, [userQuestion, selectedDomain, runAiAnalysis]);
 
-  // Handle Question Gate Submission
-  const handleProceedToDraw = async () => {
+  // Actual Draw Execution
+  const executeLotDraw = useCallback(async () => {
+    setCountdownActive(false);
     setCurrentStep('drawing');
     setIsDrawing(true);
 
@@ -114,19 +134,115 @@ export default function MazuLotApp() {
     setTimeout(() => {
       setIsDrawing(false);
       setCurrentStep('reading');
-    }, 2600);
+    }, 2400);
+  }, [selectedDomain, userQuestion]);
+
+  // Trigger Draw with 5-Second Override Countdown Buffer
+  const startDrawWithCountdown = () => {
+    if (analysis?.isMultiDomain) {
+      return;
+    }
+    setCountdown(5);
+    setCountdownActive(true);
+  };
+
+  // Countdown Timer Loop (5s -> auto proceed)
+  useEffect(() => {
+    if (!countdownActive) return;
+
+    const timer = setTimeout(() => {
+      setCountdown((prev) => {
+        if (prev <= 1) {
+          executeLotDraw();
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, [countdownActive, executeLotDraw]);
+
+  // Fetch Rectification Questionnaire
+  const handleFetchRectificationQuiz = async () => {
+    setIsRectifying(true);
+    try {
+      const res = await fetch('/api/bazi/rectify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'get_questionnaire',
+          birthDate,
+          timeSlot: roughSlot,
+        }),
+      });
+      const data = await res.json();
+      if (data.success && data.questions) {
+        setRectificationQuestions(data.questions);
+      }
+    } catch (err) {
+      console.error('Failed to load questionnaire:', err);
+    } finally {
+      setIsRectifying(false);
+    }
+  };
+
+  // Solve Rectification from User Answers
+  const handleSolveRectification = async () => {
+    setIsRectifying(true);
+    try {
+      const res = await fetch('/api/bazi/rectify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'solve',
+          birthDate,
+          timeSlot: roughSlot,
+          answers: rectificationAnswers,
+        }),
+      });
+      const data = await res.json();
+      if (data.success && data.result) {
+        setRectifiedResult(data.result);
+        const resolvedBranch = data.result.pinpointedHour?.branch;
+        const branchHourMap: Record<string, string> = {
+          子: '00:00',
+          丑: '02:00',
+          寅: '04:00',
+          卯: '06:00',
+          辰: '08:00',
+          巳: '10:00',
+          午: '12:00',
+          未: '14:00',
+          申: '16:00',
+          酉: '18:00',
+          戌: '20:00',
+          亥: '22:00',
+        };
+        if (resolvedBranch && branchHourMap[resolvedBranch]) {
+          setBirthTime(branchHourMap[resolvedBranch]);
+        }
+      }
+    } catch (err) {
+      console.error('Failed to solve rectification:', err);
+    } finally {
+      setIsRectifying(false);
+    }
   };
 
   // Handle BaZi Calculation & Report Checkout
   const handleUnlockReport = async () => {
     if (!crdWaiverAccepted) {
-      alert(language === 'zh-TW' ? '請先勾選確認歐盟數位商品猶豫期放棄條款。' : 'Please acknowledge the EU CRD Art. 16(m) digital content waiver to proceed.');
+      alert(
+        language === 'zh-TW'
+          ? '請先勾選確認歐盟數位商品猶豫期放棄條款。'
+          : 'Please acknowledge the EU CRD Art. 16(m) digital content waiver to proceed.'
+      );
       return;
     }
 
     setIsCheckingOut(true);
     try {
-      // 1. Calculate BaZi
       const baziRes = await fetch('/api/bazi', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -140,7 +256,6 @@ export default function MazuLotApp() {
       });
       const baziData = await baziRes.json();
 
-      // 2. Process Checkout
       const checkoutRes = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -148,7 +263,7 @@ export default function MazuLotApp() {
           userId: 'seeker_1992',
           userEmail: 'alex@example.com',
           lotNumber: drawnLot?.lot_number || 1,
-          itemType: 'single_report',
+          itemType: purchasePlan === 'single' ? 'single_report' : 'subscription',
           crdWaiverAccepted: true,
         }),
       });
@@ -176,13 +291,20 @@ export default function MazuLotApp() {
       {/* ─── SITE HEADER ────────────────────────────────────────── */}
       <header className="site-header">
         <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <a href="#" onClick={() => setCurrentStep('porch')} className="brand-badge">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              setCurrentStep('porch');
+            }}
+            className="brand-badge"
+          >
             <span className="brand-seal">{t.common.brandSeal}</span>
             <span>{t.common.brandName}</span>
           </a>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            {/* Direct Language Switcher Dropdown/Button */}
+            {/* Direct Language Switcher */}
             <button
               onClick={() => handleLanguageChange(language === 'en' ? 'zh-TW' : 'en')}
               className="btn-outline"
@@ -229,138 +351,54 @@ export default function MazuLotApp() {
       {/* ─── MAIN CONTENT AREA ─────────────────────────────────── */}
       <main style={{ flex: 1, padding: '48px 0' }}>
         <div className="container">
-          {/* ════ SCREEN 1: THE PORCH / HERO ══════════════════════ */}
+          {/* ════ SCREEN 1: THE PORCH / HERO + DIRECT QUESTION ═════ */}
           {currentStep === 'porch' && (
-            <div style={{ textAlign: 'center', maxWidth: '820px', margin: '0 auto', paddingTop: '28px' }}>
-              <div style={{ fontSize: '2.5rem', marginBottom: '16px', color: 'var(--gold-primary)' }}>✦</div>
-              <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.22em', fontSize: '0.92rem', marginBottom: '12px', fontWeight: 600 }}>
+            <div style={{ textAlign: 'center', maxWidth: '840px', margin: '0 auto', paddingTop: '20px' }}>
+              <div style={{ fontSize: '2.4rem', marginBottom: '12px', color: 'var(--gold-primary)' }}>✦</div>
+              <div
+                style={{
+                  color: 'var(--gold-primary)',
+                  letterSpacing: '0.22em',
+                  fontSize: '0.92rem',
+                  marginBottom: '12px',
+                  fontWeight: 600,
+                }}
+              >
                 {t.porch.subheading}
               </div>
               <h1
                 className="font-serif gold-gradient-text"
-                style={{ fontSize: '2.7rem', letterSpacing: '0.08em', lineHeight: 1.28, marginBottom: '20px' }}
+                style={{ fontSize: '2.6rem', letterSpacing: '0.08em', lineHeight: 1.28, marginBottom: '18px' }}
               >
                 {t.porch.heading}
               </h1>
               <p
                 style={{
-                  fontSize: '1.15rem',
+                  fontSize: '1.12rem',
                   color: 'var(--text-secondary)',
                   lineHeight: 1.7,
-                  marginBottom: '40px',
+                  marginBottom: '36px',
                   fontFamily: 'var(--font-serif)',
                 }}
               >
                 {t.porch.description}
               </p>
 
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap', marginBottom: '64px' }}>
-                <button
-                  id="btn-draw-start"
-                  onClick={() => setCurrentStep('domain')}
-                  className="btn-primary"
-                  style={{ padding: '16px 38px', fontSize: '1.05rem' }}
-                >
-                  {t.porch.ctaDraw}
-                </button>
-                <button
-                  onClick={() => setCurrentStep('domain')}
-                  className="btn-outline"
-                  style={{ padding: '16px 28px' }}
-                >
-                  {t.porch.ctaExplore}
-                </button>
-              </div>
-
-              {/* Three Core Pillars */}
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', textAlign: 'left' }}>
-                <div className="glass-panel" style={{ padding: '24px' }}>
-                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
-                    {t.porch.feature1Title}
-                  </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
-                    {t.porch.feature1Desc}
-                  </p>
-                </div>
-                <div className="glass-panel" style={{ padding: '24px' }}>
-                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
-                    {t.porch.feature2Title}
-                  </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
-                    {t.porch.feature2Desc}
-                  </p>
-                </div>
-                <div className="glass-panel" style={{ padding: '24px' }}>
-                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
-                    {t.porch.feature3Title}
-                  </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
-                    {t.porch.feature3Desc}
-                  </p>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* ════ SCREEN 2: DOMAIN PICKER ═════════════════════════ */}
-          {currentStep === 'domain' && (
-            <div style={{ maxWidth: '880px', margin: '0 auto', textAlign: 'center' }}>
-              <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem', marginBottom: '8px' }}>
-                {t.domainStep.stepTag}
-              </div>
-              <h2 className="font-serif gold-gradient-text" style={{ fontSize: '2.2rem', marginBottom: '12px' }}>
-                {t.domainStep.heading}
-              </h2>
-              <p style={{ color: 'var(--text-secondary)', marginBottom: '32px' }}>
-                {t.domainStep.description}
-              </p>
-
-              <div className="domain-grid">
-                {DOMAINS.map((dom) => (
-                  <div
-                    key={dom.key}
-                    onClick={() => setSelectedDomain(dom.key)}
-                    className={`domain-tile ${selectedDomain === dom.key ? 'active' : ''}`}
-                  >
-                    <div className="domain-icon">{dom.icon}</div>
-                    <div className="domain-title">
-                      {language === 'zh-TW' ? dom.titleZh : dom.titleEn}
-                    </div>
-                    <div className="domain-sub">{dom.description}</div>
-                  </div>
-                ))}
-              </div>
-
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '28px' }}>
-                <button onClick={() => setCurrentStep('porch')} className="btn-outline">
-                  ◄ {t.common.back}
-                </button>
-                <button onClick={() => setCurrentStep('question')} className="btn-primary" style={{ padding: '14px 32px' }}>
-                  {t.domainStep.proceedBtn}: {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn} ►
-                </button>
-              </div>
-            </div>
-          )}
-
-          {/* ════ SCREEN 3: QUESTION GATE & AI PARSING ═════════════ */}
-          {currentStep === 'question' && (
-            <div style={{ maxWidth: '740px', margin: '0 auto' }}>
-              <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-                <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem', marginBottom: '8px' }}>
-                  {t.questionStep.stepTag}
-                </div>
-                <h2 className="font-serif gold-gradient-text" style={{ fontSize: '2.2rem', marginBottom: '10px' }}>
-                  {t.questionStep.heading}
-                </h2>
-                <p style={{ color: 'var(--text-secondary)' }}>
-                  {t.questionStep.currentDomain}: <strong style={{ color: 'var(--gold-light)' }}>{language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn}</strong>
-                </p>
-              </div>
-
-              <div className="glass-panel" style={{ marginBottom: '24px', padding: '30px' }}>
+              {/* ─── DIRECT INQUIRY CARD ON LANDING PAGE ──────────── */}
+              <div
+                className="glass-panel"
+                style={{
+                  padding: '32px',
+                  textAlign: 'left',
+                  marginBottom: '48px',
+                  boxShadow: '0 16px 40px rgba(0, 0, 0, 0.45)',
+                  border: '1px solid var(--border-gold)',
+                }}
+              >
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
-                  <label style={{ fontSize: '0.94rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
-                    {t.questionStep.questionLabel}:
+                  <label style={{ fontSize: '1rem', color: 'var(--gold-light)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span>✦</span>
+                    <span>{language === 'zh-TW' ? '心誠叩問 · 虔誠請示' : 'SINCERE INQUIRY & INNER CONTEMPLATION'}</span>
                   </label>
                   {isAnalyzing && (
                     <span style={{ fontSize: '0.82rem', color: 'var(--gold-primary)' }}>
@@ -369,13 +407,19 @@ export default function MazuLotApp() {
                   )}
                 </div>
 
+                <p style={{ fontSize: '0.86rem', color: 'var(--text-muted)', marginBottom: '12px' }}>
+                  {language === 'zh-TW'
+                    ? '寫下您當前的抉擇或困惑，AI 語意引擎將依「一籤斷一事」自動識別 13 大事類門類：'
+                    : 'Describe your question or dilemma. Our intent engine maps your inquiry to the 13 canonical oracle domains:'}
+                </p>
+
                 <textarea
                   value={userQuestion}
                   onChange={(e) => setUserQuestion(e.target.value)}
                   rows={3}
                   style={{
                     width: '100%',
-                    background: 'rgba(7, 11, 17, 0.75)',
+                    background: 'rgba(7, 11, 17, 0.85)',
                     border: '1px solid var(--border-gold)',
                     borderRadius: 'var(--radius-sm)',
                     padding: '14px',
@@ -389,18 +433,28 @@ export default function MazuLotApp() {
                   placeholder={t.questionStep.placeholder}
                 />
 
-                {/* AI Detection & Multi-Domain Warning Banner */}
+                {/* AI Multi-Domain Detection Banner */}
                 {analysis?.isMultiDomain && (
                   <div
                     style={{
                       marginTop: '16px',
                       padding: '16px 18px',
                       background: 'rgba(194, 59, 34, 0.12)',
-                      border: '1px solid rgba(194, 59, 34, 0.6)',
+                      border: '1px solid rgba(194, 59, 34, 0.65)',
                       borderRadius: 'var(--radius-sm)',
                     }}
                   >
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#E87A68', fontWeight: 700, fontSize: '0.96rem', marginBottom: '6px' }}>
+                    <div
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '8px',
+                        color: '#E87A68',
+                        fontWeight: 700,
+                        fontSize: '0.96rem',
+                        marginBottom: '6px',
+                      }}
+                    >
                       <span>⚠️</span>
                       <span>{t.questionStep.multiDomainWarningTitle}</span>
                     </div>
@@ -437,7 +491,7 @@ export default function MazuLotApp() {
                   </div>
                 )}
 
-                {/* Fatalistic Question Reframing Suggestion */}
+                {/* Fatalistic Question Reframing */}
                 {analysis?.isFatalistic && (
                   <div
                     style={{
@@ -456,12 +510,245 @@ export default function MazuLotApp() {
                     </p>
                     <button
                       type="button"
-                      onClick={() => setUserQuestion(language === 'zh-TW' ? analysis.reframedQuestionZh : analysis.reframedQuestionEn)}
+                      onClick={() =>
+                        setUserQuestion(language === 'zh-TW' ? analysis.reframedQuestionZh : analysis.reframedQuestionEn)
+                      }
                       className="btn-outline"
                       style={{ fontSize: '0.82rem', padding: '6px 14px' }}
                     >
                       {t.questionStep.applyReframingBtn}
                     </button>
+                  </div>
+                )}
+
+                {/* Detected Domain Indicator & Primary Actions */}
+                <div
+                  style={{
+                    marginTop: '24px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    flexWrap: 'wrap',
+                    gap: '16px',
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                      {t.questionStep.currentDomain}:
+                    </span>
+                    <span
+                      style={{
+                        padding: '4px 10px',
+                        background: 'rgba(212, 175, 55, 0.15)',
+                        border: '1px solid var(--border-gold)',
+                        borderRadius: '20px',
+                        color: 'var(--gold-light)',
+                        fontSize: '0.88rem',
+                        fontWeight: 600,
+                      }}
+                    >
+                      {domainMeta.icon} {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn}
+                    </span>
+                  </div>
+
+                  <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                    <button
+                      onClick={() => setCurrentStep('domain')}
+                      className="btn-outline"
+                      style={{ padding: '12px 20px', fontSize: '0.92rem' }}
+                    >
+                      {t.questionStep.changeDomain}
+                    </button>
+                    <button
+                      id="btn-direct-draw"
+                      onClick={startDrawWithCountdown}
+                      disabled={!!analysis?.isMultiDomain}
+                      className="btn-primary"
+                      style={{
+                        padding: '12px 28px',
+                        fontSize: '1rem',
+                        opacity: analysis?.isMultiDomain ? 0.5 : 1,
+                        cursor: analysis?.isMultiDomain ? 'not-allowed' : 'pointer',
+                      }}
+                    >
+                      ✦ {t.questionStep.proceedBtn}
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Three Core Pillars */}
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+                  gap: '20px',
+                  textAlign: 'left',
+                }}
+              >
+                <div className="glass-panel" style={{ padding: '24px' }}>
+                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
+                    {t.porch.feature1Title}
+                  </div>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                    {t.porch.feature1Desc}
+                  </p>
+                </div>
+                <div className="glass-panel" style={{ padding: '24px' }}>
+                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
+                    {t.porch.feature2Title}
+                  </div>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                    {t.porch.feature2Desc}
+                  </p>
+                </div>
+                <div className="glass-panel" style={{ padding: '24px' }}>
+                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
+                    {t.porch.feature3Title}
+                  </div>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                    {t.porch.feature3Desc}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* ════ SCREEN 2: 13-DOMAIN MANUAL PICKER ═══════════════ */}
+          {currentStep === 'domain' && (
+            <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
+              <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem', marginBottom: '8px' }}>
+                {t.domainStep.stepTag}
+              </div>
+              <h2 className="font-serif gold-gradient-text" style={{ fontSize: '2.2rem', marginBottom: '12px' }}>
+                {t.domainStep.heading}
+              </h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '32px' }}>
+                {t.domainStep.description}
+              </p>
+
+              <div className="domain-grid">
+                {DOMAINS.map((dom) => (
+                  <div
+                    key={dom.key}
+                    onClick={() => setSelectedDomain(dom.key)}
+                    className={`domain-tile ${selectedDomain === dom.key ? 'active' : ''}`}
+                  >
+                    <div className="domain-icon">{dom.icon}</div>
+                    <div className="domain-title">
+                      {language === 'zh-TW' ? dom.titleZh : dom.titleEn}
+                    </div>
+                    <div className="domain-sub">{dom.description}</div>
+                  </div>
+                ))}
+              </div>
+
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '28px' }}>
+                <button onClick={() => setCurrentStep('porch')} className="btn-outline">
+                  ◄ {t.common.back}
+                </button>
+                <button
+                  onClick={() => setCurrentStep('question')}
+                  className="btn-primary"
+                  style={{ padding: '14px 32px' }}
+                >
+                  {t.domainStep.proceedBtn}: {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn} ►
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* ════ SCREEN 3: QUESTION REFINE GATE ═══════════════════ */}
+          {currentStep === 'question' && (
+            <div style={{ maxWidth: '740px', margin: '0 auto' }}>
+              <div style={{ textAlign: 'center', marginBottom: '28px' }}>
+                <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem', marginBottom: '8px' }}>
+                  {t.questionStep.stepTag}
+                </div>
+                <h2 className="font-serif gold-gradient-text" style={{ fontSize: '2.2rem', marginBottom: '10px' }}>
+                  {t.questionStep.heading}
+                </h2>
+                <p style={{ color: 'var(--text-secondary)' }}>
+                  {t.questionStep.currentDomain}:{' '}
+                  <strong style={{ color: 'var(--gold-light)' }}>
+                    {domainMeta.icon} {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn}
+                  </strong>
+                </p>
+              </div>
+
+              <div className="glass-panel" style={{ marginBottom: '24px', padding: '30px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+                  <label style={{ fontSize: '0.94rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
+                    {t.questionStep.questionLabel}:
+                  </label>
+                  {isAnalyzing && (
+                    <span style={{ fontSize: '0.82rem', color: 'var(--gold-primary)' }}>
+                      ✦ {t.questionStep.analyzing}
+                    </span>
+                  )}
+                </div>
+
+                <textarea
+                  value={userQuestion}
+                  onChange={(e) => setUserQuestion(e.target.value)}
+                  rows={3}
+                  style={{
+                    width: '100%',
+                    background: 'rgba(7, 11, 17, 0.75)',
+                    border: '1px solid var(--border-gold)',
+                    borderRadius: 'var(--radius-sm)',
+                    padding: '14px',
+                    color: 'var(--text-primary)',
+                    fontSize: '1.05rem',
+                    fontFamily: 'inherit',
+                    resize: 'none',
+                    outline: 'none',
+                    lineHeight: 1.6,
+                  }}
+                  placeholder={t.questionStep.placeholder}
+                />
+
+                {/* AI Multi-Domain Warning */}
+                {analysis?.isMultiDomain && (
+                  <div
+                    style={{
+                      marginTop: '16px',
+                      padding: '16px 18px',
+                      background: 'rgba(194, 59, 34, 0.12)',
+                      border: '1px solid rgba(194, 59, 34, 0.65)',
+                      borderRadius: 'var(--radius-sm)',
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#E87A68', fontWeight: 700, fontSize: '0.96rem', marginBottom: '6px' }}>
+                      <span>⚠️</span>
+                      <span>{t.questionStep.multiDomainWarningTitle}</span>
+                    </div>
+                    <p style={{ color: 'var(--text-primary)', fontSize: '0.9rem', lineHeight: 1.55, marginBottom: '12px' }}>
+                      {language === 'zh-TW' ? analysis.multiDomainWarningZh : analysis.multiDomainWarningEn}
+                    </p>
+                    <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+                      {analysis.suggestedQuestions.map((sq, idx) => (
+                        <button
+                          key={idx}
+                          type="button"
+                          onClick={() => {
+                            setSelectedDomain(sq.domain);
+                            setUserQuestion(language === 'zh-TW' ? sq.questionZh : sq.questionEn);
+                          }}
+                          style={{
+                            background: 'rgba(212, 175, 55, 0.15)',
+                            border: '1px solid var(--gold-primary)',
+                            borderRadius: '6px',
+                            color: 'var(--gold-light)',
+                            fontSize: '0.82rem',
+                            padding: '6px 12px',
+                            cursor: 'pointer',
+                          }}
+                        >
+                          ✦ {language === 'zh-TW' ? `聚焦：${sq.domainTitleZh}` : `Focus: ${sq.domainTitleEn}`}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                 )}
 
@@ -490,7 +777,7 @@ export default function MazuLotApp() {
                 <button onClick={() => setCurrentStep('domain')} className="btn-outline">
                   ◄ {t.questionStep.changeDomain}
                 </button>
-                <button onClick={handleProceedToDraw} className="btn-primary" style={{ padding: '14px 34px' }}>
+                <button onClick={startDrawWithCountdown} className="btn-primary" style={{ padding: '14px 34px' }}>
                   {t.questionStep.proceedBtn}
                 </button>
               </div>
@@ -514,7 +801,6 @@ export default function MazuLotApp() {
                   paddingTop: '20px',
                 }}
               >
-                {/* Bamboo Lot Sticks */}
                 <div
                   style={{
                     position: 'absolute',
@@ -542,31 +828,30 @@ export default function MazuLotApp() {
             </div>
           )}
 
-          {/* ════ SCREEN 5 & 6: LOT REVEAL & READING ══════════════ */}
+          {/* ════ SCREEN 5 & 6: LOT REVEAL, READING & RECTIFICATION ════ */}
           {currentStep === 'reading' && drawnLot && (
-            <div style={{ maxWidth: '980px', margin: '0 auto' }}>
+            <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
               <div className="glass-panel" style={{ padding: '40px' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '320px 1fr', gap: '40px', alignItems: 'start' }}>
-                  {/* Left Column: Refactored Card Artwork */}
+                  {/* Left Column: SvgLotCard Component (Canonical lot_01 Standard Layout) */}
                   <div style={{ textAlign: 'center' }}>
-                    <div className="card-frame" style={{ margin: '0 auto' }}>
-                      <img
-                        src={`/assets/cards/lot_${String(drawnLot.lot_number).padStart(2, '0')}_card.jpg`}
-                        alt={`Lot ${drawnLot.lot_number}`}
-                        className="card-image"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/assets/cards/lot_01_card.jpg';
-                        }}
+                    <div style={{ margin: '0 auto', maxWidth: '300px' }}>
+                      <SvgLotCard
+                        lotNumber={drawnLot.lot_number}
+                        ganzhiZh={drawnLot.ganzhi.zh}
+                        titleZh={drawnLot.title.zh}
+                        titleEn={drawnLot.title.en}
+                        language={displayMode === 'bilingual' ? 'mixed' : language === 'zh-TW' ? 'zh-TW' : 'en'}
                       />
                     </div>
-                    <div style={{ marginTop: '16px', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                    <div style={{ marginTop: '16px', fontSize: '0.82rem', color: 'var(--text-muted)' }}>
                       {language === 'zh-TW'
-                        ? `第 ${drawnLot.lot_number} 籤 · 秦篆方印（${drawnLot.ganzhi.zh}）`
+                        ? `第 ${drawnLot.lot_number} 籤 · 正統秦篆印鑑（${drawnLot.ganzhi.zh}）`
                         : `Card #${drawnLot.lot_number} · 2×2 Qin Seal (${drawnLot.ganzhi.zh})`}
                     </div>
                   </div>
 
-                  {/* Right Column: Cultural Details & Verse */}
+                  {/* Right Column: Cultural Details, Verse & Guidance */}
                   <div>
                     <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between' }}>
                       <span style={{ color: 'var(--gold-primary)', letterSpacing: '0.15em', fontWeight: 700 }}>
@@ -631,12 +916,15 @@ export default function MazuLotApp() {
                           }}
                         >
                           {showAlternativeVerse
-                            ? (language === 'zh-TW' ? '收起英譯對照' : 'Hide Classical Verse')
-                            : (language === 'zh-TW' ? '📜 展開英文 Cadence 對照' : '📜 View Original 7-Char Verse')}
+                            ? language === 'zh-TW'
+                              ? '收起英譯對照'
+                              : 'Hide Classical Verse'
+                            : language === 'zh-TW'
+                            ? '📜 展開英文 Cadence 對照'
+                            : '📜 View Original 7-Char Verse'}
                         </button>
                       </div>
 
-                      {/* Primary Verse: Chinese for zh-TW, English for en, or Dual for bilingual */}
                       {displayMode === 'bilingual' ? (
                         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                           <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.2rem', letterSpacing: '0.2em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
@@ -666,7 +954,6 @@ export default function MazuLotApp() {
                         </div>
                       )}
 
-                      {/* On-Demand Secondary / Companion Verse */}
                       {showAlternativeVerse && displayMode !== 'bilingual' && (
                         <div
                           style={{
@@ -682,15 +969,7 @@ export default function MazuLotApp() {
                               ))}
                             </div>
                           ) : (
-                            <div
-                              style={{
-                                fontFamily: 'var(--font-chinese)',
-                                fontSize: '1.2rem',
-                                letterSpacing: '0.22em',
-                                color: 'var(--gold-light)',
-                                lineHeight: 1.9,
-                              }}
-                            >
+                            <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.2rem', letterSpacing: '0.22em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
                               {drawnLot.verse?.lines?.map((line) => (
                                 <p key={line.line_number}>{line.zh}</p>
                               ))}
@@ -700,44 +979,38 @@ export default function MazuLotApp() {
                       )}
                     </div>
 
-                    {/* Domain Guidance Line (Clean Single Language) */}
+                    {/* Domain Guidance Line */}
                     <div style={{ marginBottom: '20px' }}>
                       <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '0.92rem', marginBottom: '6px' }}>
-                        {t.readingStep.domainGuidanceHeader} {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn.toUpperCase()}:
+                        {t.readingStep.domainGuidanceHeader}{' '}
+                        {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn.toUpperCase()}:
                       </div>
                       <p style={{ color: 'var(--text-primary)', fontSize: '1.05rem', lineHeight: 1.6 }}>
                         &ldquo;
                         {language === 'zh-TW'
-                          ? (drawnLot.guidance?.[selectedDomain]?.zh || drawnLot.guidance?.general?.zh || drawnLot.plain_meaning?.zh)
-                          : (drawnLot.guidance?.[selectedDomain]?.en || drawnLot.guidance?.general?.en || drawnLot.plain_meaning?.en)}
+                          ? drawnLot.guidance?.[selectedDomain]?.zh || drawnLot.guidance?.general?.zh || drawnLot.plain_meaning?.zh
+                          : drawnLot.guidance?.[selectedDomain]?.en || drawnLot.guidance?.general?.en || drawnLot.plain_meaning?.en}
                         &rdquo;
                       </p>
                     </div>
 
-                    {/* Favorable vs Guarded Keywords */}
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
-                      <div style={{ background: 'rgba(212, 175, 55, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
-                        <div style={{ color: 'var(--gold-light)', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
-                          {t.readingStep.favorableTag}
-                        </div>
-                        <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
-                          {(language === 'zh-TW'
-                            ? (drawnLot.keywords?.favourable?.zh || drawnLot.keywords?.favourable?.en || [])
-                            : (drawnLot.keywords?.favourable?.en || drawnLot.keywords?.favourable?.zh || [])
-                          ).join(' · ')}
-                        </p>
+                    {/* Prominent General Interpretation Disclaimer Box */}
+                    <div
+                      style={{
+                        margin: '20px 0',
+                        padding: '16px 20px',
+                        background: 'rgba(212, 175, 55, 0.06)',
+                        border: '1px solid rgba(212, 175, 55, 0.28)',
+                        borderRadius: 'var(--radius-sm)',
+                        borderLeft: '4px solid var(--gold-primary)',
+                      }}
+                    >
+                      <div style={{ color: 'var(--gold-primary)', fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.08em', marginBottom: '4px' }}>
+                        {t.disclaimer.badge} · {t.disclaimer.title}
                       </div>
-                      <div style={{ background: 'rgba(194, 59, 34, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
-                        <div style={{ color: '#E87A68', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
-                          {t.readingStep.guardedTag}
-                        </div>
-                        <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
-                          {(language === 'zh-TW'
-                            ? (drawnLot.keywords?.guarded?.zh || drawnLot.keywords?.guarded?.en || [])
-                            : (drawnLot.keywords?.guarded?.en || drawnLot.keywords?.guarded?.zh || [])
-                          ).join(' · ')}
-                        </p>
-                      </div>
+                      <p style={{ color: 'var(--text-secondary)', fontSize: '0.86rem', lineHeight: 1.6, margin: 0 }}>
+                        {t.disclaimer.body}
+                      </p>
                     </div>
 
                     {/* Historical Allusion Story Card */}
@@ -768,19 +1041,35 @@ export default function MazuLotApp() {
                       </div>
                     )}
 
-                    {/* Hermeneutic Nuance Notes */}
-                    {drawnLot.reading_notes && drawnLot.reading_notes.length > 0 && (
-                      <div style={{ fontSize: '0.86rem', color: 'var(--text-muted)', lineHeight: 1.6 }}>
-                        <strong style={{ color: 'var(--gold-light)' }}>{t.readingStep.hermeneuticNotesLabel}:</strong>{' '}
-                        {drawnLot.reading_notes.map((n) =>
-                          language === 'zh-TW' ? `${n.term}：${n.zh}` : `${n.term} (${n.pinyin}): ${n.en}`
-                        ).join(' · ')}
+                    {/* Favorable vs Guarded Keywords */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+                      <div style={{ background: 'rgba(212, 175, 55, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
+                        <div style={{ color: 'var(--gold-light)', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
+                          {t.readingStep.favorableTag}
+                        </div>
+                        <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
+                          {(language === 'zh-TW'
+                            ? drawnLot.keywords?.favourable?.zh || drawnLot.keywords?.favourable?.en || []
+                            : drawnLot.keywords?.favourable?.en || drawnLot.keywords?.favourable?.zh || []
+                          ).join(' · ')}
+                        </p>
                       </div>
-                    )}
+                      <div style={{ background: 'rgba(194, 59, 34, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
+                        <div style={{ color: '#E87A68', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
+                          {t.readingStep.guardedTag}
+                        </div>
+                        <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
+                          {(language === 'zh-TW'
+                            ? drawnLot.keywords?.guarded?.zh || drawnLot.keywords?.guarded?.en || []
+                            : drawnLot.keywords?.guarded?.en || drawnLot.keywords?.guarded?.zh || []
+                          ).join(' · ')}
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                {/* ─── PAYWALL / BAZI INTEGRATION HOOK ─────────────── */}
+                {/* ─── DUAL-BRANCH BAZI RECTIFICATION & CONVERSION BRIDGE ─── */}
                 <div
                   style={{
                     marginTop: '44px',
@@ -790,85 +1079,375 @@ export default function MazuLotApp() {
                   }}
                 >
                   <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.15em', fontWeight: 700, fontSize: '0.92rem' }}>
-                    {t.baziPaywall.sectionTag}
+                    {t.rectification.sectionTag}
                   </div>
                   <h3 className="font-serif gold-gradient-text" style={{ fontSize: '1.8rem', margin: '8px 0 12px' }}>
                     {language === 'zh-TW'
-                      ? `第 ${drawnLot.lot_number} 籤（${drawnLot.ganzhi.zh}）如何與您的個人八字命盤相互感應？`
-                      : `What Does Lot ${drawnLot.lot_number} (${drawnLot.ganzhi.zh}) Say About YOUR Four Pillars?`}
+                      ? `第 ${drawnLot.lot_number} 籤（${drawnLot.ganzhi.zh}）如何與您的個人八字深度合參？`
+                      : `How Does Lot ${drawnLot.lot_number} (${drawnLot.ganzhi.zh}) Resonate With YOUR Natal Chart?`}
                   </h3>
-                  <p style={{ color: 'var(--text-secondary)', maxWidth: '640px', margin: '0 auto 28px', lineHeight: 1.6 }}>
-                    {t.baziPaywall.description}
+                  <p style={{ color: 'var(--text-secondary)', maxWidth: '680px', margin: '0 auto 28px', lineHeight: 1.6 }}>
+                    {t.rectification.subheading}
                   </p>
 
+                  {/* Dual Branch Selector Tabs */}
+                  <div style={{ display: 'inline-flex', background: 'rgba(7, 11, 17, 0.9)', padding: '4px', borderRadius: '12px', border: '1px solid var(--border-gold)', marginBottom: '28px' }}>
+                    <button
+                      onClick={() => setTimeBranch('exact')}
+                      style={{
+                        background: timeBranch === 'exact' ? 'var(--gold-primary)' : 'transparent',
+                        color: timeBranch === 'exact' ? '#070B11' : 'var(--text-secondary)',
+                        border: 'none',
+                        borderRadius: '8px',
+                        padding: '10px 22px',
+                        fontWeight: 600,
+                        fontSize: '0.9rem',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease',
+                      }}
+                    >
+                      ⏱️ {t.rectification.exactTimeTab}
+                    </button>
+                    <button
+                      onClick={() => setTimeBranch('rough')}
+                      style={{
+                        background: timeBranch === 'rough' ? 'var(--gold-primary)' : 'transparent',
+                        color: timeBranch === 'rough' ? '#070B11' : 'var(--text-secondary)',
+                        border: 'none',
+                        borderRadius: '8px',
+                        padding: '10px 22px',
+                        fontWeight: 600,
+                        fontSize: '0.9rem',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease',
+                      }}
+                    >
+                      🔮 {t.rectification.roughTimeTab}
+                    </button>
+                  </div>
+
+                  {/* Branch A: Exact Time Inputs */}
+                  {timeBranch === 'exact' && (
+                    <div
+                      style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '16px',
+                        justifyContent: 'center',
+                        maxWidth: '680px',
+                        margin: '0 auto 24px',
+                      }}
+                    >
+                      <div>
+                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                          {t.baziPaywall.birthDateLabel}
+                        </label>
+                        <input
+                          type="date"
+                          value={birthDate}
+                          onChange={(e) => setBirthDate(e.target.value)}
+                          style={{
+                            background: 'rgba(7, 11, 17, 0.8)',
+                            border: '1px solid var(--border-gold)',
+                            borderRadius: '8px',
+                            padding: '10px 14px',
+                            color: 'var(--text-primary)',
+                          }}
+                        />
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                          {t.baziPaywall.birthTimeLabel}
+                        </label>
+                        <input
+                          type="time"
+                          value={birthTime}
+                          onChange={(e) => setBirthTime(e.target.value)}
+                          style={{
+                            background: 'rgba(7, 11, 17, 0.8)',
+                            border: '1px solid var(--border-gold)',
+                            borderRadius: '8px',
+                            padding: '10px 14px',
+                            color: 'var(--text-primary)',
+                          }}
+                        />
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                          {t.baziPaywall.locationLabel}
+                        </label>
+                        <input
+                          type="text"
+                          value={birthLocation}
+                          onChange={(e) => setBirthLocation(e.target.value)}
+                          style={{
+                            background: 'rgba(7, 11, 17, 0.8)',
+                            border: '1px solid var(--border-gold)',
+                            borderRadius: '8px',
+                            padding: '10px 14px',
+                            color: 'var(--text-primary)',
+                            width: '180px',
+                          }}
+                        />
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Branch B: Rough Time Interval & Milestone Questionnaire */}
+                  {timeBranch === 'rough' && (
+                    <div style={{ maxWidth: '720px', margin: '0 auto 24px', textAlign: 'left' }}>
+                      <div style={{ marginBottom: '16px' }}>
+                        <label style={{ display: 'block', fontSize: '0.88rem', color: 'var(--gold-light)', fontWeight: 600, marginBottom: '8px' }}>
+                          {t.rectification.selectSlotPrompt}
+                        </label>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' }}>
+                          {[
+                            { key: 'morning', label: t.rectification.slotMorning },
+                            { key: 'afternoon', label: t.rectification.slotAfternoon },
+                            { key: 'night', label: t.rectification.slotNight },
+                            { key: 'not_sure', label: t.rectification.slotNotSure },
+                          ].map((slot) => (
+                            <button
+                              key={slot.key}
+                              type="button"
+                              onClick={() => setRoughSlot(slot.key as typeof roughSlot)}
+                              style={{
+                                padding: '10px 12px',
+                                background: roughSlot === slot.key ? 'rgba(212, 175, 55, 0.2)' : 'rgba(7, 11, 17, 0.6)',
+                                border: roughSlot === slot.key ? '2px solid var(--gold-primary)' : '1px solid var(--border-gold)',
+                                borderRadius: '8px',
+                                color: roughSlot === slot.key ? 'var(--gold-light)' : 'var(--text-secondary)',
+                                cursor: 'pointer',
+                                fontSize: '0.82rem',
+                                textAlign: 'center',
+                                fontWeight: roughSlot === slot.key ? 700 : 400,
+                              }}
+                            >
+                              {slot.label}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Launch Questionnaire Trigger */}
+                      {!rectificationQuestions && !rectifiedResult && (
+                        <div style={{ textAlign: 'center', margin: '20px 0' }}>
+                          <button
+                            type="button"
+                            onClick={handleFetchRectificationQuiz}
+                            disabled={isRectifying}
+                            className="btn-outline"
+                            style={{ padding: '12px 28px', color: 'var(--gold-light)', borderColor: 'var(--gold-primary)' }}
+                          >
+                            {isRectifying ? t.rectification.lockingHour : t.rectification.startQuizBtn}
+                          </button>
+                        </div>
+                      )}
+
+                      {/* Render Historical Milestone Questionnaire */}
+                      {rectificationQuestions && !rectifiedResult && (
+                        <div
+                          style={{
+                            background: 'rgba(7, 11, 17, 0.7)',
+                            border: '1px solid var(--border-gold)',
+                            borderRadius: '12px',
+                            padding: '24px',
+                            marginTop: '20px',
+                          }}
+                        >
+                          <div style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '1rem', marginBottom: '4px' }}>
+                            {t.rectification.quizHeading}
+                          </div>
+                          <p style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', marginBottom: '18px' }}>
+                            {t.rectification.quizSubheading}
+                          </p>
+
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
+                            {rectificationQuestions.map((q) => (
+                              <div
+                                key={q.id}
+                                style={{
+                                  padding: '14px 16px',
+                                  background: 'rgba(20, 28, 43, 0.6)',
+                                  borderRadius: '8px',
+                                  borderLeft: '3px solid var(--gold-primary)',
+                                }}
+                              >
+                                <div style={{ fontSize: '0.92rem', color: 'var(--text-primary)', fontWeight: 600, marginBottom: '10px' }}>
+                                  {language === 'zh-TW' ? q.questionZh : q.questionEn}
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                  {q.options.map((opt) => (
+                                    <label
+                                      key={opt.id}
+                                      style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '10px',
+                                        fontSize: '0.86rem',
+                                        color: rectificationAnswers[q.id] === opt.id ? 'var(--gold-light)' : 'var(--text-secondary)',
+                                        cursor: 'pointer',
+                                      }}
+                                    >
+                                      <input
+                                        type="radio"
+                                        name={q.id}
+                                        value={opt.id}
+                                        checked={rectificationAnswers[q.id] === opt.id}
+                                        onChange={() =>
+                                          setRectificationAnswers((prev) => ({
+                                            ...prev,
+                                            [q.id]: opt.id,
+                                          }))
+                                        }
+                                      />
+                                      <span>{language === 'zh-TW' ? opt.textZh : opt.textEn}</span>
+                                    </label>
+                                  ))}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+
+                          <div style={{ textAlign: 'center', marginTop: '24px' }}>
+                            <button
+                              type="button"
+                              onClick={handleSolveRectification}
+                              disabled={isRectifying}
+                              className="btn-primary"
+                              style={{ padding: '12px 32px' }}
+                            >
+                              {isRectifying ? t.rectification.lockingHour : t.rectification.lockHourBtn}
+                            </button>
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Display Converged Rectification Badge */}
+                      {rectifiedResult && (
+                        <div
+                          style={{
+                            marginTop: '20px',
+                            padding: '18px 22px',
+                            background: 'rgba(212, 175, 55, 0.12)',
+                            border: '2px solid var(--gold-primary)',
+                            borderRadius: '12px',
+                          }}
+                        >
+                          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                            <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '0.96rem' }}>
+                              {t.rectification.verifiedBadge}
+                            </span>
+                            <span style={{ fontSize: '0.84rem', color: 'var(--gold-light)', background: 'rgba(7, 11, 17, 0.6)', padding: '3px 8px', borderRadius: '4px' }}>
+                              Confidence: {rectifiedResult.confidenceScore}%
+                            </span>
+                          </div>
+                          <div style={{ fontSize: '1.2rem', color: 'var(--gold-light)', fontWeight: 700, margin: '6px 0' }}>
+                            {rectifiedResult.pinpointedHour?.shichenZh} ({rectifiedResult.pinpointedHour?.timeRange}) · 時柱 {rectifiedResult.pinpointedHour?.pillar}
+                          </div>
+                          <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', lineHeight: 1.6, margin: 0 }}>
+                            {language === 'zh-TW'
+                              ? `經米圖排盤內核矩陣運算，該時辰之子女宮與晚年宮位動象最能嚴密吻合您過往人生里程碑應期。系統已自動校準出生時間為 ${birthTime}。`
+                              : `Verified by MiTu core matrix convergence. This hour pillar aligns with your historical milestone trajectories. Clock time set to ${birthTime}.`}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* ─── INSIGHTFUL EXCERPT HOOK (FREE CONVINCING TEASER) ─── */}
                   <div
                     style={{
-                      display: 'flex',
-                      flexWrap: 'wrap',
-                      gap: '16px',
-                      justifyContent: 'center',
-                      maxWidth: '680px',
-                      margin: '0 auto 24px',
+                      maxWidth: '720px',
+                      margin: '24px auto',
+                      padding: '22px 26px',
+                      background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(13, 20, 31, 0.85) 100%)',
+                      border: '1px solid var(--gold-primary)',
+                      borderRadius: 'var(--radius-md)',
+                      textAlign: 'left',
                     }}
                   >
-                    <div>
-                      <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
-                        {t.baziPaywall.birthDateLabel}
-                      </label>
-                      <input
-                        type="date"
-                        value={birthDate}
-                        onChange={(e) => setBirthDate(e.target.value)}
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <span style={{ color: 'var(--gold-primary)', fontSize: '1.1rem' }}>✦</span>
+                        <span style={{ color: 'var(--gold-light)', fontWeight: 700, fontSize: '0.96rem' }}>
+                          {t.rectification.hookHeading}
+                        </span>
+                      </div>
+                      <span
                         style={{
-                          background: 'rgba(7, 11, 17, 0.8)',
-                          border: '1px solid var(--border-gold)',
-                          borderRadius: '8px',
-                          padding: '10px 14px',
-                          color: 'var(--text-primary)',
+                          fontSize: '0.74rem',
+                          background: 'rgba(212, 175, 55, 0.25)',
+                          color: 'var(--gold-light)',
+                          padding: '2px 8px',
+                          borderRadius: '4px',
+                          fontWeight: 700,
+                          letterSpacing: '0.08em',
                         }}
-                      />
+                      >
+                        FREE PREVIEW
+                      </span>
                     </div>
-                    <div>
-                      <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
-                        {t.baziPaywall.birthTimeLabel}
-                      </label>
-                      <input
-                        type="time"
-                        value={birthTime}
-                        onChange={(e) => setBirthTime(e.target.value)}
-                        style={{
-                          background: 'rgba(7, 11, 17, 0.8)',
-                          border: '1px solid var(--border-gold)',
-                          borderRadius: '8px',
-                          padding: '10px 14px',
-                          color: 'var(--text-primary)',
-                        }}
-                      />
+                    <p style={{ color: 'var(--text-primary)', fontSize: '0.93rem', lineHeight: 1.68, margin: '8px 0 10px' }}>
+                      {language === 'zh-TW'
+                        ? rectifiedResult?.insightfulExcerptZh ||
+                          `【結構診斷試讀】您所抽得之第 ${drawnLot.lot_number} 籤（${drawnLot.ganzhi.zh}）五行屬${drawnLot.element_and_direction.element}。此干支氣機與您日主五行交感，引動事業與決策宮位。即將到來之 2026 丙午歲君流年，天干透出比劫/食傷，構成個人自主權與職涯重組之關鍵窗口。完整解讀包含大運順序、十神喜忌與趨避時機。`
+                        : rectifiedResult?.insightfulExcerptEn ||
+                          `[Structural Diagnostic Teaser] Lot ${drawnLot.lot_number} (${drawnLot.ganzhi.zh}) carries ${drawnLot.element_and_direction.element} elemental energy, interacting directly with your Day Master palace. The upcoming 2026 Bing Wu annual transit activates a pivotal realignment window for leadership and personal sovereignty. Unlock the full report for your 10-God balances and auspicious seasonal timing windows.`}
+                    </p>
+                  </div>
+
+                  {/* ─── COMMERCIAL MONETIZATION PLANS ───────────────── */}
+                  <div style={{ maxWidth: '680px', margin: '0 auto 24px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', textAlign: 'left' }}>
+                    {/* Plan A: Single Life Book */}
+                    <div
+                      onClick={() => setPurchasePlan('single')}
+                      style={{
+                        padding: '18px',
+                        background: purchasePlan === 'single' ? 'rgba(212, 175, 55, 0.16)' : 'rgba(7, 11, 17, 0.6)',
+                        border: purchasePlan === 'single' ? '2px solid var(--gold-primary)' : '1px solid var(--border-gold)',
+                        borderRadius: '10px',
+                        cursor: 'pointer',
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                        <span style={{ color: 'var(--gold-light)', fontWeight: 700, fontSize: '0.92rem' }}>
+                          {language === 'zh-TW' ? '九章全案命書' : '9-Section Life Book'}
+                        </span>
+                        <span style={{ color: 'var(--gold-primary)', fontWeight: 800, fontSize: '1.05rem' }}>$2.99</span>
+                      </div>
+                      <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', lineHeight: 1.5, margin: 0 }}>
+                        {language === 'zh-TW' ? '限時體驗價（原價 $19.99）。包含真太陽時四柱排盤、十神喜忌、流年合參及終生典藏 PDF。' : 'Launch special (Reg. $19.99). Full True Solar BaZi chart, 10-God affinity, and heirloom report.'}
+                      </p>
                     </div>
-                    <div>
-                      <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
-                        {t.baziPaywall.locationLabel}
-                      </label>
-                      <input
-                        type="text"
-                        value={birthLocation}
-                        onChange={(e) => setBirthLocation(e.target.value)}
-                        style={{
-                          background: 'rgba(7, 11, 17, 0.8)',
-                          border: '1px solid var(--border-gold)',
-                          borderRadius: '8px',
-                          padding: '10px 14px',
-                          color: 'var(--text-primary)',
-                          width: '180px',
-                        }}
-                      />
+
+                    {/* Plan B: Predictive Subscription */}
+                    <div
+                      onClick={() => setPurchasePlan('subscription')}
+                      style={{
+                        padding: '18px',
+                        background: purchasePlan === 'subscription' ? 'rgba(212, 175, 55, 0.16)' : 'rgba(7, 11, 17, 0.6)',
+                        border: purchasePlan === 'subscription' ? '2px solid var(--gold-primary)' : '1px solid var(--border-gold)',
+                        borderRadius: '10px',
+                        cursor: 'pointer',
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                        <span style={{ color: 'var(--gold-light)', fontWeight: 700, fontSize: '0.92rem' }}>
+                          {language === 'zh-TW' ? '流年事件驅動預測' : 'Annual Predictive Transits'}
+                        </span>
+                        <span style={{ color: 'var(--gold-primary)', fontWeight: 800, fontSize: '1.05rem' }}>$9.99<span style={{ fontSize: '0.74rem' }}>/mo</span></span>
+                      </div>
+                      <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', lineHeight: 1.5, margin: 0 }}>
+                        {language === 'zh-TW' ? '主動監控流年流月引動宮位，逢天克地衝、歲運並臨等關鍵氣機提前推送提醒。' : 'Proactive alerts on annual & monthly transits clashing or combining with your natal palaces.'}
+                      </p>
                     </div>
                   </div>
 
                   {/* EU CRD Art. 16(m) Waiver Checkbox */}
                   <div
                     style={{
-                      maxWidth: '560px',
+                      maxWidth: '580px',
                       margin: '0 auto 24px',
                       textAlign: 'left',
                       background: 'rgba(20, 28, 43, 0.6)',
@@ -894,18 +1473,22 @@ export default function MazuLotApp() {
                     onClick={handleUnlockReport}
                     disabled={isCheckingOut}
                     className="btn-primary"
-                    style={{ padding: '16px 42px' }}
+                    style={{ padding: '16px 44px', fontSize: '1.05rem' }}
                   >
-                    {isCheckingOut ? t.baziPaywall.unlockingBtn : t.baziPaywall.unlockBtn}
+                    {isCheckingOut
+                      ? t.baziPaywall.unlockingBtn
+                      : purchasePlan === 'single'
+                      ? t.rectification.unlockLifeBookBtn
+                      : t.rectification.subscribePredictiveBtn}
                   </button>
                 </div>
               </div>
             </div>
           )}
 
-          {/* ════ SCREEN 7 & 8: PERSONALIZED REPORT ═══════════════ */}
+          {/* ════ SCREEN 7 & 8: PERSONALIZED UNLOCKED REPORT ════════ */}
           {currentStep === 'report' && unlockedReport && drawnLot && (
-            <div style={{ maxWidth: '880px', margin: '0 auto' }}>
+            <div style={{ maxWidth: '900px', margin: '0 auto' }}>
               <div className="glass-panel" style={{ padding: '44px' }}>
                 <div style={{ textAlign: 'center', marginBottom: '36px' }}>
                   <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem' }}>
@@ -1011,7 +1594,7 @@ export default function MazuLotApp() {
                   <button onClick={() => setCurrentStep('reading')} className="btn-outline">
                     ◄ {t.heirloomReport.backToReadingBtn}
                   </button>
-                  <button onClick={() => setCurrentStep('domain')} className="btn-primary">
+                  <button onClick={() => setCurrentStep('porch')} className="btn-primary">
                     {t.heirloomReport.drawNewLotBtn}
                   </button>
                 </div>
@@ -1020,6 +1603,124 @@ export default function MazuLotApp() {
           )}
         </div>
       </main>
+
+      {/* ─── 5-SECOND DOMAIN OVERRIDE COUNTDOWN MODAL ───────────── */}
+      {countdownActive && (
+        <div className="modal-backdrop">
+          <div
+            className="modal-content"
+            style={{
+              maxWidth: '560px',
+              textAlign: 'center',
+              border: '2px solid var(--gold-primary)',
+              background: 'rgba(10, 16, 26, 0.96)',
+              boxShadow: '0 20px 60px rgba(0, 0, 0, 0.8), 0 0 30px var(--gold-glow)',
+            }}
+          >
+            <div
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: '64px',
+                height: '64px',
+                borderRadius: '50%',
+                background: 'rgba(212, 175, 55, 0.15)',
+                border: '2px solid var(--gold-primary)',
+                fontSize: '1.8rem',
+                color: 'var(--gold-primary)',
+                fontWeight: 800,
+                marginBottom: '16px',
+              }}
+            >
+              {countdown}
+            </div>
+
+            <h3 className="font-serif gold-gradient-text" style={{ fontSize: '1.6rem', marginBottom: '6px' }}>
+              {t.countdown.detectedInquiry}
+            </h3>
+
+            <div
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '6px 16px',
+                background: 'rgba(212, 175, 55, 0.2)',
+                border: '1px solid var(--gold-primary)',
+                borderRadius: '24px',
+                color: 'var(--gold-light)',
+                fontWeight: 700,
+                fontSize: '1.1rem',
+                margin: '8px 0 16px',
+              }}
+            >
+              <span>{domainMeta.icon}</span>
+              <span>{language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn}</span>
+            </div>
+
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', marginBottom: '20px' }}>
+              {t.countdown.drawingInSeconds.replace('{n}', String(countdown))}
+            </p>
+
+            {/* Quick 13-Domain Override Chips */}
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '8px',
+                justifyContent: 'center',
+                maxHeight: '180px',
+                overflowY: 'auto',
+                padding: '12px',
+                background: 'rgba(7, 11, 17, 0.6)',
+                borderRadius: '8px',
+                marginBottom: '24px',
+                border: '1px solid var(--border-gold)',
+              }}
+            >
+              {DOMAINS.map((dom) => (
+                <button
+                  key={dom.key}
+                  type="button"
+                  onClick={() => setSelectedDomain(dom.key)}
+                  style={{
+                    padding: '6px 12px',
+                    borderRadius: '16px',
+                    fontSize: '0.82rem',
+                    background: selectedDomain === dom.key ? 'var(--gold-primary)' : 'rgba(255, 255, 255, 0.05)',
+                    color: selectedDomain === dom.key ? '#070B11' : 'var(--text-secondary)',
+                    border: selectedDomain === dom.key ? '1px solid var(--gold-primary)' : '1px solid var(--border-subtle)',
+                    cursor: 'pointer',
+                    fontWeight: selectedDomain === dom.key ? 700 : 400,
+                  }}
+                >
+                  {dom.icon} {language === 'zh-TW' ? dom.titleZh : dom.titleEn}
+                </button>
+              ))}
+            </div>
+
+            <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
+              <button
+                type="button"
+                onClick={() => setCountdownActive(false)}
+                className="btn-outline"
+                style={{ padding: '12px 20px', fontSize: '0.9rem' }}
+              >
+                ✕ {t.common.back}
+              </button>
+              <button
+                type="button"
+                onClick={executeLotDraw}
+                className="btn-primary"
+                style={{ padding: '12px 28px', fontSize: '0.98rem' }}
+              >
+                ⚡ {t.countdown.drawNow}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* ─── PREFERENCES MODAL DRAWER ───────────────────────────── */}
       {showPreferences && (
@@ -1097,7 +1798,15 @@ export default function MazuLotApp() {
       )}
 
       {/* ─── SITE FOOTER ────────────────────────────────────────── */}
-      <footer style={{ borderTop: '1px solid var(--border-subtle)', padding: '28px 0', textAlign: 'center', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+      <footer
+        style={{
+          borderTop: '1px solid var(--border-subtle)',
+          padding: '28px 0',
+          textAlign: 'center',
+          fontSize: '0.84rem',
+          color: 'var(--text-muted)',
+        }}
+      >
         <div className="container">
           <p style={{ marginBottom: '8px' }}>
             {language === 'zh-TW'

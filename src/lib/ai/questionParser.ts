@@ -1,5 +1,5 @@
-import { DomainCategory } from '../types/lots';
-import { DOMAINS } from '../lots/domains';
+import { DomainCategory, CanonicalDomainKey } from '../types/lots';
+import { DOMAINS, normalizeDomainKey } from '../lots/domains';
 
 export interface QuestionAnalysisResult {
   originalQuestion: string;
@@ -22,48 +22,61 @@ export interface QuestionAnalysisResult {
   provider: 'llm' | 'deterministic_fallback';
 }
 
-const DOMAIN_KEYWORD_MAP: Record<DomainCategory, { en: string[]; zh: string[] }> = {
-  career: {
-    en: ['job', 'career', 'promotion', 'promoted', 'boss', 'interview', 'work', 'working', 'resign', 'resigned', 'resigning', 'fired', 'director', 'manager', 'offer', 'vocation', 'profession', 'colleague', 'employment'],
-    zh: ['事業', '工作', '升職', '升遷', '轉職', '跳槽', '離職', '辭職', '面試', '考公', '功名', '考試', '考取', '職位', '上司', '主管', '求職', '換工作'],
-  },
-  wealth: {
-    en: ['money', 'wealth', 'wealthy', 'invest', 'investing', 'investment', 'stock', 'crypto', 'debt', 'salary', 'income', 'property', 'real estate', 'profit', 'financial', 'finance', 'funds', 'cash'],
-    zh: ['求財', '金錢', '財運', '投資', '股票', '買房', '買屋', '理財', '發財', '收入', '偏財', '正財', '債務', '薪資', '薪水', '賺錢', '資金'],
+const DOMAIN_KEYWORD_MAP: Record<CanonicalDomainKey, { en: string[]; zh: string[] }> = {
+  general: {
+    en: ['overall', 'life', 'general', 'future', 'path', 'destiny', 'guidance', 'everything', 'prospect'],
+    zh: ['综合', '運勢', '凡事', '全面', '未來', '指引', '近況', '前程', '大局', '人生'],
   },
   relationships: {
-    en: ['love', 'marry', 'married', 'marriage', 'partner', 'boyfriend', 'girlfriend', 'divorce', 'divorced', 'breakup', 'dating', 'date', 'crush', 'wedding', 'relationship', 'spouse', 'husband', 'wife', 'lover'],
-    zh: ['婚姻', '感情', '愛情', '結婚', '婚事', '復合', '分手', '對象', '戀愛', '伴侶', '桃花', '男友', '女友', '老婆', '老公', '離婚', '另一半', '交往', '談戀愛'],
+    en: ['love', 'marry', 'married', 'marriage', 'partner', 'boyfriend', 'girlfriend', 'divorce', 'breakup', 'dating', 'date', 'crush', 'wedding', 'relationship', 'spouse', 'husband', 'wife'],
+    zh: ['婚姻', '感情', '愛情', '結婚', '婚事', '復合', '分手', '對象', '戀愛', '伴侶', '桃花', '男友', '女友', '老婆', '老公', '離婚', '相親', '訂婚', '另一半'],
+  },
+  career: {
+    en: ['job', 'career', 'promotion', 'promoted', 'boss', 'interview', 'work', 'working', 'resign', 'fired', 'director', 'manager', 'offer', 'vocation', 'profession', 'colleague', 'exam', 'study'],
+    zh: ['事業', '工作', '升職', '晉升', '轉職', '跳槽', '離職', '辭職', '面試', '考公', '考研', '考試', '學業', '功名', '錄取', '求職', '職位', '上級', '主管'],
+  },
+  money: {
+    en: ['money', 'wealth', 'wealthy', 'invest', 'investment', 'stock', 'crypto', 'debt', 'salary', 'income', 'property', 'profit', 'financial', 'finance', 'business', 'commerce', 'trade'],
+    zh: ['求財', '金錢', '財運', '投資', '股票', '生意', '買賣', '理財', '發財', '收入', '賺錢', '虧損', '債務', '貸款', '薪資', '薪水', '經商', '合夥', '分紅', '客戶'],
   },
   health: {
-    en: ['health', 'healthy', 'sick', 'illness', 'doctor', 'hospital', 'surgery', 'operation', 'disease', 'recovery', 'cure', 'medical', 'pain', 'symptom', 'recovering'],
-    zh: ['健康', '生病', '治病', '醫院', '醫生', '開刀', '手術', '身體', '疾病', '康復', '求醫', '病情', '病痛', '痊癒'],
+    en: ['health', 'healthy', 'sick', 'illness', 'doctor', 'hospital', 'surgery', 'operation', 'disease', 'recovery', 'cure', 'medical', 'pain', 'symptom', 'sleep', 'mental'],
+    zh: ['健康', '身體', '生病', '治病', '醫院', '醫生', '開刀', '手術', '疾病', '康復', '就醫', '吃藥', '失眠', '體檢', '病痛', '精神', '情緒'],
+  },
+  family_home: {
+    en: ['family', 'mother', 'father', 'mom', 'dad', 'parents', 'children', 'child', 'household', 'house', 'home', 'relatives', 'property'],
+    zh: ['家宅', '家庭', '家運', '家事', '房子', '房產', '裝修', '父母', '父親', '母親', '孩子', '長輩', '家人', '築室', '親戚', '手足'],
+  },
+  travel_moving: {
+    en: ['travel', 'traveling', 'trip', 'flight', 'visa', 'abroad', 'overseas', 'move', 'moving', 'relocate', 'relocating', 'emigrate', 'journey'],
+    zh: ['出行', '搬家', '搬遷', '出差', '旅遊', '旅行', '移居', '遷居', '落戶', '外地', '出外', '回鄉', '移民', '出國'],
+  },
+  sea_and_voyage: {
+    en: ['sea', 'ocean', 'ship', 'shipping', 'sail', 'sailing', 'vessel', 'cargo', 'voyage', 'maritime', 'harbor', 'port', 'crossborder'],
+    zh: ['出海', '航運', '船', '海運', '外貿', '跨境', '港口', '遠洋', '討海', '行舟', '赴海'],
+  },
+  the_absent_one: {
+    en: ['lost', 'missing', 'lost item', 'find someone', 'news', 'contact', 'reconnect', 'disappeared', 'belongings'],
+    zh: ['失物', '丟失', '遺失', '找不到', '尋人', '音信', '聯繫不上', '遠信', '下落', '失聯', '杳無', '來人'],
   },
   legal: {
-    en: ['sue', 'suing', 'sued', 'court', 'lawsuit', 'lawyer', 'attorney', 'legal', 'dispute', 'contract', 'trial', 'judge', 'police', 'settlement', 'lawsuits'],
-    zh: ['官司', '訴訟', '打官司', '法院', '合約', '合同', '律師', '糾紛', '爭訟', '勝訴', '和解', '判決', '告人', '被告'],
-  },
-  family: {
-    en: ['family', 'mother', 'father', 'mom', 'dad', 'parents', 'children', 'child', 'household', 'sister', 'brother', 'in-law', 'ancestor', 'relatives'],
-    zh: ['家運', '家庭', '父母', '父親', '母親', '孩子', '長輩', '家人', '門風', '婆媳', '手足', '兄弟', '姊妹'],
+    en: ['sue', 'suing', 'sued', 'court', 'lawsuit', 'lawyer', 'attorney', 'legal', 'dispute', 'contract', 'trial', 'judge', 'arbitration'],
+    zh: ['官司', '訴訟', '糾紛', '法律', '開庭', '仲裁', '打官司', '合同', '上訴', '官事', '律師', '判決'],
   },
   conception: {
-    en: ['pregnant', 'pregnancy', 'baby', 'child', 'conceive', 'conceiving', 'conception', 'fertility', 'ivf', 'birth', 'giving birth'],
-    zh: ['求兒', '求子', '懷孕', '備孕', '添丁', '試管', '保胎', '生小孩', '生兒', '懷胎', '求嗣'],
+    en: ['pregnant', 'pregnancy', 'baby', 'child', 'conceive', 'conception', 'fertility', 'ivf', 'birth', 'giving birth'],
+    zh: ['求子', '求兒', '懷孕', '生育', '生孩', '備孕', '試管', '保胎', '六甲', '子嗣', '添丁'],
   },
-  travel: {
-    en: ['travel', 'traveling', 'trip', 'flight', 'visa', 'abroad', 'overseas', 'move', 'moving', 'relocate', 'relocating', 'emigrate', 'journey'],
-    zh: ['遠行', '出外', '旅行', '移居', '搬家', '出國', '簽證', '移民', '行期', '尋人', '旅遊', '出差'],
+  timing: {
+    en: ['timing', 'when', 'which year', 'season', 'auspicious time', 'transit', 'cycle', 'this year'],
+    zh: ['流年', '今年', '什麼時候', '時機', '運程', '歲君', '月令', '哪年', '本命年', '吉時'],
   },
-  business: {
-    en: ['business', 'store', 'shop', 'startup', 'starting a business', 'client', 'deal', 'commerce', 'trade', 'enterprise', 'partnership', 'venture'],
-    zh: ['經商', '做生意', '開店', '合夥', '創業', '買賣', '商業', '客戶', '貿易', '開店面', '生意'],
-  },
-  sea_voyage: {
-    en: ['sea', 'ocean', 'ship', 'shipping', 'sail', 'sailing', 'vessel', 'cargo', 'voyage', 'maritime', 'harbor', 'port'],
-    zh: ['出海', '航行', '舟楫', '航運', '海運', '水路', '漁業', '跑船', '出洋'],
+  livelihood_and_seasons: {
+    en: ['farming', 'agriculture', 'harvest', 'crop', 'livestock', 'fishery', 'breeding', 'seasonal work'],
+    zh: ['耕作', '農作', '漁獲', '養殖', '種植', '畜牧', '收成', '魚苗', '求雨', '六畜', '作塭', '種地'],
   },
 };
+
 
 export async function analyzeInquiry(
   question: string,
@@ -98,20 +111,23 @@ function runDeterministicParser(
   userSelectedDomain?: DomainCategory
 ): QuestionAnalysisResult {
   const qLower = question.toLowerCase();
-  const matchedScores: Record<DomainCategory, number> = {
-    career: 0,
-    wealth: 0,
+  const matchedScores: Record<CanonicalDomainKey, number> = {
+    general: 0,
     relationships: 0,
+    career: 0,
+    money: 0,
     health: 0,
+    family_home: 0,
+    travel_moving: 0,
+    sea_and_voyage: 0,
+    the_absent_one: 0,
     legal: 0,
-    family: 0,
     conception: 0,
-    travel: 0,
-    business: 0,
-    sea_voyage: 0,
+    timing: 0,
+    livelihood_and_seasons: 0,
   };
 
-  (Object.keys(DOMAIN_KEYWORD_MAP) as DomainCategory[]).forEach((domain) => {
+  (Object.keys(DOMAIN_KEYWORD_MAP) as CanonicalDomainKey[]).forEach((domain) => {
     const { en, zh } = DOMAIN_KEYWORD_MAP[domain];
     en.forEach((kw) => {
       if (qLower.includes(kw)) matchedScores[domain] += 2;
@@ -123,15 +139,17 @@ function runDeterministicParser(
 
   // If user already had a selected domain, give it a baseline boost
   if (userSelectedDomain) {
-    matchedScores[userSelectedDomain] += 1;
+    const norm = normalizeDomainKey(userSelectedDomain);
+    matchedScores[norm] += 1;
   }
 
+
   // Sort domains by matched score
-  const detected = (Object.keys(matchedScores) as DomainCategory[])
+  const detected = (Object.keys(matchedScores) as CanonicalDomainKey[])
     .filter((d) => matchedScores[d] > 1)
     .sort((a, b) => matchedScores[b] - matchedScores[a]);
 
-  const primaryDomain = detected[0] || userSelectedDomain || 'career';
+  const primaryDomain: DomainCategory = detected[0] || userSelectedDomain || 'career';
   const isMultiDomain = detected.length >= 2;
 
   // Fatalistic pattern detection
@@ -216,22 +234,22 @@ async function queryLlmClassifier(
   apiKey: string,
   userSelectedDomain?: DomainCategory
 ): Promise<QuestionAnalysisResult | null> {
-  const baseUrl = (process.env.AI_BASE_URL || 'https://api.openai.com/v1').replace(/\/+$/, '');
-  const model = process.env.AI_MODEL || 'gpt-4o-mini';
+  const baseUrl = (process.env.AI_API_ENDPOINT || process.env.AI_BASE_URL || 'https://api.openai.com/v1').replace(/\/+$/, '');
+  const model = process.env.AI_MODEL_NAME || process.env.AI_MODEL || 'deepseek-chat';
 
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 6000); // 6s timeout
 
   try {
     const prompt = `You are a wise Mazu temple divination scholar. Analyze the seeker's inquiry question.
-Valid Domains: career, wealth, relationships, health, legal, family, conception, travel, business, sea_voyage.
+Valid Domains: general, relationships, career, money, health, family_home, travel_moving, sea_and_voyage, the_absent_one, legal, conception, timing, livelihood_and_seasons.
 User Question: "${question}"
 User Selected Domain: "${userSelectedDomain || 'none'}"
 
 Analyze:
-1. Which domains from the list above are present?
-2. Is it asking across MULTIPLE different domains at once?
-3. Is it fatalistic/passive (e.g. "Will I pass", "Will she marry me") vs agency-centered?
+1. Which domains from the 13 valid domains above are present?
+2. Is it asking across MULTIPLE different domains at once (violating "One lot answers one matter / 一籤斷一事")?
+3. Is it fatalistic/passive (e.g. "Will I pass", "Will she marry me", "会不会") vs agency-centered?
 4. Provide a wise, agency-centered reframing in English and Traditional Chinese.
 5. Provide 2 targeted questions if multiple domains are detected.
 
@@ -252,6 +270,7 @@ Output strictly valid JSON with no markdown fences:
     }
   ]
 }`;
+
 
     const res = await fetch(`${baseUrl}/chat/completions`, {
       method: 'POST',

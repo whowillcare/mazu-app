@@ -93,14 +93,26 @@ export interface CanonicalLot {
   stories: StoryInfo[];
 }
 
-export type DomainCategory =
-  | 'career'
-  | 'wealth'
+export type CanonicalDomainKey =
+  | 'general'
   | 'relationships'
+  | 'career'
+  | 'money'
   | 'health'
+  | 'family_home'
+  | 'travel_moving'
+  | 'sea_and_voyage'
+  | 'the_absent_one'
   | 'legal'
-  | 'family'
   | 'conception'
+  | 'timing'
+  | 'livelihood_and_seasons';
+
+export type DomainCategory =
+  | CanonicalDomainKey
+  // Legacy aliases
+  | 'wealth'
+  | 'family'
   | 'travel'
   | 'business'
   | 'sea_voyage';
@@ -109,8 +121,11 @@ export interface DomainMetadata {
   key: DomainCategory;
   titleEn: string;
   titleZh: string;
+  traditionalMainZh?: string;
   icon: string;
   description: string;
   requiresDisclaimer: boolean;
-  disclaimerType?: 'medical' | 'financial' | 'legal' | 'conception';
+  disclaimerType?: 'medical' | 'financial' | 'legal' | 'conception' | 'timing';
+  tier?: 1 | 2;
 }
+
