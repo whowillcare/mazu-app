@@ -8,206 +8,189 @@ This document details the exact 10-step user journey, wireframe logic, state tra
 
 ```mermaid
 graph TD
-    S1[Step 1: Landing Page] -->|Click 'Draw a lot'| S2[Step 2: Domain Picker]
-    S2 -->|Choose 1 of 11+ Domains| S3[Step 3: Question Gate]
-    S3 -->|Pass / Reframed Query| S4[Step 4: Ritual Draw Animation]
-    S4 -->|2-3s Crypto Draw| S5[Step 5: Lot Reveal]
-    S5 --> S6[Step 6: Free Reading & Boundaries]
-    S6 -->|Scroll / In-Context Prompt| S7[Step 7: Natural Paywall Hook]
-    S7 -->|Enter Birth Data & Select Plan| S8[Step 8: Personalized Interpretation Engine]
-    S8 -->|Checkout & Waiver Flow| S9[Step 9: Checkout & Compliance Logging]
-    S9 -->|Delivery & Account Creation| S10[Step 10: Retention, Reports & Physical Deck]
+    S1[Step 1: Landing Page & Question Input] -->|Enter Question| S2[Step 2: Cost-Efficient AI Intent Parser]
+    S2 -->|Multi-Domain Detected| S2_Split[Prompt: 'One Lot Answers One Matter' - Pick One Focus]
+    S2_Split --> S2
+    S2 -->|Mapped to Domain + Click 'Draw'| S3[Step 3: 5-Second Domain Override Buffer]
+    S3 -->|5s Countdown Expiry or Confirm| S4[Step 4: Ritual Bamboo Draw Animation]
+    S3 -->|User Changes Domain| S4
+    S4 -->|2.5s Cryptographic RNG| S5[Step 5: Classical Lot Reveal & Card]
+    S5 --> S6[Step 6: Generic Guidance & General Disclaimer]
+    S6 -->|Want Personalized Deep Analysis?| S7[Step 7: Dual-Branch Birth Time Entry]
+    S7 -->|Branch A: Exact Time Known| S8_Exact[Step 8A: Direct Four Pillars Generation]
+    S7 -->|Branch B: Rough / Unknown Time| S8_Rect[Step 8B: Birth Hour Rectification Questionnaire]
+    S8_Rect -->|Pinpoint Hour Branch| S8_Exact
+    S8_Exact --> S8_Hook[Step 8C: Insightful Excerpt Hook - Free Snippet]
+    S8_Hook -->|Unlock Full Report / Subscribe| S9[Step 9: Checkout & Compliance Logging]
+    S9 -->|Delivery & Account Vault| S10[Step 10: Full Life Book Report & Predictive Subscriptions]
 ```
 
 ---
 
-## Step 1 · Landing Page (落地页)
+## Step 1 · Landing Page & Question Input (落地页与提问)
 
-### Primary Elements & Copy
+### Primary Elements & UX Flow
 - **Hero Statement**:
-  > *"The Sixty Jiazi Lots of the Mazu temple tradition — draw a lot, then read it in the light of your own chart."*
+  > *"The Sixty Jiazi Lots of the Mazu temple tradition — bring your contemplation, let classical archetypes illuminate your path."*
+- **Frictionless Question Entry Box**:
+  - Accessible to guest visitors and logged-in users alike with zero barrier.
+  - Placeholder: *"Enter what is on your heart (e.g. 'Considering changing careers this autumn' or 'How to navigate relationship friction')..."*
 - **Primary CTA Button**:
-  > `[ Draw a Lot ]` (Zero friction, no login required, prominent placement).
-- **Positioning Statement (Footer Anchor)**:
-  > *"Cultural heritage and reflective guidance — not a prediction of events."*
-  *(Derived from `llms.txt`, permanent on all landing surfaces).*
-- **Value Trust Badges**:
+  > `[ Inquire & Draw / 诚心求签 ]`
+- **Positioning Statement & Trust Anchors**:
+  - *"Cultural heritage and reflective guidance — not a prediction of deterministic events."*
   - Authentic Classical Philology: 60 Historical Allusions & Original Verses.
-  - Ethical Agency: AI Question Reframing for Mindful Inquiry.
-  - Cryptographic Randomness: Zero backend bias.
+  - Cryptographic Randomness: Zero backend bias (`crypto.getRandomValues`).
 
 ---
 
-## Step 2 · Domain Picker (选问事域)
+## Step 2 · Cost-Efficient AI Intent Parsing & Domain Gate (智能意图解析与分流)
 
-### UX Behavior
-The user chooses what area of life they are inquiring about. The user interface presents 11 primary modern English slots mapped cleanly from the 29 traditional Chinese temple categories:
-
-| # | English Slot ID | Modern Display Label | Mapped Traditional Chinese Category (传统类目) | Automated Compliance Tag |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | `career` | Career & Purpose | 功名 / 作事 | — |
-| 2 | `money` | Finance & Wealth | 求財 | *Not financial advice* |
-| 3 | `relationships` | Love & Partnership | 婚姻 | — |
-| 4 | `health` | Health & Vitality | 治病 | *Not medical advice* |
-| 5 | `legal` | Legal & Disputes | 官事 | *Not legal advice* |
-| 6 | `family_home` | Family & Domestic Life | 家事 / 家運 | — |
-| 7 | `conception` | Fertility & Childbearing | 求兒 / 六甲 | *No medical outcomes implied* |
-| 8 | `travel_moving` | Relocation & Travel | 出外 / 移居 / 築室 | — |
-| 9 | `business` | Business & Commerce | 經商 | — |
-| 10 | `timing` | Timing & Seasonal Cycles | 歲君 / 月令 | *Seasonal windows only; no exact dates* |
-| 11 | `sea_and_voyage` | Sea & Voyages (Mazu Domain) | 討海 / 行舟 | — (Dedicated Mazu coastal heritage slot) |
-| 12 | `livelihood_and_seasons` | Projects & Agriculture | 耕作 / 六畜 / 魚苗 / 作塭 | — |
-| 13 | `loss_and_recovery` | Missing Items & Reconnection | 失物 / 尋人 / 來人 / 遠信 | *Reframe third-party to self-agency* |
-
-*Note: The canonical 29-category mapping matrix is maintained in `定本/类目映射_29类目_to_slots.csv`.*
+### Architecture & Behavior
+1. **Cost-Efficient Intent Parser**:
+   - The user's query is processed via a hybrid pipeline:
+     - **L1 (Client-side regex)**: Matches keywords against canonical lists (`domKw.json`).
+     - **L2 (Cost-efficient LLM API)**: Fast, economical model (e.g. FreeLLMAPI, DeepSeek, or compact OpenAI-compatible endpoint) to extract underlying human intent.
+   - Maps the question into one of 13 canonical domain slots (`relationships`, `career`, `money`, `health`, `family_home`, `travel_moving`, `sea_and_voyage`, `the_absent_one`, `legal`, `conception`, `timing`, `livelihood_and_seasons`, `general`).
+2. **Multi-Domain Guardrail ("一籤斷一事" / "One Lot Answers One Matter")**:
+   - If the intent parser detects that the question addresses multiple unrelated domains (e.g., *"Will my company get funded and will my boyfriend propose?"*), the draw is halted.
+   - **User Prompt**:
+     > *"Traditional wisdom teaches that **one lot answers one matter (一籤斷一事)**. Your query touches on both Finance/Business and Relationships. Please select which matter you would like to focus on for this draw."*
+   - User clicks one domain to proceed or edits their question.
 
 ---
 
-## Step 3 · Question Gate (问法治理闸门)
+## Step 3 · 5-Second Domain Override Buffer (5秒意向确认与调选窗口)
 
-### Why It Matters
-This is an industry-first proprietary differentiator. Rather than acting as a passive lottery, the platform guides the seeker toward clarity, honesty, and personal agency before drawing.
-
-### Rules Enforced by the Gate:
-1. **One Matter Per Draw (一问一事)**:
-   - If the user enters multiple topics (e.g. *"Will I get a promotion and will my partner propose?"*), the gate flags this and requests the user to pick one issue.
-   - *Prompt*: *"One lot answers one matter. Please focus on your single most pressing contemplation."*
-2. **Transform Closed & Fatalistic Questions into Open Inquiries (封闭式问句当场改写)**:
-   - Closed query: *"Will he love me?"*
-   - Reframed query: *"What should I keep in view about this relationship, and what is mine to do?"*
-   - Closed query: *"Will I become rich this year?"*
-   - Reframed query: *"How can I cultivate financial stability and right effort in this season?"*
-3. **Third-Person Shift to Self-Agency (第三人问法转自我视角)**:
-   - Third-person query: *"Will my boss stop micromanaging me?"*
-   - Reframed query: *"How can I establish clear boundaries and professional communication with my leadership?"*
-4. **Radical Transparency**:
-   - The transformation is not hidden. The UI displays:
-     > **Original Question**: *"Will he love me?"*
-     > **Reframed Inquiry**: *"What should I keep in view about this relationship, and what is mine to do?"*
-     > **Why**: *"Traditional wisdom acts as a mirror for your own actions and perception, rather than predicting another person's sovereign choices."*
-     > `[ Proceed with this Inquiry ]` or `[ Edit Question ]`
+### UX Behavior & State Machine
+1. When the user clicks the draw CTA, the screen shifts into a focused confirmation modal / card.
+2. The UI clearly states:
+   > **Detected Domain**: `[ 💼 Career & Purpose (事业与学业) ]`  
+   > *"Drawing in 5 seconds... Not what you meant? Click below to change."*
+3. **Interactive 5-Second Countdown**:
+   - A smooth circular or bar countdown animation counts down `5... 4... 3... 2... 1...`.
+   - The user can click any other domain badge from the 13-domain grid to instantly override the AI classification.
+   - The user can click `[ Draw Now ]` to immediately skip the timer.
+4. When the timer reaches 0 or user confirms, the draw sequence initiates automatically.
 
 ---
 
 ## Step 4 · Ritualized Draw (仪式化抽签)
 
 ### UX & Animation Specifications:
-- **Visuals**: A finely textured bamboo cylinder (签筒) rendered with subtle 3D lighting or fluid SVG animation.
-- **Duration**: 2.2 to 3.0 seconds of rhythmic shaking. Sound effects (bamboo sticks clattering) with a mute toggle.
+- **Visuals**: A finely textured obsidian bamboo cylinder (签筒) rendered with fluid CSS/SVG animation.
+- **Duration**: 2.5 seconds of rhythmic shaking with subtle wooden clattering audio and haptic pulses.
 - **Randomness Mechanics**:
-  - Generated via `window.crypto.getRandomValues(new Uint32Array(1))` normalized to an integer between `1` and `60`.
-  - **FAQ Transparency**:
-    > *"Every draw uses cryptographic client-side randomness. The insight of a reading does not stem from an algorithm picking a lucky number, but from how the classical archetypes illuminate your specific question and birth chart."*
+  - `window.crypto.getRandomValues(new Uint32Array(1))` normalized to uniform integer `1..60`.
 - **Session Locking (Anti-Spam)**:
-  - Within a single browser session / localStorage state, users cannot re-draw for the exact same inquiry domain within 12 hours.
-  - Prevents "result-shopping" until a pleasing answer is obtained, preserving psychological weight and contemplative integrity.
+  - Preserves session integrity: only 1 lot drawn per question context to prevent result-shopping.
 
 ---
 
 ## Step 5 · The Lot Reveal (出签)
 
-A single hero card displaying canonical lot metadata.
-
-> **Language & Display Governance**: By default, the card and reading display strictly in the user's preferred language (e.g. English) with essential cultural anchors retained as subtle glosses (`Wu-Chen (戊辰)`, `Hu Wan Rescues the Widow Wen (胡完救文氏母女)`). Full parallel bilingual text is isolated to the opt-in **Bilingual Study Mode (雙語對照模式)** to eliminate visual clutter.
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  LOT 27 · WU-CHEN (戊辰) · HEXAGRAM LU (陸 · HEAVEN OVER LAKE)              │
-│  Canonical Gloss: 胡完救文氏母女 (Hu Wan Rescues Widow Wen & Daughter)      │
-│  Element & Direction: Earth · Favours Late Summer; Southwest Auspicious     │
-│  Editorial Tone: Favourable (Positive Flow)                                 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  CONTEMPLATIVE VERSE (POETIC TRANSLATION):                                  │
-│  "Why must you inquire after sacred portents?                               │
-│   Within your own heart lies already what is of benefit.                    │
-│   For now, look toward the middle of the lunar month:                       │
-│   Calamity shall fall away, transforming into auspicious ease."             │
-│                                                                             │
-│  [📜 View Original 7-Character Traditional Verse] ▾ (Expandable Drawer)     │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+A hero card displaying canonical lot metadata:
+- **Card Header**: Lot Serial Number (1–60), Jiazi stem-branch (e.g., `Lot 27 · 戊辰 Wu-Chen`), Hexagram (`陸, Lu`).
+- **Authentic Seal Stamp**: 2×2 Qin Small Seal (`戊辰二七`).
+- **Historical Allusion Story**: Title (e.g., `胡完救文氏母女`) and 2-sentence classical synopsis.
+- **Poetic Quatrain**: 4-line classical verse alongside curated unrhymed English translation.
 
 ---
 
-## Step 6 · Free Reading Layer (免费层)
+## Step 6 · Generic Guidance & General Disclaimer (通用解曰与免责声明)
 
 ### Core Sections:
-1. **Selected Domain Guidance Line**:
-   - Displays only the guidance line corresponding to the user's selected slot (e.g. Relationship or Career) plus the overarching general counsel.
+1. **Domain Guidance Line (`jie` / 解曰)**:
+   - Displays the classical guidance corresponding strictly to the confirmed domain.
 2. **Dual-Cluster Keywords**:
    - `FAVOURABLE`: *Self-reliance, mid-month resolution, quiet perseverance.*
    - `GUARDED`: *External dependency, excessive anxiety before the appointed time.*
-   - *(Note: Directional tendencies rather than binary auspicious/inauspicious verdicts).*
-3. **Reading Notes (双关译注 & Polysemy Disclosures)**:
-   - Highlights classical terms with layered meanings (e.g., explaining why 「月中旬」 can denote a lunar phase or a cycle of culmination, rather than a fixed calendar promise).
-4. **Boundaries Card**:
-   - Clearly lists editorial boundaries: why verses are kept unrhymed, canonical sources consulted, and why seasonal windows replace specific calendar dates.
-5. **Contextual Compliance Disclaimer**:
-   - E.g., If `money` was selected: `*Notice: This reading provides cultural and reflective insights and does not constitute financial advice.*`
+3. **Prominent General Disclaimer (通用解读免责声明)**:
+   > ⚠️ **Important Disclaimer**: *"This interpretation is a general reading based on the lot's classical literature and historical allusions. It provides reflective philosophical counsel rather than deterministic predictions. To understand how this lot resonates with your specific energetic makeup and life timing, personalized birth chart analysis is required."*
+4. **Domain Compliance Flags**:
+   - Automatic statutory notices attached for health (`not_medical_advice`), financial (`not_financial_advice`), and legal (`not_legal_advice`).
 
 ---
 
-## Step 7 · The Paywall Hook (付费墙)
+## Step 7 · The Bridge to Personalization (双分支生辰接入)
 
-Positioned directly below the Free Reading:
+Positioned directly below the generic guidance:
 
-> ### *"This lot offers general reflection. What does it reveal within YOUR unique chart?"*
+> ### *"This lot provides general counsel. What does it reveal within YOUR unique chart?"*
 >
-> Every one of the 60 Lots embodies a specific Heavenly Stem & Earthly Branch (干支). By calculating how this Lot interacts with the Four Pillars of your birth date and the current year's energy, we reveal:
-> - **The Lot in Your Chart (签 × 命盘)**: Harmonious combinations, clashes, and hidden dynamics.
-> - **Seasonal Window of Action (签 × 流年)**: Which seasonal quarter aligns best with your contemplated endeavor.
->
-> `[ Enter Birth Date & Unlock Personalized Report — Only $2.99 ]`
+> By cross-referencing this Lot's stem-branch (干支) with your birth chart and current planetary transits, our engine calculates:
+> - **Palace Resonance (签 × 命局)**: Hidden harmonies, clashes with your relationship or career palaces.
+> - **Strategic Timing Windows (签 × 流年)**: The seasonal quarters and trigger years (`应期`) when this matter culminates.
+
+### Dual-Branch Input Selection:
+- **Branch A: "I know my exact birth time"**
+  - Inputs: Year, Month, Day, Hour, Minute, and Birth City/Country (for True Solar Time offset).
+  - Skips directly to Step 8C.
+- **Branch B: "I only know approximate time / Don't know"**
+  - Inputs: Year, Month, Day, Birth City/Country.
+  - Coarse Time Selection:
+    - `[ 🌅 Morning / 早 (05:00 - 11:00) ]` (卯、辰、巳时)
+    - `[ ☀️ Afternoon / 午 (11:00 - 17:00) ]` (午、未、申时)
+    - `[ 🌙 Night / 晚 (17:00 - 23:00) ]` (酉、戌、亥时)
+    - `[ ❓ Not Sure / 不清楚 ]` (All 12 hours considered)
+  - Enters Step 8B: Birth Hour Rectification.
 
 ---
 
-## Step 8 · Personalized Interpretation Engine ($2.99 → $19.99)
+## Step 8 · Birth Hour Rectification & Insightful Excerpt Hook (考时定盘与高价值试读)
 
-### User Input:
-1. Date of Birth (Year / Month / Day).
-2. Time of Birth (Hour / Minute, with "Time Unknown" option).
-3. Place of Birth (City / Country, used for True Solar Time adjustment).
+### Step 8B: Birth Hour Rectification Workflow (时辰逆推 / 考时定盘)
+1. **Candidate Hour Expansion**:
+   - The engine generates 3 to 12 candidate Four Pillars charts from the selected interval.
+2. **Milestone Calculation (`verdict.py:converge()` Kernel)**:
+   - For each candidate chart, the engine calculates the historical milestone event years (`应期` / `引动年`), tracking high-impact interactions:
+     - 夫妻宫 (Day Branch) clashes/combinations (relationship milestones, marriages, splits).
+     - 子女宫 / 事业宫 (Hour Branch) interactions (career promotions, major moves, relocations).
+     - 财库 (辰戌丑未) opening/closing (major asset gains or financial shifts).
+3. **Targeted Past-Event Questionnaire**:
+   - The UI presents 2–3 brief, high-contrast historical milestone questions:
+     - *Question 1: "Between 2017 and 2019, did you experience a major change in residence, city, or career role?"*
+     - *Question 2: "In 2021 (辛丑年), did you undergo a significant relationship milestone or domestic transformation?"*
+4. **Mathematical Convergence**:
+   - Based on user selections, the system eliminates non-matching branches and **locks the exact birth hour pillar** (*定盘完成*).
 
-### Engine Execution:
-1. Calculates **Four Pillars (Year, Month, Day, Hour BaZi)**.
-2. Computes **Lot Jiazi vs. Natal Pillars**:
-   - Identifies Day Master affinity.
-   - Evaluates Stem combinations / clashes (天干五合, 天干相克).
-   - Evaluates Branch relationships (六合, 三合, 六冲, 相刑, 相害).
-3. Evaluates **Annual Pillar (流年)** interplay:
-   - Identifies the resonant season (Spring, Summer, Late Summer, Autumn, Winter).
-4. Generates:
-   - **Interactive Web Report**.
-   - **Downloadable High-Res PDF**.
-   - **Permanent archive in user vault**.
-
----
-
-## Step 9 · Checkout & Compliance Logging (结账与合规留痕)
-
-### Legal and Frictionless Cart Checkout:
-1. **Order Summary**:
-   - Item: *Personalized Lot Interpretation Report (Lot #27 for [User Name])*.
-   - Price: *$2.99 USD* (Promotional Launch Price; crossed out from $19.99).
-   - Taxes calculated and displayed cleanly.
-2. **Mandatory EU / Global Legal Checkbox (CRD Art. 16(m))**:
-   - `[X] I expressly request immediate access to this digital content and acknowledge that upon delivery, I lose my 14-day statutory right of withdrawal.`
-3. **Subscription / Auto-Renewal (If selecting recurring plan)**:
-   - Separate, non-pre-ticked checkbox explaining billing intervals, cancellation procedure, and 1-click self-service cancel button.
-4. **Payment Options**:
-   - Apple Pay, Google Pay, Credit/Debit via Stripe.
+### Step 8C: The Convincing Insightful Excerpt Hook (免费深度试读)
+- Before showing the paywall, the system generates a **brief but deeply insightful structural snippet** (2–3 sentences) using `verdict.py:settle_nature()` and `main_verdicts()`:
+  > *"Your chart reveals a potent structural tension between creative autonomy and established hierarchy. Historical milestones show that major turning points in your life (such as 2018–2019) were sparked when external constraints forced you to claim your own domain..."*
+- This brief, shockingly accurate insight acts as the ultimate conversion hook.
 
 ---
 
-## Step 10 · Retention & Lifetime Value (复购触发)
+## Step 9 · Checkout & Compliance Logging (结账与交付)
 
-1. **Daily / Weekly Reading Subscriptions ($9.99 – $11.99/mo)**:
-   - Daily mindful reflection email or push notification based on the day's solar/lunar pillar.
-2. **Annual Solar Return / Birthday Forecast**:
-   - Triggered 2 weeks prior to the user's solar birthday: *"Your Personal Annual Transit for the Year of [Animal/Stem]"*.
-3. **Physical Crowdfunded Artifacts**:
-   - Premium 60-Card Gold-Foil Oracle Deck.
-   - 200-page English Companion Book on the Mazu Sixty Jiazi Tradition.
+### Offer Structure:
+- **Tier 1: Single Full Life Book Report ($2.99 launch trial / $19.99 standard)**:
+  - Unlocks complete 9-section Life Book Report (`layers_mingshu.py`).
+  - High-resolution PDF export sent to registered email.
+  - Permanent storage in user account vault.
+- **Tier 2: Event-Triggered Predictive Annual Subscription ($9.99 – $11.99/mo)**:
+  - Includes full report + continuous proactive predictive alerts triggered by upcoming milestone windows (`应期` / `引动年`) and Solar Terms (节气).
+- **Payment & Compliance**:
+  - Stripe checkout (Credit/Debit, Apple Pay, Google Pay).
+  - Explicit EU CRD Art. 16(m) immediate delivery waiver checkbox.
+
+---
+
+## Step 10 · Full Report Delivery & Predictive Subscriptions (报告交付与订阅生命周期)
+
+1. **Interactive Life Book Report**:
+   - Beautiful multi-tabbed web report rendering:
+     - Section 1: 命局定性 (Life Structure Character & Temperament)
+     - Section 2: 事业与学业 (Career, Role & Industry Direction)
+     - Section 3: 财富机制 (Wealth Architecture & Cashflow Dynamics)
+     - Section 4: 感情婚姻 (Partnership & Palace Interactions)
+     - Section 5: 六亲家庭 (Family & Interpersonal Dynamics)
+     - Section 6: 身心健康 (Five Elements Balance)
+     - Section 7: 做功与厚化 (Core Action Capacities)
+     - Section 8: 大运走势 (10-Year Major Luck Cycles)
+     - Section 9: 流年关键窗口与应期 (Annual Milestone Windows)
+2. **Event-Triggered Lifecycle Alerts**:
+   - Automated emails / push notifications whenever astronomical events (annual pillar transits, solar terms) align with the user's natal trigger points.
 
 ---
 

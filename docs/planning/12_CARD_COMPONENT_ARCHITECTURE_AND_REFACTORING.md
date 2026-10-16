@@ -12,7 +12,23 @@ In initial generative iterations, AI text-to-image models baked all visual eleme
 2. **Typography Brittleness**: Gold Chinese titles and English translations were locked to raster pixels, preventing localization (Traditional Chinese vs. Simplified Chinese vs. English vs. Japanese).
 3. **Resolution & Rendering Artifacts**: Text rendered at 848×1264 lacks vector crispness on high-density Retina and OLED displays.
 
-### The Refactored Solution: Layered Production Compositor
+### Visual Style Drift Audit: Standard (`lot_01`) vs Divergence (`lot_32` Onwards)
+A visual inspection reveals that starting from [`assets/cards/lot_32_card.jpg`](../../assets/cards/lot_32_card.jpg), the AI card generation diverged significantly from the approved canon standard established in [`assets/cards/lot_01_card.jpg`](../../assets/cards/lot_01_card.jpg):
+
+| Card Feature | Approved Canon Standard (`lot_01_card.jpg`) | Divergent Anomaly (`lot_32_card.jpg` Onwards) | Impact & Resolution |
+| :--- | :--- | :--- | :--- |
+| **Top Serial Number** | Clean universal Arabic numeral `1` centered in gold serif font | Arched banner plaque reading `己卯 · 第三十二籤` | Breaches universal clean aesthetic; redundant with seal |
+| **Seal Stamp Placement** | Single cinnabar Qin seal centered directly below top serial numeral | Seal placed on top banner arch + **redundant second seal stamp** at bottom right | Redundant seal clutter; breaks sacred geometry balance |
+| **Center Artwork** | Sacred geometry line-art framed cleanly by inner gold hairline | Central mandala obstructed by top arch and bottom stamps | Artwork crowded by decorative banners |
+| **Bottom Typography** | Classical Chinese title (`包公請雷`) + English title (`BAO GONG CALLS DOWN THUNDER`) | Disjointed layout with Chinese inside bottom border and redundant stamps | Inconsistent baseline and language mixing |
+| **Border & Corners** | Double gold hairline with classical Greek key / meander corners | Mismatched corners with rounded baroque flourishes | Inconsistent card deck framing |
+
+### Task Scheduling & Operational Policy
+1. **Cancellation of Pending Tasks**: All background card generation tasks (such as recurring batch jobs) are cancelled (`task-1288` killed). No automated generation should proceed until the style standard and compositor are strictly unified.
+2. **Strict Low Priority**: Card deck visual refactoring is strictly **low priority**. Adjustments and batch compositing must only be executed when no other high-priority processes (e.g. core planning, engine calculations, UI flows) are running.
+3. **SVG Hybrid Template Priority**: Moving forward, the deck will utilize an SVG Vector Hybrid Component, rendering the frame, serial number, seal, and typography in vector SVG, with only the central esoteric geometry loaded as clean cropped raster art.
+
+### The Refactored Solution: Layered Production Compositor & SVG Template
 We decouple the card into **4 distinct, composable layers**:
 
 ```

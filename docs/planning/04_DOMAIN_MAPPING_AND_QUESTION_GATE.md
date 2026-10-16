@@ -18,109 +18,116 @@ However, modern English localization layers typically present a cleaner set of i
 
 ## 2. Full 29-Category to English Slot Mapping Matrix
 
-The system operationalizes the canonical dataset (`定本/类目映射_29类目_to_slots.csv`) as follows:
+## 2. Canonical 13-Domain Taxonomy Matrix (对齐 `抽签网页_开发版`)
 
-| # | English Slot ID | Modern Display Name | Mapped Classical Categories (传统类目) | Regulatory & Ethical Flag | Mapping Annotation Note |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | `career` | Career & Ambition | **功名** (Public Honors), **作事** (General Undertakings) | — | Covers employment, promotions, and academic exams. |
-| 2 | `money` | Wealth & Finance | **求財** (Seeking Wealth) | `not_financial_advice` | Emphasizes diligence, risk aversion, and stewardship. |
-| 3 | `business` | Business & Commerce | **經商** (Trade & Enterprise) | `not_financial_advice` | Distinguishes entrepreneurial ventures from wage work. |
-| 4 | `relationships`| Love & Partnership | **婚姻** (Matrimony & Union) | — | Centers interpersonal harmony and patience. |
-| 5 | `health` | Health & Vitality | **治病** (Curing Illness) | `not_medical_advice` | Strictly focuses on psychological fortitude and consulting qualified practitioners. |
-| 6 | `legal` | Legal & Disputes | **官事** (Official / Court Matters) | `not_legal_advice` | Counsel on mediation, integrity, and non-aggression. |
-| 7 | `family_home` | Family & Household | **家事** (Domestic Affairs), **家運** (Household Fortunes) | — | Covers harmony among relatives and home stability. |
-| 8 | `conception` | Conception & Children | **求兒** (Seeking Offspring), **六甲** (Pregnancy & Childbirth) | `no_medical_outcome_implied` | Strictly emotional encouragement; forbids predicting gender or health outcomes. |
-| 9 | `travel_moving`| Relocation & Travel | **出外** (Going Abroad), **移居** (Relocation), **築室** (Building Home) | — | Guidance on environmental shifts and physical moves. |
-| 10 | `timing` | Seasonal Timing | **歲君** (Year Sovereign), **月令** (Monthly Order) | `seasonal_windows_only` | Discloses seasonal windows; explicitly prohibits calendar dates. |
-| 11 | `sea_and_voyage`| Sea & Navigation | **討海** (Seafaring / Fishing), **行舟** (Voyaging by Boat) | — | Dedicated Mazu heritage slot honoring seafaring culture. |
-| 12 | `livelihood_and_seasons`| Agriculture & Craft | **耕作** (Farming), **六畜** (Livestock), **魚苗** (Fish Hatcheries), **作塭** (Aquaculture) | — | Preserves traditional agricultural and artisanal roots. |
-| 13 | `loss_and_recovery`| Lost Items & News | **失物** (Lost Items), **尋人** (Searching for Persons), **來人** (Expected Guests), **遠信** (Letters from Afar) | `self_agency_reframing` | Reframes third-person inquiry back into the user's focus. |
-| 14 | `general` | General Guidance | **凡事** (General Life Matters) | — | Fallback umbrella when no single domain dominates. |
+The platform's 13 canonical domains are directly aligned with `抽签网页_开发版/data/domains.json` and `domKw.json`:
+
+| # | Domain Key | Chinese Label (中文类目) | English Display Name | Canonical Temple Roots (解曰对应) | Tier | Regulatory / Ethical Flags | Regex Keywords Anchor (`domKw.json`) |
+| :- | :--- | :--- | :--- | :--- | :-: | :--- | :--- |
+| 1 | `general` | 综合运势 | General / Overall | **凡事** | 1 | — | 运势、全面、以后、指引、近况 |
+| 2 | `relationships` | 感情婚姻 | Love & Partnership | **婚姻** | 1 | — | 婚姻、感情、对象、男友、女友、恋爱、结婚、离婚、桃花、伴侣、相亲 |
+| 3 | `career` | 事业与学业 | Career & Study | **功名**、**作事** | 1 | — | 事业、工作、升职、晋升、考试、学业、考研、考公、面试、跳槽、职位、录取 |
+| 4 | `money` | 财运与生意 | Money & Business | **求財**、**經商** | 1 | `not_financial_advice` | 财、钱、收入、生意、投资、买卖、赚、亏、债、贷、回款、客户、订单、薪水 |
+| 5 | `health` | 健康身心 | Health & Vitality | **治病** | 1 | `not_medical_advice` | 健康、身体、病、症、疼、痛、失眠、睡眠、体检、康复、手术、吃药、就医 |
+| 6 | `family_home` | 家庭家宅 | Home & Family | **家運**、**家事**、**築室**、**墳墓** | 1 | — | 家宅、家庭、房子、房产、宅、装修、家人、父母、爸、妈、子女、亲戚、老人 |
+| 7 | `travel_moving` | 出行搬迁 | Travel & Moving | **出外**、**移居** | 2 | — | 出行、搬家、搬迁、出差、旅游、旅行、移居、迁居、落户、外地、回乡 |
+| 8 | `sea_and_voyage` | 出海舟行 | Sea & Voyage (Mazu Heritage) | **討海**、**行舟** | 2 | — | 出海、航运、船、海运、外贸、跨境、港口、远洋、赴海 |
+| 9 | `the_absent_one` | 寻人失物音信 | Lost Items & Missing News | **失物**、**尋人**、**來人**、**遠信** | 2 | `third_person_to_self` | 失物、丢失、丢、找不到、寻人、音信、联系不上、远信、下落、失联 |
+| 10 | `legal` | 官事纠纷 | Legal Matters | **官事** | 2 | `not_legal_advice` | 官司、诉讼、纠纷、法律、开庭、仲裁、打官司、合同、上诉、案 |
+| 11 | `conception` | 求子 | Fertility & Children | **求兒**、**六甲** | 2 | `no_medical_outcome` | 求子、怀孕、生育、生孩、备孕、试管、胎、子嗣 |
+| 12 | `timing` | 时机流年 | This Year's Timing | **歲君**、**月令** | 2 | `season_only_no_date` | 流年、今年、什么时候、时机、运程、哪年、本命年 |
+| 13 | `livelihood_and_seasons` | 农渔生计 | Livelihood & Agriculture | **耕作**、**求雨**、**六畜**、**作塭**、**魚苗** | 2 | — | 农作、渔获、养殖、种植、畜牧、收成、鱼苗、捕鱼、种地 |
 
 ---
 
 ## 3. The Question Gate (问法治理闸门) Deep Architecture
 
-The Question Gate operates as an intelligent pre-draw validation and transformation barrier.
+The Question Gate operates as an intelligent pre-draw validation, classification, and transformation barrier.
 
 ```mermaid
 graph TD
-    UserQ[User Inputs Raw Question] --> NLP[NLP / LLM Intent Classifier]
-    NLP --> CheckMulti{Multiple Categories?}
-    CheckMulti -->|Yes| PromptSplit[Prompt User: 'One Lot Answers One Matter' - Request Selection]
-    CheckMulti -->|No| CheckClosed{Closed / Fatalistic?}
-    CheckClosed -->|Yes| ReframeQ[Reframe to Open Actionable Inquiry]
+    UserQ[User Inputs Raw Question on Landing Page] --> Regex[Layer 1: Fast Regex Pre-Filter: domKw.json]
+    Regex --> AI[Layer 2: Cost-Efficient AI Intent Parser]
+    AI --> CheckMulti{Multiple Domains Detected?}
+    CheckMulti -->|Yes| PromptSplit[Prompt User: '一籤斷一事' - Pick Single Focus]
+    PromptSplit --> UserQ
+    CheckMulti -->|No| CheckClosed{Closed or Fatalistic Query?}
+    CheckClosed -->|Yes| ReframeQ[Reframe to Open Actionable Contemplation]
     CheckClosed -->|No| CheckThird{Third-Person Inquirer?}
     CheckThird -->|Yes| ShiftAgency[Shift Focus to User's Sovereign Agency]
-    CheckThird -->|No| AcceptDirect[Proceed to Draw]
-    ReframeQ --> ShowDiff[Display Transparent Transformation to User]
-    ShiftAgency --> ShowDiff
-    ShowDiff --> UserConfirm{User Confirms or Edits}
-    UserConfirm -->|Confirmed| ReadyDraw[Proceed to Ritualized Draw]
-    UserConfirm -->|Edit| UserQ
+    CheckThird -->|No| DirectConfirm[Set Target Domain]
+    ReframeQ --> DirectConfirm
+    ShiftAgency --> DirectConfirm
+    DirectConfirm --> UserClickDraw[User Clicks 'Draw a Lot']
+    UserClickDraw --> Timer5s[5-Second Domain Override Buffer Countdown]
+    Timer5s -->|User Overrides Domain| UpdateDomain[Update to New Domain]
+    Timer5s -->|Countdown Reaches 0 or Instant Confirm| AutoDraw[Initiate Cryptographic Ritual Draw]
+    UpdateDomain --> AutoDraw
 ```
 
 ### 3.1 Pre-Flight Rules
 
-#### Rule 1: One Matter Per Lot (一问一事)
-- **Problem**: Users frequently ask compound questions: *"Should I quit my job and move to London with my partner?"* (Combines Career, Travel, and Relationship).
+#### Rule 1: One Matter Per Lot ("一籤斷一事")
+- **Problem**: Users frequently ask compound queries: *"Can I get promoted this quarter and will my boyfriend propose?"* (Combines Career and Relationships).
 - **Gate Intervention**:
-  - Detects multi-domain intent via classifier.
-  - Returns a clarification prompt:
-    > *"Traditional wisdom teaches that **one lot answers one matter**. Your contemplation touches on both Career and Relocation. Which aspect would you like to bring before the lot first?"*
+  - Detects compound intent across distinct domains.
+  - Halts the draw and prompts:
+    > *"Traditional wisdom teaches that **one lot answers one matter (一籤斷一事)**. Your inquiry touches on both **Career & Study** and **Love & Partnership**. Please select which matter you would like to focus on first."*
+  - Provides two prominent buttons allowing the user to select one domain with a single click.
 
-#### Rule 2: Reframe Closed & Fatalistic Questions (封闭式当场改写)
-- **Problem**: Users ask binary yes/no fortune questions: *"Will I pass my bar exam?"* or *"Will my ex come back?"*
+#### Rule 2: Reframe Closed & Fatalistic Questions (封闭式问句当场改写)
+- **Problem**: Users ask binary yes/no fortune questions: *"Will I pass my bar exam?"* or *"Will I get rich this year?"*
 - **Gate Intervention**:
-  - Retains the core intent while opening the question to wisdom and actionable reflection:
-    - *"Will I pass my bar exam?"* $\rightarrow$ *"What state of mind and discipline must I cultivate to approach this examination with excellence?"*
-    - *"Will my ex come back?"* $\rightarrow$ *"What does this relationship teach me about my own healing and personal growth at this time?"*
+  - Retains core intent while opening into reflective wisdom:
+    - *"Will I pass my bar exam?"* $\rightarrow$ *"What state of mind, discipline, and right effort are mine to cultivate to approach this examination?"*
+    - *"Will I get rich this year?"* $\rightarrow$ *"How can I cultivate financial prudence and recognize sound opportunities in this season?"*
 
 #### Rule 3: Third-Person Shift (第三人转自我视角)
-- **Problem**: Users ask about the hidden intentions or actions of other people: *"Does my brother intend to sell our family estate?"* or *"Will my colleague get fired?"*
+- **Problem**: Inquiries about other people's sovereign intentions: *"Will my boss fire me?"* or *"Does my partner still love me?"*
 - **Gate Intervention**:
-  - Chinese temple lots reflect the querent's own posture, not espionage on sovereign third parties.
-  - Transformation:
-    - *"Does my brother intend to sell our family estate?"* $\rightarrow$ *"How can I communicate with clarity and protect family harmony regarding our shared assets?"*
-
-### 3.2 Transparent User Disclosure
-The gate **never** rewrites in secret. The UI renders the transformation card:
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✦ QUESTION GATE · REFINING YOUR INQUIRY                                     │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ Your Original Question:                                                     │
-│ "Will I get the promotion next month?"                                       │
-│                                                                             │
-│ Reframed Contemplation:                                                     │
-│ "What leadership qualities and professional focus are mine to cultivate in   │
-│  this season?"                                                              │
-│                                                                             │
-│ Why We Reframe:                                                             │
-│ Traditional oracle poetry provides reflective mirror-guidance for your own  │
-│ actions rather than calendar-date predictions.                              │
-│                                                                             │
-│ [ Accept Reframed Contemplation & Draw ]       [ Edit Original Question ]   │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+  - Reframes query toward the seeker's own actions and perspective:
+    - *"Will my boss fire me?"* $\rightarrow$ *"How can I bring clarity, professional excellence, and firm boundaries to my current work environment?"*
 
 ---
 
-## 4. NLP / LLM Implementation Strategy
+### 3.2 The 5-Second Domain Override Buffer (5秒确认与调选窗口)
 
-### 4.1 Latency & Cost Optimization
-1. **Tier 1: Fast Regex / Heuristic Parser (Client-Side / < 5ms)**:
-   - Identifies typical interrogative markers (*"Will I"*, *"Is he"*, *"When will"*, compound conjunctions *"and also"*).
-2. **Tier 2: Lightweight Classifier API (< 300ms)**:
-   - Uses a structured prompt with few-shot examples or fine-tuned compact model to output:
-     - `primary_category_slot`: (e.g. `career`)
-     - `is_compound`: (boolean)
-     - `detected_categories`: array of slots
-     - `needs_reframe`: (boolean)
-     - `reframed_question`: string
-     - `reframe_reason`: string
-3. **Graceful Fallback**: If network or AI service times out, fallback to user-selected domain from the Step 2 picker without blocking the draw.
+To balance automatic AI convenience with user sovereignty, the system introduces a **5-second confirmation buffer**:
+1. When the user clicks the **[ Draw a Lot / 诚心求签 ]** button, the screen displays a focused confirmation card:
+   > **Inquiring On**: `[ 💼 Career & Purpose / 事业与学业 ]`  
+   > *"Drawing in 5 seconds... Not what you intended? Click any category below to switch."*
+2. **Visual Countdown & Controls**:
+   - A smooth 5-second circular progress indicator counts down `5... 4... 3... 2... 1...`.
+   - The user can click any of the other 12 domain badges in the grid to immediately change the target domain.
+   - The user can click `[ Draw Now / 立即起签 ]` to skip the timer and draw immediately.
+3. Once the 5-second countdown elapses or the user confirms, the cryptographic bamboo shake animation begins automatically.
+
+---
+
+## 4. Cost-Efficient AI Engine Architecture & Token Pluggability
+
+### 4.1 Tiered Processing Pipeline
+1. **Tier 1: Ultra-Fast Client Regex Pre-Classifier (< 5ms)**:
+   - Matches keywords directly from `domKw.json` (e.g. `婚姻|感情|对象`, `事业|工作|升职`, `财|钱|生意`).
+   - If a single clear domain is matched without ambiguity or fatalistic markers, sets the default domain instantly without server API cost.
+2. **Tier 2: Cost-Efficient LLM Routing (< 400ms)**:
+   - If the query contains complex syntax, multi-domain conjunctions (*"还有"*, *"同时"*, *"and also"*), or fatalistic phrasing (*"会不会"*, *"能不能"*), the system calls a cost-efficient LLM endpoint.
+   - **Supported API Providers**:
+     - **FreeLLMAPI / DeepSeek Chat / OpenAI-Compatible Mini Models**: Highly cost-effective (sub-$0.0002 per inquiry).
+     - Pluggable API token configuration via environment variables (`AI_API_ENDPOINT`, `AI_API_KEY`, `AI_MODEL_NAME`).
+   - **Structured JSON Output Schema**:
+     ```json
+     {
+       "primary_domain": "career",
+       "is_compound": false,
+       "detected_domains": ["career"],
+       "needs_reframe": true,
+       "reframed_question": "What professional focus and preparation are mine to cultivate in this season?",
+       "reframe_reason": "Reframing from fatalistic prediction to actionable wisdom."
+     }
+     ```
+3. **Graceful Fallback**:
+   - If the AI API is unreachable or times out (> 1.5s), the system defaults smoothly to Tier 1 regex or the fallback domain `general` (综合运势 / 凡事), ensuring the user is never blocked.
 
 ---
 

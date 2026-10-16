@@ -16,15 +16,15 @@
 │ Subsystem / Domain                │ Status       │ Completion %        │
 ├───────────────────────────────────┼──────────────┼─────────────────────┤
 │ 1. Canonical Data & Canon Schema  │ [x] Complete │ 100% (60/60 Lots)   │
-│ 2. Tarot Obsidian Artwork Deck    │ [/] Active   │ 95%  (57/60 Cards)  │
-│ 3. Question Gate & AI Parser      │ [x] Complete │ 100% Operational    │
+│ 2. Tarot Obsidian Artwork Deck    │ [/] On Hold  │ 95% (Style Audit)   │
+│ 3. Question Gate & AI Parser      │ [/] Active   │ 85% (5s Buffer Plan)│
 │ 4. Crypto Draw & Ritual Engine    │ [x] Complete │ 100% Operational    │
-│ 5. BaZi Ephemeris & Solar Engine  │ [x] Complete │ 100% Operational    │
+│ 5. Dual BaZi & Nayin Engines      │ [/] Active   │ 75% (Hour Rectify)  │
 │ 6. 10-Step Interactive Web UI/UX  │ [x] Complete │ 100% Operational    │
 │ 7. Dual i18n Localization Engine  │ [x] Complete │ 100% Operational    │
 │ 8. Pluggable Payments & Stripe    │ [x] Complete │ 100% Operational    │
 │ 9. SQLite User Vault & Database   │ [x] Complete │ 100% Operational    │
-│ 10. PDF Export & Email Delivery   │ [ ] Backlog  │ 20%  (Print View)   │
+│ 10. PDF Export & Subscriptions    │ [/] Active   │ 40% (Predict Alerts)│
 │ 11. Multi-Stage Docker & Compose  │ [x] Complete │ 100% (Node 22)      │
 │ 12. Mobile Apps (React Native)    │ [ ] Planned  │ Phase 4 Backlog     │
 └───────────────────────────────────┴──────────────┴─────────────────────┘
@@ -32,7 +32,7 @@
 
 ### Legend
 - `[x]` **Implemented & Verified**: Code written, tested, passing lint/build, and active in master branch.
-- `[/]` **In Progress / Partial**: Active implementation with scheduled batch or transient dependencies.
+- `[/]` **In Progress / Partial**: Active implementation or detailed specification with transient dependencies.
 - `[ ]` **Pending / Backlog**: Fully specified in architecture docs, queued for future development phase.
 
 ---
@@ -48,7 +48,7 @@
 | **Bilingual Verse Dataset** | [`data/canonical/lots_compiled.json`](../../data/canonical/lots_compiled.json) | `[x]` | All 60 classical 7-character quatrains + unrhymed English translations |
 | **Historical Story Allusions** | [`data/canonical/lots_compiled.yaml`](../../data/canonical/lots_compiled.yaml) | `[x]` | Classical historical protagonists (包公, 孟嘗君, 范蠡, 蘇武, etc.) |
 | **Polysemy & Hermeneutic Notes** | [`data/canonical/lots_compiled.json`](../../data/canonical/lots_compiled.json) | `[x]` | Archaic word disambiguation, homophones, contextual temple nuances |
-| **29-to-11 Domain Taxonomy** | [`src/lib/lots/domains.ts`](../../src/lib/lots/domains.ts) | `[x]` | Maps traditional temple categories (求財, 功名, 疾病) to 11 modern slots |
+| **13 Canonical Domains Taxonomy** | [`src/lib/lots/domains.ts`](../../src/lib/lots/domains.ts) | `[x]` | Direct parity with `抽签网页_开发版/data/domains.json` (13 domains) |
 | **Data Normalization Pipeline** | [`scripts/parse_and_merge_lots.py`](../../scripts/parse_and_merge_lots.py) | `[x]` | Validates, compiles, and parses raw text into canonical JSON/YAML |
 | **Lot Data Repository Service** | [`src/lib/lots/lotsRepository.ts`](../../src/lib/lots/lotsRepository.ts) | `[x]` | `getAllLots()`, `getLotByNumber()`, zero-latency file/memory caching |
 | **REST API: List All Lots** | [`src/app/api/lots/route.ts`](../../src/app/api/lots/route.ts) | `[x]` | `GET /api/lots` with domain filtering support |
@@ -57,18 +57,18 @@
 ---
 
 ### Module 2: Visual Asset & Card Generation Pipeline
-**Location**: `assets/cards/`, `scripts/build_lot_cards.py`, `docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md`
+**Location**: `assets/cards/`, `scripts/build_lot_cards.py`, `docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md`, `docs/planning/12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md`
 
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
 | **Design Aesthetic System** | [`docs/planning/09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md`](./09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md) | `[x]` | Obsidian black `#070B11`, glowing gold foil line-art, cinnabar accents |
 | **Authentic Qin Seal Pre-Renderer** | [`assets/cards/seals/`](../../assets/cards/seals/) (`seal_01.png` - `seal_60.png`) | `[x]` | 100% pre-rendered authentic 2×2 Qin Small Seal stamps with zero AI hallucination |
-| **Automated Card Compositor** | [`scripts/build_lot_cards.py`](../../scripts/build_lot_cards.py) | `[x]` | CLI tool (`--refactor <num>`) extracting base, clearing seal area, stamping Qin seal |
-| **Lots 01–37 Card Artworks** | [`assets/cards/lot_01_card.jpg`](../../assets/cards/lot_01_card.jpg) – `lot_37_card.jpg` | `[x]` | 37 cards completed, refactored, and verified on disk |
-| **Lots 38–49 Card Artworks** | [`assets/cards/lot_38_card.jpg`](../../assets/cards/lot_38_card.jpg) – `lot_49_card.jpg` | `[x]` | 12 cards completed, refactored, and committed (`5404228`) |
-| **Lots 50–57 Card Artworks** | [`assets/cards/lot_50_card.jpg`](../../assets/cards/lot_50_card.jpg) – `lot_57_card.jpg` | `[x]` | 8 cards completed, refactored, and committed (`75683be`) |
-| **Lots 58–60 Final Deck Cards** | `assets/cards/lot_58_card.jpg` – `lot_60_card.jpg` | `[/]` | Scheduled for auto-resumption upon quota reset (`2026-10-20T18:45:25Z`) |
-| **Master Visual Catalog** | [`docs/planning/11_LOT_CARD_ARTWORK_CATALOG.md`](./11_LOT_CARD_ARTWORK_CATALOG.md) | `[x]` | Complete register with prompts, hexagrams, elements, and story summaries |
+| **Style Drift Audit (Lot 32 Onwards)** | [`docs/planning/12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md`](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md) | `[x]` | Identified top arch plaque and redundant seals on `lot_32`+; canon standard is `lot_01` |
+| **Background Task Management** | Runtime System | `[x]` | All pending image generation tasks cancelled (`task-1288` killed). No automated batches running |
+| **Execution Priority Policy** | Planning Policy | `[x]` | Card refactoring is explicitly low priority; only run when system is completely idle |
+| **SVG Vector Hybrid Component** | [`docs/planning/12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md`](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md) | `[/]` | Pure SVG vector frame, top number, seal, and localized text clipping raw central art |
+| **Lots 01–31 Canon Master Cards** | [`assets/cards/lot_01_card.jpg`](../../assets/cards/lot_01_card.jpg) – `lot_31_card.jpg` | `[x]` | 31 cards conforming to standard layout (number top, seal below number, clean border) |
+| **Lots 32–57 Cards (Style Refactoring Queued)** | `assets/cards/lot_32_card.jpg` – `lot_57_card.jpg` | `[/]` | On disk; queued for SVG compositor normalization when system is idle |
 
 ---
 
@@ -77,12 +77,12 @@
 
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **Deterministic Domain Classifier** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Offline regex scanner detecting keywords across 11 domains with zero latency |
-| **Multi-Domain Warning Guardrail** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Warns user when question spans multiple areas ("一籤斷一事" principle) |
+| **Deterministic Domain Classifier** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Offline regex scanner using `domKw.json` detecting 13 domains with zero latency |
+| **Multi-Domain Warning Guardrail** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | "一籤斷一事" principle: prompts user to pick single matter if multiple domains detected |
+| **5-Second Domain Override Buffer** | [`docs/planning/02_TEN_STEP_USER_JOURNEY_SPEC.md`](./02_TEN_STEP_USER_JOURNEY_SPEC.md) | `[/]` | Interactive 5s countdown post-draw-click allowing user to review/override domain |
 | **Agency-Centered Reframing** | [`src/lib/questionGate/questionGate.ts`](../../src/lib/questionGate/questionGate.ts) | `[x]` | Detects fatalistic inquiries ("Will I...") and transforms into actionable inquiries |
-| **Pluggable LLM AI Parser** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Supports any OpenAI-compatible endpoint (FreeLLMAPI, DeepSeek, OpenAI) |
+| **Cost-Efficient LLM AI Parser** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Pluggable token routing (FreeLLMAPI, DeepSeek, compact OpenAI-compatible models) |
 | **REST API: Question Analysis** | [`src/app/api/analyze-question/route.ts`](../../src/app/api/analyze-question/route.ts) | `[x]` | `POST /api/analyze-question` returning detected domains, warnings, reframing |
-| **Inquiry Re-attempt Tracking** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | UI allows single-click adoption of reframed inquiry |
 
 ---
 
@@ -92,24 +92,27 @@
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
 | **Cryptographic RNG** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | `crypto.getRandomValues(new Uint32Array(1))` producing unbiased uniform `1..60` |
-| **Ritual Shaking Animation** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 3D bamboo cylinder shake animation with 2.6-second sacred meditation delay |
+| **Ritual Shaking Animation** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 3D bamboo cylinder shake animation with 2.5-second sacred meditation delay |
 | **Draw State Lock & Idempotency** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Prevents rapid double-draws, locks session while shaking |
 | **Alternative Verse Toggle** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Toggle between primary canon quatrain and alternative manuscript variant |
 | **REST API: Sacred Draw** | [`src/app/api/draw/route.ts`](../../src/app/api/draw/route.ts) | `[x]` | `POST /api/draw` returning drawn lot payload, session timestamp, and gate metadata |
 
 ---
 
-### Module 5: BaZi Natal Ephemeris & Personalization Engine
-**Location**: `src/lib/bazi/`, `src/app/api/bazi/`
+### Module 5: Dual BaZi & Nayin Personalization Engines
+**Location**: `src/lib/bazi/`, `src/app/api/bazi/`, `docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md`
 
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **True Solar Time Calculation** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Longitude adjustment offset (e.g. Taipei 121.5°E -> +6 min solar correction) |
+| **Tier 1: Mazu Nayin Engine** | [`docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md`](./03_PERSONALIZATION_ENGINE_SPEC.md) | `[/]` | 60% Lot + 20% Year + 20% YMD weighted scoring, band threshold $\pm 0.30$ |
+| **Tier 2: True Solar Time Ephemeris** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Longitude adjustment offset (e.g. Taipei 121.5°E -> +6 min solar correction) |
 | **Four Pillars Calculator** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Generates Year, Month, Day, and Hour stems & branches from birth epoch |
 | **Five Elements & Ten Gods Matrix** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Wood, Fire, Earth, Metal, Water balance and Day Master element analysis |
-| **Cross-Matrix Interaction Engine** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Computes Stem Combinations (五合), Clashes (相沖), Branch Harmonies (六合/三合) |
-| **Strategic Window Synthesis** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Identifies optimal lunar months and strategic windows for user's question |
-| **REST API: BaZi Calculation** | [`src/app/api/bazi/route.ts`](../../src/app/api/bazi/route.ts) | `[x]` | `POST /api/bazi` returning Four Pillars, Solar Adjustment, and Lot interaction |
+| **Birth Hour Rectification (考时定盘)** | [`docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md`](./03_PERSONALIZATION_ENGINE_SPEC.md) | `[/]` | Morning/Afternoon/Night/Not Sure $\to$ 12 candidate hours $\to$ past milestone questionnaire |
+| **Converged Life Milestones (`应期`)** | `verdict.py` Kernel Integration | `[/]` | Tracks 夫妻宫, 子女宫, 财库冲合, 枭夺食, 伤官见官 for past/future convergence |
+| **Convincing Insightful Excerpt Hook** | `settle_nature()` & `main_verdicts()` | `[/]` | Free 2-3 sentence structural diagnostic snippet demonstrating undeniable accuracy |
+| **Full 9-Section Life Book Synthesis** | `layers_mingshu.py` Format | `[/]` | Generates comprehensive Life Book narrative for paid delivery ($2.99 / $19.99) |
+| **Event-Triggered Predictive Alerts** | `docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md` | `[/]` | Proactive notifications triggered by upcoming `引动年`, `应期`, and Solar Terms |
 
 ---
 

@@ -33,47 +33,77 @@
 
 ---
 
-## 3. Functional Requirements
+## 3. Functional Requirements & Core Business Logic
 
-### 3.1 Feature Group 1: Free Tier Experience (Guest & Registered)
-- **FR-1.1: Frictionless Landing Screen**: Clear value proposition, zero signup barrier to start drawing, visible cultural heritage positioning statement.
-- **FR-1.2: 11-Slot Domain Picker**: Interactive selection of inquiry domain (Career, Money, Relationships, Health, Legal, Family/Home, Conception, Travel/Settlement, Business, Timing, Sea/Voyage, Livelihood/Seasons, Loss/Recovery).
-- **FR-1.3: Question Gate (AI Pre-flight)**:
-  - Validates user inquiry into a single domain.
-  - Automatically identifies and reframes fatalistic/closed questions into open, reflective questions.
-  - Converts third-person questions into user-empowered action queries.
-  - Displays transparent transformation reason (`disclosed_to_user: true`).
+### 3.1 Feature Group 1: Landing Page, AI Intent Parser & Ritualized Draw
+- **FR-1.1: Frictionless Landing Screen Question Input**:
+  - Accessible to both guests and registered users without initial signup friction.
+  - Prominent question entry box with clear cultural positioning statement: *"Ask one matter with genuine intent; let classical archetypes illuminate your path."*
+- **FR-1.2: Cost-Efficient AI Intent Parser & Domain Classifier**:
+  - Leverages a cost-efficient LLM routing pipeline (e.g. FreeLLMAPI, DeepSeek, or compact OpenAI-compatible models) paired with an ultra-fast offline regex pre-classifier (`domKw.json`).
+  - Automatically parses the user's authentic intention and maps it to the 13 canonical domain slots (`relationships`, `career`, `money`, `health`, `family_home`, `travel_moving`, `sea_and_voyage`, `the_absent_one`, `legal`, `conception`, `timing`, `livelihood_and_seasons`, `general`).
+  - **Multi-Domain Guardrail ("一籤斷一事" / "One Lot Answers One Matter")**: If the query spans multiple distinct domains (e.g., *"Will I get promoted and will my relationship work out?"*), the system detects the compound intent and prompts the user to focus on a single question at a time before proceeding.
+- **FR-1.3: 5-Second Domain Override Buffer (Pre-Draw Countdown)**:
+  - Once the user clicks the **[ Draw a Lot / 抽签 ]** button, the system displays the AI-detected inquiry domain.
+  - An interactive **5-second countdown timer** is presented, providing the user with a frictionless window to confirm or manually change/override the domain if the parsed intent is not accurate or misaligned with their true focus.
+  - Upon user confirmation or expiration of the 5-second countdown, the ritual drawing sequence starts automatically.
 - **FR-1.4: Ritualized Draw Experience**:
-  - 2–3 second authentic bamboo cylinder shaking animation with subtle sound/haptic feedback.
-  - True browser-based cryptographic randomness (`crypto.getRandomValues(1..60)`).
-  - Session locking: Single draw per question context to prevent spam clicking.
+  - 2.5-second authentic bamboo cylinder shaking animation with sound and haptic vibration.
+  - True client-side cryptographic randomness (`crypto.getRandomValues(1..60)`).
+  - Session locking: Single draw per question context to prevent spam clicking and encourage sincere contemplation.
 - **FR-1.5: Classical Lot Reveal**:
-  - Lot Index (1–60), Jiazi combination (e.g., `Lot 27 · 戊辰 Wu-chen`), Hexagram name (`陸, Lu`).
-  - Editorial tone assessment (`favourable`, `balanced`, `guarded`, etc.).
-  - Elemental nature and seasonal direction (e.g., `Earth — favours late summer; southwest`).
-  - Canonical historical allusion story title and 2-sentence synopsis.
-  - Classical 4-line Chinese verse alongside curated unrhymed English translation.
-- **FR-1.6: Philological Guidance Display**:
-  - Specific domain guidance line matching the selected slot.
-  - Dual keyword clusters (`FAVOURABLE` vs `GUARDED`).
-  - Polysemy Reading Notes unfolding classical double-meanings.
-  - Boundaries Card explaining why no exact dates are provided.
-  - Automated regulatory disclaimers attached per category.
+  - Lot Index (1–60), Jiazi combination (e.g. `Lot 27 · 戊辰 Wu-Chen`), Hexagram name (`陸, Lu`).
+  - Editorial tone assessment (`favourable`, `balanced`, `guarded`), seasonal direction, and 4-line classical quatrain with curated unrhymed English translation.
+  - Canonical historical allusion title (e.g. `胡完救文氏母女`) and 2-sentence synopsis.
+- **FR-1.6: Generic Guidance Display & Prominent Disclaimer**:
+  - Displays the canonical domain guidance line (`jie` / 解曰) matching the active domain slot.
+  - **Prominent General Disclaimer**: Explicitly states: *"This interpretation is a general reading based on the lot's classical verses. Personal resonance depends on individual circumstances and your unique birth chart configuration."*
+  - Contextual ethical disclaimers attached per category (`not_financial_advice`, `not_medical_advice`, `not_legal_advice`, etc.).
 
-### 3.2 Feature Group 2: Paid Personalization Layer ($2.99 – $19.99)
-- **FR-2.1: Paywall Bridge**: Contextual banner below free reading asking: *"This lot is general. What is it saying about your specific situation?"*
-- **FR-2.2: Birth Data Ingestion**:
-  - Form capturing: Solar/Gregorian Birth Date, Birth Time (with "Unknown" option defaulting to noon / day-master analysis), and City/Country of birth (for true solar time timezone offset adjustment).
-- **FR-2.3: Astrological Calculation Engine**:
-  - Conversion of birth parameters into Four Pillars (Year, Month, Day, Hour Ganzhi).
-  - Cross-computation with the drawn Lot’s Ganzhi:
-    - Heavenly Stem relationships (Ten Gods / 十神 interaction, Stem combinations/clashes).
-    - Earthly Branch interactions (Six Harmonies, Three Harmonies, Clashes, Punishments, Harms: 六合, 三合, 六冲, 相刑, 相害).
-  - Integration with current Annual Pillar (流年干支) to generate a seasonal reflection window (Quarterly/Seasonal, never exact day predictions).
-- **FR-2.4: Report Delivery & Storage**:
-  - Instant interactive web-based report with smooth accordion sections and visual natal wheel/pillars.
-  - Automated PDF generation dispatched via transactional email.
-  - Archival to the user's permanent account vault.
+---
+
+### 3.2 Feature Group 2: Dual-Branch Personalization, Birth Hour Rectification & Monetization
+
+- **FR-2.1: The Bridge to Personalization**:
+  - Contextual prompt below generic reading: *"This lot is general. What does it reveal within YOUR unique chart?"*
+  - Invites the user to input their birth date and location for deep astrological cross-analysis.
+
+- **FR-2.2: Dual-Branch Birth Time Input & Hour Rectification (时辰逆推 / 考时定盘)**:
+  - **Branch A (Known Exact Birth Time)**:
+    - User enters specific birth hour and minute (with geographic city/country for True Solar Time offset).
+    - Directly generates the Four Pillars (四柱八字) and proceeds to report generation (FR-2.3).
+  - **Branch B (Unknown / Approximate Birth Time)**:
+    - User selects a coarse day interval: **Morning (早: 05:00–11:00)**, **Afternoon (午: 11:00–17:00)**, **Night (晚: 17:00–23:00)**, or **Not Sure (不清楚: all 12 hours)**.
+    - **Advanced Paid Engine Rectification (`米圖八字排盤軟件` Kernel Integration)**:
+      1. Generates 3 to 12 candidate Hour Pillars (时柱) based on the user's Gregorian birthday and birth coordinates.
+      2. Runs the deterministic life milestone algorithm (`verdict.py:converge()` & `year_events()`) across each candidate chart, deriving candidate milestone years (`应期` / `引动年`) across life domains (e.g. relationship shifts, career turning points, moves/relocations, major financial events).
+      3. Presents a **Targeted Past-Event Questionnaire** (2–3 short, high-contrast questions about historical milestones, e.g., *"Did you experience a major career elevation or relocation around 2018 or 2021?"*).
+      4. Correlates the user's answers against candidate charts to mathematically converge on and **pinpoint the user's exact birth hour branch** (*考时定盘*).
+
+- **FR-2.3: The Convincing Insightful Excerpt Hook (Free Snippet)**:
+  - Before requiring payment, the system generates a **brief but deeply insightful, convincing structural excerpt** (2–3 sentences derived from `verdict.py:settle_nature()` and `main_verdicts()`).
+  - Accurately captures the user's core psychological archetype, past internal tensions, and structural fortune dynamics (e.g., *"Your chart reveals an inherent tension between creative independence and institutional structures, indicating that key breakthroughs emerge only when personal autonomy is safeguarded..."*).
+  - Acts as an undeniable demonstration of authenticity and depth, creating strong conversion momentum.
+
+- **FR-2.4: Monetization Funnel & Paid Deliverables ($2.99 – $19.99)**:
+  - **Option 1: Single Full Report Unlock & PDF Download ($2.99 promotional / $19.99 standard)**:
+    - User creates an account / signs up and pays via Stripe (credit card, Apple Pay, Google Pay).
+    - Instantly unlocks the full 9-section Life Book Report (`layers_mingshu.py` format):
+      1. 命局定性 (Life Structure Character & Temperament)
+      2. 事业与学业 (Career, Role & Industry Direction)
+      3. 财富机制 (Wealth Architecture, Treasuries `财库`, & Cashflow Dynamics)
+      4. 感情婚姻 (Partnership, Palace Interactions `夫妻宫`, & Relational Timing)
+      5. 六亲家庭 (Family Dynamics, Parents, & Children `子女宫`)
+      6. 身心健康 (Five Elements Balance & Vulnerabilities)
+      7. 做功与厚化 (Core Capacities, Action Mechanisms, & Karmic Anchors)
+      8. 大运走势 (10-Year Major Luck Cycles & Generational Shifts)
+      9. 流年关键窗口与应期 (Annual Windows, Major Milestone Years, & Trigger Mechanisms)
+    - Automated high-resolution PDF dispatched to registered email and saved to user vault.
+  - **Option 2: Event-Triggered Predictive Subscription ($9.99 – $11.99/mo)**:
+    - Delivers full report access plus **continuous event-triggered future predictions**:
+      - **Annual Transit Alerts (`引动年` & `应期`)**: Proactive notifications when an upcoming calendar year activates natal palaces (clashing or combining with 夫妻宫, opening 财库, etc.).
+      - **Solar Term Energy Shifts (节气交运)**: Seasonal contemplation updates aligned with astronomical transitions (Lichun, Equinoxes, Solstices).
+      - **Weekly / Monthly Contemplation Prompts**: Tailored practices aligned with the user's active Dayun and Liunian.
 
 ### 3.3 Feature Group 3: Subscriptions & Lifecycle Engagement ($9.99 – $11.99/mo)
 - **FR-3.1: Daily / Weekly Lot Practice**: Optional automated daily single-line contemplation or weekly ritual lot draw.
