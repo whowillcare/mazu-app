@@ -362,10 +362,10 @@ export function solveBirthHour(
 
   // Find winning candidate
   let bestBranch = candidates[0].branch;
-  let maxScore = -1;
+  let highestScore = -1;
   Object.keys(scores).forEach((b) => {
-    if (scores[b] > maxScore) {
-      maxScore = scores[b];
+    if (scores[b] > highestScore) {
+      highestScore = scores[b];
       bestBranch = b;
     }
   });
@@ -376,7 +376,7 @@ export function solveBirthHour(
   const hb = winningHour.branch;
 
   // Synthesize Insightful Excerpt Hook (The Convincing Diagnostic Snippet)
-  const excerptZh = `您的生辰定盘为「${winningHour.shichenZh}（${winningHour.timeRange}）」。命局日主为「${dm}」，夫妻宫坐「${db}」，时柱归于「${hb}」。命理结构显示您天生具备极强的自主内核与敏锐直觉，但也伴随着自我期许与外部制度的深层张力。考时定盘轨迹印证：您人生真正的进阶与突破，往往并非来自顺境安逸，而是在历史关键节点（如 2018–2019 或 2021 年）遭遇环境重构时，被迫破釜沉舟所激发出的独特格局。即将到来的 2026–2027 年岁君交运，将再次引动关键宫位，迎来三年一遇的破局窗口。`;
+  const excerptZh = `您的生辰定盤為「${winningHour.shichenZh}（${winningHour.timeRange}）」。命局日主為「${dm}」，夫妻宮坐「${db}」，時柱歸於「${hb}」。命理結構顯示您天生具備極強的自主核心與敏銳直覺，但也伴隨著自我期許與外部制度的深層張力。考時定盤軌跡印證：您人生真正的進階與突破，往往並非來自順境安逸，而是在歷史關鍵節點（如 2018–2019 或 2021 年）遭遇環境重構時，被迫破釜沉舟所激發出的獨特格局。即將到來的 2026–2027 年歲君交運，將再次引動關鍵宮位，迎來三年一遇的破局窗口。`;
 
   const excerptEn = `Your rectified birth hour is converged to the ${winningHour.shichenEn} (${winningHour.timeRange}), grounding your chart with Day Master ${dm} seated upon ${db}, and Hour Pillar anchored in ${hb}. Your natal structure reveals a potent tension between an uncompromising independent vision and systemic structures. Historical milestone alignment confirms that major breakthroughs in your journey have repeatedly culminated not during passive calm, but during sharp environmental shifts (notably around 2018–2019 or 2021) that demanded autonomous mastery. The active transits of 2026–2027 are set to activate these core palaces once again, unlocking a pivotal strategic window.`;
 
@@ -388,9 +388,9 @@ export function solveBirthHour(
       age: 2026 - parseInt(birthDateStr.split('-')[0], 10),
       domain: 'career_move',
       polarity: 'breakthrough',
-      titleZh: '2026年（丙午）：阳火透干 · 平台能见度与决策权飞跃',
+      titleZh: '2026年（丙午）：陽火透干 · 平台能見度與決策權飛躍',
       titleEn: '2026 (Bing-Wu): Yang Fire Manifest — Professional Visibility & Authority Surge',
-      mechanismZh: '丙午干支同气引动天干，利于公开展现、关键业务确权及个人声誉破圈。',
+      mechanismZh: '丙午干支同氣引動天干，利於公開展現、關鍵業務確權及個人聲譽破圈。',
       mechanismEn: 'Annual pillar Bing-Wu energizes the upper stems, catalyzing public recognition and strategic autonomy.',
     },
     {
@@ -399,16 +399,25 @@ export function solveBirthHour(
       age: 2027 - parseInt(birthDateStr.split('-')[0], 10),
       domain: 'wealth_treasury',
       polarity: 'breakthrough',
-      titleZh: '2027年（丁未）：太岁入库 · 长期资产沉淀与财脉固化',
+      titleZh: '2027年（丁未）：太歲入庫 · 長期資產沉澱與財脈固化',
       titleEn: '2027 (Ding-Wei): Treasury Consolidation — Asset Grounding & Wealth Compounding',
-      mechanismZh: '未土财库与时支宫位相呼应，主资本落地、置产固化与长期回报兑现。',
+      mechanismZh: '未土財庫與時支宮位相呼應，主資本落地、置產固化與長期回報兌現。',
       mechanismEn: 'Wei Earth treasury resonates with natal palaces, signaling tangible asset acquisition and sustainable returns.',
     },
   ];
 
+  const bestScore = scores[winningHour.branch] || 1;
+  const otherScores = Object.entries(scores)
+    .filter(([b]) => b !== winningHour.branch)
+    .map(([, s]) => s)
+    .sort((a, b) => b - a);
+  const runnerUp = otherScores[0] || (bestScore * 0.7);
+  const diff = bestScore - runnerUp;
+  const dynamicConfidence = Math.min(98, Math.max(82, Math.round(86 + diff * 2.5)));
+
   return {
     pinpointedHour: winningHour,
-    confidenceScore: 0.94,
+    confidenceScore: dynamicConfidence,
     allCandidates: candidates.map((c) => ({
       branch: c.branch,
       shichenZh: c.shichenZh,

@@ -8,6 +8,8 @@ import { translations, SupportedLanguage } from '@/lib/i18n/translations';
 import { QuestionAnalysisResult } from '@/lib/ai/questionParser';
 import { SvgLotCard } from '@/components/cards/SvgLotCard';
 import { RectificationQuestion, RectificationResult } from '@/lib/bazi/hourRectification';
+import { MAJOR_CITIES, MajorCity, formatLongitude } from '@/lib/geo/cities';
+import { CityLocationPicker } from '@/components/geo/CityLocationPicker';
 
 type JourneyStep = 'porch' | 'domain' | 'question' | 'drawing' | 'reading' | 'report';
 
@@ -45,11 +47,11 @@ export default function MazuLotApp() {
   const [drawnLot, setDrawnLot] = useState<CanonicalLot | null>(null);
   const [isDrawing, setIsDrawing] = useState(false);
 
-  // BaZi & Rectification State
+  // BaZi & Location & Rectification State
   const [timeBranch, setTimeBranch] = useState<'exact' | 'rough'>('exact');
   const [birthDate, setBirthDate] = useState('1992-10-14');
   const [birthTime, setBirthTime] = useState('09:30');
-  const [birthLocation, setBirthLocation] = useState('Taipei (121.5°E)');
+  const [selectedCity, setSelectedCity] = useState<MajorCity>(MAJOR_CITIES[0]); // Default: Taipei (121.57°E, UTC+8)
   const [roughSlot, setRoughSlot] = useState<'morning' | 'afternoon' | 'night' | 'not_sure'>('morning');
   const [rectificationQuestions, setRectificationQuestions] = useState<RectificationQuestion[] | null>(null);
   const [rectificationAnswers, setRectificationAnswers] = useState<Record<string, string>>({});
@@ -174,6 +176,7 @@ export default function MazuLotApp() {
           action: 'get_questionnaire',
           birthDate,
           timeSlot: roughSlot,
+          location: `${selectedCity.nameZh} (${formatLongitude(selectedCity.longitude)})`,
         }),
       });
       const data = await res.json();
@@ -199,6 +202,7 @@ export default function MazuLotApp() {
           birthDate,
           timeSlot: roughSlot,
           answers: rectificationAnswers,
+          location: `${selectedCity.nameZh} (${formatLongitude(selectedCity.longitude)})`,
         }),
       });
       const data = await res.json();
@@ -249,8 +253,8 @@ export default function MazuLotApp() {
         body: JSON.stringify({
           birthDate,
           birthTime,
-          longitude: 121.5,
-          timeZoneOffset: 8,
+          longitude: selectedCity.longitude,
+          timeZoneOffset: selectedCity.timeZoneOffset,
           lotNumber: drawnLot?.lot_number || 1,
         }),
       });
@@ -288,9 +292,9 @@ export default function MazuLotApp() {
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      {/* ─── SITE HEADER ────────────────────────────────────────── */}
+      {/* ─── SITE HEADER (MOBILE FRIENDLY) ──────────────────────── */}
       <header className="site-header">
-        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '8px' }}>
           <a
             href="#"
             onClick={(e) => {
@@ -300,60 +304,61 @@ export default function MazuLotApp() {
             className="brand-badge"
           >
             <span className="brand-seal">{t.common.brandSeal}</span>
-            <span>{t.common.brandName}</span>
+            <span className="brand-title-full">{t.common.brandName}</span>
+            <span className="brand-title-compact">
+              {language === 'zh-TW' ? '媽祖靈籤' : 'MAZU · 靈籤'}
+            </span>
           </a>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             {/* Direct Language Switcher */}
             <button
               onClick={() => handleLanguageChange(language === 'en' ? 'zh-TW' : 'en')}
-              className="btn-outline"
+              className="btn-outline header-btn"
               title="Click to Switch Language / 點擊切換語言"
               style={{
-                fontSize: '0.86rem',
-                padding: '7px 14px',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '6px',
                 borderColor: 'var(--gold-primary)',
                 color: 'var(--gold-light)',
                 fontWeight: 600,
                 cursor: 'pointer',
               }}
             >
-              <span style={{ fontSize: '1.05rem' }}>🌐</span>
-              <span>{language === 'en' ? 'English' : '繁體中文'}</span>
-              <span style={{ fontSize: '0.72rem', opacity: 0.7, marginLeft: '2px' }}>⇄</span>
+              <span>🌐</span>
+              <span className="header-btn-text-full">{language === 'en' ? 'English' : '繁體中文'}</span>
+              <span className="header-btn-text-compact">{language === 'en' ? 'EN' : '繁中'}</span>
+              <span style={{ fontSize: '0.72rem', opacity: 0.7 }}>⇄</span>
             </button>
 
             {/* Bilingual Study Mode Toggle */}
             <button
               onClick={() => setDisplayMode(displayMode === 'clean' ? 'bilingual' : 'clean')}
-              className="btn-outline"
+              className="btn-outline header-btn"
               title="Toggle Clean vs. Bilingual Study Mode"
-              style={{ fontSize: '0.84rem', padding: '7px 12px' }}
             >
-              {displayMode === 'clean' ? t.common.cleanView : t.common.bilingualMode}
+              <span>{displayMode === 'clean' ? '✦' : '☯'}</span>
+              <span className="header-btn-text-full">{displayMode === 'clean' ? t.common.cleanView : t.common.bilingualMode}</span>
+              <span className="header-btn-text-compact">{displayMode === 'clean' ? (language === 'zh-TW' ? '純淨' : 'Clean') : (language === 'zh-TW' ? '雙語' : 'Dual')}</span>
             </button>
 
             {/* Preferences Modal Trigger */}
             <button
               onClick={() => setShowPreferences(true)}
-              className="btn-outline"
-              style={{ padding: '7px 12px' }}
+              className="btn-outline header-btn"
+              title={t.common.preferences}
             >
-              {t.common.preferences}
+              <span>⚙️</span>
+              <span className="header-btn-text-full">{t.common.preferences}</span>
             </button>
           </div>
         </div>
       </header>
 
       {/* ─── MAIN CONTENT AREA ─────────────────────────────────── */}
-      <main style={{ flex: 1, padding: '48px 0' }}>
+      <main style={{ flex: 1, padding: 'clamp(24px, 4vw, 48px) 0' }}>
         <div className="container">
           {/* ════ SCREEN 1: THE PORCH / HERO + DIRECT QUESTION ═════ */}
           {currentStep === 'porch' && (
-            <div style={{ textAlign: 'center', maxWidth: '840px', margin: '0 auto', paddingTop: '20px' }}>
+            <div style={{ textAlign: 'center', maxWidth: '840px', margin: '0 auto', paddingTop: '10px' }}>
               <div style={{ fontSize: '2.4rem', marginBottom: '12px', color: 'var(--gold-primary)' }}>✦</div>
               <div
                 style={{
@@ -368,16 +373,16 @@ export default function MazuLotApp() {
               </div>
               <h1
                 className="font-serif gold-gradient-text"
-                style={{ fontSize: '2.6rem', letterSpacing: '0.08em', lineHeight: 1.28, marginBottom: '18px' }}
+                style={{ fontSize: 'clamp(1.9rem, 4.5vw, 2.7rem)', letterSpacing: '0.08em', lineHeight: 1.28, marginBottom: '18px' }}
               >
                 {t.porch.heading}
               </h1>
               <p
                 style={{
-                  fontSize: '1.12rem',
+                  fontSize: 'clamp(0.98rem, 2vw, 1.12rem)',
                   color: 'var(--text-secondary)',
                   lineHeight: 1.7,
-                  marginBottom: '36px',
+                  marginBottom: '32px',
                   fontFamily: 'var(--font-serif)',
                 }}
               >
@@ -388,15 +393,15 @@ export default function MazuLotApp() {
               <div
                 className="glass-panel"
                 style={{
-                  padding: '32px',
+                  padding: 'clamp(20px, 3.5vw, 32px)',
                   textAlign: 'left',
-                  marginBottom: '48px',
+                  marginBottom: '44px',
                   boxShadow: '0 16px 40px rgba(0, 0, 0, 0.45)',
                   border: '1px solid var(--border-gold)',
                 }}
               >
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
-                  <label style={{ fontSize: '1rem', color: 'var(--gold-light)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', flexWrap: 'wrap', gap: '8px' }}>
+                  <label style={{ fontSize: '0.98rem', color: 'var(--gold-light)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <span>✦</span>
                     <span>{language === 'zh-TW' ? '心誠叩問 · 虔誠請示' : 'SINCERE INQUIRY & INNER CONTEMPLATION'}</span>
                   </label>
@@ -424,7 +429,7 @@ export default function MazuLotApp() {
                     borderRadius: 'var(--radius-sm)',
                     padding: '14px',
                     color: 'var(--text-primary)',
-                    fontSize: '1.05rem',
+                    fontSize: '1.02rem',
                     fontFamily: 'inherit',
                     resize: 'none',
                     outline: 'none',
@@ -529,7 +534,7 @@ export default function MazuLotApp() {
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     flexWrap: 'wrap',
-                    gap: '16px',
+                    gap: '14px',
                   }}
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -551,11 +556,11 @@ export default function MazuLotApp() {
                     </span>
                   </div>
 
-                  <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                  <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', width: '100%', justifyContent: 'flex-end' }}>
                     <button
                       onClick={() => setCurrentStep('domain')}
                       className="btn-outline"
-                      style={{ padding: '12px 20px', fontSize: '0.92rem' }}
+                      style={{ padding: '10px 18px', fontSize: '0.9rem' }}
                     >
                       {t.questionStep.changeDomain}
                     </button>
@@ -565,8 +570,8 @@ export default function MazuLotApp() {
                       disabled={!!analysis?.isMultiDomain}
                       className="btn-primary"
                       style={{
-                        padding: '12px 28px',
-                        fontSize: '1rem',
+                        padding: '12px 26px',
+                        fontSize: '0.98rem',
                         opacity: analysis?.isMultiDomain ? 0.5 : 1,
                         cursor: analysis?.isMultiDomain ? 'not-allowed' : 'pointer',
                       }}
@@ -582,31 +587,31 @@ export default function MazuLotApp() {
                 style={{
                   display: 'grid',
                   gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-                  gap: '20px',
+                  gap: '16px',
                   textAlign: 'left',
                 }}
               >
-                <div className="glass-panel" style={{ padding: '24px' }}>
+                <div className="glass-panel" style={{ padding: '22px' }}>
                   <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
                     {t.porch.feature1Title}
                   </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.6 }}>
                     {t.porch.feature1Desc}
                   </p>
                 </div>
-                <div className="glass-panel" style={{ padding: '24px' }}>
+                <div className="glass-panel" style={{ padding: '22px' }}>
                   <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
                     {t.porch.feature2Title}
                   </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.6 }}>
                     {t.porch.feature2Desc}
                   </p>
                 </div>
-                <div className="glass-panel" style={{ padding: '24px' }}>
+                <div className="glass-panel" style={{ padding: '22px' }}>
                   <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
                     {t.porch.feature3Title}
                   </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.6 }}>
                     {t.porch.feature3Desc}
                   </p>
                 </div>
@@ -620,10 +625,10 @@ export default function MazuLotApp() {
               <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem', marginBottom: '8px' }}>
                 {t.domainStep.stepTag}
               </div>
-              <h2 className="font-serif gold-gradient-text" style={{ fontSize: '2.2rem', marginBottom: '12px' }}>
+              <h2 className="font-serif gold-gradient-text" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.2rem)', marginBottom: '12px' }}>
                 {t.domainStep.heading}
               </h2>
-              <p style={{ color: 'var(--text-secondary)', marginBottom: '32px' }}>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '28px', fontSize: '0.95rem' }}>
                 {t.domainStep.description}
               </p>
 
@@ -643,7 +648,7 @@ export default function MazuLotApp() {
                 ))}
               </div>
 
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '28px' }}>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '28px', flexWrap: 'wrap' }}>
                 <button onClick={() => setCurrentStep('porch')} className="btn-outline">
                   ◄ {t.common.back}
                 </button>
@@ -665,7 +670,7 @@ export default function MazuLotApp() {
                 <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem', marginBottom: '8px' }}>
                   {t.questionStep.stepTag}
                 </div>
-                <h2 className="font-serif gold-gradient-text" style={{ fontSize: '2.2rem', marginBottom: '10px' }}>
+                <h2 className="font-serif gold-gradient-text" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.2rem)', marginBottom: '10px' }}>
                   {t.questionStep.heading}
                 </h2>
                 <p style={{ color: 'var(--text-secondary)' }}>
@@ -676,7 +681,7 @@ export default function MazuLotApp() {
                 </p>
               </div>
 
-              <div className="glass-panel" style={{ marginBottom: '24px', padding: '30px' }}>
+              <div className="glass-panel" style={{ marginBottom: '24px', padding: 'clamp(20px, 3.5vw, 30px)' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
                   <label style={{ fontSize: '0.94rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
                     {t.questionStep.questionLabel}:
@@ -699,7 +704,7 @@ export default function MazuLotApp() {
                     borderRadius: 'var(--radius-sm)',
                     padding: '14px',
                     color: 'var(--text-primary)',
-                    fontSize: '1.05rem',
+                    fontSize: '1.02rem',
                     fontFamily: 'inherit',
                     resize: 'none',
                     outline: 'none',
@@ -773,7 +778,7 @@ export default function MazuLotApp() {
                 </div>
               </div>
 
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '16px' }}>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
                 <button onClick={() => setCurrentStep('domain')} className="btn-outline">
                   ◄ {t.questionStep.changeDomain}
                 </button>
@@ -831,8 +836,9 @@ export default function MazuLotApp() {
           {/* ════ SCREEN 5 & 6: LOT REVEAL, READING & RECTIFICATION ════ */}
           {currentStep === 'reading' && drawnLot && (
             <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-              <div className="glass-panel" style={{ padding: '40px' }}>
-                <div style={{ display: 'grid', gridTemplateColumns: '320px 1fr', gap: '40px', alignItems: 'start' }}>
+              <div className="glass-panel" style={{ padding: 'clamp(20px, 4vw, 40px)' }}>
+                {/* Responsive Reading Layout */}
+                <div className="reading-layout">
                   {/* Left Column: SvgLotCard Component (Canonical lot_01 Standard Layout) */}
                   <div style={{ textAlign: 'center' }}>
                     <div style={{ margin: '0 auto', maxWidth: '300px' }}>
@@ -853,7 +859,7 @@ export default function MazuLotApp() {
 
                   {/* Right Column: Cultural Details, Verse & Guidance */}
                   <div>
-                    <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between' }}>
+                    <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px' }}>
                       <span style={{ color: 'var(--gold-primary)', letterSpacing: '0.15em', fontWeight: 700 }}>
                         {language === 'zh-TW'
                           ? `第 ${String(drawnLot.lot_number).padStart(2, '0')} 籤 · ${drawnLot.ganzhi.zh}`
@@ -866,12 +872,12 @@ export default function MazuLotApp() {
 
                     <h2
                       className="font-serif gold-gradient-text"
-                      style={{ fontSize: '2.1rem', margin: '8px 0 16px', lineHeight: 1.25 }}
+                      style={{ fontSize: 'clamp(1.7rem, 3.5vw, 2.1rem)', margin: '8px 0 16px', lineHeight: 1.25 }}
                     >
                       {language === 'zh-TW' ? drawnLot.title.zh : drawnLot.title.en}
                     </h2>
 
-                    <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginBottom: '24px', fontSize: '0.9rem' }}>
+                    <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', marginBottom: '20px', fontSize: '0.88rem' }}>
                       <span style={{ color: 'var(--gold-light)' }}>
                         {t.readingStep.archetypeLabel}: <strong>{language === 'zh-TW' ? drawnLot.title.zh : drawnLot.title.zh}</strong>
                       </span>
@@ -889,7 +895,7 @@ export default function MazuLotApp() {
                         background: 'rgba(7, 11, 17, 0.65)',
                         border: '1px solid var(--border-gold)',
                         borderRadius: 'var(--radius-md)',
-                        padding: '24px',
+                        padding: 'clamp(16px, 3vw, 24px)',
                         marginBottom: '20px',
                       }}
                     >
@@ -926,7 +932,7 @@ export default function MazuLotApp() {
                       </div>
 
                       {displayMode === 'bilingual' ? (
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px' }}>
                           <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.2rem', letterSpacing: '0.2em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
                             {drawnLot.verse?.lines?.map((line) => (
                               <p key={line.line_number} style={{ marginBottom: '4px' }}>{line.zh}</p>
@@ -1042,7 +1048,7 @@ export default function MazuLotApp() {
                     )}
 
                     {/* Favorable vs Guarded Keywords */}
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '14px' }}>
                       <div style={{ background: 'rgba(212, 175, 55, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
                         <div style={{ color: 'var(--gold-light)', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
                           {t.readingStep.favorableTag}
@@ -1081,17 +1087,17 @@ export default function MazuLotApp() {
                   <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.15em', fontWeight: 700, fontSize: '0.92rem' }}>
                     {t.rectification.sectionTag}
                   </div>
-                  <h3 className="font-serif gold-gradient-text" style={{ fontSize: '1.8rem', margin: '8px 0 12px' }}>
+                  <h3 className="font-serif gold-gradient-text" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 1.8rem)', margin: '8px 0 12px' }}>
                     {language === 'zh-TW'
                       ? `第 ${drawnLot.lot_number} 籤（${drawnLot.ganzhi.zh}）如何與您的個人八字深度合參？`
                       : `How Does Lot ${drawnLot.lot_number} (${drawnLot.ganzhi.zh}) Resonate With YOUR Natal Chart?`}
                   </h3>
-                  <p style={{ color: 'var(--text-secondary)', maxWidth: '680px', margin: '0 auto 28px', lineHeight: 1.6 }}>
+                  <p style={{ color: 'var(--text-secondary)', maxWidth: '680px', margin: '0 auto 28px', lineHeight: 1.6, fontSize: '0.92rem' }}>
                     {t.rectification.subheading}
                   </p>
 
                   {/* Dual Branch Selector Tabs */}
-                  <div style={{ display: 'inline-flex', background: 'rgba(7, 11, 17, 0.9)', padding: '4px', borderRadius: '12px', border: '1px solid var(--border-gold)', marginBottom: '28px' }}>
+                  <div style={{ display: 'inline-flex', background: 'rgba(7, 11, 17, 0.9)', padding: '4px', borderRadius: '12px', border: '1px solid var(--border-gold)', marginBottom: '28px', maxWidth: '100%' }}>
                     <button
                       onClick={() => setTimeBranch('exact')}
                       style={{
@@ -1099,9 +1105,9 @@ export default function MazuLotApp() {
                         color: timeBranch === 'exact' ? '#070B11' : 'var(--text-secondary)',
                         border: 'none',
                         borderRadius: '8px',
-                        padding: '10px 22px',
+                        padding: '10px 18px',
                         fontWeight: 600,
-                        fontSize: '0.9rem',
+                        fontSize: '0.86rem',
                         cursor: 'pointer',
                         transition: 'all 0.2s ease',
                       }}
@@ -1115,9 +1121,9 @@ export default function MazuLotApp() {
                         color: timeBranch === 'rough' ? '#070B11' : 'var(--text-secondary)',
                         border: 'none',
                         borderRadius: '8px',
-                        padding: '10px 22px',
+                        padding: '10px 18px',
                         fontWeight: 600,
-                        fontSize: '0.9rem',
+                        fontSize: '0.86rem',
                         cursor: 'pointer',
                         transition: 'all 0.2s ease',
                       }}
@@ -1126,20 +1132,11 @@ export default function MazuLotApp() {
                     </button>
                   </div>
 
-                  {/* Branch A: Exact Time Inputs */}
+                  {/* Branch A: Exact Time Inputs with City Location Autocomplete & GPS */}
                   {timeBranch === 'exact' && (
-                    <div
-                      style={{
-                        display: 'flex',
-                        flexWrap: 'wrap',
-                        gap: '16px',
-                        justifyContent: 'center',
-                        maxWidth: '680px',
-                        margin: '0 auto 24px',
-                      }}
-                    >
+                    <div className="birth-inputs-row">
                       <div>
-                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px', textAlign: 'left' }}>
                           {t.baziPaywall.birthDateLabel}
                         </label>
                         <input
@@ -1152,11 +1149,12 @@ export default function MazuLotApp() {
                             borderRadius: '8px',
                             padding: '10px 14px',
                             color: 'var(--text-primary)',
+                            fontSize: '0.92rem',
                           }}
                         />
                       </div>
                       <div>
-                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px', textAlign: 'left' }}>
                           {t.baziPaywall.birthTimeLabel}
                         </label>
                         <input
@@ -1169,38 +1167,52 @@ export default function MazuLotApp() {
                             borderRadius: '8px',
                             padding: '10px 14px',
                             color: 'var(--text-primary)',
+                            fontSize: '0.92rem',
                           }}
                         />
                       </div>
-                      <div>
-                        <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
-                          {t.baziPaywall.locationLabel}
-                        </label>
-                        <input
-                          type="text"
-                          value={birthLocation}
-                          onChange={(e) => setBirthLocation(e.target.value)}
-                          style={{
-                            background: 'rgba(7, 11, 17, 0.8)',
-                            border: '1px solid var(--border-gold)',
-                            borderRadius: '8px',
-                            padding: '10px 14px',
-                            color: 'var(--text-primary)',
-                            width: '180px',
-                          }}
-                        />
-                      </div>
+                      <CityLocationPicker
+                        language={language === 'zh-TW' ? 'zh-TW' : 'en'}
+                        selectedCity={selectedCity}
+                        onCityChange={setSelectedCity}
+                      />
                     </div>
                   )}
 
                   {/* Branch B: Rough Time Interval & Milestone Questionnaire */}
                   {timeBranch === 'rough' && (
                     <div style={{ maxWidth: '720px', margin: '0 auto 24px', textAlign: 'left' }}>
+                      <div className="birth-inputs-row" style={{ marginBottom: '20px' }}>
+                        <div>
+                          <label style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                            {t.baziPaywall.birthDateLabel}
+                          </label>
+                          <input
+                            type="date"
+                            value={birthDate}
+                            onChange={(e) => setBirthDate(e.target.value)}
+                            style={{
+                              background: 'rgba(7, 11, 17, 0.8)',
+                              border: '1px solid var(--border-gold)',
+                              borderRadius: '8px',
+                              padding: '10px 14px',
+                              color: 'var(--text-primary)',
+                              fontSize: '0.92rem',
+                            }}
+                          />
+                        </div>
+                        <CityLocationPicker
+                          language={language === 'zh-TW' ? 'zh-TW' : 'en'}
+                          selectedCity={selectedCity}
+                          onCityChange={setSelectedCity}
+                        />
+                      </div>
+
                       <div style={{ marginBottom: '16px' }}>
                         <label style={{ display: 'block', fontSize: '0.88rem', color: 'var(--gold-light)', fontWeight: 600, marginBottom: '8px' }}>
                           {t.rectification.selectSlotPrompt}
                         </label>
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '10px' }}>
                           {[
                             { key: 'morning', label: t.rectification.slotMorning },
                             { key: 'afternoon', label: t.rectification.slotAfternoon },
@@ -1251,7 +1263,7 @@ export default function MazuLotApp() {
                             background: 'rgba(7, 11, 17, 0.7)',
                             border: '1px solid var(--border-gold)',
                             borderRadius: '12px',
-                            padding: '24px',
+                            padding: 'clamp(16px, 3vw, 24px)',
                             marginTop: '20px',
                           }}
                         >
@@ -1262,7 +1274,7 @@ export default function MazuLotApp() {
                             {t.rectification.quizSubheading}
                           </p>
 
-                          <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                             {rectificationQuestions.map((q) => (
                               <div
                                 key={q.id}
@@ -1323,7 +1335,7 @@ export default function MazuLotApp() {
                         </div>
                       )}
 
-                      {/* Display Converged Rectification Badge */}
+                      {/* Display Converged Rectification Badge (Guaranteed Integer Percentage) */}
                       {rectifiedResult && (
                         <div
                           style={{
@@ -1334,12 +1346,12 @@ export default function MazuLotApp() {
                             borderRadius: '12px',
                           }}
                         >
-                          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px', flexWrap: 'wrap', gap: '6px' }}>
                             <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '0.96rem' }}>
                               {t.rectification.verifiedBadge}
                             </span>
-                            <span style={{ fontSize: '0.84rem', color: 'var(--gold-light)', background: 'rgba(7, 11, 17, 0.6)', padding: '3px 8px', borderRadius: '4px' }}>
-                              Confidence: {rectifiedResult.confidenceScore}%
+                            <span style={{ fontSize: '0.84rem', color: 'var(--gold-light)', background: 'rgba(7, 11, 17, 0.6)', padding: '3px 8px', borderRadius: '4px', fontWeight: 600 }}>
+                              Confidence: {rectifiedResult.confidenceScore > 1 ? Math.round(rectifiedResult.confidenceScore) : Math.round(rectifiedResult.confidenceScore * 100)}%
                             </span>
                           </div>
                           <div style={{ fontSize: '1.2rem', color: 'var(--gold-light)', fontWeight: 700, margin: '6px 0' }}>
@@ -1360,7 +1372,7 @@ export default function MazuLotApp() {
                     style={{
                       maxWidth: '720px',
                       margin: '24px auto',
-                      padding: '22px 26px',
+                      padding: 'clamp(18px, 3.5vw, 26px)',
                       background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(13, 20, 31, 0.85) 100%)',
                       border: '1px solid var(--gold-primary)',
                       borderRadius: 'var(--radius-md)',
@@ -1397,8 +1409,8 @@ export default function MazuLotApp() {
                     </p>
                   </div>
 
-                  {/* ─── COMMERCIAL MONETIZATION PLANS ───────────────── */}
-                  <div style={{ maxWidth: '680px', margin: '0 auto 24px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', textAlign: 'left' }}>
+                  {/* ─── COMMERCIAL MONETIZATION PLANS (RESPONSIVE) ──── */}
+                  <div className="monetization-grid" style={{ maxWidth: '680px', margin: '0 auto 24px' }}>
                     {/* Plan A: Single Life Book */}
                     <div
                       onClick={() => setPurchasePlan('single')}
@@ -1473,7 +1485,7 @@ export default function MazuLotApp() {
                     onClick={handleUnlockReport}
                     disabled={isCheckingOut}
                     className="btn-primary"
-                    style={{ padding: '16px 44px', fontSize: '1.05rem' }}
+                    style={{ padding: '16px 44px', fontSize: '1.02rem', width: '100%', maxWidth: '420px' }}
                   >
                     {isCheckingOut
                       ? t.baziPaywall.unlockingBtn
@@ -1489,12 +1501,12 @@ export default function MazuLotApp() {
           {/* ════ SCREEN 7 & 8: PERSONALIZED UNLOCKED REPORT ════════ */}
           {currentStep === 'report' && unlockedReport && drawnLot && (
             <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-              <div className="glass-panel" style={{ padding: '44px' }}>
-                <div style={{ textAlign: 'center', marginBottom: '36px' }}>
+              <div className="glass-panel" style={{ padding: 'clamp(20px, 4vw, 44px)' }}>
+                <div style={{ textAlign: 'center', marginBottom: '32px' }}>
                   <div style={{ color: 'var(--gold-primary)', letterSpacing: '0.2em', fontSize: '0.88rem' }}>
                     {t.heirloomReport.reportHeader}
                   </div>
-                  <h2 className="font-serif gold-gradient-text" style={{ fontSize: '2.4rem', margin: '10px 0' }}>
+                  <h2 className="font-serif gold-gradient-text" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.4rem)', margin: '10px 0' }}>
                     {language === 'zh-TW'
                       ? `第 ${drawnLot.lot_number} 籤（${drawnLot.ganzhi.zh}）${t.heirloomReport.titleCross}`
                       : `LOT ${drawnLot.lot_number} (${drawnLot.ganzhi.zh}) × YOUR NATAL BA-ZI`}
@@ -1502,16 +1514,16 @@ export default function MazuLotApp() {
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.94rem' }}>
                     {t.heirloomReport.solarAdjustedLabel}: {new Date(unlockedReport.solarAdjustment.trueSolarTime).toLocaleDateString()} ·
                     Offset: {unlockedReport.solarAdjustment.offsetMinutes > 0 ? '+' : ''}
-                    {unlockedReport.solarAdjustment.offsetMinutes} mins
+                    {unlockedReport.solarAdjustment.offsetMinutes} mins · {selectedCity.nameZh || selectedCity.nameEn}
                   </p>
                 </div>
 
-                {/* Four Pillars Table */}
+                {/* Four Pillars Table (Responsive 4-col or 2x2) */}
                 <div style={{ marginBottom: '36px' }}>
                   <div style={{ color: 'var(--gold-light)', fontWeight: 600, marginBottom: '12px' }}>
                     {t.heirloomReport.fourPillarsTitle}
                   </div>
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '12px', textAlign: 'center' }}>
+                  <div className="four-pillars-grid">
                     <div style={{ background: 'rgba(7, 11, 17, 0.7)', padding: '16px', borderRadius: '10px', border: '1px solid var(--border-gold)' }}>
                       <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t.heirloomReport.yearPillar}</div>
                       <div style={{ fontSize: '1.4rem', color: 'var(--gold-light)', fontWeight: 700, margin: '6px 0' }}>
@@ -1553,44 +1565,44 @@ export default function MazuLotApp() {
 
                 {/* Interaction Analysis Sections */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: '24px', borderRadius: '12px' }}>
+                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: 'clamp(16px, 3vw, 24px)', borderRadius: '12px' }}>
                     <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '1.05rem', marginBottom: '6px' }}>
                       1. {language === 'zh-TW' ? unlockedReport.interaction.dayMasterAffinity.titleZh : unlockedReport.interaction.dayMasterAffinity.titleEn}
                     </div>
                     <div style={{ color: 'var(--gold-light)', fontSize: '0.92rem', marginBottom: '8px' }}>
                       {unlockedReport.interaction.dayMasterAffinity.dynamicEn}
                     </div>
-                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65 }}>
+                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65, fontSize: '0.92rem' }}>
                       {unlockedReport.interaction.dayMasterAffinity.descriptionEn}
                     </p>
                   </div>
 
-                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: '24px', borderRadius: '12px' }}>
+                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: 'clamp(16px, 3vw, 24px)', borderRadius: '12px' }}>
                     <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '1.05rem', marginBottom: '6px' }}>
                       2. {language === 'zh-TW' ? unlockedReport.interaction.pillarInteraction.titleZh : unlockedReport.interaction.pillarInteraction.titleEn}
                     </div>
                     <div style={{ color: 'var(--gold-light)', fontSize: '0.92rem', marginBottom: '8px' }}>
                       {unlockedReport.interaction.pillarInteraction.dynamicEn}
                     </div>
-                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65 }}>
+                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65, fontSize: '0.92rem' }}>
                       {unlockedReport.interaction.pillarInteraction.descriptionEn}
                     </p>
                   </div>
 
-                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: '24px', borderRadius: '12px' }}>
+                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: 'clamp(16px, 3vw, 24px)', borderRadius: '12px' }}>
                     <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '1.05rem', marginBottom: '6px' }}>
                       3. {unlockedReport.interaction.annualPillarResonance.titleEn}
                     </div>
                     <div style={{ color: 'var(--gold-light)', fontSize: '0.92rem', marginBottom: '8px' }}>
                       Window of Action: {unlockedReport.interaction.annualPillarResonance.windowEn}
                     </div>
-                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65 }}>
+                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65, fontSize: '0.92rem' }}>
                       {unlockedReport.interaction.annualPillarResonance.guidanceEn}
                     </p>
                   </div>
                 </div>
 
-                <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '36px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '36px', flexWrap: 'wrap' }}>
                   <button onClick={() => setCurrentStep('reading')} className="btn-outline">
                     ◄ {t.heirloomReport.backToReadingBtn}
                   </button>

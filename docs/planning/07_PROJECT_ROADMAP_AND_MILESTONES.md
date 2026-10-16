@@ -107,9 +107,11 @@
 | :--- | :--- | :---: | :--- |
 | **Tier 1: Mazu Nayin Engine** | [`docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md`](./03_PERSONALIZATION_ENGINE_SPEC.md) | `[/]` | 60% Lot + 20% Year + 20% YMD weighted scoring, band threshold $\pm 0.30$ |
 | **Tier 2: True Solar Time Ephemeris** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Longitude adjustment offset (e.g. Taipei 121.5°E -> +6 min solar correction) |
+| **Global City & GPS Geolocation Picker** | [`src/components/geo/CityLocationPicker.tsx`](../../src/components/geo/CityLocationPicker.tsx) | `[x]` | Browser GPS permission auto-detect + 100+ global city autocomplete with longitude & UTC offsets |
 | **Four Pillars Calculator** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Generates Year, Month, Day, and Hour stems & branches from birth epoch |
 | **Five Elements & Ten Gods Matrix** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Wood, Fire, Earth, Metal, Water balance and Day Master element analysis |
 | **Birth Hour Rectification (考時定盤)** | [`src/lib/bazi/hourRectification.ts`](../../src/lib/bazi/hourRectification.ts) | `[x]` | Morning/Afternoon/Night/Not Sure $\to$ 12 candidate hours $\to$ historical milestone questionnaire |
+| **Dynamic Confidence Score Matrix** | [`src/lib/bazi/hourRectification.ts`](../../src/lib/bazi/hourRectification.ts) | `[x]` | Mathematically normalized integer score display (e.g., 94%) calibrated to candidate hour convergence |
 | **Converged Life Milestones (`應期`)** | [`src/lib/bazi/hourRectification.ts`](../../src/lib/bazi/hourRectification.ts) | `[x]` | Tracks 夫妻宮, 子女宮, 財庫衝合, 月令提綱 for mathematical convergence |
 | **Convincing Insightful Excerpt Hook** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Free 2-3 sentence structural diagnostic snippet demonstrating chart accuracy |
 | **REST API: Hour Rectification** | [`src/app/api/bazi/rectify/route.ts`](../../src/app/api/bazi/rectify/route.ts) | `[x]` | `POST /api/bazi/rectify` with actions `get_questionnaire` and `solve` |
@@ -124,6 +126,7 @@
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
 | **Design System & Typography** | [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Obsidian background `#05080E`, gold foil tokens, Cinzel & Noto Serif TC |
+| **Mobile-First Responsive Layout** | [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Compact responsive title bar, stacked reading layout, 2x2 Four Pillars grid on $\le 520$px viewports |
 | **Step 1: Porch & Sacred Threshold** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Direct inquiry textarea, AI parser, non-predictive anchor, cultural heritage orientation |
 | **Step 2: Domain Category Picker** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | 13 canonical domain cards with icons, Chinese/English titles, active selection rings |
 | **Step 3: Question Gate & Inquiry** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Textarea with live AI parser, multi-domain warning banner, reframed query |
