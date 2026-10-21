@@ -102,9 +102,20 @@ export const SvgLotCard: React.FC<SvgLotCardProps> = ({
 
           {/* Subtle Radial Vignette for Center */}
           <radialGradient id="portalVignette" cx="50%" cy="50%" r="50%">
-            <stop offset="60%" stopColor="transparent" />
-            <stop offset="100%" stopColor="rgba(7, 11, 17, 0.85)" />
+            <stop offset="65%" stopColor="transparent" />
+            <stop offset="100%" stopColor={themeColors.bg} stopOpacity="0.9" />
           </radialGradient>
+
+          {/* Top & Bottom Edge Vignettes to Prevent Bleed */}
+          <linearGradient id="topEdgeFade" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor={themeColors.bg} stopOpacity="0.9" />
+            <stop offset="100%" stopColor="transparent" />
+          </linearGradient>
+
+          <linearGradient id="bottomEdgeFade" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="transparent" />
+            <stop offset="100%" stopColor={themeColors.bg} stopOpacity="0.95" />
+          </linearGradient>
 
           {/* Shimmer Light Gradient */}
           <linearGradient id="shimmerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -199,6 +210,20 @@ export const SvgLotCard: React.FC<SvgLotCardProps> = ({
             width="328"
             height="340"
             fill="url(#portalVignette)"
+          />
+          <rect
+            x="36"
+            y="142"
+            width="328"
+            height="28"
+            fill="url(#topEdgeFade)"
+          />
+          <rect
+            x="36"
+            y="452"
+            width="328"
+            height="30"
+            fill="url(#bottomEdgeFade)"
           />
         </g>
 

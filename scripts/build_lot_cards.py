@@ -157,8 +157,7 @@ def main():
         generate_all_seals(data["lots"])
 
     if args.all:
-        existing = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 17]
-        for num in existing:
+        for num in range(1, 61):
             refactor_card(num)
     elif args.refactor:
         for num in args.refactor:

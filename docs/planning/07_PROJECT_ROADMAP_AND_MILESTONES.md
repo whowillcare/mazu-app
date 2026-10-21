@@ -63,12 +63,11 @@
 | :--- | :--- | :---: | :--- |
 | **Design Aesthetic System** | [`docs/planning/09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md`](./09_VISUAL_DESIGN_SYSTEM_AND_THEMES.md) | `[x]` | Obsidian black `#070B11`, glowing gold foil line-art, cinnabar accents |
 | **Authentic Qin Seal Pre-Renderer** | [`assets/cards/seals/`](../../assets/cards/seals/) (`seal_01.png` - `seal_60.png`) | `[x]` | 100% pre-rendered authentic 2×2 Qin Small Seal stamps with zero AI hallucination |
-| **Style Drift Resolution via SVG** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Standardized `lot_01` layout: top number, Qin seal directly below number, Greek key borders, clipped art portal |
-| **Background Task Management** | Runtime System | `[x]` | All pending image generation tasks cancelled (`task-1288` killed). No automated batches running |
-| **Execution Priority Policy** | Planning Policy | `[x]` | Visual uniformity solved permanently via SVG hybrid card component |
-| **SVG Vector Hybrid Component** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Pure SVG vector frame, top number, 2×2 Qin seal, and localized text clipping raw central art |
-| **Lots 01–31 Canon Master Cards** | [`assets/cards/lot_01_card.jpg`](../../assets/cards/lot_01_card.jpg) – `lot_31_card.jpg` | `[x]` | 31 cards conforming to standard layout (number top, seal below number, clean border) |
-| **Lots 32–60 Cards Standardized** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Rendered uniformly across full deck without visual drift |
+| **Style Drift Resolution via SVG** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Standardized `lot_01` layout: top number, Qin seal directly below number, Greek key borders, clipped art portal with edge fade |
+| **Standalone Vector SVG Cards Generator** | [`scripts/generate_svg_cards.py`](../../scripts/generate_svg_cards.py) | `[x]` | Generates all 60 standalone `.svg` vector cards in `assets/cards/svg/` with embedded base64 seals & Greek key borders |
+| **60 Jiazi Full Deck Completion** | [`assets/cards/`](../../assets/cards/) (`lot_01_card.jpg` – `lot_60_card.jpg`) | `[x]` | 100% of 60 cards present on disk; final missing cards 58, 59, 60 generated in canonical style |
+| **Canon Master Cards (lot_01 Standard)** | Lots 01–41 & Lots 58–60 | `[x]` | 44 / 60 cards (73.3%) fully refactored and matching canonical standard |
+| **Pending Style Refactoring Queue** | [`scripts/auto_continue_generation.py`](../../scripts/auto_continue_generation.py) | `[/]` | Lots 42–57 queued for canonical refactoring; automated timer set for quota refresh at 2026-10-21T23:55:59Z |
 
 ---
 

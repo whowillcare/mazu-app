@@ -85,9 +85,9 @@ All remaining cards follow the canonical dataset extracted from [`data/canonical
 | **55** | 癸丑 | **癸丑五五** | 地山谦 | 木 | 郭巨埋兒得金 | Guo Ju Unearths Gold | Filial son digging earth, unearthing glowing vase of golden coins *(Completed)* |
 | **56** | 癸卯 | **癸卯五六** | 天泽履 | 金 | 范蠡歸湖 | Fan Li Sails into the Mist | Wise minister poling solitary boat across serene misty lake *(Completed)* |
 | **57** | 癸巳 | **癸巳五七** | 地风升 | 水 | 董永皇陵賣身 | Dong Yong and the Silk Maiden | Celestial weaving fairy descending on rainbow cloud to reward filial son *(Completed)* |
-| **58** | 癸未 | **癸未五八** | 山风蛊 | 木 | 袁達入關受挫 | Yuan Da Confronts the Pass | Armored warrior facing impenetrable mountain citadel walls |
-| **59** | 癸酉 | **癸酉五九** | 泽风大过 | 金 | 皇叔別徐庶 | Liu Bei Parts with Xu Shu | Lord and strategist bowing farewell on horseback beneath weeping willow |
-| **60** | 癸亥 | **癸亥六零** | 坤为地 | 水 | 薛剛踢死皇子 | Xue Gang at Lantern Festival | Rousing night festival with dragon dances, lanterns, and sudden twists |
+| **58** | 癸未 | **癸未五八** | 山风蛊 | 木 | 袁達入關受挫 | Yuan Da Confronts the Pass | Armored warrior facing impenetrable mountain citadel walls *(Completed)* |
+| **59** | 癸酉 | **癸酉五九** | 泽风大过 | 金 | 皇叔別徐庶 | Liu Bei Parts with Xu Shu | Lord and strategist bowing farewell on horseback beneath weeping willow *(Completed)* |
+| **60** | 癸亥 | **癸亥六零** | 坤为地 | 水 | 薛剛踢死皇子 | Xue Gang at Lantern Festival | Rousing night festival with dragon dances, lanterns, and sudden twists *(Completed)* |
 
 ---
 
