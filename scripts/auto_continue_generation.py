@@ -155,12 +155,13 @@ def generate_prompt_for_lot(spec):
 def main():
     print(f"=== Canonical Refactoring Queue Status ===")
     print(f"Total Canonical Lots in Jiazi Deck: 60")
-    print(f"Completed Master Conforming Cards (1..41, 58..60): 44 cards (73.3%)")
-    print(f"Remaining Cards Queued for Canonical Refactoring (42..57): {len(REMAINING_LOTS_SPEC)} cards (26.7%)")
+    print(f"Completed Master Conforming Cards (1..54, 58..60): 57 cards (95.0%)")
+    pending = [s for s in REMAINING_LOTS_SPEC if s["lot"] in [55, 56, 57]]
+    print(f"Remaining Cards Queued for Canonical Refactoring (55..57): {len(pending)} cards (5.0%)")
     print(f"Standalone Vector SVG Cards Generated: 60 / 60 (100% completed in assets/cards/svg/)")
-    print(f"Quota Reset Timestamp: 2026-10-21T23:55:59Z (~4h 43m)")
+    print(f"Quota Reset Timestamp: 2026-10-22T04:55:59Z (~4h 50m)")
     print()
-    for s in REMAINING_LOTS_SPEC:
+    for s in pending:
         print(f"Lot {s['lot']:02d} ({s['ganzhi']}): {s['title_zh']} - {s['title_en']} - {s['subtitle_en']}")
 
 if __name__ == "__main__":
