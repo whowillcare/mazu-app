@@ -17,9 +17,11 @@ export interface HexagramInfo {
 }
 
 export interface ElementInfo {
-  element: string;
-  favorable_season: string;
-  favorable_direction: string;
+  element?: string;
+  favorable_season?: string;
+  favorable_direction?: string;
+  zh?: string;
+  en?: string;
 }
 
 export interface VerseLine {

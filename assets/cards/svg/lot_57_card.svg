@@ -77,9 +77,9 @@
 
   <!-- 6. Bottom Typography Footer (Classical Chinese & English Serif) -->
   <text x="200" y="518" text-anchor="middle" fill="#F5E6BE" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="19" font-weight="600" letter-spacing="4">
-    董永皇陵賣身 · 癸巳
+    白娘子遇許漢文 · 癸巳
   </text>
-  <text x="200" y="545" text-anchor="middle" fill="#D4AF37" font-family="Cinzel, 'Times New Roman', serif" font-size="11" font-weight="500" letter-spacing="2">
-    DONG YONG AND THE SILK MAIDEN
+  <text x="200" y="545" text-anchor="middle" fill="#D4AF37" font-family="Cinzel, 'Times New Roman', serif" font-size="9.5" font-weight="500" letter-spacing="1.5" textLength="320" lengthAdjust="spacingAndGlyphs">
+    THE WHITE SNAKE MEETS XU HANWEN
   </text>
 </svg>

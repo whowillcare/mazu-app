@@ -365,6 +365,30 @@ body {
   display: inline;
 }
 
+.brand-title-compact-bilingual {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.15;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.brand-title-compact-en {
+  font-family: var(--font-serif);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  color: var(--gold-primary);
+}
+
+.brand-title-compact-zh {
+  font-family: var(--font-song), serif;
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--gold-light);
+}
+
 /* Mobile Breakpoints */
 @media (max-width: 860px) {
   .reading-layout {
@@ -403,7 +427,8 @@ body {
     display: none;
   }
   .brand-title-compact {
-    display: inline;
+    display: inline-flex;
+    align-items: center;
   }
 
   .btn-outline.header-btn {

@@ -79,7 +79,7 @@
   <text x="200" y="518" text-anchor="middle" fill="#F5E6BE" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="19" font-weight="600" letter-spacing="4">
     盧龍王次子招親 · 甲午
   </text>
-  <text x="200" y="545" text-anchor="middle" fill="#D4AF37" font-family="Cinzel, 'Times New Roman', serif" font-size="11" font-weight="500" letter-spacing="2">
-    DRAGON KING OF LU
+  <text x="200" y="545" text-anchor="middle" fill="#D4AF37" font-family="Cinzel, 'Times New Roman', serif" font-size="8" font-weight="500" letter-spacing="1" textLength="320" lengthAdjust="spacingAndGlyphs">
+    THE DRAGON KING OF LU SEEKS A MATCH FOR HIS SON
   </text>
 </svg>

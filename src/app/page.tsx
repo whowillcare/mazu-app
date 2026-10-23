@@ -306,7 +306,14 @@ export default function MazuLotApp() {
             <span className="brand-seal">{t.common.brandSeal}</span>
             <span className="brand-title-full">{t.common.brandName}</span>
             <span className="brand-title-compact">
-              {language === 'zh-TW' ? '媽祖靈籤' : 'MAZU · 靈籤'}
+              {language === 'zh-TW' ? (
+                '媽祖靈籤'
+              ) : (
+                <span className="brand-title-compact-bilingual">
+                  <span className="brand-title-compact-en">MAZU</span>
+                  <span className="brand-title-compact-zh">靈籤</span>
+                </span>
+              )}
             </span>
           </a>
 
@@ -874,18 +881,26 @@ export default function MazuLotApp() {
                       className="font-serif gold-gradient-text"
                       style={{ fontSize: 'clamp(1.7rem, 3.5vw, 2.1rem)', margin: '8px 0 16px', lineHeight: 1.25 }}
                     >
-                      {language === 'zh-TW' ? drawnLot.title.zh : drawnLot.title.en}
+                      {displayMode === 'bilingual' ? (
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                          <span>{drawnLot.title.zh}</span>
+                          <span style={{ fontSize: '0.62em', color: 'var(--text-secondary)', fontWeight: 500, letterSpacing: '0.04em' }}>
+                            {drawnLot.title.en}
+                          </span>
+                        </div>
+                      ) : language === 'zh-TW' ? (
+                        drawnLot.title.zh
+                      ) : (
+                        drawnLot.title.en
+                      )}
                     </h2>
 
                     <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', marginBottom: '20px', fontSize: '0.88rem' }}>
                       <span style={{ color: 'var(--gold-light)' }}>
-                        {t.readingStep.archetypeLabel}: <strong>{language === 'zh-TW' ? drawnLot.title.zh : drawnLot.title.zh}</strong>
+                        {t.readingStep.archetypeLabel}: <strong>{language === 'zh-TW' ? drawnLot.title.zh : `${drawnLot.title.zh} · ${drawnLot.title.en}`}</strong>
                       </span>
                       <span style={{ color: 'var(--text-secondary)' }}>
-                        {t.readingStep.elementLabel}: <strong>{drawnLot.element_and_direction.element}</strong>
-                      </span>
-                      <span style={{ color: 'var(--text-secondary)' }}>
-                        {t.readingStep.favorableSeasonLabel}: <strong>{drawnLot.element_and_direction.favorable_season}</strong>
+                        {t.readingStep.elementLabel}: <strong>{language === 'zh-TW' ? drawnLot.element_and_direction?.zh || drawnLot.element_and_direction?.element : drawnLot.element_and_direction?.en || drawnLot.element_and_direction?.element}</strong>
                       </span>
                     </div>
 

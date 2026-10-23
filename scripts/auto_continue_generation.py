@@ -95,10 +95,10 @@ REMAINING_LOTS_SPEC = [
     {
         "lot": 52,
         "ganzhi": "壬午",
-        "title_zh": "宋江走安東",
-        "title_en": "SONG JIANG",
-        "subtitle_en": "FLEES TO ANDONG",
-        "motif": "Chivalrous leader Song Jiang poling a solitary wooden boat along a misty reed-lined river at dusk, under a solitary crescent moon and ancient willow trees, amidst sacred geometric rings, moon phases, and celestial star constellations."
+        "title_zh": "薛仁貴回家遇丁山",
+        "title_en": "XUE RENGUI",
+        "subtitle_en": "RETURNS HOME AND MEETS DING SHAN",
+        "motif": "General Xue Rengui returning in glory on horseback, meeting his young archer son Xue Dingshan at the misty Fen River bend beneath ancient willow trees and a glowing crescent moon, amidst sacred geometric rings, moon phases, and celestial star constellations."
     },
     {
         "lot": 53,

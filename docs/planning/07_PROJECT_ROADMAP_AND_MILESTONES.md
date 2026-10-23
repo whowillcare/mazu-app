@@ -68,6 +68,7 @@
 | **60 Jiazi Full Deck Completion** | [`assets/cards/`](../../assets/cards/) (`lot_01_card.jpg` – `lot_60_card.jpg`) | `[x]` | 100% of 60 cards present on disk; final missing cards 58, 59, 60 generated in canonical style |
 | **Canon Master Cards (lot_01 Standard)** | Lots 01–60 Full Deck | `[x]` | 60 / 60 cards (100.0%) fully refactored and strictly conforming to canonical standard |
 | **Style Refactoring & Canon Standardization** | [`scripts/auto_continue_generation.py`](../../scripts/auto_continue_generation.py) | `[x]` | 100% complete; all 60 cards standardized with zero style drift and authentic Qin Small Seal stamps |
+| **Full Canonical Alignment & Mobile Header Wrap** | [`src/app/page.tsx`](../../src/app/page.tsx), [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Re-aligned Lot 52 (*薛仁貴回家遇丁山*), synchronized 60-lot catalog, dynamic SVG text scaling, and mobile brand title wrap at dot delimiter |
 
 ---
 

@@ -247,9 +247,9 @@ export const SvgLotCard: React.FC<SvgLotCardProps> = ({
           textAnchor="middle"
           fill={themeColors.textMain}
           fontFamily="'Noto Serif SC', 'Songti SC', serif"
-          fontSize="19"
+          fontSize={titleZh.length > 10 ? 15 : titleZh.length > 7 ? 17 : 19}
           fontWeight="600"
-          letterSpacing="4"
+          letterSpacing={titleZh.length > 10 ? 2 : 4}
         >
           {language === 'en' ? `${titleZh} · ${ganzhiZh}` : titleZh}
         </text>
@@ -261,9 +261,11 @@ export const SvgLotCard: React.FC<SvgLotCardProps> = ({
           textAnchor="middle"
           fill={themeColors.goldPrimary}
           fontFamily="Cinzel, 'Times New Roman', serif"
-          fontSize="11"
+          fontSize={titleEn.length > 36 ? 8 : titleEn.length > 26 ? 9.5 : 11}
           fontWeight="500"
-          letterSpacing="2"
+          letterSpacing={titleEn.length > 36 ? 1 : titleEn.length > 26 ? 1.5 : 2}
+          textLength={titleEn.length > 28 ? 320 : undefined}
+          lengthAdjust={titleEn.length > 28 ? 'spacingAndGlyphs' : undefined}
         >
           {titleEn.toUpperCase()}
         </text>

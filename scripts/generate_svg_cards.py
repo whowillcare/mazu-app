@@ -59,24 +59,20 @@ THEME_PALETTES = {
     },
 }
 
-def load_catalog_data():
-    with open(CATALOG_PATH, "r", encoding="utf-8") as f:
-        content = f.read()
+def load_canonical_data():
+    if not os.path.exists(CANONICAL_JSON_PATH):
+        raise FileNotFoundError(f"Canonical data file not found at {CANONICAL_JSON_PATH}")
+    with open(CANONICAL_JSON_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)["lots"]
 
-    rows = re.findall(
-        r'\|\s*\*\*(\d+)\*\*\s*\|\s*([^|]+)\|\s*\*\*([^|]+)\*\*\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|',
-        content
-    )
     catalog = {}
-    for r in rows:
-        num = int(r[0].strip())
+    for lot in data:
+        num = lot["lot_number"]
         catalog[num] = {
-            "ganzhi": r[1].strip(),
-            "seal_text": r[2].strip(),
-            "hexagram": r[3].strip(),
-            "element": r[4].strip(),
-            "title_zh": r[5].strip(),
-            "title_en": r[6].strip(),
+            "ganzhi": lot["ganzhi"]["zh"],
+            "hexagram": lot["hexagram"]["zh"],
+            "title_zh": lot["title"]["zh"],
+            "title_en": lot["title"]["en"],
         }
     return catalog
 
@@ -109,6 +105,13 @@ def build_svg_card(lot_num, meta, theme="obsidian", embed_artwork=False):
     title_zh = meta["title_zh"]
     title_en = meta["title_en"].upper()
     ganzhi = meta["ganzhi"]
+
+    zh_font_size = 15 if len(title_zh) > 10 else (17 if len(title_zh) > 7 else 19)
+    zh_letter_spacing = 2 if len(title_zh) > 10 else 4
+
+    en_font_size = 8 if len(title_en) > 36 else (9.5 if len(title_en) > 26 else 11)
+    en_letter_spacing = 1 if len(title_en) > 36 else (1.5 if len(title_en) > 26 else 2)
+    en_adjust = ' textLength="320" lengthAdjust="spacingAndGlyphs"' if len(title_en) > 28 else ''
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="100%" height="100%">
   <defs>
@@ -188,10 +191,10 @@ def build_svg_card(lot_num, meta, theme="obsidian", embed_artwork=False):
   <rect x="36" y="142" width="328" height="340" rx="6" fill="none" stroke="{t['goldMuted']}" stroke-width="1" />
 
   <!-- 6. Bottom Typography Footer (Classical Chinese & English Serif) -->
-  <text x="200" y="518" text-anchor="middle" fill="{t['textMain']}" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="19" font-weight="600" letter-spacing="4">
+  <text x="200" y="518" text-anchor="middle" fill="{t['textMain']}" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="{zh_font_size}" font-weight="600" letter-spacing="{zh_letter_spacing}">
     {title_zh} · {ganzhi}
   </text>
-  <text x="200" y="545" text-anchor="middle" fill="{t['goldPrimary']}" font-family="Cinzel, 'Times New Roman', serif" font-size="11" font-weight="500" letter-spacing="2">
+  <text x="200" y="545" text-anchor="middle" fill="{t['goldPrimary']}" font-family="Cinzel, 'Times New Roman', serif" font-size="{en_font_size}" font-weight="500" letter-spacing="{en_letter_spacing}"{en_adjust}>
     {title_en}
   </text>
 </svg>'''
@@ -206,7 +209,7 @@ def main():
     args = parser.parse_args()
 
     os.makedirs(SVG_OUT_DIR, exist_ok=True)
-    catalog = load_catalog_data()
+    catalog = load_canonical_data()
 
     if args.lot:
         targets = [args.lot]

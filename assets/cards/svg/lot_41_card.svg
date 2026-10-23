@@ -77,9 +77,9 @@
 
   <!-- 6. Bottom Typography Footer (Classical Chinese & English Serif) -->
   <text x="200" y="518" text-anchor="middle" fill="#F5E6BE" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="19" font-weight="600" letter-spacing="4">
-    王孝先為民祈雨 · 庚申
+    山伯探英台 · 庚申
   </text>
   <text x="200" y="545" text-anchor="middle" fill="#D4AF37" font-family="Cinzel, 'Times New Roman', serif" font-size="11" font-weight="500" letter-spacing="2">
-    WANG XIAOXIAN PRAYS FOR RAIN
+    SHANBO VISITS YINGTAI
   </text>
 </svg>

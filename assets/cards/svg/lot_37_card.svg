@@ -76,10 +76,10 @@
   <rect x="36" y="142" width="328" height="340" rx="6" fill="none" stroke="rgba(212, 175, 55, 0.45)" stroke-width="1" />
 
   <!-- 6. Bottom Typography Footer (Classical Chinese & English Serif) -->
-  <text x="200" y="518" text-anchor="middle" fill="#F5E6BE" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="19" font-weight="600" letter-spacing="4">
-    正德君看大龜 · 庚子
+  <text x="200" y="518" text-anchor="middle" fill="#F5E6BE" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="17" font-weight="600" letter-spacing="4">
+    正德君呼綠牡丹開 · 庚子
   </text>
-  <text x="200" y="545" text-anchor="middle" fill="#D4AF37" font-family="Cinzel, 'Times New Roman', serif" font-size="11" font-weight="500" letter-spacing="2">
-    ZHENGDE EMPEROR AND SACRED TURTLE
+  <text x="200" y="545" text-anchor="middle" fill="#D4AF37" font-family="Cinzel, 'Times New Roman', serif" font-size="8" font-weight="500" letter-spacing="1" textLength="320" lengthAdjust="spacingAndGlyphs">
+    EMPEROR ZHENGDE CALLS THE GREEN PEONY TO BLOOM
   </text>
 </svg>
