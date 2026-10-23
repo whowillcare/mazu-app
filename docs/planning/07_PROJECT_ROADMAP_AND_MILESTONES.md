@@ -69,6 +69,7 @@
 | **Canon Master Cards (lot_01 Standard)** | Lots 01–60 Full Deck | `[x]` | 60 / 60 cards (100.0%) fully refactored and strictly conforming to canonical standard |
 | **Style Refactoring & Canon Standardization** | [`scripts/auto_continue_generation.py`](../../scripts/auto_continue_generation.py) | `[x]` | 100% complete; all 60 cards standardized with zero style drift and authentic Qin Small Seal stamps |
 | **Full Canonical Alignment & Mobile Header Wrap** | [`src/app/page.tsx`](../../src/app/page.tsx), [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx) | `[x]` | Re-aligned Lot 52 (*薛仁貴回家遇丁山*), synchronized 60-lot catalog, dynamic SVG text scaling, and mobile brand title wrap at dot delimiter |
+| **Mobile Seal Stamp & Responsive SVG Alignment** | [`src/components/cards/SvgLotCard.tsx`](../../src/components/cards/SvgLotCard.tsx), [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Replaced unstyled `<foreignObject>` with centered native SVG `<image>`, fluid 2:3 aspect-ratio container, and `.brand-seal` non-squish alignment |
 
 ---
 
@@ -198,7 +199,7 @@
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
 | **Multi-Stage Production Docker** | [`Dockerfile`](../../Dockerfile) | `[x]` | Upgraded to `node:22-alpine` across `deps`, `builder`, `runner` stages |
-| **Standalone Memory Footprint** | [`Dockerfile`](../../Dockerfile) | `[x]` | Next.js standalone output `< 120MB` image size, `~45MB` RSS |
+| **Standalone Memory Footprint** | [`Dockerfile`](../../Dockerfile), [`next.config.ts`](../../next.config.ts) | `[x]` | Next.js standalone output `< 120MB` image size, `~45MB` RSS (conditional on `DOCKER_BUILD=true` for local dev compatibility) |
 | **Dumb-Init Process Supervisor** | [`Dockerfile`](../../Dockerfile) | `[x]` | Handles PID 1 signal forwarding and prevents zombie processes |
 | **Non-Root User Hardening** | [`Dockerfile`](../../Dockerfile) | `[x]` | Executes strictly under unprivileged `mazuuser:nodejs` (UID 1001) |
 | **Docker Compose Orchestration** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Dual networks (`internal` + `outside`), upstream routing to port 3000 |

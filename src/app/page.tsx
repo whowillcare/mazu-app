@@ -848,7 +848,7 @@ export default function MazuLotApp() {
                 <div className="reading-layout">
                   {/* Left Column: SvgLotCard Component (Canonical lot_01 Standard Layout) */}
                   <div style={{ textAlign: 'center' }}>
-                    <div style={{ margin: '0 auto', maxWidth: '300px' }}>
+                    <div style={{ margin: '0 auto', width: '100%', maxWidth: '320px', display: 'flex', justifyContent: 'center' }}>
                       <SvgLotCard
                         lotNumber={drawnLot.lot_number}
                         ganzhiZh={drawnLot.ganzhi.zh}

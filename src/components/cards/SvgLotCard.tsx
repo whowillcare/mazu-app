@@ -67,14 +67,15 @@ export const SvgLotCard: React.FC<SvgLotCardProps> = ({
     <div
       className={`relative inline-block select-none overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 group ${className}`}
       style={{
-        width: '320px',
-        height: '480px',
+        width: '100%',
+        maxWidth: '320px',
+        aspectRatio: '2 / 3',
         background: themeColors.bg,
       }}
     >
       <svg
         viewBox="0 0 400 600"
-        className="w-full h-full"
+        style={{ width: '100%', height: '100%', display: 'block' }}
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
@@ -176,22 +177,15 @@ export const SvgLotCard: React.FC<SvgLotCardProps> = ({
           {lotNumber}
         </text>
 
-        {/* 4. Top Seal Stamp (Centered directly below top serial number) */}
-        <foreignObject x="175" y="72" width="50" height="50">
-          <div className="w-full h-full flex items-center justify-center">
-            {/* Fallback authentic 2x2 seal stamp */}
-            <img
-              src={sealSrc}
-              alt={`${ganzhiZh} 印`}
-              className="w-10 h-10 object-contain drop-shadow-md rounded-[4px]"
-              onError={(e) => {
-                // If specific seal not found, render text badge
-                const target = e.currentTarget;
-                target.style.display = 'none';
-              }}
-            />
-          </div>
-        </foreignObject>
+        {/* 4. Top Seal Stamp (Strictly centered 40x40 directly below top serial number) */}
+        <image
+          href={sealSrc}
+          x="180"
+          y="70"
+          width="40"
+          height="40"
+          preserveAspectRatio="xMidYMid meet"
+        />
 
         {/* 5. Center Sacred Geometry Artwork (Clipped into clean inner portal) */}
         <g clipPath="url(#artworkPortal)">
