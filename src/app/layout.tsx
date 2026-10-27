@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './admin.css';
 
 export const metadata: Metadata = {
   title: 'Mazu Sixty Jiazi Lots · 媽祖六十甲子靈籤 | Cultural Oracle & Reflective Guidance',

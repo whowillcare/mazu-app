@@ -237,6 +237,7 @@
 | **Canon Lots Content & Logic Studio** | [`src/app/api/admin/lots/route.ts`](../../src/app/api/admin/lots/route.ts), Admin UI | `[x]` | View/edit all 60 lots: quatrain verse, translation, allusions, 13 domain guides |
 | **Life-Book & Transit Logic Studio** | [`src/app/api/admin/astrology/route.ts`](../../src/app/api/admin/astrology/route.ts), Admin UI | `[x]` | View/edit 9 canonical chapter rules, 24 solar terms matrix, milestone criteria |
 | **Config Manager Embedding** | [`src/components/admin/AdminPortal.tsx`](../../src/components/admin/AdminPortal.tsx) | `[x]` | Complete AI & Stripe configuration manager accessible inside protected admin area |
+| **Admin Studio Visual Architecture & SSR** | [`src/app/admin.css`](../../src/app/admin.css), [`src/components/admin/AdminPortal.tsx`](../../src/components/admin/AdminPortal.tsx) | `[x]` | Vanilla CSS design system with stacking context elevation, zero-flicker SSR pre-rendering, and hydration resilience |
 
 ---
 

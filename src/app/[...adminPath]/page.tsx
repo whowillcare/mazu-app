@@ -41,6 +41,16 @@ export default async function DynamicAdminPage({ params }: PageProps) {
     }
   }
 
+  let initialLots: any[] = [];
+  if (initialAuthenticated) {
+    try {
+      const { getCanonicalLots } = await import('@/lib/lots/lotsRepository');
+      initialLots = getCanonicalLots(true);
+    } catch (e) {
+      console.error('Failed to load initial lots for SSR:', e);
+    }
+  }
+
   const hasAdmins = hasAnyAdminUser();
 
   return (
@@ -49,6 +59,7 @@ export default async function DynamicAdminPage({ params }: PageProps) {
       initialAuthenticated={initialAuthenticated}
       initialUsername={initialUsername}
       initialHasAdmins={hasAdmins}
+      initialLots={initialLots}
     />
   );
 }

@@ -209,14 +209,16 @@ const DEFAULT_SOLAR_TERMS: SolarTermRule[] = [
 
 class AstrologyRulesService {
   private rules: AstrologyRules | null = null;
-  private filePath = path.join(process.cwd(), 'data', 'astrology_rules.json');
+  private filePath = typeof process !== 'undefined' && typeof process.cwd === 'function' 
+    ? path.join(process.cwd(), 'data', 'astrology_rules.json') 
+    : '';
 
   public getRules(): AstrologyRules {
     if (this.rules) return this.rules;
 
     // Check file
     try {
-      if (fs.existsSync(this.filePath)) {
+      if (this.filePath && typeof fs !== 'undefined' && typeof fs.existsSync === 'function' && fs.existsSync(this.filePath)) {
         const raw = fs.readFileSync(this.filePath, 'utf-8');
         this.rules = JSON.parse(raw);
         return this.rules!;

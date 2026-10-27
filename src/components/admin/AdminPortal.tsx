@@ -5,21 +5,23 @@ import {
   Shield, Key, Lock, LogOut, CheckCircle, AlertCircle, RefreshCw, 
   Search, Edit3, BookOpen, Compass, Cpu, Settings, Users, Save, Eye, EyeOff, Zap, ExternalLink
 } from 'lucide-react';
-import { CanonicalLot, VerseLine, StoryInfo } from '@/lib/types/lots';
-import { ChapterRule, SolarTermRule, AstrologyRules } from '@/lib/bazi/astrologyRules';
+import type { CanonicalLot, VerseLine, StoryInfo } from '@/lib/types/lots';
+import type { ChapterRule, SolarTermRule, AstrologyRules } from '@/lib/bazi/astrologyRules';
 
 interface AdminPortalProps {
   currentDirective: string;
   initialAuthenticated?: boolean;
   initialUsername?: string | null;
   initialHasAdmins?: boolean;
+  initialLots?: CanonicalLot[];
 }
 
 export function AdminPortal({ 
-  currentDirective,
+  currentDirective = '/mod',
   initialAuthenticated = false,
   initialUsername = null,
   initialHasAdmins = true,
+  initialLots = [],
 }: AdminPortalProps) {
   // Auth state
   const [checkingAuth, setCheckingAuth] = useState(false);
@@ -37,7 +39,7 @@ export function AdminPortal({
   const [activeTab, setActiveTab] = useState<'lots' | 'astrology' | 'config' | 'admins'>('lots');
 
   // Lots state
-  const [lots, setLots] = useState<CanonicalLot[]>([]);
+  const [lots, setLots] = useState<CanonicalLot[]>(initialLots);
   const [loadingLots, setLoadingLots] = useState(false);
   const [selectedLot, setSelectedLot] = useState<CanonicalLot | null>(null);
   const [lotSearch, setLotSearch] = useState('');
@@ -179,7 +181,9 @@ export function AdminPortal({
 
   useEffect(() => {
     if (authenticated) {
-      fetchLots();
+      if (lots.length === 0) {
+        fetchLots();
+      }
       fetchRules();
       fetchConfigs();
       fetchAdminUsers();
@@ -370,7 +374,7 @@ export function AdminPortal({
   // ─── LOGIN SCREEN ──────────────────────────────────────────────────────────
   if (!authenticated) {
     return (
-      <div className="min-h-screen bg-[#05080e] flex items-center justify-center p-4">
+      <div className="min-h-screen relative z-10 bg-[#05080e] flex items-center justify-center p-4">
         <div className="w-full max-w-md bg-[#070b11] border border-[#d4af37]/30 rounded-2xl p-8 shadow-[0_0_60px_rgba(212,175,55,0.12)]">
           <div className="text-center mb-6">
             <div className="inline-flex p-3 rounded-full bg-[#d4af37]/10 text-[#d4af37] border border-[#d4af37]/30 mb-3">
@@ -394,7 +398,7 @@ export function AdminPortal({
                 Please create your first admin using the local CLI tool:
               </p>
               <code className="block bg-black/60 p-1.5 rounded font-mono text-[10px] text-[#e6c687]">
-                npx tsx scripts/manage_admin.ts add admin &lt;password&gt;
+                {'npx tsx scripts/manage_admin.ts add admin <password>'}
               </code>
             </div>
           )}
@@ -455,8 +459,8 @@ export function AdminPortal({
           </form>
 
           <div className="mt-6 pt-4 border-t border-white/10 text-center">
-            <span className="text-[10px] text-white/30 font-mono">
-              Directive: {currentDirective} · Mazu Sixtieth Jiazi
+            <span className="text-[10px] text-white/30 font-mono" suppressHydrationWarning>
+              {`Directive: ${currentDirective || '/mod'} · Mazu Sixtieth Jiazi`}
             </span>
           </div>
         </div>
@@ -483,7 +487,7 @@ export function AdminPortal({
   });
 
   return (
-    <div className="min-h-screen bg-[#05080e] text-white flex flex-col font-sans">
+    <div className="min-h-screen relative z-10 bg-[#05080e] text-white flex flex-col font-sans">
       {/* Top Navbar */}
       <header className="border-b border-[#d4af37]/25 bg-[#070b11] px-6 py-3.5 flex items-center justify-between sticky top-0 z-30">
         <div className="flex items-center gap-3">
@@ -500,7 +504,10 @@ export function AdminPortal({
               </span>
             </div>
             <p className="text-[11px] text-white/40">
-              Logged in as <strong className="text-white/80">{username}</strong> · Path Directive: <code className="text-[#e6c687] font-mono">{adminUrlPath}</code>
+              {`Logged in as `}
+              <strong className="text-white/80">{username || 'admin'}</strong>
+              {` · Path Directive: `}
+              <code className="text-[#e6c687] font-mono">{adminUrlPath || currentDirective || '/mod'}</code>
             </p>
           </div>
         </div>
@@ -588,7 +595,7 @@ export function AdminPortal({
                   Canonical Sixty Jiazi Lots Inventory (六十甲子靈籤寶典)
                 </h2>
                 <p className="text-xs text-white/50">
-                  Total canon lots loaded: {lots.length} / 60 · Click any card to edit verse, English translation, story, or domain guidance.
+                  {`Total canon lots loaded: ${lots.length} / 60 · Click any card to edit verse, English translation, story, or domain guidance.`}
                 </p>
               </div>
 
@@ -1002,7 +1009,9 @@ export function AdminPortal({
                   <div key={u.id} className="p-3 rounded-lg bg-black/40 border border-white/5 flex items-center justify-between text-xs">
                     <div>
                       <span className="font-semibold text-white">{u.username}</span>
-                      <span className="text-[10px] text-white/40 block">Created: {new Date(u.createdAt).toLocaleString()}</span>
+                      <span className="text-[10px] text-white/40 block" suppressHydrationWarning>
+                        {`Created: ${u.createdAt ? new Date(u.createdAt).toISOString().split('T')[0] : 'N/A'}`}
+                      </span>
                     </div>
                     <span className="px-2 py-0.5 text-[10px] rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/30">
                       Super Admin
