@@ -60,6 +60,15 @@ export function getDatabase(): Database.Database {
       ip_address TEXT,
       amount_cents INTEGER NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS app_configurations (
+      key TEXT PRIMARY KEY,
+      value TEXT NOT NULL,
+      category TEXT NOT NULL DEFAULT 'general',
+      is_secret INTEGER NOT NULL DEFAULT 0,
+      description TEXT,
+      updated_at INTEGER NOT NULL
+    );
   `);
 
   return dbInstance;

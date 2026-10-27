@@ -78,6 +78,8 @@ const DOMAIN_KEYWORD_MAP: Record<CanonicalDomainKey, { en: string[]; zh: string[
 };
 
 
+import { getConfig } from '@/lib/config/configManager';
+
 export async function analyzeInquiry(
   question: string,
   userSelectedDomain?: DomainCategory
@@ -86,6 +88,7 @@ export async function analyzeInquiry(
 
   // Try LLM parsing if an API key is available
   const apiKey =
+    getConfig('AI_API_KEY') ||
     process.env.AI_API_KEY ||
     process.env.FREE_LLM_API_KEY ||
     process.env.OPENAI_API_KEY ||
@@ -234,8 +237,17 @@ async function queryLlmClassifier(
   apiKey: string,
   userSelectedDomain?: DomainCategory
 ): Promise<QuestionAnalysisResult | null> {
-  const baseUrl = (process.env.AI_API_ENDPOINT || process.env.AI_BASE_URL || 'https://api.openai.com/v1').replace(/\/+$/, '');
-  const model = process.env.AI_MODEL_NAME || process.env.AI_MODEL || 'deepseek-chat';
+  const baseUrl = (
+    getConfig('AI_API_ENDPOINT') ||
+    process.env.AI_API_ENDPOINT ||
+    process.env.AI_BASE_URL ||
+    'https://api.openai.com/v1'
+  ).replace(/\/+$/, '');
+  const model =
+    getConfig('AI_MODEL_NAME') ||
+    process.env.AI_MODEL_NAME ||
+    process.env.AI_MODEL ||
+    'deepseek-chat';
 
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 6000); // 6s timeout

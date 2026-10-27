@@ -83,8 +83,10 @@
 | **5-Second Domain Override Buffer** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Interactive 5s countdown modal post-draw-click allowing user to review/override domain with auto-draw |
 | **Agency-Centered Reframing** | [`src/lib/questionGate/questionGate.ts`](../../src/lib/questionGate/questionGate.ts) | `[x]` | Detects fatalistic inquiries ("Will I...") and transforms into actionable inquiries |
 | **Cost-Efficient LLM AI Parser** | [`src/lib/ai/questionParser.ts`](../../src/lib/ai/questionParser.ts) | `[x]` | Pluggable token routing (FreeLLMAPI localhost:3001, DeepSeek, compact OpenAI-compatible models) |
+| **Dynamic Configuration Manager** | [`src/lib/config/configManager.ts`](../../src/lib/config/configManager.ts), [`src/components/config/ConfigManagerModal.tsx`](../../src/components/config/ConfigManagerModal.tsx) | `[x]` | Live UI & server config manager: AI tokens, endpoints, models, Stripe keys, SQLite persistence & SSE live hot-reload |
 | **Landing Porch Direct Inquiry** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Direct inquiry textarea on landing page with instant semantic parsing |
 | **REST API: Question Analysis** | [`src/app/api/analyze-question/route.ts`](../../src/app/api/analyze-question/route.ts) | `[x]` | `POST /api/analyze-question` returning detected domains, warnings, reframing |
+| **REST API: Configuration Management** | [`src/app/api/config/route.ts`](../../src/app/api/config/route.ts), [`src/app/api/config/live/route.ts`](../../src/app/api/config/live/route.ts) | `[x]` | `GET/POST /api/config`, `POST /api/config/test` connectivity check, `GET /api/config/live` SSE |
 
 ---
 
@@ -198,7 +200,7 @@
 
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **Multi-Stage Production Docker** | [`Dockerfile`](../../Dockerfile) | `[x]` | Upgraded to `node:22-alpine` across `deps`, `builder`, `runner` stages |
+| **Multi-Stage Production Docker** | [`Dockerfile`](../../Dockerfile) | `[x]` | Upgraded to `node:24-alpine` across `deps`, `builder`, `runner` stages; Next.js 16.4.3 security verified |
 | **Standalone Memory Footprint** | [`Dockerfile`](../../Dockerfile), [`next.config.ts`](../../next.config.ts) | `[x]` | Next.js standalone output `< 120MB` image size, `~45MB` RSS (conditional on `DOCKER_BUILD=true` for local dev compatibility) |
 | **Dumb-Init Process Supervisor** | [`Dockerfile`](../../Dockerfile) | `[x]` | Handles PID 1 signal forwarding and prevents zombie processes |
 | **Non-Root User Hardening** | [`Dockerfile`](../../Dockerfile) | `[x]` | Executes strictly under unprivileged `mazuuser:nodejs` (UID 1001) |

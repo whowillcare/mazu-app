@@ -173,6 +173,38 @@ export interface TranslationDictionary {
     subscribePredictiveBtn: string;
     predictiveBadge: string;
   };
+  configManager: {
+    modalTitle: string;
+    modalSubtitle: string;
+    tabAi: string;
+    tabPayment: string;
+    tabSystem: string;
+    aiPresetLabel: string;
+    aiEndpointLabel: string;
+    aiEndpointPlaceholder: string;
+    aiTokenLabel: string;
+    aiTokenPlaceholder: string;
+    aiModelLabel: string;
+    aiModelPlaceholder: string;
+    testConnectionBtn: string;
+    testingConnection: string;
+    connectionSuccess: string;
+    connectionFailed: string;
+    stripeSecretLabel: string;
+    stripeWebhookLabel: string;
+    paymentModeLabel: string;
+    modeStripe: string;
+    modeMock: string;
+    defaultCurrencyLabel: string;
+    enableAiQuestionGateLabel: string;
+    liveReloadActive: string;
+    saveAndHotReloadBtn: string;
+    saving: string;
+    savedSuccess: string;
+    resetDefaultsBtn: string;
+    resetConfirm: string;
+    reloadAppBtn: string;
+  };
 }
 
 
@@ -362,6 +394,38 @@ export const translations: Record<SupportedLanguage, TranslationDictionary> = {
       subscribePredictiveBtn: 'Subscribe to Event-Triggered Annual Transits ($9.99/mo)',
       predictiveBadge: '✦ PROACTIVE PREDICTIVE TRIGGER',
     },
+    configManager: {
+      modalTitle: 'Configuration Manager',
+      modalSubtitle: 'Manage runtime API tokens, inference endpoints, payment secrets, and live hot-reloading parameters.',
+      tabAi: 'AI & Inference Gateway',
+      tabPayment: 'Payments & E-Commerce',
+      tabSystem: 'System & Preferences',
+      aiPresetLabel: 'Quick Gateway Presets:',
+      aiEndpointLabel: 'AI Inference Endpoint URL',
+      aiEndpointPlaceholder: 'e.g. http://localhost:3001/v1 or https://api.openai.com/v1',
+      aiTokenLabel: 'AI API Token / Secret Key',
+      aiTokenPlaceholder: 'Enter API Token or Secret Key',
+      aiModelLabel: 'Model Identifier',
+      aiModelPlaceholder: 'e.g. auto, deepseek-chat, gpt-4o-mini',
+      testConnectionBtn: 'Test AI Connection',
+      testingConnection: 'Pinging AI Gateway...',
+      connectionSuccess: 'Connection Verified',
+      connectionFailed: 'Connection Error',
+      stripeSecretLabel: 'Stripe Secret Key (sk_live_... / sk_test_...)',
+      stripeWebhookLabel: 'Stripe Webhook Signing Secret (whsec_...)',
+      paymentModeLabel: 'Payment Operation Mode',
+      modeStripe: 'Live Stripe Gateway',
+      modeMock: 'Development Simulator (Mock Testing)',
+      defaultCurrencyLabel: 'Default Transaction Currency',
+      enableAiQuestionGateLabel: 'Enable AI Semantic Question Classifier Gate',
+      liveReloadActive: 'Live Hot-Reload Active',
+      saveAndHotReloadBtn: 'Save & Hot-Reload',
+      saving: 'Saving & Broadcasting...',
+      savedSuccess: 'Configuration saved and hot-reloaded successfully!',
+      resetDefaultsBtn: 'Reset to .env Defaults',
+      resetConfirm: 'Are you sure you want to reset all configurations to environment defaults?',
+      reloadAppBtn: 'Reload App Page',
+    },
   },
 
 
@@ -541,6 +605,38 @@ export const translations: Record<SupportedLanguage, TranslationDictionary> = {
       unlockLifeBookBtn: '解鎖全案 9 大章節長篇命書（$2.99 體驗價）',
       subscribePredictiveBtn: '訂閱事件驅動型流年預測報告（$9.99/月）',
       predictiveBadge: '✦ 主動事件驅動型預測',
+    },
+    configManager: {
+      modalTitle: '系統運行配置管理中心',
+      modalSubtitle: '管理動態運行環境參數、AI 推理網關端點、密鑰 Token、支付配置與熱更新機制。',
+      tabAi: 'AI 推理網關與密鑰',
+      tabPayment: '支付商務配置 (Stripe)',
+      tabSystem: '全局系統與參數偏好',
+      aiPresetLabel: '常用網關預設快捷切換：',
+      aiEndpointLabel: 'AI 推理網關端點 URL',
+      aiEndpointPlaceholder: '例：http://localhost:3001/v1 或 https://api.openai.com/v1',
+      aiTokenLabel: 'AI 訪問 Token / 密鑰 (API Key)',
+      aiTokenPlaceholder: '請輸入 API Token 或密鑰',
+      aiModelLabel: '模型標識符 (Model ID)',
+      aiModelPlaceholder: '例：auto, deepseek-chat, gpt-4o-mini',
+      testConnectionBtn: '測試 AI 網關連通性',
+      testingConnection: '正在測試連線中...',
+      connectionSuccess: '連線驗證成功',
+      connectionFailed: '連線失敗',
+      stripeSecretLabel: 'Stripe Secret Key (sk_live_... / sk_test_...)',
+      stripeWebhookLabel: 'Stripe Webhook 簽名密鑰 (whsec_...)',
+      paymentModeLabel: '支付運行模式',
+      modeStripe: '正式 Stripe 支付網關',
+      modeMock: '開發模擬器模式 (免密鑰測試)',
+      defaultCurrencyLabel: '系統默認結算幣種',
+      enableAiQuestionGateLabel: '啟用 AI 意向語意解析與提問重構閘門',
+      liveReloadActive: '即時熱更新監聽中',
+      saveAndHotReloadBtn: '立即保存並熱更新',
+      saving: '正在保存並廣播...',
+      savedSuccess: '配置已成功保存並即時熱更新至服務端與客戶端！',
+      resetDefaultsBtn: '重置為 .env 默認值',
+      resetConfirm: '確定要將所有配置重置為系統環境變量默認值嗎？',
+      reloadAppBtn: '刷新應用狀態',
     },
   },
 
