@@ -3,7 +3,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { DOMAINS } from '@/lib/lots/domains';
 import { CanonicalLot, DomainCategory } from '@/lib/types/lots';
-import { FourPillars, LotBaziInteraction } from '@/lib/bazi/baziEngine';
+import {
+  FourPillars,
+  LotBaziInteraction,
+  LifeBookChapter,
+  PredictiveSubscriptionHub,
+} from '@/lib/bazi/baziEngine';
 import { translations, SupportedLanguage } from '@/lib/i18n/translations';
 import { QuestionAnalysisResult } from '@/lib/ai/questionParser';
 import { SvgLotCard } from '@/components/cards/SvgLotCard';
@@ -58,14 +63,17 @@ export default function MazuLotApp() {
   const [isRectifying, setIsRectifying] = useState(false);
   const [rectifiedResult, setRectifiedResult] = useState<RectificationResult | null>(null);
 
-  // Commercial Checkout State
+  // Commercial Checkout & Report State
   const [purchasePlan, setPurchasePlan] = useState<'single' | 'subscription'>('single');
   const [crdWaiverAccepted, setCrdWaiverAccepted] = useState(false);
   const [isCheckingOut, setIsCheckingOut] = useState(false);
+  const [reportActiveTab, setReportActiveTab] = useState<'overview' | 'lifebook' | 'subscription'>('overview');
   const [unlockedReport, setUnlockedReport] = useState<{
     pillars: FourPillars;
     interaction: LotBaziInteraction;
     solarAdjustment: { offsetMinutes: number; trueSolarTime: string };
+    lifeBook?: LifeBookChapter[];
+    predictiveSubscription?: PredictiveSubscriptionHub;
   } | null>(null);
 
   const t = translations[language];
@@ -278,7 +286,10 @@ export default function MazuLotApp() {
           pillars: baziData.pillars,
           interaction: baziData.interaction,
           solarAdjustment: baziData.solarAdjustment,
+          lifeBook: baziData.lifeBook,
+          predictiveSubscription: baziData.predictiveSubscription,
         });
+        setReportActiveTab(purchasePlan === 'subscription' ? 'subscription' : 'lifebook');
         setCurrentStep('report');
       }
     } catch (err) {
@@ -1578,44 +1589,437 @@ export default function MazuLotApp() {
                   </div>
                 </div>
 
-                {/* Interaction Analysis Sections */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: 'clamp(16px, 3vw, 24px)', borderRadius: '12px' }}>
-                    <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '1.05rem', marginBottom: '6px' }}>
-                      1. {language === 'zh-TW' ? unlockedReport.interaction.dayMasterAffinity.titleZh : unlockedReport.interaction.dayMasterAffinity.titleEn}
-                    </div>
-                    <div style={{ color: 'var(--gold-light)', fontSize: '0.92rem', marginBottom: '8px' }}>
-                      {unlockedReport.interaction.dayMasterAffinity.dynamicEn}
-                    </div>
-                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65, fontSize: '0.92rem' }}>
-                      {unlockedReport.interaction.dayMasterAffinity.descriptionEn}
-                    </p>
-                  </div>
+                {/* ─── TAB NAVIGATION (Overview, Life Book, Subscription) ─── */}
+                <div style={{ display: 'flex', gap: '10px', justifyContent: 'center', marginBottom: '28px', flexWrap: 'wrap' }}>
+                  <button
+                    type="button"
+                    onClick={() => setReportActiveTab('overview')}
+                    style={{
+                      padding: '10px 18px',
+                      borderRadius: '24px',
+                      fontSize: '0.9rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      transition: 'all 0.25s ease',
+                      border: reportActiveTab === 'overview' ? '2px solid var(--gold-primary)' : '1px solid var(--border-gold)',
+                      background: reportActiveTab === 'overview' ? 'rgba(212, 175, 55, 0.2)' : 'rgba(7, 11, 17, 0.6)',
+                      color: reportActiveTab === 'overview' ? 'var(--gold-light)' : 'var(--text-secondary)',
+                      boxShadow: reportActiveTab === 'overview' ? '0 0 16px rgba(212, 175, 55, 0.25)' : 'none',
+                    }}
+                  >
+                    {t.heirloomReport.tabOverview}
+                  </button>
 
-                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: 'clamp(16px, 3vw, 24px)', borderRadius: '12px' }}>
-                    <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '1.05rem', marginBottom: '6px' }}>
-                      2. {language === 'zh-TW' ? unlockedReport.interaction.pillarInteraction.titleZh : unlockedReport.interaction.pillarInteraction.titleEn}
-                    </div>
-                    <div style={{ color: 'var(--gold-light)', fontSize: '0.92rem', marginBottom: '8px' }}>
-                      {unlockedReport.interaction.pillarInteraction.dynamicEn}
-                    </div>
-                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65, fontSize: '0.92rem' }}>
-                      {unlockedReport.interaction.pillarInteraction.descriptionEn}
-                    </p>
-                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setReportActiveTab('lifebook')}
+                    style={{
+                      padding: '10px 18px',
+                      borderRadius: '24px',
+                      fontSize: '0.9rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      transition: 'all 0.25s ease',
+                      border: reportActiveTab === 'lifebook' ? '2px solid var(--gold-primary)' : '1px solid var(--border-gold)',
+                      background: reportActiveTab === 'lifebook' ? 'rgba(212, 175, 55, 0.2)' : 'rgba(7, 11, 17, 0.6)',
+                      color: reportActiveTab === 'lifebook' ? 'var(--gold-light)' : 'var(--text-secondary)',
+                      boxShadow: reportActiveTab === 'lifebook' ? '0 0 16px rgba(212, 175, 55, 0.25)' : 'none',
+                    }}
+                  >
+                    {t.heirloomReport.tabLifeBook}
+                  </button>
 
-                  <div style={{ background: 'rgba(7, 11, 17, 0.6)', padding: 'clamp(16px, 3vw, 24px)', borderRadius: '12px' }}>
-                    <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '1.05rem', marginBottom: '6px' }}>
-                      3. {unlockedReport.interaction.annualPillarResonance.titleEn}
-                    </div>
-                    <div style={{ color: 'var(--gold-light)', fontSize: '0.92rem', marginBottom: '8px' }}>
-                      Window of Action: {unlockedReport.interaction.annualPillarResonance.windowEn}
-                    </div>
-                    <p style={{ color: 'var(--text-secondary)', lineHeight: 1.65, fontSize: '0.92rem' }}>
-                      {unlockedReport.interaction.annualPillarResonance.guidanceEn}
-                    </p>
-                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setReportActiveTab('subscription')}
+                    style={{
+                      padding: '10px 18px',
+                      borderRadius: '24px',
+                      fontSize: '0.9rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      transition: 'all 0.25s ease',
+                      border: reportActiveTab === 'subscription' ? '2px solid var(--gold-primary)' : '1px solid var(--border-gold)',
+                      background: reportActiveTab === 'subscription' ? 'rgba(212, 175, 55, 0.2)' : 'rgba(7, 11, 17, 0.6)',
+                      color: reportActiveTab === 'subscription' ? 'var(--gold-light)' : 'var(--text-secondary)',
+                      boxShadow: reportActiveTab === 'subscription' ? '0 0 16px rgba(212, 175, 55, 0.25)' : 'none',
+                    }}
+                  >
+                    {t.heirloomReport.tabSubscription}
+                  </button>
                 </div>
+
+                {/* ═══ TAB 1: TRIAD SYNTHESIS OVERVIEW ════════════════════ */}
+                {reportActiveTab === 'overview' && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '22px' }}>
+                    {/* Section 1: Day Master Affinity */}
+                    <div style={{ background: 'rgba(7, 11, 17, 0.65)', padding: 'clamp(18px, 3.5vw, 26px)', borderRadius: '12px', border: '1px solid var(--border-gold)', textAlign: 'left' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px', flexWrap: 'wrap', gap: '8px' }}>
+                        <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '1.08rem' }}>
+                          1. {language === 'zh-TW' ? unlockedReport.interaction.dayMasterAffinity.titleZh : unlockedReport.interaction.dayMasterAffinity.titleEn}
+                        </span>
+                        <span style={{ fontSize: '0.8rem', background: 'rgba(212, 175, 55, 0.15)', color: 'var(--gold-light)', padding: '3px 10px', borderRadius: '14px', border: '1px solid rgba(212, 175, 55, 0.3)' }}>
+                          {language === 'zh-TW' ? unlockedReport.interaction.dayMasterAffinity.dynamicZh : unlockedReport.interaction.dayMasterAffinity.dynamicEn}
+                        </span>
+                      </div>
+                      <p style={{ color: 'var(--text-primary)', lineHeight: 1.75, fontSize: '0.94rem', margin: '12px 0 0' }}>
+                        {language === 'zh-TW' ? unlockedReport.interaction.dayMasterAffinity.descriptionZh : unlockedReport.interaction.dayMasterAffinity.descriptionEn}
+                      </p>
+                    </div>
+
+                    {/* Section 2: Month Pillar Interplay */}
+                    <div style={{ background: 'rgba(7, 11, 17, 0.65)', padding: 'clamp(18px, 3.5vw, 26px)', borderRadius: '12px', border: '1px solid var(--border-gold)', textAlign: 'left' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px', flexWrap: 'wrap', gap: '8px' }}>
+                        <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '1.08rem' }}>
+                          2. {language === 'zh-TW' ? unlockedReport.interaction.pillarInteraction.titleZh : unlockedReport.interaction.pillarInteraction.titleEn}
+                        </span>
+                        <span style={{ fontSize: '0.8rem', background: 'rgba(212, 175, 55, 0.15)', color: 'var(--gold-light)', padding: '3px 10px', borderRadius: '14px', border: '1px solid rgba(212, 175, 55, 0.3)' }}>
+                          {language === 'zh-TW' ? unlockedReport.interaction.pillarInteraction.dynamicZh : unlockedReport.interaction.pillarInteraction.dynamicEn}
+                        </span>
+                      </div>
+                      <p style={{ color: 'var(--text-primary)', lineHeight: 1.75, fontSize: '0.94rem', margin: '12px 0 0' }}>
+                        {language === 'zh-TW' ? unlockedReport.interaction.pillarInteraction.descriptionZh : unlockedReport.interaction.pillarInteraction.descriptionEn}
+                      </p>
+                    </div>
+
+                    {/* Section 3: Annual Pillar Dynamic */}
+                    <div style={{ background: 'rgba(7, 11, 17, 0.65)', padding: 'clamp(18px, 3.5vw, 26px)', borderRadius: '12px', border: '1px solid var(--border-gold)', textAlign: 'left' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px', flexWrap: 'wrap', gap: '8px' }}>
+                        <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '1.08rem' }}>
+                          3. {language === 'zh-TW' ? unlockedReport.interaction.annualPillarResonance.titleZh : unlockedReport.interaction.annualPillarResonance.titleEn}
+                        </span>
+                        <span style={{ fontSize: '0.8rem', background: 'rgba(212, 175, 55, 0.15)', color: 'var(--gold-light)', padding: '3px 10px', borderRadius: '14px', border: '1px solid rgba(212, 175, 55, 0.3)' }}>
+                          {t.heirloomReport.windowOfActionLabel}: {language === 'zh-TW' ? unlockedReport.interaction.annualPillarResonance.windowZh : unlockedReport.interaction.annualPillarResonance.windowEn}
+                        </span>
+                      </div>
+                      <p style={{ color: 'var(--text-primary)', lineHeight: 1.75, fontSize: '0.94rem', margin: '12px 0 0' }}>
+                        {language === 'zh-TW' ? unlockedReport.interaction.annualPillarResonance.guidanceZh : unlockedReport.interaction.annualPillarResonance.guidanceEn}
+                      </p>
+                    </div>
+
+                    {/* Section 4: Seasonal Action Window */}
+                    <div style={{ background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(13, 20, 31, 0.7) 100%)', padding: 'clamp(18px, 3.5vw, 26px)', borderRadius: '12px', border: '1px solid var(--gold-primary)', textAlign: 'left' }}>
+                      <div style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '1.08rem', marginBottom: '8px' }}>
+                        ✦ {t.heirloomReport.seasonalActionTiming}
+                      </div>
+                      <div style={{ fontSize: '0.92rem', color: 'var(--gold-light)', fontWeight: 600, marginBottom: '6px' }}>
+                        {language === 'zh-TW' ? unlockedReport.interaction.seasonActionWindow.favorableSeasonZh : unlockedReport.interaction.seasonActionWindow.favorableSeasonEn}
+                      </div>
+                      <p style={{ color: 'var(--text-secondary)', lineHeight: 1.68, fontSize: '0.92rem', margin: 0 }}>
+                        {language === 'zh-TW' ? unlockedReport.interaction.seasonActionWindow.actionTimingZh : unlockedReport.interaction.seasonActionWindow.actionTimingEn}
+                      </p>
+                    </div>
+                  </div>
+                )}
+
+                {/* ═══ TAB 2: 9-SECTION LIFE BOOK (九章全案命書) ══════════════ */}
+                {reportActiveTab === 'lifebook' && unlockedReport.lifeBook && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '28px' }}>
+                    {/* Life Book Header Banner */}
+                    <div
+                      style={{
+                        padding: '24px',
+                        background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.16) 0%, rgba(13, 20, 31, 0.9) 100%)',
+                        border: '2px solid var(--gold-primary)',
+                        borderRadius: '14px',
+                        textAlign: 'left',
+                        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4)',
+                      }}
+                    >
+                      <div style={{ display: 'inline-block', padding: '3px 12px', borderRadius: '12px', background: 'var(--cinnabar-glow)', color: 'var(--gold-light)', fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.08em', marginBottom: '8px' }}>
+                        {t.heirloomReport.lifeBookBadge}
+                      </div>
+                      <h3 className="font-serif gold-gradient-text" style={{ fontSize: '1.5rem', margin: '4px 0 8px' }}>
+                        {t.heirloomReport.lifeBookTitle}
+                      </h3>
+                      <p style={{ color: 'var(--text-secondary)', fontSize: '0.88rem', lineHeight: 1.6, margin: 0 }}>
+                        {t.heirloomReport.lifeBookSubtitle}
+                      </p>
+                    </div>
+
+                    {/* 9 Chapters Render Loop */}
+                    {unlockedReport.lifeBook.map((ch) => (
+                      <div
+                        key={ch.id}
+                        style={{
+                          background: 'rgba(7, 11, 17, 0.75)',
+                          padding: 'clamp(20px, 3.5vw, 28px)',
+                          borderRadius: '14px',
+                          border: '1px solid var(--border-gold)',
+                          textAlign: 'left',
+                        }}
+                      >
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '14px', flexWrap: 'wrap', gap: '8px' }}>
+                          <h4 className="font-serif" style={{ color: 'var(--gold-light)', fontSize: '1.22rem', margin: 0, fontWeight: 700 }}>
+                            {language === 'zh-TW' ? ch.chapterNumberZh : ch.chapterNumberEn} · {language === 'zh-TW' ? ch.titleZh : ch.titleEn}
+                          </h4>
+                          <span style={{ fontSize: '0.78rem', padding: '3px 10px', borderRadius: '12px', background: 'rgba(212, 175, 55, 0.18)', color: 'var(--gold-primary)', border: '1px solid var(--gold-primary)', fontWeight: 600 }}>
+                            {language === 'zh-TW' ? ch.badgeZh : ch.badgeEn}
+                          </span>
+                        </div>
+
+                        {/* Key Insight Box */}
+                        <div
+                          style={{
+                            background: 'rgba(212, 175, 55, 0.08)',
+                            borderLeft: '3px solid var(--gold-primary)',
+                            padding: '12px 16px',
+                            borderRadius: '0 8px 8px 0',
+                            marginBottom: '14px',
+                          }}
+                        >
+                          <div style={{ color: 'var(--gold-primary)', fontSize: '0.8rem', fontWeight: 700, marginBottom: '4px' }}>
+                            {t.heirloomReport.keyInsightLabel}
+                          </div>
+                          <div style={{ color: 'var(--text-primary)', fontSize: '0.92rem', lineHeight: 1.6, fontWeight: 500 }}>
+                            {language === 'zh-TW' ? ch.keyInsightZh : ch.keyInsightEn}
+                          </div>
+                        </div>
+
+                        {/* Rich Content Paragraphs */}
+                        <p style={{ color: 'var(--text-secondary)', fontSize: '0.94rem', lineHeight: 1.78, margin: '0 0 16px' }}>
+                          {language === 'zh-TW' ? ch.contentZh : ch.contentEn}
+                        </p>
+
+                        {/* Actionable Strategic Advice Box */}
+                        <div
+                          style={{
+                            background: 'rgba(20, 28, 43, 0.7)',
+                            border: '1px solid rgba(212, 175, 55, 0.25)',
+                            padding: '12px 16px',
+                            borderRadius: '8px',
+                          }}
+                        >
+                          <div style={{ color: 'var(--gold-light)', fontSize: '0.8rem', fontWeight: 700, marginBottom: '4px' }}>
+                            {t.heirloomReport.actionAdviceLabel}
+                          </div>
+                          <div style={{ color: 'var(--text-primary)', fontSize: '0.88rem', lineHeight: 1.6 }}>
+                            {language === 'zh-TW' ? ch.actionableAdviceZh : ch.actionableAdviceEn}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* ═══ TAB 3: PREDICTIVE TRANSITS HUB (LEG 3 SUBSCRIPTION) ═══ */}
+                {reportActiveTab === 'subscription' && unlockedReport.predictiveSubscription && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', textAlign: 'left' }}>
+                    {/* Subscription Hero Banner */}
+                    <div
+                      style={{
+                        padding: '24px',
+                        background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.18) 0%, rgba(13, 20, 31, 0.95) 100%)',
+                        border: '2px solid var(--gold-primary)',
+                        borderRadius: '14px',
+                        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4)',
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px', flexWrap: 'wrap', gap: '8px' }}>
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '3px 12px', borderRadius: '12px', background: 'rgba(46, 204, 113, 0.2)', color: '#2ecc71', fontSize: '0.78rem', fontWeight: 800, border: '1px solid rgba(46, 204, 113, 0.4)' }}>
+                          <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#2ecc71', display: 'inline-block' }} />
+                          {t.heirloomReport.activeSubscriptionLabel}
+                        </span>
+                        <span style={{ fontSize: '0.82rem', color: 'var(--gold-light)', background: 'rgba(7, 11, 17, 0.6)', padding: '3px 10px', borderRadius: '6px' }}>
+                          {t.heirloomReport.renewalLabel}: {unlockedReport.predictiveSubscription.renewalDate}
+                        </span>
+                      </div>
+                      <h3 className="font-serif gold-gradient-text" style={{ fontSize: '1.5rem', margin: '6px 0 8px' }}>
+                        {language === 'zh-TW' ? unlockedReport.predictiveSubscription.activePlanZh : unlockedReport.predictiveSubscription.activePlanEn}
+                      </h3>
+                      <p style={{ color: 'var(--text-secondary)', fontSize: '0.88rem', lineHeight: 1.6, margin: '0 0 12px' }}>
+                        {language === 'zh-TW' ? unlockedReport.predictiveSubscription.subscriptionTierZh : unlockedReport.predictiveSubscription.subscriptionTierEn}
+                      </p>
+                      <div style={{ fontSize: '0.82rem', color: 'var(--gold-light)', borderTop: '1px solid var(--border-gold)', paddingTop: '10px' }}>
+                        <strong>{t.heirloomReport.natalAnchorLabel}:</strong> {language === 'zh-TW' ? unlockedReport.predictiveSubscription.natalAnchorZh : unlockedReport.predictiveSubscription.natalAnchorEn}
+                      </div>
+                    </div>
+
+                    {/* Section 1: Chronological 3-Year Milestones Timeline */}
+                    <div>
+                      <h4 className="font-serif" style={{ color: 'var(--gold-light)', fontSize: '1.25rem', marginBottom: '14px' }}>
+                        ✦ {t.heirloomReport.annualTimelineTitle}
+                      </h4>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                        {unlockedReport.predictiveSubscription.annualTimeline.map((item) => (
+                          <div
+                            key={item.year}
+                            style={{
+                              background: 'rgba(7, 11, 17, 0.75)',
+                              border: '1px solid var(--border-gold)',
+                              borderRadius: '12px',
+                              padding: '20px',
+                            }}
+                          >
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', flexWrap: 'wrap', gap: '8px' }}>
+                              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <span style={{ background: 'var(--gold-primary)', color: '#070B11', fontWeight: 800, padding: '3px 10px', borderRadius: '6px', fontSize: '0.88rem' }}>
+                                  {item.year} {item.ganzhi}
+                                </span>
+                                <span style={{ color: 'var(--gold-light)', fontWeight: 700, fontSize: '1.02rem' }}>
+                                  {language === 'zh-TW' ? item.titleZh : item.titleEn}
+                                </span>
+                              </div>
+                              <div style={{ display: 'flex', gap: '6px' }}>
+                                <span style={{ fontSize: '0.74rem', padding: '2px 8px', borderRadius: '10px', background: 'rgba(212, 175, 55, 0.15)', color: 'var(--gold-light)' }}>
+                                  {language === 'zh-TW' ? item.domainZh : item.domainEn}
+                                </span>
+                                <span style={{ fontSize: '0.74rem', padding: '2px 8px', borderRadius: '10px', background: 'rgba(231, 76, 60, 0.2)', color: '#ff7675' }}>
+                                  {language === 'zh-TW' ? item.polarityZh : item.polarityEn}
+                                </span>
+                              </div>
+                            </div>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7, margin: '8px 0 12px' }}>
+                              {language === 'zh-TW' ? item.mechanismZh : item.mechanismEn}
+                            </p>
+                            <div style={{ background: 'rgba(20, 28, 43, 0.65)', padding: '10px 14px', borderRadius: '6px', fontSize: '0.88rem', color: 'var(--gold-light)' }}>
+                              <strong>{t.heirloomReport.actionAdviceLabel}:</strong> {language === 'zh-TW' ? item.strategicActionZh : item.strategicActionEn}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Section 2: 24 Solar Terms Seasonal Transit Matrix */}
+                    <div
+                      style={{
+                        background: 'rgba(7, 11, 17, 0.75)',
+                        border: '1px solid var(--border-gold)',
+                        borderRadius: '14px',
+                        padding: '22px',
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px', flexWrap: 'wrap', gap: '8px' }}>
+                        <h4 className="font-serif" style={{ color: 'var(--gold-light)', fontSize: '1.25rem', margin: 0 }}>
+                          ✦ {t.heirloomReport.solarTermTitle}
+                        </h4>
+                        <span style={{ fontSize: '0.8rem', color: 'var(--gold-primary)', fontWeight: 700, background: 'rgba(212, 175, 55, 0.12)', padding: '3px 10px', borderRadius: '12px' }}>
+                          {language === 'zh-TW' ? unlockedReport.predictiveSubscription.solarTermTransit.elementZh : unlockedReport.predictiveSubscription.solarTermTransit.elementEn}
+                        </span>
+                      </div>
+                      <div style={{ fontSize: '1.02rem', color: 'var(--text-primary)', fontWeight: 600, marginBottom: '8px' }}>
+                        {language === 'zh-TW' ? unlockedReport.predictiveSubscription.solarTermTransit.termZh : unlockedReport.predictiveSubscription.solarTermTransit.termEn}
+                      </div>
+                      <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7, margin: '0 0 16px' }}>
+                        {language === 'zh-TW' ? unlockedReport.predictiveSubscription.solarTermTransit.transitResonanceZh : unlockedReport.predictiveSubscription.solarTermTransit.transitResonanceEn}
+                      </p>
+
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px' }}>
+                        <div style={{ background: 'rgba(46, 204, 113, 0.08)', border: '1px solid rgba(46, 204, 113, 0.3)', borderRadius: '10px', padding: '14px' }}>
+                          <div style={{ color: '#2ecc71', fontWeight: 700, fontSize: '0.85rem', marginBottom: '8px' }}>
+                            ✓ {t.heirloomReport.favorablePracticesTitle}
+                          </div>
+                          <ul style={{ margin: 0, paddingLeft: '18px', color: 'var(--text-primary)', fontSize: '0.86rem', lineHeight: 1.65 }}>
+                            {(language === 'zh-TW'
+                              ? unlockedReport.predictiveSubscription.solarTermTransit.favorablePracticesZh
+                              : unlockedReport.predictiveSubscription.solarTermTransit.favorablePracticesEn
+                            ).map((p, idx) => (
+                              <li key={idx} style={{ marginBottom: '4px' }}>{p}</li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        <div style={{ background: 'rgba(231, 76, 60, 0.08)', border: '1px solid rgba(231, 76, 60, 0.3)', borderRadius: '10px', padding: '14px' }}>
+                          <div style={{ color: '#e74c3c', fontWeight: 700, fontSize: '0.85rem', marginBottom: '8px' }}>
+                            ✕ {t.heirloomReport.guardedPracticesTitle}
+                          </div>
+                          <ul style={{ margin: 0, paddingLeft: '18px', color: 'var(--text-primary)', fontSize: '0.86rem', lineHeight: 1.65 }}>
+                            {(language === 'zh-TW'
+                              ? unlockedReport.predictiveSubscription.solarTermTransit.guardedPracticesZh
+                              : unlockedReport.predictiveSubscription.solarTermTransit.guardedPracticesEn
+                            ).map((p, idx) => (
+                              <li key={idx} style={{ marginBottom: '4px' }}>{p}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Section 3: Lunar Monthly Palace Pulse */}
+                    <div
+                      style={{
+                        background: 'linear-gradient(135deg, rgba(20, 28, 43, 0.8) 0%, rgba(7, 11, 17, 0.9) 100%)',
+                        border: '1px solid var(--border-gold)',
+                        borderRadius: '14px',
+                        padding: '22px',
+                      }}
+                    >
+                      <h4 className="font-serif" style={{ color: 'var(--gold-light)', fontSize: '1.25rem', margin: '0 0 10px' }}>
+                        ✦ {t.heirloomReport.lunarMonthTitle}
+                      </h4>
+                      <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '10px', flexWrap: 'wrap' }}>
+                        <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '0.98rem' }}>
+                          {language === 'zh-TW' ? unlockedReport.predictiveSubscription.lunarMonthPulse.lunarMonthZh : unlockedReport.predictiveSubscription.lunarMonthPulse.lunarMonthEn}
+                        </span>
+                        <span style={{ fontSize: '0.8rem', background: 'rgba(212, 175, 55, 0.15)', color: 'var(--gold-light)', padding: '2px 8px', borderRadius: '4px' }}>
+                          {language === 'zh-TW' ? unlockedReport.predictiveSubscription.lunarMonthPulse.affectedPalaceZh : unlockedReport.predictiveSubscription.lunarMonthPulse.affectedPalaceEn}
+                        </span>
+                      </div>
+                      <div style={{ color: 'var(--gold-light)', fontSize: '0.92rem', fontWeight: 600, marginBottom: '8px' }}>
+                        {language === 'zh-TW' ? unlockedReport.predictiveSubscription.lunarMonthPulse.monthlyThemeZh : unlockedReport.predictiveSubscription.lunarMonthPulse.monthlyThemeEn}
+                      </div>
+                      <div style={{ background: 'rgba(212, 175, 55, 0.09)', borderLeft: '3px solid var(--gold-primary)', padding: '12px 16px', borderRadius: '0 8px 8px 0', marginTop: '12px' }}>
+                        <p style={{ color: 'var(--text-primary)', fontSize: '0.92rem', lineHeight: 1.65, margin: 0, fontStyle: 'italic' }}>
+                          {language === 'zh-TW' ? unlockedReport.predictiveSubscription.lunarMonthPulse.contemplativeInquiryZh : unlockedReport.predictiveSubscription.lunarMonthPulse.contemplativeInquiryEn}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Section 4: Proactive Palace Defense Protocols */}
+                    <div>
+                      <h4 className="font-serif" style={{ color: 'var(--gold-light)', fontSize: '1.25rem', marginBottom: '14px' }}>
+                        ✦ {t.heirloomReport.palaceAlertTitle}
+                      </h4>
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px' }}>
+                        {unlockedReport.predictiveSubscription.palaceDefenseAlerts.map((alert, idx) => (
+                          <div
+                            key={idx}
+                            style={{
+                              background: 'rgba(7, 11, 17, 0.75)',
+                              border: '1px solid var(--border-gold)',
+                              borderRadius: '12px',
+                              padding: '16px',
+                            }}
+                          >
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                              <span style={{ color: 'var(--gold-light)', fontWeight: 700, fontSize: '0.94rem' }}>
+                                {language === 'zh-TW' ? alert.palaceZh : alert.palaceEn}
+                              </span>
+                              <span
+                                style={{
+                                  fontSize: '0.72rem',
+                                  padding: '2px 8px',
+                                  borderRadius: '10px',
+                                  fontWeight: 700,
+                                  background:
+                                    alert.alertLevel === 'favorable'
+                                      ? 'rgba(46, 204, 113, 0.2)'
+                                      : alert.alertLevel === 'watch'
+                                      ? 'rgba(243, 156, 18, 0.2)'
+                                      : 'rgba(52, 152, 219, 0.2)',
+                                  color:
+                                    alert.alertLevel === 'favorable'
+                                      ? '#2ecc71'
+                                      : alert.alertLevel === 'watch'
+                                      ? '#f39c12'
+                                      : '#3498db',
+                                }}
+                              >
+                                {language === 'zh-TW' ? alert.statusZh : alert.statusEn}
+                              </span>
+                            </div>
+                            <div style={{ fontSize: '0.82rem', color: 'var(--gold-primary)', marginBottom: '8px' }}>
+                              {language === 'zh-TW' ? alert.interactionTypeZh : alert.interactionTypeEn}
+                            </div>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.84rem', lineHeight: 1.55, margin: 0 }}>
+                              {language === 'zh-TW' ? alert.defenseProtocolZh : alert.defenseProtocolEn}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
 
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '36px', flexWrap: 'wrap' }}>
                   <button onClick={() => setCurrentStep('reading')} className="btn-outline">

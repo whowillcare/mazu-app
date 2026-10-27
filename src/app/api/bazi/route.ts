@@ -1,5 +1,11 @@
 import { NextResponse } from 'next/server';
-import { calculateTrueSolarTime, calculateFourPillars, calculateLotInteraction } from '@/lib/bazi/baziEngine';
+import {
+  calculateTrueSolarTime,
+  calculateFourPillars,
+  calculateLotInteraction,
+  generateLifeBookChapters,
+  generatePredictiveSubscriptionHub,
+} from '@/lib/bazi/baziEngine';
 import { getLotByNumber } from '@/lib/lots/lotsRepository';
 
 export async function POST(request: Request) {
@@ -28,11 +34,17 @@ export async function POST(request: Request) {
     const pillars = calculateFourPillars(adjustedDate);
 
     // 3. Load Lot
-    const lot = getLotByNumber(lotNumber);
+    const lot = getLotByNumber(lotNumber, true);
     const lotGanzhi = lot?.ganzhi.zh || '甲子';
 
     // 4. Compute interaction matrix
     const interaction = calculateLotInteraction(pillars, lotGanzhi);
+
+    // 5. Generate 9-Section Life Book Chapters
+    const lifeBook = generateLifeBookChapters(pillars, lot);
+
+    // 6. Generate Predictive Subscription Hub
+    const predictiveSubscription = generatePredictiveSubscriptionHub(pillars, lot);
 
     return NextResponse.json({
       success: true,
@@ -50,6 +62,8 @@ export async function POST(request: Request) {
       lotNumber,
       lotGanzhi,
       interaction,
+      lifeBook,
+      predictiveSubscription,
     });
   } catch (error) {
     console.error('Error calculating BaZi:', error);

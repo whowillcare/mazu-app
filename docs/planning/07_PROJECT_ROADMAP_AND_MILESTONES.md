@@ -1,8 +1,8 @@
 # 07. Master Modules & Functions Roadmap (Living Implementation Matrix)
 
 > **Document Status**: Living Architectural Matrix & Implementation Tracker  
-> **Last Updated**: 2026-10-16  
-> **Master Progress**: **94% of Core Web Platform Implemented & Operational**  
+> **Last Updated**: 2026-10-27  
+> **Master Progress**: **97% of Core Web Platform Implemented & Operational**  
 > **Canon Asset Readiness**: **60 / 60 Cards Normalized via SvgLotCard (100%)**
 
 ---
@@ -19,12 +19,12 @@
 │ 2. SvgLotCard Deck & Visuals      │ [x] Complete │ 100% Standardized   │
 │ 3. Question Gate & AI Parser      │ [x] Complete │ 100% (5s Buffer Live)│
 │ 4. Crypto Draw & Ritual Engine    │ [x] Complete │ 100% Operational    │
-│ 5. Dual BaZi & Hour Rectification │ [x] Complete │ 100% (考時定盤 Live)│
+│ 5. Dual BaZi & Hour Rectification │ [x] Complete │ 100% (9-Ch LifeBook)│
 │ 6. 10-Step Interactive Web UI/UX  │ [x] Complete │ 100% Operational    │
 │ 7. Dual i18n Localization Engine  │ [x] Complete │ 100% Operational    │
 │ 8. Pluggable Payments & Stripe    │ [x] Complete │ 100% Operational    │
 │ 9. SQLite User Vault & Database   │ [x] Complete │ 100% Operational    │
-│ 10. PDF Export & Subscriptions    │ [/] Active   │ 60% (Plans in UI)   │
+│ 10. PDF Export & Subscriptions    │ [x] Complete │ 90% (Leg 3 Hub Live)│
 │ 11. Multi-Stage Docker & Compose  │ [x] Complete │ 100% (Node 22)      │
 │ 12. Mobile Apps (React Native)    │ [ ] Planned  │ Phase 4 Backlog     │
 └───────────────────────────────────┴──────────────┴─────────────────────┘
@@ -115,9 +115,8 @@
 | **Dynamic Confidence Score Matrix** | [`src/lib/bazi/hourRectification.ts`](../../src/lib/bazi/hourRectification.ts) | `[x]` | Mathematically normalized integer score display (e.g., 94%) calibrated to candidate hour convergence |
 | **Converged Life Milestones (`應期`)** | [`src/lib/bazi/hourRectification.ts`](../../src/lib/bazi/hourRectification.ts) | `[x]` | Tracks 夫妻宮, 子女宮, 財庫衝合, 月令提綱 for mathematical convergence |
 | **Convincing Insightful Excerpt Hook** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Free 2-3 sentence structural diagnostic snippet demonstrating chart accuracy |
-| **REST API: Hour Rectification** | [`src/app/api/bazi/rectify/route.ts`](../../src/app/api/bazi/rectify/route.ts) | `[x]` | `POST /api/bazi/rectify` with actions `get_questionnaire` and `solve` |
-| **Full 9-Section Life Book Synthesis** | `layers_mingshu.py` Format | `[/]` | Generates comprehensive Life Book narrative for paid delivery ($2.99 / $19.99) |
-| **Event-Triggered Predictive Alerts** | `docs/planning/03_PERSONALIZATION_ENGINE_SPEC.md` | `[/]` | Proactive notifications triggered by upcoming `引動年`, `應期`, and Solar Terms |
+| **Full 9-Section Life Book Synthesis** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Generates vivid 9-chapter Life Book (九章全案命書) across all domains with literary Chinese & archetypal English prose |
+| **Event-Triggered Predictive Alerts & Leg 3 Hub** | [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts), [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Organizes 2026–2028 milestones, 24 Solar Terms energy transit matrix, monthly palace pulse, and palace defense protocols |
 
 ---
 
@@ -187,6 +186,7 @@
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
 | **Printable Report View** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[/]` | Browser print styling enabled; dedicated high-res print template pending |
+| **Leg 3 Predictive Subscription Hub** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Full dashboard: Active Tier, 2026–2028 milestones, 24 Solar Terms transit, monthly palace pulse & defense protocols |
 | **Headless Vector PDF Generator** | `src/lib/pdf/pdfGenerator.ts` | `[ ]` | Queued for Phase 3 (serverless puppeteer or `@react-pdf/renderer`) |
 | **Transactional Email Delivery** | `src/lib/email/mailer.ts` | `[ ]` | Resend / SendGrid webhook dispatch for PDF report attachment |
 | **Shareable Reading Card Links** | `src/app/lots/[number]/opengraph-image.tsx` | `[ ]` | Dynamic OpenGraph image preview for social sharing |

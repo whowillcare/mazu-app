@@ -109,6 +109,27 @@ export interface TranslationDictionary {
     seasonalActionTiming: string;
     backToReadingBtn: string;
     drawNewLotBtn: string;
+    tabOverview: string;
+    tabLifeBook: string;
+    tabSubscription: string;
+    lifeBookBadge: string;
+    lifeBookTitle: string;
+    lifeBookSubtitle: string;
+    subscriptionBadge: string;
+    subscriptionTitle: string;
+    subscriptionSubtitle: string;
+    keyInsightLabel: string;
+    actionAdviceLabel: string;
+    annualTimelineTitle: string;
+    solarTermTitle: string;
+    lunarMonthTitle: string;
+    palaceAlertTitle: string;
+    favorablePracticesTitle: string;
+    guardedPracticesTitle: string;
+    activeSubscriptionLabel: string;
+    renewalLabel: string;
+    natalAnchorLabel: string;
+    windowOfActionLabel: string;
   };
   preferencesModal: {
     title: string;
@@ -275,6 +296,27 @@ export const translations: Record<SupportedLanguage, TranslationDictionary> = {
       seasonalActionTiming: 'Seasonal Execution Timing Window',
       backToReadingBtn: '← Back to Lot Reading',
       drawNewLotBtn: 'Begin New Inquiry · 另起一問',
+      tabOverview: '✦ Triad Synthesis',
+      tabLifeBook: '📜 9-Section Life Book',
+      tabSubscription: '🔮 Predictive Transits Hub (LEG 3)',
+      lifeBookBadge: 'HEIRLOOM AUDIT · 9 SECTIONS',
+      lifeBookTitle: 'The Complete 9-Section Life Book (九章全案命書)',
+      lifeBookSubtitle: 'A comprehensive metaphysical audit synthesizing your True Solar BaZi chart, Ten Gods dynamics, Four Treasuries, and the sacred Mazu oracle.',
+      subscriptionBadge: 'ANNUAL PREDICTIVE TRANSITS · LEG 3',
+      subscriptionTitle: 'Predictive Transits & Event Alerts Hub (流年事件預測中樞)',
+      subscriptionSubtitle: 'Continuous event-driven monitoring of active annual stems, 24 Solar Terms transitions, and lunar monthly palace interactions.',
+      keyInsightLabel: '✦ Core Archetypal Insight',
+      actionAdviceLabel: '⚖️ Strategic Action Guidance',
+      annualTimelineTitle: 'Chronological Milestones & Trigger Windows (2026–2028)',
+      solarTermTitle: 'Active 24 Solar Term Energy Transit',
+      lunarMonthTitle: 'Lunar Monthly Palace Pulse & Contemplative Prompt',
+      palaceAlertTitle: 'Proactive Palace Defense Protocols (刑衝合害預警)',
+      favorablePracticesTitle: 'Favorable Timing & Practices',
+      guardedPracticesTitle: 'Guarded Activities to Avoid',
+      activeSubscriptionLabel: 'Active Membership Status',
+      renewalLabel: 'Auto-Renewal Window',
+      natalAnchorLabel: 'Natal Palace Anchor',
+      windowOfActionLabel: 'Window of Sovereign Action',
     },
     preferencesModal: {
       title: 'SANCTUARY PREFERENCES · 偏好設定',
@@ -436,6 +478,27 @@ export const translations: Record<SupportedLanguage, TranslationDictionary> = {
       seasonalActionTiming: '吉利應期與行動視窗',
       backToReadingBtn: '← 返回靈籤解讀',
       drawNewLotBtn: '重整心念 · 另求靈籤',
+      tabOverview: '✦ 三柱合參總覽',
+      tabLifeBook: '📜 九章全案命書',
+      tabSubscription: '🔮 流年預測訂閱中樞（LEG 3）',
+      lifeBookBadge: '九大章節 · 終生典藏長篇命書',
+      lifeBookTitle: '九章全案深度命書（Life Book）',
+      lifeBookSubtitle: '融匯真太陽時四柱排盤、十神心性格局、四大庫支、夫妻宮交感與媽祖靈籤玄機之深度人生全案。',
+      subscriptionBadge: '事件驅動型流年預測 · LEG 3 旗艦訂閱',
+      subscriptionTitle: '流年預測訂閱中樞與事件預警系統',
+      subscriptionSubtitle: '全時主動監控歲君引動、二十四節氣交運、流月宮位震盪與刑衝破害之高階預測體系。',
+      keyInsightLabel: '✦ 核心心性啟迪',
+      actionAdviceLabel: '⚖️ 戰略行動指引',
+      annualTimelineTitle: '歲運引動與應期時間軸（2026–2028）',
+      solarTermTitle: '二十四節氣交運矩陣與調候能量',
+      lunarMonthTitle: '流月宮位震盪與本月修持叩問',
+      palaceAlertTitle: '歲運宮位預警與防禦協議（刑衝合害）',
+      favorablePracticesTitle: '宜行事象 · 能量順應之道',
+      guardedPracticesTitle: '戒慎規避 · 避凶防漏指南',
+      activeSubscriptionLabel: '當前訂閱會員狀態',
+      renewalLabel: '次期週期結算日',
+      natalAnchorLabel: '全時命盤宮位錨定',
+      windowOfActionLabel: '天時行動發力視窗',
     },
     preferencesModal: {
       title: '聖殿偏好設定',
