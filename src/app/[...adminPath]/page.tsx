@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
+import { cookies } from 'next/headers';
 import { getConfig } from '@/lib/config/configManager';
 import { AdminPortal } from '@/components/admin/AdminPortal';
+import { verifyAdminSession, hasAnyAdminUser } from '@/lib/auth/adminAuth';
 
 export const dynamic = 'force-dynamic';
 
@@ -25,5 +27,28 @@ export default async function DynamicAdminPage({ params }: PageProps) {
     notFound();
   }
 
-  return <AdminPortal currentDirective={configuredAdminPath} />;
+  // Server-side check of session cookie
+  const cookieStore = await cookies();
+  const sessionToken = cookieStore.get('mazu_admin_session')?.value;
+  let initialAuthenticated = false;
+  let initialUsername: string | null = null;
+
+  if (sessionToken) {
+    const session = verifyAdminSession(sessionToken);
+    if (session.valid && session.username) {
+      initialAuthenticated = true;
+      initialUsername = session.username;
+    }
+  }
+
+  const hasAdmins = hasAnyAdminUser();
+
+  return (
+    <AdminPortal 
+      currentDirective={configuredAdminPath} 
+      initialAuthenticated={initialAuthenticated}
+      initialUsername={initialUsername}
+      initialHasAdmins={hasAdmins}
+    />
+  );
 }

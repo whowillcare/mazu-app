@@ -66,6 +66,8 @@ Execute admin commands using `npm run admin -- <command>` or `npx tsx scripts/ma
 | **Delete Admin** | `npm run admin -- del <username>` | Deletes an admin user account (safety guard prevents deleting the sole admin) |
 | **Get URL Directive** | `npm run admin -- get-path` | Displays the current secret Admin URL location directive (default: `/mod`) |
 | **Set URL Directive** | `npm run admin -- set-path <url_path>` | Updates the secret Admin URL directive (e.g., `/portal`, `/console`, `/mod`) |
+| **Get Session TTL** | `npm run admin -- get-ttl` | Displays the current admin session cookie expiration TTL (default: `4` hours) |
+| **Set Session TTL** | `npm run admin -- set-ttl <hours>` | Updates the admin session cookie expiration duration in hours (e.g., `2`, `4`, `12`) |
 
 #### CLI Usage Examples:
 ```bash
@@ -84,6 +86,9 @@ npm run admin -- set-path /portal
 # ✅ Admin URL Directive updated to: /portal
 # 🔗 Portal URL: http://localhost:3000/portal
 
+# Adjust session expiration duration (e.g., 2 hours)
+npm run admin -- set-ttl 2
+
 # List all active admin accounts
 npm run admin -- list
 ```
@@ -94,6 +99,10 @@ npm run admin -- list
 
 - **Stealth Access Only**: The administrative area has no visible links or buttons anywhere in the public seeker UI.
 - **Manual URL Navigation**: Only accessible by manually entering the configured directive path in the browser address bar (e.g., `http://localhost:3000/mod`). Any other path automatically triggers a 404 response.
+- **Session Authentication & Expiration**:
+  - **Unauthenticated / Expired**: Visiting the admin URL displays the visual web login page directly with zero flash or redirection delay.
+  - **Authenticated**: When a valid HTTP-only session cookie (`mazu_admin_session`) is present, the server renders the admin dashboard directly without prompting for credentials.
+  - **Configurable TTL**: Admin sessions automatically expire after the configured duration (default: 4 hours, configurable via `ADMIN_SESSION_TTL_HOURS` or CLI `set-ttl`), whereupon the cookie is invalidated and the login page reappears.
 - **Studio Capabilities**:
   1. **60 Lots Canon Manager**: View and edit quatrain poems (詩曰), English translations, historical protagonists, and all 13 canonical domain guidance entries with live compilation to [`data/canonical/lots_compiled.json`](data/canonical/lots_compiled.json).
   2. **Life-Book & Transit Logic Studio**: Configure narrative focus, archetypal insights, and action guidelines for all 9 canonical chapters and customize the 24 Solar Terms transit matrices.

@@ -20,11 +20,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const sessionToken = createAdminSession(username);
+    const { token: sessionToken, maxAgeSeconds } = createAdminSession(username);
 
     const response = NextResponse.json({
       success: true,
       username: username.trim().toLowerCase(),
+      expiresIn: maxAgeSeconds,
     });
 
     // Set secure HTTP-only cookie
@@ -35,7 +36,7 @@ export async function POST(req: NextRequest) {
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'lax',
       path: '/',
-      maxAge: 7 * 24 * 60 * 60, // 7 days
+      maxAge: maxAgeSeconds,
     });
 
     return response;

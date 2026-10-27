@@ -40,11 +40,14 @@ Commands:
   del <username>                  Remove an admin user account
   get-path                        Show current secret Admin URL directive (default: /mod)
   set-path <directive>            Set new Admin URL directive (e.g. /mod, /console, /portal)
+  get-ttl                         Show current admin session expiration TTL (default: 4 hours)
+  set-ttl <hours>                 Set admin session expiration TTL in hours (e.g. 2, 4, 12, 24)
   help                            Show this help message
 
 Examples:
   npx tsx scripts/manage_admin.ts add master s3cretP@ssw0rd!
   npx tsx scripts/manage_admin.ts set-path /mod
+  npx tsx scripts/manage_admin.ts set-ttl 4
   npx tsx scripts/manage_admin.ts list
 `);
 }
@@ -163,6 +166,24 @@ async function main() {
       configManager.set('ADMIN_URL_PATH', newPath, 'system', false, 'Secret location directive for protected Admin Portal');
       console.log(`✅ Admin URL Directive updated to: ${newPath}`);
       console.log(`🔗 Portal URL: http://localhost:3000${newPath}`);
+      break;
+    }
+
+    case 'get-ttl': {
+      const ttl = getConfig('ADMIN_SESSION_TTL_HOURS') || '4';
+      console.log(`⏱️ Current Admin Session TTL: ${ttl} hour(s)`);
+      break;
+    }
+
+    case 'set-ttl': {
+      const hours = args[1];
+      if (!hours || isNaN(parseFloat(hours)) || parseFloat(hours) <= 0) {
+        console.error('❌ Error: <hours> must be a positive number.');
+        console.log('Usage: npx tsx scripts/manage_admin.ts set-ttl <hours>');
+        process.exit(1);
+      }
+      configManager.set('ADMIN_SESSION_TTL_HOURS', hours, 'system', false, 'Admin session cookie expiration timeout in hours');
+      console.log(`✅ Admin Session Expiration TTL updated to: ${hours} hour(s)`);
       break;
     }
 

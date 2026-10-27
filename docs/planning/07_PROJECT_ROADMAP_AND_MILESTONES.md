@@ -229,8 +229,10 @@
 
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **CLI Admin & Directives Manager** | [`scripts/manage_admin.ts`](../../scripts/manage_admin.ts) | `[x]` | Add/manage admin username & scrypt password hash; manage URL directive |
+| **CLI Admin & Directives Manager** | [`scripts/manage_admin.ts`](../../scripts/manage_admin.ts) | `[x]` | Add/manage admin username & scrypt password hash; manage URL directive & session TTL |
 | **Stealth Dynamic Admin Directive** | [`src/lib/config/configManager.ts`](../../src/lib/config/configManager.ts), [`src/app/[...adminPath]/page.tsx`](../../src/app/[...adminPath]/page.tsx) | `[x]` | Default `/mod`, dynamic routing, 404 for wrong paths; zero links in public view |
+| **Server Cookie Session & Direct Entry** | [`src/app/[...adminPath]/page.tsx`](../../src/app/[...adminPath]/page.tsx), [`src/lib/auth/adminAuth.ts`](../../src/lib/auth/adminAuth.ts) | `[x]` | SSR session check: direct portal access if cookie valid, instant web login form if unauthenticated |
+| **Configurable Session TTL Expiration** | [`src/lib/config/configManager.ts`](../../src/lib/config/configManager.ts), [`src/app/api/admin/login/route.ts`](../../src/app/api/admin/login/route.ts) | `[x]` | Enforced cookie Max-Age and DB `expires_at` via `ADMIN_SESSION_TTL_HOURS` (CLI `set-ttl`) |
 | **Public Vision Stealth Isolation** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Config button removed from public UI & preferences; only accessible via admin portal |
 | **Canon Lots Content & Logic Studio** | [`src/app/api/admin/lots/route.ts`](../../src/app/api/admin/lots/route.ts), Admin UI | `[x]` | View/edit all 60 lots: quatrain verse, translation, allusions, 13 domain guides |
 | **Life-Book & Transit Logic Studio** | [`src/app/api/admin/astrology/route.ts`](../../src/app/api/admin/astrology/route.ts), Admin UI | `[x]` | View/edit 9 canonical chapter rules, 24 solar terms matrix, milestone criteria |

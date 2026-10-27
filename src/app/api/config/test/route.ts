@@ -1,7 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getConfig } from '@/lib/config/configManager';
+import { verifyAdminSession } from '@/lib/auth/adminAuth';
 
 export async function POST(req: NextRequest) {
+  const token = req.cookies.get('mazu_admin_session')?.value;
+  if (!token || !verifyAdminSession(token).valid) {
+    return NextResponse.json({ success: false, error: 'Unauthorized. Admin session required.' }, { status: 401 });
+  }
+
   const startTime = Date.now();
   try {
     const body = await req.json().catch(() => ({}));

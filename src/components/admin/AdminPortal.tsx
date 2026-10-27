@@ -10,14 +10,22 @@ import { ChapterRule, SolarTermRule, AstrologyRules } from '@/lib/bazi/astrology
 
 interface AdminPortalProps {
   currentDirective: string;
+  initialAuthenticated?: boolean;
+  initialUsername?: string | null;
+  initialHasAdmins?: boolean;
 }
 
-export function AdminPortal({ currentDirective }: AdminPortalProps) {
+export function AdminPortal({ 
+  currentDirective,
+  initialAuthenticated = false,
+  initialUsername = null,
+  initialHasAdmins = true,
+}: AdminPortalProps) {
   // Auth state
-  const [checkingAuth, setCheckingAuth] = useState(true);
-  const [authenticated, setAuthenticated] = useState(false);
-  const [username, setUsername] = useState<string | null>(null);
-  const [hasAdmins, setHasAdmins] = useState(true);
+  const [checkingAuth, setCheckingAuth] = useState(false);
+  const [authenticated, setAuthenticated] = useState(initialAuthenticated);
+  const [username, setUsername] = useState<string | null>(initialUsername);
+  const [hasAdmins, setHasAdmins] = useState(initialHasAdmins);
 
   // Login form state
   const [loginUser, setLoginUser] = useState('');
@@ -59,9 +67,14 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
   const [newAdminPass, setNewAdminPass] = useState('');
   const [userMsg, setUserMsg] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
-  // Check auth on mount
+  const handleUnauthorized = () => {
+    setAuthenticated(false);
+    setUsername(null);
+    setLoginError('Your admin session has expired. Please log in again.');
+  };
+
+  // Check auth on mount if initial state was unverified
   const checkAuth = async () => {
-    setCheckingAuth(true);
     try {
       const res = await fetch('/api/admin/me');
       const data = await res.json();
@@ -73,20 +86,24 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
       }
     } catch {
       setAuthenticated(false);
-    } finally {
-      setCheckingAuth(false);
     }
   };
 
   useEffect(() => {
-    checkAuth();
-  }, []);
+    if (!initialAuthenticated) {
+      checkAuth();
+    }
+  }, [initialAuthenticated]);
 
   // Fetch Lots
   const fetchLots = async () => {
     setLoadingLots(true);
     try {
       const res = await fetch('/api/admin/lots');
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success && data.lots) {
         setLots(data.lots);
@@ -103,6 +120,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
     setLoadingRules(true);
     try {
       const res = await fetch('/api/admin/astrology');
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success && data.rules) {
         setRules(data.rules);
@@ -118,6 +139,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
   const fetchConfigs = async () => {
     try {
       const res = await fetch('/api/config');
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success && data.configs) {
         setConfigs(data.configs);
@@ -139,6 +164,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
   const fetchAdminUsers = async () => {
     try {
       const res = await fetch('/api/admin/users');
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success && data.users) {
         setAdminUsers(data.users);
@@ -197,6 +226,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ lot: selectedLot }),
       });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success) {
         setLotSuccessMsg(`✓ Lot #${selectedLot.lot_number} saved and compiled successfully.`);
@@ -223,6 +256,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ rules }),
       });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success) {
         setRulesSuccessMsg('✓ Astrological Life Book and Transit rules successfully updated.');
@@ -251,6 +288,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ updates }),
       });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success) {
         setConfigSuccessMsg(`✓ Configuration & Directive saved (v${data.version}). Live hot-reloaded.`);
@@ -277,6 +318,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
           model: formConfigs.AI_MODEL_NAME,
         }),
       });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       setAiTestResult(data);
     } catch (err: any) {
@@ -295,6 +340,10 @@ export function AdminPortal({ currentDirective }: AdminPortalProps) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action: 'create', username: newAdminUser, password: newAdminPass }),
       });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
       const data = await res.json();
       if (data.success) {
         setUserMsg({ type: 'success', text: data.message });

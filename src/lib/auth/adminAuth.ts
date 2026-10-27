@@ -1,5 +1,6 @@
 import crypto from 'crypto';
 import { getDatabase } from '@/lib/db/database';
+import { getConfig } from '@/lib/config/configManager';
 
 export interface AdminUser {
   id: string;
@@ -137,11 +138,26 @@ export function authenticateAdmin(username: string, password: string): { success
   }
 }
 
-export function createAdminSession(username: string): string {
+export function createAdminSession(username: string): { token: string; maxAgeSeconds: number; expiresAt: number } {
   const cleanUsername = (username || '').trim().toLowerCase();
   const token = `session_${crypto.randomBytes(32).toString('hex')}`;
   const now = Date.now();
-  const expiresAt = now + 7 * 24 * 60 * 60 * 1000; // 7 days
+
+  let ttlHours = 4;
+  try {
+    const rawTtl = getConfig('ADMIN_SESSION_TTL_HOURS');
+    if (rawTtl) {
+      const parsed = parseFloat(rawTtl);
+      if (!isNaN(parsed) && parsed > 0) {
+        ttlHours = parsed;
+      }
+    }
+  } catch {
+    ttlHours = 4;
+  }
+
+  const maxAgeSeconds = Math.round(ttlHours * 3600);
+  const expiresAt = now + maxAgeSeconds * 1000;
 
   try {
     const db = getDatabase();
@@ -154,7 +170,7 @@ export function createAdminSession(username: string): string {
     console.error('[AdminAuth] Failed saving session:', err);
   }
 
-  return token;
+  return { token, maxAgeSeconds, expiresAt };
 }
 
 export function verifyAdminSession(token: string): { valid: boolean; username?: string } {

@@ -124,6 +124,14 @@ class ConfigManager {
         description: 'Secret location directive for the protected Admin Portal (e.g. /mod, /console)',
         updatedAt: now,
       },
+      {
+        key: 'ADMIN_SESSION_TTL_HOURS',
+        value: process.env.ADMIN_SESSION_TTL_HOURS || '4',
+        category: 'system',
+        isSecret: false,
+        description: 'Admin session cookie expiration timeout in hours (e.g. 2, 4, 12, 24)',
+        updatedAt: now,
+      },
     ];
   }
 
