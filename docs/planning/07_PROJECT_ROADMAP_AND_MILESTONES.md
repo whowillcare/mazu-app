@@ -2,7 +2,7 @@
 
 > **Document Status**: Living Architectural Matrix & Implementation Tracker  
 > **Last Updated**: 2026-10-27  
-> **Master Progress**: **97% of Core Web Platform Implemented & Operational**  
+> **Master Progress**: **99% of Core Web Platform Implemented & Operational**  
 > **Canon Asset Readiness**: **60 / 60 Cards Normalized via SvgLotCard (100%)**
 
 ---
@@ -25,8 +25,9 @@
 │ 8. Pluggable Payments & Stripe    │ [x] Complete │ 100% Operational    │
 │ 9. SQLite User Vault & Database   │ [x] Complete │ 100% Operational    │
 │ 10. PDF Export & Subscriptions    │ [x] Complete │ 90% (Leg 3 Hub Live)│
-│ 11. Multi-Stage Docker & Compose  │ [x] Complete │ 100% (Node 22)      │
+│ 11. Multi-Stage Docker & Compose  │ [x] Complete │ 100% (Node 24)      │
 │ 12. Mobile Apps (React Native)    │ [ ] Planned  │ Phase 4 Backlog     │
+│ 13. Protected Admin & Logic Studio│ [x] Complete │ 100% Operational    │
 └───────────────────────────────────┴──────────────┴─────────────────────┘
 ```
 
@@ -220,6 +221,20 @@
 | **Solar Term Push Notifications** | Push Notification Service | `[ ]` | Automated notifications for 24 Solar Terms (節氣) and lunar calendar milestones |
 | **Tauri Desktop Wrapper** | `apps/desktop/` | `[ ]` | Standalone native macOS and Windows desktop builds |
 | **Physical Oracle Deck Production**| Crowdfunding / Print Run | `[ ]` | Physical 60-card gold-foil Tarot cards with English companion guidebook |
+
+---
+
+### Module 13: Protected Admin Area, Canon Management & Dynamic Directive Routing
+**Location**: `src/app/[...adminPath]/`, `src/lib/auth/adminAuth.ts`, `src/app/api/admin/`, `scripts/manage_admin.ts`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **CLI Admin & Directives Manager** | [`scripts/manage_admin.ts`](../../scripts/manage_admin.ts) | `[x]` | Add/manage admin username & scrypt password hash; manage URL directive |
+| **Stealth Dynamic Admin Directive** | [`src/lib/config/configManager.ts`](../../src/lib/config/configManager.ts), [`src/app/[...adminPath]/page.tsx`](../../src/app/[...adminPath]/page.tsx) | `[x]` | Default `/mod`, dynamic routing, 404 for wrong paths; zero links in public view |
+| **Public Vision Stealth Isolation** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Config button removed from public UI & preferences; only accessible via admin portal |
+| **Canon Lots Content & Logic Studio** | [`src/app/api/admin/lots/route.ts`](../../src/app/api/admin/lots/route.ts), Admin UI | `[x]` | View/edit all 60 lots: quatrain verse, translation, allusions, 13 domain guides |
+| **Life-Book & Transit Logic Studio** | [`src/app/api/admin/astrology/route.ts`](../../src/app/api/admin/astrology/route.ts), Admin UI | `[x]` | View/edit 9 canonical chapter rules, 24 solar terms matrix, milestone criteria |
+| **Config Manager Embedding** | [`src/components/admin/AdminPortal.tsx`](../../src/components/admin/AdminPortal.tsx) | `[x]` | Complete AI & Stripe configuration manager accessible inside protected admin area |
 
 ---
 

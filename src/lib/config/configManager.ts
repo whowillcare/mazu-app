@@ -116,6 +116,14 @@ class ConfigManager {
         description: 'Enable AI semantic parser & agency re-framing gate',
         updatedAt: now,
       },
+      {
+        key: 'ADMIN_URL_PATH',
+        value: process.env.ADMIN_URL_PATH || '/mod',
+        category: 'system',
+        isSecret: false,
+        description: 'Secret location directive for the protected Admin Portal (e.g. /mod, /console)',
+        updatedAt: now,
+      },
     ];
   }
 

@@ -15,7 +15,6 @@ import { SvgLotCard } from '@/components/cards/SvgLotCard';
 import { RectificationQuestion, RectificationResult } from '@/lib/bazi/hourRectification';
 import { MAJOR_CITIES, MajorCity, formatLongitude } from '@/lib/geo/cities';
 import { CityLocationPicker } from '@/components/geo/CityLocationPicker';
-import { ConfigManagerModal } from '@/components/config/ConfigManagerModal';
 
 type JourneyStep = 'porch' | 'domain' | 'question' | 'drawing' | 'reading' | 'report';
 
@@ -33,7 +32,6 @@ export default function MazuLotApp() {
   });
   const [displayMode, setDisplayMode] = useState<'clean' | 'bilingual'>('clean');
   const [showPreferences, setShowPreferences] = useState(false);
-  const [showConfigManager, setShowConfigManager] = useState(false);
   const [showAlternativeVerse, setShowAlternativeVerse] = useState(false);
 
   // User Inquiry State
@@ -368,20 +366,6 @@ export default function MazuLotApp() {
             >
               <span>⚙️</span>
               <span className="header-btn-text-full">{t.common.preferences}</span>
-            </button>
-
-            {/* Configuration Manager Trigger */}
-            <button
-              onClick={() => setShowConfigManager(true)}
-              className="btn-outline header-btn"
-              title="Configuration Manager (API Tokens, AI Models, Stripe)"
-              style={{
-                borderColor: 'rgba(212, 175, 55, 0.4)',
-                color: 'var(--gold-light)',
-              }}
-            >
-              <span>🛠️</span>
-              <span className="header-btn-text-full">{language === 'zh-TW' ? '運行配置' : 'Config'}</span>
             </button>
           </div>
         </div>
@@ -2237,45 +2221,12 @@ export default function MazuLotApp() {
               </div>
             </div>
 
-            <div style={{ marginBottom: '18px', paddingTop: '16px', borderTop: '1px solid var(--border-subtle)' }}>
-              <button
-                type="button"
-                onClick={() => {
-                  setShowPreferences(false);
-                  setShowConfigManager(true);
-                }}
-                className="btn-outline"
-                style={{
-                  width: '100%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '8px',
-                  borderColor: 'rgba(212, 175, 55, 0.4)',
-                  color: 'var(--gold-light)',
-                  padding: '10px 14px',
-                  borderRadius: '10px',
-                  fontSize: '0.85rem',
-                }}
-              >
-                <span>🛠️</span>
-                <span>{language === 'zh-TW' ? '進入系統配置中心 (API Token / AI 模型 / Stripe)' : 'Open Configuration Manager (API / Keys / Models)'}</span>
-              </button>
-            </div>
-
             <button onClick={() => setShowPreferences(false)} className="btn-primary" style={{ width: '100%' }}>
               {t.preferencesModal.closeBtn}
             </button>
           </div>
         </div>
       )}
-
-      {/* ─── CONFIGURATION MANAGER MODAL ───────────────────────── */}
-      <ConfigManagerModal
-        isOpen={showConfigManager}
-        onClose={() => setShowConfigManager(false)}
-        language={language}
-      />
 
       {/* ─── SITE FOOTER ────────────────────────────────────────── */}
       <footer
