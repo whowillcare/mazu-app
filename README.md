@@ -50,4 +50,56 @@ All project specifications, business model breakdowns, and architectural bluepri
 
 ---
 
-*Current Implementation Status: Core Web MVP, Question Gate, BaZi Ephemeris Engine, Dual i18n, and SQLite User Vault are fully operational. Card generation is 95% complete (57/60 cards).*
+## 🛠️ Admin CLI & Management Commands
+
+The platform features a protected administrative studio and stealth URL directive system for managing canon lot data, astrological Life-Book rules, transit matrices, and system credentials.
+
+### CLI Management Script (`scripts/manage_admin.ts`)
+
+Execute admin commands using `npm run admin -- <command>` or `npx tsx scripts/manage_admin.ts <command>`:
+
+| Command | Syntax | Description |
+| :--- | :--- | :--- |
+| **Add Admin** | `npm run admin -- add <username> <password>` | Creates a new admin account with a salted scrypt hash in the SQLite database |
+| **Change Password** | `npm run admin -- passwd <username> <new_password>` | Updates the password for an existing admin user |
+| **List Admins** | `npm run admin -- list` | Displays all registered admin users and the active URL directive |
+| **Delete Admin** | `npm run admin -- del <username>` | Deletes an admin user account (safety guard prevents deleting the sole admin) |
+| **Get URL Directive** | `npm run admin -- get-path` | Displays the current secret Admin URL location directive (default: `/mod`) |
+| **Set URL Directive** | `npm run admin -- set-path <url_path>` | Updates the secret Admin URL directive (e.g., `/portal`, `/console`, `/mod`) |
+
+#### CLI Usage Examples:
+```bash
+# Add a new administrator
+npm run admin -- add curator StrongPassw0rd!
+
+# Check current secret portal URL
+npm run admin -- get-path
+# Output:
+# 📍 Current Admin URL Directive: /mod
+# 🔗 Portal URL: http://localhost:3000/mod
+
+# Change the secret route directive
+npm run admin -- set-path /portal
+# Output:
+# ✅ Admin URL Directive updated to: /portal
+# 🔗 Portal URL: http://localhost:3000/portal
+
+# List all active admin accounts
+npm run admin -- list
+```
+
+---
+
+## 🔐 Protected Admin Studio
+
+- **Stealth Access Only**: The administrative area has no visible links or buttons anywhere in the public seeker UI.
+- **Manual URL Navigation**: Only accessible by manually entering the configured directive path in the browser address bar (e.g., `http://localhost:3000/mod`). Any other path automatically triggers a 404 response.
+- **Studio Capabilities**:
+  1. **60 Lots Canon Manager**: View and edit quatrain poems (詩曰), English translations, historical protagonists, and all 13 canonical domain guidance entries with live compilation to [`data/canonical/lots_compiled.json`](data/canonical/lots_compiled.json).
+  2. **Life-Book & Transit Logic Studio**: Configure narrative focus, archetypal insights, and action guidelines for all 9 canonical chapters and customize the 24 Solar Terms transit matrices.
+  3. **System Directives & Configuration**: Live AI endpoint tokens (FreeLLMAPI, DeepSeek, OpenAI, Ollama), connection testing, Stripe credentials, and live hot-reloading.
+  4. **Admin Accounts**: Create, manage, and inspect administrators.
+
+---
+
+*Current Implementation Status: Core Web Platform (99% complete), 60/60 Standardized Cards, Question Gate, BaZi Ephemeris Engine, 9-Chapter Life Book, Leg 3 Subscription Hub, and Protected Admin Studio are fully operational.*
