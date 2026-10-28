@@ -1,6 +1,5 @@
 import Database from 'better-sqlite3';
-import path from 'path';
-import fs from 'fs';
+import { getDatabasePath } from '@/lib/storage/storageConfig';
 
 let dbInstance: Database.Database | null = null;
 
@@ -9,12 +8,7 @@ export function getDatabase(): Database.Database {
     return dbInstance;
   }
 
-  const dbDir = path.join(process.cwd(), 'data');
-  if (!fs.existsSync(dbDir)) {
-    fs.mkdirSync(dbDir, { recursive: true });
-  }
-
-  const dbPath = path.join(dbDir, 'user_vault.db');
+  const dbPath = getDatabasePath();
   dbInstance = new Database(dbPath);
 
   // Enable WAL (Write-Ahead Logging) mode for maximum concurrency and performance

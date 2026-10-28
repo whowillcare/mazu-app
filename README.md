@@ -104,11 +104,33 @@ npm run admin -- list
   - **Authenticated**: When a valid HTTP-only session cookie (`mazu_admin_session`) is present, the server renders the admin dashboard directly without prompting for credentials.
   - **Configurable TTL**: Admin sessions automatically expire after the configured duration (default: 4 hours, configurable via `ADMIN_SESSION_TTL_HOURS` or CLI `set-ttl`), whereupon the cookie is invalidated and the login page reappears.
 - **Studio Capabilities**:
-  1. **60 Lots Canon Manager**: View and edit quatrain poems (詩曰), English translations, historical protagonists, and all 13 canonical domain guidance entries with live compilation to [`data/canonical/lots_compiled.json`](data/canonical/lots_compiled.json).
+  1. **60 Lots Canon Manager**: View and edit quatrain poems (詩曰), English translations, historical protagonists, and all 13 canonical domain guidance entries. Custom modifications are persisted to [`storage/lots_custom.json`](storage/lots_custom.json) while keeping base canonical seed assets safe.
   2. **Life-Book & Transit Logic Studio**: Configure narrative focus, archetypal insights, and action guidelines for all 9 canonical chapters and customize the 24 Solar Terms transit matrices.
   3. **System Directives & Configuration**: Live AI endpoint tokens (FreeLLMAPI, DeepSeek, OpenAI, Ollama), connection testing, Stripe credentials, and live hot-reloading.
   4. **Admin Accounts**: Create, manage, and inspect administrators.
 
 ---
 
-*Current Implementation Status: Core Web Platform (99% complete), 60/60 Standardized Cards, Question Gate, BaZi Ephemeris Engine, 9-Chapter Life Book, Leg 3 Subscription Hub, and Protected Admin Studio are fully operational.*
+## 💾 Data Persistence Architecture
+
+The platform enforces a strict separation between **Readonly Canonical Data** and **Persistent User & Custom Data**:
+
+| Category | Storage Path | Retention Strategy | Contents |
+| :--- | :--- | :--- | :--- |
+| **Readonly Canon** | `data/canonical/` (`/app/data/canonical`) | Shipped in Docker Image / Git | 60 lots classical quatrains, unrhymed English translations, historical story protagonists, 13 canonical domains, polysemy notes. **Never shadowed or lost by volume mounts.** |
+| **Persistent User Data** | `storage/` (`/app/storage`) | Docker Volume (`mazu_storage`) | SQLite database (`user_vault.db`) storing user draws, entitlements, subscriptions, CRD compliance audit logs, admin users, and active sessions. |
+| **Persistent Custom Data** | `storage/` (`/app/storage`) | Docker Volume (`mazu_storage`) | Dynamic runtime configs (`app_config.json`), custom Life-Book rules (`astrology_rules.json`), and custom lot edits (`lots_custom.json`). |
+
+### Docker Volume Mounting:
+```bash
+# Docker Compose (Local / Dev)
+docker compose -f docker-compose.local.yml up -d
+
+# Manual Docker Run with host directory bind mount:
+docker run -d -p 3000:3000 -v $(pwd)/storage:/app/storage mazu-sixty-lots:latest
+```
+> **Volume Safety Guarantee**: Mounting an empty volume to `/app/storage` will **never** crash or wipe out the 60 lots canonical dataset. The system self-initializes the database and configs while reading the immutable canonical oracle dataset from the container image.
+
+---
+
+*Current Implementation Status: Core Web Platform (99% complete), 60/60 Standardized Cards, Question Gate, BaZi Ephemeris Engine, 9-Chapter Life Book, Leg 3 Subscription Hub, Protected Admin Studio, and Decoupled Persistent Storage are fully operational.*

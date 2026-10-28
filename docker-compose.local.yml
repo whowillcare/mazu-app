@@ -15,8 +15,8 @@ services:
       - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY:-}
       - STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET:-}
     volumes:
-      - mazu_data:/app/data
+      - mazu_storage:/app/storage
 
 volumes:
-  mazu_data:
+  mazu_storage:
     driver: local

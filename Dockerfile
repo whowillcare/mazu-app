@@ -34,13 +34,15 @@ RUN apk add --no-cache dumb-init
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 mazuuser
 
-# Persistent volume directory for SQLite database
-RUN mkdir -p /app/data && chown -R mazuuser:nodejs /app/data
-VOLUME ["/app/data"]
+# Dedicated persistent volume directory for mutable user vault & dynamic custom configs
+RUN mkdir -p /app/storage && chown -R mazuuser:nodejs /app/storage
+ENV STORAGE_DIR=/app/storage
+VOLUME ["/app/storage"]
 
 COPY --from=builder --chown=mazuuser:nodejs /app/public ./public
 COPY --from=builder --chown=mazuuser:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=mazuuser:nodejs /app/.next/static ./.next/static
+# Readonly canonical dataset (shipped with image, never shadowed by volume mounts)
 COPY --from=builder --chown=mazuuser:nodejs /app/data/canonical ./data/canonical
 COPY --from=builder --chown=mazuuser:nodejs /app/assets ./assets
 

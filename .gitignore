@@ -16,6 +16,8 @@ Thumbs.db
 data/*.db
 data/*.db-*
 data/app_config.json
+/storage/
+/storage/*
 
 
 # Environment & local variables

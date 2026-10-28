@@ -171,11 +171,13 @@
 ---
 
 ### Module 9: User Vault & Persistence Database
-**Location**: `src/lib/db/`, `src/lib/payments/entitlementService.ts`, `data/`
+**Location**: `src/lib/db/`, `src/lib/storage/`, `src/lib/payments/entitlementService.ts`, `storage/`
 
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **SQLite User Vault Engine** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Backed by `better-sqlite3` with WAL mode and directory auto-initialization |
+| **Storage Config & Path Resolver** | [`src/lib/storage/storageConfig.ts`](../../src/lib/storage/storageConfig.ts) | `[x]` | Decouples persistent storage (`storage/`) from readonly canonical assets (`data/canonical/`); auto-migrates legacy data |
+| **SQLite User Vault Engine** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Backed by `better-sqlite3` with WAL mode in `storage/user_vault.db` |
+| **Custom Lot Overrides Engine** | [`src/lib/lots/lotsRepository.ts`](../../src/lib/lots/lotsRepository.ts) | `[x]` | Persists admin modifications to `storage/lots_custom.json` while keeping base canonical seed assets safe |
 | **Entitlements Data Schema** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Tracks user purchases (`id`, `user_id`, `item_type`, `lot_number`, `status`) |
 | **Entitlement Verification Service** | [`src/lib/payments/entitlementService.ts`](../../src/lib/payments/entitlementService.ts) | `[x]` | `grantEntitlement()` and `hasEntitlement()` methods |
 | **Saved Reports Schema** | [`src/lib/db/database.ts`](../../src/lib/db/database.ts) | `[x]` | Stores generated BaZi reports for user re-reading without re-purchase |
@@ -202,10 +204,11 @@
 | Function / Feature | Implementation File / Artifact | Status | Notes |
 | :--- | :--- | :---: | :--- |
 | **Multi-Stage Production Docker** | [`Dockerfile`](../../Dockerfile) | `[x]` | Upgraded to `node:24-alpine` across `deps`, `builder`, `runner` stages; Next.js 16.4.3 security verified |
+| **Decoupled Storage Volume** | [`Dockerfile`](../../Dockerfile), [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Mounts persistent `/app/storage` without shadowing readonly `/app/data/canonical`; zero data loss on restart |
 | **Standalone Memory Footprint** | [`Dockerfile`](../../Dockerfile), [`next.config.ts`](../../next.config.ts) | `[x]` | Next.js standalone output `< 120MB` image size, `~45MB` RSS (conditional on `DOCKER_BUILD=true` for local dev compatibility) |
 | **Dumb-Init Process Supervisor** | [`Dockerfile`](../../Dockerfile) | `[x]` | Handles PID 1 signal forwarding and prevents zombie processes |
 | **Non-Root User Hardening** | [`Dockerfile`](../../Dockerfile) | `[x]` | Executes strictly under unprivileged `mazuuser:nodejs` (UID 1001) |
-| **Docker Compose Orchestration** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Dual networks (`internal` + `outside`), upstream routing to port 3000 |
+| **Docker Compose Orchestration** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Dual networks (`internal` + `outside`), upstream routing to port 3000, persistent volume `mazu_storage` |
 | **Nginx SSL Reverse Proxy Config** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Outer label SSL configuration for `mazu.wit4you.com` |
 | **Engine & Linter Compliance** | [`package.json`](../../package.json) | `[x]` | `eslint@^10.12.0` and `@types/node@^22.20.5` with 0 linter errors |
 

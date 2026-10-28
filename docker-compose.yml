@@ -19,6 +19,8 @@ services:
     networks:
       - outside
       - internal
+    volumes:
+      - mazu_storage:/app/storage
     deploy:
       replicas: 1
       labels:
@@ -37,3 +39,8 @@ services:
           include ssl/*wit4you.com[.]conf;
           return 301 https://mazu.wit4you.com$$request_uri;
           }
+
+volumes:
+  mazu_storage:
+    driver: local
+

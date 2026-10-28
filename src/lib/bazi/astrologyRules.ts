@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { getConfig, configManager } from '@/lib/config/configManager';
+import { getAstrologyRulesFilePath } from '@/lib/storage/storageConfig';
 
 export interface ChapterRule {
   chapterIndex: number;
@@ -210,7 +211,7 @@ const DEFAULT_SOLAR_TERMS: SolarTermRule[] = [
 class AstrologyRulesService {
   private rules: AstrologyRules | null = null;
   private filePath = typeof process !== 'undefined' && typeof process.cwd === 'function' 
-    ? path.join(process.cwd(), 'data', 'astrology_rules.json') 
+    ? getAstrologyRulesFilePath() 
     : '';
 
   public getRules(): AstrologyRules {

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { getDatabase } from '@/lib/db/database';
+import { getConfigFilePath } from '@/lib/storage/storageConfig';
 
 export interface ConfigItem {
   key: string;
@@ -35,7 +36,7 @@ class ConfigManager {
   private isInitialized = false;
   private version = 1;
   private listeners: Set<ConfigListener> = new Set();
-  private readonly configFilePath = path.join(process.cwd(), 'data', 'app_config.json');
+  private readonly configFilePath = getConfigFilePath();
 
   constructor() {
     // Lazily initialized on first access
