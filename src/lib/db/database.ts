@@ -1,5 +1,5 @@
 import Database from 'better-sqlite3';
-import { getDatabasePath } from '@/lib/storage/storageConfig';
+import { getDatabasePath, ensureProperOwnership } from '@/lib/storage/storageConfig';
 
 let dbInstance: Database.Database | null = null;
 
@@ -10,6 +10,11 @@ export function getDatabase(): Database.Database {
 
   const dbPath = getDatabasePath();
   dbInstance = new Database(dbPath);
+
+  // If ever initialized by root, ensure file ownership belongs to mazuuser (1001:1001)
+  ensureProperOwnership(dbPath);
+  ensureProperOwnership(`${dbPath}-wal`);
+  ensureProperOwnership(`${dbPath}-shm`);
 
   // Enable WAL (Write-Ahead Logging) mode for maximum concurrency and performance
   dbInstance.pragma('journal_mode = WAL');

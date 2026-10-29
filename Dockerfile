@@ -29,13 +29,13 @@ ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN apk add --no-cache dumb-init libc6-compat
+RUN apk add --no-cache dumb-init libc6-compat su-exec
 
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 mazuuser
 
 # Dedicated persistent volume directory for mutable user vault & dynamic custom configs
-RUN mkdir -p /app/storage && chown -R mazuuser:nodejs /app/storage
+RUN mkdir -p /app/storage && chown -R mazuuser:nodejs /app/storage && chmod 775 /app/storage
 ENV STORAGE_DIR=/app/storage
 VOLUME ["/app/storage"]
 
@@ -50,12 +50,15 @@ COPY --from=builder --chown=mazuuser:nodejs /app/assets ./assets
 COPY --from=builder --chown=mazuuser:nodejs --chmod=755 /app/bin ./bin
 COPY --from=builder --chown=mazuuser:nodejs /app/package.json ./package.json
 
-# Create convenient global CLI commands in /usr/local/bin
-RUN ln -s /app/bin/admin.js /usr/local/bin/mazu-admin && \
-    ln -s /app/bin/config.js /usr/local/bin/mazu-config
+# Copy entrypoint script and privilege-dropping CLI wrappers
+COPY scripts/docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+COPY scripts/mazu-admin.sh /usr/local/bin/mazu-admin
+COPY scripts/mazu-config.sh /usr/local/bin/mazu-config
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh \
+             /usr/local/bin/mazu-admin \
+             /usr/local/bin/mazu-config
 
-USER mazuuser
 EXPOSE 3000
 
-ENTRYPOINT ["/usr/bin/dumb-init", "--"]
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 CMD ["node", "server.js"]

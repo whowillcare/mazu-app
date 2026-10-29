@@ -37,6 +37,16 @@ var import_better_sqlite3 = __toESM(require("better-sqlite3"));
 var import_path = __toESM(require("path"));
 var import_fs = __toESM(require("fs"));
 var resolvedStorageDir = null;
+function ensureProperOwnership(targetPath) {
+  try {
+    if (typeof process.getuid === "function" && process.getuid() === 0) {
+      if (import_fs.default.existsSync(targetPath)) {
+        import_fs.default.chownSync(targetPath, 1001, 1001);
+      }
+    }
+  } catch {
+  }
+}
 function getStorageDir() {
   if (resolvedStorageDir) {
     return resolvedStorageDir;
@@ -51,6 +61,7 @@ function getStorageDir() {
       }
     }
     resolvedStorageDir = envDir;
+    ensureProperOwnership(resolvedStorageDir);
     return resolvedStorageDir;
   }
   const defaultDir = import_path.default.join(process.cwd(), "storage");
@@ -87,6 +98,7 @@ function getStorageDir() {
     console.warn("[StorageConfig] Note during legacy data migration check:", err);
   }
   resolvedStorageDir = defaultDir;
+  ensureProperOwnership(resolvedStorageDir);
   return resolvedStorageDir;
 }
 function getDatabasePath() {
@@ -104,6 +116,9 @@ function getDatabase() {
   }
   const dbPath = getDatabasePath();
   dbInstance = new import_better_sqlite3.default(dbPath);
+  ensureProperOwnership(dbPath);
+  ensureProperOwnership(`${dbPath}-wal`);
+  ensureProperOwnership(`${dbPath}-shm`);
   dbInstance.pragma("journal_mode = WAL");
   dbInstance.pragma("synchronous = NORMAL");
   dbInstance.exec(`

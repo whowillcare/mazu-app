@@ -207,7 +207,7 @@
 | **Decoupled Storage Volume** | [`Dockerfile`](../../Dockerfile), [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Mounts persistent `/app/storage` without shadowing readonly `/app/data/canonical`; zero data loss on restart |
 | **Standalone Memory Footprint** | [`Dockerfile`](../../Dockerfile), [`next.config.ts`](../../next.config.ts) | `[x]` | Next.js standalone output `< 120MB` image size, `~45MB` RSS (conditional on `DOCKER_BUILD=true` for local dev compatibility) |
 | **Dumb-Init Process Supervisor** | [`Dockerfile`](../../Dockerfile) | `[x]` | Handles PID 1 signal forwarding and prevents zombie processes |
-| **Non-Root User Hardening** | [`Dockerfile`](../../Dockerfile) | `[x]` | Executes strictly under unprivileged `mazuuser:nodejs` (UID 1001) |
+| **Non-Root Hardening & su-exec** | [`Dockerfile`](../../Dockerfile), [`scripts/docker-entrypoint.sh`](../../scripts/docker-entrypoint.sh) | `[x]` | `docker-entrypoint.sh` auto-repairs host volume permissions (`chown -R mazuuser:nodejs /app/storage`) and drops privileges via `su-exec` to UID 1001; CLI wrappers auto-drop privileges |
 | **Docker Compose Orchestration** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Dual networks (`internal` + `outside`), upstream routing to port 3000, persistent volume `mazu_storage` |
 | **Nginx SSL Reverse Proxy Config** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Outer label SSL configuration for `mazu.wit4you.com` |
 | **Engine & Linter Compliance** | [`package.json`](../../package.json) | `[x]` | `eslint@^10.12.0` and `@types/node@^22.20.5` with 0 linter errors |

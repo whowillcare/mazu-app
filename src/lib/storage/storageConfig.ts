@@ -11,6 +11,16 @@ import fs from 'fs';
 
 let resolvedStorageDir: string | null = null;
 
+export function ensureProperOwnership(targetPath: string): void {
+  try {
+    if (typeof process.getuid === 'function' && process.getuid() === 0) {
+      if (fs.existsSync(targetPath)) {
+        fs.chownSync(targetPath, 1001, 1001);
+      }
+    }
+  } catch {}
+}
+
 export function getStorageDir(): string {
   if (resolvedStorageDir) {
     return resolvedStorageDir;
@@ -27,6 +37,7 @@ export function getStorageDir(): string {
       }
     }
     resolvedStorageDir = envDir;
+    ensureProperOwnership(resolvedStorageDir);
     return resolvedStorageDir;
   }
 
@@ -71,6 +82,7 @@ export function getStorageDir(): string {
   }
 
   resolvedStorageDir = defaultDir;
+  ensureProperOwnership(resolvedStorageDir);
   return resolvedStorageDir;
 }
 
