@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run build:cli",
+    "build:cli": "esbuild scripts/manage_admin.ts --bundle --platform=node --target=node24 --external:better-sqlite3 --outfile=bin/admin.js && esbuild scripts/manage_config.ts --bundle --platform=node --target=node24 --external:better-sqlite3 --outfile=bin/config.js && chmod +x bin/admin.js bin/config.js",
     "start": "next start",
     "lint": "eslint",
-    "admin": "tsx scripts/manage_admin.ts",
-    "config": "tsx scripts/manage_config.ts"
+    "admin": "node bin/admin.js",
+    "config": "node bin/config.js"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",
@@ -24,6 +25,7 @@
     "@types/node": "^22.20.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "esbuild": "^0.28.2",
     "eslint": "^10.12.0",
     "eslint-config-next": "^16.4.3",
     "tsx": "^4.23.15",

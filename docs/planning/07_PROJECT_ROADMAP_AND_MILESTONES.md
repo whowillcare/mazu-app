@@ -211,6 +211,7 @@
 | **Docker Compose Orchestration** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Dual networks (`internal` + `outside`), upstream routing to port 3000, persistent volume `mazu_storage` |
 | **Nginx SSL Reverse Proxy Config** | [`docker-compose.yml`](../../docker-compose.yml) | `[x]` | Outer label SSL configuration for `mazu.wit4you.com` |
 | **Engine & Linter Compliance** | [`package.json`](../../package.json) | `[x]` | `eslint@^10.12.0` and `@types/node@^22.20.5` with 0 linter errors |
+| **Standalone CLI Binaries (Zero tsx)** | [`Dockerfile`](../../Dockerfile), [`package.json`](../../package.json) | `[x]` | Admin & config CLIs pre-compiled via `esbuild` into standalone `/app/bin/` with `mazu-admin` & `mazu-config` symlinks; zero `tsx` dependency in production |
 
 ---
 

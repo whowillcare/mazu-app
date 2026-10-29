@@ -56,7 +56,7 @@ The platform features a protected administrative studio and stealth URL directiv
 
 ### CLI Management Script (`scripts/manage_admin.ts`)
 
-Execute admin commands using `npm run admin -- <command>` or `npx tsx scripts/manage_admin.ts <command>`:
+Execute admin commands using `npm run admin -- <command>` (or `node bin/admin.js <command>`):
 
 | Command | Syntax | Description |
 | :--- | :--- | :--- |
@@ -99,7 +99,7 @@ npm run admin -- list
 
 Manage platform credentials, AI inference endpoints, Stripe keys, and system directives directly from the command line with live hot-reloading:
 
-Execute config commands using `npm run config -- <command> [options]` or `npx tsx scripts/manage_config.ts <command> [options]`:
+Execute config commands using `npm run config -- <command> [options]` (or `node bin/config.js <command> [options]`):
 
 | Command | Syntax | Description |
 | :--- | :--- | :--- |
@@ -153,7 +153,30 @@ npm run config -- reload
 # 🎉 Live application hot-reload confirmed successfully!
 ```
 
-> **⚡ Live Hot-Reload Guarantee**: Changes applied via `npm run config -- set` or `npm run config -- del` are automatically broadcast to the running Next.js instance via `/api/config/reload` and file system watchers, triggering live Server-Sent Events (SSE) updates across active admin dashboards without restarting the server or dropping connections.
+---
+
+### 🐳 Production Docker Container CLI Access (Zero `tsx` Dependency)
+
+In the production container, CLI tools are pre-compiled during the multi-stage build into standalone JavaScript binaries located at `/app/bin/` and symlinked to `/usr/local/bin/`. They execute directly via standard Alpine `node` without requiring `tsx`, `typescript`, or build toolchains:
+
+```bash
+# 1. Manage Admins in Production Container:
+docker exec -it mazu_lots_app mazu-admin list
+docker exec -it mazu_lots_app mazu-admin add master StrongPassw0rd!
+docker exec -it mazu_lots_app mazu-admin set-path /secret-gate
+docker exec -it mazu_lots_app mazu-admin set-ttl 8
+
+# 2. Manage Configuration & Live Hot-Reload in Production Container:
+docker exec -it mazu_lots_app mazu-config list
+docker exec -it mazu_lots_app mazu-config set AI_API_KEY "sk-live-..." --secret -c ai
+docker exec -it mazu_lots_app mazu-config reload
+
+# Alternatively using standard node directly:
+docker exec -it mazu_lots_app node bin/admin.js list
+docker exec -it mazu_lots_app node bin/config.js list
+```
+
+> **⚡ Live Hot-Reload Guarantee**: Changes applied via `npm run config -- set` or `npm run config -- del` (or inside containers via `mazu-config set`) are automatically broadcast to the running Next.js instance via `/api/config/reload` and file system watchers, triggering live Server-Sent Events (SSE) updates across active admin dashboards without restarting the server or dropping connections.
 
 ---
 

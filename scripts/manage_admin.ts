@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env node
 /**
  * ==============================================================================
  * Mazu Lots System - Local Admin & Configuration CLI Manager

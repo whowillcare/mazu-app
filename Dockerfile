@@ -29,7 +29,7 @@ ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN apk add --no-cache dumb-init
+RUN apk add --no-cache dumb-init libc6-compat
 
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 mazuuser
@@ -45,6 +45,14 @@ COPY --from=builder --chown=mazuuser:nodejs /app/.next/static ./.next/static
 # Readonly canonical dataset (shipped with image, never shadowed by volume mounts)
 COPY --from=builder --chown=mazuuser:nodejs /app/data/canonical ./data/canonical
 COPY --from=builder --chown=mazuuser:nodejs /app/assets ./assets
+
+# Standalone compiled CLI management utilities (pure Node.js, zero tsx/dev dependency)
+COPY --from=builder --chown=mazuuser:nodejs --chmod=755 /app/bin ./bin
+COPY --from=builder --chown=mazuuser:nodejs /app/package.json ./package.json
+
+# Create convenient global CLI commands in /usr/local/bin
+RUN ln -s /app/bin/admin.js /usr/local/bin/mazu-admin && \
+    ln -s /app/bin/config.js /usr/local/bin/mazu-config
 
 USER mazuuser
 EXPOSE 3000
