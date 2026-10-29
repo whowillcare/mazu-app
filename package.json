@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "admin": "tsx scripts/manage_admin.ts"
+    "admin": "tsx scripts/manage_admin.ts",
+    "config": "tsx scripts/manage_config.ts"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",

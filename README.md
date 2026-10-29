@@ -95,6 +95,68 @@ npm run admin -- list
 
 ---
 
+### Configuration Manager CLI (`scripts/manage_config.ts`)
+
+Manage platform credentials, AI inference endpoints, Stripe keys, and system directives directly from the command line with live hot-reloading:
+
+Execute config commands using `npm run config -- <command> [options]` or `npx tsx scripts/manage_config.ts <command> [options]`:
+
+| Command | Syntax | Description |
+| :--- | :--- | :--- |
+| **List Settings** | `npm run config -- list` | Lists all configuration items with category, masked secrets, and update dates |
+| **View Secrets** | `npm run config -- list --show-secrets` | Displays full unmasked secret keys, API tokens, and passwords |
+| **Filter Category** | `npm run config -- list -c <category>` | Filters settings by category (`ai`, `payment`, `system`) |
+| **Get Setting** | `npm run config -- get <KEY> [--show-secrets]` | Displays full metadata, values, and description for a specific key |
+| **Add / Modify** | `npm run config -- set <KEY> <VALUE> [options]` | Sets a configuration value, updates the persistent vault, and triggers live hot-reload |
+| **Remove Setting** | `npm run config -- del <KEY>` | Removes a configuration setting from persistent storage and triggers live hot-reload |
+| **Hot Reload** | `npm run config -- reload` | Signals the running application to reload configurations in memory immediately |
+| **Reset Defaults** | `npm run config -- reset --force` | Restores all settings to system factory defaults |
+
+#### CLI Options:
+- `--show-secrets`, `-s`: Unmask secret values in console output
+- `--category`, `-c <cat>`: Target category (`ai`, `payment`, `system`)
+- `--secret` / `--no-secret`: Force setting encryption/masking state
+- `--desc`, `-d <text>`: Set descriptive annotation for setting
+- `--url <url>`: Target running server URL for live reload notification (default: `http://localhost:3000`)
+- `--no-reload`: Skip triggering live HTTP reload on the running app
+- `--json`: Output results formatted as JSON
+
+#### Configuration CLI Usage Examples:
+```bash
+# List all current configuration settings
+npm run config -- list
+
+# List with secrets revealed
+npm run config -- list --show-secrets
+
+# Configure AI LLM endpoint and API secret token
+npm run config -- set AI_API_KEY "sk-ant-live-token-xyz" --secret -c ai -d "Production AI gateway key"
+npm run config -- set AI_MODEL_NAME "deepseek-chat" -c ai
+npm run config -- set AI_API_ENDPOINT "https://api.deepseek.com/v1" -c ai
+
+# Update system directives
+npm run config -- set ADMIN_URL_PATH "/portal" -c system
+npm run config -- set DEFAULT_CURRENCY "USD" -c system
+
+# Inspect a specific setting
+npm run config -- get AI_API_KEY --show-secrets
+
+# Delete an obsolete custom setting
+npm run config -- del CUSTOM_TEMP_FLAG
+
+# Trigger live reload across the running application
+npm run config -- reload
+# Output:
+# 🔄 Triggering live configuration reload...
+# ✅ Local configuration cache reloaded (v4, 11 items).
+# ⚡ Live Reload: Running app at http://localhost:3000 refreshed lively! (Config v4, 11 keys active)
+# 🎉 Live application hot-reload confirmed successfully!
+```
+
+> **⚡ Live Hot-Reload Guarantee**: Changes applied via `npm run config -- set` or `npm run config -- del` are automatically broadcast to the running Next.js instance via `/api/config/reload` and file system watchers, triggering live Server-Sent Events (SSE) updates across active admin dashboards without restarting the server or dropping connections.
+
+---
+
 ## 🔐 Protected Admin Studio
 
 - **Stealth Access Only**: The administrative area has no visible links or buttons anywhere in the public seeker UI.

@@ -187,6 +187,7 @@ class ConfigManager {
     }
 
     this.isInitialized = true;
+    this.setupFileWatcher();
   }
 
   public get(key: string): string | undefined {
@@ -343,6 +344,74 @@ class ConfigManager {
     return { version: this.version };
   }
 
+  public delete(key: string): boolean {
+    this.init();
+    const existing = this.cache.get(key);
+    if (!existing) return false;
+
+    this.cache.delete(key);
+    this.version += 1;
+
+    try {
+      const db = getDatabase();
+      db.prepare('DELETE FROM app_configurations WHERE key = ?').run(key);
+    } catch (err) {
+      console.error('[ConfigManager] Delete error in DB:', err);
+    }
+
+    this.persistToFile();
+    this.notifyListeners([key]);
+    return true;
+  }
+
+  public reload(): { reloaded: boolean; count: number; version: number; keys: string[] } {
+    this.isInitialized = false;
+    this.cache.clear();
+    this.init();
+    this.version += 1;
+    const allKeys = Array.from(this.cache.keys());
+    this.notifyListeners(allKeys);
+    return {
+      reloaded: true,
+      count: this.cache.size,
+      version: this.version,
+      keys: allKeys,
+    };
+  }
+
+  public getAllConfigs(): ConfigItem[] {
+    this.init();
+    return Array.from(this.cache.values());
+  }
+
+  private watcherInitialized = false;
+
+  private setupFileWatcher() {
+    if (this.watcherInitialized) return;
+    this.watcherInitialized = true;
+    try {
+      if (typeof fs !== 'undefined' && fs.existsSync && fs.existsSync(this.configFilePath)) {
+        let debounceTimer: NodeJS.Timeout | null = null;
+        const watcher = fs.watch(this.configFilePath, (eventType) => {
+          if (eventType === 'change') {
+            if (debounceTimer) clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+              console.log('[ConfigManager] Detected external update to config file, performing live reload...');
+              this.reload();
+            }, 150);
+            if (debounceTimer.unref) debounceTimer.unref();
+          }
+        });
+        if (watcher.unref) {
+          watcher.unref();
+        }
+      }
+    } catch (err) {
+      // In some environments (e.g. read-only fs or restricted containers), watch might not be supported
+      console.warn('[ConfigManager] Note on file watcher:', err);
+    }
+  }
+
   private persistToFile() {
     try {
       const dir = path.dirname(this.configFilePath);
@@ -432,3 +501,26 @@ export function getConfig(key: string): string | undefined {
 export function getBooleanConfig(key: string, defaultValue = false): boolean {
   return configManager.getBoolean(key, defaultValue);
 }
+
+export function setConfig(
+  key: string,
+  value: string,
+  category?: 'ai' | 'payment' | 'system',
+  isSecret?: boolean,
+  description?: string
+): void {
+  configManager.set(key, value, category, isSecret, description);
+}
+
+export function deleteConfig(key: string): boolean {
+  return configManager.delete(key);
+}
+
+export function reloadConfig() {
+  return configManager.reload();
+}
+
+export function getAllConfigs(): ConfigItem[] {
+  return configManager.getAllConfigs();
+}
+
