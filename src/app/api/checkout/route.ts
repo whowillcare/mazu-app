@@ -25,13 +25,14 @@ export async function POST(request: Request) {
     }
 
     const gateway = getPaymentGateway(provider);
-    const amountCents = itemType === 'single_report' ? 299 : 1199;
+    const amountCents = itemType === 'single_report' || itemType === 'master_pack' ? 299 : 999;
     const origin = request.headers.get('origin') || 'http://localhost:3000';
+    const mappedItemType = itemType === 'master_pack' ? 'single_report' : itemType;
 
     const sessionResult = await gateway.createCheckoutSession({
       userId,
       userEmail,
-      itemType,
+      itemType: mappedItemType,
       lotNumber,
       amountCents,
       currency: 'USD',
@@ -51,7 +52,13 @@ export async function POST(request: Request) {
 
     // If simulated session, grant entitlement directly
     if (sessionResult.sessionId.startsWith('cs_test_')) {
-      EntitlementService.grantEntitlement(userId, `lot_report_${lotNumber}`, provider, sessionResult.sessionId);
+      const planId =
+        itemType === 'subscription'
+          ? 'subscription'
+          : itemType === 'master_pack'
+          ? `master_pack_${Date.now()}`
+          : `lot_report_${lotNumber}`;
+      EntitlementService.grantEntitlement(userId, planId, provider, sessionResult.sessionId);
     }
 
     return NextResponse.json({

@@ -145,6 +145,87 @@ Upon payment, the user unlocks the full 9-section narrative report:
 
 ---
 
+## 8. Online AI Oracle Masters (宗師在線問答), RAG Personalization Knowledge Base & Two-Stage Intent Architecture
+
+To transform static metaphysical reports into interactive, living counsel, the Personalization Engine exposes its entire analytical graph to **Multiple Customizable AI Oracle Masters** managed dynamically through the Admin Portal.
+
+```mermaid
+graph TD
+    UserQ[Seeker Consultation Message] --> Gate1{1. Eligibility & Quota Gate}
+    Gate1 -->|Unregistered & No Birth Info| BlockReg[Prompt Registration or Birth Ephemeris Input]
+    Gate1 -->|Quota Exhausted| BlockPay[Prompt Single Payment +3 Qs or Monthly Subscription]
+    Gate1 -->|Eligible & Has Quota| Stage1[2. Stage 1: Lightweight Low-Cost AI Intent Classifier]
+    
+    Stage1 -->|Off-Topic or Outside Master's Confined Domains| Reject[Short-Circuit Refusal in Master Persona + Suggest Matching Master]
+    Stage1 -->|Valid Domain & Intent Verified| RAG[3. Dynamic Personalization Engine RAG Retriever]
+    
+    subgraph Personalization Engine RAG Knowledge Base
+        R_Bazi[User Four Pillars + True Solar Time + Rectified Hour]
+        R_Palace[Ten Gods + Spouse/Children/Career Palaces + 4 Treasuries]
+        R_Lot[Drawn Lot Ganzhi, Quatrain Verse, Story Allusion & Domain Guide]
+        R_Life[Targeted 9-Section Life Book Chapters & 2026-2028 Transits]
+        R_Custom[Master-Specific Custom Lore & Canon RAG Documents]
+    end
+    
+    RAG --> R_Bazi & R_Palace & R_Lot & R_Life & R_Custom
+    R_Bazi & R_Palace & R_Lot & R_Life & R_Custom --> Stage2[4. Stage 2: Master Persona LLM Synthesis]
+    Stage2 --> Deduct[Deduct 1 Question Credit & Persist Audit Trail]
+    Deduct --> Reply[Deliver Grounded, Non-Fatalistic Master Counsel]
+```
+
+### 8.1 Admin-Definable Multi-Master Architecture
+Each online Master is a structured entity (`OracleMaster`) configurable via the Protected Admin Studio (`/mod`):
+1. **Predefined RAG Knowledge Base (`ragConfig`)**:
+   - Directly converts the Personalization Engine into a live Retrieval-Augmented Generation (RAG) context graph.
+   - Configurable engine slices per Master:
+     - **BaZi Natal Ephemeris**: Gregorian/Solar-adjusted birth time, Four Pillars (`年月日時`), Day Master (`日主`) strength, and Five Elements balance.
+     - **Ten Gods & Palace Mechanics**: `十神` relationships, Spouse Palace (`日支夫妻宮`), Career Pillar (`月令提綱`), Children/Late-Life Pillar (`時支子女宮`), and Four Treasuries (`辰戌丑未`).
+     - **Drawn Lot Canon**: The active 60 Jiazi Lot, classical 7-character quatrain, historical protagonist story, and 13-domain guidance.
+     - **9-Section Life Book & Transits**: Targeted chapters from the Life Book and 2026–2028 annual/solar term triggers (`應期`).
+     - **Custom RAG Knowledge Documents**: Admin-curated doctrinal passages, temple lore, and hermeneutic rules indexed by domain and keyword.
+2. **Predefined Characteristics (`characteristics`)**:
+   - **Persona & Archetype**: Custom bilingual name, title, seal stamp, and lineage description (e.g., *Master Xuanzhen · 玄真宗師*, *Master Cihang · 慈航大士*, *Master Tianji · 天機星君*).
+   - **Personality, Tone & Speaking Style**: Configurable warmth, classical cadence vs. executive directness, philosophical framing, greeting templates, and custom system prompt overrides.
+3. **Confined Topics & Allowed Categories (`confinedTopics`)**:
+   - Each Master is strictly restricted to an admin-defined subset of the 13 Canonical Domains (`allowedDomains`) and approved metaphysical inquiry types (`allowedTopicKeywords`).
+   - Explicit guardrails block off-topic chatter (coding, politics, medical prescriptions, financial ticker speculation, prompt injection).
+   - Out-of-scope inquiries receive an in-character refusal and automatic recommendation of another Master whose confined domains match the seeker's topic.
+
+### 8.2 Seeker Eligibility Gate & Customizable Tiered Question Quotas
+Access to the Masters is governed by an admin-configurable entitlement policy (`MasterQuotaPolicy`):
+1. **Identity & Ephemeris Gate**:
+   - Only seekers who have **registered** (email/profile) **OR** who have **specified their birth information** (birth date, time/rectified hour, and city longitude) can initiate a consultation with a Master.
+2. **Tiered Question Quotas (Admin-Customizable)**:
+   - **Unpaid Eligible Seekers**: Can ask **`1` question** (default, customizable via `MASTER_QUOTA_UNPAID` in Admin Portal).
+   - **Paid Seekers (Per Single Payment)**: Receive **`3` questions per payment** (default, customizable via `MASTER_QUOTA_PAID_PER_PAYMENT`). Each additional single payment stacks `+3` questions onto the seeker's balance.
+   - **Monthly Subscribers**: Receive **`30` questions per month** (default, customizable via `MASTER_QUOTA_SUBSCRIBER_MONTHLY`, supporting high-volume or unlimited `-1` configuration).
+   - **Fair Guardrail Accounting**: Off-topic questions intercepted by Stage 1 do not deduct from the seeker's question balance by default (`MASTER_CHARGE_ON_REJECTED = false`, customizable in Admin Portal).
+
+### 8.3 Two-Stage Cost-Optimized AI Intent Routing
+To minimize token consumption and inference latency:
+- **Stage 1: Lightweight Lower-Cost AI Intent Classifier (`classifyMasterIntent`)**:
+  - Uses a fast, low-cost model (`AI_LIGHTWEIGHT_MODEL_NAME`, e.g., `gpt-4o-mini`, `deepseek-chat`, or compact local endpoint with `max_tokens: 120` and `temperature: 0.0`) paired with a zero-latency deterministic pre-filter.
+  - Evaluates: (a) whether the inquiry is a genuine metaphysical/life-domain question, (b) which of the 13 canonical domains it belongs to, (c) whether that domain is permitted by the target Master's `allowedDomains`, and (d) which specific RAG slices (`relevantRagScopes`) are required.
+  - **Immediate Short-Circuit**: If the question falls outside predefined categories, Stage 2 is bypassed entirely—eliminating expensive RAG context assembly and primary LLM generation costs.
+- **Stage 2: Selective RAG Context Assembly & Master Persona Synthesis (`generateMasterResponse`)**:
+  - Only retrieves the Personalization Engine slices flagged by Stage 1 (`relevantRagScopes`), keeping prompt tokens compact and focused.
+  - Synthesizes the response in the Master's exact persona, grounding every insight in the seeker's actual Day Master, Natal Palaces, and Drawn Lot verse.
+
+---
+
+## 9. Personalization & AI Master Functions Todo Matrix
+
+- [x] **Function 1**: `MasterRepository` (`src/lib/masters/masterRepository.ts`) — Multi-master CRUD, default 3 canonical masters (*玄真宗師*, *慈航大士*, *天機星君*), custom RAG document indexing, and persistent JSON/SQLite storage.
+- [x] **Function 2**: `MasterQuotaService` (`src/lib/masters/quotaService.ts`) — Registration & birth-info gate verification, dynamic quota computation (Unpaid = 1, Paid = 3/payment, Subscriber = 30/mo), admin policy live hot-reload, and SQLite usage ledger.
+- [x] **Function 3**: `Stage1IntentClassifier` (`src/lib/masters/masterChatEngine.ts`) — Lightweight low-cost AI intent categorizer + deterministic guardrail pre-filter, confined domain enforcement, cross-master routing suggestion, and selective RAG scope tagging.
+- [x] **Function 4**: `PersonalizationRagBuilder` (`src/lib/masters/masterChatEngine.ts`) — Converts `baziEngine`, `hourRectification`, `lotsRepository`, `astrologyRules`, and custom Master lore into compact, structured RAG prompts.
+- [x] **Function 5**: `Stage2MasterSynthesizer` (`src/lib/masters/masterChatEngine.ts`) — Persona-driven LLM response generator with rich chart-aware deterministic synthesis fallback.
+- [x] **Function 6**: REST APIs (`/api/masters`, `/api/masters/chat`, `/api/masters/quota`, `/api/admin/masters`) — Full public & protected admin endpoints.
+- [x] **Function 7**: Admin Portal Studio (`src/components/admin/AdminPortal.tsx`) — Full UI for creating/editing Masters, RAG knowledge bases, characteristics, confined categories, quota policies, and live Stage-1/Stage-2 testing sandbox.
+- [x] **Function 8**: Interactive Seeker Master Sanctuary UI (`src/components/masters/OracleMasterChat.tsx` & `src/app/page.tsx`) — Multi-master selector, birth/registration gate modal, live quota counter, RAG source transparency badges, and instant top-up/subscription triggers.
+
+---
+
 ## 🧭 Planning Navigation (Relative Links)
 - [00. Executive Summary](./00_EXECUTIVE_SUMMARY.md)
 - [01. Product Requirements Document](./01_PRODUCT_REQUIREMENTS_DOCUMENT.md)
@@ -154,5 +235,6 @@ Upon payment, the user unlocks the full 9-section narrative report:
 - [05. Technical Architecture & Multi-Platform Strategy](./05_TECHNICAL_ARCHITECTURE_AND_MULTI_PLATFORM.md)
 - [06. Compliance, Legal & Payment Specifications](./06_COMPLIANCE_LEGAL_AND_PAYMENTS.md)
 - [07. Project Roadmap & Milestones](./07_PROJECT_ROADMAP_AND_MILESTONES.md)
+- [13. AI Oracle Masters & RAG Chatbot Specification](./13_AI_ORACLE_MASTERS_AND_RAG_CHATBOT_SPEC.md)
 - [Root README](../../README.md)
 

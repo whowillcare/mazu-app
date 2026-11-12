@@ -1,7 +1,7 @@
 # 07. Master Modules & Functions Roadmap (Living Implementation Matrix)
 
 > **Document Status**: Living Architectural Matrix & Implementation Tracker  
-> **Last Updated**: 2026-10-27  
+> **Last Updated**: 2026-11-11  
 > **Master Progress**: **99% of Core Web Platform Implemented & Operational**  
 > **Canon Asset Readiness**: **60 / 60 Cards Normalized via SvgLotCard (100%)**
 
@@ -28,6 +28,7 @@
 │ 11. Multi-Stage Docker & Compose  │ [x] Complete │ 100% (Node 24)      │
 │ 12. Mobile Apps (React Native)    │ [ ] Planned  │ Phase 4 Backlog     │
 │ 13. Protected Admin & Logic Studio│ [x] Complete │ 100% Operational    │
+│ 14. AI Oracle Masters & RAG Chat  │ [x] Complete │ 100% Operational    │
 └───────────────────────────────────┴──────────────┴─────────────────────┘
 ```
 
@@ -246,6 +247,23 @@
 
 ---
 
+### Module 14: AI Oracle Masters, Personalization RAG Knowledge Base & Tiered Quota Chatbot Engine
+**Location**: `src/lib/masters/`, `src/lib/types/masters.ts`, `src/app/api/masters/`, `src/app/api/admin/masters/`, `src/components/masters/OracleMasterChat.tsx`, `docs/planning/13_AI_ORACLE_MASTERS_AND_RAG_CHATBOT_SPEC.md`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Multi-Master Schema & Canonical Personas** | [`src/lib/types/masters.ts`](../../src/lib/types/masters.ts), [`src/lib/masters/masterRepository.ts`](../../src/lib/masters/masterRepository.ts) | `[x]` | Defines customizable Masters (*玄真宗師*, *慈航大士*, *天機星君*) with RAG configs, characteristics, tones & confined categories |
+| **Personalization Engine RAG Converter** | [`src/lib/masters/masterChatEngine.ts`](../../src/lib/masters/masterChatEngine.ts), [`src/lib/bazi/baziEngine.ts`](../../src/lib/bazi/baziEngine.ts) | `[x]` | Converts seeker's BaZi Four Pillars, Ten Gods, Palaces, Drawn Lot, 9-Section Life Book & dynamic rolling Annual Transits (`currentYear` to `currentYear + N` + on-demand queried year calculation) into structured RAG knowledge |
+| **Custom Master Knowledge Base (RAG Docs)** | [`src/lib/masters/masterRepository.ts`](../../src/lib/masters/masterRepository.ts) | `[x]` | Admin-definable custom lore & doctrinal passages per Master with semantic/keyword retrieval |
+| **Stage 1: Lightweight Low-Cost Intent Classifier** | [`src/lib/masters/masterChatEngine.ts`](../../src/lib/masters/masterChatEngine.ts) | `[x]` | Ultra-fast, low-cost AI intent categorizer + deterministic guardrail pre-filter; blocks off-topic queries before expensive RAG/Stage-2 LLM execution |
+| **Confined Topics & Cross-Master Routing** | [`src/lib/masters/masterChatEngine.ts`](../../src/lib/masters/masterChatEngine.ts) | `[x]` | Enforces per-master allowed domains (`allowedDomains`), returns in-character refusal for out-of-scope topics, and recommends the matching Master |
+| **Registration & Birth Ephemeris Access Gate** | [`src/lib/masters/quotaService.ts`](../../src/lib/masters/quotaService.ts) | `[x]` | Restricts Master consultation to seekers who have registered OR specified their birth info (date, time/rectified hour, city) |
+| **Tiered & Customizable Question Quotas** | [`src/lib/masters/quotaService.ts`](../../src/lib/masters/quotaService.ts), [`src/lib/config/configManager.ts`](../../src/lib/config/configManager.ts) | `[x]` | Default: Unpaid = `1` question, Paid = `3` questions per payment, Monthly Subscriber = `30` questions/mo; fully customizable in Admin Portal |
+| **Admin Portal: Masters & Quota Studio** | [`src/components/admin/AdminPortal.tsx`](../../src/components/admin/AdminPortal.tsx), [`src/app/api/admin/masters/route.ts`](../../src/app/api/admin/masters/route.ts) | `[x]` | Full Admin UI to create/edit/delete Masters, customize personalities/tones, manage RAG documents, tune quota policies, and test Stage 1/2 live |
+| **Seeker Master Consultation Sanctuary UI** | [`src/components/masters/OracleMasterChat.tsx`](../../src/components/masters/OracleMasterChat.tsx), [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Interactive multi-master chat drawer & embedded sanctuary panel with RAG source badges, intent tags, quota meter, and 1-click top-up |
+
+---
+
 ## 3. Phased Implementation Milestones
 
 ```mermaid
@@ -302,4 +320,5 @@ When updating modules or completing functional roadmap items:
 - [10. UI Page Mockups & Functional Flows](./10_UI_PAGE_MOCKUPS_AND_FUNCTIONAL_FLOWS.md)
 - [11. Lot Card Artwork Catalog & Inventory](./11_LOT_CARD_ARTWORK_CATALOG.md)
 - [12. Card Component Architecture & Refactoring](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md)
+- [13. AI Oracle Masters & RAG Chatbot Specification](./13_AI_ORACLE_MASTERS_AND_RAG_CHATBOT_SPEC.md)
 - [Root README](../../README.md)

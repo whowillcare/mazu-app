@@ -102,6 +102,10 @@ export function getCustomLotsFilePath(): string {
   return path.join(getStorageDir(), 'lots_custom.json');
 }
 
+export function getMastersConfigFilePath(): string {
+  return path.join(getStorageDir(), 'masters_config.json');
+}
+
 export function getCanonicalLotsFilePath(): string {
   // Readonly canonical dataset shipped with the codebase/image
   return path.join(process.cwd(), 'data', 'canonical', 'lots_compiled.json');

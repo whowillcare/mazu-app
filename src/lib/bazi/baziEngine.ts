@@ -343,13 +343,143 @@ export function getTenGodRelation(subjectStem: string, targetStem: string): { zh
     : { zh: '正官（端方秩序 · 制度確立）', en: 'Direct Officer (Zheng Guan · Legitimate Authority)', category: 'officer' };
 }
 
+export const STEM_PINYIN: Record<string, string> = {
+  甲: 'Jia',
+  乙: 'Yi',
+  丙: 'Bing',
+  丁: 'Ding',
+  戊: 'Wu',
+  己: 'Ji',
+  庚: 'Geng',
+  辛: 'Xin',
+  壬: 'Ren',
+  癸: 'Gui',
+};
+
+export const BRANCH_PINYIN: Record<string, string> = {
+  子: 'Zi',
+  丑: 'Chou',
+  寅: 'Yin',
+  卯: 'Mao',
+  辰: 'Chen',
+  巳: 'Si',
+  午: 'Wu',
+  未: 'Wei',
+  申: 'Shen',
+  酉: 'You',
+  戌: 'Xu',
+  亥: 'Hai',
+};
+
+export interface YearGanzhiInfo {
+  year: number;
+  stem: HeavenlyStem;
+  branch: EarthlyBranch;
+  ganzhi: string;
+  pinyin: string;
+  stemElement: ElementType;
+  stemElementZh: string;
+  branchElement: ElementType;
+  branchElementZh: string;
+  palaceZh: string;
+  palaceEn: string;
+}
+
+/**
+ * Dynamically computes the Sexagenary (60 Jiazi) Stem, Branch, Pinyin, and Elemental attributes for ANY solar year.
+ */
+export function getYearGanzhi(year: number): YearGanzhiInfo {
+  const offset = ((year - 1984) % 60 + 60) % 60;
+  const stem = HEAVENLY_STEMS[offset % 10];
+  const branch = EARTHLY_BRANCHES[offset % 12];
+  const sInfo = STEM_INFO[stem] || STEM_INFO['甲'];
+  const bInfo = BRANCH_INFO[branch] || BRANCH_INFO['子'];
+
+  return {
+    year,
+    stem,
+    branch,
+    ganzhi: `${stem}${branch}`,
+    pinyin: `${STEM_PINYIN[stem] || stem}-${BRANCH_PINYIN[branch] || branch}`,
+    stemElement: sInfo.element,
+    stemElementZh: sInfo.elementZh,
+    branchElement: bInfo.element,
+    branchElementZh: bInfo.elementZh,
+    palaceZh: bInfo.palaceZh,
+    palaceEn: bInfo.palaceEn,
+  };
+}
+
+/**
+ * Dynamically computes how a specific solar year's Ganzhi interacts with the seeker's Natal Four Pillars.
+ */
+export function calculateYearTransitForChart(
+  pillars: FourPillars,
+  targetYear: number
+): PredictiveMilestoneItem {
+  const yInfo = getYearGanzhi(targetYear);
+  const dmRel = getTenGodRelation(pillars.day.stem, yInfo.stem);
+  const isTreasury = ['辰', '戌', '丑', '未'].includes(yInfo.branch);
+  const isSkyHorse = ['寅', '申', '巳', '亥'].includes(yInfo.branch);
+
+  if (isTreasury) {
+    return {
+      year: targetYear,
+      ganzhi: yInfo.ganzhi,
+      titleZh: `${targetYear} 年（${yInfo.ganzhi}）：太歲入庫 · ${dmRel.zh.split('（')[0]}主事與資產沉澱之年`,
+      titleEn: `${targetYear} (${yInfo.pinyin}): Treasury Consolidation — ${dmRel.en.split('(')[0].trim()} & Capital Anchoring`,
+      domainZh: '財帛庫藏 / 基業永續',
+      domainEn: 'Wealth & Asset Treasury',
+      polarityZh: `厚積成林 · ${yInfo.branch}庫合化`,
+      polarityEn: 'Consolidation Anchor',
+      mechanismZh: `${targetYear} 歲君【${yInfo.ganzhi}】（${yInfo.stemElementZh} / ${yInfo.branchElementZh}）天干透出【${dmRel.zh}】，地支【${yInfo.branch}】引動命局庫位，主資本實質性沉澱、合約收益兌現與長期護城河鎖定。`,
+      mechanismEn: `${targetYear} Annual Pillar ${yInfo.ganzhi} (${yInfo.pinyin}) activates ${dmRel.en} in the heavenly stems while ${yInfo.branch} stimulates the earthly treasury (${yInfo.palaceEn}), signaling tangible asset locking and sustainable compounding.`,
+      strategicActionZh: `將前期收益轉化為防守型核心資產，善用【${yInfo.ganzhi}】庫藏之氣簽署長期合作框架協議，建立制度化財富屏障。`,
+      strategicActionEn: `Channel liquidity into defensive yield-generating assets and institutional partnership trusts during the ${targetYear} ${yInfo.pinyin} window.`,
+    };
+  }
+
+  if (isSkyHorse) {
+    return {
+      year: targetYear,
+      ganzhi: yInfo.ganzhi,
+      titleZh: `${targetYear} 年（${yInfo.ganzhi}）：驛馬星動 · ${dmRel.zh.split('（')[0]}引領與跨界遠征之年`,
+      titleEn: `${targetYear} (${yInfo.pinyin}): Sky Horse Expansion — ${dmRel.en.split('(')[0].trim()} & Strategic Mobility`,
+      domainZh: '宏觀佈局 / 跨界開拓',
+      domainEn: 'Global Expansion & Mobility',
+      polarityZh: `動靜相生 · ${yInfo.branch}馬奔馳`,
+      polarityEn: 'Strategic Mobility',
+      mechanismZh: `${targetYear} 歲君【${yInfo.ganzhi}】地支【${yInfo.branch}】驛馬星動，天干顯化【${dmRel.zh}】。氣機預示跨地域流動、遠方市場拓展或跨賽道融合突破。`,
+      mechanismEn: `${targetYear} (${yInfo.pinyin}) activates the Traveling Horse (驛馬) star via branch ${yInfo.branch} alongside ${dmRel.en}, catalyzing cross-border expansion and new market breakthroughs.`,
+      strategicActionZh: `放眼遠方市場或全新賽道，借【${yInfo.ganzhi}】驛馬之勢主動開拓第二增長曲線。`,
+      strategicActionEn: `Explore international markets or adjacent industry frontiers to establish secondary growth curves in ${targetYear}.`,
+    };
+  }
+
+  return {
+    year: targetYear,
+    ganzhi: yInfo.ganzhi,
+    titleZh: `${targetYear} 年（${yInfo.ganzhi}）：${yInfo.stemElementZh.split(' · ')[1] || yInfo.stemElementZh}司權 · ${dmRel.zh.split('（')[0]}破圈與主權確權之年`,
+    titleEn: `${targetYear} (${yInfo.pinyin}): ${yInfo.stemElement} Apex — ${dmRel.en.split('(')[0].trim()} & Sovereign Elevation`,
+    domainZh: '事業官祿 / 核心決策',
+    domainEn: 'Career & Authority',
+    polarityZh: '高能突破 · 引動天干',
+    polarityEn: 'Breakthrough Surge',
+    mechanismZh: `${targetYear} 歲君【${yInfo.ganzhi}】（${yInfo.stemElementZh}）直透天干，與日主【${pillars.day.stem}】形成【${dmRel.zh}】共振，地支落於【${yInfo.palaceZh}】，強力引動對外曝光、名分確權與重磅項目驗收視窗。`,
+    mechanismEn: `${targetYear} (${yInfo.pinyin}) channels ${yInfo.stemElement} through ${dmRel.en} with your Day Master [${pillars.day.stem}], activating ${yInfo.palaceEn} for high-level visibility and executive mandate.`,
+    strategicActionZh: `於 ${targetYear}（${yInfo.ganzhi}）歲運中主動爭取主持核心項目，完成個人代表作或關鍵職權的確權。`,
+    strategicActionEn: `Lead major initiatives from the front in ${targetYear}; claim decision-making platforms and finalize flagship deliverables.`,
+  };
+}
+
 /**
  * Computes deep personalized interaction matrix between user's Four Pillars and the drawn Lot.
+ * Defaults to the real-time current solar year (`new Date().getFullYear()`).
  */
 export function calculateLotInteraction(
   pillars: FourPillars,
   lotGanzhi: string,
-  currentYear = 2026
+  currentYear = new Date().getFullYear()
 ): LotBaziInteraction {
   const lotStem = lotGanzhi[0] || '甲';
   const lotBranch = lotGanzhi[1] || '子';
@@ -362,8 +492,9 @@ export function calculateLotInteraction(
   const dmRel = getTenGodRelation(dayStem, lotStem);
   const monthRel = getTenGodRelation(monthStem, lotStem);
 
-  const annualPillar = currentYear === 2026 ? 'Bing-wu (丙午)' : `${currentYear} Annual Pillar`;
-  const annualPillarZh = currentYear === 2026 ? '2026 丙午歲君（天河陽火·奔馳烈焰）' : `${currentYear} 歲君`;
+  const yInfo = getYearGanzhi(currentYear);
+  const annualPillar = `${currentYear} ${yInfo.pinyin} (${yInfo.ganzhi})`;
+  const annualPillarZh = `${currentYear} ${yInfo.ganzhi}歲君（${yInfo.stemElementZh} · ${yInfo.palaceZh.split(' / ')[0]}）`;
 
   const isDayBranchMatch = dayBranch === lotBranch;
   const isBranchClash =
@@ -421,7 +552,7 @@ export function calculateLotInteraction(
     },
     annualPillarResonance: {
       annualPillar,
-      titleEn: `Annual Pillar Dynamic · 2026 Bing-Wu (丙午) Sovereign Transit`,
+      titleEn: `Annual Pillar Dynamic · ${currentYear} ${yInfo.pinyin} (${yInfo.ganzhi}) Sovereign Transit`,
       titleZh: `歲君流年感應 · ${annualPillarZh}`,
       windowEn: isBranchClash
         ? 'Mid-Summer through Late Autumn: Deliberate stillness; avoid hasty contract closures.'
@@ -430,11 +561,11 @@ export function calculateLotInteraction(
         ? '仲夏至深秋節氣：宜持重內斂，審慎複核合約細節，避開急躁硬碰。'
         : '立秋至立冬節氣：氣機清朗順暢，利於重磅決策落地、合作締約與成果展現。',
       guidanceEn: isBranchClash
-        ? 'The fiery current of 2026 (Bing-Wu) creates structural tension with your chart sectors. Use the summer solar terms to build unshakeable prototypes and eliminate vulnerabilities; wait for autumn before decisive public confrontation.'
-        : 'The celestial Fire of 2026 acts as a catalytic torch, bringing warmth and clarity to your dormant aspirations. Move with steady, transparent milestones and let institutional allies carry forward the heavy logistical momentum.',
+        ? `The current ${currentYear} (${yInfo.pinyin}) annual transit creates structural tension with your chart sectors. Use the mid-year solar terms to build unshakeable prototypes and eliminate vulnerabilities; wait for autumn before decisive public confrontation.`
+        : `The celestial ${yInfo.stemElement} of ${currentYear} (${yInfo.pinyin}) acts as a catalytic torch, bringing clarity to your dormant aspirations. Move with steady, transparent milestones and let institutional allies carry forward the heavy logistical momentum.`,
       guidanceZh: isBranchClash
-        ? '2026 丙午歲君陽火烈烈，與您的命局宮位形成張力激盪。此階段最忌意氣用事或被短期焦慮裹挾。籤詩所揭示之修為，正是教您在風高浪急之時，以定力化解衝勁，於夏秋交替之際收穫定局之利。'
-        : '2026 歲君烈火透天，照亮您命盤深層的潛能宮位。天地清吉之氣正由虛入實，凡行事光明磊落、本於正念者，必得歲君氣機之強力助推。保持敏銳而篤定，從容收攬大局。',
+        ? `${currentYear} ${yInfo.ganzhi}歲君（${yInfo.stemElementZh}）與您的命局宮位形成張力激盪。此階段最忌意氣用事或被短期焦慮裹挾。籤詩所揭示之修為，正是教您在風高浪急之時，以定力化解衝勁，於夏秋交替之際收穫定局之利。`
+        : `${currentYear} ${yInfo.ganzhi}歲君氣機透天，照亮您命盤深層的潛能宮位。天地清吉之氣正由虛入實，凡行事光明磊落、本於正念者，必得歲君氣機之強力助推。保持敏銳而篤定，從容收攬大局。`,
     },
     seasonActionWindow: {
       favorableSeasonEn: 'Autumn Equinox (秋分) through Winter Solstice (冬至)',
@@ -447,12 +578,13 @@ export function calculateLotInteraction(
 
 /**
  * Generates the Complete 9-Section Life Book (九章全案命書)
- * As strictly specified in 03_PERSONALIZATION_ENGINE_SPEC.md Section 6.2
+ * Dynamically rolling from `currentYear` through `currentYear + futureYears` (defaulting to currentYear + 2 future years).
  */
 export function generateLifeBookChapters(
   pillars: FourPillars,
   lot: CanonicalLot | null,
-  currentYear = 2026
+  currentYear = new Date().getFullYear(),
+  futureYears = 2
 ): LifeBookChapter[] {
   const dm = pillars.day.stem;
   const db = pillars.day.branch;
@@ -471,6 +603,12 @@ export function generateLifeBookChapters(
 
   const dmInfo = STEM_INFO[dm] || STEM_INFO['甲'];
   const dbInfo = BRANCH_INFO[db] || BRANCH_INFO['子'];
+
+  const horizon = Math.max(1, Math.min(10, futureYears));
+  const endYear = currentYear + horizon;
+  const y0 = getYearGanzhi(currentYear);
+  const y1 = getYearGanzhi(currentYear + 1);
+  const spanLabel = `${currentYear}–${endYear}`;
 
   return [
     {
@@ -586,25 +724,25 @@ export function generateLifeBookChapters(
       titleEn: `Macro Cycles & 10-Year Epochs · Decade Transit Pacing`,
       badgeZh: '歲月長河 · 借勢起航',
       badgeEn: 'Decade Macro Cycles',
-      keyInsightZh: `當前正處於十年大運承前啟後的樞紐期，2026–2028 年為轉軌定乾坤之關鍵三年。`,
-      keyInsightEn: `You are currently navigating a pivotal 10-year macro hinge; the 2026–2028 triennium represents a generational consolidation window.`,
-      contentZh: `人無遠慮，必有近憂；達人觀命，首重大運。十年間一運，五載一輪替。當前您的生辰大運正行至由積蓄轉向發力之重要拐點。前一個五年的潛心積累、忍辱負重，正在為即將全面展開的新週期鋪路。在此宏觀週期中，天地氣機將逐步由暗轉明，貴人勢力陸續登場。籤詩所言「神仙路、退望高樓」，正是教您站在三十年人生全局的高度來審視當下一城一池的得失。不要被眼前的短暫浮雲障目，錨定三年乃至十年的長期願景，隨大運之潮水順勢揚帆，終能抵達理想彼岸。`,
-      contentEn: `Traditional wisdom posits that while the natal chart defines the ship, the 10-Year Major Luck Cycle (大運) dictates the prevailing oceanic tides. You are currently positioned at a profound decadal transition—shifting from an intensive subterranean incubation cycle into an expansive manifestation epoch. The grueling disciplines of preceding years were laying unyielding infrastructure for this unfolding chapter. The oracle's imagery of "surveying from the upper pavilion" urges you to look beyond quarterly volatility and align with generational horizons. Stand tall, survey the terrain, and harness the decadal wave.`,
-      actionableAdviceZh: `制定清晰的三年宏觀目標（2026–2028），分階段拆解關鍵裏程碑，保持戰略定力，不受雜音干擾。`,
-      actionableAdviceEn: `Draft a definitive 3-year strategic blueprint (2026–2028); establish quarterly milestones and ruthlessly filter out trivial diversions.`,
+      keyInsightZh: `當前正處於十年大運承前啟後的樞紐期，${spanLabel} 年為轉軌定乾坤之關鍵週期。`,
+      keyInsightEn: `You are currently navigating a pivotal 10-year macro hinge; the ${spanLabel} window represents a generational consolidation horizon.`,
+      contentZh: `人無遠慮，必有近憂；達人觀命，首重大運。十年間一運，五載一輪替。當前您的生辰大運正行至由積蓄轉向發力之重要拐點。前一個五年的潛心積累、忍辱負重，正在為即將全面展開的新週期鋪路。在此宏觀週期中，天地氣機將逐步由暗轉明，貴人勢力陸續登場。籤詩所言「神仙路、退望高樓」，正是教您站在三十年人生全局的高度來審視當下一城一池的得失。不要被眼前的短暫浮雲障目，錨定未來數年（${spanLabel}）乃至十年的長期願景，隨大運之潮水順勢揚帆，終能抵達理想彼岸。`,
+      contentEn: `Traditional wisdom posits that while the natal chart defines the ship, the 10-Year Major Luck Cycle (大運) dictates the prevailing oceanic tides. You are currently positioned at a profound decadal transition—shifting from an intensive subterranean incubation cycle into an expansive manifestation epoch. The grueling disciplines of preceding years were laying unyielding infrastructure for this unfolding chapter. The oracle's imagery of "surveying from the upper pavilion" urges you to look beyond quarterly volatility and align with generational horizons (${spanLabel}). Stand tall, survey the terrain, and harness the decadal wave.`,
+      actionableAdviceZh: `制定清晰的滾動宏觀目標（${spanLabel}），分階段拆解關鍵裏程碑，保持戰略定力，不受雜音干擾。`,
+      actionableAdviceEn: `Draft a definitive strategic blueprint (${spanLabel}); establish quarterly milestones and ruthlessly filter out trivial diversions.`,
     },
     {
       id: 9,
       chapterNumberZh: '第九章',
       chapterNumberEn: 'Chapter IX',
-      titleZh: `籤命合參·流年關鍵應期 · 第 ${lotNum} 籤（${lotGz}）與 2026–2028 歲君會合`,
-      titleEn: `Lot & Natal Convergence · Lot ${lotNum} (${lotGz}) × 2026–2028 Transits`,
+      titleZh: `籤命合參·流年關鍵應期 · 第 ${lotNum} 籤（${lotGz}）與 ${spanLabel} 歲君會合`,
+      titleEn: `Lot & Natal Convergence · Lot ${lotNum} (${lotGz}) × ${spanLabel} Transits`,
       badgeZh: '靈籤交感 · 天機應期',
       badgeEn: 'Convergence & Milestones',
-      keyInsightZh: `靈籤干支【${lotGz}】與 2026 丙午、2027 丁未流年交會，必於深秋冬令之季迎來「貴人合力破局」之實質回報。`,
-      keyInsightEn: `The convergence of Lot ${lotNum} (${lotGz}) with active 2026 Bing-Wu and 2027 Ding-Wei transits heralds decisive breakthrough support.`,
-      contentZh: `本案之終極玄奧，在於您在聖殿虔心抽得之第 ${lotNum} 籤【${lotGz}】，恰恰與您的四柱生辰及即將來臨的 2026 丙午歲君形成了天衣無縫的氣機咬合。籤詩云：『${lotPoemZh}』此四句七言，字字叩擊在您的命格要穴之上！詩中之「退」，非敗退逃匿，而是以退為進的宗師智慧；詩中之「貴人」，正是命局中印星與合局的具象化化身。即將到來的歲君週期中，2026 年主名望破圈與方向確權，2027 年主財庫落定與基業生根。天人相應，天時已具，唯待君子以仁勇之心躬行實踐！`,
-      contentEn: `The crowning synthesis of this life audit lies in the synchronous convergence between your drawn Lot ${lotNum} (${lotGz}), your natal Four Pillars, and the incoming 2026 Bing-Wu / 2027 Ding-Wei annual rulers. The classical verse—"${lotPoemZh}"—strikes the exact meridian of your current life trajectory. Its strategic counsel to "retreat to higher ground" is the ultimate martial strategy: dynamic repositioning that invites allied patrons into your court. Across the upcoming 2026–2028 triennium, 2026 delivers public recognition and role sovereignty, while 2027 secures enduring asset foundations. Heaven has aligned; the field is prepared for your decisive harvest.`,
+      keyInsightZh: `靈籤干支【${lotGz}】與 ${y0.year} ${y0.ganzhi}、${y1.year} ${y1.ganzhi} 流年交會，必於深秋冬令之季迎來「貴人合力破局」之實質回報。`,
+      keyInsightEn: `The convergence of Lot ${lotNum} (${lotGz}) with active ${y0.year} ${y0.pinyin} and ${y1.year} ${y1.pinyin} transits heralds decisive breakthrough support.`,
+      contentZh: `本案之終極玄奧，在於您在聖殿虔心抽得之第 ${lotNum} 籤【${lotGz}】，恰恰與您的四柱生辰及當前 ${y0.year} ${y0.ganzhi}歲君形成了天衣無縫的氣機咬合。籤詩云：『${lotPoemZh}』此四句七言，字字叩擊在您的命格要穴之上！詩中之「退」，非敗退逃匿，而是以退為進的宗師智慧；詩中之「貴人」，正是命局中印星與合局的具象化化身。在滾動展開的歲君週期（${spanLabel}）中，${y0.year}（${y0.ganzhi}）年主名望破圈與方向確權，${y1.year}（${y1.ganzhi}）年主財庫落定與基業生根。天人相應，天時已具，唯待君子以仁勇之心躬行實踐！`,
+      contentEn: `The crowning synthesis of this life audit lies in the synchronous convergence between your drawn Lot ${lotNum} (${lotGz}), your natal Four Pillars, and the active ${y0.year} ${y0.pinyin} / ${y1.year} ${y1.pinyin} annual rulers. The classical verse—"${lotPoemZh}"—strikes the exact meridian of your current life trajectory. Its strategic counsel to "retreat to higher ground" is the ultimate martial strategy: dynamic repositioning that invites allied patrons into your court. Across the rolling ${spanLabel} horizon, ${y0.year} delivers public recognition and role sovereignty, while ${y1.year} secures enduring asset foundations. Heaven has aligned; the field is prepared for your decisive harvest.`,
       actionableAdviceZh: `在本籤啟示下，於今年立秋至立冬期間，主動聯繫過往具備德望的師長前輩，以誠懇之姿叩問大局，必獲破局之金石良言。`,
       actionableAdviceEn: `Between Autumn Equinox and Winter Solstice, proactively reconnect with seasoned mentors; candid strategic consultation will unlock your catalytic breakthrough.`,
     },
@@ -613,12 +751,14 @@ export function generateLifeBookChapters(
 
 /**
  * Generates the Organized Predictive Subscription Hub (流年預測訂閱中樞)
- * As strictly specified in 03_PERSONALIZATION_ENGINE_SPEC.md Section 7
+ * Dynamically computes the rolling window from `currentYear` through `currentYear + futureYears`
+ * (defaulting to currentYear + 2 future years, i.e., a 3-year rolling horizon).
  */
 export function generatePredictiveSubscriptionHub(
   pillars: FourPillars,
   lot: CanonicalLot | null,
-  currentYear = 2026
+  currentYear = new Date().getFullYear(),
+  futureYears = 2
 ): PredictiveSubscriptionHub {
   const dm = pillars.day.stem;
   const db = pillars.day.branch;
@@ -631,6 +771,12 @@ export function generatePredictiveSubscriptionHub(
   const lotNum = lot?.lot_number || 1;
   const lotGz = lot?.ganzhi.zh || '甲子';
 
+  const horizon = Math.max(1, Math.min(10, futureYears));
+  const annualTimeline: PredictiveMilestoneItem[] = [];
+  for (let offset = 0; offset <= horizon; offset++) {
+    annualTimeline.push(calculateYearTransitForChart(pillars, currentYear + offset));
+  }
+
   return {
     activePlanZh: '流年事件驅動預測 · 年度會員中樞',
     activePlanEn: 'Annual Predictive Transits & Event Alerts · VIP Hub',
@@ -639,50 +785,7 @@ export function generatePredictiveSubscriptionHub(
     renewalDate: renewalDateStr,
     natalAnchorZh: `日主【${dm}坐${db}】· 官祿宮【${mb}】· 靈籤【第 ${lotNum} 籤 · ${lotGz}】全時錨定`,
     natalAnchorEn: `Day Master [${dm} on ${db}] · Career Palace [${mb}] · Anchored to Lot #${lotNum} (${lotGz})`,
-    annualTimeline: [
-      {
-        year: 2026,
-        ganzhi: '丙午',
-        titleZh: '2026 年（丙午）：天河陽火 · 聲譽破圈與主權確權之年',
-        titleEn: '2026 (Bing-Wu): Yang Fire Apex — Authority, Visibility & Public Elevation',
-        domainZh: '事業官祿 / 核心決策',
-        domainEn: 'Career & Authority',
-        polarityZh: '高能突破 · 引動天干',
-        polarityEn: 'Breakthrough Surge',
-        mechanismZh: '丙午干支同氣，陽火直透天干，強力引動命盤上層能量。對外曝光、權力轉移與重磅項目驗收窗口全面開啟。',
-        mechanismEn: 'Pure Yang Fire of Bing-Wu penetrates the heavenly stems, activating high-level visibility, executive mandate, and public acclaim.',
-        strategicActionZh: '主動爭取主持重大項目，勇於站在聚光燈下發聲，完成個人代表作的公開發布與確權。',
-        strategicActionEn: 'Lead major initiatives from the front; claim public speaking platforms and finalize definitive flagship deliverables.',
-      },
-      {
-        year: 2027,
-        ganzhi: '丁未',
-        titleZh: '2027 年（丁未）：太歲入庫 · 長期資產沉澱與財脈固化之年',
-        titleEn: '2027 (Ding-Wei): Treasury Consolidation — Capital Compounding & Asset Anchoring',
-        domainZh: '財帛庫藏 / 基業永續',
-        domainEn: 'Wealth & Asset Treasury',
-        polarityZh: '厚積成林 · 庫位合化',
-        polarityEn: 'Consolidation Anchor',
-        mechanismZh: '未土燥木之庫與命局地支產生合化感應，主資本實質性沉澱、合約收益兌現與不動產或長期股權之鎖定。',
-        mechanismEn: 'Wei Earth reservoir combines harmoniously with natal palaces, signaling tangible equity locking, asset maturation, and sustainable dividends.',
-        strategicActionZh: '將 2026 年獲取的收益轉化為防守型核心資產，簽署長期合作框架協議，建立制度化家族財富屏障。',
-        strategicActionEn: 'Channel speculative liquidity into defensive yield-generating assets and institutional partnership trusts.',
-      },
-      {
-        year: 2028,
-        ganzhi: '戊申',
-        titleZh: '2028 年（戊申）：厚土生金 · 跨界拓展與驛馬遠征之年',
-        titleEn: '2028 (Wu-Shen): Metal-Earth Expansion — Cross-Border Ventures & Strategic Mobility',
-        domainZh: '宏觀佈局 / 跨界開拓',
-        domainEn: 'Global Expansion & Mobility',
-        polarityZh: '動靜相生 · 驛馬奔馳',
-        polarityEn: 'Strategic Mobility',
-        mechanismZh: '申金驛馬星動，戊土培根固本。氣機預示跨地域流動、國際化業務拓展或跨學科跨行業的融合突破。',
-        mechanismEn: 'Shen Metal activates the Traveling Horse (驛馬) star supported by Wu Earth, catalyzing international expansion and cross-sector breakthroughs.',
-        strategicActionZh: '放眼海外或全新賽道，親自實地考察遠方市場，開拓第二增長曲線。',
-        strategicActionEn: 'Explore international markets or adjacent industry frontiers; establish secondary growth curves.',
-      },
-    ],
+    annualTimeline,
     solarTermTransit: {
       termZh: '霜降 · 立冬交運期（水氣孕育，陽氣伏藏）',
       termEn: 'Frost’s Descent to Winter’s Advent (Subterranean Water Emergence)',

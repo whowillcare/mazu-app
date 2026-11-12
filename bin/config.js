@@ -183,6 +183,33 @@ function getDatabase() {
       created_at INTEGER NOT NULL,
       expires_at INTEGER NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS seeker_profiles (
+      user_id TEXT PRIMARY KEY,
+      email TEXT,
+      display_name TEXT,
+      is_registered INTEGER NOT NULL DEFAULT 0,
+      birth_date TEXT,
+      birth_time TEXT,
+      birth_city TEXT,
+      longitude REAL,
+      timezone_offset REAL,
+      created_at INTEGER NOT NULL,
+      updated_at INTEGER NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS master_chat_messages (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      master_id TEXT NOT NULL,
+      role TEXT NOT NULL,
+      content TEXT NOT NULL,
+      detected_domain TEXT,
+      intent_status TEXT NOT NULL DEFAULT 'allowed',
+      quota_charged INTEGER NOT NULL DEFAULT 0,
+      rag_sources_json TEXT,
+      created_at INTEGER NOT NULL
+    );
   `);
   return dbInstance;
 }
@@ -286,6 +313,78 @@ var ConfigManager = class {
         category: "system",
         isSecret: false,
         description: "Admin session cookie expiration timeout in hours (e.g. 2, 4, 12, 24)",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_REQUIRE_BIRTH_OR_REG",
+        value: process.env.MASTER_REQUIRE_BIRTH_OR_REG ?? "true",
+        category: "system",
+        isSecret: false,
+        description: "Require user registration or birth info specification before consulting AI Masters",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_QUOTA_UNPAID",
+        value: process.env.MASTER_QUOTA_UNPAID || "1",
+        category: "system",
+        isSecret: false,
+        description: "Maximum questions an unpaid user (registered or with birth info) can ask Masters",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_QUOTA_PAID_PER_PAYMENT",
+        value: process.env.MASTER_QUOTA_PAID_PER_PAYMENT || "3",
+        category: "system",
+        isSecret: false,
+        description: "Number of Master consultation questions granted per single payment ($2.99)",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_QUOTA_SUBSCRIBER_MONTHLY",
+        value: process.env.MASTER_QUOTA_SUBSCRIBER_MONTHLY || "30",
+        category: "system",
+        isSecret: false,
+        description: "Monthly Master consultation question quota for active subscribers ($9.99/mo)",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_CHARGE_ON_REJECTED",
+        value: process.env.MASTER_CHARGE_ON_REJECTED ?? "false",
+        category: "system",
+        isSecret: false,
+        description: "Whether off-topic questions rejected by Stage 1 Intent Guardrail consume question quota",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_ENABLE_LIGHTWEIGHT_CLASSIFIER",
+        value: process.env.MASTER_ENABLE_LIGHTWEIGHT_CLASSIFIER ?? "true",
+        category: "ai",
+        isSecret: false,
+        description: "Enable Stage 1 lightweight low-cost AI intent classifier before Master RAG generation",
+        updatedAt: now
+      },
+      {
+        key: "AI_LIGHTWEIGHT_MODEL_NAME",
+        value: process.env.AI_LIGHTWEIGHT_MODEL_NAME || "auto",
+        category: "ai",
+        isSecret: false,
+        description: "Lightweight lower-cost AI model for Stage 1 intent classification (e.g. auto, gpt-4o-mini, deepseek-chat)",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_INTENT_MAX_TOKENS",
+        value: process.env.MASTER_INTENT_MAX_TOKENS || "120",
+        category: "ai",
+        isSecret: false,
+        description: "Max token cap for Stage 1 lightweight intent classifier to minimize cost and latency",
+        updatedAt: now
+      },
+      {
+        key: "MASTER_FUTURE_YEARS_HORIZON",
+        value: process.env.MASTER_FUTURE_YEARS_HORIZON || "2",
+        category: "system",
+        isSecret: false,
+        description: "Rolling future years horizon for Annual Transits RAG context (default: 2 = currentYear through currentYear + 2)",
         updatedAt: now
       }
     ];

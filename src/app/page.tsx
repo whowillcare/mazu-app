@@ -15,6 +15,7 @@ import { SvgLotCard } from '@/components/cards/SvgLotCard';
 import { RectificationQuestion, RectificationResult } from '@/lib/bazi/hourRectification';
 import { MAJOR_CITIES, MajorCity, formatLongitude } from '@/lib/geo/cities';
 import { CityLocationPicker } from '@/components/geo/CityLocationPicker';
+import { OracleMasterChat } from '@/components/masters/OracleMasterChat';
 
 type JourneyStep = 'porch' | 'domain' | 'question' | 'drawing' | 'reading' | 'report';
 
@@ -67,7 +68,8 @@ export default function MazuLotApp() {
   const [purchasePlan, setPurchasePlan] = useState<'single' | 'subscription'>('single');
   const [crdWaiverAccepted, setCrdWaiverAccepted] = useState(false);
   const [isCheckingOut, setIsCheckingOut] = useState(false);
-  const [reportActiveTab, setReportActiveTab] = useState<'overview' | 'lifebook' | 'subscription'>('overview');
+  const [reportActiveTab, setReportActiveTab] = useState<'overview' | 'lifebook' | 'subscription' | 'masters'>('overview');
+  const [showMasterModal, setShowMasterModal] = useState(false);
   const [unlockedReport, setUnlockedReport] = useState<{
     pillars: FourPillars;
     interaction: LotBaziInteraction;
@@ -356,6 +358,28 @@ export default function MazuLotApp() {
               <span>{displayMode === 'clean' ? '✦' : '☯'}</span>
               <span className="header-btn-text-full">{displayMode === 'clean' ? t.common.cleanView : t.common.bilingualMode}</span>
               <span className="header-btn-text-compact">{displayMode === 'clean' ? (language === 'zh-TW' ? '純淨' : 'Clean') : (language === 'zh-TW' ? '雙語' : 'Dual')}</span>
+            </button>
+
+            {/* Consult AI Masters Modal Trigger */}
+            <button
+              onClick={() => setShowMasterModal(true)}
+              className="btn-outline header-btn"
+              title="Consult Online AI Oracle Masters / 聖殿宗師在線問答"
+              style={{
+                borderColor: 'var(--gold-primary)',
+                background: 'rgba(212, 175, 55, 0.14)',
+                color: 'var(--gold-light)',
+                fontWeight: 700,
+                cursor: 'pointer',
+              }}
+            >
+              <span>🧙‍♂️</span>
+              <span className="header-btn-text-full">
+                {language === 'zh-TW' ? '宗師問答' : 'Consult Masters'}
+              </span>
+              <span className="header-btn-text-compact">
+                {language === 'zh-TW' ? '宗師' : 'Masters'}
+              </span>
             </button>
 
             {/* Preferences Modal Trigger */}
@@ -1519,6 +1543,26 @@ export default function MazuLotApp() {
                       ? t.rectification.unlockLifeBookBtn
                       : t.rectification.subscribePredictiveBtn}
                   </button>
+
+                  {/* ─── EMBEDDED ONLINE AI ORACLE MASTERS SANCTUARY ─── */}
+                  <div style={{ marginTop: '40px' }}>
+                    <OracleMasterChat
+                      language={language}
+                      userId="seeker_1992"
+                      birthDate={birthDate}
+                      birthTime={birthTime}
+                      birthCity={selectedCity.nameZh || selectedCity.nameEn}
+                      longitude={selectedCity.longitude}
+                      timezoneOffset={selectedCity.timeZoneOffset}
+                      lotNumber={drawnLot.lot_number}
+                      selectedDomain={selectedDomain}
+                      hasUnlockedReport={!!unlockedReport}
+                      onBirthInfoChange={(bDate, bTime) => {
+                        setBirthDate(bDate);
+                        setBirthTime(bTime);
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -1646,6 +1690,25 @@ export default function MazuLotApp() {
                     }}
                   >
                     {t.heirloomReport.tabSubscription}
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setReportActiveTab('masters')}
+                    style={{
+                      padding: '10px 18px',
+                      borderRadius: '24px',
+                      fontSize: '0.9rem',
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      transition: 'all 0.25s ease',
+                      border: reportActiveTab === 'masters' ? '2px solid var(--gold-primary)' : '1px solid var(--border-gold)',
+                      background: reportActiveTab === 'masters' ? 'rgba(212, 175, 55, 0.2)' : 'rgba(7, 11, 17, 0.6)',
+                      color: reportActiveTab === 'masters' ? 'var(--gold-light)' : 'var(--text-secondary)',
+                      boxShadow: reportActiveTab === 'masters' ? '0 0 16px rgba(212, 175, 55, 0.25)' : 'none',
+                    }}
+                  >
+                    🧙‍♂️ {language === 'zh-TW' ? '宗師在線問答 (+3問已解鎖)' : 'Consult AI Masters (+3 Qs)'}
                   </button>
                 </div>
 
@@ -2021,6 +2084,28 @@ export default function MazuLotApp() {
                   </div>
                 )}
 
+                {/* ═══ TAB 4: AI ORACLE MASTERS CONSULTATION SANCTUARY ═══ */}
+                {reportActiveTab === 'masters' && (
+                  <div style={{ marginTop: '12px' }}>
+                    <OracleMasterChat
+                      language={language}
+                      userId="seeker_1992"
+                      birthDate={birthDate}
+                      birthTime={birthTime}
+                      birthCity={selectedCity.nameZh || selectedCity.nameEn}
+                      longitude={selectedCity.longitude}
+                      timezoneOffset={selectedCity.timeZoneOffset}
+                      lotNumber={drawnLot.lot_number}
+                      selectedDomain={selectedDomain}
+                      hasUnlockedReport={true}
+                      onBirthInfoChange={(bDate, bTime) => {
+                        setBirthDate(bDate);
+                        setBirthTime(bTime);
+                      }}
+                    />
+                  </div>
+                )}
+
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '36px', flexWrap: 'wrap' }}>
                   <button onClick={() => setCurrentStep('reading')} className="btn-outline">
                     ◄ {t.heirloomReport.backToReadingBtn}
@@ -2149,6 +2234,59 @@ export default function MazuLotApp() {
                 ⚡ {t.countdown.drawNow}
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* ─── ONLINE ORACLE MASTERS MODAL DRAWER ─────────────────── */}
+      {showMasterModal && (
+        <div className="modal-backdrop" onClick={() => setShowMasterModal(false)}>
+          <div
+            className="modal-content"
+            style={{
+              maxWidth: '940px',
+              width: '95vw',
+              maxHeight: '92vh',
+              overflowY: 'auto',
+              padding: '20px',
+              background: '#05080E',
+              border: '2px solid var(--gold-primary)',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+              <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '0.9rem' }}>
+                ✦ {language === 'zh-TW' ? '媽祖聖殿 · 宗師在線問答堂' : 'MAZU SANCTUARY · ONLINE ORACLE MASTERS'}
+              </span>
+              <button
+                onClick={() => setShowMasterModal(false)}
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  color: 'var(--text-muted)',
+                  fontSize: '1.4rem',
+                  cursor: 'pointer',
+                }}
+              >
+                ✕
+              </button>
+            </div>
+            <OracleMasterChat
+              language={language}
+              userId="seeker_1992"
+              birthDate={birthDate}
+              birthTime={birthTime}
+              birthCity={selectedCity.nameZh || selectedCity.nameEn}
+              longitude={selectedCity.longitude}
+              timezoneOffset={selectedCity.timeZoneOffset}
+              lotNumber={drawnLot?.lot_number || 1}
+              selectedDomain={selectedDomain}
+              hasUnlockedReport={!!unlockedReport}
+              onBirthInfoChange={(bDate, bTime) => {
+                setBirthDate(bDate);
+                setBirthTime(bTime);
+              }}
+            />
           </div>
         </div>
       )}

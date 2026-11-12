@@ -5,8 +5,10 @@ import {
   Shield, Key, Lock, LogOut, CheckCircle, AlertCircle, RefreshCw, 
   Search, Edit3, BookOpen, Compass, Cpu, Settings, Users, Save, Eye, EyeOff, Zap, ExternalLink
 } from 'lucide-react';
-import type { CanonicalLot, VerseLine, StoryInfo } from '@/lib/types/lots';
+import type { CanonicalLot, VerseLine, StoryInfo, DomainCategory } from '@/lib/types/lots';
 import type { ChapterRule, SolarTermRule, AstrologyRules } from '@/lib/bazi/astrologyRules';
+import type { OracleMaster, MasterQuotaPolicy, MasterKnowledgeDoc } from '@/lib/types/masters';
+import { DOMAINS } from '@/lib/lots/domains';
 
 interface AdminPortalProps {
   currentDirective: string;
@@ -36,7 +38,37 @@ export function AdminPortal({
   const [loginError, setLoginError] = useState<string | null>(null);
 
   // Dashboard active tab
-  const [activeTab, setActiveTab] = useState<'lots' | 'astrology' | 'config' | 'admins'>('lots');
+  const [activeTab, setActiveTab] = useState<'lots' | 'astrology' | 'masters' | 'config' | 'admins'>('lots');
+
+  // AI Oracle Masters & Quotas state
+  const [masters, setMasters] = useState<OracleMaster[]>([]);
+  const [masterPolicy, setMasterPolicy] = useState<MasterQuotaPolicy>({
+    requireBirthOrRegistration: true,
+    unpaidQuota: 1,
+    paidSinglePaymentQuota: 3,
+    monthlySubscriberQuota: 30,
+    chargeOnRejectedIntent: false,
+    enableLightweightClassifier: true,
+    lightweightModelName: 'auto',
+    intentMaxTokens: 120,
+  });
+  const [masterStats, setMasterStats] = useState<{ totalMessages: number; chargedQuestions: number; rejectedByStage1: number }>({
+    totalMessages: 0,
+    chargedQuestions: 0,
+    rejectedByStage1: 0,
+  });
+  const [editingMaster, setEditingMaster] = useState<OracleMaster | null>(null);
+  const [savingMaster, setSavingMaster] = useState(false);
+  const [masterMsg, setMasterMsg] = useState<string | null>(null);
+  const [activeMasterSubTab, setActiveMasterSubTab] = useState<'personas' | 'quotas' | 'simulator'>('personas');
+
+  // Master Sandbox Simulator state
+  const [simMasterId, setSimMasterId] = useState('master_xuanzhen');
+  const [simQuestion, setSimQuestion] = useState('2026年丙午流年，我的事業晉升與財庫運籌應如何把握時機？');
+  const [simLotNumber, setSimLotNumber] = useState(1);
+  const [simBirthDate, setSimBirthDate] = useState('1992-10-14');
+  const [simRunning, setSimRunning] = useState(false);
+  const [simResult, setSimResult] = useState<any>(null);
 
   // Lots state
   const [lots, setLots] = useState<CanonicalLot[]>(initialLots);
@@ -179,12 +211,32 @@ export function AdminPortal({
     }
   };
 
+  // Fetch AI Oracle Masters & Quota Policy
+  const fetchMastersAdmin = async () => {
+    try {
+      const res = await fetch('/api/admin/masters');
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
+      const data = await res.json();
+      if (data.success) {
+        if (data.masters) setMasters(data.masters);
+        if (data.policy) setMasterPolicy(data.policy);
+        if (data.stats) setMasterStats(data.stats);
+      }
+    } catch (err) {
+      console.error('Failed fetching masters admin:', err);
+    }
+  };
+
   useEffect(() => {
     if (authenticated) {
       if (lots.length === 0) {
         fetchLots();
       }
       fetchRules();
+      fetchMastersAdmin();
       fetchConfigs();
       fetchAdminUsers();
     }
@@ -359,6 +411,168 @@ export function AdminPortal({
       }
     } catch (err: any) {
       setUserMsg({ type: 'error', text: err.message });
+    }
+  };
+
+  const handleCreateNewMaster = () => {
+    const newId = `master_${Date.now().toString(36)}`;
+    const blank: OracleMaster = {
+      id: newId,
+      nameZh: '太乙真人',
+      nameEn: 'Master Taiyi',
+      titleZh: '奇門造化與流年轉運宗師',
+      titleEn: 'Master of Cosmic Transitions & Destiny Alignment',
+      sealCharacter: '乙',
+      taglineZh: '專司奇門擇吉、流年氣機轉化與人生破局指引。',
+      taglineEn: 'Specializing in auspicious timing, annual energy shifts, and strategic breakthroughs.',
+      avatarGradient: 'linear-gradient(135deg, #A855F7 0%, #4C1D95 100%)',
+      isActive: true,
+      sortOrder: masters.length + 1,
+      characteristics: {
+        personalityZh: '超然物外、洞徹玄機、語帶禪意而切中要害。',
+        personalityEn: 'Transcendent, perceptive, speaking with Zen-like clarity and practical precision.',
+        toneZh: '清朗玄妙、直指人心',
+        toneEn: 'Lucid, contemplative, and directly actionable',
+        speakingStyleZh: '結合求測者八字日主與所求靈籤爻象，點破執念並指明行動節氣。',
+        speakingStyleEn: 'Synthesizes the seeker’s Day Master and Lot hexagram to dissolve blindspots and highlight seasonal timing.',
+        greetingZh: '貧道太乙，見居士骨骼清奇、誠心叩問，凡本命流年與行止抉擇，皆可道來。',
+        greetingEn: 'Greetings, Seeker. I am Master Taiyi. Share your contemplation within my confined domains, and we shall illuminate your chart.',
+        systemPromptOverride: '',
+      },
+      confinedTopics: {
+        allowedDomains: ['general', 'timing', 'career', 'travel_moving'],
+        allowedKeywords: ['八字', '日主', '流年', '籤詩', '時機', 'bazi', 'lot', 'timing', 'career'],
+        blockedTopics: ['coding', 'programming', 'stock ticker', 'lottery numbers', 'medical prescription'],
+        refusalMessageZh: '【太乙真人拂塵輕揮】居士所問之事不在貧道所司範疇之內，請聚焦於本命時機、事業或出行大局。',
+        refusalMessageEn: '[Master Taiyi waves his whisk] Your question lies outside my confined sanctuary domains. Please focus on Destiny, Timing, Career, or Travel.',
+      },
+      ragConfig: {
+        includeBaziChart: true,
+        includeTenGodsAndPalaces: true,
+        includeDrawnLot: true,
+        includeLifeBook: true,
+        includeTransits: true,
+        customKnowledgeDocs: [
+          {
+            id: `doc_${Date.now()}`,
+            titleZh: '太乙流年交運心法',
+            titleEn: 'Taiyi Annual Transit Alignment Doctrine',
+            domain: 'all',
+            keywords: ['流年', '轉運', '時機', 'timing', 'transit'],
+            contentZh: '凡逢歲運交接，必先固守日主元神，借月令與靈籤喜神方位順勢而為。',
+            contentEn: 'During annual transitions, fortify the Day Master first and align actions with the favorable seasonal element of the drawn Lot.',
+          },
+        ],
+      },
+      updatedAt: Date.now(),
+    };
+    setEditingMaster(blank);
+  };
+
+  const handleSaveMaster = async () => {
+    if (!editingMaster) return;
+    setSavingMaster(true);
+    setMasterMsg(null);
+    try {
+      const res = await fetch('/api/admin/masters', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'save_master', master: editingMaster }),
+      });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
+      const data = await res.json();
+      if (data.success) {
+        setMasters(data.masters);
+        setMasterMsg(`✓ ${data.message}`);
+        setEditingMaster(null);
+        setTimeout(() => setMasterMsg(null), 4000);
+      } else {
+        alert(data.error || 'Failed to save Master');
+      }
+    } catch (err: any) {
+      alert(err.message || 'Failed saving Master');
+    } finally {
+      setSavingMaster(false);
+    }
+  };
+
+  const handleDeleteMaster = async (masterId: string) => {
+    if (!confirm('Are you sure you want to delete this Oracle Master?')) return;
+    try {
+      const res = await fetch('/api/admin/masters', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'delete_master', masterId }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setMasters(data.masters);
+        setMasterMsg('✓ Master deleted.');
+      } else {
+        alert(data.error || 'Could not delete Master');
+      }
+    } catch (err: any) {
+      alert(err.message);
+    }
+  };
+
+  const handleSaveMasterPolicy = async () => {
+    setSavingMaster(true);
+    setMasterMsg(null);
+    try {
+      const res = await fetch('/api/admin/masters', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'update_policy', policy: masterPolicy }),
+      });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
+      const data = await res.json();
+      if (data.success) {
+        setMasterPolicy(data.policy);
+        setMasterMsg('✓ Access Gate, Question Quotas & Stage-1 AI Optimizer Policy saved and hot-reloaded!');
+        setTimeout(() => setMasterMsg(null), 4000);
+      }
+    } catch (err: any) {
+      alert(err.message || 'Failed updating policy');
+    } finally {
+      setSavingMaster(false);
+    }
+  };
+
+  const handleRunMasterSimulation = async () => {
+    setSimRunning(true);
+    setSimResult(null);
+    try {
+      const res = await fetch('/api/admin/masters', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'test_simulation',
+          masterId: simMasterId,
+          question: simQuestion,
+          lotNumber: simLotNumber,
+          birthDate: simBirthDate,
+          birthTime: '09:30',
+        }),
+      });
+      if (res.status === 401) {
+        handleUnauthorized();
+        return;
+      }
+      const data = await res.json();
+      if (data.success) {
+        setSimResult(data);
+      }
+    } catch (err: any) {
+      alert(err.message);
+    } finally {
+      setSimRunning(false);
     }
   };
 
@@ -557,6 +771,18 @@ export function AdminPortal({
         >
           <Compass className="w-4 h-4" />
           Life-Book & Transit Logic Studio (九章命書與流年)
+        </button>
+
+        <button
+          onClick={() => setActiveTab('masters')}
+          className={`flex items-center gap-2 px-4 py-3 text-xs font-medium border-b-2 transition-all ${
+            activeTab === 'masters'
+              ? 'border-[#d4af37] text-[#d4af37] bg-[#d4af37]/5 font-semibold'
+              : 'border-transparent text-white/60 hover:text-white'
+          }`}
+        >
+          <Cpu className="w-4 h-4" />
+          AI Oracle Masters & Quotas (宗師問答與配額引擎)
         </button>
 
         <button
@@ -848,7 +1074,482 @@ export function AdminPortal({
           </div>
         )}
 
-        {/* ═══════════ TAB 3: SYSTEM DIRECTIVES & CONFIG ═══════════ */}
+        {/* ═══════════ TAB 3: AI ORACLE MASTERS, RAG & QUOTA STUDIO ═══════════ */}
+        {activeTab === 'masters' && (
+          <div className="space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-serif text-[#e6c687] font-semibold">
+                  AI Oracle Masters, Personalization RAG & Quota Engine (宗師問答、專屬知識庫與配額引擎)
+                </h2>
+                <p className="text-xs text-white/50">
+                  Define multiple online chatbot Masters with predefined RAG knowledge bases, personalities/tones, confined categories, and customizable question quotas.
+                </p>
+              </div>
+
+              <div className="flex items-center gap-3">
+                {masterMsg && (
+                  <span className="text-xs text-emerald-400 font-medium">{masterMsg}</span>
+                )}
+                <button
+                  onClick={handleCreateNewMaster}
+                  className="px-4 py-2 text-xs font-semibold rounded-lg bg-gradient-to-r from-[#d4af37] to-[#e6c687] text-black hover:brightness-110 flex items-center gap-1.5 transition-all"
+                >
+                  + Create New Master (新增在線宗師)
+                </button>
+              </div>
+            </div>
+
+            {/* Sub Tabs */}
+            <div className="flex items-center gap-2 border-b border-white/10">
+              <button
+                onClick={() => setActiveMasterSubTab('personas')}
+                className={`px-3.5 py-2 text-xs font-medium border-b-2 transition-all ${
+                  activeMasterSubTab === 'personas'
+                    ? 'border-[#d4af37] text-[#d4af37] font-semibold'
+                    : 'border-transparent text-white/60 hover:text-white'
+                }`}
+              >
+                1. Online Masters, Personalities & RAG Knowledge Base ({masters.length})
+              </button>
+              <button
+                onClick={() => setActiveMasterSubTab('quotas')}
+                className={`px-3.5 py-2 text-xs font-medium border-b-2 transition-all ${
+                  activeMasterSubTab === 'quotas'
+                    ? 'border-[#d4af37] text-[#d4af37] font-semibold'
+                    : 'border-transparent text-white/60 hover:text-white'
+                }`}
+              >
+                2. Access Gate, Question Quotas & 2-Stage AI Optimizer (提問門檻與配額規則)
+              </button>
+              <button
+                onClick={() => setActiveMasterSubTab('simulator')}
+                className={`px-3.5 py-2 text-xs font-medium border-b-2 transition-all ${
+                  activeMasterSubTab === 'simulator'
+                    ? 'border-[#d4af37] text-[#d4af37] font-semibold'
+                    : 'border-transparent text-white/60 hover:text-white'
+                }`}
+              >
+                3. Live 2-Stage Intent & RAG Simulator (二階段意圖分流與RAG實測沙盒)
+              </button>
+            </div>
+
+            {/* SUB-TAB 1: MASTERS LIST */}
+            {activeMasterSubTab === 'personas' && (
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                {masters.map((m) => (
+                  <div
+                    key={m.id}
+                    className="p-5 rounded-xl border border-white/15 bg-[#070b11] hover:border-[#d4af37]/60 flex flex-col justify-between space-y-4 transition-all"
+                  >
+                    <div className="space-y-3">
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="flex items-center gap-3">
+                          <div
+                            className="w-10 h-10 rounded-full flex items-center justify-center font-serif font-bold text-base text-white border border-[#d4af37]"
+                            style={{ background: m.avatarGradient }}
+                          >
+                            {m.sealCharacter}
+                          </div>
+                          <div>
+                            <div className="font-serif font-bold text-base text-[#e6c687]">
+                              {m.nameZh} · {m.nameEn}
+                            </div>
+                            <div className="text-[11px] text-white/50">{m.titleZh}</div>
+                          </div>
+                        </div>
+                        <span
+                          className={`px-2 py-0.5 text-[10px] rounded font-mono ${
+                            m.isActive
+                              ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30'
+                              : 'bg-white/10 text-white/40'
+                          }`}
+                        >
+                          {m.isActive ? '● Active' : '○ Disabled'}
+                        </span>
+                      </div>
+
+                      <p className="text-xs text-white/70 leading-relaxed">{m.taglineZh}</p>
+
+                      <div className="p-3 rounded-lg bg-black/50 border border-white/5 space-y-1.5 text-[11px]">
+                        <div>
+                          <span className="text-[#d4af37] font-semibold">Personality (性格設定): </span>
+                          <span className="text-white/80">{m.characteristics.personalityZh}</span>
+                        </div>
+                        <div>
+                          <span className="text-[#d4af37] font-semibold">Tone (語調風格): </span>
+                          <span className="text-white/80">{m.characteristics.toneZh}</span>
+                        </div>
+                      </div>
+
+                      <div className="space-y-1">
+                        <div className="text-[11px] text-white/50 font-semibold">
+                          Confined Categories (限定可討論事類 - {m.confinedTopics.allowedDomains.length} / 13):
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {m.confinedTopics.allowedDomains.map((d) => {
+                            const dom = DOMAINS.find((item) => item.key === d);
+                            return (
+                              <span
+                                key={d}
+                                className="px-2 py-0.5 text-[10px] rounded bg-[#d4af37]/15 text-[#e6c687] border border-[#d4af37]/30"
+                              >
+                                {dom ? `${dom.icon} ${dom.titleZh}` : d}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      </div>
+
+                      <div className="space-y-1">
+                        <div className="text-[11px] text-white/50 font-semibold">
+                          Predefined RAG Knowledge Base (已掛載個人化引擎與典籍):
+                        </div>
+                        <div className="flex flex-wrap gap-1.5 text-[10px]">
+                          {m.ragConfig.includeBaziChart && (
+                            <span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300">✓ 四柱八字命盤</span>
+                          )}
+                          {m.ragConfig.includeTenGodsAndPalaces && (
+                            <span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300">✓ 十神與宮位財庫</span>
+                          )}
+                          {m.ragConfig.includeDrawnLot && (
+                            <span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300">✓ 靈籤詩意典故</span>
+                          )}
+                          {m.ragConfig.includeLifeBook && (
+                            <span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300">✓ 九章全案命書</span>
+                          )}
+                          {m.ragConfig.includeTransits && (
+                            <span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300">
+                              ✓ 動態流年節氣 (+{masterPolicy.futureYearsHorizon ?? 2}年)
+                            </span>
+                          )}
+                          <span className="px-2 py-0.5 rounded bg-amber-500/15 text-amber-300">
+                            📚 {m.ragConfig.customKnowledgeDocs?.length || 0} Custom RAG Docs
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="pt-3 border-t border-white/10 flex items-center justify-between">
+                      <button
+                        onClick={() => handleDeleteMaster(m.id)}
+                        className="text-xs text-red-400 hover:underline"
+                      >
+                        Delete
+                      </button>
+                      <button
+                        onClick={() => setEditingMaster(JSON.parse(JSON.stringify(m)))}
+                        className="px-3.5 py-1.5 rounded-lg bg-[#d4af37]/20 hover:bg-[#d4af37]/30 border border-[#d4af37]/50 text-xs text-[#e6c687] font-semibold flex items-center gap-1.5"
+                      >
+                        <Edit3 className="w-3.5 h-3.5" />
+                        Customize Master & RAG
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* SUB-TAB 2: ACCESS GATE, QUESTION QUOTAS & 2-STAGE AI OPTIMIZER */}
+            {activeMasterSubTab === 'quotas' && (
+              <div className="max-w-3xl space-y-5">
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="p-4 rounded-xl border border-white/10 bg-[#070b11]">
+                    <div className="text-[11px] text-white/50">Total Consultation Messages</div>
+                    <div className="text-2xl font-bold text-[#e6c687] mt-1">{masterStats.totalMessages}</div>
+                  </div>
+                  <div className="p-4 rounded-xl border border-white/10 bg-[#070b11]">
+                    <div className="text-[11px] text-white/50">Valid Questions Charged</div>
+                    <div className="text-2xl font-bold text-emerald-400 mt-1">{masterStats.chargedQuestions}</div>
+                  </div>
+                  <div className="p-4 rounded-xl border border-white/10 bg-[#070b11]">
+                    <div className="text-[11px] text-white/50">Off-Topic Blocked by Stage-1 AI</div>
+                    <div className="text-2xl font-bold text-amber-400 mt-1">{masterStats.rejectedByStage1}</div>
+                  </div>
+                </div>
+
+                {/* Eligibility & Question Quota Policy Card */}
+                <div className="p-5 rounded-xl border border-[#d4af37]/40 bg-[#070b11] space-y-4 text-xs">
+                  <div className="text-sm font-serif font-semibold text-[#e6c687]">
+                    Seeker Access Gate & Customizable Question Quotas (善信准入條件與分級提問次數配額)
+                  </div>
+
+                  <label className="flex items-center gap-2.5 cursor-pointer p-3 rounded-lg bg-black/40 border border-white/10">
+                    <input
+                      type="checkbox"
+                      checked={masterPolicy.requireBirthOrRegistration}
+                      onChange={(e) =>
+                        setMasterPolicy({ ...masterPolicy, requireBirthOrRegistration: e.target.checked })
+                      }
+                    />
+                    <span>
+                      <strong>Require User Registration OR Specified Birth Info (Date, Time, Location)</strong> before talking to any Master (僅限已註冊或已填寫生辰八字之用戶可向宗師提問)
+                    </span>
+                  </label>
+
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="p-3.5 rounded-lg bg-black/40 border border-white/10 space-y-1.5">
+                      <label className="block font-semibold text-white">
+                        Unpaid User Quota (未付費用戶可問次數):
+                      </label>
+                      <input
+                        type="number"
+                        min={0}
+                        max={100}
+                        value={masterPolicy.unpaidQuota}
+                        onChange={(e) =>
+                          setMasterPolicy({ ...masterPolicy, unpaidQuota: parseInt(e.target.value, 10) || 0 })
+                        }
+                        className="w-full px-3 py-2 bg-black/60 border border-[#d4af37]/40 rounded text-white font-mono text-sm"
+                      />
+                      <span className="text-[11px] text-white/40 block">Default: 1 question for unpaid users</span>
+                    </div>
+
+                    <div className="p-3.5 rounded-lg bg-black/40 border border-white/10 space-y-1.5">
+                      <label className="block font-semibold text-[#e6c687]">
+                        Paid User Quota per Payment (單次付費獲贈次數):
+                      </label>
+                      <input
+                        type="number"
+                        min={1}
+                        max={100}
+                        value={masterPolicy.paidSinglePaymentQuota}
+                        onChange={(e) =>
+                          setMasterPolicy({
+                            ...masterPolicy,
+                            paidSinglePaymentQuota: parseInt(e.target.value, 10) || 3,
+                          })
+                        }
+                        className="w-full px-3 py-2 bg-black/60 border border-[#d4af37]/40 rounded text-white font-mono text-sm"
+                      />
+                      <span className="text-[11px] text-white/40 block">Default: 3 questions per payment ($2.99)</span>
+                    </div>
+
+                    <div className="p-3.5 rounded-lg bg-black/40 border border-white/10 space-y-1.5">
+                      <label className="block font-semibold text-emerald-300">
+                        Monthly Subscriber Quota (月費訂閱每月次數):
+                      </label>
+                      <input
+                        type="number"
+                        min={1}
+                        max={1000}
+                        value={masterPolicy.monthlySubscriberQuota}
+                        onChange={(e) =>
+                          setMasterPolicy({
+                            ...masterPolicy,
+                            monthlySubscriberQuota: parseInt(e.target.value, 10) || 30,
+                          })
+                        }
+                        className="w-full px-3 py-2 bg-black/60 border border-[#d4af37]/40 rounded text-white font-mono text-sm"
+                      />
+                      <span className="text-[11px] text-white/40 block">Default: 30 questions/month ($9.99/mo)</span>
+                    </div>
+                  </div>
+
+                  <label className="flex items-center gap-2.5 cursor-pointer p-3 rounded-lg bg-black/40 border border-white/10">
+                    <input
+                      type="checkbox"
+                      checked={masterPolicy.chargeOnRejectedIntent}
+                      onChange={(e) =>
+                        setMasterPolicy({ ...masterPolicy, chargeOnRejectedIntent: e.target.checked })
+                      }
+                    />
+                    <span>
+                      Deduct question quota even when Stage-1 rejects an off-topic inquiry (若關閉，被第一階段攔截之非指定範疇提問不扣次數)
+                    </span>
+                  </label>
+                </div>
+
+                {/* Stage 1 Lightweight Low-Cost AI Optimizer Card */}
+                <div className="p-5 rounded-xl border border-white/15 bg-[#070b11] space-y-4 text-xs">
+                  <div className="text-sm font-serif font-semibold text-[#e6c687]">
+                    Stage-1 Lightweight Lower-Cost AI Intent Categorizer (第一階段輕量低成本 AI 意圖分類優化)
+                  </div>
+                  <p className="text-white/50">
+                    Categorizes user intention with a fast, low-cost model first. Only questions falling within the Master&apos;s predefined categories proceed to Stage-2 RAG assembly and full persona synthesis.
+                  </p>
+
+                  <label className="flex items-center gap-2.5 cursor-pointer p-3 rounded-lg bg-black/40 border border-white/10">
+                    <input
+                      type="checkbox"
+                      checked={masterPolicy.enableLightweightClassifier}
+                      onChange={(e) =>
+                        setMasterPolicy({ ...masterPolicy, enableLightweightClassifier: e.target.checked })
+                      }
+                    />
+                    <span>
+                      <strong>Enable Stage-1 Lightweight AI Intent Categorizer</strong> (啟用二階段輕量 AI 意圖預審分流)
+                    </span>
+                  </label>
+
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                      <label className="block text-white/70 mb-1">
+                        Lightweight Classifier Model (`AI_LIGHTWEIGHT_MODEL_NAME`):
+                      </label>
+                      <input
+                        type="text"
+                        value={masterPolicy.lightweightModelName}
+                        onChange={(e) =>
+                          setMasterPolicy({ ...masterPolicy, lightweightModelName: e.target.value })
+                        }
+                        placeholder="auto, gpt-4o-mini, deepseek-chat"
+                        className="w-full px-3 py-2 bg-black/60 border border-white/15 rounded text-white font-mono"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-white/70 mb-1">
+                        Stage-1 Max Tokens Cap (`MASTER_INTENT_MAX_TOKENS`):
+                      </label>
+                      <input
+                        type="number"
+                        min={50}
+                        max={500}
+                        value={masterPolicy.intentMaxTokens}
+                        onChange={(e) =>
+                          setMasterPolicy({
+                            ...masterPolicy,
+                            intentMaxTokens: parseInt(e.target.value, 10) || 120,
+                          })
+                        }
+                        className="w-full px-3 py-2 bg-black/60 border border-white/15 rounded text-white font-mono"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-white/70 mb-1">
+                        Rolling Future Years Horizon (`MASTER_FUTURE_YEARS_HORIZON`):
+                      </label>
+                      <input
+                        type="number"
+                        min={1}
+                        max={10}
+                        value={masterPolicy.futureYearsHorizon ?? 2}
+                        onChange={(e) =>
+                          setMasterPolicy({
+                            ...masterPolicy,
+                            futureYearsHorizon: Math.max(1, Math.min(10, parseInt(e.target.value, 10) || 2)),
+                          })
+                        }
+                        className="w-full px-3 py-2 bg-black/60 border border-white/15 rounded text-white font-mono"
+                      />
+                      <span className="text-[10px] text-white/40 block mt-1">
+                        Default: 2 (Current Year + Future 2 Years rolling window)
+                      </span>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={handleSaveMasterPolicy}
+                    disabled={savingMaster}
+                    className="px-5 py-2.5 rounded-lg bg-gradient-to-r from-[#d4af37] to-[#e6c687] text-black font-semibold text-xs uppercase tracking-wider hover:brightness-110 flex items-center gap-2"
+                  >
+                    {savingMaster ? <RefreshCw className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
+                    Save Quota & Optimizer Policy (立即保存並熱更新)
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* SUB-TAB 3: LIVE 2-STAGE INTENT & RAG SIMULATOR SANDBOX */}
+            {activeMasterSubTab === 'simulator' && (
+              <div className="max-w-4xl space-y-5 text-xs">
+                <div className="p-5 rounded-xl border border-[#d4af37]/40 bg-[#070b11] space-y-4">
+                  <div className="text-sm font-serif font-semibold text-[#e6c687]">
+                    Live Two-Stage Intent & Personalization RAG Simulator (二階段意圖攔截與 RAG 知識庫實測沙盒)
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                    <div>
+                      <label className="block text-white/60 mb-1">Target Oracle Master:</label>
+                      <select
+                        value={simMasterId}
+                        onChange={(e) => setSimMasterId(e.target.value)}
+                        className="w-full px-3 py-2 bg-black/60 border border-white/15 rounded text-white"
+                      >
+                        {masters.map((m) => (
+                          <option key={m.id} value={m.id}>
+                            {m.nameZh} ({m.nameEn})
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    <div>
+                      <label className="block text-white/60 mb-1">Sample Seeker Birth Date:</label>
+                      <input
+                        type="date"
+                        value={simBirthDate}
+                        onChange={(e) => setSimBirthDate(e.target.value)}
+                        className="w-full px-3 py-2 bg-black/60 border border-white/15 rounded text-white"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-white/60 mb-1">Drawn Lot Number (1-60):</label>
+                      <input
+                        type="number"
+                        min={1}
+                        max={60}
+                        value={simLotNumber}
+                        onChange={(e) => setSimLotNumber(parseInt(e.target.value, 10) || 1)}
+                        className="w-full px-3 py-2 bg-black/60 border border-white/15 rounded text-white"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-white/60 mb-1">Test Question (Try both valid domain questions and off-topic questions):</label>
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        value={simQuestion}
+                        onChange={(e) => setSimQuestion(e.target.value)}
+                        className="flex-1 px-3 py-2 bg-black/60 border border-white/15 rounded text-white"
+                      />
+                      <button
+                        onClick={handleRunMasterSimulation}
+                        disabled={simRunning}
+                        className="px-4 py-2 rounded bg-[#d4af37] text-black font-semibold flex items-center gap-1.5"
+                      >
+                        {simRunning ? <RefreshCw className="w-3.5 h-3.5 animate-spin" /> : <Zap className="w-3.5 h-3.5" />}
+                        Run 2-Stage Test
+                      </button>
+                    </div>
+                  </div>
+
+                  {simResult && (
+                    <div className="space-y-4 pt-3 border-t border-white/10">
+                      <div className="p-3.5 rounded-lg bg-black/50 border border-white/10 space-y-1">
+                        <div className="font-semibold text-[#e6c687]">
+                          Stage 1 Intent Classification ({simResult.stage1.classifierProvider} · {simResult.stage1.latencyMs}ms):
+                        </div>
+                        <div className={simResult.stage1.isAllowed ? 'text-emerald-400' : 'text-red-400'}>
+                          Status: <strong>{simResult.stage1.intentStatus}</strong> | Detected Domain: <strong>{simResult.stage1.detectedDomain}</strong> | Reason: {simResult.stage1.reasonZh}
+                        </div>
+                      </div>
+
+                      <div className="p-3.5 rounded-lg bg-black/50 border border-white/10 space-y-2">
+                        <div className="font-semibold text-[#e6c687]">Stage 2 Master Reply ({simResult.provider}):</div>
+                        <pre className="whitespace-pre-wrap text-white/90 font-sans leading-relaxed">
+                          {simResult.reply}
+                        </pre>
+                      </div>
+
+                      <details className="p-3 rounded-lg bg-black/40 border border-white/10">
+                        <summary className="cursor-pointer text-[#d4af37] font-semibold">
+                          Inspect Assembled Personalization Engine RAG Context Prompt
+                        </summary>
+                        <pre className="mt-2 p-3 bg-black/80 rounded text-[11px] text-white/70 whitespace-pre-wrap font-mono max-h-64 overflow-y-auto">
+                          {simResult.ragPromptPreview}
+                        </pre>
+                      </details>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ═══════════ TAB 4: SYSTEM DIRECTIVES & CONFIG ═══════════ */}
         {activeTab === 'config' && (
           <div className="max-w-3xl space-y-6">
             <div className="flex items-center justify-between">
@@ -1060,6 +1761,461 @@ export function AdminPortal({
           </div>
         )}
       </main>
+
+      {/* ═══════════ MASTER EDIT DRAWER MODAL ═══════════ */}
+      {editingMaster && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+          <div
+            className="w-full max-w-4xl max-h-[92vh] bg-[#070b11] border border-[#d4af37]/50 rounded-2xl flex flex-col overflow-hidden shadow-[0_0_60px_rgba(212,175,55,0.25)]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header */}
+            <div className="px-6 py-4 border-b border-white/10 flex items-center justify-between bg-[#0c1320]">
+              <div className="flex items-center gap-3">
+                <div
+                  className="w-9 h-9 rounded-full flex items-center justify-center font-serif font-bold text-white border border-[#d4af37]"
+                  style={{ background: editingMaster.avatarGradient }}
+                >
+                  {editingMaster.sealCharacter}
+                </div>
+                <div>
+                  <h3 className="text-base font-serif font-bold text-[#e6c687]">
+                    Customize Master: {editingMaster.nameZh} ({editingMaster.nameEn})
+                  </h3>
+                  <p className="text-[11px] text-white/40">
+                    ID: {editingMaster.id} · Configure RAG Knowledge Base, Personality/Tone & Confined Categories
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={handleSaveMaster}
+                  disabled={savingMaster}
+                  className="px-4 py-2 text-xs font-semibold rounded-lg bg-gradient-to-r from-[#d4af37] to-[#e6c687] text-black hover:brightness-110 flex items-center gap-1.5"
+                >
+                  {savingMaster ? <RefreshCw className="w-3.5 h-3.5 animate-spin" /> : <Save className="w-3.5 h-3.5" />}
+                  Save Master
+                </button>
+                <button
+                  onClick={() => setEditingMaster(null)}
+                  className="p-2 text-white/60 hover:text-white rounded-lg hover:bg-white/5"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            {/* Body */}
+            <div className="flex-1 overflow-y-auto p-6 space-y-5 text-xs">
+              {/* 1. Identity & Status */}
+              <div className="p-4 rounded-xl border border-white/10 bg-black/40 space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="font-semibold text-[#e6c687] uppercase tracking-wider">
+                    1. Master Identity & Seal
+                  </span>
+                  <label className="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={editingMaster.isActive}
+                      onChange={(e) =>
+                        setEditingMaster({ ...editingMaster, isActive: e.target.checked })
+                      }
+                    />
+                    <span className="text-emerald-300 font-semibold">Active in Public Sanctuary</span>
+                  </label>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  <div>
+                    <label className="block text-white/50 mb-1">Chinese Name (宗師尊號):</label>
+                    <input
+                      type="text"
+                      value={editingMaster.nameZh}
+                      onChange={(e) => setEditingMaster({ ...editingMaster, nameZh: e.target.value })}
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/50 mb-1">English Name:</label>
+                    <input
+                      type="text"
+                      value={editingMaster.nameEn}
+                      onChange={(e) => setEditingMaster({ ...editingMaster, nameEn: e.target.value })}
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/50 mb-1">Seal Character (印鑑單字):</label>
+                    <input
+                      type="text"
+                      maxLength={2}
+                      value={editingMaster.sealCharacter}
+                      onChange={(e) =>
+                        setEditingMaster({ ...editingMaster, sealCharacter: e.target.value })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <div>
+                    <label className="block text-white/50 mb-1">Title (ZH):</label>
+                    <input
+                      type="text"
+                      value={editingMaster.titleZh}
+                      onChange={(e) => setEditingMaster({ ...editingMaster, titleZh: e.target.value })}
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/50 mb-1">Title (EN):</label>
+                    <input
+                      type="text"
+                      value={editingMaster.titleEn}
+                      onChange={(e) => setEditingMaster({ ...editingMaster, titleEn: e.target.value })}
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* 2. Predefined Characteristics (Personality, Tone, Speaking Style) */}
+              <div className="p-4 rounded-xl border border-white/10 bg-black/40 space-y-3">
+                <div className="font-semibold text-[#e6c687] uppercase tracking-wider">
+                  2. Predefined Characteristics (性格、語氣與說話風格設定)
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <div>
+                    <label className="block text-white/50 mb-1">Personality (ZH):</label>
+                    <textarea
+                      rows={2}
+                      value={editingMaster.characteristics.personalityZh}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          characteristics: {
+                            ...editingMaster.characteristics,
+                            personalityZh: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/50 mb-1">Personality (EN):</label>
+                    <textarea
+                      rows={2}
+                      value={editingMaster.characteristics.personalityEn}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          characteristics: {
+                            ...editingMaster.characteristics,
+                            personalityEn: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-white/50 mb-1">Tone & Voice (ZH):</label>
+                    <input
+                      type="text"
+                      value={editingMaster.characteristics.toneZh}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          characteristics: {
+                            ...editingMaster.characteristics,
+                            toneZh: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/50 mb-1">Tone & Voice (EN):</label>
+                    <input
+                      type="text"
+                      value={editingMaster.characteristics.toneEn}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          characteristics: {
+                            ...editingMaster.characteristics,
+                            toneEn: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-white/50 mb-1">Greeting Message (ZH):</label>
+                    <textarea
+                      rows={2}
+                      value={editingMaster.characteristics.greetingZh}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          characteristics: {
+                            ...editingMaster.characteristics,
+                            greetingZh: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/50 mb-1">Greeting Message (EN):</label>
+                    <textarea
+                      rows={2}
+                      value={editingMaster.characteristics.greetingEn}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          characteristics: {
+                            ...editingMaster.characteristics,
+                            greetingEn: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* 3. Confined Topics & Allowed Categories */}
+              <div className="p-4 rounded-xl border border-white/10 bg-black/40 space-y-3">
+                <div className="font-semibold text-[#e6c687] uppercase tracking-wider">
+                  3. Confined Topics & Allowed Categories (限定可討論之事類範疇)
+                </div>
+                <p className="text-white/50">
+                  Stage-1 Lightweight AI will strictly enforce these categories and reject any question outside the checked domains below:
+                </p>
+
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+                  {DOMAINS.map((dom) => {
+                    const checked = editingMaster.confinedTopics.allowedDomains.includes(dom.key);
+                    return (
+                      <label
+                        key={dom.key}
+                        className={`p-2 rounded border cursor-pointer flex items-center gap-2 ${
+                          checked
+                            ? 'bg-[#d4af37]/20 border-[#d4af37] text-[#e6c687] font-semibold'
+                            : 'bg-black/40 border-white/10 text-white/60'
+                        }`}
+                      >
+                        <input
+                          type="checkbox"
+                          checked={checked}
+                          onChange={(e) => {
+                            const current = editingMaster.confinedTopics.allowedDomains;
+                            const next = e.target.checked
+                              ? [...current, dom.key]
+                              : current.filter((k) => k !== dom.key);
+                            setEditingMaster({
+                              ...editingMaster,
+                              confinedTopics: {
+                                ...editingMaster.confinedTopics,
+                                allowedDomains: next,
+                              },
+                            });
+                          }}
+                        />
+                        <span>
+                          {dom.icon} {dom.titleZh}
+                        </span>
+                      </label>
+                    );
+                  })}
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+                  <div>
+                    <label className="block text-white/50 mb-1">Out-of-Scope Refusal Message (ZH):</label>
+                    <textarea
+                      rows={2}
+                      value={editingMaster.confinedTopics.refusalMessageZh}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          confinedTopics: {
+                            ...editingMaster.confinedTopics,
+                            refusalMessageZh: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/50 mb-1">Out-of-Scope Refusal Message (EN):</label>
+                    <textarea
+                      rows={2}
+                      value={editingMaster.confinedTopics.refusalMessageEn}
+                      onChange={(e) =>
+                        setEditingMaster({
+                          ...editingMaster,
+                          confinedTopics: {
+                            ...editingMaster.confinedTopics,
+                            refusalMessageEn: e.target.value,
+                          },
+                        })
+                      }
+                      className="w-full px-3 py-1.5 bg-black/60 border border-white/15 rounded text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* 4. Predefined Knowledge Base (Personalization Engine RAG + Custom Docs) */}
+              <div className="p-4 rounded-xl border border-white/10 bg-black/40 space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="font-semibold text-[#e6c687] uppercase tracking-wider">
+                    4. Predefined RAG Knowledge Base (八字、靈籤、個人化引擎與自定義知識庫)
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const newDoc: MasterKnowledgeDoc = {
+                        id: `doc_${Date.now()}`,
+                        titleZh: '新增宗師秘傳心法',
+                        titleEn: 'New Master Doctrine Entry',
+                        domain: 'all',
+                        keywords: ['八字', '籤詩', 'bazi', 'lot'],
+                        contentZh: '請在此輸入宗師專屬的命理或解籤知識庫內容...',
+                        contentEn: 'Enter custom RAG knowledge content for this Master...',
+                      };
+                      setEditingMaster({
+                        ...editingMaster,
+                        ragConfig: {
+                          ...editingMaster.ragConfig,
+                          customKnowledgeDocs: [
+                            ...(editingMaster.ragConfig.customKnowledgeDocs || []),
+                            newDoc,
+                          ],
+                        },
+                      });
+                    }}
+                    className="px-3 py-1 rounded bg-[#d4af37]/20 border border-[#d4af37]/50 text-[#e6c687] font-semibold"
+                  >
+                    + Add Custom RAG Document
+                  </button>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+                  {[
+                    { key: 'includeBaziChart', label: 'BaZi 4 Pillars & Solar Time' },
+                    { key: 'includeTenGodsAndPalaces', label: 'Ten Gods & Palaces' },
+                    { key: 'includeDrawnLot', label: '60 Lots Verse & Story' },
+                    { key: 'includeLifeBook', label: '9-Section Life Book' },
+                    { key: 'includeTransits', label: 'Dynamic Rolling Transits' },
+                  ].map((item) => (
+                    <label
+                      key={item.key}
+                      className="p-2 rounded bg-black/60 border border-white/10 flex items-center gap-2 cursor-pointer"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={(editingMaster.ragConfig as any)[item.key]}
+                        onChange={(e) =>
+                          setEditingMaster({
+                            ...editingMaster,
+                            ragConfig: {
+                              ...editingMaster.ragConfig,
+                              [item.key]: e.target.checked,
+                            },
+                          })
+                        }
+                      />
+                      <span>{item.label}</span>
+                    </label>
+                  ))}
+                </div>
+
+                {/* Custom RAG Docs List */}
+                <div className="space-y-3 pt-2">
+                  {(editingMaster.ragConfig.customKnowledgeDocs || []).map((doc, idx) => (
+                    <div key={doc.id} className="p-3 rounded-lg bg-black/60 border border-white/10 space-y-2">
+                      <div className="flex items-center justify-between gap-2">
+                        <input
+                          type="text"
+                          value={doc.titleZh}
+                          onChange={(e) => {
+                            const docs = [...editingMaster.ragConfig.customKnowledgeDocs];
+                            docs[idx] = { ...docs[idx], titleZh: e.target.value };
+                            setEditingMaster({
+                              ...editingMaster,
+                              ragConfig: { ...editingMaster.ragConfig, customKnowledgeDocs: docs },
+                            });
+                          }}
+                          placeholder="Document Title (ZH)"
+                          className="flex-1 px-2.5 py-1 bg-black/60 border border-white/15 rounded text-[#e6c687] font-semibold"
+                        />
+                        <input
+                          type="text"
+                          value={doc.titleEn}
+                          onChange={(e) => {
+                            const docs = [...editingMaster.ragConfig.customKnowledgeDocs];
+                            docs[idx] = { ...docs[idx], titleEn: e.target.value };
+                            setEditingMaster({
+                              ...editingMaster,
+                              ragConfig: { ...editingMaster.ragConfig, customKnowledgeDocs: docs },
+                            });
+                          }}
+                          placeholder="Document Title (EN)"
+                          className="flex-1 px-2.5 py-1 bg-black/60 border border-white/15 rounded text-white"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => {
+                            const docs = editingMaster.ragConfig.customKnowledgeDocs.filter(
+                              (_, i) => i !== idx
+                            );
+                            setEditingMaster({
+                              ...editingMaster,
+                              ragConfig: { ...editingMaster.ragConfig, customKnowledgeDocs: docs },
+                            });
+                          }}
+                          className="text-red-400 hover:underline px-2"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                      <textarea
+                        rows={2}
+                        value={doc.contentZh}
+                        onChange={(e) => {
+                          const docs = [...editingMaster.ragConfig.customKnowledgeDocs];
+                          docs[idx] = { ...docs[idx], contentZh: e.target.value };
+                          setEditingMaster({
+                            ...editingMaster,
+                            ragConfig: { ...editingMaster.ragConfig, customKnowledgeDocs: docs },
+                          });
+                        }}
+                        placeholder="Chinese RAG Knowledge Content"
+                        className="w-full px-2.5 py-1.5 bg-black/60 border border-white/10 rounded text-white"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* ═══════════ LOT EDIT DRAWER MODAL ═══════════ */}
       {selectedLot && (

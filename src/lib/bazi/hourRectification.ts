@@ -4,6 +4,7 @@
 import {
   calculateFourPillars,
   calculateTrueSolarTime,
+  getYearGanzhi,
   FourPillars,
 } from './baziEngine';
 
@@ -375,34 +376,39 @@ export function solveBirthHour(
   const db = winningHour.fourPillars.day.branch;
   const hb = winningHour.branch;
 
+  const curYear = new Date().getFullYear();
+  const y0 = getYearGanzhi(curYear);
+  const y1 = getYearGanzhi(curYear + 1);
+  const birthYear = parseInt(birthDateStr.split('-')[0], 10) || (curYear - 30);
+
   // Synthesize Insightful Excerpt Hook (The Convincing Diagnostic Snippet)
-  const excerptZh = `您的生辰定盤為「${winningHour.shichenZh}（${winningHour.timeRange}）」。命局日主為「${dm}」，夫妻宮坐「${db}」，時柱歸於「${hb}」。命理結構顯示您天生具備極強的自主核心與敏銳直覺，但也伴隨著自我期許與外部制度的深層張力。考時定盤軌跡印證：您人生真正的進階與突破，往往並非來自順境安逸，而是在歷史關鍵節點（如 2018–2019 或 2021 年）遭遇環境重構時，被迫破釜沉舟所激發出的獨特格局。即將到來的 2026–2027 年歲君交運，將再次引動關鍵宮位，迎來三年一遇的破局窗口。`;
+  const excerptZh = `您的生辰定盤為「${winningHour.shichenZh}（${winningHour.timeRange}）」。命局日主為「${dm}」，夫妻宮坐「${db}」，時柱歸於「${hb}」。命理結構顯示您天生具備極強的自主核心與敏銳直覺，但也伴隨著自我期許與外部制度的深層張力。考時定盤軌跡印證：您人生真正的進階與突破，往往並非來自順境安逸，而是在歷史關鍵節點遭遇環境重構時，被迫破釜沉舟所激發出的獨特格局。即將到來的 ${curYear}–${curYear + 1} 年（${y0.ganzhi}、${y1.ganzhi}）歲君交運，將再次引動關鍵宮位，迎來轉折破局窗口。`;
 
-  const excerptEn = `Your rectified birth hour is converged to the ${winningHour.shichenEn} (${winningHour.timeRange}), grounding your chart with Day Master ${dm} seated upon ${db}, and Hour Pillar anchored in ${hb}. Your natal structure reveals a potent tension between an uncompromising independent vision and systemic structures. Historical milestone alignment confirms that major breakthroughs in your journey have repeatedly culminated not during passive calm, but during sharp environmental shifts (notably around 2018–2019 or 2021) that demanded autonomous mastery. The active transits of 2026–2027 are set to activate these core palaces once again, unlocking a pivotal strategic window.`;
+  const excerptEn = `Your rectified birth hour is converged to the ${winningHour.shichenEn} (${winningHour.timeRange}), grounding your chart with Day Master ${dm} seated upon ${db}, and Hour Pillar anchored in ${hb}. Your natal structure reveals a potent tension between an uncompromising independent vision and systemic structures. Historical milestone alignment confirms that major breakthroughs in your journey have repeatedly culminated not during passive calm, but during sharp environmental shifts that demanded autonomous mastery. The active transits of ${curYear}–${curYear + 1} (${y0.pinyin}, ${y1.pinyin}) are set to activate these core palaces once again, unlocking a pivotal strategic window.`;
 
-  // Upcoming predictive milestones (next 3 years)
+  // Upcoming predictive milestones (next rolling years)
   const upcomingMilestones: MilestoneEvent[] = [
     {
-      year: 2026,
-      ganzhi: '丙午',
-      age: 2026 - parseInt(birthDateStr.split('-')[0], 10),
+      year: curYear,
+      ganzhi: y0.ganzhi,
+      age: Math.max(1, curYear - birthYear),
       domain: 'career_move',
       polarity: 'breakthrough',
-      titleZh: '2026年（丙午）：陽火透干 · 平台能見度與決策權飛躍',
-      titleEn: '2026 (Bing-Wu): Yang Fire Manifest — Professional Visibility & Authority Surge',
-      mechanismZh: '丙午干支同氣引動天干，利於公開展現、關鍵業務確權及個人聲譽破圈。',
-      mechanismEn: 'Annual pillar Bing-Wu energizes the upper stems, catalyzing public recognition and strategic autonomy.',
+      titleZh: `${curYear}年（${y0.ganzhi}）：${y0.stemElementZh.split(' · ')[1] || y0.stemElementZh}司權 · 平台能見度與決策權飛躍`,
+      titleEn: `${curYear} (${y0.pinyin}): ${y0.stemElement} Manifest — Professional Visibility & Authority Surge`,
+      mechanismZh: `${y0.ganzhi}歲君引動天干，利於公開展現、關鍵業務確權及個人聲譽破圈。`,
+      mechanismEn: `Annual pillar ${y0.pinyin} (${y0.ganzhi}) energizes the upper stems, catalyzing public recognition and strategic autonomy.`,
     },
     {
-      year: 2027,
-      ganzhi: '丁未',
-      age: 2027 - parseInt(birthDateStr.split('-')[0], 10),
+      year: curYear + 1,
+      ganzhi: y1.ganzhi,
+      age: Math.max(2, curYear + 1 - birthYear),
       domain: 'wealth_treasury',
       polarity: 'breakthrough',
-      titleZh: '2027年（丁未）：太歲入庫 · 長期資產沉澱與財脈固化',
-      titleEn: '2027 (Ding-Wei): Treasury Consolidation — Asset Grounding & Wealth Compounding',
-      mechanismZh: '未土財庫與時支宮位相呼應，主資本落地、置產固化與長期回報兌現。',
-      mechanismEn: 'Wei Earth treasury resonates with natal palaces, signaling tangible asset acquisition and sustainable returns.',
+      titleZh: `${curYear + 1}年（${y1.ganzhi}）：太歲運轉 · 長期資產沉澱與財脈固化`,
+      titleEn: `${curYear + 1} (${y1.pinyin}): Consolidation Pivot — Asset Grounding & Wealth Compounding`,
+      mechanismZh: `${y1.ganzhi}歲君與時支宮位相呼應，主資本落地、基業固化與長期回報兌現。`,
+      mechanismEn: `${y1.pinyin} (${y1.ganzhi}) resonates with natal palaces, signaling tangible asset acquisition and sustainable returns.`,
     },
   ];
 

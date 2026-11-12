@@ -83,6 +83,33 @@ export function getDatabase(): Database.Database {
       created_at INTEGER NOT NULL,
       expires_at INTEGER NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS seeker_profiles (
+      user_id TEXT PRIMARY KEY,
+      email TEXT,
+      display_name TEXT,
+      is_registered INTEGER NOT NULL DEFAULT 0,
+      birth_date TEXT,
+      birth_time TEXT,
+      birth_city TEXT,
+      longitude REAL,
+      timezone_offset REAL,
+      created_at INTEGER NOT NULL,
+      updated_at INTEGER NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS master_chat_messages (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      master_id TEXT NOT NULL,
+      role TEXT NOT NULL,
+      content TEXT NOT NULL,
+      detected_domain TEXT,
+      intent_status TEXT NOT NULL DEFAULT 'allowed',
+      quota_charged INTEGER NOT NULL DEFAULT 0,
+      rag_sources_json TEXT,
+      created_at INTEGER NOT NULL
+    );
   `);
 
   return dbInstance;
