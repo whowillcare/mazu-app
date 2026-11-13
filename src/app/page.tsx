@@ -70,6 +70,9 @@ export default function MazuLotApp() {
   const [isCheckingOut, setIsCheckingOut] = useState(false);
   const [reportActiveTab, setReportActiveTab] = useState<'overview' | 'lifebook' | 'subscription' | 'masters'>('overview');
   const [showMasterModal, setShowMasterModal] = useState(false);
+  const [mobileReadingTab, setMobileReadingTab] = useState<'verse' | 'story' | 'guidance' | 'bazi'>('verse');
+  const [showCardModal, setShowCardModal] = useState(false);
+  const [showPillarsDrawer, setShowPillarsDrawer] = useState(false);
   const [unlockedReport, setUnlockedReport] = useState<{
     pillars: FourPillars;
     interaction: LotBaziInteraction;
@@ -624,38 +627,61 @@ export default function MazuLotApp() {
                 </div>
               </div>
 
-              {/* Three Core Pillars */}
-              <div
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-                  gap: '16px',
-                  textAlign: 'left',
-                }}
-              >
-                <div className="glass-panel" style={{ padding: '22px' }}>
-                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
-                    {t.porch.feature1Title}
-                  </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.6 }}>
-                    {t.porch.feature1Desc}
-                  </p>
+              {/* Three Core Pillars: Collapsible on Mobile, Grid on Desktop */}
+              <div style={{ marginTop: '20px' }}>
+                <div className="landing-pillars-toggle" style={{ display: 'flex', justifyContent: 'center', marginBottom: '10px' }}>
+                  <button
+                    type="button"
+                    onClick={() => setShowPillarsDrawer(!showPillarsDrawer)}
+                    className="btn-outline"
+                    style={{
+                      fontSize: '0.8rem',
+                      padding: '6px 16px',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '6px',
+                      borderRadius: '20px',
+                    }}
+                  >
+                    <span>✦</span>
+                    <span>{language === 'zh-TW' ? (showPillarsDrawer ? '收起三大特色綱領' : '閱讀三大傳統綱領特色') : (showPillarsDrawer ? 'Hide Core Features' : 'Explore Three Core Pillars')}</span>
+                    <span>{showPillarsDrawer ? '▲' : '▼'}</span>
+                  </button>
                 </div>
-                <div className="glass-panel" style={{ padding: '22px' }}>
-                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
-                    {t.porch.feature2Title}
+
+                <div
+                  className={`landing-pillars-grid ${showPillarsDrawer ? 'expanded' : ''}`}
+                  style={{
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+                    gap: '14px',
+                    textAlign: 'left',
+                    marginTop: '12px',
+                  }}
+                >
+                  <div className="glass-panel" style={{ padding: '18px' }}>
+                    <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '6px', letterSpacing: '0.06em', fontSize: '0.94rem' }}>
+                      {t.porch.feature1Title}
+                    </div>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.86rem', lineHeight: 1.55 }}>
+                      {t.porch.feature1Desc}
+                    </p>
                   </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.6 }}>
-                    {t.porch.feature2Desc}
-                  </p>
-                </div>
-                <div className="glass-panel" style={{ padding: '22px' }}>
-                  <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.08em' }}>
-                    {t.porch.feature3Title}
+                  <div className="glass-panel" style={{ padding: '18px' }}>
+                    <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '6px', letterSpacing: '0.06em', fontSize: '0.94rem' }}>
+                      {t.porch.feature2Title}
+                    </div>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.86rem', lineHeight: 1.55 }}>
+                      {t.porch.feature2Desc}
+                    </p>
                   </div>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.6 }}>
-                    {t.porch.feature3Desc}
-                  </p>
+                  <div className="glass-panel" style={{ padding: '18px' }}>
+                    <div style={{ color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '6px', letterSpacing: '0.06em', fontSize: '0.94rem' }}>
+                      {t.porch.feature3Title}
+                    </div>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.86rem', lineHeight: 1.55 }}>
+                      {t.porch.feature3Desc}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -879,10 +905,106 @@ export default function MazuLotApp() {
           {currentStep === 'reading' && drawnLot && (
             <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
               <div className="glass-panel" style={{ padding: 'clamp(20px, 4vw, 40px)' }}>
+
+                {/* Mobile Compact Card Banner & Modal Trigger */}
+                <div className="mobile-only" style={{ marginBottom: '16px' }}>
+                  <div
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      background: 'rgba(212, 175, 55, 0.08)',
+                      border: '1px solid var(--border-gold)',
+                      borderRadius: '12px',
+                      padding: '10px 14px',
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      <div
+                        style={{
+                          background: 'var(--vermilion)',
+                          color: '#FFF8E7',
+                          width: '36px',
+                          height: '36px',
+                          borderRadius: '8px',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          fontWeight: 700,
+                          fontFamily: 'var(--font-chinese)',
+                          fontSize: '0.92rem',
+                          boxShadow: '0 2px 8px rgba(194, 59, 34, 0.4)',
+                          flexShrink: 0,
+                        }}
+                      >
+                        {drawnLot.lot_number}
+                      </div>
+                      <div style={{ textAlign: 'left' }}>
+                        <div style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '0.92rem', lineHeight: 1.3 }}>
+                          {drawnLot.ganzhi.zh} · {drawnLot.title.zh}
+                        </div>
+                        <div style={{ color: 'var(--text-muted)', fontSize: '0.74rem' }}>
+                          {drawnLot.hexagram.name_zh} {drawnLot.hexagram.symbol} · {language === 'zh-TW' ? drawnLot.element_and_direction?.zh : drawnLot.element_and_direction?.en}
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setShowCardModal(true)}
+                      className="btn-outline"
+                      style={{
+                        padding: '6px 12px',
+                        fontSize: '0.75rem',
+                        borderRadius: '20px',
+                        borderColor: 'var(--gold-primary)',
+                        flexShrink: 0,
+                      }}
+                    >
+                      🎴 {language === 'zh-TW' ? '看籤卡' : 'Card'}
+                    </button>
+                  </div>
+                </div>
+
+                {/* Mobile Segmented Control */}
+                <div className="segmented-control mobile-only" style={{ marginBottom: '20px' }}>
+                  <button
+                    type="button"
+                    className={`segmented-tab-btn ${mobileReadingTab === 'verse' ? 'active' : ''}`}
+                    onClick={() => setMobileReadingTab('verse')}
+                  >
+                    <span>📜</span>
+                    <span>{language === 'zh-TW' ? '籤詩神卦' : 'Verse'}</span>
+                  </button>
+                  <button
+                    type="button"
+                    className={`segmented-tab-btn ${mobileReadingTab === 'story' ? 'active' : ''}`}
+                    onClick={() => setMobileReadingTab('story')}
+                  >
+                    <span>📖</span>
+                    <span>{language === 'zh-TW' ? '典故故事' : 'Story'}</span>
+                  </button>
+                  <button
+                    type="button"
+                    className={`segmented-tab-btn ${mobileReadingTab === 'guidance' ? 'active' : ''}`}
+                    onClick={() => setMobileReadingTab('guidance')}
+                  >
+                    <span>🧭</span>
+                    <span>{language === 'zh-TW' ? '事類解曰' : 'Guidance'}</span>
+                  </button>
+                  <button
+                    type="button"
+                    className={`segmented-tab-btn ${mobileReadingTab === 'bazi' ? 'active' : ''}`}
+                    onClick={() => setMobileReadingTab('bazi')}
+                  >
+                    <span>🔮</span>
+                    <span>{language === 'zh-TW' ? '八字合參' : 'BaZi'}</span>
+                  </button>
+                </div>
+
                 {/* Responsive Reading Layout */}
                 <div className="reading-layout">
-                  {/* Left Column: SvgLotCard Component (Canonical lot_01 Standard Layout) */}
-                  <div style={{ textAlign: 'center' }}>
+                  {/* Left Column: SvgLotCard Component (Canonical lot_01 Standard Layout) - Desktop Only */}
+                  <div className="desktop-only" style={{ textAlign: 'center' }}>
                     <div style={{ margin: '0 auto', width: '100%', maxWidth: '320px', display: 'flex', justifyContent: 'center' }}>
                       <SvgLotCard
                         lotNumber={drawnLot.lot_number}
@@ -939,139 +1061,146 @@ export default function MazuLotApp() {
                       </span>
                     </div>
 
-                    {/* Poetic Verse Display */}
-                    <div
-                      style={{
-                        background: 'rgba(7, 11, 17, 0.65)',
-                        border: '1px solid var(--border-gold)',
-                        borderRadius: 'var(--radius-md)',
-                        padding: 'clamp(16px, 3vw, 24px)',
-                        marginBottom: '20px',
-                      }}
-                    >
+                    {/* TAB 1: Poetic Verse Display & Keywords (Mobile tab 'verse' / Desktop all) */}
+                    <div className={mobileReadingTab === 'verse' ? '' : 'desktop-only'}>
                       <div
                         style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'space-between',
-                          marginBottom: '14px',
+                          background: 'rgba(7, 11, 17, 0.65)',
+                          border: '1px solid var(--border-gold)',
+                          borderRadius: 'var(--radius-md)',
+                          padding: 'clamp(16px, 3vw, 24px)',
+                          marginBottom: '20px',
                         }}
                       >
-                        <span style={{ color: 'var(--gold-primary)', fontSize: '0.88rem', letterSpacing: '0.12em', fontWeight: 600 }}>
-                          {t.readingStep.verseHeader}
-                        </span>
-                        <button
-                          onClick={() => setShowAlternativeVerse(!showAlternativeVerse)}
-                          style={{
-                            background: 'none',
-                            border: 'none',
-                            color: 'var(--gold-light)',
-                            fontSize: '0.84rem',
-                            cursor: 'pointer',
-                            textDecoration: 'underline',
-                          }}
-                        >
-                          {showAlternativeVerse
-                            ? language === 'zh-TW'
-                              ? '收起英譯對照'
-                              : 'Hide Classical Verse'
-                            : language === 'zh-TW'
-                            ? '📜 展開英文 Cadence 對照'
-                            : '📜 View Original 7-Char Verse'}
-                        </button>
-                      </div>
-
-                      {displayMode === 'bilingual' ? (
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px' }}>
-                          <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.2rem', letterSpacing: '0.2em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
-                            {drawnLot.verse?.lines?.map((line) => (
-                              <p key={line.line_number} style={{ marginBottom: '4px' }}>{line.zh}</p>
-                            ))}
-                          </div>
-                          <div style={{ fontStyle: 'italic', color: 'var(--text-primary)', lineHeight: 1.7, fontSize: '0.98rem' }}>
-                            {drawnLot.verse?.lines?.map((line) => (
-                              <p key={line.line_number} style={{ marginBottom: '4px' }}>&ldquo;{line.en}&rdquo;</p>
-                            ))}
-                          </div>
-                        </div>
-                      ) : language === 'zh-TW' ? (
-                        <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.25rem', letterSpacing: '0.22em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
-                          {drawnLot.verse?.lines?.map((line) => (
-                            <p key={line.line_number} style={{ marginBottom: '4px' }}>{line.zh}</p>
-                          ))}
-                        </div>
-                      ) : (
-                        <div style={{ fontStyle: 'italic', color: 'var(--text-primary)', lineHeight: 1.7, fontSize: '1.02rem' }}>
-                          {drawnLot.verse?.lines?.map((line) => (
-                            <p key={line.line_number} style={{ marginBottom: '6px' }}>
-                              &ldquo;{line.en}&rdquo;
-                            </p>
-                          ))}
-                        </div>
-                      )}
-
-                      {showAlternativeVerse && displayMode !== 'bilingual' && (
                         <div
                           style={{
-                            marginTop: '16px',
-                            paddingTop: '16px',
-                            borderTop: '1px dashed var(--border-gold)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            marginBottom: '14px',
                           }}
                         >
-                          {language === 'zh-TW' ? (
-                            <div style={{ fontStyle: 'italic', color: 'var(--text-secondary)', lineHeight: 1.7, fontSize: '0.96rem' }}>
+                          <span style={{ color: 'var(--gold-primary)', fontSize: '0.88rem', letterSpacing: '0.12em', fontWeight: 600 }}>
+                            {t.readingStep.verseHeader}
+                          </span>
+                          <button
+                            onClick={() => setShowAlternativeVerse(!showAlternativeVerse)}
+                            style={{
+                              background: 'none',
+                              border: 'none',
+                              color: 'var(--gold-light)',
+                              fontSize: '0.84rem',
+                              cursor: 'pointer',
+                              textDecoration: 'underline',
+                            }}
+                          >
+                            {showAlternativeVerse
+                              ? language === 'zh-TW'
+                                ? '收起英譯對照'
+                                : 'Hide Classical Verse'
+                              : language === 'zh-TW'
+                              ? '📜 展開英文 Cadence 對照'
+                              : '📜 View Original 7-Char Verse'}
+                          </button>
+                        </div>
+
+                        {displayMode === 'bilingual' ? (
+                          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px' }}>
+                            <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.2rem', letterSpacing: '0.2em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
+                              {drawnLot.verse?.lines?.map((line) => (
+                                <p key={line.line_number} style={{ marginBottom: '4px' }}>{line.zh}</p>
+                              ))}
+                            </div>
+                            <div style={{ fontStyle: 'italic', color: 'var(--text-primary)', lineHeight: 1.7, fontSize: '0.98rem' }}>
                               {drawnLot.verse?.lines?.map((line) => (
                                 <p key={line.line_number} style={{ marginBottom: '4px' }}>&ldquo;{line.en}&rdquo;</p>
                               ))}
                             </div>
-                          ) : (
-                            <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.2rem', letterSpacing: '0.22em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
-                              {drawnLot.verse?.lines?.map((line) => (
-                                <p key={line.line_number}>{line.zh}</p>
-                              ))}
-                            </div>
-                          )}
+                          </div>
+                        ) : language === 'zh-TW' ? (
+                          <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.25rem', letterSpacing: '0.22em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
+                            {drawnLot.verse?.lines?.map((line) => (
+                              <p key={line.line_number} style={{ marginBottom: '4px' }}>{line.zh}</p>
+                            ))}
+                          </div>
+                        ) : (
+                          <div style={{ fontStyle: 'italic', color: 'var(--text-primary)', lineHeight: 1.7, fontSize: '1.02rem' }}>
+                            {drawnLot.verse?.lines?.map((line) => (
+                              <p key={line.line_number} style={{ marginBottom: '6px' }}>
+                                &ldquo;{line.en}&rdquo;
+                              </p>
+                            ))}
+                          </div>
+                        )}
+
+                        {showAlternativeVerse && displayMode !== 'bilingual' && (
+                          <div
+                            style={{
+                              marginTop: '16px',
+                              paddingTop: '16px',
+                              borderTop: '1px dashed var(--border-gold)',
+                            }}
+                          >
+                            {language === 'zh-TW' ? (
+                              <div style={{ fontStyle: 'italic', color: 'var(--text-secondary)', lineHeight: 1.7, fontSize: '0.96rem' }}>
+                                {drawnLot.verse?.lines?.map((line) => (
+                                  <p key={line.line_number} style={{ marginBottom: '4px' }}>&ldquo;{line.en}&rdquo;</p>
+                                ))}
+                              </div>
+                            ) : (
+                              <div style={{ fontFamily: 'var(--font-chinese)', fontSize: '1.2rem', letterSpacing: '0.22em', color: 'var(--gold-light)', lineHeight: 1.9 }}>
+                                {drawnLot.verse?.lines?.map((line) => (
+                                  <p key={line.line_number}>{line.zh}</p>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Favorable vs Guarded Keywords */}
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '14px', marginBottom: '20px' }}>
+                        <div style={{ background: 'rgba(212, 175, 55, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
+                          <div style={{ color: 'var(--gold-light)', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
+                            {t.readingStep.favorableTag}
+                          </div>
+                          <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
+                            {(language === 'zh-TW'
+                              ? drawnLot.keywords?.favourable?.zh || drawnLot.keywords?.favourable?.en || []
+                              : drawnLot.keywords?.favourable?.en || drawnLot.keywords?.favourable?.zh || []
+                            ).join(' · ')}
+                          </p>
                         </div>
-                      )}
-                    </div>
-
-                    {/* Domain Guidance Line */}
-                    <div style={{ marginBottom: '20px' }}>
-                      <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '0.92rem', marginBottom: '6px' }}>
-                        {t.readingStep.domainGuidanceHeader}{' '}
-                        {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn.toUpperCase()}:
+                        <div style={{ background: 'rgba(194, 59, 34, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
+                          <div style={{ color: '#E87A68', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
+                            {t.readingStep.guardedTag}
+                          </div>
+                          <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
+                            {(language === 'zh-TW'
+                              ? drawnLot.keywords?.guarded?.zh || drawnLot.keywords?.guarded?.en || []
+                              : drawnLot.keywords?.guarded?.en || drawnLot.keywords?.guarded?.zh || []
+                            ).join(' · ')}
+                          </p>
+                        </div>
                       </div>
-                      <p style={{ color: 'var(--text-primary)', fontSize: '1.05rem', lineHeight: 1.6 }}>
-                        &ldquo;
-                        {language === 'zh-TW'
-                          ? drawnLot.guidance?.[selectedDomain]?.zh || drawnLot.guidance?.general?.zh || drawnLot.plain_meaning?.zh
-                          : drawnLot.guidance?.[selectedDomain]?.en || drawnLot.guidance?.general?.en || drawnLot.plain_meaning?.en}
-                        &rdquo;
-                      </p>
-                    </div>
 
-                    {/* Prominent General Interpretation Disclaimer Box */}
-                    <div
-                      style={{
-                        margin: '20px 0',
-                        padding: '16px 20px',
-                        background: 'rgba(212, 175, 55, 0.06)',
-                        border: '1px solid rgba(212, 175, 55, 0.28)',
-                        borderRadius: 'var(--radius-sm)',
-                        borderLeft: '4px solid var(--gold-primary)',
-                      }}
-                    >
-                      <div style={{ color: 'var(--gold-primary)', fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.08em', marginBottom: '4px' }}>
-                        {t.disclaimer.badge} · {t.disclaimer.title}
+                      {/* Mobile Next Navigation CTA */}
+                      <div className="mobile-only" style={{ marginTop: '16px', textAlign: 'center' }}>
+                        <button
+                          type="button"
+                          onClick={() => setMobileReadingTab('story')}
+                          className="btn-outline"
+                          style={{ fontSize: '0.82rem', padding: '8px 20px', borderRadius: '20px' }}
+                        >
+                          <span>📖 {language === 'zh-TW' ? '閱讀歷史典故' : 'Next: Historical Story'} →</span>
+                        </button>
                       </div>
-                      <p style={{ color: 'var(--text-secondary)', fontSize: '0.86rem', lineHeight: 1.6, margin: 0 }}>
-                        {t.disclaimer.body}
-                      </p>
                     </div>
 
-                    {/* Historical Allusion Story Card */}
+                    {/* TAB 2: Historical Allusion Story Card (Mobile tab 'story' / Desktop all) */}
                     {drawnLot.stories && drawnLot.stories.length > 0 && (
                       <div
+                        className={mobileReadingTab === 'story' ? '' : 'desktop-only'}
                         style={{
                           marginBottom: '20px',
                           padding: '16px',
@@ -1091,42 +1220,78 @@ export default function MazuLotApp() {
                         <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '8px' }}>
                           {language === 'zh-TW' ? drawnLot.stories[0].narrative.zh : drawnLot.stories[0].narrative.en}
                         </p>
-                        <div style={{ fontSize: '0.82rem', color: 'var(--gold-light)', fontStyle: 'italic' }}>
+                        <div style={{ fontSize: '0.82rem', color: 'var(--gold-light)', fontStyle: 'italic', marginBottom: '12px' }}>
                           {t.readingStep.poemConnectionLabel}: &ldquo;{language === 'zh-TW' ? drawnLot.stories[0].poem_connection.zh : drawnLot.stories[0].poem_connection.en}&rdquo;
+                        </div>
+
+                        {/* Mobile Next Navigation CTA */}
+                        <div className="mobile-only" style={{ marginTop: '14px', textAlign: 'center' }}>
+                          <button
+                            type="button"
+                            onClick={() => setMobileReadingTab('guidance')}
+                            className="btn-outline"
+                            style={{ fontSize: '0.82rem', padding: '8px 20px', borderRadius: '20px' }}
+                          >
+                            <span>🧭 {language === 'zh-TW' ? '查看事類解曰' : 'Next: Domain Guidance'} →</span>
+                          </button>
                         </div>
                       </div>
                     )}
 
-                    {/* Favorable vs Guarded Keywords */}
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '14px' }}>
-                      <div style={{ background: 'rgba(212, 175, 55, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
-                        <div style={{ color: 'var(--gold-light)', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
-                          {t.readingStep.favorableTag}
+                    {/* TAB 3: Domain Guidance Line & Disclaimer Box (Mobile tab 'guidance' / Desktop all) */}
+                    <div className={mobileReadingTab === 'guidance' ? '' : 'desktop-only'}>
+                      {/* Domain Guidance Line */}
+                      <div style={{ marginBottom: '20px' }}>
+                        <div style={{ color: 'var(--gold-primary)', fontWeight: 600, fontSize: '0.92rem', marginBottom: '6px' }}>
+                          {t.readingStep.domainGuidanceHeader}{' '}
+                          {language === 'zh-TW' ? domainMeta.titleZh : domainMeta.titleEn.toUpperCase()}:
                         </div>
-                        <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
-                          {(language === 'zh-TW'
-                            ? drawnLot.keywords?.favourable?.zh || drawnLot.keywords?.favourable?.en || []
-                            : drawnLot.keywords?.favourable?.en || drawnLot.keywords?.favourable?.zh || []
-                          ).join(' · ')}
+                        <p style={{ color: 'var(--text-primary)', fontSize: '1.05rem', lineHeight: 1.6 }}>
+                          &ldquo;
+                          {language === 'zh-TW'
+                            ? drawnLot.guidance?.[selectedDomain]?.zh || drawnLot.guidance?.general?.zh || drawnLot.plain_meaning?.zh
+                            : drawnLot.guidance?.[selectedDomain]?.en || drawnLot.guidance?.general?.en || drawnLot.plain_meaning?.en}
+                          &rdquo;
                         </p>
                       </div>
-                      <div style={{ background: 'rgba(194, 59, 34, 0.08)', padding: '14px', borderRadius: 'var(--radius-sm)' }}>
-                        <div style={{ color: '#E87A68', fontWeight: 600, fontSize: '0.88rem', marginBottom: '4px' }}>
-                          {t.readingStep.guardedTag}
+
+                      {/* Prominent General Interpretation Disclaimer Box */}
+                      <div
+                        style={{
+                          margin: '20px 0',
+                          padding: '16px 20px',
+                          background: 'rgba(212, 175, 55, 0.06)',
+                          border: '1px solid rgba(212, 175, 55, 0.28)',
+                          borderRadius: 'var(--radius-sm)',
+                          borderLeft: '4px solid var(--gold-primary)',
+                        }}
+                      >
+                        <div style={{ color: 'var(--gold-primary)', fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.08em', marginBottom: '4px' }}>
+                          {t.disclaimer.badge} · {t.disclaimer.title}
                         </div>
-                        <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)' }}>
-                          {(language === 'zh-TW'
-                            ? drawnLot.keywords?.guarded?.zh || drawnLot.keywords?.guarded?.en || []
-                            : drawnLot.keywords?.guarded?.en || drawnLot.keywords?.guarded?.zh || []
-                          ).join(' · ')}
+                        <p style={{ color: 'var(--text-secondary)', fontSize: '0.86rem', lineHeight: 1.6, margin: 0 }}>
+                          {t.disclaimer.body}
                         </p>
+                      </div>
+
+                      {/* Mobile Next Navigation CTA */}
+                      <div className="mobile-only" style={{ marginTop: '16px', textAlign: 'center' }}>
+                        <button
+                          type="button"
+                          onClick={() => setMobileReadingTab('bazi')}
+                          className="btn-primary"
+                          style={{ fontSize: '0.84rem', padding: '10px 22px', borderRadius: '24px' }}
+                        >
+                          <span>🔮 {language === 'zh-TW' ? '進入八字合參排盤' : 'Proceed to BaZi Matching'} →</span>
+                        </button>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* ─── DUAL-BRANCH BAZI RECTIFICATION & CONVERSION BRIDGE ─── */}
+                {/* ─── TAB 4: DUAL-BRANCH BAZI RECTIFICATION & CONVERSION BRIDGE (Mobile tab 'bazi' / Desktop all) ─── */}
                 <div
+                  className={mobileReadingTab === 'bazi' ? '' : 'desktop-only'}
                   style={{
                     marginTop: '44px',
                     paddingTop: '36px',
@@ -2238,58 +2403,82 @@ export default function MazuLotApp() {
         </div>
       )}
 
-      {/* ─── ONLINE ORACLE MASTERS MODAL DRAWER ─────────────────── */}
-      {showMasterModal && (
-        <div className="modal-backdrop" onClick={() => setShowMasterModal(false)}>
+      {/* ─── FULL SACRED LOT CARD MODAL (MOBILE) ─────────────────── */}
+      {showCardModal && drawnLot && (
+        <div className="modal-backdrop" onClick={() => setShowCardModal(false)}>
           <div
             className="modal-content"
             style={{
-              maxWidth: '940px',
-              width: '95vw',
-              maxHeight: '92vh',
-              overflowY: 'auto',
+              maxWidth: '360px',
+              width: '92vw',
               padding: '20px',
-              background: '#05080E',
-              border: '2px solid var(--gold-primary)',
+              textAlign: 'center',
+              background: '#070B11',
+              border: '1px solid var(--border-gold)',
+              borderRadius: '16px',
+              position: 'relative',
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-              <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '0.9rem' }}>
-                ✦ {language === 'zh-TW' ? '媽祖聖殿 · 宗師在線問答堂' : 'MAZU SANCTUARY · ONLINE ORACLE MASTERS'}
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '14px' }}>
+              <span style={{ color: 'var(--gold-primary)', fontWeight: 700, fontSize: '0.88rem', letterSpacing: '0.1em' }}>
+                ✦ {language === 'zh-TW' ? `第 ${drawnLot.lot_number} 籤 · 聖卡鑑賞` : `LOT #${drawnLot.lot_number} · SACRED CARD`}
               </span>
               <button
-                onClick={() => setShowMasterModal(false)}
+                onClick={() => setShowCardModal(false)}
                 style={{
                   background: 'none',
                   border: 'none',
                   color: 'var(--text-muted)',
                   fontSize: '1.4rem',
                   cursor: 'pointer',
+                  padding: '4px',
                 }}
+                aria-label="Close"
               >
                 ✕
               </button>
             </div>
-            <OracleMasterChat
-              language={language}
-              userId="seeker_1992"
-              birthDate={birthDate}
-              birthTime={birthTime}
-              birthCity={selectedCity.nameZh || selectedCity.nameEn}
-              longitude={selectedCity.longitude}
-              timezoneOffset={selectedCity.timeZoneOffset}
-              lotNumber={drawnLot?.lot_number || 1}
-              selectedDomain={selectedDomain}
-              hasUnlockedReport={!!unlockedReport}
-              onBirthInfoChange={(bDate, bTime) => {
-                setBirthDate(bDate);
-                setBirthTime(bTime);
-              }}
-            />
+            <div style={{ margin: '0 auto', display: 'flex', justifyContent: 'center' }}>
+              <SvgLotCard
+                lotNumber={drawnLot.lot_number}
+                ganzhiZh={drawnLot.ganzhi.zh}
+                titleZh={drawnLot.title.zh}
+                titleEn={drawnLot.title.en}
+                language={displayMode === 'bilingual' ? 'mixed' : language === 'zh-TW' ? 'zh-TW' : 'en'}
+              />
+            </div>
+            <button
+              onClick={() => setShowCardModal(false)}
+              className="btn-outline"
+              style={{ width: '100%', marginTop: '16px', padding: '10px', fontSize: '0.85rem' }}
+            >
+              {language === 'zh-TW' ? '返回解讀' : 'Return to Reading'}
+            </button>
           </div>
         </div>
       )}
+
+      {/* ─── ONLINE ORACLE MASTERS BOTTOM SHEET / MODAL ─────────── */}
+      <OracleMasterChat
+        asModalSheet={true}
+        isOpenModal={showMasterModal}
+        onCloseModal={() => setShowMasterModal(false)}
+        language={language}
+        userId="seeker_1992"
+        birthDate={birthDate}
+        birthTime={birthTime}
+        birthCity={selectedCity.nameZh || selectedCity.nameEn}
+        longitude={selectedCity.longitude}
+        timezoneOffset={selectedCity.timeZoneOffset}
+        lotNumber={drawnLot?.lot_number || 1}
+        selectedDomain={selectedDomain}
+        hasUnlockedReport={!!unlockedReport}
+        onBirthInfoChange={(bDate, bTime) => {
+          setBirthDate(bDate);
+          setBirthTime(bTime);
+        }}
+      />
 
       {/* ─── PREFERENCES MODAL DRAWER ───────────────────────────── */}
       {showPreferences && (
@@ -2385,6 +2574,88 @@ export default function MazuLotApp() {
           <p>© 2026 Mazu Heritage Project · Philological Sixty Jiazi Canon · CRD Art. 16(m) Verified</p>
         </div>
       </footer>
+
+      {/* ─── MOBILE FLOATING ACTION BUTTON (FAB) FOR MASTER CHAT ───── */}
+      <button
+        type="button"
+        className="mobile-master-fab"
+        onClick={() => setShowMasterModal(true)}
+        aria-label={language === 'zh-TW' ? '向宗師請益' : 'Consult Oracle Master'}
+      >
+        <span style={{ fontSize: '1.2rem' }}>🧙‍♂️</span>
+        <span>{language === 'zh-TW' ? '宗師解籤' : 'Ask Master'}</span>
+      </button>
+
+      {/* ─── MOBILE APP BOTTOM NAVIGATION BAR ───────────────────── */}
+      <nav className="mobile-app-bottom-bar" aria-label="Mobile Navigation">
+        <button
+          type="button"
+          className={`mobile-bottom-nav-item ${currentStep === 'porch' || currentStep === 'domain' || currentStep === 'question' || currentStep === 'drawing' ? 'active' : ''}`}
+          onClick={() => {
+            if (currentStep !== 'porch') {
+              setCurrentStep('porch');
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
+          <span className="mobile-bottom-nav-icon">⛩️</span>
+          <span>{language === 'zh-TW' ? '叩問' : 'Inquiry'}</span>
+        </button>
+
+        <button
+          type="button"
+          className={`mobile-bottom-nav-item ${currentStep === 'reading' ? 'active' : ''}`}
+          onClick={() => {
+            if (drawnLot) {
+              setCurrentStep('reading');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+              alert(language === 'zh-TW' ? '請先於首頁誠心抽籤叩問。' : 'Please draw a sacred lot first.');
+            }
+          }}
+        >
+          <span className="mobile-bottom-nav-icon">📜</span>
+          <span>{language === 'zh-TW' ? '靈籤' : 'Lot'}</span>
+        </button>
+
+        <button
+          type="button"
+          className={`mobile-bottom-nav-item ${currentStep === 'report' ? 'active' : ''}`}
+          onClick={() => {
+            if (unlockedReport) {
+              setCurrentStep('report');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else if (drawnLot) {
+              setMobileReadingTab('bazi');
+              setCurrentStep('reading');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+              alert(language === 'zh-TW' ? '請先求籤並完成八字合參排盤。' : 'Please draw a lot and calculate BaZi first.');
+            }
+          }}
+        >
+          <span className="mobile-bottom-nav-icon">🔮</span>
+          <span>{language === 'zh-TW' ? '命書' : 'Report'}</span>
+        </button>
+
+        <button
+          type="button"
+          className="mobile-bottom-nav-item"
+          onClick={() => setShowMasterModal(true)}
+        >
+          <span className="mobile-bottom-nav-icon">🧙‍♂️</span>
+          <span>{language === 'zh-TW' ? '宗師' : 'Masters'}</span>
+        </button>
+
+        <button
+          type="button"
+          className="mobile-bottom-nav-item"
+          onClick={() => setShowPreferences(true)}
+        >
+          <span className="mobile-bottom-nav-icon">⚙️</span>
+          <span>{language === 'zh-TW' ? '設定' : 'Settings'}</span>
+        </button>
+      </nav>
     </div>
   );
 }

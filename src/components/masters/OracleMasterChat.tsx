@@ -22,6 +22,9 @@ interface OracleMasterChatProps {
   selectedDomain?: DomainCategory;
   hasUnlockedReport?: boolean;
   onBirthInfoChange?: (birthDate: string, birthTime: string) => void;
+  asModalSheet?: boolean;
+  isOpenModal?: boolean;
+  onCloseModal?: () => void;
 }
 
 export function OracleMasterChat({
@@ -35,6 +38,9 @@ export function OracleMasterChat({
   lotNumber = 1,
   selectedDomain = 'career',
   onBirthInfoChange,
+  asModalSheet = false,
+  isOpenModal = false,
+  onCloseModal,
 }: OracleMasterChatProps) {
   const isZh = language === 'zh-TW';
 
@@ -331,15 +337,23 @@ export function OracleMasterChat({
     return null;
   }
 
-  return (
+  if (asModalSheet && !isOpenModal) {
+    return null;
+  }
+
+  const chatContent = (
     <div
-      className="glass-panel"
+      className={asModalSheet ? '' : 'glass-panel'}
       style={{
-        padding: 'clamp(18px, 3.5vw, 30px)',
-        border: '1px solid var(--gold-primary)',
-        background: 'linear-gradient(180deg, rgba(10, 15, 24, 0.95) 0%, rgba(5, 8, 14, 0.98) 100%)',
-        boxShadow: '0 16px 48px rgba(0, 0, 0, 0.65)',
+        padding: asModalSheet ? '16px' : 'clamp(18px, 3.5vw, 30px)',
+        border: asModalSheet ? 'none' : '1px solid var(--gold-primary)',
+        background: asModalSheet
+          ? 'transparent'
+          : 'linear-gradient(180deg, rgba(10, 15, 24, 0.95) 0%, rgba(5, 8, 14, 0.98) 100%)',
+        boxShadow: asModalSheet ? 'none' : '0 16px 48px rgba(0, 0, 0, 0.65)',
         textAlign: 'left',
+        maxHeight: asModalSheet ? '82vh' : 'none',
+        overflowY: asModalSheet ? 'auto' : 'visible',
       }}
     >
       {/* ─── HEADER & TIER QUOTA BAR ─────────────────────────────────────── */}
@@ -350,18 +364,18 @@ export function OracleMasterChat({
           alignItems: 'flex-start',
           flexWrap: 'wrap',
           gap: '14px',
-          paddingBottom: '18px',
+          paddingBottom: '14px',
           borderBottom: '1px solid var(--border-gold)',
-          marginBottom: '20px',
+          marginBottom: '16px',
         }}
       >
-        <div>
+        <div style={{ flex: 1, minWidth: '220px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
             <span
               style={{
                 padding: '2px 10px',
                 borderRadius: '12px',
-                fontSize: '0.74rem',
+                fontSize: '0.72rem',
                 fontWeight: 700,
                 background: 'rgba(212, 175, 55, 0.2)',
                 color: 'var(--gold-primary)',
@@ -369,27 +383,50 @@ export function OracleMasterChat({
                 letterSpacing: '0.08em',
               }}
             >
-              {isZh ? '✦ 宗師在線問答 · RAG 命理知識庫' : '✦ AI ORACLE MASTERS · RAG PERSONALIZATION ENGINE'}
+              {isZh ? '✦ 宗師在線問答' : '✦ AI ORACLE MASTERS'}
             </span>
             <span
               style={{
-                fontSize: '0.72rem',
+                fontSize: '0.7rem',
                 color: 'var(--text-muted)',
                 fontFamily: 'monospace',
               }}
             >
-              {isZh ? '二階段輕量意圖守門已啟用' : '2-Stage Intent Guardrail Active'}
+              {isZh ? '輕量AI意圖守門' : 'Intent Guardrail'}
             </span>
           </div>
-          <h3 className="font-serif gold-gradient-text" style={{ fontSize: 'clamp(1.35rem, 3vw, 1.7rem)', margin: '4px 0' }}>
-            {isZh ? '聖殿宗師親算與籤命合參問答' : 'Consult the Sanctuary Oracle Masters'}
+          <h3 className="font-serif gold-gradient-text" style={{ fontSize: 'clamp(1.2rem, 2.5vw, 1.5rem)', margin: '4px 0' }}>
+            {isZh ? '聖殿宗師親算與籤命合參問答' : 'Consult Sanctuary Oracle Masters'}
           </h3>
-          <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0 }}>
+          <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.45 }}>
             {isZh
-              ? '每位宗師皆通曉您的真太陽時四柱八字、十神宮位、九章命書與所抽靈籤，並嚴格於專屬限定事類內授道解惑。'
-              : 'Each Master knows your True Solar BaZi chart, Ten Gods, Drawn Lot, and 9-Section Life Book inside out, counseling strictly within their confined domains.'}
+              ? '每位宗師皆通曉您的四柱八字、十神宮位、命書與靈籤，並嚴格於專屬事類內授道解惑。'
+              : 'Each Master knows your BaZi chart, Ten Gods, and Drawn Lot, counseling within confined domains.'}
           </p>
         </div>
+
+        {asModalSheet && (
+          <button
+            type="button"
+            onClick={onCloseModal}
+            style={{
+              background: 'rgba(255, 255, 255, 0.1)',
+              border: '1px solid var(--border-subtle)',
+              borderRadius: '50%',
+              width: '32px',
+              height: '32px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: 'var(--text-primary)',
+              cursor: 'pointer',
+              fontSize: '1rem',
+              flexShrink: 0,
+            }}
+          >
+            ✕
+          </button>
+        )}
 
         {/* Live Quota & Eligibility Status Box */}
         {quotaStatus && (
@@ -615,16 +652,16 @@ export function OracleMasterChat({
       )}
 
       {/* ─── STEP 1: CHOOSE AN ONLINE ORACLE MASTER ────────────────────── */}
-      <div style={{ marginBottom: '20px' }}>
-        <div style={{ fontSize: '0.82rem', color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '10px', letterSpacing: '0.06em' }}>
-          {isZh ? '請選擇坐鎮宗師（每位宗師具專屬性格與限定論道範疇）：' : 'SELECT AN ORACLE MASTER (EACH WITH PREDEFINED PERSONA, RAG & CONFINED CATEGORIES):'}
+      <div style={{ marginBottom: '16px' }}>
+        <div style={{ fontSize: '0.8rem', color: 'var(--gold-primary)', fontWeight: 700, marginBottom: '8px', letterSpacing: '0.05em' }}>
+          {isZh ? '請選擇坐鎮宗師（專屬事類解惑）：' : 'SELECT AN ORACLE MASTER:'}
         </div>
 
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-            gap: '12px',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))',
+            gap: '8px',
           }}
         >
           {masters.map((m) => {
@@ -634,20 +671,20 @@ export function OracleMasterChat({
                 key={m.id}
                 onClick={() => setSelectedMaster(m)}
                 style={{
-                  padding: '14px 16px',
-                  borderRadius: '12px',
+                  padding: '10px 12px',
+                  borderRadius: '10px',
                   cursor: 'pointer',
                   transition: 'all 0.2s ease',
-                  background: isSelected ? 'rgba(212, 175, 55, 0.14)' : 'rgba(7, 11, 17, 0.7)',
+                  background: isSelected ? 'rgba(212, 175, 55, 0.16)' : 'rgba(7, 11, 17, 0.7)',
                   border: isSelected ? '2px solid var(--gold-primary)' : '1px solid rgba(212, 175, 55, 0.25)',
-                  boxShadow: isSelected ? '0 0 20px rgba(212, 175, 55, 0.2)' : 'none',
+                  boxShadow: isSelected ? '0 0 16px rgba(212, 175, 55, 0.2)' : 'none',
                 }}
               >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
                   <div
                     style={{
-                      width: '38px',
-                      height: '38px',
+                      width: '32px',
+                      height: '32px',
                       borderRadius: '50%',
                       background: m.avatarGradient || 'linear-gradient(135deg, #D4AF37, #7A5C12)',
                       display: 'flex',
@@ -656,44 +693,49 @@ export function OracleMasterChat({
                       color: '#fff',
                       fontFamily: 'var(--font-chinese)',
                       fontWeight: 800,
-                      fontSize: '1.1rem',
+                      fontSize: '0.92rem',
                       border: '1px solid var(--gold-light)',
                       flexShrink: 0,
                     }}
                   >
                     {m.sealCharacter || '師'}
                   </div>
-                  <div>
-                    <div style={{ fontWeight: 700, color: 'var(--gold-light)', fontSize: '1rem' }}>
+                  <div style={{ minWidth: 0 }}>
+                    <div style={{ fontWeight: 700, color: 'var(--gold-light)', fontSize: '0.9rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                       {isZh ? m.nameZh : m.nameEn}
                     </div>
-                    <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                    <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                       {isZh ? m.titleZh : m.titleEn}
                     </div>
                   </div>
                 </div>
 
-                <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', lineHeight: 1.45, marginBottom: '10px' }}>
+                <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.35, margin: '4px 0 6px', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                   {isZh ? m.taglineZh : m.taglineEn}
                 </p>
 
                 {/* Confined Categories Pills */}
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
-                  {m.confinedTopics.allowedDomains.map((domKey) => (
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '3px' }}>
+                  {m.confinedTopics.allowedDomains.slice(0, 4).map((domKey) => (
                     <span
                       key={domKey}
                       style={{
-                        fontSize: '0.68rem',
-                        padding: '2px 7px',
-                        borderRadius: '10px',
+                        fontSize: '0.64rem',
+                        padding: '1px 6px',
+                        borderRadius: '8px',
                         background: 'rgba(255, 255, 255, 0.06)',
                         color: 'var(--gold-light)',
-                        border: '1px solid rgba(212, 175, 55, 0.25)',
+                        border: '1px solid rgba(212, 175, 55, 0.2)',
                       }}
                     >
                       {getDomainBadgeLabel(domKey)}
                     </span>
                   ))}
+                  {m.confinedTopics.allowedDomains.length > 4 && (
+                    <span style={{ fontSize: '0.62rem', color: 'var(--text-muted)', alignSelf: 'center' }}>
+                      +{m.confinedTopics.allowedDomains.length - 4}
+                    </span>
+                  )}
                 </div>
               </div>
             );
@@ -1120,5 +1162,41 @@ export function OracleMasterChat({
       )}
     </div>
   );
+
+  if (asModalSheet) {
+    if (!isOpenModal) return null;
+    return (
+      <div className="bottom-sheet-backdrop" onClick={onCloseModal}>
+        <div className="bottom-sheet-container" onClick={(e) => e.stopPropagation()}>
+          <div className="bottom-sheet-handle" />
+          <div style={{ display: 'flex', justifyContent: 'flex-end', padding: '0 8px 8px' }}>
+            <button
+              type="button"
+              onClick={onCloseModal}
+              style={{
+                background: 'rgba(212, 175, 55, 0.1)',
+                border: '1px solid rgba(212, 175, 55, 0.3)',
+                color: 'var(--gold-light)',
+                borderRadius: '50%',
+                width: '32px',
+                height: '32px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer',
+                fontSize: '1rem',
+              }}
+              aria-label="Close"
+            >
+              ✕
+            </button>
+          </div>
+          {chatContent}
+        </div>
+      </div>
+    );
+  }
+
+  return chatContent;
 }
 

@@ -29,6 +29,7 @@
 │ 12. Mobile Apps (React Native)    │ [ ] Planned  │ Phase 4 Backlog     │
 │ 13. Protected Admin & Logic Studio│ [x] Complete │ 100% Operational    │
 │ 14. AI Oracle Masters & RAG Chat  │ [x] Complete │ 100% Operational    │
+│ 15. Mobile App Shell & Bottom-Sht │ [x] Complete │ 100% Operational    │
 └───────────────────────────────────┴──────────────┴─────────────────────┘
 ```
 
@@ -264,6 +265,22 @@
 
 ---
 
+### Module 15: Mobile-First Responsive Redesign, Ergonomic Bottom-Sheets & App Shell Architecture
+**Location**: `src/app/globals.css`, `src/app/layout.tsx`, `src/app/page.tsx`, `src/components/masters/OracleMasterChat.tsx`, `docs/planning/14_MOBILE_AND_APP_RESPONSIVE_REDESIGN_SPEC.md`
+
+| Function / Feature | Implementation File / Artifact | Status | Notes |
+| :--- | :--- | :---: | :--- |
+| **Mobile & App Responsive Architecture Spec** | [`docs/planning/14_MOBILE_AND_APP_RESPONSIVE_REDESIGN_SPEC.md`](./14_MOBILE_AND_APP_RESPONSIVE_REDESIGN_SPEC.md) | `[x]` | Defines viewport ergonomics, touch targets (≥44px), thumb-zone layout, and desktop vs. mobile web vs. native app parity |
+| **Mobile App Shell Navigation Bar** | [`src/app/globals.css`](../../src/app/globals.css), [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Fixed thumb-zone bottom navigation bar (`.mobile-app-bottom-bar`) linking Inquiry, Sacred Lot, BaZi Report, Masters, and Settings with safe-area padding |
+| **Segmented Control Reading Tabs** | [`src/app/page.tsx`](../../src/app/page.tsx), [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Resolves vertical scroll bloat on mobile (<768px) with 4 focused tabs (`[ 籤詩神卦 ]`, `[ 典故故事 ]`, `[ 事類解曰 ]`, `[ 八字合參 ]`), leaving full 2-column view intact on desktop |
+| **Mobile Card Badge & 1-Tap Art Modal** | [`src/app/page.tsx`](../../src/app/page.tsx) | `[x]` | Compact mobile lot token badge + `showCardModal` dialog, eliminating 350px viewport hijacking while providing crystal-clear high-res card inspection |
+| **Slide-Up Bottom-Sheet Oracle Master Modal** | [`src/components/masters/OracleMasterChat.tsx`](../../src/components/masters/OracleMasterChat.tsx), [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Smooth `slideUpSheet` bottom-drawer modal (`.bottom-sheet-container`) with touch handle, safe-area padding, and responsive master selector chips |
+| **Mobile Floating Action Button (FAB)** | [`src/app/page.tsx`](../../src/app/page.tsx), [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | 1-tap master consultation FAB (`.mobile-master-fab`) floating above bottom navigation for instant access to AI Oracle Masters from any screen |
+| **Collapsible Porch Feature Pillars** | [`src/app/page.tsx`](../../src/app/page.tsx), [`src/app/globals.css`](../../src/app/globals.css) | `[x]` | Keeps landing page minimal and action-focused on mobile while retaining full 3-column feature display on desktop screens |
+| **iOS / Android Viewport & Web App Meta** | [`src/app/layout.tsx`](../../src/app/layout.tsx) | `[x]` | Configured Next.js `viewport` export (`width: 'device-width'`, `viewportFit: 'cover'`, `themeColor: '#070B11'`) and `appleWebApp` meta |
+
+---
+
 ## 3. Phased Implementation Milestones
 
 ```mermaid
@@ -321,4 +338,5 @@ When updating modules or completing functional roadmap items:
 - [11. Lot Card Artwork Catalog & Inventory](./11_LOT_CARD_ARTWORK_CATALOG.md)
 - [12. Card Component Architecture & Refactoring](./12_CARD_COMPONENT_ARCHITECTURE_AND_REFACTORING.md)
 - [13. AI Oracle Masters & RAG Chatbot Specification](./13_AI_ORACLE_MASTERS_AND_RAG_CHATBOT_SPEC.md)
+- [14. Mobile & App Responsive Redesign Specification](./14_MOBILE_AND_APP_RESPONSIVE_REDESIGN_SPEC.md)
 - [Root README](../../README.md)
